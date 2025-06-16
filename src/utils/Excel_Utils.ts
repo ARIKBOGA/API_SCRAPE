@@ -6,9 +6,10 @@ dotenv.config({ path: path.resolve(".env") });
 
 const productType = process.env.PRODUCT_TYPE as string;
 
-type ProductReference = {
+export type ProductReference = {
   yvNo: string;
-  brandRefs: { [brand: string]: string };
+  brand: string;
+  crossNumber: string;
 };
 
 export function readProductReferencesFromExcel(): ProductReference[] {
@@ -23,17 +24,21 @@ export function readProductReferencesFromExcel(): ProductReference[] {
     const yvNo = row['YV']?.toString()?.trim();
     if (!yvNo) continue;
 
-    const brandRefs: { [brand: string]: string } = {};
-
     for (const key of Object.keys(row)) {
-      if (key !== 'YV') {
-        const ref = row[key]?.toString()?.trim();
-        if (ref) {
-          brandRefs[key] = ref;
+      if (key === 'YV') continue;
+
+      const cellValue = row[key]?.toString()?.trim();
+      if (!cellValue) continue;
+
+      const refs = cellValue.split(',').map(r => r.trim());
+
+      refs.forEach(cross => {
+        if (cross) {
+          references.push({ yvNo, brand: key.trim(), crossNumber: cross.trim() });
         }
-      }
+      });
     }
-    references.push({ yvNo, brandRefs });
   }
+  console.log(`Read ${references.length} product references from Excel.`);
   return references;
 }

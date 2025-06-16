@@ -2,6 +2,7 @@ import { request } from "@playwright/test";
 import { getToken } from "./token-manager";
 import dotenv from "dotenv";
 import path from "path";
+import { ProductReference } from "./Excel_Utils";
 
 dotenv.config({ path: path.resolve(".env") });
 
@@ -9,10 +10,17 @@ async function delay(ms: number) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-export async function processProduct(ref: { yvNo: string, brandRefs: { [brand: string]: string } }): Promise<any> {
-  const { yvNo, brandRefs } = ref;
-  const filterBrand = Object.keys(brandRefs)[0];
-  const crossNumber = brandRefs[filterBrand]?.trim();
+const BRAND_CODES: Record<string, string> = {
+  ICER: "158",
+  BREMBO: "65",
+  TRW: "161",
+  TEXTAR: "162",
+};
+
+export async function processProduct(element: ProductReference): Promise<any> {
+
+  const { yvNo, brand: filterBrand, crossNumber } = element;
+  
   if (!crossNumber) {
     console.warn(`No cross number found for YV: ${yvNo}, Brand: ${filterBrand}`);
     return null;
@@ -25,7 +33,8 @@ export async function processProduct(ref: { yvNo: string, brandRefs: { [brand: s
     // 1️⃣ Encrypted Search Code alma
     const abu_1 = process.env.API_BASE_URL_1 || "";
     const abu_2 = process.env.API_BASE_URL_2 || "";
-    const searchURL = `${abu_1}${encodeURIComponent(crossNumber)}${abu_2}`;
+    const abu_3 = process.env.API_BASE_URL_3 || "";
+    const searchURL = `${abu_1}${encodeURIComponent(crossNumber)}${abu_2}${BRAND_CODES[filterBrand]}${abu_3}`;
 
     const searchResp = await apiContext.get(searchURL, {
       headers: { Authorization: `Bearer ${token}` }
@@ -33,6 +42,8 @@ export async function processProduct(ref: { yvNo: string, brandRefs: { [brand: s
 
     const searchData = await searchResp.json();
     const encryptedSearchCode = searchData.products?.[0]?.code;
+
+    console.log(`Encrypted code : ${encryptedSearchCode}`);
 
     if (!encryptedSearchCode) {
       console.warn(`Encrypted code not found for: ${crossNumber}`);
@@ -44,6 +55,8 @@ export async function processProduct(ref: { yvNo: string, brandRefs: { [brand: s
     const oeru_2 = process.env.OE_REQUEST_URL_2 as string;
     const oeURL = `${oeru_1}${encryptedSearchCode}${oeru_2}`;
 
+    console.log(`OE URL : ${oeURL}`);
+
     const oeResp = await apiContext.get(oeURL, {
       headers: { Authorization: `Bearer ${token}` }
     });
@@ -53,6 +66,7 @@ export async function processProduct(ref: { yvNo: string, brandRefs: { [brand: s
     const result: any = {
       yvNo,
       crossNumber,
+      supplier: filterBrand,
       oeNumbers: []
     };
 
