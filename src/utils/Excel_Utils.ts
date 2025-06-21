@@ -32,9 +32,15 @@ export function readProductReferencesFromExcel(): ProductReference[] {
 
       const refs = cellValue.split(',').map(r => r.trim());
 
-      refs.forEach(cross => {
-        if (cross) {
-          references.push({ yvNo, brand: key.trim(), crossNumber: cross.trim() });
+      refs.forEach(crosses => {
+        if (crosses) {
+          crosses.split(',').forEach(crossNumber => {
+            references.push({
+              yvNo,
+              brand: key.trim(),
+              crossNumber: crossNumber.trim()
+            });
+          })
         }
       });
     }
