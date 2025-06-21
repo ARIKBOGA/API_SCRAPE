@@ -23,12 +23,12 @@ test("Get OE numbers for all products", async () => {
       return productRef.brand.toLowerCase() === filterBrand.toLowerCase() &&
         !productRef.crossNumber.trim().includes(" ");
     })
-    .slice(900) // aralıkları 100, 200  gibi yap
+    .slice(800) // aralıkları 100, 200  gibi yap
     .map((productRef) => limit(() => processProductFor_OE(productRef)));
 
   const results = (await Promise.all(promises)).filter((r) => r !== null);
 
-  const outputFilePath = path.resolve(`src/output/${productType}_oe-numbers_${filterBrand}_10.json`);
+  const outputFilePath = path.resolve(`src/output/${productType}_oe-numbers_${filterBrand}_5.json`);
   fs.writeFileSync(outputFilePath, JSON.stringify(results, null, 2), "utf8");
 });
 
