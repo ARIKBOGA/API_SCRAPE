@@ -27,7 +27,6 @@ export async function processProductFor_OE(element: ProductReference): Promise<a
       crossNumber,
       filterBrand,
       apiContext,
-      token
     );
 
     // 2️⃣ OE Numbers alma
@@ -87,7 +86,7 @@ export async function processProductFor_VehicleCompatibility(element: ProductRef
 
   try {
     // 1️⃣ Encrypted Search Code alma
-    const encryptedSearchCode = await getEncryptedSearchCode( crossNumber, filterBrand, apiContext, token);
+    const encryptedSearchCode = await getEncryptedSearchCode( crossNumber, filterBrand, apiContext);
 
     if (!encryptedSearchCode) {
       console.warn(`No encrypted search code found for ${crossNumber}`);
@@ -95,7 +94,7 @@ export async function processProductFor_VehicleCompatibility(element: ProductRef
     }
 
     // 2️⃣ Üretici kodlarını alma
-    const manufacturers = await getManufacturerCodes(encryptedSearchCode, apiContext, token);
+    const manufacturers = await getManufacturerCodes(encryptedSearchCode, apiContext);
     console.log(`Found ${manufacturers.length} manufacturers for ${crossNumber}`);
 
     // Her bir üretici için döngü
@@ -107,7 +106,7 @@ export async function processProductFor_VehicleCompatibility(element: ProductRef
       // console.log(`Processing manufacturer: ${manufacturer.name}`);
 
       // 3️⃣ Her üretici için araç modellerini alma
-      const models = await getmodelCodes( encryptedSearchCode, apiContext, token, manufacturer.uuid);
+      const models = await getmodelCodes( encryptedSearchCode, apiContext, manufacturer.uuid);
       // console.log(`Found ${models.length} models for ${manufacturer.name}`);
 
       // Her bir model için döngü
@@ -119,7 +118,7 @@ export async function processProductFor_VehicleCompatibility(element: ProductRef
         // console.log(`  Processing model series: ${model.name}`);
 
         // 4️⃣ Her model için hedef (target) verilerini alma
-        const targets = await getTargets( encryptedSearchCode, apiContext, token, model.uuid);
+        const targets = await getTargets( encryptedSearchCode, apiContext, model.uuid);
         // console.log(`    Found ${targets.length} targets for ${model.name}`);
 
         // Hedef verilerini doğrudan OutputTarget dizisine ekle

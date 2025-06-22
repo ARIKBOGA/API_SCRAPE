@@ -8,7 +8,23 @@ dotenv.config({ path: path.resolve(".env") });
 
 let cachedToken: string | null = null;
 
+export async function delay(ms: number) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+const tokenHeaders = {
+  "Content-Type": "application/x-www-form-urlencoded",
+  Accept: "application/json",
+};
+
+async function getAuthHeaders() {
+  return {
+    Authorization: `Bearer ${await getToken()}`,
+  };
+}
+
 export async function getToken(): Promise<string | null> {
+
   if (cachedToken) return cachedToken;
 
   const apiContext = await request.newContext();
@@ -23,7 +39,7 @@ export async function getToken(): Promise<string | null> {
   });
 
   const tokenResponse = await apiContext.post(getTokenURI, {
-    headers: { "Content-Type": "application/x-www-form-urlencoded", Accept: "application/json" },
+    headers: tokenHeaders,
     data: formBody.toString(),
   });
 
@@ -38,39 +54,48 @@ export async function getToken(): Promise<string | null> {
   return cachedToken;
 }
 
-export async function delay(ms: number) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
 
-export async function getEncryptedSearchCode(crossNumber: string, filterBrand: string, apiContext: APIRequestContext, token: string | null): Promise<string | null> {
+export async function getEncryptedSearchCode(
+  crossNumber: string,
+  filterBrand: string,
+  apiContext: APIRequestContext
+): Promise<string | null> {
+
   try {
     const abu_1 = process.env.ENCRYPTED_SEARCH_URL_1 || "";
     const abu_2 = process.env.ENCRYPTED_SEARCH_URL_2 || "";
     const abu_3 = process.env.ENCRYPTED_SEARCH_URL_3 || "";
-    const searchURL = `${abu_1}${encodeURIComponent(crossNumber)}${abu_2}${BRAND_CODES[filterBrand]}${abu_3}`;
+    const normalizedCrossNumber = crossNumber.replace(/ /g, '').trim();
+    const searchURL = `${abu_1}${encodeURIComponent(normalizedCrossNumber)}${abu_2}${BRAND_CODES[filterBrand]}${abu_3}`;
 
     await delay(300);
-    const searchResp = await apiContext.get(searchURL, {
-      headers: { Authorization: `Bearer ${token}` },
-    });
+    
+    const searchResp = await apiContext.get(searchURL, { headers: { Authorization: `Bearer ${await getToken()}` } });
 
     const searchData = await searchResp.json();
-    return searchData.products?.[0]?.code || null;
+    const result = searchData.products?.[0]?.code;
+    
+    return result;
   } catch (err) {
     console.error(`Error fetching encrypted code for ${crossNumber}: ${err}`);
     return null;
   }
 }
 
-export async function getManufacturerCodes(encryptedSearchCode: string, apiContext: APIRequestContext, token: string): Promise<ApiCompatibility[]> {
+export async function getManufacturerCodes(
+  encryptedSearchCode: string,
+  apiContext: APIRequestContext
+): Promise<ApiCompatibility[]> {
+
   const manu_1 = process.env.COMPATIBILITY_MANUFACTURERS_URL_1 as string;
   const manu_2 = process.env.COMPATIBILITY_MANUFACTURERS_URL_2 as string;
   const manufacturer_codes_url = `${manu_1}${encryptedSearchCode}${manu_2}`;
   // console.log(`MANUFACTURERS URL: ${manufacturer_codes_url}`); // Detaylı loglar için uncomment edilebilir
 
-  const manufacturer_codes_response = await apiContext.get(manufacturer_codes_url, {
-    headers: { Authorization: `Bearer ${token}` },
-  });
+  const manufacturer_codes_response = await apiContext.get(
+    manufacturer_codes_url,
+    { headers: await getAuthHeaders() }
+  );
 
   const manufacturer_codes_json = await manufacturer_codes_response.json();
   // `map` kullanarak daha temiz bir dönüşüm
@@ -79,9 +104,11 @@ export async function getManufacturerCodes(encryptedSearchCode: string, apiConte
   );
 }
 
-export async function getmodelCodes(encryptedSearchCode: string, apiContext: APIRequestContext, token: string, manufacturer_uuid: string // parametre adını değiştirdim, `_code` yerine `_uuid` daha doğru
+export async function getmodelCodes(
+  encryptedSearchCode: string,
+  apiContext: APIRequestContext,
+  manufacturer_uuid: string // parametre adını değiştirdim, `_code` yerine `_uuid` daha doğru
 ): Promise<ApiCompatibility[]> {
-  const myHeaders = { Authorization: `Bearer ${token}` };
 
   const model_1 = process.env.COMPATIBILITY_MODEL_URL_1 as string;
   const model_2 = process.env.COMPATIBILITY_MODEL_URL_2 as string;
@@ -89,7 +116,7 @@ export async function getmodelCodes(encryptedSearchCode: string, apiContext: API
   const model_codes_url = `${model_1}${encryptedSearchCode}${model_2}${manufacturer_uuid}${model_3}`;
 
   const response = await apiContext.get(model_codes_url, {
-    headers: myHeaders,
+    headers: await getAuthHeaders(),
   });
   const data = await response.json();
 
@@ -103,7 +130,6 @@ export async function getmodelCodes(encryptedSearchCode: string, apiContext: API
 export async function getTargets(
   encryptedSearchCode: string,
   apiContext: APIRequestContext,
-  token: string,
   model_uuid: string
 ): Promise<OutputTarget[]> {
   const target_url_1 = process.env.COMPATIBILITY_TARGET_URL_1 as string;
@@ -112,9 +138,7 @@ export async function getTargets(
 
   const target_url = `${target_url_1}${encryptedSearchCode}${target_url_2}${model_uuid}${target_url_3}`;
 
-  const response = await apiContext.get(target_url, {
-    headers: { Authorization: `Bearer ${token}` },
-  });
+  const response = await apiContext.get(target_url, { headers: await getAuthHeaders() });
 
   const data = await response.json();
   // API'den gelen `targets` dizisini doğrudan OutputTarget tipine dönüştürerek döndürüyoruz.
@@ -130,6 +154,6 @@ export async function getTargets(
     engineCodes: target.engineCodes.join(", "),
     kbaNumbers: target.kbaNumbers.join(", "),
     bodyType: target.bodyType,
-    TecDocID: target.referenceNumber
+    TecDocID: target.referenceNumber,
   }));
 }
