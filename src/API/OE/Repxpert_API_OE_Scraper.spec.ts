@@ -47,8 +47,9 @@ test("Get Vehicle Compatibility for all products", async () => {
   const { default: pLimit } = await import("p-limit");
   const limit = pLimit(5); // aynı anda 5 request sınırı
   const promises = productReferences.filter((productRef) => {return (
-        productRef.brand.toLowerCase() === filterBrand.toLowerCase() &&
-        !productRef.crossNumber.trim().includes(" "));
+        productRef.brand.toLowerCase() === filterBrand.toLowerCase() 
+        //&& !productRef.crossNumber.trim().includes(" ")
+        );
     })
     .slice(0, 50) // aralıkları 100, 200 gibi yap
     .map((productRef) =>limit(() => processProductFor_VehicleCompatibility(productRef)));
