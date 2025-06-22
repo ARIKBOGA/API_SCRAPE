@@ -1,0 +1,230 @@
+[
+  {
+    "yvNo": "1225",
+    "brand": "BREMBO",
+    "crossNumber": "P 85 065",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "BMW",
+        "models": [
+          {
+            "modelSeries": "3 Series",
+            "targets": [
+              {
+                "name": "target.name",
+                "fullName": "target.fullName",
+                "constructionYearFrom": "target.constructionYearFrom",
+                "constructionYearTo": "target.constructionYearTo",
+                "enginePowerKW": "target.enginePowerKW",
+                "enginePowerHP": "target.enginePowerHP",
+                "engineCodes": "target.engineCodes",
+                "kbaNumbers": "target.kbaNumbers",
+                "bodyType": "target.bodyType"
+              },
+              {
+                "name": "320i",
+                "fullName": "BMW 3 Series 320i",
+                "constructionYearFrom": "2005",
+                "constructionYearTo": "2012",
+                "enginePowerKW": "115",
+                "enginePowerHP": "156",
+                "engineCodes": "N43B20A",
+                "kbaNumbers": "1234,5678",
+                "bodyType": "Sedan"
+              },
+              {
+                "name": "330d",
+                "fullName": "BMW 3 Series 330d",
+                "constructionYearFrom": "2005",
+                "constructionYearTo": "2012",
+                "enginePowerKW": "150",
+                "enginePowerHP": "204",
+                "engineCodes": "M57D30T1",
+                "kbaNumbers": "",
+                "bodyType": ""
+              }
+            ]
+          },
+          {
+            "modelSeries": "5 Series",
+            "targets": [
+              {
+                "name": "target.name",
+                "fullName": "target.fullName",
+                "constructionYearFrom": "target.constructionYearFrom",
+                "constructionYearTo": "target.constructionYearTo",
+                "enginePowerKW": "target.enginePowerKW",
+                "enginePowerHP": "target.enginePowerHP",
+                "engineCodes": "target.engineCodes",
+                "kbaNumbers": "target.kbaNumbers",
+                "bodyType": "target.bodyType"
+              },
+              {
+                "name": "520d",
+                "fullName": "BMW 5 Series 520d",
+                "constructionYearFrom": "2005",
+                "constructionYearTo": "2010",
+                "enginePowerKW": "120",
+                "enginePowerHP": "163",
+                "engineCodes": "M47D20O1",
+                "kbaNumbers": "",
+                "bodyType": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "AUDI",
+        "models": [
+          {
+            "modelSeries": "A4",
+            "targets": [
+              {
+                "name": "target.name",
+                "fullName": "target.fullName",
+                "constructionYearFrom": "target.constructionYearFrom",
+                "constructionYearTo": "target.constructionYearTo",
+                "enginePowerKW": "target.enginePowerKW",
+                "enginePowerHP": "target.enginePowerHP",
+                "engineCodes": "target.engineCodes",
+                "kbaNumbers": "target.kbaNumbers",
+                "bodyType": "target.bodyType"
+              },
+              {
+                "name": "A4 2.0 TDI",
+                "fullName": "AUDI A4 2.0 TDI",
+                "constructionYearFrom": "2005",
+                "constructionYearTo": "2011",
+                "enginePowerKW": "103",
+                "enginePowerHP": "140",
+                "engineCodes": "",
+                "kbaNumbers": "",
+                "bodyType": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "models": [
+          {
+            "modelSeries": "C-Class",
+            "targets": [
+              {
+                "name": "target.name",
+                "fullName": "target.fullName",
+                "constructionYearFrom": "target.constructionYearFrom",
+                "constructionYearTo": "target.constructionYearTo",
+                "enginePowerKW": "target.enginePowerKW",
+                "enginePowerHP": "target.enginePowerHP",
+                "engineCodes": "target.engineCodes",
+                "kbaNumbers": "target.kbaNumbers",
+                "bodyType": "target.bodyType"
+              },
+              {
+                "name": "C 220 CDI",
+                "fullName": "MERCEDES-BENZ C-Class C 220 CDI",
+                "constructionYearFrom": "2005",
+                "constructionYearTo": "2011",
+                "enginePowerKW": "125",
+                "enginePowerHP": "170",
+                "engineCodes": "",
+                "kbaNumbers": "",
+                "bodyType": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "1226",
+    "brand": "BREMBO",
+    "crossNumber": "P 85 066",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "BMW",
+        "models": [
+          {
+            "modelSeries": "3 Series",
+            "targets": [
+              {
+                "name": "target.name",
+                "fullName": "target.fullName",
+                "constructionYearFrom": "target.constructionYearFrom",
+                "constructionYearTo": "target.constructionYearTo",
+                "enginePowerKW": "target.enginePowerKW",
+                "enginePowerHP": "target.enginePowerHP",
+                "engineCodes": "target.engineCodes",
+                "kbaNumbers": "target.kbaNumbers",
+                "bodyType": "target.bodyType"
+              }
+            ]
+          },
+          {
+            "modelSeries": "5 Series",
+            "targets": [
+              {
+                "name": "target.name",
+                "fullName": "target.fullName",
+                "constructionYearFrom": "target.constructionYearFrom",
+                "constructionYearTo": "target.constructionYearTo",
+                "enginePowerKW": "target.enginePowerKW",
+                "enginePowerHP": "target.enginePowerHP",
+                "engineCodes": "target.engineCodes",
+                "kbaNumbers": "target.kbaNumbers",
+                "bodyType": "target.bodyType"
+              },
+              {
+                "name": "520d",
+                "fullName": "BMW 5 Series 520d",
+                "constructionYearFrom": "2005",
+                "constructionYearTo": "2010",
+                "enginePowerKW": "120",
+                "enginePowerHP": "163",
+                "engineCodes": "M47D20O1",
+                "kbaNumbers": "",
+                "bodyType": ""
+              },
+              {
+                "name": "520d",
+                "fullName": "BMW 5 Series 520d",
+                "constructionYearFrom": "2005",
+                "constructionYearTo": "2010",
+                "enginePowerKW": "120",
+                "enginePowerHP": "163",
+                "engineCodes": "M47D20O1",
+                "kbaNumbers": "",
+                "bodyType": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "AUDI",
+        "models": [
+          {
+            "modelSeries": "A4",
+            "targets": [
+              {
+                "name": "target.name",
+                "fullName": "target.fullName",
+                "constructionYearFrom": "target.constructionYearFrom",
+                "constructionYearTo": "target.constructionYearTo",
+                "enginePowerKW": "target.enginePowerKW",
+                "enginePowerHP": "target.enginePowerHP",
+                "engineCodes": "target.engineCodes",
+                "kbaNumbers": "target.kbaNumbers",
+                "bodyType": "target.bodyType"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
