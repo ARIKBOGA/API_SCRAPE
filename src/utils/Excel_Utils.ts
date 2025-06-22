@@ -1,16 +1,11 @@
 import path from "path";
 import xlsx from "xlsx";
 import dotenv from 'dotenv';
+import { ProductReference } from "./Types";
 
 dotenv.config({ path: path.resolve(".env") });
 
 const productType = process.env.PRODUCT_TYPE as string;
-
-export type ProductReference = {
-  yvNo: string;
-  brand: string;
-  crossNumber: string;
-};
 
 export function readProductReferencesFromExcel(): ProductReference[] {
   const excelPath = path.resolve(__dirname, `../resources/data/catalogInfo/excels/${productType}_katalog_full.xlsx`);
