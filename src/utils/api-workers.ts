@@ -1,53 +1,21 @@
-import { APIRequestContext, request } from "@playwright/test";
-import { getToken } from "./token-manager";
+import { request } from "@playwright/test";
 import dotenv from "dotenv";
 import path from "path";
-import { ProductReference } from "./Excel_Utils";
+import { OutputManufacturer, OutputModelSeries, ProductCompatibilityResult, ProductReference } from "./Types";
+import { delay, getManufacturerCodes, getmodelCodes, getTargets, getToken, getEncryptedSearchCode } from "./API_Worker_Functions";
 
 dotenv.config({ path: path.resolve(".env") });
 
-async function delay(ms: number) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
 
-const BRAND_CODES: Record<string, string> = {
-  ICER: "158",
-  BREMBO: "65",
-  TRW: "161",
-  TEXTAR: "39",
-};
-
-export async function getEncryptedSearchCode( crossNumber: string, filterBrand: string, apiContext: APIRequestContext, token: string | null
-): Promise<string | null> {
-
-  try {
-    // 1️⃣ Encrypted Search Code alma
-    const abu_1 = process.env.API_BASE_URL_1 || "";
-    const abu_2 = process.env.API_BASE_URL_2 || "";
-    const abu_3 = process.env.API_BASE_URL_3 || "";
-    const searchURL = `${abu_1}${encodeURIComponent(crossNumber)}${abu_2}${BRAND_CODES[filterBrand]}${abu_3}`;
-
-    const searchResp = await apiContext.get(searchURL, {
-      headers: { Authorization: `Bearer ${token}` },
-    });
-
-    const searchData = await searchResp.json();
-    return searchData.products?.[0]?.code || null;
-  } catch (err) {
-    console.error(`Error fetching encrypted code for ${crossNumber}: ${err}`);
-    return null;
-  } finally {
-    //await apiContext.dispose();
-  }
-}
 
 export async function processProductFor_OE(element: ProductReference): Promise<any> {
-  
   const { yvNo, brand: filterBrand, crossNumber } = element;
   const token = await getToken();
 
   if (!crossNumber) {
-    console.warn(`No cross number found for YV: ${yvNo}, Brand: ${filterBrand}`);
+    console.warn(
+      `No cross number found for YV: ${yvNo}, Brand: ${filterBrand}`
+    );
     return null;
   }
 
@@ -55,7 +23,12 @@ export async function processProductFor_OE(element: ProductReference): Promise<a
 
   try {
     // 1️⃣ Encrypted Search Code alma
-    const encryptedSearchCode = await getEncryptedSearchCode( crossNumber, filterBrand, apiContext, token);
+    const encryptedSearchCode = await getEncryptedSearchCode(
+      crossNumber,
+      filterBrand,
+      apiContext,
+      token
+    );
 
     // 2️⃣ OE Numbers alma
     const oeru_1 = process.env.OE_REQUEST_URL_1 as string;
@@ -93,54 +66,86 @@ export async function processProductFor_OE(element: ProductReference): Promise<a
   }
 }
 
+export async function processProductFor_VehicleCompatibility(element: ProductReference): Promise<ProductCompatibilityResult | null> {
 
-export async function processProductFor_VehicleCompatibility(element: ProductReference): Promise<any> {
-
-  type ModelInfo = { manufacturer: string; models: string[] };
+  const apiContext = await request.newContext();
   const { yvNo, brand: filterBrand, crossNumber } = element;
+  const token = await getToken();
 
-  const result: { yvNo: string; crossNumber: string; brand: string; models: ModelInfo[] } = {
-    yvNo,
-    crossNumber,
-    brand: filterBrand,
-    models: []
-  };
-
+  if (!token) {
+    console.error(`Failed to get token for YV: ${yvNo}, Brand: ${filterBrand}`);
+    return null;
+  }
 
   if (!crossNumber) {
     console.warn(`No cross number found for YV: ${yvNo}, Brand: ${filterBrand}`);
     return null;
   }
 
-  const token = await getToken();
-  const apiContext = await request.newContext();
+  // Çıktı için ana nesne yapısı
+  const result: ProductCompatibilityResult = {yvNo,crossNumber,brand: filterBrand,compatibleVehicles: []};
 
   try {
     // 1️⃣ Encrypted Search Code alma
     const encryptedSearchCode = await getEncryptedSearchCode( crossNumber, filterBrand, apiContext, token);
 
-    // 2️⃣ Vehicle Compatibility alma
-    const vcbru_1 = process.env.COMPATIBILITY_BRANDS_URL_1 as string;
-    const vcbru_2 = process.env.COMPATIBILITY_BRANDS_URL_2 as string;
-    const vcURL = `${vcbru_1}${encryptedSearchCode}${vcbru_2}`;
+    if (!encryptedSearchCode) {
+      console.warn(`No encrypted search code found for ${crossNumber}`);
+      return null;
+    }
 
-    const vcResp = await apiContext.get(vcURL, {
-      headers: { Authorization: `Bearer ${token}` },
-    });
+    // 2️⃣ Üretici kodlarını alma
+    const manufacturers = await getManufacturerCodes(encryptedSearchCode, apiContext, token);
+    console.log(`Found ${manufacturers.length} manufacturers for ${crossNumber}`);
 
-    const vcData = await vcResp.json();
-    const manufacturerCodes = vcData.manufacturers.map((each: any) => each.uuid)
+    // Her bir üretici için döngü
+    for (const manufacturer of manufacturers) {
+      const manufacturerData: OutputManufacturer = {
+        manufacturer: manufacturer.name,
+        models: [],
+      };
+      // console.log(`Processing manufacturer: ${manufacturer.name}`);
 
-    console.log(`Manufacturer Codes: ${manufacturerCodes.join(", ")}`);
+      // 3️⃣ Her üretici için araç modellerini alma
+      const models = await getmodelCodes( encryptedSearchCode, apiContext, token, manufacturer.uuid);
+      // console.log(`Found ${models.length} models for ${manufacturer.name}`);
 
-    
+      // Her bir model için döngü
+      for (const model of models) {
+        const modelSeriesData: OutputModelSeries = {
+          modelSeries: model.name,
+          targets: [],
+        };
+        // console.log(`  Processing model series: ${model.name}`);
 
+        // 4️⃣ Her model için hedef (target) verilerini alma
+        const targets = await getTargets( encryptedSearchCode, apiContext, token, model.uuid);
+        // console.log(`    Found ${targets.length} targets for ${model.name}`);
+
+        // Hedef verilerini doğrudan OutputTarget dizisine ekle
+        modelSeriesData.targets.push(...targets);
+
+        // Model serisi verilerini üreticinin models dizisine ekle
+        if (modelSeriesData.targets.length > 0) { // Sadece targets varsa modeli ekle
+            manufacturerData.models.push(modelSeriesData);
+        }
+      }
+      // Üretici verilerini ana sonuç nesnesinin compatibleVehicles dizisine ekle
+      if (manufacturerData.models.length > 0) { // Sadece modeller varsa üreticiyi ekle
+          result.compatibleVehicles.push(manufacturerData);
+      }
+    }
+
+    if (result.compatibleVehicles.length === 0) {
+      console.warn(`No compatible vehicles found for YV: ${yvNo}, Brand: ${filterBrand}`);
+    }
     return result;
   } catch (err) {
-    console.error(`Error for YV ${yvNo}: ${err}`);
+    console.error(`Error for YV ${yvNo} (${crossNumber}): ${err}`);
     return null;
   } finally {
     await apiContext.dispose();
-    await delay(300);
+    // Her işlem sonunda API'ye aşırı yüklenmemek için küçük bir gecikme
+    await delay(500);
   }
 }
