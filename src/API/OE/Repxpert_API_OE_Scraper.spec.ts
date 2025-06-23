@@ -3,14 +3,10 @@ import dotenv from "dotenv";
 import path from "path";
 import fs from "fs";
 import { readProductReferencesFromExcel } from "../../utils/Excel_Utils";
-import {
-  processProductFor_OE,
-  processProductFor_VehicleCompatibility,
-} from "../../utils/api-workers";
+import { processProductFor_OE, processProductFor_VehicleCompatibility } from "../../utils/api-workers";
 import { referenceArray } from "../../utils/Types";
 
 dotenv.config({ path: path.resolve(".env") });
-
 const productType = process.env.PRODUCT_TYPE as string;
 const filterBrand = process.env.FILTER_BRAND as string;
 
@@ -45,13 +41,13 @@ test("Get Vehicle Compatibility for all products", async () => {
   const productReferences = readProductReferencesFromExcel();
 
   const { default: pLimit } = await import("p-limit");
-  const limit = pLimit(5); // aynı anda 5 request sınırı
+  const limit = pLimit(3); // aynı anda 5 request sınırı
   const promises = productReferences.filter((productRef) => {return (
         productRef.brand.toLowerCase() === filterBrand.toLowerCase() 
         //&& !productRef.crossNumber.trim().includes(" ")
         );
     })
-    .slice(0, 50) // aralıkları 100, 200 gibi yap
+    .slice(0, 200) // aralıkları 100, 200 gibi yap
     .map((productRef) =>limit(() => processProductFor_VehicleCompatibility(productRef)));
 
   const results = (await Promise.all(promises)).filter((r) => r !== null);
