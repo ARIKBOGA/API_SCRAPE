@@ -89,7 +89,7 @@ export async function processProductFor_VehicleCompatibility(element: ProductRef
     const encryptedSearchCode = await getEncryptedSearchCode( crossNumber, filterBrand, apiContext);
 
     if (!encryptedSearchCode) {
-      console.warn(`No encrypted search code found for ${crossNumber}`);
+      console.warn(`No encrypted search code found for ${crossNumber} - YV: ${yvNo}, Brand: ${filterBrand} - Product couldn't be found !!!`);
       return null;
     }
 
