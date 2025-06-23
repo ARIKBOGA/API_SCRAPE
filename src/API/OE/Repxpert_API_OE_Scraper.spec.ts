@@ -38,7 +38,7 @@ test("Get OE numbers for all products", async () => {
 test("Get Vehicle Compatibility for all products", async () => {
   test.setTimeout(20 * 60 * 1000);
   console.log(`Processing Vehicle Compatibility for brand: ${filterBrand}`);
-  const productReferences = readProductReferencesFromExcel();
+  const productReferences = referenceArray //readProductReferencesFromExcel();
 
   const { default: pLimit } = await import("p-limit");
   const limit = pLimit(3); // aynı anda n request sınırı
@@ -47,8 +47,9 @@ test("Get Vehicle Compatibility for all products", async () => {
       productRef.brand.toLowerCase() === filterBrand.toLowerCase()
       && !productRef.crossNumber.trim().includes(" ")
     );
-  }).slice(700) // aralıkları 100, 200 gibi yap
-    .map((productRef) => limit(() => processProductFor_VehicleCompatibility(productRef)));
+  })
+  //.slice() // aralıkları 100, 200 gibi yap
+  .map((productRef) => limit(() => processProductFor_VehicleCompatibility(productRef)));
 
   const results = (await Promise.all(promises)).filter((r) => r !== null);
 

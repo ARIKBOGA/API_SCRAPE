@@ -35,9 +35,11 @@ export type OutputTarget = {
   constructionYearTo: string;
   enginePowerKW: string;
   enginePowerHP: string;
+  cc: string;
   engineCodes: string[];
   kbaNumbers: string[];
   bodyType: string;
+  TecDocID?: number;
 };
 
 // Çıktı JSON'u için Model Series nesnesi
@@ -60,17 +62,14 @@ export type ProductCompatibilityResult = {
   compatibleVehicles: OutputManufacturer[];
 };
 
+// JSON dosyanızın kök yapısı bir ProductCompatibilityResult dizisi olduğu için
+// ana Excel dönüştürme fonksiyonunuzun bekleyeceği tip budur:
+export type RootJsonData = ProductCompatibilityResult[];
+
 export const referenceArray: ProductReference[] = [
   
   
   { yvNo: "30220", brand: "BREMBO", crossNumber: "09.9078.10" },
-  { yvNo: "27219", brand: "BREMBO", crossNumber: "09.7629.10" },
-  { yvNo: "27064", brand: "BREMBO", crossNumber: "09.5527.24" },
-  { yvNo: "49308", brand: "BREMBO", crossNumber: "08.A268.10" },
-  { yvNo: "24303", brand: "BREMBO", crossNumber: "09.9508.14" },
-  { yvNo: "24305", brand: "BREMBO", crossNumber: "08.9509.14" },
-  { yvNo: "13357", brand: "BREMBO", crossNumber: "08.A029.20" },
-  { yvNo: "16358", brand: "BREMBO", crossNumber: "09.9574.20" },
-  { yvNo: "24303", brand: "BREMBO", crossNumber: "09.A895.11" },
-  { yvNo: "24304", brand: "BREMBO", crossNumber: "09.9510.14" }
+  { yvNo: "27219", brand: "BREMBO", crossNumber: "09.7629.10" }
+
 ];
