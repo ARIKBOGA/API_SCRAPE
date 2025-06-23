@@ -3,6 +3,7 @@ import dotenv from "dotenv";
 import path from "path";
 import { OutputManufacturer, OutputModelSeries, ProductCompatibilityResult, ProductReference } from "./Types";
 import { delay, getManufacturerCodes, getmodelCodes, getTargets, getToken, getEncryptedSearchCode } from "./API_Worker_Functions";
+import { writeToFileIfNotExistsProducts } from "./TextUtils";
 
 dotenv.config({ path: path.resolve(".env") });
 
@@ -90,6 +91,7 @@ export async function processProductFor_VehicleCompatibility(element: ProductRef
 
     if (!encryptedSearchCode) {
       console.warn(`No encrypted search code found for ${crossNumber} - YV: ${yvNo}, Brand: ${filterBrand} - Product couldn't be found !!!`);
+      await writeToFileIfNotExistsProducts(`YV: ${yvNo}, Brand: ${filterBrand} -  ${crossNumber}`);
       return null;
     }
 
