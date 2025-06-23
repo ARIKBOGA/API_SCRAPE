@@ -44,14 +44,14 @@ test("Get Vehicle Compatibility for all products", async () => {
   const limit = pLimit(3); // aynı anda 5 request sınırı
   const promises = productReferences.filter((productRef) => {return (
         productRef.brand.toLowerCase() === filterBrand.toLowerCase() 
-        //&& !productRef.crossNumber.trim().includes(" ")
+        && !productRef.crossNumber.trim().includes(" ")
         );
     })
-    .slice(0, 200) // aralıkları 100, 200 gibi yap
+    .slice(0, 300) // aralıkları 100, 200 gibi yap
     .map((productRef) =>limit(() => processProductFor_VehicleCompatibility(productRef)));
 
   const results = (await Promise.all(promises)).filter((r) => r !== null);
 
-  const outputFilePath = path.resolve(`src/output/${productType}_vehicle-compatibility_${filterBrand}_1.json`);
+  const outputFilePath = path.resolve(`src/output/${productType}/Vehicle-Compatibility_${filterBrand}_1.json`);
   fs.writeFileSync(outputFilePath, JSON.stringify(results, null, 2), "utf8");
 });
