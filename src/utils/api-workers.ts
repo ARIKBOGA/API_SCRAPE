@@ -136,7 +136,7 @@ export async function processProductFor_VehicleCompatibility(element: ProductRef
     }
 
     if (result.compatibleVehicles.length === 0) {
-      console.warn(`No compatible vehicles found for YV: ${yvNo}, Brand: ${filterBrand}`);
+      console.warn(`No compatible vehicles found for YV: ${yvNo}, Brand: ${filterBrand}, Cross Number: ${crossNumber}`);
     }
     return result;
   } catch (err) {
