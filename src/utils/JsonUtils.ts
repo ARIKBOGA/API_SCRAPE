@@ -7,17 +7,13 @@ export function mergeJsons(...jsons: any[]): any[] {
 
 function main() {
   const jsonsFolder = path.resolve(__dirname, "../output");
-  const jsons = fs
-    .readdirSync(jsonsFolder)
-    .filter((file) => file.endsWith(".json") && file.includes("Pad_vehicle-compatibility_ICER"))
+  const jsonFiles = fs.readdirSync(jsonsFolder)
+  .filter((file) => file.endsWith(".json") && file.includes("Pad_vehicle-compatibility_BREMBO"));
+  
+  const mergedJson = jsonFiles
     .sort((a, b) => a.localeCompare(b))
-    .map((file) => {
-      const filePath = path.join(jsonsFolder, file);
-      return JSON.parse(fs.readFileSync(filePath, "utf8"));
-    });
-
-  const mergedJson = mergeJsons(...jsons);
-  const outputFilePath = path.join(jsonsFolder, "Merged_Pad_vehicle-compatibility_ICER.json");
+    .reduce<any[]>((acc, file) => acc.concat(JSON.parse(fs.readFileSync(path.join(jsonsFolder, file), "utf8"))), []);
+  const outputFilePath = path.join(jsonsFolder, "Merged_Pad_vehicle-compatibility_BREMBO.json");
   fs.writeFileSync(outputFilePath, JSON.stringify(mergedJson, null, 2), "utf8");
   console.log(`Merged JSON saved to ${outputFilePath}`);
 }
