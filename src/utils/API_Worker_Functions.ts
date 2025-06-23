@@ -1,7 +1,7 @@
 import { request, APIRequestContext } from "@playwright/test";
 import dotenv from "dotenv";
 import path from "path";
-import { BRAND_CODES } from "./Variables";
+import { SUPPLIER_NUMBERS } from "./Variables";
 import { ApiCompatibility, ApiTarget, OutputTarget } from "./Types";
 
 dotenv.config({ path: path.resolve(".env") });
@@ -66,7 +66,7 @@ export async function getEncryptedSearchCode(
     const abu_2 = process.env.ENCRYPTED_SEARCH_URL_2 || "";
     const abu_3 = process.env.ENCRYPTED_SEARCH_URL_3 || "";
     const normalizedCrossNumber = crossNumber.replace(/ /g, '').trim();
-    const searchURL = `${abu_1}${encodeURIComponent(normalizedCrossNumber)}${abu_2}${BRAND_CODES[filterBrand]}${abu_3}`;
+    const searchURL = `${abu_1}${encodeURIComponent(normalizedCrossNumber)}${abu_2}${SUPPLIER_NUMBERS[filterBrand]}${abu_3}`;
 
     await delay(300);
     
