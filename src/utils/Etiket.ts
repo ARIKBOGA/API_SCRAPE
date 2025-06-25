@@ -1,7 +1,7 @@
 // src/generateLabelsFromSingleJson.ts
 import fs from "fs";
 import path from "path";
-import * as XLSX from "xlsx"
+import * as XLSX from "xlsx";
 import { bodyTypes, brandAliases, modelAliases } from "./Variables";
 
 function toPascalCase(str: string): string {
@@ -75,12 +75,9 @@ function generateLabel(vehicles: any[]): string {
     const modelMap = brandModelMap.get(brand)!;
 
     for (const model of v.models) {
-      for (const target of model.targets) {
-        if (!target.name || target.name.includes("target")) continue;
-        const models = extractAndShortenModels(target.name);
-        for (const m of models) {
-          modelMap.set(m, (modelMap.get(m) || 0) + 1);
-        }
+      const models = extractAndShortenModels(model.modelSeries);
+      for (const m of models) {
+        modelMap.set(m, (modelMap.get(m) || 0) + 1);
       }
     }
   }
@@ -150,7 +147,7 @@ function generateLabel(vehicles: any[]): string {
 }
 
 const inputFilePath = path.resolve(__dirname, "../output/Pad/Pad_vehicle-compatibility_BREMBO.json");
-const outputFilePath = path.resolve(__dirname, "../output/Pad/ETIKETLER_TEK_JSON.xlsx");
+const outputFilePath = path.resolve(__dirname, "../output/Pad/ETIKETLER_TEK_JSON_1.xlsx");
 
 const inputData = JSON.parse(fs.readFileSync(inputFilePath, "utf-8"));
 const rows: [string, string, string][] = [];
