@@ -1,123 +1,112 @@
 import * as XLSX from 'xlsx';
 import * as path from 'path';
 import * as fs from 'fs';
-import { OutputManufacturer, OutputModelSeries, OutputTarget, RootJsonData } from './Types';
+import { ModelData, OutputManufacturer, OutputModelSeries, OutputTarget, RootJsonData } from './Types';
 import dotenv from 'dotenv';
+import { excelTitles } from './Variables';
+import initialMarkaData from '../resources/data/catalogInfo/jsons/marka_new.json';
+import initialModelData from '../resources/data/catalogInfo/jsons/model_new.json';
 
 dotenv.config({ path: path.resolve(".env") });
 
 const productType = process.env.PRODUCT_TYPE as string;
+const filterBrand = process.env.FILTER_BRAND as string;
 
-
-/**
- * JSON verisini okur ve her crossNumber için ayrı bir Excel sayfasına yazdırır.
- *
- * @param inputDirPath JSON dosyalarının bulunduğu dizin.
- * @param outputFilePath Oluşturulacak Excel dosyasının yolu ve adı.
- */
-export function convertJsonToExcel(inputDirPath: string, outputFilePath: string): void {
+export function convertJsonToExcel(inputFilePath: string, outputDirectory: string): void {
   const workbook = XLSX.utils.book_new();
+  const sheetNameCounts = new Map<string, number>();
+  
+  // Import Marka and Model data
+  const markaNameToIdMap = new Map<string, number>();
+  for (const [idString, name] of Object.entries(initialMarkaData)) {
+    markaNameToIdMap.set(name.trim().toUpperCase(), parseInt(idString));
+  }
+
+  const modelDataMap = new Map<string, ModelData>();
+  (initialModelData as ModelData[]).forEach(model => {
+    const key = `${model["modeller_markalar::marka"].trim().toUpperCase()}_${model.model.trim().toUpperCase()}`;
+    modelDataMap.set(key, model);
+  });
 
   try {
-    const files = fs.readdirSync(inputDirPath);
-    const jsonFiles = files.filter(file => file.endsWith('.json') && file.includes('ICER'));
+    const data: RootJsonData = JSON.parse(fs.readFileSync(inputFilePath, 'utf-8'));
 
-    if (jsonFiles.length === 0) {
-      console.warn(`Uyarı: '${inputDirPath}' dizininde hiçbir JSON dosyası bulunamadı.`);
-      return;
-    }
+    const sheetDataMap = new Map<string, any[][]>();
 
-    jsonFiles.forEach(file => {
-      const filePath = path.join(inputDirPath, file);
-      const fileContent = fs.readFileSync(filePath, 'utf-8');
-      const data: RootJsonData = JSON.parse(fileContent); // RootJsonData tipini kullanıyoruz
+    data.forEach(item => {
+      let baseSheetName = item.crossNumber;
+      let actualSheetName = baseSheetName;
 
-      data.forEach(item => {
-        const sheetName = item.crossNumber;
+      if (!sheetDataMap.has(baseSheetName)) {
+        sheetDataMap.set(baseSheetName, [excelTitles]);
+      }
 
-        let worksheet: XLSX.WorkSheet;
-        let sheetIndex = workbook.SheetNames.indexOf(sheetName);
+      if ((sheetNameCounts.get(baseSheetName) || 0) > 0) {
+        let currentCount = sheetNameCounts.get(baseSheetName) || 0;
+        actualSheetName = `${baseSheetName}-${String.fromCharCode(65 + currentCount)}`;
+        sheetNameCounts.set(baseSheetName, currentCount + 1);
+      } else {
+        sheetNameCounts.set(baseSheetName, 1);
+      }
 
-        const sheetRows: any[][] = [];
+      const sheetRows = sheetDataMap.get(baseSheetName) ?? [];
 
-        // Başlık satırı sadece yeni bir sayfa oluşturulduğunda eklenmeli
-        if (sheetIndex === -1) {
-          sheetRows.push([
-            'yvNo',
-            'brand',
-            'manufacturer',
-            'modelSeries',
-            'engine', // OutputTarget'taki 'name' alanı buna karşılık geliyor
-            'fullName',
-            'constructionYearFrom',
-            'constructionYearTo',
-            'enginePowerKW',
-            'enginePowerHP',
-            'cc', // displacementCCM'den gelecek
-            'engineCodes',
-            'kbaNumbers',
-            'bodyType',
-            'TecDocID' // Veya sabit bir değer ('24490')
-          ]);
-        }
+      item.compatibleVehicles.forEach((vehicle: OutputManufacturer) => {
+        const marka_id = markaNameToIdMap.get(vehicle.manufacturer.trim().toUpperCase()) || null;
 
-        item.compatibleVehicles.forEach((vehicle: OutputManufacturer) => {
-          vehicle.models.forEach((model: OutputModelSeries) => {
-            model.targets.forEach((target: OutputTarget) => {
-              // String'den number'a dönüşüm burada yapılıyor
-              const enginePowerKW = Number(target.enginePowerKW) || 0;
-              const enginePowerHP = Number(target.enginePowerHP) || 0;
-              const cc = Number(target.cc) || 0; // OutputTarget'a cc eklendiğini varsayıyoruz
+        vehicle.models.forEach((model: OutputModelSeries) => {
+          const modelKey = `${vehicle.manufacturer.trim().toUpperCase()}_${model.modelSeries.trim().toUpperCase()}`;
+          const foundModelData = modelDataMap.get(modelKey);
+          const model_id = foundModelData ? foundModelData.id : null;
 
-              sheetRows.push([
-                item.yvNo,
-                item.brand,
-                vehicle.manufacturer,
-                model.modelSeries,
-                target.name, // 'engine' yerine OutputTarget'taki 'name' alanı
-                target.fullName,
-                target.constructionYearFrom,
-                target.constructionYearTo,
-                enginePowerKW,
-                enginePowerHP,
-                cc,
-                target.engineCodes, // Diziyi string'e çeviriyoruz
-                target.kbaNumbers, // Diziyi string'e çeviriyoruz
-                target.bodyType,
-                target.TecDocID || '' // Eğer TecDocID yoksa boş bırak, veya sabit değer '24490'
-              ]);
-            });
+          model.targets.forEach((target: OutputTarget) => {
+            const fromYear = target.constructionYearFrom?.slice(-2) || '';
+            const toYear = target.constructionYearTo?.slice(-2) || '';
+
+            sheetRows.push([
+              item.yvNo,
+              item.brand,
+              item.crossNumber,
+              marka_id,
+              vehicle.manufacturer,
+              model_id,
+              model.modelSeries,
+              target.engine,
+              fromYear,
+              toYear,
+              target.enginePowerKW,
+              target.enginePowerHP,
+              target.cc,
+              target.engineCodes,
+              target.kbaNumbers,
+              target.bodyType,
+              target.TecDocID || ''
+            ]);
           });
         });
-
-        if (sheetIndex === -1) {
-          worksheet = XLSX.utils.aoa_to_sheet(sheetRows);
-          XLSX.utils.book_append_sheet(workbook, worksheet, sheetName);
-        } else {
-          // Mevcut sayfayı güncelle: Başlık satırı hariç yeni verileri ekle
-          worksheet = workbook.Sheets[sheetName];
-          const currentData = XLSX.utils.sheet_to_json(worksheet, { header: 1 }) as any[][];
-          const updatedData = [...currentData, ...sheetRows.slice(1)]; // Mevcut veriye başlık hariç yeni satırları ekle
-
-          delete workbook.Sheets[sheetName]; // Mevcut sayfayı sil
-          XLSX.utils.book_append_sheet(workbook, XLSX.utils.aoa_to_sheet(updatedData), sheetName); // Güncellenmiş veriyle yeniden oluştur
-        }
       });
+
+      if(sheetRows.length > 1) {
+        sheetDataMap.set(actualSheetName, sheetRows);
+        XLSX.utils.book_append_sheet(workbook, XLSX.utils.aoa_to_sheet(sheetRows), actualSheetName);
+      }
     });
 
-    XLSX.writeFile(workbook, outputFilePath);
-    console.log(`Veriler başarıyla Excel'e aktarıldı: ${outputFilePath}`);
+    if (!fs.existsSync(outputDirectory)) fs.mkdirSync(outputDirectory, { recursive: true });
+
+    XLSX.writeFile(workbook, path.join(outputDirectory, `${path.basename(inputFilePath, '.json')}.xlsx`));
+    console.log(`Veriler başarıyla Excel'e aktarıldı: ${outputDirectory}`);
+
   } catch (error) {
     console.error('Excel dosyası oluşturulurken bir hata oluştu:', error);
   }
 }
 
+function main() {
+  const inputFilePath = path.resolve(__dirname, `../output/${productType}/Vehicle-Compatibility_${filterBrand}.json`);
+  const outputDirectory = path.resolve(__dirname, `../output/${productType}/excels`);
 
-function main(){
-
-    const inputDir = path.resolve(__dirname, `../output/${productType}`);
-    const outputDir = path.resolve(__dirname, `../output/${productType}/excels`);
-    convertJsonToExcel(inputDir, outputDir);
+  convertJsonToExcel(inputFilePath, outputDirectory);
 }
 
 main();
