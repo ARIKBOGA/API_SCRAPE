@@ -1,7 +1,7 @@
 import path from "path";
 import xlsx from "xlsx";
-import dotenv from 'dotenv';
 import { ProductReference } from "./Types";
+import dotenv from 'dotenv';
 
 dotenv.config({ path: path.resolve(".env") });
 

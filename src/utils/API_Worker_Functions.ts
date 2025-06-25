@@ -1,7 +1,7 @@
 import { request, APIRequestContext } from "@playwright/test";
 import dotenv from "dotenv";
 import path from "path";
-import { BRAND_CODES } from "./Variables";
+import { SUPPLIER_NUMBERS } from "./Variables";
 import { ApiCompatibility, ApiTarget, OutputTarget } from "./Types";
 
 dotenv.config({ path: path.resolve(".env") });
@@ -34,7 +34,7 @@ export async function getToken(): Promise<string | null> {
     grant_type: process.env.grant_type || "password",
     client_id: process.env.client_id || "repxpert-GB",
     client_secret: process.env.client_secret || "client_secret",
-    username: process.env.username || "username",
+    username: process.env.email || "username",
     password: process.env.password || "password",
   });
 
@@ -66,7 +66,7 @@ export async function getEncryptedSearchCode(
     const abu_2 = process.env.ENCRYPTED_SEARCH_URL_2 || "";
     const abu_3 = process.env.ENCRYPTED_SEARCH_URL_3 || "";
     const normalizedCrossNumber = crossNumber.replace(/ /g, '').trim();
-    const searchURL = `${abu_1}${encodeURIComponent(normalizedCrossNumber)}${abu_2}${BRAND_CODES[filterBrand]}${abu_3}`;
+    const searchURL = `${abu_1}${encodeURIComponent(normalizedCrossNumber)}${abu_2}${SUPPLIER_NUMBERS[filterBrand]}${abu_3}`;
 
     await delay(300);
     
@@ -74,7 +74,6 @@ export async function getEncryptedSearchCode(
 
     const searchData = await searchResp.json();
     const result = searchData.products?.[0]?.code;
-    
     return result;
   } catch (err) {
     console.error(`Error fetching encrypted code for ${crossNumber}: ${err}`);
@@ -90,7 +89,7 @@ export async function getManufacturerCodes(
   const manu_1 = process.env.COMPATIBILITY_MANUFACTURERS_URL_1 as string;
   const manu_2 = process.env.COMPATIBILITY_MANUFACTURERS_URL_2 as string;
   const manufacturer_codes_url = `${manu_1}${encryptedSearchCode}${manu_2}`;
-  // console.log(`MANUFACTURERS URL: ${manufacturer_codes_url}`); // Detaylı loglar için uncomment edilebilir
+  console.log(`MANUFACTURERS URL: ${manufacturer_codes_url}`); // Detaylı loglar için uncomment edilebilir
 
   const manufacturer_codes_response = await apiContext.get(
     manufacturer_codes_url,
