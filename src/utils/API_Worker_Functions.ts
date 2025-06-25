@@ -74,7 +74,6 @@ export async function getEncryptedSearchCode(
 
     const searchData = await searchResp.json();
     const result = searchData.products?.[0]?.code;
-    
     return result;
   } catch (err) {
     console.error(`Error fetching encrypted code for ${crossNumber}: ${err}`);
@@ -90,7 +89,7 @@ export async function getManufacturerCodes(
   const manu_1 = process.env.COMPATIBILITY_MANUFACTURERS_URL_1 as string;
   const manu_2 = process.env.COMPATIBILITY_MANUFACTURERS_URL_2 as string;
   const manufacturer_codes_url = `${manu_1}${encryptedSearchCode}${manu_2}`;
-  // console.log(`MANUFACTURERS URL: ${manufacturer_codes_url}`); // Detaylı loglar için uncomment edilebilir
+  console.log(`MANUFACTURERS URL: ${manufacturer_codes_url}`); // Detaylı loglar için uncomment edilebilir
 
   const manufacturer_codes_response = await apiContext.get(
     manufacturer_codes_url,
