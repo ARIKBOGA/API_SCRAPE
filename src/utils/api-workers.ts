@@ -171,7 +171,7 @@ export async function processProductFor_CrossNumbers(element: ProductReference){
   const crossNumberURL_1 = process.env.CROSS_NUMBER_URL_1 || "";
   const crossNumberURL_2 = process.env.CROSS_NUMBER_URL_2 || "";
   const queryNumber = element.crossNumber;
-  const querySize = "100";
+  const querySize = "200";
 
   const crossNumberURL = `${crossNumberURL_1}${queryNumber}${crossNumberURL_2}${querySize}`;
   //console.log(crossNumberURL);
