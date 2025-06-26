@@ -10,13 +10,12 @@ dotenv.config({ path: path.resolve(".env") });
 
 
 export async function processProductFor_OE(element: ProductReference): Promise<any> {
+
   const { yvNo, brand: filterBrand, crossNumber } = element;
   const token = await getToken();
 
   if (!crossNumber) {
-    console.warn(
-      `No cross number found for YV: ${yvNo}, Brand: ${filterBrand}`
-    );
+    console.warn(`No cross number found for YV: ${yvNo}, Brand: ${filterBrand}`);
     return null;
   }
 
@@ -34,6 +33,8 @@ export async function processProductFor_OE(element: ProductReference): Promise<a
     const oeru_1 = process.env.OE_REQUEST_URL_1 as string;
     const oeru_2 = process.env.OE_REQUEST_URL_2 as string;
     const oeURL = `${oeru_1}${encryptedSearchCode}${oeru_2}`;
+
+    //console.log(oeURL);
 
     const oeResp = await apiContext.get(oeURL, {
       headers: { Authorization: `Bearer ${token}` },
