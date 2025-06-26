@@ -10,15 +10,16 @@ dotenv.config({ path: path.resolve(".env") });
 
 
 export async function processProductFor_OE(element: ProductReference): Promise<any> {
+
   const { yvNo, brand: filterBrand, crossNumber } = element;
   const token = await getToken();
 
   if (!crossNumber) {
-    console.warn(
-      `No cross number found for YV: ${yvNo}, Brand: ${filterBrand}`
-    );
+    console.warn(`No cross number found for YV: ${yvNo}, Brand: ${filterBrand}`);
     return null;
   }
+
+  console.log(`Processing YV: ${yvNo}, Brand: ${filterBrand}, Cross Number: ${crossNumber}`);
 
   const apiContext = await request.newContext();
 
@@ -34,6 +35,8 @@ export async function processProductFor_OE(element: ProductReference): Promise<a
     const oeru_1 = process.env.OE_REQUEST_URL_1 as string;
     const oeru_2 = process.env.OE_REQUEST_URL_2 as string;
     const oeURL = `${oeru_1}${encryptedSearchCode}${oeru_2}`;
+
+    //console.log(oeURL);
 
     const oeResp = await apiContext.get(oeURL, {
       headers: { Authorization: `Bearer ${token}` },
@@ -171,7 +174,7 @@ export async function processProductFor_CrossNumbers(element: ProductReference){
   const crossNumberURL_1 = process.env.CROSS_NUMBER_URL_1 || "";
   const crossNumberURL_2 = process.env.CROSS_NUMBER_URL_2 || "";
   const queryNumber = element.crossNumber;
-  const querySize = "100";
+  const querySize = "200";
 
   const crossNumberURL = `${crossNumberURL_1}${queryNumber}${crossNumberURL_2}${querySize}`;
   //console.log(crossNumberURL);

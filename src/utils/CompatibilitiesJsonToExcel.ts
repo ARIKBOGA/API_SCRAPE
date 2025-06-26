@@ -94,7 +94,7 @@ export function convertJsonToExcel(inputFilePath: string, outputDirectory: strin
 
     if (!fs.existsSync(outputDirectory)) fs.mkdirSync(outputDirectory, { recursive: true });
 
-    XLSX.writeFile(workbook, path.join(outputDirectory, `${path.basename(inputFilePath, '.json')}.xlsx`));
+    XLSX.writeFile(workbook, path.join(outputDirectory, `${path.basename(inputFilePath, '')}.xlsx`));
     console.log(`Veriler başarıyla Excel'e aktarıldı: ${outputDirectory}`);
 
   } catch (error) {
@@ -103,8 +103,8 @@ export function convertJsonToExcel(inputFilePath: string, outputDirectory: strin
 }
 
 function main() {
-  const inputFilePath = path.resolve(__dirname, `../output/${productType}/Vehicle-Compatibility_${filterBrand}.json`);
-  const outputDirectory = path.resolve(__dirname, `../output/${productType}/excels`);
+  const inputFilePath = path.resolve(__dirname, `../output/${productType}/jsons/Vehicle-Compatibility/Vehicle-Compatibility_${filterBrand}.json`);
+  const outputDirectory = path.resolve(__dirname, `../output/${productType}/excels/Vehicle-Compatibility`);
 
   convertJsonToExcel(inputFilePath, outputDirectory);
 }

@@ -1,0 +1,1114 @@
+[
+  {
+    "yvNo": "13285",
+    "crossNumber": "94024600",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "3C111126AA",
+          "4041429",
+          "4078769",
+          "4446218",
+          "4519396",
+          "YC1W1126DB",
+          "YC1W1126DC",
+          "YC1W1126DD"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "13286",
+    "crossNumber": "94024800",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "4041430",
+          "4078770",
+          "4446219",
+          "YC1W1126EC",
+          "YC1W1126ED"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "13290",
+    "crossNumber": "94024400",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1334973",
+          "1334975",
+          "1361302",
+          "1361304",
+          "2T141126CA",
+          "2T141126CB",
+          "2T141126CD",
+          "2T141126DA",
+          "2T141126DB",
+          "2T141126DD",
+          "4367102",
+          "4367103",
+          "4455981",
+          "4467600",
+          "4937319",
+          "4937320",
+          "4937322",
+          "5135045",
+          "AT161126AA"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "13289",
+    "crossNumber": "94022500",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1M5W1113AA",
+          "3049844",
+          "4145506",
+          "4186874",
+          "4886779",
+          "8S431113AC",
+          "98AB1113BE",
+          "98AB1113BG"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "36020",
+    "crossNumber": "94006600",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "171501615",
+          "171501615A",
+          "171501615B",
+          "171501615C",
+          "191501615B",
+          "823501615B"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "171501615",
+          "171501615A",
+          "171501615B",
+          "171501615C",
+          "191501615B",
+          "823501615B"
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "171501615",
+          "171501615A",
+          "171501615B",
+          "171501615C",
+          "191501615B",
+          "823501615B"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "171501615",
+          "171501615A",
+          "171501615B",
+          "171501615C",
+          "191501615B",
+          "823501615B"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "33149",
+    "crossNumber": "94014600",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "424738"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "1306211080"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "424738"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "28324",
+    "crossNumber": "94010300",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "424724",
+          "91509908"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "424724",
+          "91509908"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "27381",
+    "crossNumber": "94022600",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "568060",
+          "90538928"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "27384",
+    "crossNumber": "94009900",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "418117",
+          "90007526"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "90135504"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "27447",
+    "crossNumber": "94031500",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "24444064",
+          "568066"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "27448",
+    "crossNumber": "94024100",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "418000",
+          "9004416",
+          "9196287"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "9004416"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "25509",
+    "crossNumber": "94035300",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "6000609724"
+        ]
+      },
+      {
+        "manufacturer": "MITSUBISHI",
+        "numbers": [
+          "4615A127",
+          "MN102439"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "36532",
+    "crossNumber": "94023800",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "600609617",
+          "6Q0609617",
+          "6QE609617",
+          "6R0609617C"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "600609617",
+          "6Q0609617",
+          "6QE609617",
+          "6R0609617C"
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "600609617",
+          "6Q0609617",
+          "6QE609617",
+          "6R0609617C"
+        ]
+      },
+      {
+        "manufacturer": "SKODA (SVW)",
+        "numbers": [
+          "6QD609617"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "600609617",
+          "6Q0609617",
+          "6QE609617",
+          "6R0609617C"
+        ]
+      },
+      {
+        "manufacturer": "VW (SVW)",
+        "numbers": [
+          "6QD609617"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "13544",
+    "crossNumber": "94045600",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1752037",
+          "1763131",
+          "1833868",
+          "1949898",
+          "AY111126AA",
+          "AY111126AB",
+          "AY111126AC",
+          "EY161126AA"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "16561",
+    "crossNumber": "94035900",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "HYUNDAI",
+        "numbers": [
+          "584111G000"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "40569",
+    "crossNumber": "94039400",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "ISUZU",
+        "numbers": [
+          "8979480380",
+          "8980618130",
+          "8980618131",
+          "97948038",
+          "98061813"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "36571",
+    "crossNumber": "94022800",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "1S0609617",
+          "6X0609617A"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "1S0609617",
+          "6X0609617A"
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "1S0609617",
+          "6X0609617A"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "1S0609617",
+          "6X0609617A"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "33591",
+    "crossNumber": "94027200",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "51901443",
+          "51901444",
+          "55703043",
+          "55704058",
+          "6001073063"
+        ]
+      },
+      {
+        "manufacturer": "GENERAL MOTORS",
+        "numbers": [
+          "55701380"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "13423796",
+          "55701380",
+          "55704058",
+          "568000",
+          "568003",
+          "568270"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "13423796",
+          "55701380",
+          "55704058",
+          "568000",
+          "568003",
+          "568270"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "30579B",
+    "crossNumber": "94047400",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "DACIA",
+        "numbers": [
+          "432004314R"
+        ]
+      },
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "4320000Q0K",
+          "4320000Q2C"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "432000505R",
+          "432009373R",
+          "432024342R"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT TRUCKS",
+        "numbers": [
+          "432007212R",
+          "432009234R"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "33740",
+    "crossNumber": "94014000",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "ALFA ROMEO",
+        "numbers": [
+          "60810025",
+          "60814839"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "51816526",
+          "51903659",
+          "52015299",
+          "7569600",
+          "7769850"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "26747",
+    "crossNumber": "94046500",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "43206EB360",
+          "43206EB70B"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "15702",
+    "crossNumber": "94037100",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "HONDA",
+        "numbers": [
+          "42610S5A000"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "16710",
+    "crossNumber": "94033300",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "HYUNDAI",
+        "numbers": [
+          "584111C300"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "26715",
+    "crossNumber": "94036700",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "432060W710",
+          "432062S600",
+          "4320637G10",
+          "43206VE860",
+          "43206VM30B",
+          "440101W610",
+          "440101W620"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "34718",
+    "crossNumber": "94038600",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "TOYOTA",
+        "numbers": [
+          "424310K080",
+          "424310K090",
+          "424310K220"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "34719",
+    "crossNumber": "94038800",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "TOYOTA",
+        "numbers": [
+          "424310K120",
+          "424310K130",
+          "424310K250"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "34720",
+    "crossNumber": "94029300",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "TOYOTA",
+        "numbers": [
+          "4243112200",
+          "4243112201",
+          "4243152020",
+          "4243152021"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "15723",
+    "crossNumber": "94023000",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "HONDA",
+        "numbers": [
+          "42610S70000"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "32735",
+    "crossNumber": "94026500",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "424748"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "424748"
+        ]
+      },
+      {
+        "manufacturer": "TOYOTA",
+        "numbers": [
+          "424310H010"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "34739",
+    "crossNumber": "94034600",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "TOYOTA",
+        "numbers": [
+          "424310D010"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "27762",
+    "crossNumber": "94024200",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "418001"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "9196290"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "30777",
+    "crossNumber": "94013700",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "4320000QAL"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "7700421739",
+          "7700710511",
+          "8200028861",
+          "8200137104",
+          "8200171690",
+          "8200256121"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "33783",
+    "crossNumber": "94020000",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "46448407",
+          "4644847",
+          "5923606",
+          "98601861"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "16789",
+    "crossNumber": "94034900",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "HYUNDAI",
+        "numbers": [
+          "5275129000",
+          "5841117100",
+          "5841117200",
+          "5841129000"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "16790",
+    "crossNumber": "94046700",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "DODGE",
+        "numbers": [
+          "584110U000"
+        ]
+      },
+      {
+        "manufacturer": "HYUNDAI",
+        "numbers": [
+          "584110U000",
+          "584110U000DS"
+        ]
+      },
+      {
+        "manufacturer": "KIA",
+        "numbers": [
+          "584110U000",
+          "584111R000"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "42804",
+    "crossNumber": "94046000",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "6R0609617B"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "6R0609617B"
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "6R0609617B"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "6R0609617B"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "36815",
+    "crossNumber": "94043900",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "2H0609617"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "2H0609617"
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "2H0609617"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "2H0609617"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "31820",
+    "crossNumber": "94024300",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "1J0609617B"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "1J0609617B"
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "1J0609617B"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "1J0609617B"
+        ]
+      },
+      {
+        "manufacturer": "VW (FAW)",
+        "numbers": [
+          "1JD609617"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "33824",
+    "crossNumber": "94014800",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "46819776",
+          "51863509",
+          "51863510",
+          "51900802",
+          "51900803",
+          "7599325",
+          "7750119"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1541801",
+          "1544173",
+          "1680868",
+          "1680869",
+          "9S511113AA",
+          "9S511113BA",
+          "9S511113CA",
+          "9S511113DA"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "29825",
+    "crossNumber": "94014200",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "424735",
+          "424744",
+          "95659622"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "424735",
+          "424744",
+          "95659622"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "29826",
+    "crossNumber": "94028200",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "424741",
+          "424745",
+          "424747"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "424741",
+          "424745",
+          "424747"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "33976",
+    "crossNumber": "94010200",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "ALFA ROMEO",
+        "numbers": [
+          "4389374"
+        ]
+      },
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "424722",
+          "4449694",
+          "ZF04449694",
+          "ZF4449694"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "1313675080",
+          "6001070416"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "424722",
+          "4449694",
+          "ZF04449694",
+          "ZF4449694"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "28988",
+    "crossNumber": "94026600",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "424746",
+          "424749"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "424746",
+          "424749",
+          "424752"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "321081",
+    "crossNumber": "94037800",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "SUZUKI",
+        "numbers": [
+          "4351165D00",
+          "4351167D00",
+          "4351181A00",
+          "4351181A02",
+          "4351182A00"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "191082",
+    "crossNumber": "94015600",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "LADA",
+        "numbers": [
+          "11183502070",
+          "21080350207000",
+          "21083502070"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "511089",
+    "crossNumber": "94036400",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "DAIHATSU",
+        "numbers": [
+          "42431B1011",
+          "42431B1020",
+          "42431B1020000",
+          "42431B1021",
+          "42431B2040"
+        ]
+      },
+      {
+        "manufacturer": "SUBARU",
+        "numbers": [
+          "42431B1020"
+        ]
+      },
+      {
+        "manufacturer": "TOYOTA",
+        "numbers": [
+          "42431B1011",
+          "42431B1021",
+          "42431B2040"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "261091",
+    "crossNumber": "94026900",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "432064M000",
+          "432064M400",
+          "432064M401",
+          "432064Z801",
+          "432066N000"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "341092",
+    "crossNumber": "94045200",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "DAIHATSU",
+        "numbers": [
+          "424310D030000"
+        ]
+      },
+      {
+        "manufacturer": "TOYOTA",
+        "numbers": [
+          "424310D030"
+        ]
+      }
+    ]
+  }
+]

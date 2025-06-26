@@ -5,7 +5,14 @@ export const SUPPLIER_NUMBERS: Record<string, string> = {
   BREMBO: "65",
   TRW: "161",
   TEXTAR: "39",
-  "KRAFTVOLL": "6923"
+  KRAFTVOLL: "6923",
+  CORTECO: "140",
+  RIDEX: "6358",
+  RUVILLE: "23",
+  FAI: "267",
+  FEBI: "101",
+  WILMINK: "4832",
+  CAUTEX: "405",
 };
 
 export const excelTitles = [

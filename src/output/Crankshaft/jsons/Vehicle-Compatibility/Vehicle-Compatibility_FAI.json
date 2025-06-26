@@ -1,0 +1,1856 @@
+[
+  {
+    "yvNo": "7043010",
+    "crossNumber": "FVD1178",
+    "brand": "FAI",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "DACIA",
+        "models": [
+          {
+            "modelSeries": "LOGAN II",
+            "targets": [
+              {
+                "engine": "TCe 90 (L8MA, L8M1, L8AC)",
+                "fullName": "DACIA LOGAN II TCe 90 (L8MA, L8M1, L8AC)",
+                "constructionYearFrom": "10.2012",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 898,
+                "engineCodes": "H4B 408, H4B 400, H4B 412",
+                "kbaNumbers": "8212ACY",
+                "bodyType": "Saloon",
+                "TecDocID": 58612
+              }
+            ]
+          },
+          {
+            "modelSeries": "LOGAN MCV II",
+            "targets": [
+              {
+                "engine": "TCe 90 (K8M1, K8MA, K8AC)",
+                "fullName": "DACIA LOGAN MCV II TCe 90 (K8M1, K8MA, K8AC)",
+                "constructionYearFrom": "02.2013",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 898,
+                "engineCodes": "H4B 408, H4B 400, H4B 412",
+                "kbaNumbers": "8212ADD",
+                "bodyType": "Estate",
+                "TecDocID": 59716
+              },
+              {
+                "engine": "TCe 90 LPG",
+                "fullName": "DACIA LOGAN MCV II TCe 90 LPG",
+                "constructionYearFrom": "09.2015",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 898,
+                "engineCodes": "H4B 410, H4B 405",
+                "kbaNumbers": "8212ADZ",
+                "bodyType": "Estate",
+                "TecDocID": 118703
+              }
+            ]
+          },
+          {
+            "modelSeries": "SANDERO II",
+            "targets": [
+              {
+                "engine": "TCe 90 (B8M1, B8MA, B8AC)",
+                "fullName": "DACIA SANDERO II TCe 90 (B8M1, B8MA, B8AC)",
+                "constructionYearFrom": "10.2012",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 898,
+                "engineCodes": "H4B 400, H4B 408, H4B 412, H4B 411, H4B 410",
+                "kbaNumbers": "8212ACZ",
+                "bodyType": "Hatchback",
+                "TecDocID": 58143
+              },
+              {
+                "engine": "TCe 90 LPG (B8M1)",
+                "fullName": "DACIA SANDERO II TCe 90 LPG (B8M1)",
+                "constructionYearFrom": "09.2015",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 898,
+                "engineCodes": "H4B 410",
+                "kbaNumbers": "8212ADY",
+                "bodyType": "Hatchback",
+                "TecDocID": 118704
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "NISSAN",
+        "models": [
+          {
+            "modelSeries": "MICRA V (K14)",
+            "targets": [
+              {
+                "engine": "0.9 IG-T",
+                "fullName": "NISSAN MICRA V (K14) 0.9 IG-T",
+                "constructionYearFrom": "12.2016",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 898,
+                "engineCodes": "HR09DET, H4B 408",
+                "kbaNumbers": "1329ALC",
+                "bodyType": "Hatchback",
+                "TecDocID": 123826
+              },
+              {
+                "engine": "0.9 LPG",
+                "fullName": "NISSAN MICRA V (K14) 0.9 LPG",
+                "constructionYearFrom": "03.2019",
+                "enginePowerKW": 64,
+                "enginePowerHP": 87,
+                "cc": 898,
+                "engineCodes": "HR09DET",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback",
+                "TecDocID": 136140
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "models": [
+          {
+            "modelSeries": "CAPTUR I (J5_, H5_)",
+            "targets": [
+              {
+                "engine": "0.9 TCe 90",
+                "fullName": "RENAULT CAPTUR I (J5_, H5_) 0.9 TCe 90",
+                "constructionYearFrom": "06.2013",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 898,
+                "engineCodes": "H4B 400, H4B 412, H4B 408",
+                "kbaNumbers": "3333BAD",
+                "bodyType": "Hatchback",
+                "TecDocID": 59001
+              }
+            ]
+          },
+          {
+            "modelSeries": "CLIO IV (BH_) | CLIO MIO | LUTECIA",
+            "targets": [
+              {
+                "engine": "0.9 TCe 75 (BHNP)",
+                "fullName": "RENAULT CLIO IV (BH_) | CLIO MIO | LUTECIA 0.9 TCe 75 (BHNP)",
+                "constructionYearFrom": "05.2018",
+                "constructionYearTo": "08.2021",
+                "enginePowerKW": 56,
+                "enginePowerHP": 76,
+                "cc": 898,
+                "engineCodes": "H4B 408",
+                "kbaNumbers": "3333BJR",
+                "bodyType": "Hatchback",
+                "TecDocID": 133455
+              },
+              {
+                "engine": "0.9 TCe 90 (BHNF, BHMA, BHMH, BHJK, BHJR)",
+                "fullName": "RENAULT CLIO IV (BH_) | CLIO MIO | LUTECIA 0.9 TCe 90 (BHNF, BHMA, BHMH, BHJK, BHJR)",
+                "constructionYearFrom": "11.2012",
+                "constructionYearTo": "08.2021",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 898,
+                "engineCodes": "H4B 408, H4B 400, H4B 412",
+                "kbaNumbers": "3333BAD",
+                "bodyType": "Hatchback",
+                "TecDocID": 57401
+              }
+            ]
+          },
+          {
+            "modelSeries": "CLIO IV Grandtour (KH_)",
+            "targets": [
+              {
+                "engine": "0.9 TCe 75 (KHNP)",
+                "fullName": "RENAULT CLIO IV Grandtour (KH_) 0.9 TCe 75 (KHNP)",
+                "constructionYearFrom": "08.2018",
+                "constructionYearTo": "08.2021",
+                "enginePowerKW": 56,
+                "enginePowerHP": 76,
+                "cc": 898,
+                "engineCodes": "H4B 408",
+                "kbaNumbers": "3333BJS",
+                "bodyType": "Estate",
+                "TecDocID": 132938
+              },
+              {
+                "engine": "0.9 TCe 90",
+                "fullName": "RENAULT CLIO IV Grandtour (KH_) 0.9 TCe 90",
+                "constructionYearFrom": "01.2013",
+                "constructionYearTo": "08.2021",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 898,
+                "engineCodes": "H4B 408, H4B 400",
+                "kbaNumbers": "3333BAT",
+                "bodyType": "Estate",
+                "TecDocID": 57450
+              }
+            ]
+          },
+          {
+            "modelSeries": "CLIO IV Hatchback Van (BH_)",
+            "targets": [
+              {
+                "engine": "0.9 TCe 75",
+                "fullName": "RENAULT CLIO IV Hatchback Van (BH_) 0.9 TCe 75",
+                "constructionYearFrom": "01.2014",
+                "constructionYearTo": "08.2021",
+                "enginePowerKW": 56,
+                "enginePowerHP": 76,
+                "cc": 898,
+                "engineCodes": "H4B 408",
+                "kbaNumbers": "3333BJT",
+                "bodyType": "Hatchback Van",
+                "TecDocID": 154694
+              }
+            ]
+          },
+          {
+            "modelSeries": "TWINGO III (BCM_, BCA_)",
+            "targets": [
+              {
+                "engine": "0.9 TCe 110",
+                "fullName": "RENAULT TWINGO III (BCM_, BCA_) 0.9 TCe 110",
+                "constructionYearFrom": "11.2016",
+                "enginePowerKW": 80,
+                "enginePowerHP": 109,
+                "cc": 898,
+                "engineCodes": "H4B 401",
+                "kbaNumbers": "3333BGT",
+                "bodyType": "Hatchback",
+                "TecDocID": 124320
+              },
+              {
+                "engine": "0.9 TCe 90 (BCM9, BCM2)",
+                "fullName": "RENAULT TWINGO III (BCM_, BCA_) 0.9 TCe 90 (BCM9, BCM2)",
+                "constructionYearFrom": "09.2014",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 898,
+                "engineCodes": "H4B 401",
+                "kbaNumbers": "3333BDK",
+                "bodyType": "Hatchback",
+                "TecDocID": 108063
+              },
+              {
+                "engine": "0.9 TCe 90 LPG (BCMD)",
+                "fullName": "RENAULT TWINGO III (BCM_, BCA_) 0.9 TCe 90 LPG (BCMD)",
+                "constructionYearFrom": "08.2018",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 898,
+                "engineCodes": "H4B 451",
+                "kbaNumbers": "3333BKK",
+                "bodyType": "Hatchback",
+                "TecDocID": 135646
+              },
+              {
+                "engine": "0.9 TCe 95",
+                "fullName": "RENAULT TWINGO III (BCM_, BCA_) 0.9 TCe 95",
+                "constructionYearFrom": "03.2019",
+                "enginePowerKW": 68,
+                "enginePowerHP": 92,
+                "cc": 898,
+                "engineCodes": "H4B 453",
+                "kbaNumbers": "3333BLH",
+                "bodyType": "Hatchback",
+                "TecDocID": 136729
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7044010",
+    "crossNumber": "FVD1180",
+    "brand": "FAI",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "DACIA",
+        "models": [
+          {
+            "modelSeries": "DOKKER Box Body/MPV",
+            "targets": [
+              {
+                "engine": "1.2 TCe 115 (FEAY)",
+                "fullName": "DACIA DOKKER Box Body/MPV 1.2 TCe 115 (FEAY)",
+                "constructionYearFrom": "07.2015",
+                "constructionYearTo": "12.2021",
+                "enginePowerKW": 85,
+                "enginePowerHP": 116,
+                "cc": 1197,
+                "engineCodes": "H5F 408",
+                "kbaNumbers": "8212AEB",
+                "bodyType": "Box Body/MPV",
+                "TecDocID": 117986
+              },
+              {
+                "engine": "1.2 TCe 115 (FEM0)",
+                "fullName": "DACIA DOKKER Box Body/MPV 1.2 TCe 115 (FEM0)",
+                "constructionYearFrom": "12.2012",
+                "constructionYearTo": "12.2015",
+                "enginePowerKW": 84,
+                "enginePowerHP": 114,
+                "cc": 1198,
+                "engineCodes": "H5F 402",
+                "kbaNumbers": "8212ADC",
+                "bodyType": "Box Body/MPV",
+                "TecDocID": 59313
+              }
+            ]
+          },
+          {
+            "modelSeries": "DOKKER MPV (KE_)",
+            "targets": [
+              {
+                "engine": "1.2 TCe (KEM0, KEAY)",
+                "fullName": "DACIA DOKKER MPV (KE_) 1.2 TCe (KEM0, KEAY)",
+                "constructionYearFrom": "11.2012",
+                "constructionYearTo": "12.2021",
+                "enginePowerKW": 85,
+                "enginePowerHP": 115,
+                "cc": 1197,
+                "engineCodes": "H5F 408, H5F 402",
+                "kbaNumbers": "8212ACX",
+                "bodyType": "MPV",
+                "TecDocID": 57398
+              }
+            ]
+          },
+          {
+            "modelSeries": "DUSTER (HM_)",
+            "targets": [
+              {
+                "engine": "1.2 TCe 125 (HMMA)",
+                "fullName": "DACIA DUSTER (HM_) 1.2 TCe 125 (HMMA)",
+                "constructionYearFrom": "10.2017",
+                "enginePowerKW": 92,
+                "enginePowerHP": 125,
+                "cc": 1197,
+                "engineCodes": "H5F 408",
+                "kbaNumbers": "3333BIP",
+                "bodyType": "SUV",
+                "TecDocID": 130104
+              },
+              {
+                "engine": "1.2 TCe 125 4x4 (HMMA)",
+                "fullName": "DACIA DUSTER (HM_) 1.2 TCe 125 4x4 (HMMA)",
+                "constructionYearFrom": "10.2017",
+                "enginePowerKW": 92,
+                "enginePowerHP": 125,
+                "cc": 1197,
+                "engineCodes": "H5F 410",
+                "kbaNumbers": "8212ADO, 3333BIQ",
+                "bodyType": "SUV",
+                "TecDocID": 130105
+              }
+            ]
+          },
+          {
+            "modelSeries": "DUSTER (HS_)",
+            "targets": [
+              {
+                "engine": "1.2 TCe 125",
+                "fullName": "DACIA DUSTER (HS_) 1.2 TCe 125",
+                "constructionYearFrom": "10.2013",
+                "constructionYearTo": "01.2018",
+                "enginePowerKW": 92,
+                "enginePowerHP": 125,
+                "cc": 1197,
+                "engineCodes": "H5F 404, H5F 408",
+                "kbaNumbers": "8212ADK, 8212ADM",
+                "bodyType": "SUV",
+                "TecDocID": 100001
+              },
+              {
+                "engine": "1.2 TCe 125 4x4",
+                "fullName": "DACIA DUSTER (HS_) 1.2 TCe 125 4x4",
+                "constructionYearFrom": "06.2015",
+                "constructionYearTo": "01.2018",
+                "enginePowerKW": 92,
+                "enginePowerHP": 125,
+                "cc": 1197,
+                "engineCodes": "H5F 410",
+                "kbaNumbers": "8212ADO",
+                "bodyType": "SUV",
+                "TecDocID": 115494
+              }
+            ]
+          },
+          {
+            "modelSeries": "DUSTER SUV Van",
+            "targets": [
+              {
+                "engine": "1.2 TCe 125 4x4 (HSAU)",
+                "fullName": "DACIA DUSTER SUV Van 1.2 TCe 125 4x4 (HSAU)",
+                "constructionYearFrom": "10.2013",
+                "enginePowerKW": 92,
+                "enginePowerHP": 125,
+                "cc": 1197,
+                "engineCodes": "H5F 410",
+                "kbaNumbers": "8212AEF",
+                "bodyType": "SUV Van",
+                "TecDocID": 119489
+              }
+            ]
+          },
+          {
+            "modelSeries": "LODGY (JS_)",
+            "targets": [
+              {
+                "engine": "1.2 TCe (JSAY, JSM0)",
+                "fullName": "DACIA LODGY (JS_) 1.2 TCe (JSAY, JSM0)",
+                "constructionYearFrom": "03.2012",
+                "enginePowerKW": 85,
+                "enginePowerHP": 115,
+                "cc": 1197,
+                "engineCodes": "H5F 408, H5F 402",
+                "kbaNumbers": "8212ACX",
+                "bodyType": "MPV",
+                "TecDocID": 57440
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "models": [
+          {
+            "modelSeries": "CITAN Box Body/MPV (W415)",
+            "targets": [
+              {
+                "engine": "112 (415.603)",
+                "fullName": "MERCEDES-BENZ CITAN Box Body/MPV (W415) 112 (415.603)",
+                "constructionYearFrom": "06.2013",
+                "constructionYearTo": "08.2021",
+                "enginePowerKW": 84,
+                "enginePowerHP": 114,
+                "cc": 1197,
+                "engineCodes": "M 200.711",
+                "kbaNumbers": "1313DFD",
+                "bodyType": "Box Body/MPV",
+                "TecDocID": 100170
+              }
+            ]
+          },
+          {
+            "modelSeries": "CITAN MPV (W415)",
+            "targets": [
+              {
+                "engine": "112 (415.703)",
+                "fullName": "MERCEDES-BENZ CITAN MPV (W415) 112 (415.703)",
+                "constructionYearFrom": "06.2013",
+                "constructionYearTo": "08.2021",
+                "enginePowerKW": 84,
+                "enginePowerHP": 114,
+                "cc": 1197,
+                "engineCodes": "M 200.711",
+                "kbaNumbers": "1313DFB",
+                "bodyType": "MPV",
+                "TecDocID": 100182
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "NISSAN",
+        "models": [
+          {
+            "modelSeries": "JUKE (F15)",
+            "targets": [
+              {
+                "engine": "1.2 DIG-T",
+                "fullName": "NISSAN JUKE (F15) 1.2 DIG-T",
+                "constructionYearFrom": "05.2014",
+                "constructionYearTo": "12.2019",
+                "enginePowerKW": 85,
+                "enginePowerHP": 115,
+                "cc": 1197,
+                "engineCodes": "HRA2DDT",
+                "kbaNumbers": "1329AID",
+                "bodyType": "SUV",
+                "TecDocID": 106276
+              }
+            ]
+          },
+          {
+            "modelSeries": "PULSAR Hatchback (C13) | SYLPHY | TIIDA",
+            "targets": [
+              {
+                "engine": "1.2 DIG-T",
+                "fullName": "NISSAN PULSAR Hatchback (C13) | SYLPHY | TIIDA 1.2 DIG-T",
+                "constructionYearFrom": "10.2014",
+                "enginePowerKW": 85,
+                "enginePowerHP": 115,
+                "cc": 1197,
+                "engineCodes": "HRA2DDT",
+                "kbaNumbers": "1329AIQ",
+                "bodyType": "Hatchback",
+                "TecDocID": 107484
+              }
+            ]
+          },
+          {
+            "modelSeries": "QASHQAI II (J11, J11_) | ROGUE SPORT | KICKS",
+            "targets": [
+              {
+                "engine": "1.2 DIG-T",
+                "fullName": "NISSAN QASHQAI II (J11, J11_) | ROGUE SPORT | KICKS 1.2 DIG-T",
+                "constructionYearFrom": "11.2013",
+                "enginePowerKW": 85,
+                "enginePowerHP": 115,
+                "cc": 1197,
+                "engineCodes": "HRA2DDT",
+                "kbaNumbers": "1329AHQ",
+                "bodyType": "SUV",
+                "TecDocID": 100506
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "models": [
+          {
+            "modelSeries": "CAPTUR I (J5_, H5_)",
+            "targets": [
+              {
+                "engine": "1.2 TCe 120",
+                "fullName": "RENAULT CAPTUR I (J5_, H5_) 1.2 TCe 120",
+                "constructionYearFrom": "06.2013",
+                "enginePowerKW": 88,
+                "enginePowerHP": 120,
+                "cc": 1197,
+                "engineCodes": "H5F 403",
+                "kbaNumbers": "3333BBK",
+                "bodyType": "Hatchback",
+                "TecDocID": 59002
+              },
+              {
+                "engine": "1.2 TCe 120",
+                "fullName": "RENAULT CAPTUR I (J5_, H5_) 1.2 TCe 120",
+                "constructionYearFrom": "01.2016",
+                "enginePowerKW": 87,
+                "enginePowerHP": 118,
+                "cc": 1197,
+                "engineCodes": "H5F 412, H5F 408",
+                "kbaNumbers": "3333BEF",
+                "bodyType": "Hatchback",
+                "TecDocID": 119493
+              }
+            ]
+          },
+          {
+            "modelSeries": "CLIO IV (BH_) | CLIO MIO | LUTECIA",
+            "targets": [
+              {
+                "engine": "1.2 TCe 120 (BHAU)",
+                "fullName": "RENAULT CLIO IV (BH_) | CLIO MIO | LUTECIA 1.2 TCe 120 (BHAU)",
+                "constructionYearFrom": "01.2016",
+                "constructionYearTo": "08.2021",
+                "enginePowerKW": 87,
+                "enginePowerHP": 118,
+                "cc": 1197,
+                "engineCodes": "H5F 412, H5F 408",
+                "kbaNumbers": "3333BEF",
+                "bodyType": "Hatchback",
+                "TecDocID": 119495
+              },
+              {
+                "engine": "1.2 TCe 120 (BHM0)",
+                "fullName": "RENAULT CLIO IV (BH_) | CLIO MIO | LUTECIA 1.2 TCe 120 (BHM0)",
+                "constructionYearFrom": "03.2013",
+                "constructionYearTo": "08.2021",
+                "enginePowerKW": 88,
+                "enginePowerHP": 120,
+                "cc": 1197,
+                "engineCodes": "H5F 403",
+                "kbaNumbers": "3333BBK",
+                "bodyType": "Hatchback",
+                "TecDocID": 58898
+              }
+            ]
+          },
+          {
+            "modelSeries": "CLIO IV Grandtour (KH_)",
+            "targets": [
+              {
+                "engine": "1.2 TCe 120 (KHAU)",
+                "fullName": "RENAULT CLIO IV Grandtour (KH_) 1.2 TCe 120 (KHAU)",
+                "constructionYearFrom": "01.2016",
+                "constructionYearTo": "08.2021",
+                "enginePowerKW": 87,
+                "enginePowerHP": 118,
+                "cc": 1197,
+                "engineCodes": "H5F 408, H5F 412",
+                "kbaNumbers": "3333BEL",
+                "bodyType": "Estate",
+                "TecDocID": 119497
+              },
+              {
+                "engine": "1.2 TCe 120 (KHM0)",
+                "fullName": "RENAULT CLIO IV Grandtour (KH_) 1.2 TCe 120 (KHM0)",
+                "constructionYearFrom": "03.2013",
+                "constructionYearTo": "08.2021",
+                "enginePowerKW": 88,
+                "enginePowerHP": 120,
+                "cc": 1197,
+                "engineCodes": "H5F 403",
+                "kbaNumbers": "3333BBL",
+                "bodyType": "Estate",
+                "TecDocID": 58899
+              }
+            ]
+          },
+          {
+            "modelSeries": "GRAND SCÉNIC III (JZ0/1_)",
+            "targets": [
+              {
+                "engine": "1.2 TCe (JZ11, JZ28)",
+                "fullName": "RENAULT GRAND SCÉNIC III (JZ0/1_) 1.2 TCe (JZ11, JZ28)",
+                "constructionYearFrom": "04.2012",
+                "constructionYearTo": "09.2016",
+                "enginePowerKW": 85,
+                "enginePowerHP": 116,
+                "cc": 1197,
+                "engineCodes": "H5F 400",
+                "kbaNumbers": "3333AZT, 3333AZU",
+                "bodyType": "MPV",
+                "TecDocID": 57394
+              },
+              {
+                "engine": "1.2 TCe (JZ16)",
+                "fullName": "RENAULT GRAND SCÉNIC III (JZ0/1_) 1.2 TCe (JZ16)",
+                "constructionYearFrom": "01.2013",
+                "constructionYearTo": "09.2016",
+                "enginePowerKW": 97,
+                "enginePowerHP": 132,
+                "cc": 1197,
+                "engineCodes": "H5F 404",
+                "kbaNumbers": "3333BBE, 3333BBF",
+                "bodyType": "MPV",
+                "TecDocID": 59335
+              },
+              {
+                "engine": "1.2 TCe (JZ28)",
+                "fullName": "RENAULT GRAND SCÉNIC III (JZ0/1_) 1.2 TCe (JZ28)",
+                "constructionYearFrom": "07.2014",
+                "constructionYearTo": "09.2016",
+                "enginePowerKW": 96,
+                "enginePowerHP": 131,
+                "cc": 1197,
+                "engineCodes": "H5F 408",
+                "kbaNumbers": "",
+                "bodyType": "MPV",
+                "TecDocID": 133852
+              }
+            ]
+          },
+          {
+            "modelSeries": "GRAND SCÉNIC IV (R9_)",
+            "targets": [
+              {
+                "engine": "1.2 TCe 115",
+                "fullName": "RENAULT GRAND SCÉNIC IV (R9_) 1.2 TCe 115",
+                "constructionYearFrom": "09.2016",
+                "constructionYearTo": "03.2023",
+                "enginePowerKW": 85,
+                "enginePowerHP": 115,
+                "cc": 1198,
+                "engineCodes": "H5F 408",
+                "kbaNumbers": "3333BFJ",
+                "bodyType": "MPV",
+                "TecDocID": 122139
+              },
+              {
+                "engine": "1.2 TCe 130",
+                "fullName": "RENAULT GRAND SCÉNIC IV (R9_) 1.2 TCe 130",
+                "constructionYearFrom": "09.2016",
+                "constructionYearTo": "03.2023",
+                "enginePowerKW": 96,
+                "enginePowerHP": 130,
+                "cc": 1198,
+                "engineCodes": "H5F 408",
+                "kbaNumbers": "3333BFK",
+                "bodyType": "MPV",
+                "TecDocID": 122136
+              }
+            ]
+          },
+          {
+            "modelSeries": "KADJAR (HA_, HL_)",
+            "targets": [
+              {
+                "engine": "1.2 TCe 130 (HLMR)",
+                "fullName": "RENAULT KADJAR (HA_, HL_) 1.2 TCe 130 (HLMR)",
+                "constructionYearFrom": "06.2015",
+                "enginePowerKW": 96,
+                "enginePowerHP": 130,
+                "cc": 1197,
+                "engineCodes": "H5F 408",
+                "kbaNumbers": "3333BDW",
+                "bodyType": "SUV",
+                "TecDocID": 111760
+              }
+            ]
+          },
+          {
+            "modelSeries": "KANGOO / GRAND KANGOO II (KW0/1_)",
+            "targets": [
+              {
+                "engine": "1.2 TCe 115 (KW02, KW14)",
+                "fullName": "RENAULT KANGOO / GRAND KANGOO II (KW0/1_) 1.2 TCe 115 (KW02, KW14)",
+                "constructionYearFrom": "07.2013",
+                "enginePowerKW": 84,
+                "enginePowerHP": 115,
+                "cc": 1197,
+                "engineCodes": "H5F 412, H5F 408, H5F 400",
+                "kbaNumbers": "3333BCC, 3333BFG",
+                "bodyType": "MPV",
+                "TecDocID": 53303
+              }
+            ]
+          },
+          {
+            "modelSeries": "KANGOO Express (FW0/1_)",
+            "targets": [
+              {
+                "engine": "1.2 TCe 115 (FW02, FW14)",
+                "fullName": "RENAULT KANGOO Express (FW0/1_) 1.2 TCe 115 (FW02, FW14)",
+                "constructionYearFrom": "07.2013",
+                "enginePowerKW": 84,
+                "enginePowerHP": 115,
+                "cc": 1197,
+                "engineCodes": "H5F 408, H5F 412, H5F 400",
+                "kbaNumbers": "3333BCD",
+                "bodyType": "Box Body/MPV",
+                "TecDocID": 53301
+              }
+            ]
+          },
+          {
+            "modelSeries": "MEGANE CC (EZ0/1_)",
+            "targets": [
+              {
+                "engine": "1.2 TCe",
+                "fullName": "RENAULT MEGANE CC (EZ0/1_) 1.2 TCe",
+                "constructionYearFrom": "09.2012",
+                "constructionYearTo": "08.2015",
+                "enginePowerKW": 85,
+                "enginePowerHP": 116,
+                "cc": 1198,
+                "engineCodes": "H5F 400",
+                "kbaNumbers": "",
+                "bodyType": "Convertible",
+                "TecDocID": 129891
+              },
+              {
+                "engine": "1.2 TCe (EZ16)",
+                "fullName": "RENAULT MEGANE CC (EZ0/1_) 1.2 TCe (EZ16)",
+                "constructionYearFrom": "01.2013",
+                "constructionYearTo": "08.2015",
+                "enginePowerKW": 97,
+                "enginePowerHP": 132,
+                "cc": 1197,
+                "engineCodes": "H5F 404",
+                "kbaNumbers": "3333BBI",
+                "bodyType": "Convertible",
+                "TecDocID": 59338
+              }
+            ]
+          },
+          {
+            "modelSeries": "MEGANE III Coupe (DZ0/1_)",
+            "targets": [
+              {
+                "engine": "1.2 TCe (DZ16, DZ28)",
+                "fullName": "RENAULT MEGANE III Coupe (DZ0/1_) 1.2 TCe (DZ16, DZ28)",
+                "constructionYearFrom": "01.2013",
+                "constructionYearTo": "08.2015",
+                "enginePowerKW": 97,
+                "enginePowerHP": 132,
+                "cc": 1197,
+                "engineCodes": "H5F 405, H5F 412, H5F 404",
+                "kbaNumbers": "3333BBH",
+                "bodyType": "Coupe",
+                "TecDocID": 59339
+              },
+              {
+                "engine": "1.2 TCe (DZ2B, DZ11)",
+                "fullName": "RENAULT MEGANE III Coupe (DZ0/1_) 1.2 TCe (DZ2B, DZ11)",
+                "constructionYearFrom": "03.2012",
+                "constructionYearTo": "08.2015",
+                "enginePowerKW": 85,
+                "enginePowerHP": 116,
+                "cc": 1198,
+                "engineCodes": "H5F 408, H5F 400",
+                "kbaNumbers": "3333AZR",
+                "bodyType": "Coupe",
+                "TecDocID": 15530
+              }
+            ]
+          },
+          {
+            "modelSeries": "MEGANE III Grandtour (KZ0/1) | GRAN TOUR",
+            "targets": [
+              {
+                "engine": "1.2 TCe (KZ16, KZ28)",
+                "fullName": "RENAULT MEGANE III Grandtour (KZ0/1) | GRAN TOUR 1.2 TCe (KZ16, KZ28)",
+                "constructionYearFrom": "01.2013",
+                "constructionYearTo": "01.2016",
+                "enginePowerKW": 97,
+                "enginePowerHP": 132,
+                "cc": 1197,
+                "engineCodes": "H5F 405, H5F 412, H5F 404",
+                "kbaNumbers": "3333BBJ",
+                "bodyType": "Estate",
+                "TecDocID": 59340
+              },
+              {
+                "engine": "1.2 TCe (KZ2B, KZ11)",
+                "fullName": "RENAULT MEGANE III Grandtour (KZ0/1) | GRAN TOUR 1.2 TCe (KZ2B, KZ11)",
+                "constructionYearFrom": "03.2012",
+                "constructionYearTo": "08.2015",
+                "enginePowerKW": 85,
+                "enginePowerHP": 116,
+                "cc": 1198,
+                "engineCodes": "H5F 408, H5F 400",
+                "kbaNumbers": "3333AZS",
+                "bodyType": "Estate",
+                "TecDocID": 16211
+              }
+            ]
+          },
+          {
+            "modelSeries": "MEGANE III Hatchback (BZ0/1_, B3_)",
+            "targets": [
+              {
+                "engine": "1.2 TCe (BZ16, BZ28)",
+                "fullName": "RENAULT MEGANE III Hatchback (BZ0/1_, B3_) 1.2 TCe (BZ16, BZ28)",
+                "constructionYearFrom": "01.2013",
+                "constructionYearTo": "01.2016",
+                "enginePowerKW": 97,
+                "enginePowerHP": 132,
+                "cc": 1197,
+                "engineCodes": "H5F 405, H5F 412, H5F 404",
+                "kbaNumbers": "3333BBG",
+                "bodyType": "Hatchback",
+                "TecDocID": 59341
+              },
+              {
+                "engine": "1.2 TCe (BZ2B, BZ11)",
+                "fullName": "RENAULT MEGANE III Hatchback (BZ0/1_, B3_) 1.2 TCe (BZ2B, BZ11)",
+                "constructionYearFrom": "03.2012",
+                "constructionYearTo": "08.2015",
+                "enginePowerKW": 85,
+                "enginePowerHP": 116,
+                "cc": 1198,
+                "engineCodes": "H5F 408, H5F 400",
+                "kbaNumbers": "3333AZQ",
+                "bodyType": "Hatchback",
+                "TecDocID": 16982
+              }
+            ]
+          },
+          {
+            "modelSeries": "MEGANE IV Grandtour (K9A/M/N_)",
+            "targets": [
+              {
+                "engine": "1.2 TCe 100",
+                "fullName": "RENAULT MEGANE IV Grandtour (K9A/M/N_) 1.2 TCe 100",
+                "constructionYearFrom": "04.2016",
+                "enginePowerKW": 74,
+                "enginePowerHP": 100,
+                "cc": 1197,
+                "engineCodes": "H5F 408",
+                "kbaNumbers": "3333BFS",
+                "bodyType": "Estate",
+                "TecDocID": 120272
+              },
+              {
+                "engine": "1.2 TCe 130 (K9MR)",
+                "fullName": "RENAULT MEGANE IV Grandtour (K9A/M/N_) 1.2 TCe 130 (K9MR)",
+                "constructionYearFrom": "04.2016",
+                "enginePowerKW": 97,
+                "enginePowerHP": 130,
+                "cc": 1197,
+                "engineCodes": "H5F 408",
+                "kbaNumbers": "3333BFR",
+                "bodyType": "Estate",
+                "TecDocID": 120273
+              }
+            ]
+          },
+          {
+            "modelSeries": "MEGANE IV Hatchback (B9A/M/N_) | MEGANE III",
+            "targets": [
+              {
+                "engine": "1.2 TCe 100 (B9MS)",
+                "fullName": "RENAULT MEGANE IV Hatchback (B9A/M/N_) | MEGANE III 1.2 TCe 100 (B9MS)",
+                "constructionYearFrom": "11.2015",
+                "enginePowerKW": 74,
+                "enginePowerHP": 100,
+                "cc": 1197,
+                "engineCodes": "H5F 408",
+                "kbaNumbers": "3333BFF",
+                "bodyType": "Hatchback",
+                "TecDocID": 117852
+              },
+              {
+                "engine": "1.2 TCe 130 (B9MR)",
+                "fullName": "RENAULT MEGANE IV Hatchback (B9A/M/N_) | MEGANE III 1.2 TCe 130 (B9MR)",
+                "constructionYearFrom": "11.2015",
+                "enginePowerKW": 97,
+                "enginePowerHP": 130,
+                "cc": 1197,
+                "engineCodes": "H5F 408",
+                "kbaNumbers": "3333BEU",
+                "bodyType": "Hatchback",
+                "TecDocID": 117850
+              }
+            ]
+          },
+          {
+            "modelSeries": "MEGANE IV Saloon",
+            "targets": [
+              {
+                "engine": "1.2 Tce 130",
+                "fullName": "RENAULT MEGANE IV Saloon 1.2 Tce 130",
+                "constructionYearFrom": "10.2016",
+                "enginePowerKW": 97,
+                "enginePowerHP": 130,
+                "cc": 1197,
+                "engineCodes": "H5F 408",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 128575
+              }
+            ]
+          },
+          {
+            "modelSeries": "SCÉNIC III (JZ0/1_)",
+            "targets": [
+              {
+                "engine": "1.2 TCe",
+                "fullName": "RENAULT SCÉNIC III (JZ0/1_) 1.2 TCe",
+                "constructionYearFrom": "04.2012",
+                "constructionYearTo": "09.2016",
+                "enginePowerKW": 85,
+                "enginePowerHP": 116,
+                "cc": 1197,
+                "engineCodes": "H5F 400",
+                "kbaNumbers": "3333AZT",
+                "bodyType": "MPV",
+                "TecDocID": 57393
+              },
+              {
+                "engine": "1.2 TCe",
+                "fullName": "RENAULT SCÉNIC III (JZ0/1_) 1.2 TCe",
+                "constructionYearFrom": "07.2014",
+                "constructionYearTo": "09.2016",
+                "enginePowerKW": 96,
+                "enginePowerHP": 131,
+                "cc": 1197,
+                "engineCodes": "H5F 408",
+                "kbaNumbers": "",
+                "bodyType": "MPV",
+                "TecDocID": 133854
+              },
+              {
+                "engine": "1.2 TCe (JZ16)",
+                "fullName": "RENAULT SCÉNIC III (JZ0/1_) 1.2 TCe (JZ16)",
+                "constructionYearFrom": "01.2013",
+                "constructionYearTo": "09.2016",
+                "enginePowerKW": 97,
+                "enginePowerHP": 132,
+                "cc": 1197,
+                "engineCodes": "H5F 408, H5F 404",
+                "kbaNumbers": "3333BBE",
+                "bodyType": "MPV",
+                "TecDocID": 59342
+              }
+            ]
+          },
+          {
+            "modelSeries": "SCÉNIC IV (J9_)",
+            "targets": [
+              {
+                "engine": "1.2 TCe 115",
+                "fullName": "RENAULT SCÉNIC IV (J9_) 1.2 TCe 115",
+                "constructionYearFrom": "09.2016",
+                "constructionYearTo": "07.2022",
+                "enginePowerKW": 85,
+                "enginePowerHP": 115,
+                "cc": 1198,
+                "engineCodes": "H5F 408",
+                "kbaNumbers": "3333BFJ",
+                "bodyType": "MPV",
+                "TecDocID": 122138
+              },
+              {
+                "engine": "1.2 TCe 130",
+                "fullName": "RENAULT SCÉNIC IV (J9_) 1.2 TCe 130",
+                "constructionYearFrom": "09.2016",
+                "constructionYearTo": "07.2022",
+                "enginePowerKW": 96,
+                "enginePowerHP": 130,
+                "cc": 1197,
+                "engineCodes": "H5F 408",
+                "kbaNumbers": "3333BFK",
+                "bodyType": "MPV",
+                "TecDocID": 122135
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7050010",
+    "crossNumber": "FVD1117",
+    "brand": "FAI",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "AUDI",
+        "models": [
+          {
+            "modelSeries": "A4 B9 (8W2, 8WC) | A4 / S4",
+            "targets": [
+              {
+                "engine": "35 TDI Mild Hybrid",
+                "fullName": "AUDI A4 B9 (8W2, 8WC) | A4 / S4 35 TDI Mild Hybrid",
+                "constructionYearFrom": "03.2019",
+                "enginePowerKW": 120,
+                "enginePowerHP": 163,
+                "cc": 1968,
+                "engineCodes": "DEZE, DTNA",
+                "kbaNumbers": "0588BPJ",
+                "bodyType": "Saloon",
+                "TecDocID": 137090
+              }
+            ]
+          },
+          {
+            "modelSeries": "A4 B9 Avant (8W5, 8WD) | A4 / S4",
+            "targets": [
+              {
+                "engine": "35 TDI Mild Hybrid",
+                "fullName": "AUDI A4 B9 Avant (8W5, 8WD) | A4 / S4 35 TDI Mild Hybrid",
+                "constructionYearFrom": "07.2019",
+                "enginePowerKW": 120,
+                "enginePowerHP": 163,
+                "cc": 1968,
+                "engineCodes": "DEZE, DTNA",
+                "kbaNumbers": "0588BPK",
+                "bodyType": "Estate",
+                "TecDocID": 137335
+              }
+            ]
+          },
+          {
+            "modelSeries": "A5 (F53, F5P) | A5 / S5",
+            "targets": [
+              {
+                "engine": "35 TDI",
+                "fullName": "AUDI A5 (F53, F5P) | A5 / S5 35 TDI",
+                "constructionYearFrom": "08.2019",
+                "enginePowerKW": 120,
+                "enginePowerHP": 163,
+                "cc": 1968,
+                "engineCodes": "DEZE, DTNA",
+                "kbaNumbers": "0588BPM",
+                "bodyType": "Coupe",
+                "TecDocID": 137745
+              }
+            ]
+          },
+          {
+            "modelSeries": "A5 Convertible (F57, F5E) | A5 / S5",
+            "targets": [
+              {
+                "engine": "35 TDI",
+                "fullName": "AUDI A5 Convertible (F57, F5E) | A5 / S5 35 TDI",
+                "constructionYearFrom": "10.2019",
+                "enginePowerKW": 120,
+                "enginePowerHP": 163,
+                "cc": 1968,
+                "engineCodes": "DEZE, DTNA",
+                "kbaNumbers": "0588BPL",
+                "bodyType": "Convertible",
+                "TecDocID": 138240
+              }
+            ]
+          },
+          {
+            "modelSeries": "A5 Sportback (F5A, F5F) | A5 / S5",
+            "targets": [
+              {
+                "engine": "35 TDI",
+                "fullName": "AUDI A5 Sportback (F5A, F5F) | A5 / S5 35 TDI",
+                "constructionYearFrom": "08.2019",
+                "enginePowerKW": 120,
+                "enginePowerHP": 163,
+                "cc": 1968,
+                "engineCodes": "DEZE, DTNA",
+                "kbaNumbers": "0588BPN",
+                "bodyType": "Hatchback",
+                "TecDocID": 137746
+              }
+            ]
+          },
+          {
+            "modelSeries": "A6 C8 (4A2)",
+            "targets": [
+              {
+                "engine": "30 TDI Mild Hybrid",
+                "fullName": "AUDI A6 C8 (4A2) 30 TDI Mild Hybrid",
+                "constructionYearFrom": "01.2019",
+                "enginePowerKW": 100,
+                "enginePowerHP": 136,
+                "cc": 1968,
+                "engineCodes": "DEZF",
+                "kbaNumbers": "0588BSP, 0588BTM",
+                "bodyType": "Saloon",
+                "TecDocID": 140394
+              },
+              {
+                "engine": "35 TDI Mild Hybrid",
+                "fullName": "AUDI A6 C8 (4A2) 35 TDI Mild Hybrid",
+                "constructionYearFrom": "03.2019",
+                "enginePowerKW": 120,
+                "enginePowerHP": 163,
+                "cc": 1968,
+                "engineCodes": "DEZD, DTPB",
+                "kbaNumbers": "0588BTL, 0588BQF",
+                "bodyType": "Saloon",
+                "TecDocID": 136135
+              },
+              {
+                "engine": "40 TDI Mild Hybrid",
+                "fullName": "AUDI A6 C8 (4A2) 40 TDI Mild Hybrid",
+                "constructionYearFrom": "07.2018",
+                "enginePowerKW": 150,
+                "enginePowerHP": 204,
+                "cc": 1968,
+                "engineCodes": "DFBA, DTPA",
+                "kbaNumbers": "0588BMY, 0588BTN",
+                "bodyType": "Saloon",
+                "TecDocID": 132329
+              },
+              {
+                "engine": "40 TDI Mild Hybrid quattro",
+                "fullName": "AUDI A6 C8 (4A2) 40 TDI Mild Hybrid quattro",
+                "constructionYearFrom": "07.2018",
+                "enginePowerKW": 150,
+                "enginePowerHP": 204,
+                "cc": 1968,
+                "engineCodes": "DTPA, DFBA",
+                "kbaNumbers": "0588BTO, 0588BND",
+                "bodyType": "Saloon",
+                "TecDocID": 143623
+              }
+            ]
+          },
+          {
+            "modelSeries": "A6 C8 Avant (4A5) | A6 / S6",
+            "targets": [
+              {
+                "engine": "30 TDI Mild Hybrid",
+                "fullName": "AUDI A6 C8 Avant (4A5) | A6 / S6 30 TDI Mild Hybrid",
+                "constructionYearFrom": "01.2019",
+                "enginePowerKW": 100,
+                "enginePowerHP": 136,
+                "cc": 1968,
+                "engineCodes": "DEZF",
+                "kbaNumbers": "0588BSO, 0588BSY",
+                "bodyType": "Estate",
+                "TecDocID": 140393
+              },
+              {
+                "engine": "35 TDI Mild Hybrid",
+                "fullName": "AUDI A6 C8 Avant (4A5) | A6 / S6 35 TDI Mild Hybrid",
+                "constructionYearFrom": "03.2019",
+                "enginePowerKW": 120,
+                "enginePowerHP": 163,
+                "cc": 1968,
+                "engineCodes": "DEZD, DTPB",
+                "kbaNumbers": "0588BSX, 0588BQD",
+                "bodyType": "Estate",
+                "TecDocID": 136136
+              },
+              {
+                "engine": "40 TDI Mild Hybrid",
+                "fullName": "AUDI A6 C8 Avant (4A5) | A6 / S6 40 TDI Mild Hybrid",
+                "constructionYearFrom": "05.2018",
+                "enginePowerKW": 150,
+                "enginePowerHP": 204,
+                "cc": 1968,
+                "engineCodes": "DFBA, DTPA",
+                "kbaNumbers": "0588BSZ, 0588BNE",
+                "bodyType": "Estate",
+                "TecDocID": 132330
+              },
+              {
+                "engine": "40 TDI Mild Hybrid quattro",
+                "fullName": "AUDI A6 C8 Avant (4A5) | A6 / S6 40 TDI Mild Hybrid quattro",
+                "constructionYearFrom": "07.2018",
+                "enginePowerKW": 150,
+                "enginePowerHP": 204,
+                "cc": 1968,
+                "engineCodes": "DFBA, DTPA",
+                "kbaNumbers": "0588BTA, 0588BNF",
+                "bodyType": "Estate",
+                "TecDocID": 132334
+              }
+            ]
+          },
+          {
+            "modelSeries": "A7 Sportback (4KA) | A7 / S7",
+            "targets": [
+              {
+                "engine": "40 TDI Mild Hybrid",
+                "fullName": "AUDI A7 Sportback (4KA) | A7 / S7 40 TDI Mild Hybrid",
+                "constructionYearFrom": "09.2018",
+                "enginePowerKW": 150,
+                "enginePowerHP": 204,
+                "cc": 1968,
+                "engineCodes": "DFBA, DTPA",
+                "kbaNumbers": "0588BTV, 0588BOT",
+                "bodyType": "Hatchback",
+                "TecDocID": 132656
+              },
+              {
+                "engine": "40 TDI Mild Hybrid quattro",
+                "fullName": "AUDI A7 Sportback (4KA) | A7 / S7 40 TDI Mild Hybrid quattro",
+                "constructionYearFrom": "09.2018",
+                "enginePowerKW": 150,
+                "enginePowerHP": 204,
+                "cc": 1968,
+                "engineCodes": "DFBA, DTPA",
+                "kbaNumbers": "0588BTW, 0588BOU",
+                "bodyType": "Hatchback",
+                "TecDocID": 135719
+              }
+            ]
+          },
+          {
+            "modelSeries": "Q3 (8UB, 8UG)",
+            "targets": [
+              {
+                "engine": "2.0 TDI",
+                "fullName": "AUDI Q3 (8UB, 8UG) 2.0 TDI",
+                "constructionYearFrom": "05.2015",
+                "constructionYearTo": "10.2018",
+                "enginePowerKW": 135,
+                "enginePowerHP": 184,
+                "cc": 1968,
+                "engineCodes": "DFUA, CUWA",
+                "kbaNumbers": "0588BEK, 0588BEN",
+                "bodyType": "SUV",
+                "TecDocID": 113346
+              },
+              {
+                "engine": "2.0 TDI quattro",
+                "fullName": "AUDI Q3 (8UB, 8UG) 2.0 TDI quattro",
+                "constructionYearFrom": "11.2014",
+                "constructionYearTo": "10.2018",
+                "enginePowerKW": 135,
+                "enginePowerHP": 184,
+                "cc": 1968,
+                "engineCodes": "DFUA, CYLA, CUWA",
+                "kbaNumbers": "0588BCU, 0588BDK",
+                "bodyType": "SUV",
+                "TecDocID": 109422
+              }
+            ]
+          },
+          {
+            "modelSeries": "Q5 (FYB, FYG)",
+            "targets": [
+              {
+                "engine": "35 TDI Mild Hybrid",
+                "fullName": "AUDI Q5 (FYB, FYG) 35 TDI Mild Hybrid",
+                "constructionYearFrom": "09.2019",
+                "enginePowerKW": 120,
+                "enginePowerHP": 163,
+                "cc": 1968,
+                "engineCodes": "DEZE, DTNA",
+                "kbaNumbers": "0588BQC",
+                "bodyType": "SUV",
+                "TecDocID": 138857
+              },
+              {
+                "engine": "40 TDI Mild Hybrid quattro",
+                "fullName": "AUDI Q5 (FYB, FYG) 40 TDI Mild Hybrid quattro",
+                "constructionYearFrom": "09.2019",
+                "enginePowerKW": 150,
+                "enginePowerHP": 204,
+                "cc": 1968,
+                "engineCodes": "DFBA, DTPA",
+                "kbaNumbers": "0588BQW, 0588BQX",
+                "bodyType": "SUV",
+                "TecDocID": 138858
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "MAN",
+        "models": [
+          {
+            "modelSeries": "TGE Platform/Chassis (UZ_)",
+            "targets": [
+              {
+                "engine": "2.0 TDI RWD",
+                "fullName": "MAN TGE Platform/Chassis (UZ_) 2.0 TDI RWD",
+                "constructionYearFrom": "07.2017",
+                "constructionYearTo": "06.2024",
+                "enginePowerKW": 130,
+                "enginePowerHP": 177,
+                "cc": 1968,
+                "engineCodes": "DAWA",
+                "kbaNumbers": "1516AYT, 1516AZD, 1516BAP, 1516BAS",
+                "bodyType": "Platform/Chassis",
+                "TecDocID": 128982
+              },
+              {
+                "engine": "2.0 TDI RWD",
+                "fullName": "MAN TGE Platform/Chassis (UZ_) 2.0 TDI RWD",
+                "constructionYearFrom": "08.2017",
+                "constructionYearTo": "12.2021",
+                "enginePowerKW": 90,
+                "enginePowerHP": 122,
+                "cc": 1968,
+                "engineCodes": "DASA",
+                "kbaNumbers": "1516BCN, 1516BCO, 1516BJT, 1516BJU",
+                "bodyType": "Platform/Chassis",
+                "TecDocID": 128960
+              },
+              {
+                "engine": "2.0 TDI RWD (UZB, UZC, UZD, 14V, 29V, UZH, UZI, 18V, 30V...",
+                "fullName": "MAN TGE Platform/Chassis (UZ_) 2.0 TDI RWD (UZB, UZC, UZD, 14V, 29V, UZH, UZI, 18V, 30V...",
+                "constructionYearFrom": "11.2017",
+                "enginePowerKW": 103,
+                "enginePowerHP": 140,
+                "cc": 1968,
+                "engineCodes": "DREB, DASB",
+                "kbaNumbers": "1516AYS, 1516AZC, 1516BSH, 1516BSF",
+                "bodyType": "Platform/Chassis",
+                "TecDocID": 128981
+              }
+            ]
+          },
+          {
+            "modelSeries": "TGE Van",
+            "targets": [
+              {
+                "engine": "2.0 TDI RWD (11V, 12V, 33V, 34V, UYB, UYC, UYD)",
+                "fullName": "MAN TGE Van 2.0 TDI RWD (11V, 12V, 33V, 34V, UYB, UYC, UYD)",
+                "constructionYearFrom": "05.2017",
+                "constructionYearTo": "06.2024",
+                "enginePowerKW": 130,
+                "enginePowerHP": 177,
+                "cc": 1968,
+                "engineCodes": "DAWA",
+                "kbaNumbers": "1516AYY, 1516BAR, 1516AYO, 1516BAQ",
+                "bodyType": "Van",
+                "TecDocID": 128980
+              },
+              {
+                "engine": "2.0 TDI RWD (11V, 12V, 33V, 34V, UYB, UYC, UYD)",
+                "fullName": "MAN TGE Van 2.0 TDI RWD (11V, 12V, 33V, 34V, UYB, UYC, UYD)",
+                "constructionYearFrom": "08.2017",
+                "constructionYearTo": "12.2021",
+                "enginePowerKW": 90,
+                "enginePowerHP": 122,
+                "cc": 1968,
+                "engineCodes": "DASA",
+                "kbaNumbers": "1516BCL, 1516BCM, 1516BJV, 1516BJW",
+                "bodyType": "Van",
+                "TecDocID": 128959
+              },
+              {
+                "engine": "2.0 TDI RWD (11V, 12V, UYB, UYC, UYD)",
+                "fullName": "MAN TGE Van 2.0 TDI RWD (11V, 12V, UYB, UYC, UYD)",
+                "constructionYearFrom": "10.2017",
+                "enginePowerKW": 103,
+                "enginePowerHP": 140,
+                "cc": 1968,
+                "engineCodes": "DREB, DASB",
+                "kbaNumbers": "1516AYN, 1516AYX, 1516BSD, 1516BSJ",
+                "bodyType": "Van",
+                "TecDocID": 128979
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "models": [
+          {
+            "modelSeries": "ALHAMBRA (710, 711)",
+            "targets": [
+              {
+                "engine": "2.0 TDI",
+                "fullName": "SEAT ALHAMBRA (710, 711) 2.0 TDI",
+                "constructionYearFrom": "05.2015",
+                "constructionYearTo": "12.2022",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1968,
+                "engineCodes": "DLTA, CUVC, DFLA",
+                "kbaNumbers": "7593ALK, 7593ALL",
+                "bodyType": "MPV",
+                "TecDocID": 115487
+              },
+              {
+                "engine": "2.0 TDI 4Drive",
+                "fullName": "SEAT ALHAMBRA (710, 711) 2.0 TDI 4Drive",
+                "constructionYearFrom": "05.2015",
+                "constructionYearTo": "12.2022",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1968,
+                "engineCodes": "CUVC, DFLA, DLTA",
+                "kbaNumbers": "7593ALZ, 7593AMA",
+                "bodyType": "MPV",
+                "TecDocID": 115490
+              }
+            ]
+          },
+          {
+            "modelSeries": "ALHAMBRA VAN (711)",
+            "targets": [
+              {
+                "engine": "TDI",
+                "fullName": "SEAT ALHAMBRA VAN (711) TDI",
+                "constructionYearFrom": "05.2015",
+                "constructionYearTo": "12.2022",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1968,
+                "engineCodes": "CUVC, DFLA",
+                "kbaNumbers": "7593AMB",
+                "bodyType": "Box Body/MPV",
+                "TecDocID": 142938
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "models": [
+          {
+            "modelSeries": "KODIAQ I (NS6, NS7, NV7)",
+            "targets": [
+              {
+                "engine": "2.0 TDI",
+                "fullName": "SKODA KODIAQ I (NS6, NS7, NV7) 2.0 TDI",
+                "constructionYearFrom": "07.2018",
+                "enginePowerKW": 85,
+                "enginePowerHP": 116,
+                "cc": 1968,
+                "engineCodes": "DFGC",
+                "kbaNumbers": "8004ARS",
+                "bodyType": "SUV",
+                "TecDocID": 154693
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "models": [
+          {
+            "modelSeries": "CALIFORNIA T6 Camper (SGC, SGG, SHC)",
+            "targets": [
+              {
+                "engine": "2.0 TDI",
+                "fullName": "VW CALIFORNIA T6 Camper (SGC, SGG, SHC) 2.0 TDI",
+                "constructionYearFrom": "06.2015",
+                "constructionYearTo": "08.2024",
+                "enginePowerKW": 150,
+                "enginePowerHP": 204,
+                "cc": 1968,
+                "engineCodes": "CXEB, DMZA",
+                "kbaNumbers": "0603BTO, 0603BVD, 0603BTG, 0603CPX",
+                "bodyType": "Bus",
+                "TecDocID": 145848
+              },
+              {
+                "engine": "2.0 TDI 4motion",
+                "fullName": "VW CALIFORNIA T6 Camper (SGC, SGG, SHC) 2.0 TDI 4motion",
+                "constructionYearFrom": "06.2015",
+                "constructionYearTo": "08.2024",
+                "enginePowerKW": 150,
+                "enginePowerHP": 204,
+                "cc": 1968,
+                "engineCodes": "DMZA, CXEB",
+                "kbaNumbers": "0603BTH, 0603BTP, 0603BVE, 0603CPY",
+                "bodyType": "Bus",
+                "TecDocID": 145851
+              }
+            ]
+          },
+          {
+            "modelSeries": "CRAFTER Platform/Chassis (SZ_)",
+            "targets": [
+              {
+                "engine": "2.0 TDI RWD (SZB, SZC, SZD, SZH, SZI, SZO, SZP, SZQ, SZU...",
+                "fullName": "VW CRAFTER Platform/Chassis (SZ_) 2.0 TDI RWD (SZB, SZC, SZD, SZH, SZI, SZO, SZP, SZQ, SZU...",
+                "constructionYearFrom": "07.2017",
+                "constructionYearTo": "06.2024",
+                "enginePowerKW": 130,
+                "enginePowerHP": 177,
+                "cc": 1968,
+                "engineCodes": "DAWA",
+                "kbaNumbers": "0603CFD, 0603CFA",
+                "bodyType": "Platform/Chassis",
+                "TecDocID": 129177
+              },
+              {
+                "engine": "2.0 TDI RWD (SZB, SZC, SZD, SZH, SZI, SZO, SZP, SZQ, SZU...",
+                "fullName": "VW CRAFTER Platform/Chassis (SZ_) 2.0 TDI RWD (SZB, SZC, SZD, SZH, SZI, SZO, SZP, SZQ, SZU...",
+                "constructionYearFrom": "08.2017",
+                "constructionYearTo": "12.2021",
+                "enginePowerKW": 90,
+                "enginePowerHP": 122,
+                "cc": 1968,
+                "engineCodes": "DASA",
+                "kbaNumbers": "0603CPS, 0603CPU, 0603CFS, 0603CFT",
+                "bodyType": "Platform/Chassis",
+                "TecDocID": 128961
+              },
+              {
+                "engine": "2.0 TDI RWD (SZB, SZC, SZD, SZH, SZI, SZO, SZP, SZQ, SZU...",
+                "fullName": "VW CRAFTER Platform/Chassis (SZ_) 2.0 TDI RWD (SZB, SZC, SZD, SZH, SZI, SZO, SZP, SZQ, SZU...",
+                "constructionYearFrom": "11.2017",
+                "enginePowerKW": 103,
+                "enginePowerHP": 140,
+                "cc": 1968,
+                "engineCodes": "DREB, DASB",
+                "kbaNumbers": "0603CCD, 0603CCN, 0603CRS, 0603CRU",
+                "bodyType": "Platform/Chassis",
+                "TecDocID": 129196
+              },
+              {
+                "engine": "2.0 TDI RWD (SZB, SZC, SZD, SZO, SZP, SZQ, SZU, SZV)",
+                "fullName": "VW CRAFTER Platform/Chassis (SZ_) 2.0 TDI RWD (SZB, SZC, SZD, SZO, SZP, SZQ, SZU, SZV)",
+                "constructionYearFrom": "11.2016",
+                "constructionYearTo": "06.2024",
+                "enginePowerKW": 80,
+                "enginePowerHP": 109,
+                "cc": 1968,
+                "engineCodes": "DASC",
+                "kbaNumbers": "",
+                "bodyType": "Platform/Chassis",
+                "TecDocID": 135129
+              }
+            ]
+          },
+          {
+            "modelSeries": "CRAFTER Van (SY_, SX_)",
+            "targets": [
+              {
+                "engine": "2.0 TDI RWD (SYB, SYC, SYD)",
+                "fullName": "VW CRAFTER Van (SY_, SX_) 2.0 TDI RWD (SYB, SYC, SYD)",
+                "constructionYearFrom": "05.2017",
+                "constructionYearTo": "06.2024",
+                "enginePowerKW": 80,
+                "enginePowerHP": 109,
+                "cc": 1968,
+                "engineCodes": "DASC",
+                "kbaNumbers": "",
+                "bodyType": "Van",
+                "TecDocID": 135117
+              },
+              {
+                "engine": "2.0 TDI RWD (SYB, SYC, SYD)",
+                "fullName": "VW CRAFTER Van (SY_, SX_) 2.0 TDI RWD (SYB, SYC, SYD)",
+                "constructionYearFrom": "05.2017",
+                "constructionYearTo": "06.2024",
+                "enginePowerKW": 130,
+                "enginePowerHP": 177,
+                "cc": 1968,
+                "engineCodes": "DAWA",
+                "kbaNumbers": "0603CBZ, 0603CCJ",
+                "bodyType": "Van",
+                "TecDocID": 129166
+              },
+              {
+                "engine": "2.0 TDI RWD (SYB, SYC, SYD)",
+                "fullName": "VW CRAFTER Van (SY_, SX_) 2.0 TDI RWD (SYB, SYC, SYD)",
+                "constructionYearFrom": "08.2017",
+                "constructionYearTo": "12.2021",
+                "enginePowerKW": 90,
+                "enginePowerHP": 122,
+                "cc": 1968,
+                "engineCodes": "DASA",
+                "kbaNumbers": "0603CPT, 0603CPV, 0603CFR, 0603CFQ",
+                "bodyType": "Van",
+                "TecDocID": 128962
+              },
+              {
+                "engine": "2.0 TDI RWD (SYB, SYC, SYD)",
+                "fullName": "VW CRAFTER Van (SY_, SX_) 2.0 TDI RWD (SYB, SYC, SYD)",
+                "constructionYearFrom": "10.2017",
+                "enginePowerKW": 103,
+                "enginePowerHP": 140,
+                "cc": 1968,
+                "engineCodes": "DREB, DASB",
+                "kbaNumbers": "0603CRQ, 0603CCI, 0603CBY, 0603CSA",
+                "bodyType": "Van",
+                "TecDocID": 129195
+              }
+            ]
+          },
+          {
+            "modelSeries": "JETTA IV (162, 163, AV3, AV2) | JETTA / CLASICO | VENTO",
+            "targets": [
+              {
+                "engine": "2.0 TDI",
+                "fullName": "VW JETTA IV (162, 163, AV3, AV2) | JETTA / CLASICO | VENTO 2.0 TDI",
+                "constructionYearFrom": "07.2014",
+                "constructionYearTo": "12.2017",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1968,
+                "engineCodes": "DELA, DGMA, CUUB, CVCA",
+                "kbaNumbers": "0603BQN",
+                "bodyType": "Saloon",
+                "TecDocID": 108132
+              }
+            ]
+          },
+          {
+            "modelSeries": "MULTIVAN T6 (SGF, SGM, SGN, SHM, SHN) | CARAVELLE",
+            "targets": [
+              {
+                "engine": "2.0 TDI",
+                "fullName": "VW MULTIVAN T6 (SGF, SGM, SGN, SHM, SHN) | CARAVELLE 2.0 TDI",
+                "constructionYearFrom": "06.2015",
+                "constructionYearTo": "08.2024",
+                "enginePowerKW": 150,
+                "enginePowerHP": 204,
+                "cc": 1968,
+                "engineCodes": "CXEB, DMZA",
+                "kbaNumbers": "0603BUP",
+                "bodyType": "Bus",
+                "TecDocID": 114883
+              },
+              {
+                "engine": "2.0 TDI 4motion",
+                "fullName": "VW MULTIVAN T6 (SGF, SGM, SGN, SHM, SHN) | CARAVELLE 2.0 TDI 4motion",
+                "constructionYearFrom": "06.2015",
+                "constructionYearTo": "08.2024",
+                "enginePowerKW": 150,
+                "enginePowerHP": 204,
+                "cc": 1968,
+                "engineCodes": "CXEB, DMZA",
+                "kbaNumbers": "0603BUQ",
+                "bodyType": "Bus",
+                "TecDocID": 114888
+              }
+            ]
+          },
+          {
+            "modelSeries": "SHARAN (7N1, 7N2)",
+            "targets": [
+              {
+                "engine": "2.0 TDI",
+                "fullName": "VW SHARAN (7N1, 7N2) 2.0 TDI",
+                "constructionYearFrom": "05.2011",
+                "constructionYearTo": "07.2019",
+                "enginePowerKW": 85,
+                "enginePowerHP": 115,
+                "cc": 1968,
+                "engineCodes": "DFLD, CUVA, CFFE, DLTC",
+                "kbaNumbers": "0603ATS, 0603ATT, 0603BGA",
+                "bodyType": "MPV",
+                "TecDocID": 12089
+              },
+              {
+                "engine": "2.0 TDI",
+                "fullName": "VW SHARAN (7N1, 7N2) 2.0 TDI",
+                "constructionYearFrom": "05.2015",
+                "constructionYearTo": "10.2020",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1968,
+                "engineCodes": "CUVC, DFLA, DLTA",
+                "kbaNumbers": "0603BXP, 0603BVI, 0603BVJ",
+                "bodyType": "MPV",
+                "TecDocID": 115206
+              },
+              {
+                "engine": "2.0 TDI 4motion",
+                "fullName": "VW SHARAN (7N1, 7N2) 2.0 TDI 4motion",
+                "constructionYearFrom": "05.2015",
+                "constructionYearTo": "07.2019",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1968,
+                "engineCodes": "DLTA, DFLA, CUVC",
+                "kbaNumbers": "0603BXQ, 0603BVL, 0603BVK",
+                "bodyType": "MPV",
+                "TecDocID": 115207
+              }
+            ]
+          },
+          {
+            "modelSeries": "TIGUAN (AD1, AX1)",
+            "targets": [
+              {
+                "engine": "2.0 TDI",
+                "fullName": "VW TIGUAN (AD1, AX1) 2.0 TDI",
+                "constructionYearFrom": "05.2016",
+                "constructionYearTo": "07.2019",
+                "enginePowerKW": 85,
+                "enginePowerHP": 115,
+                "cc": 1968,
+                "engineCodes": "DFGC",
+                "kbaNumbers": "0603BZF",
+                "bodyType": "SUV",
+                "TecDocID": 120210
+              }
+            ]
+          },
+          {
+            "modelSeries": "TOURAN (5T1) | GOLF TOURAN",
+            "targets": [
+              {
+                "engine": "2.0 TDI",
+                "fullName": "VW TOURAN (5T1) | GOLF TOURAN 2.0 TDI",
+                "constructionYearFrom": "02.2019",
+                "constructionYearTo": "11.2020",
+                "enginePowerKW": 85,
+                "enginePowerHP": 116,
+                "cc": 1968,
+                "engineCodes": "DFGC",
+                "kbaNumbers": "0603CJM, 0603CJL",
+                "bodyType": "MPV",
+                "TecDocID": 137668
+              }
+            ]
+          },
+          {
+            "modelSeries": "TRANSPORTER T6 / CARAVELLE T6 Bus (SGB, SGJ, SHB, SHJ) | TRANSPORTER / CARAVELLE | KOMBI / TRANSPORTER KOMBI",
+            "targets": [
+              {
+                "engine": "2.0 TDI",
+                "fullName": "VW TRANSPORTER T6 / CARAVELLE T6 Bus (SGB, SGJ, SHB, SHJ) | TRANSPORTER / CARAVELLE | KOMBI / TRANSPORTER KOMBI 2.0 TDI",
+                "constructionYearFrom": "06.2015",
+                "constructionYearTo": "08.2024",
+                "enginePowerKW": 150,
+                "enginePowerHP": 204,
+                "cc": 1968,
+                "engineCodes": "CXEB, DMZA",
+                "kbaNumbers": "0603BUB",
+                "bodyType": "Bus",
+                "TecDocID": 114884
+              },
+              {
+                "engine": "2.0 TDI 4motion",
+                "fullName": "VW TRANSPORTER T6 / CARAVELLE T6 Bus (SGB, SGJ, SHB, SHJ) | TRANSPORTER / CARAVELLE | KOMBI / TRANSPORTER KOMBI 2.0 TDI 4motion",
+                "constructionYearFrom": "06.2015",
+                "constructionYearTo": "08.2024",
+                "enginePowerKW": 150,
+                "enginePowerHP": 204,
+                "cc": 1968,
+                "engineCodes": "CXEB, DMZA",
+                "kbaNumbers": "0603BUC",
+                "bodyType": "Bus",
+                "TecDocID": 114889
+              }
+            ]
+          },
+          {
+            "modelSeries": "TRANSPORTER T6 Platform/Chassis (SFD, SFE, SFL, SFZ, SJD, SJ",
+            "targets": [
+              {
+                "engine": "2.0 TDI",
+                "fullName": "VW TRANSPORTER T6 Platform/Chassis (SFD, SFE, SFL, SFZ, SJD, SJ 2.0 TDI",
+                "constructionYearFrom": "05.2016",
+                "constructionYearTo": "08.2024",
+                "enginePowerKW": 150,
+                "enginePowerHP": 204,
+                "cc": 1968,
+                "engineCodes": "CXEB, DMZA",
+                "kbaNumbers": "0603CBC",
+                "bodyType": "Platform/Chassis",
+                "TecDocID": 120822
+              },
+              {
+                "engine": "2.0 TDI 4motion",
+                "fullName": "VW TRANSPORTER T6 Platform/Chassis (SFD, SFE, SFL, SFZ, SJD, SJ 2.0 TDI 4motion",
+                "constructionYearFrom": "05.2016",
+                "constructionYearTo": "08.2024",
+                "enginePowerKW": 150,
+                "enginePowerHP": 204,
+                "cc": 1968,
+                "engineCodes": "CXEB, DMZA",
+                "kbaNumbers": "0603CBD",
+                "bodyType": "Platform/Chassis",
+                "TecDocID": 120823
+              }
+            ]
+          },
+          {
+            "modelSeries": "TRANSPORTER T6 Van (SGA, SGH, SHA, SHH)",
+            "targets": [
+              {
+                "engine": "2.0 TDI",
+                "fullName": "VW TRANSPORTER T6 Van (SGA, SGH, SHA, SHH) 2.0 TDI",
+                "constructionYearFrom": "06.2015",
+                "constructionYearTo": "08.2024",
+                "enginePowerKW": 150,
+                "enginePowerHP": 204,
+                "cc": 1968,
+                "engineCodes": "CXEB, DMZA",
+                "kbaNumbers": "0603CBA",
+                "bodyType": "Van",
+                "TecDocID": 114886
+              },
+              {
+                "engine": "2.0 TDI 4motion",
+                "fullName": "VW TRANSPORTER T6 Van (SGA, SGH, SHA, SHH) 2.0 TDI 4motion",
+                "constructionYearFrom": "06.2015",
+                "constructionYearTo": "08.2024",
+                "enginePowerKW": 150,
+                "enginePowerHP": 204,
+                "cc": 1968,
+                "engineCodes": "CXEB, DMZA",
+                "kbaNumbers": "0603CBB",
+                "bodyType": "Van",
+                "TecDocID": 114890
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
