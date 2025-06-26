@@ -17,8 +17,8 @@ async function processProducts(processFunction: Function, fileName: string, thre
   const limit = pLimit(threadLimit);
 
   const results = (await Promise.all(
-    //productReferences
-    referenceArray
+    productReferences
+    //referenceArray
       .filter(
         (productRef) =>
           productRef.brand === filterBrand &&               // process only given brand in .env file
@@ -35,17 +35,18 @@ async function processProducts(processFunction: Function, fileName: string, thre
 
 test("Get OE numbers for all products", async () => {
   test.setTimeout(20 * 60 * 1000);
-  await processProducts(processProductFor_OE, `oe-numbers_${filterBrand}_ek.json`, 3, "OE");
+  console.log(`Processing OE numbers for brand: ${filterBrand}`);
+  await processProducts(processProductFor_OE, `oe-numbers_${filterBrand}.json`, 3, "OE");
 });
 
 test("Get Vehicle Compatibility for all products", async () => {
   test.setTimeout(20 * 60 * 1000);
   console.log(`Processing Vehicle Compatibility for brand: ${filterBrand}`);
-  await processProducts(processProductFor_VehicleCompatibility, `Vehicle-Compatibility_${filterBrand}_ek.json`, 3, "Vehicle-Compatibility");
+  await processProducts(processProductFor_VehicleCompatibility, `Vehicle-Compatibility_${filterBrand}.json`, 3, "Vehicle-Compatibility");
 });
 
 test("Get cross numbers via given cross/OE numbers", async () => {
   test.setTimeout(20 * 60 * 1000);
   console.log(`Processing Cross Numbers for brand: ${filterBrand}`);
-  await processProducts(processProductFor_CrossNumbers, `Cross-Numbers_${productType}_${filterBrand}_ek.json`, 3, "Cross-Numbers");
+  await processProducts(processProductFor_CrossNumbers, `Cross-Numbers_${productType}_${filterBrand}.json`, 3, "Cross-Numbers");
 });

@@ -19,6 +19,8 @@ export async function processProductFor_OE(element: ProductReference): Promise<a
     return null;
   }
 
+  console.log(`Processing YV: ${yvNo}, Brand: ${filterBrand}, Cross Number: ${crossNumber}`);
+
   const apiContext = await request.newContext();
 
   try {
