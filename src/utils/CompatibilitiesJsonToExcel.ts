@@ -94,7 +94,7 @@ export function convertJsonToExcel(inputFilePath: string, outputDirectory: strin
 
     if (!fs.existsSync(outputDirectory)) fs.mkdirSync(outputDirectory, { recursive: true });
 
-    XLSX.writeFile(workbook, path.join(outputDirectory, `${path.basename(inputFilePath, '.json')}.xlsx`));
+    XLSX.writeFile(workbook, path.join(outputDirectory, `${path.basename(inputFilePath, '')}.xlsx`));
     console.log(`Veriler başarıyla Excel'e aktarıldı: ${outputDirectory}`);
 
   } catch (error) {

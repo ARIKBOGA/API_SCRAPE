@@ -34,9 +34,10 @@ for (const element of jsonData) {
     }
 }
 
+const outputFilePath =  `../output/${productType}/excels/OE/OE_Numbers_${filterBrand}.xlsx`;
 const headers = Object.keys(rowData[0]);
 const wb = xlsx.utils.book_new();
 const ws = xlsx.utils.json_to_sheet(rowData, { header: headers });
 xlsx.utils.book_append_sheet(wb, ws, "OE_Numbers");
-xlsx.writeFile(wb, path.resolve(__dirname, `../output/${productType}/excels/OE/OE_Numbers_${filterBrand}.xlsx`));
+xlsx.writeFile(wb, path.resolve(__dirname, outputFilePath));
 console.log(`${filterBrand} OE Numbers Excel dosyası oluşturuldu: ${path.resolve(__dirname, `../output/${productType}/excels/OE_Numbers_${filterBrand}.xlsx`)}`);
