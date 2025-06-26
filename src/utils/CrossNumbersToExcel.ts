@@ -1,15 +1,16 @@
 import path from "path";
 import xlsx from "xlsx";
 import fs from 'fs'
-import { CrossNumberApiProduct, CrossNumbersYV_Pair } from "./Types";
+import { CrossNumberApiProduct } from "./Types";
 import dotenv from 'dotenv';
 
 
 dotenv.config({ path: path.resolve(".env") });
 
 const productType = process.env.PRODUCT_TYPE as string;
+const filterBrand = process.env.FILTER_BRAND as string;
 
-const jsonPath = path.resolve(__dirname, `../output/${productType}/Cross-Numbers_with_OE_Numbers.json`);
+const jsonPath = path.resolve(__dirname, `../output/${productType}/jsons/Cross-Numbers/Cross-Numbers_${productType}_${filterBrand}.json`);
 const jsonData = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'));
 
 const rowData : Record<string, Record<string, string>> = {}; // yvNo: <supplier: crossNumber(joined with ",")>
@@ -32,7 +33,9 @@ const dataArray = Object.entries(rowData).map(([yvNo, crossPairs]) => ({
     yvNo,
     ...crossPairs
 }));
+
+const outputFilePath = `../output/${productType}/excels/Cross-Numbers/Cross-Numbers_by_${filterBrand}_Numbers.xlsx`;
 const ws = xlsx.utils.json_to_sheet(dataArray, { header: ['yvNo', ...headers] });
 const wb = xlsx.utils.book_new();
-xlsx.utils.book_append_sheet(wb, ws, "Cross Numbers with OE Numbers");
-xlsx.writeFile(wb, path.resolve(__dirname, `../output/${productType}/Cross-Numbers_with_OE_Numbers.xlsx`));
+xlsx.utils.book_append_sheet(wb, ws, "Cross Numbers BY OE Numbers");
+xlsx.writeFile(wb, path.resolve(__dirname, outputFilePath));
