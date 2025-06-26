@@ -352131,5 +352131,710 @@
         "ApiCode": "Ext-TA-NTQ6OTAxMDgzNg"
       }
     ]
+  },
+  {
+    "yvNo": "23215208",
+    "crossNumbers": [
+      {
+        "Supplier": "PAGID",
+        "ArticleNumber": "T1212",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MTI6VDEyMTI"
+      },
+      {
+        "Supplier": "ICER",
+        "ArticleNumber": "181860",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MTU4OjE4MTg2MA"
+      },
+      {
+        "Supplier": "TRW",
+        "ArticleNumber": "GDB1787",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MTYxOkdEQjE3ODc"
+      },
+      {
+        "Supplier": "KAMOKA",
+        "ArticleNumber": "JQ101162",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MTg1OkpRMTAxMTYy"
+      },
+      {
+        "Supplier": "KAMOKA",
+        "ArticleNumber": "JQ1012880",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MTg1OkpRMTAxMjg4MA"
+      },
+      {
+        "Supplier": "DENCKERMANN",
+        "ArticleNumber": "B110918",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MTg2OkIxMTA5MTg"
+      },
+      {
+        "Supplier": "National",
+        "ArticleNumber": "NP2161",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MTkwOk5QMjE2MQ"
+      },
+      {
+        "Supplier": "FAI AutoParts",
+        "ArticleNumber": "FPBP358",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MjY3OkZQQlAzNTg"
+      },
+      {
+        "Supplier": "DON",
+        "ArticleNumber": "PCP1346",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-Mjc4OlBDUDEzNDY"
+      },
+      {
+        "Supplier": "GIRLING",
+        "ArticleNumber": "6117872",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-Mjc5OjYxMTc4NzI"
+      },
+      {
+        "Supplier": "KAWE",
+        "ArticleNumber": "0962 00",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-Mjg2OjA5NjIgMDA"
+      },
+      {
+        "Supplier": "Brake ENGINEERING",
+        "ArticleNumber": "PA1844",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MzgxOlBBMTg0NA"
+      },
+      {
+        "Supplier": "TEXTAR",
+        "ArticleNumber": "2321502",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-Mzk6MjMyMTUwMg"
+      },
+      {
+        "Supplier": "MANDO",
+        "ArticleNumber": "CPC05",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NDAwODpDUEMwNQ"
+      },
+      {
+        "Supplier": "MANDO",
+        "ArticleNumber": "MPC05",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NDAwODpNUEMwNQ"
+      },
+      {
+        "Supplier": "MANDO",
+        "ArticleNumber": "MPC05NS",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NDAwODpNUEMwNU5T"
+      },
+      {
+        "Supplier": "MANDO",
+        "ArticleNumber": "MPC05OS",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NDAwODpNUEMwNU9T"
+      },
+      {
+        "Supplier": "COMLINE",
+        "ArticleNumber": "CBP01115",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NDIxOkNCUDAxMTE1"
+      },
+      {
+        "Supplier": "CHAMPION",
+        "ArticleNumber": "573016CH",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NDM6NTczMDE2Q0g"
+      },
+      {
+        "Supplier": "CTR",
+        "ArticleNumber": "GK1453",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NDQwMTpHSzE0NTM"
+      },
+      {
+        "Supplier": "APEC",
+        "ArticleNumber": "PAD1270",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NDUzNzpQQUQxMjcw"
+      },
+      {
+        "Supplier": "APEC",
+        "ArticleNumber": "PAD1716",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NDUzNzpQQUQxNzE2"
+      },
+      {
+        "Supplier": "APEC",
+        "ArticleNumber": "PD3820",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NDUzNzpQRDM4MjA"
+      },
+      {
+        "Supplier": "MOTAQUIP",
+        "ArticleNumber": "LVXL1008",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NDU2NDpMVlhMMTAwOA"
+      },
+      {
+        "Supplier": "DANAHER",
+        "ArticleNumber": "ADP0106",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NDU4NzpBRFAwMTA2"
+      },
+      {
+        "Supplier": "BORG & BECK",
+        "ArticleNumber": "BBP2015",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NDc1OkJCUDIwMTU"
+      },
+      {
+        "Supplier": "JURID",
+        "ArticleNumber": "573016J",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NDg6NTczMDE2Sg"
+      },
+      {
+        "Supplier": "FI.BA",
+        "ArticleNumber": "FBP1414",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NDgzODpGQlAxNDE0"
+      },
+      {
+        "Supplier": "KEY PARTS",
+        "ArticleNumber": "KBP2015",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NDg3OTpLQlAyMDE1"
+      },
+      {
+        "Supplier": "JURATEK",
+        "ArticleNumber": "JCP1440",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NDkzNTpKQ1AxNDQw"
+      },
+      {
+        "Supplier": "R BRAKE",
+        "ArticleNumber": "RB1860",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NDk1NTpSQjE4NjA"
+      },
+      {
+        "Supplier": "ABTEX",
+        "ArticleNumber": "PLU3880",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NTU5OTpQTFUzODgw"
+      },
+      {
+        "Supplier": "ALTE AUTOMOTIVE",
+        "ArticleNumber": "137840AAL",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NTYyNzoxMzc4NDBBQUw"
+      },
+      {
+        "Supplier": "RAP BRAKES",
+        "ArticleNumber": "R-P0662",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NTg0MDpSLVAwNjYy"
+      },
+      {
+        "Supplier": "FERODO",
+        "ArticleNumber": "FDB1440",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NjI6RkRCMTQ0MA"
+      },
+      {
+        "Supplier": "Hi-Q",
+        "ArticleNumber": "SP1414",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NjI2NTpTUDE0MTQ"
+      },
+      {
+        "Supplier": "NAPA",
+        "ArticleNumber": "PBP7448",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NjQ3MzpQQlA3NDQ4"
+      },
+      {
+        "Supplier": "7 SEVEN PARTS",
+        "ArticleNumber": "SVP21721",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NjkwMzpTVlAyMTcyMQ"
+      },
+      {
+        "Supplier": "MINTEX",
+        "ArticleNumber": "MDB2226",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NzM6TURCMjIyNg"
+      },
+      {
+        "Supplier": "DAVID VASCO",
+        "ArticleNumber": "Q1787",
+        "StatusCode": "discontinued",
+        "StatusMessage": "Article to be discontinued",
+        "ApiCode": "Ext-TA-NzM2ODpRMTc4Nw"
+      },
+      {
+        "Supplier": "DAVID VASCO",
+        "ArticleNumber": "Z1787",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NzM2ODpaMTc4Nw"
+      },
+      {
+        "Supplier": "Burig",
+        "ArticleNumber": "B020202",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NzM3MTpCMDIwMjAy"
+      },
+      {
+        "Supplier": "RRT",
+        "ArticleNumber": "RDA-1010017",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NzM5OTpSREEtMTAxMDAxNw"
+      },
+      {
+        "Supplier": "ETF",
+        "ArticleNumber": "EP2405",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NzY1NzpFUDI0MDU"
+      },
+      {
+        "Supplier": "ALLIED NIPPON",
+        "ArticleNumber": "ADB01115",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NzY2MjpBREIwMTExNQ"
+      },
+      {
+        "Supplier": "ANDEL",
+        "ArticleNumber": "181860",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NzY3ODoxODE4NjA"
+      },
+      {
+        "Supplier": "FEBI BILSTEIN",
+        "ArticleNumber": "16435",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MTAxOjE2NDM1"
+      },
+      {
+        "Supplier": "TRISCAN",
+        "ArticleNumber": "8110 25013",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MTA4OjgxMTAgMjUwMTM"
+      },
+      {
+        "Supplier": "METELLI",
+        "ArticleNumber": "22-0335-0",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MTIxOjIyLTAzMzUtMA"
+      },
+      {
+        "Supplier": "NK",
+        "ArticleNumber": "223948",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MTI3OjIyMzk0OA"
+      },
+      {
+        "Supplier": "OPTIMAL",
+        "ArticleNumber": "12512",
+        "StatusCode": "discontinued",
+        "StatusMessage": "Article to be discontinued",
+        "ApiCode": "Ext-TA-MTI5OjEyNTEy"
+      },
+      {
+        "Supplier": "OPTIMAL",
+        "ArticleNumber": "BP-12512",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MTI5OkJQLTEyNTEy"
+      },
+      {
+        "Supplier": "MAPCO",
+        "ArticleNumber": "6952",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MTMzOjY5NTI"
+      },
+      {
+        "Supplier": "MEYLE",
+        "ArticleNumber": "025 245 3518",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MTQ0OjAyNSAyNDUgMzUxOA"
+      },
+      {
+        "Supplier": "MEYLE",
+        "ArticleNumber": "025 245 3518/PD",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MTQ0OjAyNSAyNDUgMzUxOC9QRA"
+      },
+      {
+        "Supplier": "SWAG",
+        "ArticleNumber": "60 91 6435",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MTUxOjYwIDkxIDY0MzU"
+      },
+      {
+        "Supplier": "ROADHOUSE",
+        "ArticleNumber": "2962.00",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MTUyOjI5NjIuMDA"
+      },
+      {
+        "Supplier": "REMSA",
+        "ArticleNumber": "0962.00",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MTUzOjA5NjIuMDA"
+      },
+      {
+        "Supplier": "JAPANPARTS",
+        "ArticleNumber": "PA-0730AF",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MTU2OlBBLTA3MzBBRg"
+      },
+      {
+        "Supplier": "JAPANPARTS",
+        "ArticleNumber": "PA0730JM",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MTU2OlBBMDczMEpN"
+      },
+      {
+        "Supplier": "VAICO",
+        "ArticleNumber": "V46-0153",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MTYyOlY0Ni0wMTUz"
+      },
+      {
+        "Supplier": "AISIN",
+        "ArticleNumber": "BPRE-1010",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MTY2OkJQUkUtMTAxMA"
+      },
+      {
+        "Supplier": "LPR",
+        "ArticleNumber": "05P898",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MTk3OjA1UDg5OA"
+      },
+      {
+        "Supplier": "TRUSTING",
+        "ArticleNumber": "344.0",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MTk5OjM0NC4w"
+      },
+      {
+        "Supplier": "HELLA",
+        "ArticleNumber": "8DB 355 009-091",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-Mjo4REIgMzU1IDAwOS0wOTE"
+      },
+      {
+        "Supplier": "A.B.S.",
+        "ArticleNumber": "37217",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MjA2OjM3MjE3"
+      },
+      {
+        "Supplier": "VALEO",
+        "ArticleNumber": "301566",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MjE6MzAxNTY2"
+      },
+      {
+        "Supplier": "VALEO",
+        "ArticleNumber": "601012",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MjE6NjAxMDEy"
+      },
+      {
+        "Supplier": "CAR",
+        "ArticleNumber": "PNT898",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MjQzOlBOVDg5OA"
+      },
+      {
+        "Supplier": "ASHIKA",
+        "ArticleNumber": "50-00-0730",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MjU3OjUwLTAwLTA3MzA"
+      },
+      {
+        "Supplier": "SASIC",
+        "ArticleNumber": "6214018",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MjYwOjYyMTQwMTg"
+      },
+      {
+        "Supplier": "JP GROUP",
+        "ArticleNumber": "4363600610",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MjY4OjQzNjM2MDA2MTA"
+      },
+      {
+        "Supplier": "BRECK",
+        "ArticleNumber": "23215 00 701 00",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MjgxOjIzMjE1IDAwIDcwMSAwMA"
+      },
+      {
+        "Supplier": "fri.tech.",
+        "ArticleNumber": "344.0",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-Mjk1OjM0NC4w"
+      },
+      {
+        "Supplier": "ATE",
+        "ArticleNumber": "13.0460-7248.2",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MzoxMy4wNDYwLTcyNDguMg"
+      },
+      {
+        "Supplier": "BOSCH",
+        "ArticleNumber": "0 986 494 034",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MzA6MCA5ODYgNDk0IDAzNA"
+      },
+      {
+        "Supplier": "TOPRAN",
+        "ArticleNumber": "700 800",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MzAxOjcwMCA4MDA"
+      },
+      {
+        "Supplier": "CIFAM",
+        "ArticleNumber": "822-335-0",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MzExOjgyMi0zMzUtMA"
+      },
+      {
+        "Supplier": "AKRON-MALÒ",
+        "ArticleNumber": "1050173",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MzE3OjEwNTAxNzM"
+      },
+      {
+        "Supplier": "SAMKO",
+        "ArticleNumber": "5SP898",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MzQzOjVTUDg5OA"
+      },
+      {
+        "Supplier": "BLUE PRINT",
+        "ArticleNumber": "ADR164209",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MzUwOkFEUjE2NDIwOQ"
+      },
+      {
+        "Supplier": "WOKING",
+        "ArticleNumber": "P8623.00",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MzY2OlA4NjIzLjAw"
+      },
+      {
+        "Supplier": "OPEN PARTS",
+        "ArticleNumber": "BPA0962.00",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-Mzc4OkJQQTA5NjIuMDA"
+      },
+      {
+        "Supplier": "RAICAM",
+        "ArticleNumber": "RA.0823.1",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NDAwOlJBLjA4MjMuMQ"
+      },
+      {
+        "Supplier": "MAXGEAR",
+        "ArticleNumber": "19-1102",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NDAzOjE5LTExMDI"
+      },
+      {
+        "Supplier": "TOMEX Brakes",
+        "ArticleNumber": "TX 13-51",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NDM3NzpUWCAxMy01MQ"
+      },
+      {
+        "Supplier": "Omnicraft",
+        "ArticleNumber": "2134874",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NDM4MDoyMTM0ODc0"
+      },
+      {
+        "Supplier": "EUROREPAR",
+        "ArticleNumber": "1617257380",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NDM5MToxNjE3MjU3Mzgw"
+      },
+      {
+        "Supplier": "DIAMAX",
+        "ArticleNumber": "N09037",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NDM5NjpOMDkwMzc"
+      },
+      {
+        "Supplier": "KAISHIN",
+        "ArticleNumber": "FK20241",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NDQ2MTpGSzIwMjQx"
+      },
+      {
+        "Supplier": "KAISHIN",
+        "ArticleNumber": "FK20319",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NDQ2MTpGSzIwMzE5"
+      },
+      {
+        "Supplier": "DJ PARTS",
+        "ArticleNumber": "BP2171",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NDUxOTpCUDIxNzE"
+      },
+      {
+        "Supplier": "KRAFT AUTOMOTIVE",
+        "ArticleNumber": "6005290",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NDU0Njo2MDA1Mjkw"
+      },
+      {
+        "Supplier": "EGT",
+        "ArticleNumber": "321006EGT",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NDU0OTozMjEwMDZFR1Q"
+      },
+      {
+        "Supplier": "EGT",
+        "ArticleNumber": "321006cEGT",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NDU0OTozMjEwMDZjRUdU"
+      },
+      {
+        "Supplier": "EGT",
+        "ArticleNumber": "321006iEGT",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NDU0OTozMjEwMDZpRUdU"
+      },
+      {
+        "Supplier": "EGT",
+        "ArticleNumber": "321760EGT",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NDU0OTozMjE3NjBFR1Q"
+      },
+      {
+        "Supplier": "EGT",
+        "ArticleNumber": "321860EGT",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NDU0OTozMjE4NjBFR1Q"
+      },
+      {
+        "Supplier": "EGT",
+        "ArticleNumber": "321860iEGT",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NDU0OTozMjE4NjBpRUdU"
+      },
+      {
+        "Supplier": "ASAM AUTOMOTIVE",
+        "ArticleNumber": "74247",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NDU3Njo3NDI0Nw"
+      }
+    ]
   }
 ]
