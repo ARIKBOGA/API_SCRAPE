@@ -16,7 +16,7 @@ interface OE_rowData {
     OE: string;
 }
 
-const jsonPath = path.resolve(__dirname, `../output/${productType}/OE-numbers_${filterBrand}_Merged.json`);
+const jsonPath = path.resolve(__dirname, `../output/${productType}/jsons/OE/oe-numbers_${filterBrand}.json`);
 const jsonData = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'));
 
 const rowData : OE_rowData[] = [];
@@ -38,5 +38,5 @@ const headers = Object.keys(rowData[0]);
 const wb = xlsx.utils.book_new();
 const ws = xlsx.utils.json_to_sheet(rowData, { header: headers });
 xlsx.utils.book_append_sheet(wb, ws, "OE_Numbers");
-xlsx.writeFile(wb, path.resolve(__dirname, `../output/${productType}/excels/OE_Numbers_${filterBrand}.xlsx`));
+xlsx.writeFile(wb, path.resolve(__dirname, `../output/${productType}/excels/OE/OE_Numbers_${filterBrand}.xlsx`));
 console.log(`${filterBrand} OE Numbers Excel dosyası oluşturuldu: ${path.resolve(__dirname, `../output/${productType}/excels/OE_Numbers_${filterBrand}.xlsx`)}`);

@@ -103,8 +103,8 @@ export function convertJsonToExcel(inputFilePath: string, outputDirectory: strin
 }
 
 function main() {
-  const inputFilePath = path.resolve(__dirname, `../output/${productType}/Vehicle-Compatibility_${filterBrand}.json`);
-  const outputDirectory = path.resolve(__dirname, `../output/${productType}/excels`);
+  const inputFilePath = path.resolve(__dirname, `../output/${productType}/jsons/Vehicle-Compatibility/Vehicle-Compatibility_${filterBrand}.json`);
+  const outputDirectory = path.resolve(__dirname, `../output/${productType}/excels/Vehicle-Compatibility`);
 
   convertJsonToExcel(inputFilePath, outputDirectory);
 }
