@@ -1,0 +1,553 @@
+[
+  {
+    "yvNo": "23215208",
+    "crossNumber": "P 68 029",
+    "brand": "BREMBO",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "RENAULT",
+        "models": [
+          {
+            "modelSeries": "LAGUNA Coupe (DT0/1)",
+            "targets": [
+              {
+                "engine": "1.5 dCi",
+                "fullName": "RENAULT LAGUNA Coupe (DT0/1) 1.5 dCi",
+                "constructionYearFrom": "03.2012",
+                "constructionYearTo": "12.2015",
+                "enginePowerKW": 81,
+                "enginePowerHP": 110,
+                "cc": 1461,
+                "engineCodes": "K9K 846",
+                "kbaNumbers": "3333AZV",
+                "bodyType": "Coupe",
+                "TecDocID": 59353
+              }
+            ]
+          },
+          {
+            "modelSeries": "LAGUNA II (BG0/1_)",
+            "targets": [
+              {
+                "engine": "1.6",
+                "fullName": "RENAULT LAGUNA II (BG0/1_) 1.6",
+                "constructionYearFrom": "03.2001",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 76,
+                "enginePowerHP": 103,
+                "cc": 1598,
+                "engineCodes": "K4M 710",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback",
+                "TecDocID": 18891
+              },
+              {
+                "engine": "1.6 16V (BG0A, BG0L)",
+                "fullName": "RENAULT LAGUNA II (BG0/1_) 1.6 16V (BG0A, BG0L)",
+                "constructionYearFrom": "03.2001",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 79,
+                "enginePowerHP": 107,
+                "cc": 1598,
+                "engineCodes": "K4M 714, K4M 710",
+                "kbaNumbers": "3004130",
+                "bodyType": "Hatchback",
+                "TecDocID": 15473
+              },
+              {
+                "engine": "1.6 16V (BG1G, BG1H)",
+                "fullName": "RENAULT LAGUNA II (BG0/1_) 1.6 16V (BG1G, BG1H)",
+                "constructionYearFrom": "02.2005",
+                "constructionYearTo": "08.2007",
+                "enginePowerKW": 82,
+                "enginePowerHP": 112,
+                "cc": 1598,
+                "engineCodes": "K4M 716",
+                "kbaNumbers": "3333147, 3333AED",
+                "bodyType": "Hatchback",
+                "TecDocID": 18681
+              },
+              {
+                "engine": "1.6 LPG",
+                "fullName": "RENAULT LAGUNA II (BG0/1_) 1.6 LPG",
+                "constructionYearFrom": "03.2001",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 79,
+                "enginePowerHP": 107,
+                "cc": 1598,
+                "engineCodes": "K4M 714",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback",
+                "TecDocID": 56091
+              },
+              {
+                "engine": "1.8 16V (BG04, BG0B, BG0C, BG0V)",
+                "fullName": "RENAULT LAGUNA II (BG0/1_) 1.8 16V (BG04, BG0B, BG0C, BG0V)",
+                "constructionYearFrom": "03.2001",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 86,
+                "enginePowerHP": 117,
+                "cc": 1783,
+                "engineCodes": "F4P 774, F4P 770",
+                "kbaNumbers": "3004134",
+                "bodyType": "Hatchback",
+                "TecDocID": 33091
+              },
+              {
+                "engine": "1.8 16V (BG06, BG0J, BG0M)",
+                "fullName": "RENAULT LAGUNA II (BG0/1_) 1.8 16V (BG06, BG0J, BG0M)",
+                "constructionYearFrom": "03.2001",
+                "constructionYearTo": "12.2007",
+                "enginePowerKW": 85,
+                "enginePowerHP": 116,
+                "cc": 1783,
+                "engineCodes": "F4P 774, F4P 775, F4P 771, F4P 770, F4P 773",
+                "kbaNumbers": "3004140",
+                "bodyType": "Hatchback",
+                "TecDocID": 16227
+              },
+              {
+                "engine": "1.8 16V (BG0B, BG0C, BG0J, BG0M, BG0V)",
+                "fullName": "RENAULT LAGUNA II (BG0/1_) 1.8 16V (BG0B, BG0C, BG0J, BG0M, BG0V)",
+                "constructionYearFrom": "03.2001",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 89,
+                "enginePowerHP": 121,
+                "cc": 1783,
+                "engineCodes": "F4P 770, F4P 772",
+                "kbaNumbers": "3004132",
+                "bodyType": "Hatchback",
+                "TecDocID": 15474
+              },
+              {
+                "engine": "1.8 16V (BG0B, BG0M)",
+                "fullName": "RENAULT LAGUNA II (BG0/1_) 1.8 16V (BG0B, BG0M)",
+                "constructionYearFrom": "03.2001",
+                "constructionYearTo": "09.2007",
+                "enginePowerKW": 88,
+                "enginePowerHP": 120,
+                "cc": 1783,
+                "engineCodes": "F4P 770, F4P 773",
+                "kbaNumbers": "3004149",
+                "bodyType": "Hatchback",
+                "TecDocID": 16226
+              },
+              {
+                "engine": "1.9 dCi",
+                "fullName": "RENAULT LAGUNA II (BG0/1_) 1.9 dCi",
+                "constructionYearFrom": "03.2001",
+                "constructionYearTo": "09.2007",
+                "enginePowerKW": 79,
+                "enginePowerHP": 107,
+                "cc": 1870,
+                "engineCodes": "F9Q 754, F9Q 718",
+                "kbaNumbers": "3004158",
+                "bodyType": "Hatchback",
+                "TecDocID": 24201
+              },
+              {
+                "engine": "1.9 dCi (BG05)",
+                "fullName": "RENAULT LAGUNA II (BG0/1_) 1.9 dCi (BG05)",
+                "constructionYearFrom": "03.2004",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 68,
+                "enginePowerHP": 92,
+                "cc": 1870,
+                "engineCodes": "F9Q 664",
+                "kbaNumbers": "3333075, 3333AEK",
+                "bodyType": "Hatchback",
+                "TecDocID": 18214
+              },
+              {
+                "engine": "1.9 dCI (BG0E)",
+                "fullName": "RENAULT LAGUNA II (BG0/1_) 1.9 dCI (BG0E)",
+                "constructionYearFrom": "06.2001",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 77,
+                "enginePowerHP": 105,
+                "cc": 1870,
+                "engineCodes": "F9Q 752",
+                "kbaNumbers": "3004151",
+                "bodyType": "Hatchback",
+                "TecDocID": 15771
+              },
+              {
+                "engine": "1.9 dCi (BG0R, BG0E)",
+                "fullName": "RENAULT LAGUNA II (BG0/1_) 1.9 dCi (BG0R, BG0E)",
+                "constructionYearFrom": "10.2001",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 74,
+                "enginePowerHP": 100,
+                "cc": 1870,
+                "engineCodes": "F9Q 754",
+                "kbaNumbers": "3004177",
+                "bodyType": "Hatchback",
+                "TecDocID": 16582
+              },
+              {
+                "engine": "2.0 16V (BG00, BG0K, BG0P, BG0W)",
+                "fullName": "RENAULT LAGUNA II (BG0/1_) 2.0 16V (BG00, BG0K, BG0P, BG0W)",
+                "constructionYearFrom": "08.2002",
+                "constructionYearTo": "12.2007",
+                "enginePowerKW": 99,
+                "enginePowerHP": 135,
+                "cc": 1998,
+                "engineCodes": "F4R 715, F4R 714, F4R 713, F4R 712",
+                "kbaNumbers": "3004195, 3333ADZ",
+                "bodyType": "Hatchback",
+                "TecDocID": 17183
+              }
+            ]
+          },
+          {
+            "modelSeries": "LAGUNA II Grandtour (KG0/1_)",
+            "targets": [
+              {
+                "engine": "1.6",
+                "fullName": "RENAULT LAGUNA II Grandtour (KG0/1_) 1.6",
+                "constructionYearFrom": "03.2001",
+                "constructionYearTo": "10.2005",
+                "enginePowerKW": 76,
+                "enginePowerHP": 103,
+                "cc": 1598,
+                "engineCodes": "K4M 710",
+                "kbaNumbers": "",
+                "bodyType": "Estate",
+                "TecDocID": 18893
+              },
+              {
+                "engine": "1.6 16V",
+                "fullName": "RENAULT LAGUNA II Grandtour (KG0/1_) 1.6 16V",
+                "constructionYearFrom": "02.2005",
+                "constructionYearTo": "08.2007",
+                "enginePowerKW": 82,
+                "enginePowerHP": 112,
+                "cc": 1598,
+                "engineCodes": "K4M 716",
+                "kbaNumbers": "3333148, 3333AEQ",
+                "bodyType": "Estate",
+                "TecDocID": 18682
+              },
+              {
+                "engine": "1.6 16V (KG0A, KG0L)",
+                "fullName": "RENAULT LAGUNA II Grandtour (KG0/1_) 1.6 16V (KG0A, KG0L)",
+                "constructionYearFrom": "03.2001",
+                "constructionYearTo": "12.2007",
+                "enginePowerKW": 79,
+                "enginePowerHP": 107,
+                "cc": 1598,
+                "engineCodes": "K4M 710, K4M 714",
+                "kbaNumbers": "3004131",
+                "bodyType": "Estate",
+                "TecDocID": 15477
+              },
+              {
+                "engine": "1.8 16V",
+                "fullName": "RENAULT LAGUNA II Grandtour (KG0/1_) 1.8 16V",
+                "constructionYearFrom": "03.2001",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 86,
+                "enginePowerHP": 117,
+                "cc": 1783,
+                "engineCodes": "F4P 770",
+                "kbaNumbers": "3004135",
+                "bodyType": "Estate",
+                "TecDocID": 33093
+              },
+              {
+                "engine": "1.8 16V",
+                "fullName": "RENAULT LAGUNA II Grandtour (KG0/1_) 1.8 16V",
+                "constructionYearFrom": "03.2001",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 89,
+                "enginePowerHP": 121,
+                "cc": 1783,
+                "engineCodes": "F4P 774, F4P 770",
+                "kbaNumbers": "3004133",
+                "bodyType": "Estate",
+                "TecDocID": 15478
+              },
+              {
+                "engine": "1.8 16V (KG0B, KG0M)",
+                "fullName": "RENAULT LAGUNA II Grandtour (KG0/1_) 1.8 16V (KG0B, KG0M)",
+                "constructionYearFrom": "03.2001",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 88,
+                "enginePowerHP": 120,
+                "cc": 1783,
+                "engineCodes": "F4P 770, F4P 773",
+                "kbaNumbers": "3004150",
+                "bodyType": "Estate",
+                "TecDocID": 16229
+              },
+              {
+                "engine": "1.8 16V (KG0J)",
+                "fullName": "RENAULT LAGUNA II Grandtour (KG0/1_) 1.8 16V (KG0J)",
+                "constructionYearFrom": "03.2001",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 85,
+                "enginePowerHP": 116,
+                "cc": 1783,
+                "engineCodes": "F4P 771, F4P 774, F4P 775, F4P 770",
+                "kbaNumbers": "3004141",
+                "bodyType": "Estate",
+                "TecDocID": 16228
+              },
+              {
+                "engine": "1.9 dCi",
+                "fullName": "RENAULT LAGUNA II Grandtour (KG0/1_) 1.9 dCi",
+                "constructionYearFrom": "03.2001",
+                "constructionYearTo": "12.2007",
+                "enginePowerKW": 79,
+                "enginePowerHP": 107,
+                "cc": 1870,
+                "engineCodes": "F9Q 754",
+                "kbaNumbers": "3004159",
+                "bodyType": "Estate",
+                "TecDocID": 24202
+              },
+              {
+                "engine": "1.9 dCi",
+                "fullName": "RENAULT LAGUNA II Grandtour (KG0/1_) 1.9 dCi",
+                "constructionYearFrom": "08.2003",
+                "constructionYearTo": "09.2007",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 1870,
+                "engineCodes": "F9Q 664",
+                "kbaNumbers": "3004961",
+                "bodyType": "Estate",
+                "TecDocID": 58610
+              },
+              {
+                "engine": "1.9 dCi (KG05)",
+                "fullName": "RENAULT LAGUNA II Grandtour (KG0/1_) 1.9 dCi (KG05)",
+                "constructionYearFrom": "03.2004",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 68,
+                "enginePowerHP": 92,
+                "cc": 1870,
+                "engineCodes": "F9Q 664",
+                "kbaNumbers": "3333076, 3333AEX",
+                "bodyType": "Estate",
+                "TecDocID": 18213
+              },
+              {
+                "engine": "1.9 dCI (KG0E)",
+                "fullName": "RENAULT LAGUNA II Grandtour (KG0/1_) 1.9 dCI (KG0E)",
+                "constructionYearFrom": "06.2001",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 77,
+                "enginePowerHP": 105,
+                "cc": 1870,
+                "engineCodes": "F9Q 752",
+                "kbaNumbers": "3004152",
+                "bodyType": "Estate",
+                "TecDocID": 15774
+              },
+              {
+                "engine": "1.9 dCi (KG0E, KG0R)",
+                "fullName": "RENAULT LAGUNA II Grandtour (KG0/1_) 1.9 dCi (KG0E, KG0R)",
+                "constructionYearFrom": "10.2001",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 74,
+                "enginePowerHP": 100,
+                "cc": 1870,
+                "engineCodes": "F9Q 752",
+                "kbaNumbers": "3004183",
+                "bodyType": "Estate",
+                "TecDocID": 16583
+              },
+              {
+                "engine": "1.9 dCi (KG1A, KG1W, KG0G)",
+                "fullName": "RENAULT LAGUNA II Grandtour (KG0/1_) 1.9 dCi (KG1A, KG1W, KG0G)",
+                "constructionYearFrom": "01.2005",
+                "constructionYearTo": "12.2007",
+                "enginePowerKW": 81,
+                "enginePowerHP": 110,
+                "cc": 1870,
+                "engineCodes": "F9Q 758, F9Q 674",
+                "kbaNumbers": "3333117, 3333AEP",
+                "bodyType": "Estate",
+                "TecDocID": 18583
+              },
+              {
+                "engine": "2.0 16V (KG00, KG0K, KG0W, KG0P)",
+                "fullName": "RENAULT LAGUNA II Grandtour (KG0/1_) 2.0 16V (KG00, KG0K, KG0W, KG0P)",
+                "constructionYearFrom": "08.2002",
+                "constructionYearTo": "12.2007",
+                "enginePowerKW": 99,
+                "enginePowerHP": 135,
+                "cc": 1998,
+                "engineCodes": "F4R 715, F4R 714, F4R 712, F4R 713",
+                "kbaNumbers": "3004194, 3333AEM",
+                "bodyType": "Estate",
+                "TecDocID": 17185
+              },
+              {
+                "engine": "2.0 16V (KG00, KG0K, KG0W, KG0P)",
+                "fullName": "RENAULT LAGUNA II Grandtour (KG0/1_) 2.0 16V (KG00, KG0K, KG0W, KG0P)",
+                "constructionYearFrom": "10.2004",
+                "constructionYearTo": "09.2007",
+                "enginePowerKW": 98,
+                "enginePowerHP": 133,
+                "cc": 1998,
+                "engineCodes": "F4R 712, F4R 713, F4R 715, F4R 714",
+                "kbaNumbers": "3333115",
+                "bodyType": "Estate",
+                "TecDocID": 58606
+              }
+            ]
+          },
+          {
+            "modelSeries": "LAGUNA III (BT0/1)",
+            "targets": [
+              {
+                "engine": "1.5 dCi (BT00, BT0A, BT0T, BT1J)",
+                "fullName": "RENAULT LAGUNA III (BT0/1) 1.5 dCi (BT00, BT0A, BT0T, BT1J)",
+                "constructionYearFrom": "10.2007",
+                "constructionYearTo": "12.2015",
+                "enginePowerKW": 81,
+                "enginePowerHP": 110,
+                "cc": 1461,
+                "engineCodes": "K9K 782, K9K 780, K9K 846",
+                "kbaNumbers": "3333APU",
+                "bodyType": "Hatchback",
+                "TecDocID": 23371
+              },
+              {
+                "engine": "1.6 16V (BT04, BT0D, BT0U)",
+                "fullName": "RENAULT LAGUNA III (BT0/1) 1.6 16V (BT04, BT0D, BT0U)",
+                "constructionYearFrom": "10.2007",
+                "constructionYearTo": "12.2015",
+                "enginePowerKW": 81,
+                "enginePowerHP": 110,
+                "cc": 1598,
+                "engineCodes": "K4M 824",
+                "kbaNumbers": "3333AQW",
+                "bodyType": "Hatchback",
+                "TecDocID": 31198
+              },
+              {
+                "engine": "2.0 dCi (BT01, BT08, BT09, BT0E, BT0K, BT12, BT1C, BT1D,...",
+                "fullName": "RENAULT LAGUNA III (BT0/1) 2.0 dCi (BT01, BT08, BT09, BT0E, BT0K, BT12, BT1C, BT1D,...",
+                "constructionYearFrom": "10.2007",
+                "constructionYearTo": "12.2015",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1995,
+                "engineCodes": "M9R 808, M9R 845, M9R 858, M9R 744, M9R 746, M9R 748, M9R 754, M9R 854, M9R 742, M9R 802, M9R 814, M9R 805",
+                "kbaNumbers": "3333APT",
+                "bodyType": "Hatchback",
+                "TecDocID": 23373
+              },
+              {
+                "engine": "2.0 dCi (BT07, BT0J, BT14, BT1A, BT1S)",
+                "fullName": "RENAULT LAGUNA III (BT0/1) 2.0 dCi (BT07, BT0J, BT14, BT1A, BT1S)",
+                "constructionYearFrom": "10.2007",
+                "constructionYearTo": "12.2015",
+                "enginePowerKW": 96,
+                "enginePowerHP": 131,
+                "cc": 1995,
+                "engineCodes": "M9R 854, M9R 858, M9R 814, M9R 802, M9R 744, M9R 742",
+                "kbaNumbers": "3333APS",
+                "bodyType": "Hatchback",
+                "TecDocID": 23372
+              }
+            ]
+          },
+          {
+            "modelSeries": "LAGUNA III Grandtour (KT0/1)",
+            "targets": [
+              {
+                "engine": "1.5 dCi (KT0A, KT0R, KT02)",
+                "fullName": "RENAULT LAGUNA III Grandtour (KT0/1) 1.5 dCi (KT0A, KT0R, KT02)",
+                "constructionYearFrom": "10.2007",
+                "constructionYearTo": "12.2015",
+                "enginePowerKW": 81,
+                "enginePowerHP": 110,
+                "cc": 1461,
+                "engineCodes": "K9K 846, K9K 780, K9K 782",
+                "kbaNumbers": "3333APZ",
+                "bodyType": "Estate",
+                "TecDocID": 23376
+              },
+              {
+                "engine": "1.6 16V (KT0D)",
+                "fullName": "RENAULT LAGUNA III Grandtour (KT0/1) 1.6 16V (KT0D)",
+                "constructionYearFrom": "10.2007",
+                "constructionYearTo": "12.2015",
+                "enginePowerKW": 81,
+                "enginePowerHP": 110,
+                "cc": 1598,
+                "engineCodes": "K4M 824",
+                "kbaNumbers": "3333AQY",
+                "bodyType": "Estate",
+                "TecDocID": 31529
+              }
+            ]
+          },
+          {
+            "modelSeries": "TWINGO II (CN0_)",
+            "targets": [
+              {
+                "engine": "1.6 RS (CN0N, CN0R, CN0S)",
+                "fullName": "RENAULT TWINGO II (CN0_) 1.6 RS (CN0N, CN0R, CN0S)",
+                "constructionYearFrom": "05.2008",
+                "constructionYearTo": "09.2014",
+                "enginePowerKW": 98,
+                "enginePowerHP": 133,
+                "cc": 1598,
+                "engineCodes": "K4M 854",
+                "kbaNumbers": "3333ARO",
+                "bodyType": "Hatchback",
+                "TecDocID": 26652
+              }
+            ]
+          },
+          {
+            "modelSeries": "WIND (E4M_)",
+            "targets": [
+              {
+                "engine": "1.2 (E4MF)",
+                "fullName": "RENAULT WIND (E4M_) 1.2 (E4MF)",
+                "constructionYearFrom": "07.2010",
+                "enginePowerKW": 74,
+                "enginePowerHP": 101,
+                "cc": 1149,
+                "engineCodes": "D4F 782",
+                "kbaNumbers": "3333AVX",
+                "bodyType": "Convertible",
+                "TecDocID": 33123
+              },
+              {
+                "engine": "1.2 TCe 100 (E4MF)",
+                "fullName": "RENAULT WIND (E4M_) 1.2 TCe 100 (E4MF)",
+                "constructionYearFrom": "02.2011",
+                "enginePowerKW": 75,
+                "enginePowerHP": 102,
+                "cc": 1149,
+                "engineCodes": "D4F 782",
+                "kbaNumbers": "3333AYX",
+                "bodyType": "Convertible",
+                "TecDocID": 9254
+              },
+              {
+                "engine": "1.6 (E4MB, E4MC)",
+                "fullName": "RENAULT WIND (E4M_) 1.6 (E4MB, E4MC)",
+                "constructionYearFrom": "07.2010",
+                "enginePowerKW": 98,
+                "enginePowerHP": 133,
+                "cc": 1598,
+                "engineCodes": "K4M 854",
+                "kbaNumbers": "3333AVY",
+                "bodyType": "Convertible",
+                "TecDocID": 33124
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
