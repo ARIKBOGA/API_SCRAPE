@@ -1,0 +1,94 @@
+[
+  {
+    "yvNo": "7034010",
+    "crossNumber": "3213B0020",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "HYUNDAI",
+        "numbers": [
+          "23124-42000",
+          "2312442000",
+          "2312442001",
+          "2312442010",
+          "2312442011"
+        ]
+      },
+      {
+        "manufacturer": "MITSUBISHI",
+        "numbers": [
+          "MD-110165",
+          "MD110165"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7035010",
+    "crossNumber": "3213B0016",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "HYUNDAI",
+        "numbers": [
+          "23124-42020",
+          "23124-42030",
+          "23124-42031",
+          "23124-42032",
+          "23129-42901"
+        ]
+      },
+      {
+        "manufacturer": "KIA",
+        "numbers": [
+          "23124-42020",
+          "23124-42030",
+          "23124-42031",
+          "23124-42032",
+          "23129-42901"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7053010",
+    "crossNumber": "3213B0103",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "12303-AD200"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7058010",
+    "crossNumber": "3213B0013",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "CHEVROLET",
+        "numbers": [
+          "96350547",
+          "96419497"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7068010",
+    "crossNumber": "3213B0032",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "MITSUBISHI",
+        "numbers": [
+          "MD338316",
+          "MD376609"
+        ]
+      }
+    ]
+  }
+]

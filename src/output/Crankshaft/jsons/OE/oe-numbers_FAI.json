@@ -1,0 +1,68 @@
+[
+  {
+    "yvNo": "7043010",
+    "crossNumber": "FVD1178",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "DACIA",
+        "numbers": [
+          "123038614R"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "123038614R"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7044010",
+    "crossNumber": "FVD1180",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "DACIA",
+        "numbers": [
+          "123033448R"
+        ]
+      },
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "A2000300003"
+        ]
+      },
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "1230300Q2C"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "123033448R"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7050010",
+    "crossNumber": "FVD1117",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "VAG",
+        "numbers": [
+          "04L 105 251 N",
+          "04L105251B",
+          "04L105251E",
+          "04L105251H"
+        ]
+      }
+    ]
+  }
+]

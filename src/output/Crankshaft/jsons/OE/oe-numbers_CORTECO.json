@@ -1,0 +1,1432 @@
+[
+  {
+    "yvNo": "7001010",
+    "crossNumber": "80000352",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515 G3"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9608938980"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515 G3"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7002010",
+    "crossNumber": "80000599",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "77 00 110 329",
+          "77 00 113 018",
+          "77 00 115 309",
+          "82 00 689 702"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7003010",
+    "crossNumber": "80000205",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "12303-00Q1N",
+          "12303-00QAN"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "77 00 112 999",
+          "77 00 724 249",
+          "77 00 864 763",
+          "82 00 386 445",
+          "82 00 545 437"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7004010",
+    "crossNumber": "80000598",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515 R2",
+          "0515 R9",
+          "0515 S4"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9467510480",
+          "9630647280",
+          "9651770980"
+        ]
+      },
+      {
+        "manufacturer": "LANCIA",
+        "numbers": [
+          "9467510480",
+          "9630647280",
+          "9651770980"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515 R2",
+          "0515 R9",
+          "0515 S4"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7005010",
+    "crossNumber": "80001010",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "44 13 748",
+          "44 13 749",
+          "44 14 115",
+          "44 14 116",
+          "93161258",
+          "93161259",
+          "93170224",
+          "93170225"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "77 00 113 776",
+          "77 00 115 766",
+          "82 00 079 183",
+          "82 00 386 446"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "44 13 748",
+          "44 13 749",
+          "44 14 115",
+          "44 14 116",
+          "93161258",
+          "93161259",
+          "93170224",
+          "93170225"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7006010",
+    "crossNumber": "80000597",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515 P8",
+          "0515 R0",
+          "0515 T0",
+          "0515 V0",
+          "0515 V4",
+          "0515 V7",
+          "0515 V8"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1147683",
+          "1319519",
+          "1369546",
+          "1473366",
+          "1485765",
+          "1517975",
+          "1517976",
+          "2S6Q 6B319 AD",
+          "2S6Q GB319 AA",
+          "2S6Q GB319 AB",
+          "2S6Q6B319AA",
+          "2S6Q6B319AB",
+          "2S6Q6B319AC",
+          "3M5Q 6B319 CB",
+          "3M5Q 6B319 CC",
+          "3M5Q6B319CA"
+        ]
+      },
+      {
+        "manufacturer": "MAZDA",
+        "numbers": [
+          "Y40111401",
+          "Y40111401A",
+          "Y40111401B",
+          "Y40111401C",
+          "Y60311401"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515 P8",
+          "0515 R0",
+          "0515 T0",
+          "0515 V0",
+          "0515 V4",
+          "0515 V7",
+          "0515 V8"
+        ]
+      },
+      {
+        "manufacturer": "VOLVO",
+        "numbers": [
+          "31251290",
+          "31272289"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7007010",
+    "crossNumber": "49419116",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "HYUNDAI",
+        "numbers": [
+          "2312427000",
+          "2312427100",
+          "2312427300",
+          "2312427400"
+        ]
+      },
+      {
+        "manufacturer": "KIA",
+        "numbers": [
+          "2312427000",
+          "2312427100",
+          "2312427300",
+          "2312427400"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7008010",
+    "crossNumber": "49384699",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "ALFA ROMEO",
+        "numbers": [
+          "55210310",
+          "55265660"
+        ]
+      },
+      {
+        "manufacturer": "CHRYSLER",
+        "numbers": [
+          "55210310",
+          "55265660"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "55210310",
+          "55265660"
+        ]
+      },
+      {
+        "manufacturer": "JEEP",
+        "numbers": [
+          "55210310",
+          "55265660"
+        ]
+      },
+      {
+        "manufacturer": "LANCIA",
+        "numbers": [
+          "55210310",
+          "55265660"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "06 14 359",
+          "6 14 359",
+          "93192547"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "06 14 359",
+          "6 14 359",
+          "93192547"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7009010",
+    "crossNumber": "80000426",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515 Q8",
+          "9643354180"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9643354180"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1231959",
+          "3M5Q 6B319 AA"
+        ]
+      },
+      {
+        "manufacturer": "LANCIA",
+        "numbers": [
+          "9643354180"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515 Q8",
+          "9643354180"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7010010",
+    "crossNumber": "80001292",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1131911",
+          "1198049",
+          "1339469",
+          "1711500",
+          "1S4Q 6B319 BD",
+          "2M5Q 6B319 AA",
+          "4M5Q 6B319 BA",
+          "4M5Q 6B319 EA"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7011010",
+    "crossNumber": "80001133",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1079188",
+          "1100051",
+          "XS4Q 6B319 FC",
+          "XS4Q 6B319 FD"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7012010",
+    "crossNumber": "80000679",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "03G 105 243 B"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "03G 105 243 B"
+        ]
+      },
+      {
+        "manufacturer": "VW (SVW)",
+        "numbers": [
+          "03G105243B"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7013010",
+    "crossNumber": "80000678",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "038 105 243 L",
+          "038 105 243 M"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "038 105 243 L",
+          "038 105 243 M"
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "038 105 243 L",
+          "038 105 243 M"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "038 105 243 L",
+          "038 105 243 M"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7015010",
+    "crossNumber": "80000834",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515 T1",
+          "9677608180",
+          "9806722380"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9659920080",
+          "9677608180"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1372756",
+          "1376475",
+          "1387095",
+          "1731716",
+          "6C1Q 6B319 CA",
+          "6C1Q 6B319 CB",
+          "6C1Q 6B319 CC",
+          "BK2Q 6B319 BA"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515 T1",
+          "9677608180",
+          "9806722380"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7016010",
+    "crossNumber": "21652976",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "074 105 251 AC",
+          "074 105 251 M",
+          "074 105 251 N",
+          "074 105 251 R",
+          "074 105 251 S",
+          "074 105 251 T"
+        ]
+      },
+      {
+        "manufacturer": "VOLVO",
+        "numbers": [
+          "8627933",
+          "9163918",
+          "9180620"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "074 105 251 AC",
+          "074 105 251 M",
+          "074 105 251 N",
+          "074 105 251 R",
+          "074 105 251 S",
+          "074 105 251 T"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7017010",
+    "crossNumber": "80000873",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515 L9",
+          "0515 P2",
+          "0515 T8",
+          "0515 V5",
+          "0515 V6"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9467586180",
+          "9467597180",
+          "9641548980",
+          "9681761480"
+        ]
+      },
+      {
+        "manufacturer": "LANCIA",
+        "numbers": [
+          "9467586180",
+          "9467597180",
+          "9641548980",
+          "9681761480"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515 L9",
+          "0515 P2",
+          "0515 T8",
+          "0515 V5",
+          "0515 V6"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7018010",
+    "crossNumber": "80000597",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515 P8",
+          "0515 R0",
+          "0515 T0",
+          "0515 V0",
+          "0515 V4",
+          "0515 V7",
+          "0515 V8"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1147683",
+          "1319519",
+          "1369546",
+          "1473366",
+          "1485765",
+          "1517975",
+          "1517976",
+          "2S6Q 6B319 AD",
+          "2S6Q GB319 AA",
+          "2S6Q GB319 AB",
+          "2S6Q6B319AA",
+          "2S6Q6B319AB",
+          "2S6Q6B319AC",
+          "3M5Q 6B319 CB",
+          "3M5Q 6B319 CC",
+          "3M5Q6B319CA"
+        ]
+      },
+      {
+        "manufacturer": "MAZDA",
+        "numbers": [
+          "Y40111401",
+          "Y40111401A",
+          "Y40111401B",
+          "Y40111401C",
+          "Y60311401"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515 P8",
+          "0515 R0",
+          "0515 T0",
+          "0515 V0",
+          "0515 V4",
+          "0515 V7",
+          "0515 V8"
+        ]
+      },
+      {
+        "manufacturer": "VOLVO",
+        "numbers": [
+          "31251290",
+          "31272289"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7019010",
+    "crossNumber": "80001103",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11 23 7 788 611",
+          "11 23 7 793 593",
+          "11 23 8 511 371"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7020010",
+    "crossNumber": "80001103",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11 23 7 788 611",
+          "11 23 7 793 593",
+          "11 23 8 511 371"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7021010",
+    "crossNumber": "80000834",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515 T1",
+          "9677608180",
+          "9806722380"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9659920080",
+          "9677608180"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1372756",
+          "1376475",
+          "1387095",
+          "1731716",
+          "6C1Q 6B319 CA",
+          "6C1Q 6B319 CB",
+          "6C1Q 6B319 CC",
+          "BK2Q 6B319 BA"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515 T1",
+          "9677608180",
+          "9806722380"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7022010",
+    "crossNumber": "80001434",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "626 030 01 03",
+          "A626 030 01 03"
+        ]
+      },
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "1230300Q0A",
+          "1230300Q1D"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "4431160",
+          "4449456",
+          "93161620",
+          "93198633"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "82 00 361 247",
+          "82 00 767 762"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "44 31 160",
+          "44 49 456",
+          "93161620",
+          "93198633"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7023010",
+    "crossNumber": "80000936",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11 23 7 797 995",
+          "11 23 7 799 153",
+          "11 23 7 823 191"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7024010",
+    "crossNumber": "80001419",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11 23 7 800 026"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7025010",
+    "crossNumber": "80001827",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11 23 8 513 539"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7026010",
+    "crossNumber": "80001826",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11 23 8 511 321"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7027010",
+    "crossNumber": "80001418",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11 23 7 800 385"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7028010",
+    "crossNumber": "80000374",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11 23 7 787 304",
+          "11 23 7 790 921",
+          "11 23 7 793 882",
+          "11 23 7 801 977",
+          "11 23 7 805 696"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7029010",
+    "crossNumber": "80000679",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "03G 105 243 B"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "03G 105 243 B"
+        ]
+      },
+      {
+        "manufacturer": "VW (SVW)",
+        "numbers": [
+          "03G105243B"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7030010",
+    "crossNumber": "80000680",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "045 105 243",
+          "045 105 243 C",
+          "045 105 243 D"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "045 105 243",
+          "045 105 243 C",
+          "045 105 243 D"
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "045 105 243",
+          "045 105 243 C",
+          "045 105 243 D"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "045 105 243",
+          "045 105 243 C",
+          "045 105 243 D"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7031010",
+    "crossNumber": "80000707",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515 L7",
+          "0515 Q6"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9624596880",
+          "9637218980"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515 L7",
+          "0515 Q6"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7032010",
+    "crossNumber": "80001143",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "ALFA ROMEO",
+        "numbers": [
+          "46819147",
+          "55200498"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "46819147",
+          "55200498"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1564852",
+          "9S51 6B319 AA"
+        ]
+      },
+      {
+        "manufacturer": "LANCIA",
+        "numbers": [
+          "46819147",
+          "55200498"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "06 14 150",
+          "56 14 438",
+          "6 14 227",
+          "93177317",
+          "93194443"
+        ]
+      },
+      {
+        "manufacturer": "SUZUKI",
+        "numbers": [
+          "1261085E00000"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "56 14 438",
+          "6 14 150",
+          "6 14 227",
+          "931177317",
+          "93194443"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7033010",
+    "crossNumber": "80001145",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "55182506"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7036010",
+    "crossNumber": "80001832",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "MITSUBISHI",
+        "numbers": [
+          "MD374223"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7037010",
+    "crossNumber": "80000931",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515 K1",
+          "0515 N0",
+          "0515 P1",
+          "0515 P5",
+          "0515 R8",
+          "0515 S1",
+          "9636924480",
+          "9650653380",
+          "9653771880"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9655703580"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515 K1",
+          "0515 N0",
+          "0515 P1",
+          "0515 P5",
+          "0515 R8",
+          "0515 S1",
+          "9636924480",
+          "9650653380",
+          "9653771880"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7038010",
+    "crossNumber": "80000600",
+    "supplier": "CORTECO",
+    "oeNumbers": []
+  },
+  {
+    "yvNo": "7039010",
+    "crossNumber": "80001806",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1099891",
+          "1102616",
+          "1226639",
+          "1329202",
+          "1377588",
+          "1675115",
+          "1708966",
+          "4C1O 6B319 AA",
+          "4C1Q 6B319 BA",
+          "9C1Q 6B319 AA",
+          "9C1Q 6B319 AB",
+          "YC1Q 6B319 AG",
+          "YC1Q 6B319 AH",
+          "YC1Q6B319AF"
+        ]
+      },
+      {
+        "manufacturer": "LAND ROVER",
+        "numbers": [
+          "LR005344",
+          "LR019351",
+          "LR029988"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7040010",
+    "crossNumber": "80005099",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "TOYOTA",
+        "numbers": [
+          "13408-30010",
+          "13408-30011"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7042010",
+    "crossNumber": "80001196",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11 23 7 562 801",
+          "11 23 7 622 909",
+          "11 23 7 638 551"
+        ]
+      },
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515 T2",
+          "9804347980",
+          "V763855180"
+        ]
+      },
+      {
+        "manufacturer": "MINI",
+        "numbers": [
+          "11 23 7 538 551",
+          "11 23 7 562 801",
+          "11 23 7 622 909"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515 T2",
+          "9804347980",
+          "V763855180"
+        ]
+      },
+      {
+        "manufacturer": "PGO",
+        "numbers": [
+          "11 23 7 562 801",
+          "11 23 7 622 909",
+          "11 23 7 638 551"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7047010",
+    "crossNumber": "80005190",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "82 00 276 840",
+          "82 00 297 935",
+          "82 00 451 073",
+          "82 00 505 833",
+          "82 00 523 068",
+          "82 00 619 927",
+          "82 00 817 574"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7048010",
+    "crossNumber": "80001093",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "12303-00QBD",
+          "12303-AW300"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "82 00 268 426",
+          "82 00 297 936",
+          "82 00 457 775",
+          "82 00 523 072",
+          "8200523083"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7049010",
+    "crossNumber": "49434594",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11 23 5 A80 209",
+          "11 23 7 643 074",
+          "11 23 8 584 913",
+          "11 23 9 888 682"
+        ]
+      },
+      {
+        "manufacturer": "MINI",
+        "numbers": [
+          "11 23 5 A80 209",
+          "11 23 7 643 074",
+          "11 23 8 584 913",
+          "11 23 9 888 682"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7051010",
+    "crossNumber": "80004350",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "059 105 251 AA",
+          "059 105 251 AD",
+          "059 105 251 AF",
+          "059 105 251 AG",
+          "059 105 251 AH",
+          "059 105 251 AJ",
+          "059 105 251 AQ",
+          "059 105 251 AR",
+          "059 105 251 AS",
+          "059 105 251 AT",
+          "059 105 251 BB",
+          "059 105 251 BN",
+          "059 105 251 BP",
+          "059 105 251 BQ",
+          "059 105 251 DB",
+          "059 105 251 DJ",
+          "059 105 251 DL",
+          "059 105 251 S"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "059 105 251 AA",
+          "059 105 251 AD",
+          "059 105 251 AF",
+          "059 105 251 AG",
+          "059 105 251 AH",
+          "059 105 251 AJ",
+          "059 105 251 AQ",
+          "059 105 251 AR",
+          "059 105 251 AS",
+          "059 105 251 AT",
+          "059 105 251 BB",
+          "059 105 251 BN",
+          "059 105 251 BP",
+          "059 105 251 BQ",
+          "059 105 251 DB",
+          "059 105 251 DJ",
+          "059 105 251 DL",
+          "059 105 251 S"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7052010",
+    "crossNumber": "80000835",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1379766",
+          "1727140",
+          "1748942",
+          "6C1Q 6B319 EA",
+          "BK3Q 6B319 CA",
+          "BK3Q 6B319 CB"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7057010",
+    "crossNumber": "80000990",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "VOLVO",
+        "numbers": [
+          "30637335",
+          "30731865",
+          "8642368"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7059010",
+    "crossNumber": "80000919",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "504017415",
+          "504078435"
+        ]
+      },
+      {
+        "manufacturer": "IVECO",
+        "numbers": [
+          "504017415",
+          "504078435"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7061010",
+    "crossNumber": "49378102",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "TOYOTA",
+        "numbers": [
+          "13470-15110",
+          "13470-15120"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7062010",
+    "crossNumber": "80000544",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "166 030 00 03",
+          "166 030 01 03",
+          "166 030 02 03",
+          "166 030 03 03"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7063010",
+    "crossNumber": "80001111",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "640 030 02 03",
+          "640 030 05 03",
+          "A 640 030 02 03",
+          "A 640 030 05 03"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7064010",
+    "crossNumber": "80001108",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "611 030 01 03",
+          "611 030 02 03",
+          "611 030 05 03",
+          "646 030 09 03",
+          "A611 030 01 03",
+          "A611 030 02 03",
+          "A611 030 05 03",
+          "A646 030 09 03"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7065010",
+    "crossNumber": "80000819",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "642 030 00 03",
+          "642 030 04 03",
+          "A 642 030 00 03",
+          "A 642 030 04 03"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7067010",
+    "crossNumber": "49467798",
+    "supplier": "CORTECO",
+    "oeNumbers": [
+      {
+        "manufacturer": "MINI",
+        "numbers": [
+          "11 23 8 477 129",
+          "11 23 8 511 320"
+        ]
+      },
+      {
+        "manufacturer": "TOYOTA",
+        "numbers": [
+          "13470WA010",
+          "13470WA011"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,158 @@
+[
+  {
+    "yvNo": "7043010",
+    "crossNumber": "759161",
+    "brand": "CAUTEX",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "RENAULT",
+        "models": [
+          {
+            "modelSeries": "CLIO IV (BH_) | CLIO MIO | LUTECIA",
+            "targets": [
+              {
+                "engine": "0.9 TCe 90 (BHNF, BHMA, BHMH, BHJK, BHJR)",
+                "fullName": "RENAULT CLIO IV (BH_) | CLIO MIO | LUTECIA 0.9 TCe 90 (BHNF, BHMA, BHMH, BHJK, BHJR)",
+                "constructionYearFrom": "11.2012",
+                "constructionYearTo": "08.2021",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 898,
+                "engineCodes": "H4B 408, H4B 400, H4B 412",
+                "kbaNumbers": "3333BAD",
+                "bodyType": "Hatchback",
+                "TecDocID": 57401
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7055010",
+    "crossNumber": "754662",
+    "brand": "CAUTEX",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "HONDA",
+        "models": [
+          {
+            "modelSeries": "CIVIC VI Coupe (EJ, EM1)",
+            "targets": [
+              {
+                "engine": "1.6 i Vtec (EM1)",
+                "fullName": "HONDA CIVIC VI Coupe (EJ, EM1) 1.6 i Vtec (EM1)",
+                "constructionYearFrom": "03.1996",
+                "constructionYearTo": "03.2000",
+                "enginePowerKW": 92,
+                "enginePowerHP": 125,
+                "cc": 1590,
+                "engineCodes": "D16Y8",
+                "kbaNumbers": "1153311",
+                "bodyType": "Coupe",
+                "TecDocID": 17524
+              }
+            ]
+          },
+          {
+            "modelSeries": "CIVIC VI Hatchback (EJ, EK)",
+            "targets": [
+              {
+                "engine": "1.6 i (EK1)",
+                "fullName": "HONDA CIVIC VI Hatchback (EJ, EK) 1.6 i (EK1)",
+                "constructionYearFrom": "11.1995",
+                "constructionYearTo": "02.2001",
+                "enginePowerKW": 84,
+                "enginePowerHP": 114,
+                "cc": 1590,
+                "engineCodes": "D16Y5",
+                "kbaNumbers": "7100502",
+                "bodyType": "Hatchback",
+                "TecDocID": 5198
+              }
+            ]
+          },
+          {
+            "modelSeries": "CIVIC VI Saloon (EJ, EK, SO) | BALLADE | INTEGRA SJ",
+            "targets": [
+              {
+                "engine": "1.6 i Vtec (EK1, SO4)",
+                "fullName": "HONDA CIVIC VI Saloon (EJ, EK, SO) | BALLADE | INTEGRA SJ 1.6 i Vtec (EK1, SO4)",
+                "constructionYearFrom": "11.1995",
+                "constructionYearTo": "02.2001",
+                "enginePowerKW": 92,
+                "enginePowerHP": 125,
+                "cc": 1590,
+                "engineCodes": "D16Y6, D16Y8, D16Y5",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 14901
+              }
+            ]
+          },
+          {
+            "modelSeries": "CRX III (EH, EG) | CIVIC del Sol",
+            "targets": [
+              {
+                "engine": "1.6 ESi (EH6)",
+                "fullName": "HONDA CRX III (EH, EG) | CIVIC del Sol 1.6 ESi (EH6)",
+                "constructionYearFrom": "03.1992",
+                "constructionYearTo": "12.1998",
+                "enginePowerKW": 92,
+                "enginePowerHP": 125,
+                "cc": 1590,
+                "engineCodes": "D16Z6, D16Y8",
+                "kbaNumbers": "7100486",
+                "bodyType": "Targa",
+                "TecDocID": 4232
+              }
+            ]
+          },
+          {
+            "modelSeries": "HR-V (GH_)",
+            "targets": [
+              {
+                "engine": "1.6 16V (GH1, GH3)",
+                "fullName": "HONDA HR-V (GH_) 1.6 16V (GH1, GH3)",
+                "constructionYearFrom": "03.1999",
+                "enginePowerKW": 77,
+                "enginePowerHP": 105,
+                "cc": 1590,
+                "engineCodes": "D16W1",
+                "kbaNumbers": "7100517, 7100523",
+                "bodyType": "SUV",
+                "TecDocID": 14595
+              },
+              {
+                "engine": "1.6 16V 4WD (GH2, GH4)",
+                "fullName": "HONDA HR-V (GH_) 1.6 16V 4WD (GH2, GH4)",
+                "constructionYearFrom": "03.1999",
+                "enginePowerKW": 77,
+                "enginePowerHP": 105,
+                "cc": 1590,
+                "engineCodes": "D16W1",
+                "kbaNumbers": "7100518, 7100524",
+                "bodyType": "SUV",
+                "TecDocID": 11121
+              },
+              {
+                "engine": "1.6 16V 4WD (GH2, GH4)",
+                "fullName": "HONDA HR-V (GH_) 1.6 16V 4WD (GH2, GH4)",
+                "constructionYearFrom": "10.1999",
+                "constructionYearTo": "09.2005",
+                "enginePowerKW": 91,
+                "enginePowerHP": 124,
+                "cc": 1590,
+                "engineCodes": "D16W5",
+                "kbaNumbers": "7100522, 7100525",
+                "bodyType": "SUV",
+                "TecDocID": 14594
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

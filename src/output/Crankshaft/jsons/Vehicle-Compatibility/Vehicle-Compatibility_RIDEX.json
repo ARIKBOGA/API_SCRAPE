@@ -1,0 +1,1581 @@
+[
+  {
+    "yvNo": "7034010",
+    "crossNumber": "3213B0020",
+    "brand": "RIDEX",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "HYUNDAI",
+        "models": [
+          {
+            "modelSeries": "GALLOPER II (JK-01)",
+            "targets": [
+              {
+                "engine": "2.5 TCi D",
+                "fullName": "HYUNDAI GALLOPER II (JK-01) 2.5 TCi D",
+                "constructionYearFrom": "08.1998",
+                "constructionYearTo": "12.2003",
+                "enginePowerKW": 77,
+                "enginePowerHP": 105,
+                "cc": 2476,
+                "engineCodes": "D4BH",
+                "kbaNumbers": "",
+                "bodyType": "Closed Off-Road Vehicle",
+                "TecDocID": 16932
+              },
+              {
+                "engine": "2.5 TD",
+                "fullName": "HYUNDAI GALLOPER II (JK-01) 2.5 TD",
+                "constructionYearFrom": "08.1998",
+                "constructionYearTo": "12.2003",
+                "enginePowerKW": 65,
+                "enginePowerHP": 88,
+                "cc": 2476,
+                "engineCodes": "D4BA",
+                "kbaNumbers": "8252392",
+                "bodyType": "Closed Off-Road Vehicle",
+                "TecDocID": 16943
+              },
+              {
+                "engine": "2.5 TD intercooler",
+                "fullName": "HYUNDAI GALLOPER II (JK-01) 2.5 TD intercooler",
+                "constructionYearFrom": "08.1998",
+                "constructionYearTo": "12.2003",
+                "enginePowerKW": 73,
+                "enginePowerHP": 99,
+                "cc": 2476,
+                "engineCodes": "D4BH",
+                "kbaNumbers": "8252393",
+                "bodyType": "Closed Off-Road Vehicle",
+                "TecDocID": 15145
+              }
+            ]
+          },
+          {
+            "modelSeries": "H100 Bus (P) | GRACE | H150 | H100 / GRACE | BAKKIE",
+            "targets": [
+              {
+                "engine": "2.5 D",
+                "fullName": "HYUNDAI H100 Bus (P) | GRACE | H150 | H100 / GRACE | BAKKIE 2.5 D",
+                "constructionYearFrom": "07.1993",
+                "constructionYearTo": "12.1994",
+                "enginePowerKW": 55,
+                "enginePowerHP": 75,
+                "cc": 2477,
+                "engineCodes": "D4BX",
+                "kbaNumbers": "",
+                "bodyType": "Bus",
+                "TecDocID": 14190
+              },
+              {
+                "engine": "2.5 D",
+                "fullName": "HYUNDAI H100 Bus (P) | GRACE | H150 | H100 / GRACE | BAKKIE 2.5 D",
+                "constructionYearFrom": "12.1994",
+                "constructionYearTo": "03.2000",
+                "enginePowerKW": 57,
+                "enginePowerHP": 78,
+                "cc": 2476,
+                "engineCodes": "D4BA",
+                "kbaNumbers": "8252329",
+                "bodyType": "Bus",
+                "TecDocID": 8169
+              },
+              {
+                "engine": "2.5 TD",
+                "fullName": "HYUNDAI H100 Bus (P) | GRACE | H150 | H100 / GRACE | BAKKIE 2.5 TD",
+                "constructionYearFrom": "07.1993",
+                "constructionYearTo": "03.2000",
+                "enginePowerKW": 59,
+                "enginePowerHP": 80,
+                "cc": 2476,
+                "engineCodes": "D4BF",
+                "kbaNumbers": "8252359",
+                "bodyType": "Bus",
+                "TecDocID": 15919
+              }
+            ]
+          },
+          {
+            "modelSeries": "H100 Van | GRACE | H150 | H100 / GRACE",
+            "targets": [
+              {
+                "engine": "2.5 D",
+                "fullName": "HYUNDAI H100 Van | GRACE | H150 | H100 / GRACE 2.5 D",
+                "constructionYearFrom": "07.1993",
+                "constructionYearTo": "12.1994",
+                "enginePowerKW": 55,
+                "enginePowerHP": 75,
+                "cc": 2477,
+                "engineCodes": "D4BX",
+                "kbaNumbers": "8252002",
+                "bodyType": "Van",
+                "TecDocID": 10560
+              },
+              {
+                "engine": "2.5 D",
+                "fullName": "HYUNDAI H100 Van | GRACE | H150 | H100 / GRACE 2.5 D",
+                "constructionYearFrom": "12.1994",
+                "constructionYearTo": "03.2000",
+                "enginePowerKW": 57,
+                "enginePowerHP": 78,
+                "cc": 2476,
+                "engineCodes": "D4BA",
+                "kbaNumbers": "8252003",
+                "bodyType": "Van",
+                "TecDocID": 10559
+              }
+            ]
+          },
+          {
+            "modelSeries": "TERRACAN (HP)",
+            "targets": [
+              {
+                "engine": "2.5 TD",
+                "fullName": "HYUNDAI TERRACAN (HP) 2.5 TD",
+                "constructionYearFrom": "12.2001",
+                "constructionYearTo": "12.2006",
+                "enginePowerKW": 74,
+                "enginePowerHP": 101,
+                "cc": 2476,
+                "engineCodes": "D4BH",
+                "kbaNumbers": "8252423",
+                "bodyType": "SUV",
+                "TecDocID": 16284
+              }
+            ]
+          },
+          {
+            "modelSeries": "TERRACAN (HP)",
+            "targets": [
+              {
+                "engine": "2.5 TD 4WD",
+                "fullName": "HYUNDAI TERRACAN (HP) 2.5 TD 4WD",
+                "constructionYearFrom": "12.2001",
+                "constructionYearTo": "12.2006",
+                "enginePowerKW": 74,
+                "enginePowerHP": 101,
+                "cc": 2476,
+                "engineCodes": "D4BH",
+                "kbaNumbers": "8252423",
+                "bodyType": "SUV Van",
+                "TecDocID": 141653
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "MITSUBISHI",
+        "models": [
+          {
+            "modelSeries": "L 300 / DELICA II Platform/Chassis (L03_P) | L300 | BIG MINI",
+            "targets": [
+              {
+                "engine": "2.5 D (L039P)",
+                "fullName": "MITSUBISHI L 300 / DELICA II Platform/Chassis (L03_P) | L300 | BIG MINI 2.5 D (L039P)",
+                "constructionYearFrom": "11.1986",
+                "constructionYearTo": "04.1994",
+                "enginePowerKW": 51,
+                "enginePowerHP": 69,
+                "cc": 2477,
+                "engineCodes": "4D56 (8V)",
+                "kbaNumbers": "7107510",
+                "bodyType": "Platform/Chassis",
+                "TecDocID": 10597
+              }
+            ]
+          },
+          {
+            "modelSeries": "L 300 III Bus (P0_W, P1_W, P2_W, P3_W) | DELICA | STARWAGON",
+            "targets": [
+              {
+                "engine": "2.5 D (P05W, P15W, P25W)",
+                "fullName": "MITSUBISHI L 300 III Bus (P0_W, P1_W, P2_W, P3_W) | DELICA | STARWAGON 2.5 D (P05W, P15W, P25W)",
+                "constructionYearFrom": "11.1986",
+                "constructionYearTo": "05.2004",
+                "enginePowerKW": 51,
+                "enginePowerHP": 69,
+                "cc": 2477,
+                "engineCodes": "4D56 (8V)",
+                "kbaNumbers": "7107407, 7107419",
+                "bodyType": "Bus",
+                "TecDocID": 3409
+              },
+              {
+                "engine": "2.5 TD 4WD (P25W, P35W)",
+                "fullName": "MITSUBISHI L 300 III Bus (P0_W, P1_W, P2_W, P3_W) | DELICA | STARWAGON 2.5 TD 4WD (P25W, P35W)",
+                "constructionYearFrom": "12.1987",
+                "constructionYearTo": "05.2004",
+                "enginePowerKW": 64,
+                "enginePowerHP": 87,
+                "cc": 2477,
+                "engineCodes": "4D56-T",
+                "kbaNumbers": "7107440",
+                "bodyType": "Bus",
+                "TecDocID": 3410
+              }
+            ]
+          },
+          {
+            "modelSeries": "L 300 III Platform/Chassis (P1_T ) | DELICA",
+            "targets": [
+              {
+                "engine": "2.5 TD (P15T)",
+                "fullName": "MITSUBISHI L 300 III Platform/Chassis (P1_T ) | DELICA 2.5 TD (P15T)",
+                "constructionYearFrom": "11.1994",
+                "constructionYearTo": "04.2000",
+                "enginePowerKW": 64,
+                "enginePowerHP": 87,
+                "cc": 2477,
+                "engineCodes": "4D56-T",
+                "kbaNumbers": "7107521",
+                "bodyType": "Platform/Chassis",
+                "TecDocID": 10599
+              }
+            ]
+          },
+          {
+            "modelSeries": "L 300 III Van (P0_V, P1_V, P2_V) | DELICA | EXPRESS",
+            "targets": [
+              {
+                "engine": "2.5 D (P05V, P05W, P15V)",
+                "fullName": "MITSUBISHI L 300 III Van (P0_V, P1_V, P2_V) | DELICA | EXPRESS 2.5 D (P05V, P05W, P15V)",
+                "constructionYearFrom": "11.1986",
+                "constructionYearTo": "02.2006",
+                "enginePowerKW": 51,
+                "enginePowerHP": 69,
+                "cc": 2477,
+                "engineCodes": "4D56 (8V)",
+                "kbaNumbers": "7107512",
+                "bodyType": "Van",
+                "TecDocID": 3399
+              }
+            ]
+          },
+          {
+            "modelSeries": "L200 (K3_T, K2_T, K1_T, K0_T) | MIGHTY MAX | CYCLONE | TRITON | COLT | L200 / STORM",
+            "targets": [
+              {
+                "engine": "2.5 D (K14T)",
+                "fullName": "MITSUBISHI L200 (K3_T, K2_T, K1_T, K0_T) | MIGHTY MAX | CYCLONE | TRITON | COLT | L200 / STORM 2.5 D (K14T)",
+                "constructionYearFrom": "11.1986",
+                "constructionYearTo": "10.1996",
+                "enginePowerKW": 51,
+                "enginePowerHP": 70,
+                "cc": 2476,
+                "engineCodes": "4D56 (8V)",
+                "kbaNumbers": "",
+                "bodyType": "Pickup",
+                "TecDocID": 6117
+              },
+              {
+                "engine": "2.5 D 4WD (K24T)",
+                "fullName": "MITSUBISHI L200 (K3_T, K2_T, K1_T, K0_T) | MIGHTY MAX | CYCLONE | TRITON | COLT | L200 / STORM 2.5 D 4WD (K24T)",
+                "constructionYearFrom": "12.1987",
+                "constructionYearTo": "05.1993",
+                "enginePowerKW": 51,
+                "enginePowerHP": 70,
+                "cc": 2476,
+                "engineCodes": "4D56 (8V)",
+                "kbaNumbers": "",
+                "bodyType": "Pickup",
+                "TecDocID": 6118
+              },
+              {
+                "engine": "2.5 TD 4WD (K34T)",
+                "fullName": "MITSUBISHI L200 (K3_T, K2_T, K1_T, K0_T) | MIGHTY MAX | CYCLONE | TRITON | COLT | L200 / STORM 2.5 TD 4WD (K34T)",
+                "constructionYearFrom": "11.1992",
+                "constructionYearTo": "08.1996",
+                "enginePowerKW": 64,
+                "enginePowerHP": 87,
+                "cc": 2477,
+                "engineCodes": "4D56-T",
+                "kbaNumbers": "7431500",
+                "bodyType": "Pickup",
+                "TecDocID": 5598
+              }
+            ]
+          },
+          {
+            "modelSeries": "L200 (K7_T, K6_T, K5_T) | STRADA | COLT / RODEO | TRITON | STORM | STRAKER | L200 / STORM",
+            "targets": [
+              {
+                "engine": "2.5 D (K64T)",
+                "fullName": "MITSUBISHI L200 (K7_T, K6_T, K5_T) | STRADA | COLT / RODEO | TRITON | STORM | STRAKER | L200 / STORM 2.5 D (K64T)",
+                "constructionYearFrom": "06.1996",
+                "constructionYearTo": "12.2007",
+                "enginePowerKW": 55,
+                "enginePowerHP": 75,
+                "cc": 2477,
+                "engineCodes": "4D56 (8V)",
+                "kbaNumbers": "7431502",
+                "bodyType": "Pickup",
+                "TecDocID": 8739
+              },
+              {
+                "engine": "2.5 TD 4WD (K74T)",
+                "fullName": "MITSUBISHI L200 (K7_T, K6_T, K5_T) | STRADA | COLT / RODEO | TRITON | STORM | STRAKER | L200 / STORM 2.5 TD 4WD (K74T)",
+                "constructionYearFrom": "06.1996",
+                "constructionYearTo": "12.2007",
+                "enginePowerKW": 73,
+                "enginePowerHP": 99,
+                "cc": 2477,
+                "engineCodes": "4D56-TD",
+                "kbaNumbers": "7431503",
+                "bodyType": "Pickup",
+                "TecDocID": 8740
+              },
+              {
+                "engine": "2.5 TD 4WD (K74T)",
+                "fullName": "MITSUBISHI L200 (K7_T, K6_T, K5_T) | STRADA | COLT / RODEO | TRITON | STORM | STRAKER | L200 / STORM 2.5 TD 4WD (K74T)",
+                "constructionYearFrom": "08.2001",
+                "constructionYearTo": "12.2007",
+                "enginePowerKW": 98,
+                "enginePowerHP": 133,
+                "cc": 2477,
+                "engineCodes": "4D56-T",
+                "kbaNumbers": "",
+                "bodyType": "Pickup",
+                "TecDocID": 17755
+              },
+              {
+                "engine": "2.5 TD 4WD (K74T)",
+                "fullName": "MITSUBISHI L200 (K7_T, K6_T, K5_T) | STRADA | COLT / RODEO | TRITON | STORM | STRAKER | L200 / STORM 2.5 TD 4WD (K74T)",
+                "constructionYearFrom": "09.2001",
+                "constructionYearTo": "12.2007",
+                "enginePowerKW": 85,
+                "enginePowerHP": 115,
+                "cc": 2477,
+                "engineCodes": "4D56-T",
+                "kbaNumbers": "7431506",
+                "bodyType": "Pickup",
+                "TecDocID": 17459
+              }
+            ]
+          },
+          {
+            "modelSeries": "L200 / TRITON (KA_T, KB_T) | STRADA | STRADA TRITON | L200 TRITON | HUNTER",
+            "targets": [
+              {
+                "engine": "2.5 DI-D (KA4T)",
+                "fullName": "MITSUBISHI L200 / TRITON (KA_T, KB_T) | STRADA | STRADA TRITON | L200 TRITON | HUNTER 2.5 DI-D (KA4T)",
+                "constructionYearFrom": "08.2007",
+                "constructionYearTo": "12.2015",
+                "enginePowerKW": 123,
+                "enginePowerHP": 167,
+                "cc": 2477,
+                "engineCodes": "4D56-HP",
+                "kbaNumbers": "7431AAD",
+                "bodyType": "Pickup",
+                "TecDocID": 10981
+              },
+              {
+                "engine": "2.5 DI-D (KA4T)",
+                "fullName": "MITSUBISHI L200 / TRITON (KA_T, KB_T) | STRADA | STRADA TRITON | L200 TRITON | HUNTER 2.5 DI-D (KA4T)",
+                "constructionYearFrom": "04.2010",
+                "constructionYearTo": "12.2015",
+                "enginePowerKW": 94,
+                "enginePowerHP": 128,
+                "cc": 2477,
+                "engineCodes": "4D56 (16V), 4D56-HP",
+                "kbaNumbers": "7431AAF, 7431AAG",
+                "bodyType": "Pickup",
+                "TecDocID": 33129
+              },
+              {
+                "engine": "2.5 DI-D 4WD (KB4T)",
+                "fullName": "MITSUBISHI L200 / TRITON (KA_T, KB_T) | STRADA | STRADA TRITON | L200 TRITON | HUNTER 2.5 DI-D 4WD (KB4T)",
+                "constructionYearFrom": "11.2005",
+                "constructionYearTo": "12.2015",
+                "enginePowerKW": 100,
+                "enginePowerHP": 136,
+                "cc": 2477,
+                "engineCodes": "4D56-HP",
+                "kbaNumbers": "7431AAA, 7431AAH, 7431AAK",
+                "bodyType": "Pickup",
+                "TecDocID": 19365
+              },
+              {
+                "engine": "2.5 DI-D 4WD (KB4T)",
+                "fullName": "MITSUBISHI L200 / TRITON (KA_T, KB_T) | STRADA | STRADA TRITON | L200 TRITON | HUNTER 2.5 DI-D 4WD (KB4T)",
+                "constructionYearFrom": "10.2007",
+                "constructionYearTo": "12.2015",
+                "enginePowerKW": 123,
+                "enginePowerHP": 167,
+                "cc": 2477,
+                "engineCodes": "4D56-HP",
+                "kbaNumbers": "7431AAC",
+                "bodyType": "Pickup",
+                "TecDocID": 24544
+              },
+              {
+                "engine": "2.5 DI-D 4WD (KB4T)",
+                "fullName": "MITSUBISHI L200 / TRITON (KA_T, KB_T) | STRADA | STRADA TRITON | L200 TRITON | HUNTER 2.5 DI-D 4WD (KB4T)",
+                "constructionYearFrom": "04.2010",
+                "constructionYearTo": "12.2015",
+                "enginePowerKW": 131,
+                "enginePowerHP": 178,
+                "cc": 2477,
+                "engineCodes": "4D56-HP",
+                "kbaNumbers": "7431AAE, 7431AAJ, 7431AAL",
+                "bodyType": "Pickup",
+                "TecDocID": 33130
+              }
+            ]
+          },
+          {
+            "modelSeries": "L400 Bus (PD_W, PC_W, PA_V, PB_V, PA_W)",
+            "targets": [
+              {
+                "engine": "2.5 TD (PA5V/W, PB5V)",
+                "fullName": "MITSUBISHI L400 Bus (PD_W, PC_W, PA_V, PB_V, PA_W) 2.5 TD (PA5V/W, PB5V)",
+                "constructionYearFrom": "05.1995",
+                "constructionYearTo": "05.2000",
+                "enginePowerKW": 73,
+                "enginePowerHP": 99,
+                "cc": 2477,
+                "engineCodes": "4D56-TD",
+                "kbaNumbers": "7107232",
+                "bodyType": "Bus",
+                "TecDocID": 4785
+              },
+              {
+                "engine": "2.5 TD 4WD (PD5V/W)",
+                "fullName": "MITSUBISHI L400 Bus (PD_W, PC_W, PA_V, PB_V, PA_W) 2.5 TD 4WD (PD5V/W)",
+                "constructionYearFrom": "05.1995",
+                "constructionYearTo": "05.2000",
+                "enginePowerKW": 73,
+                "enginePowerHP": 99,
+                "cc": 2477,
+                "engineCodes": "4D56-TD",
+                "kbaNumbers": "7107233",
+                "bodyType": "Bus",
+                "TecDocID": 4786
+              }
+            ]
+          },
+          {
+            "modelSeries": "PAJERO CLASSIC (V2_W, V6_W, V7_W) | PAJERO/SHOGUN CLASSIC | MONTERO CLASSIC",
+            "targets": [
+              {
+                "engine": "2.5 TD (V24W)",
+                "fullName": "MITSUBISHI PAJERO CLASSIC (V2_W, V6_W, V7_W) | PAJERO/SHOGUN CLASSIC | MONTERO CLASSIC 2.5 TD (V24W)",
+                "constructionYearFrom": "07.2001",
+                "enginePowerKW": 85,
+                "enginePowerHP": 115,
+                "cc": 2477,
+                "engineCodes": "4D56-T",
+                "kbaNumbers": "7107293",
+                "bodyType": "Closed Off-Road Vehicle",
+                "TecDocID": 16915
+              }
+            ]
+          },
+          {
+            "modelSeries": "PAJERO I (L04_G, L14_G) | MONTERO | PAJERO/SHOGUN",
+            "targets": [
+              {
+                "engine": "2.5 TD (L044G, L049G)",
+                "fullName": "MITSUBISHI PAJERO I (L04_G, L14_G) | MONTERO | PAJERO/SHOGUN 2.5 TD (L044G, L049G)",
+                "constructionYearFrom": "04.1987",
+                "constructionYearTo": "12.1991",
+                "enginePowerKW": 64,
+                "enginePowerHP": 87,
+                "cc": 2477,
+                "engineCodes": "4D56-T",
+                "kbaNumbers": "7107452",
+                "bodyType": "Closed Off-Road Vehicle",
+                "TecDocID": 3385
+              },
+              {
+                "engine": "2.5 TD (L044G, L049G)",
+                "fullName": "MITSUBISHI PAJERO I (L04_G, L14_G) | MONTERO | PAJERO/SHOGUN 2.5 TD (L044G, L049G)",
+                "constructionYearFrom": "11.1989",
+                "constructionYearTo": "11.1990",
+                "enginePowerKW": 70,
+                "enginePowerHP": 95,
+                "cc": 2477,
+                "engineCodes": "4D56-T",
+                "kbaNumbers": "7107453",
+                "bodyType": "Closed Off-Road Vehicle",
+                "TecDocID": 3386
+              }
+            ]
+          },
+          {
+            "modelSeries": "PAJERO I Canvas Top (L04_G) | MONTERO | PAJERO/SHOGUN",
+            "targets": [
+              {
+                "engine": "2.3 TD (L043G, L048G)",
+                "fullName": "MITSUBISHI PAJERO I Canvas Top (L04_G) | MONTERO | PAJERO/SHOGUN 2.3 TD (L043G, L048G)",
+                "constructionYearFrom": "12.1982",
+                "constructionYearTo": "04.1986",
+                "enginePowerKW": 62,
+                "enginePowerHP": 84,
+                "cc": 2347,
+                "engineCodes": "4D55-T",
+                "kbaNumbers": "7107351",
+                "bodyType": "Open Off-Road Vehicle",
+                "TecDocID": 3383
+              },
+              {
+                "engine": "2.5 TD (L044G, L049G)",
+                "fullName": "MITSUBISHI PAJERO I Canvas Top (L04_G) | MONTERO | PAJERO/SHOGUN 2.5 TD (L044G, L049G)",
+                "constructionYearFrom": "05.1986",
+                "constructionYearTo": "10.1989",
+                "enginePowerKW": 62,
+                "enginePowerHP": 84,
+                "cc": 2477,
+                "engineCodes": "4D56-T",
+                "kbaNumbers": "7107390",
+                "bodyType": "Open Off-Road Vehicle",
+                "TecDocID": 3384
+              },
+              {
+                "engine": "2.5 TD (L044G, L049G)",
+                "fullName": "MITSUBISHI PAJERO I Canvas Top (L04_G) | MONTERO | PAJERO/SHOGUN 2.5 TD (L044G, L049G)",
+                "constructionYearFrom": "11.1989",
+                "constructionYearTo": "11.1990",
+                "enginePowerKW": 70,
+                "enginePowerHP": 95,
+                "cc": 2477,
+                "engineCodes": "4D56-T",
+                "kbaNumbers": "7107447",
+                "bodyType": "Open Off-Road Vehicle",
+                "TecDocID": 3387
+              }
+            ]
+          },
+          {
+            "modelSeries": "PAJERO II (V3_W, V2_W, V4_W, V5_W) | MONTERO | PAJERO SFX /SHOGUN | PAJERO/SHOGUN",
+            "targets": [
+              {
+                "engine": "2.5 TD 4WD (V24W)",
+                "fullName": "MITSUBISHI PAJERO II (V3_W, V2_W, V4_W, V5_W) | MONTERO | PAJERO SFX /SHOGUN | PAJERO/SHOGUN 2.5 TD 4WD (V24W)",
+                "constructionYearFrom": "12.1990",
+                "constructionYearTo": "10.1999",
+                "enginePowerKW": 73,
+                "enginePowerHP": 99,
+                "cc": 2477,
+                "engineCodes": "4D56-TD",
+                "kbaNumbers": "7107478",
+                "bodyType": "Closed Off-Road Vehicle",
+                "TecDocID": 3414
+              }
+            ]
+          },
+          {
+            "modelSeries": "PAJERO II Canvas Top (V2_C, V4_C) | SHOGUN | MONTERO | PAJERO/SHOGUN",
+            "targets": [
+              {
+                "engine": "2.5 TD 4WD (V24C)",
+                "fullName": "MITSUBISHI PAJERO II Canvas Top (V2_C, V4_C) | SHOGUN | MONTERO | PAJERO/SHOGUN 2.5 TD 4WD (V24C)",
+                "constructionYearFrom": "12.1990",
+                "constructionYearTo": "04.2000",
+                "enginePowerKW": 73,
+                "enginePowerHP": 99,
+                "cc": 2477,
+                "engineCodes": "4D56-TD",
+                "kbaNumbers": "7107477",
+                "bodyType": "Open Off-Road Vehicle",
+                "TecDocID": 3413
+              }
+            ]
+          },
+          {
+            "modelSeries": "PAJERO III Canvas Top (V6_W, V7_W) | SHOGUN | MONTERO | PAJERO/SHOGUN",
+            "targets": [
+              {
+                "engine": "2.5 TDi (V64W, V74W)",
+                "fullName": "MITSUBISHI PAJERO III Canvas Top (V6_W, V7_W) | SHOGUN | MONTERO | PAJERO/SHOGUN 2.5 TDi (V64W, V74W)",
+                "constructionYearFrom": "09.2001",
+                "constructionYearTo": "12.2006",
+                "enginePowerKW": 85,
+                "enginePowerHP": 115,
+                "cc": 2477,
+                "engineCodes": "4D56-T",
+                "kbaNumbers": "",
+                "bodyType": "Open Off-Road Vehicle",
+                "TecDocID": 21315
+              }
+            ]
+          },
+          {
+            "modelSeries": "PAJERO SPORT I (K7_, K9_) | SPORT WAGON | G-WAGON | CHALLENGER | NATIVA | CHALLENGER / SHOGUN SPORT | MONTERO SPORT",
+            "targets": [
+              {
+                "engine": "2.5 TD (K94W)",
+                "fullName": "MITSUBISHI PAJERO SPORT I (K7_, K9_) | SPORT WAGON | G-WAGON | CHALLENGER | NATIVA | CHALLENGER / SHOGUN SPORT | MONTERO SPORT 2.5 TD (K94W)",
+                "constructionYearFrom": "11.1998",
+                "enginePowerKW": 73,
+                "enginePowerHP": 99,
+                "cc": 2477,
+                "engineCodes": "4D56-T",
+                "kbaNumbers": "7107264",
+                "bodyType": "Closed Off-Road Vehicle",
+                "TecDocID": 10682
+              },
+              {
+                "engine": "2.5 TD (K94W)",
+                "fullName": "MITSUBISHI PAJERO SPORT I (K7_, K9_) | SPORT WAGON | G-WAGON | CHALLENGER | NATIVA | CHALLENGER / SHOGUN SPORT | MONTERO SPORT 2.5 TD (K94W)",
+                "constructionYearFrom": "08.2003",
+                "enginePowerKW": 98,
+                "enginePowerHP": 133,
+                "cc": 2477,
+                "engineCodes": "4D56-T",
+                "kbaNumbers": "",
+                "bodyType": "Closed Off-Road Vehicle",
+                "TecDocID": 17754
+              },
+              {
+                "engine": "2.5 TD (K94W, K74T)",
+                "fullName": "MITSUBISHI PAJERO SPORT I (K7_, K9_) | SPORT WAGON | G-WAGON | CHALLENGER | NATIVA | CHALLENGER / SHOGUN SPORT | MONTERO SPORT 2.5 TD (K94W, K74T)",
+                "constructionYearFrom": "02.2000",
+                "constructionYearTo": "06.2007",
+                "enginePowerKW": 85,
+                "enginePowerHP": 115,
+                "cc": 2477,
+                "engineCodes": "4D56-T",
+                "kbaNumbers": "7107291",
+                "bodyType": "Closed Off-Road Vehicle",
+                "TecDocID": 16886
+              }
+            ]
+          },
+          {
+            "modelSeries": "PROUDIA/DIGNITY (S4_A, S3_A)",
+            "targets": [
+              {
+                "engine": "4.5 (S33A, S43A)",
+                "fullName": "MITSUBISHI PROUDIA/DIGNITY (S4_A, S3_A) 4.5 (S33A, S43A)",
+                "constructionYearFrom": "10.1999",
+                "constructionYearTo": "05.2001",
+                "enginePowerKW": 206,
+                "enginePowerHP": 280,
+                "cc": 4498,
+                "engineCodes": "8A80",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 14711
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7035010",
+    "crossNumber": "3213B0016",
+    "brand": "RIDEX",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "HYUNDAI",
+        "models": [
+          {
+            "modelSeries": "H-1 / STAREX Bus (A1) | SATELLITE | H200",
+            "targets": [
+              {
+                "engine": "2.5 D",
+                "fullName": "HYUNDAI H-1 / STAREX Bus (A1) | SATELLITE | H200 2.5 D",
+                "constructionYearFrom": "10.1997",
+                "constructionYearTo": "04.2004",
+                "enginePowerKW": 57,
+                "enginePowerHP": 78,
+                "cc": 2476,
+                "engineCodes": "D4BF, D4BH",
+                "kbaNumbers": "",
+                "bodyType": "Bus",
+                "TecDocID": 15921
+              },
+              {
+                "engine": "2.5 TCi",
+                "fullName": "HYUNDAI H-1 / STAREX Bus (A1) | SATELLITE | H200 2.5 TCi",
+                "constructionYearFrom": "10.1997",
+                "constructionYearTo": "12.2007",
+                "enginePowerKW": 73,
+                "enginePowerHP": 99,
+                "cc": 2476,
+                "engineCodes": "D4BH",
+                "kbaNumbers": "8252386",
+                "bodyType": "Bus",
+                "TecDocID": 20542
+              },
+              {
+                "engine": "2.5 TD",
+                "fullName": "HYUNDAI H-1 / STAREX Bus (A1) | SATELLITE | H200 2.5 TD",
+                "constructionYearFrom": "06.1997",
+                "constructionYearTo": "04.2004",
+                "enginePowerKW": 59,
+                "enginePowerHP": 80,
+                "cc": 2476,
+                "engineCodes": "D4BF",
+                "kbaNumbers": "8252359",
+                "bodyType": "Bus",
+                "TecDocID": 8422
+              },
+              {
+                "engine": "2.5 TD 4WD",
+                "fullName": "HYUNDAI H-1 / STAREX Bus (A1) | SATELLITE | H200 2.5 TD 4WD",
+                "constructionYearFrom": "02.1998",
+                "constructionYearTo": "04.2004",
+                "enginePowerKW": 59,
+                "enginePowerHP": 80,
+                "cc": 2476,
+                "engineCodes": "D4BF",
+                "kbaNumbers": "8252363",
+                "bodyType": "Bus",
+                "TecDocID": 9555
+              },
+              {
+                "engine": "2.5 TD 4WD",
+                "fullName": "HYUNDAI H-1 / STAREX Bus (A1) | SATELLITE | H200 2.5 TD 4WD",
+                "constructionYearFrom": "03.2001",
+                "constructionYearTo": "04.2004",
+                "enginePowerKW": 73,
+                "enginePowerHP": 99,
+                "cc": 2476,
+                "engineCodes": "D4BH",
+                "kbaNumbers": "8252387",
+                "bodyType": "Bus",
+                "TecDocID": 23310
+              },
+              {
+                "engine": "2.5 TD 4WD",
+                "fullName": "HYUNDAI H-1 / STAREX Bus (A1) | SATELLITE | H200 2.5 TD 4WD",
+                "constructionYearFrom": "11.2001",
+                "constructionYearTo": "04.2004",
+                "enginePowerKW": 74,
+                "enginePowerHP": 101,
+                "cc": 2476,
+                "engineCodes": "D4BH",
+                "kbaNumbers": "5984004",
+                "bodyType": "Bus",
+                "TecDocID": 23311
+              }
+            ]
+          },
+          {
+            "modelSeries": "H-1 Van (A1) | LIBERO | H200 | STAREX",
+            "targets": [
+              {
+                "engine": "2.5 TD",
+                "fullName": "HYUNDAI H-1 Van (A1) | LIBERO | H200 | STAREX 2.5 TD",
+                "constructionYearFrom": "03.2000",
+                "constructionYearTo": "09.2000",
+                "enginePowerKW": 59,
+                "enginePowerHP": 80,
+                "cc": 2476,
+                "engineCodes": "D4BF",
+                "kbaNumbers": "8252006",
+                "bodyType": "Van",
+                "TecDocID": 14736
+              },
+              {
+                "engine": "2.5 TD",
+                "fullName": "HYUNDAI H-1 Van (A1) | LIBERO | H200 | STAREX 2.5 TD",
+                "constructionYearFrom": "03.2000",
+                "constructionYearTo": "10.2006",
+                "enginePowerKW": 73,
+                "enginePowerHP": 99,
+                "cc": 2476,
+                "engineCodes": "D4BH",
+                "kbaNumbers": "8252007",
+                "bodyType": "Van",
+                "TecDocID": 15381
+              },
+              {
+                "engine": "2.5 TD",
+                "fullName": "HYUNDAI H-1 Van (A1) | LIBERO | H200 | STAREX 2.5 TD",
+                "constructionYearFrom": "10.2001",
+                "constructionYearTo": "08.2007",
+                "enginePowerKW": 74,
+                "enginePowerHP": 101,
+                "cc": 2476,
+                "engineCodes": "D4BH",
+                "kbaNumbers": "5984008, 8252009",
+                "bodyType": "Van",
+                "TecDocID": 17466
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "KIA",
+        "models": [
+          {
+            "modelSeries": "K2500 Platform/Chassis (SD) | FRONTIER | BONGO",
+            "targets": [
+              {
+                "engine": "2.5 D",
+                "fullName": "KIA K2500 Platform/Chassis (SD) | FRONTIER | BONGO 2.5 D",
+                "constructionYearFrom": "01.2003",
+                "enginePowerKW": 69,
+                "enginePowerHP": 94,
+                "cc": 2476,
+                "engineCodes": "D4BH",
+                "kbaNumbers": "8253504, 8253505",
+                "bodyType": "Platform/Chassis",
+                "TecDocID": 18043
+              }
+            ]
+          },
+          {
+            "modelSeries": "PREGIO Van (TB) | BESTA",
+            "targets": [
+              {
+                "engine": "2.5 TCi D",
+                "fullName": "KIA PREGIO Van (TB) | BESTA 2.5 TCi D",
+                "constructionYearFrom": "09.2002",
+                "enginePowerKW": 69,
+                "enginePowerHP": 94,
+                "cc": 2476,
+                "engineCodes": "D4BH",
+                "kbaNumbers": "8253503",
+                "bodyType": "Van",
+                "TecDocID": 17309
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7053010",
+    "crossNumber": "3213B0103",
+    "brand": "RIDEX",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "NISSAN",
+        "models": [
+          {
+            "modelSeries": "ALMERA II (N16) | SUNNY | PULSAR | SENTRA",
+            "targets": [
+              {
+                "engine": "2.2 dCi",
+                "fullName": "NISSAN ALMERA II (N16) | SUNNY | PULSAR | SENTRA 2.2 dCi",
+                "constructionYearFrom": "09.2002",
+                "constructionYearTo": "05.2007",
+                "enginePowerKW": 82,
+                "enginePowerHP": 112,
+                "cc": 2184,
+                "engineCodes": "YD22DDT",
+                "kbaNumbers": "3144036",
+                "bodyType": "Saloon",
+                "TecDocID": 17683
+              },
+              {
+                "engine": "2.2 dCi",
+                "fullName": "NISSAN ALMERA II (N16) | SUNNY | PULSAR | SENTRA 2.2 dCi",
+                "constructionYearFrom": "09.2003",
+                "constructionYearTo": "09.2006",
+                "enginePowerKW": 100,
+                "enginePowerHP": 136,
+                "cc": 2184,
+                "engineCodes": "YD22DDTi",
+                "kbaNumbers": "3144034",
+                "bodyType": "Saloon",
+                "TecDocID": 17684
+              },
+              {
+                "engine": "2.2 Di",
+                "fullName": "NISSAN ALMERA II (N16) | SUNNY | PULSAR | SENTRA 2.2 Di",
+                "constructionYearFrom": "07.2000",
+                "constructionYearTo": "04.2003",
+                "enginePowerKW": 81,
+                "enginePowerHP": 110,
+                "cc": 2184,
+                "engineCodes": "YD22DDT",
+                "kbaNumbers": "9648364, 3144038",
+                "bodyType": "Saloon",
+                "TecDocID": 14916
+              }
+            ]
+          },
+          {
+            "modelSeries": "ALMERA II Hatchback (N16) | PULSAR | SENTRA",
+            "targets": [
+              {
+                "engine": "2.2 dCi",
+                "fullName": "NISSAN ALMERA II Hatchback (N16) | PULSAR | SENTRA 2.2 dCi",
+                "constructionYearFrom": "09.2003",
+                "constructionYearTo": "09.2006",
+                "enginePowerKW": 82,
+                "enginePowerHP": 112,
+                "cc": 2184,
+                "engineCodes": "YD22DDT",
+                "kbaNumbers": "3144037",
+                "bodyType": "Hatchback",
+                "TecDocID": 17681
+              },
+              {
+                "engine": "2.2 dCi",
+                "fullName": "NISSAN ALMERA II Hatchback (N16) | PULSAR | SENTRA 2.2 dCi",
+                "constructionYearFrom": "09.2003",
+                "constructionYearTo": "09.2006",
+                "enginePowerKW": 100,
+                "enginePowerHP": 136,
+                "cc": 2184,
+                "engineCodes": "YD22DDT",
+                "kbaNumbers": "3144035",
+                "bodyType": "Hatchback",
+                "TecDocID": 17682
+              },
+              {
+                "engine": "2.2 Di",
+                "fullName": "NISSAN ALMERA II Hatchback (N16) | PULSAR | SENTRA 2.2 Di",
+                "constructionYearFrom": "03.2000",
+                "constructionYearTo": "04.2003",
+                "enginePowerKW": 81,
+                "enginePowerHP": 110,
+                "cc": 2184,
+                "engineCodes": "YD22DDT",
+                "kbaNumbers": "9648354, 3144039",
+                "bodyType": "Hatchback",
+                "TecDocID": 14659
+              }
+            ]
+          },
+          {
+            "modelSeries": "X-TRAIL I (T30)",
+            "targets": [
+              {
+                "engine": "2.2 dCi",
+                "fullName": "NISSAN X-TRAIL I (T30) 2.2 dCi",
+                "constructionYearTo": "09.2007",
+                "enginePowerKW": 100,
+                "enginePowerHP": 136,
+                "cc": 2184,
+                "engineCodes": "YD22ETI, YD22DDTi",
+                "kbaNumbers": "1329ACY, 1329ACZ, 3144ABD, 3144ABE, 3144088",
+                "bodyType": "SUV",
+                "TecDocID": 19070
+              },
+              {
+                "engine": "2.2 dCi 4x4",
+                "fullName": "NISSAN X-TRAIL I (T30) 2.2 dCi 4x4",
+                "constructionYearTo": "09.2007",
+                "enginePowerKW": 100,
+                "enginePowerHP": 136,
+                "cc": 2184,
+                "engineCodes": "YD22ETI, YD22DDTi",
+                "kbaNumbers": "1329ACT, 1329ACU, 3144AAZ, 3144AAY, 3144077",
+                "bodyType": "SUV",
+                "TecDocID": 17887
+              },
+              {
+                "engine": "2.2 DCi FWD",
+                "fullName": "NISSAN X-TRAIL I (T30) 2.2 DCi FWD",
+                "constructionYearFrom": "06.2001",
+                "constructionYearTo": "09.2004",
+                "enginePowerKW": 84,
+                "enginePowerHP": 114,
+                "cc": 2184,
+                "engineCodes": "YD22ETI",
+                "kbaNumbers": "",
+                "bodyType": "SUV",
+                "TecDocID": 24628
+              },
+              {
+                "engine": "2.2 Di 4x4",
+                "fullName": "NISSAN X-TRAIL I (T30) 2.2 Di 4x4",
+                "constructionYearTo": "09.2007",
+                "enginePowerKW": 84,
+                "enginePowerHP": 114,
+                "cc": 2184,
+                "engineCodes": "YD22DDTi, YD22ETI",
+                "kbaNumbers": "9648372, 3144043",
+                "bodyType": "SUV",
+                "TecDocID": 15970
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7058010",
+    "crossNumber": "3213B0013",
+    "brand": "RIDEX",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "CHEVROLET",
+        "models": [
+          {
+            "modelSeries": "CAPTIVA (C100, C140)",
+            "targets": [
+              {
+                "engine": "2.4",
+                "fullName": "CHEVROLET CAPTIVA (C100, C140) 2.4",
+                "constructionYearFrom": "06.2006",
+                "constructionYearTo": "02.2011",
+                "enginePowerKW": 100,
+                "enginePowerHP": 136,
+                "cc": 2405,
+                "engineCodes": "LD9(146CUL4)",
+                "kbaNumbers": "8260AAE, 8260AAM",
+                "bodyType": "SUV",
+                "TecDocID": 19700
+              },
+              {
+                "engine": "2.4 4WD",
+                "fullName": "CHEVROLET CAPTIVA (C100, C140) 2.4 4WD",
+                "constructionYearFrom": "06.2006",
+                "constructionYearTo": "02.2011",
+                "enginePowerKW": 100,
+                "enginePowerHP": 136,
+                "cc": 2405,
+                "engineCodes": "LD9(146CUL4)",
+                "kbaNumbers": "8260AAJ, 8260AAN",
+                "bodyType": "SUV",
+                "TecDocID": 19701
+              },
+              {
+                "engine": "2.4 LPG",
+                "fullName": "CHEVROLET CAPTIVA (C100, C140) 2.4 LPG",
+                "constructionYearFrom": "01.2007",
+                "enginePowerKW": 100,
+                "enginePowerHP": 136,
+                "cc": 2405,
+                "engineCodes": "LD9(146CUL4)",
+                "kbaNumbers": "8260AAE, 8260AAM",
+                "bodyType": "SUV",
+                "TecDocID": 34972
+              },
+              {
+                "engine": "2.4 LPG 4WD",
+                "fullName": "CHEVROLET CAPTIVA (C100, C140) 2.4 LPG 4WD",
+                "constructionYearFrom": "01.2007",
+                "constructionYearTo": "02.2011",
+                "enginePowerKW": 100,
+                "enginePowerHP": 136,
+                "cc": 2405,
+                "engineCodes": "LD9(146CUL4)",
+                "kbaNumbers": "8260AAJ, 8260AAN",
+                "bodyType": "SUV",
+                "TecDocID": 34973
+              }
+            ]
+          },
+          {
+            "modelSeries": "EPICA (KL1_) | TOSCA",
+            "targets": [
+              {
+                "engine": "2.0",
+                "fullName": "CHEVROLET EPICA (KL1_) | TOSCA 2.0",
+                "constructionYearFrom": "01.2005",
+                "constructionYearTo": "12.2006",
+                "enginePowerKW": 94,
+                "enginePowerHP": 128,
+                "cc": 1998,
+                "engineCodes": "L88",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 23739
+              }
+            ]
+          },
+          {
+            "modelSeries": "EVANDA",
+            "targets": [
+              {
+                "engine": "2.0",
+                "fullName": "CHEVROLET EVANDA 2.0",
+                "constructionYearFrom": "03.2005",
+                "constructionYearTo": "12.2006",
+                "enginePowerKW": 96,
+                "enginePowerHP": 131,
+                "cc": 1998,
+                "engineCodes": "L88",
+                "kbaNumbers": "8260020",
+                "bodyType": "Saloon",
+                "TecDocID": 18549
+              }
+            ]
+          },
+          {
+            "modelSeries": "REZZO MPV (U100) | TACUMA",
+            "targets": [
+              {
+                "engine": "2.0",
+                "fullName": "CHEVROLET REZZO MPV (U100) | TACUMA 2.0",
+                "constructionYearFrom": "03.2005",
+                "enginePowerKW": 89,
+                "enginePowerHP": 121,
+                "cc": 1998,
+                "engineCodes": "L88",
+                "kbaNumbers": "8260021",
+                "bodyType": "MPV",
+                "TecDocID": 18548
+              },
+              {
+                "engine": "2.0",
+                "fullName": "CHEVROLET REZZO MPV (U100) | TACUMA 2.0",
+                "constructionYearFrom": "08.2005",
+                "constructionYearTo": "09.2009",
+                "enginePowerKW": 90,
+                "enginePowerHP": 122,
+                "cc": 1998,
+                "engineCodes": "L88",
+                "kbaNumbers": "8260041, 8260AAY",
+                "bodyType": "MPV",
+                "TecDocID": 19768
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "DAEWOO",
+        "models": [
+          {
+            "modelSeries": "LEGANZA (KLAV) | KONDOR",
+            "targets": [
+              {
+                "engine": "2.0 16V",
+                "fullName": "DAEWOO LEGANZA (KLAV) | KONDOR 2.0 16V",
+                "constructionYearFrom": "06.1997",
+                "constructionYearTo": "12.2002",
+                "enginePowerKW": 98,
+                "enginePowerHP": 133,
+                "cc": 1998,
+                "engineCodes": "X 20 SED",
+                "kbaNumbers": "8255329",
+                "bodyType": "Saloon",
+                "TecDocID": 9029
+              },
+              {
+                "engine": "2.0 16V",
+                "fullName": "DAEWOO LEGANZA (KLAV) | KONDOR 2.0 16V",
+                "constructionYearFrom": "07.2000",
+                "constructionYearTo": "04.2004",
+                "enginePowerKW": 93,
+                "enginePowerHP": 126,
+                "cc": 1998,
+                "engineCodes": "T20SED",
+                "kbaNumbers": "8255344",
+                "bodyType": "Saloon",
+                "TecDocID": 19429
+              },
+              {
+                "engine": "2.2 16V",
+                "fullName": "DAEWOO LEGANZA (KLAV) | KONDOR 2.2 16V",
+                "constructionYearFrom": "04.1999",
+                "constructionYearTo": "12.2002",
+                "enginePowerKW": 100,
+                "enginePowerHP": 136,
+                "cc": 2198,
+                "engineCodes": "T22SED",
+                "kbaNumbers": "8255339",
+                "bodyType": "Saloon",
+                "TecDocID": 18629
+              }
+            ]
+          },
+          {
+            "modelSeries": "NUBIRA (J100) | ORION",
+            "targets": [
+              {
+                "engine": "2.0 16V",
+                "fullName": "DAEWOO NUBIRA (J100) | ORION 2.0 16V",
+                "constructionYearFrom": "05.1997",
+                "enginePowerKW": 98,
+                "enginePowerHP": 133,
+                "cc": 1998,
+                "engineCodes": "X 20 SED",
+                "kbaNumbers": "8255327",
+                "bodyType": "Hatchback",
+                "TecDocID": 9024
+              }
+            ]
+          },
+          {
+            "modelSeries": "NUBIRA Saloon (J100)",
+            "targets": [
+              {
+                "engine": "2.0",
+                "fullName": "DAEWOO NUBIRA Saloon (J100) 2.0",
+                "constructionYearFrom": "06.1999",
+                "constructionYearTo": "07.2003",
+                "enginePowerKW": 81,
+                "enginePowerHP": 110,
+                "cc": 1998,
+                "engineCodes": "C20SED",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 20626
+              },
+              {
+                "engine": "2.0 16V",
+                "fullName": "DAEWOO NUBIRA Saloon (J100) 2.0 16V",
+                "constructionYearFrom": "05.1997",
+                "enginePowerKW": 98,
+                "enginePowerHP": 133,
+                "cc": 1998,
+                "engineCodes": "X 20 SED",
+                "kbaNumbers": "8255326",
+                "bodyType": "Saloon",
+                "TecDocID": 9025
+              },
+              {
+                "engine": "2.0 16V",
+                "fullName": "DAEWOO NUBIRA Saloon (J100) 2.0 16V",
+                "constructionYearFrom": "12.2000",
+                "enginePowerKW": 93,
+                "enginePowerHP": 126,
+                "cc": 1998,
+                "engineCodes": "T20SED",
+                "kbaNumbers": "8255348, 8260013",
+                "bodyType": "Saloon",
+                "TecDocID": 19430
+              }
+            ]
+          },
+          {
+            "modelSeries": "NUBIRA Wagon (J100) | ORION",
+            "targets": [
+              {
+                "engine": "2.0 16V",
+                "fullName": "DAEWOO NUBIRA Wagon (J100) | ORION 2.0 16V",
+                "constructionYearFrom": "05.1997",
+                "enginePowerKW": 98,
+                "enginePowerHP": 133,
+                "cc": 1998,
+                "engineCodes": "X 20 SED",
+                "kbaNumbers": "8255328",
+                "bodyType": "Estate",
+                "TecDocID": 9028
+              },
+              {
+                "engine": "2.0 16V",
+                "fullName": "DAEWOO NUBIRA Wagon (J100) | ORION 2.0 16V",
+                "constructionYearFrom": "12.2000",
+                "enginePowerKW": 93,
+                "enginePowerHP": 126,
+                "cc": 1998,
+                "engineCodes": "T20SED",
+                "kbaNumbers": "8255350, 8260015",
+                "bodyType": "Estate",
+                "TecDocID": 19431
+              }
+            ]
+          },
+          {
+            "modelSeries": "REZZO (U100) | TACUMA",
+            "targets": [
+              {
+                "engine": "2.0",
+                "fullName": "DAEWOO REZZO (U100) | TACUMA 2.0",
+                "constructionYearFrom": "09.2000",
+                "enginePowerKW": 94,
+                "enginePowerHP": 128,
+                "cc": 1998,
+                "engineCodes": "T20SED, C20SED",
+                "kbaNumbers": "8255341",
+                "bodyType": "MPV",
+                "TecDocID": 14858
+              },
+              {
+                "engine": "2.0",
+                "fullName": "DAEWOO REZZO (U100) | TACUMA 2.0",
+                "constructionYearFrom": "09.2001",
+                "constructionYearTo": "12.2004",
+                "enginePowerKW": 89,
+                "enginePowerHP": 121,
+                "cc": 1998,
+                "engineCodes": "T20SED",
+                "kbaNumbers": "8255347, 8260021",
+                "bodyType": "MPV",
+                "TecDocID": 16518
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7068010",
+    "crossNumber": "3213B0032",
+    "brand": "RIDEX",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "MITSUBISHI",
+        "models": [
+          {
+            "modelSeries": "ECLIPSE I (D2_A)",
+            "targets": [
+              {
+                "engine": "2.0 i 16V (D22A, D27A)",
+                "fullName": "MITSUBISHI ECLIPSE I (D2_A) 2.0 i 16V (D22A, D27A)",
+                "constructionYearFrom": "04.1991",
+                "constructionYearTo": "11.1995",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1997,
+                "engineCodes": "4G63 (DOHC 16V)",
+                "kbaNumbers": "1048301",
+                "bodyType": "Coupe",
+                "TecDocID": 4695
+              },
+              {
+                "engine": "2.0 i 16V 4WD (D22A, D27A)",
+                "fullName": "MITSUBISHI ECLIPSE I (D2_A) 2.0 i 16V 4WD (D22A, D27A)",
+                "constructionYearFrom": "04.1991",
+                "constructionYearTo": "11.1995",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1997,
+                "engineCodes": "4G63 (DOHC 16V)",
+                "kbaNumbers": "",
+                "bodyType": "Coupe",
+                "TecDocID": 9220
+              },
+              {
+                "engine": "2.0 Turbo",
+                "fullName": "MITSUBISHI ECLIPSE I (D2_A) 2.0 Turbo",
+                "constructionYearFrom": "12.1989",
+                "constructionYearTo": "03.1994",
+                "enginePowerKW": 147,
+                "enginePowerHP": 200,
+                "cc": 1997,
+                "engineCodes": "4G63-T (DOHC 16V)",
+                "kbaNumbers": "",
+                "bodyType": "Coupe",
+                "TecDocID": 22257
+              }
+            ]
+          },
+          {
+            "modelSeries": "GALANT VI (E3_A) | ETERNA",
+            "targets": [
+              {
+                "engine": "2.0 (E39A, E38A, E33A)",
+                "fullName": "MITSUBISHI GALANT VI (E3_A) | ETERNA 2.0 (E39A, E38A, E33A)",
+                "constructionYearFrom": "04.1989",
+                "constructionYearTo": "10.1992",
+                "enginePowerKW": 80,
+                "enginePowerHP": 109,
+                "cc": 1997,
+                "engineCodes": "4G63 (SOHC 8V)",
+                "kbaNumbers": "7107444",
+                "bodyType": "Hatchback",
+                "TecDocID": 3355
+              },
+              {
+                "engine": "2.0 GTI 16V (E39A, E38A, E33A)",
+                "fullName": "MITSUBISHI GALANT VI (E3_A) | ETERNA 2.0 GTI 16V (E39A, E38A, E33A)",
+                "constructionYearFrom": "11.1988",
+                "constructionYearTo": "10.1992",
+                "enginePowerKW": 106,
+                "enginePowerHP": 144,
+                "cc": 1997,
+                "engineCodes": "4G63 (DOHC 16V)",
+                "kbaNumbers": "7107446",
+                "bodyType": "Hatchback",
+                "TecDocID": 3353
+              },
+              {
+                "engine": "2.0 GTI 16V (E39A, E38A, E33A)",
+                "fullName": "MITSUBISHI GALANT VI (E3_A) | ETERNA 2.0 GTI 16V (E39A, E38A, E33A)",
+                "constructionYearFrom": "11.1988",
+                "constructionYearTo": "10.1992",
+                "enginePowerKW": 107,
+                "enginePowerHP": 146,
+                "cc": 1997,
+                "engineCodes": "4G63 (DOHC 16V)",
+                "kbaNumbers": "7107467",
+                "bodyType": "Hatchback",
+                "TecDocID": 3356
+              }
+            ]
+          },
+          {
+            "modelSeries": "GALANT VI Saloon (E3_A) | ETERNA",
+            "targets": [
+              {
+                "engine": "2.0 (E39A, E38A, E33A)",
+                "fullName": "MITSUBISHI GALANT VI Saloon (E3_A) | ETERNA 2.0 (E39A, E38A, E33A)",
+                "constructionYearFrom": "11.1987",
+                "constructionYearTo": "10.1992",
+                "enginePowerKW": 80,
+                "enginePowerHP": 109,
+                "cc": 1997,
+                "engineCodes": "4G63 (SOHC 8V)",
+                "kbaNumbers": "7107417",
+                "bodyType": "Saloon",
+                "TecDocID": 3354
+              },
+              {
+                "engine": "2.0 GTi 16V (E39A, E38A, E33A)",
+                "fullName": "MITSUBISHI GALANT VI Saloon (E3_A) | ETERNA 2.0 GTi 16V (E39A, E38A, E33A)",
+                "constructionYearFrom": "11.1987",
+                "constructionYearTo": "10.1992",
+                "enginePowerKW": 106,
+                "enginePowerHP": 144,
+                "cc": 1997,
+                "engineCodes": "4G63 (DOHC 16V)",
+                "kbaNumbers": "7107430",
+                "bodyType": "Saloon",
+                "TecDocID": 3345
+              },
+              {
+                "engine": "2.0 GTi 16V (E39A, E38A, E33A)",
+                "fullName": "MITSUBISHI GALANT VI Saloon (E3_A) | ETERNA 2.0 GTi 16V (E39A, E38A, E33A)",
+                "constructionYearFrom": "11.1988",
+                "constructionYearTo": "10.1992",
+                "enginePowerKW": 107,
+                "enginePowerHP": 145,
+                "cc": 1997,
+                "engineCodes": "4G63 (DOHC 16V)",
+                "kbaNumbers": "7107466",
+                "bodyType": "Saloon",
+                "TecDocID": 18009
+              }
+            ]
+          },
+          {
+            "modelSeries": "GALANT VII (E5_A, E7_A, E8_A)",
+            "targets": [
+              {
+                "engine": "2.0 GLSI (E55A)",
+                "fullName": "MITSUBISHI GALANT VII (E5_A, E7_A, E8_A) 2.0 GLSI (E55A)",
+                "constructionYearFrom": "11.1992",
+                "constructionYearTo": "08.1996",
+                "enginePowerKW": 101,
+                "enginePowerHP": 137,
+                "cc": 1997,
+                "engineCodes": "4G63 (SOHC 16V)",
+                "kbaNumbers": "7107211",
+                "bodyType": "Hatchback",
+                "TecDocID": 3438
+              }
+            ]
+          },
+          {
+            "modelSeries": "GALANT VII Saloon (E5_A, E7_A, E8_A) | ETERNA",
+            "targets": [
+              {
+                "engine": "2.0",
+                "fullName": "MITSUBISHI GALANT VII Saloon (E5_A, E7_A, E8_A) | ETERNA 2.0",
+                "constructionYearFrom": "11.1992",
+                "constructionYearTo": "08.1996",
+                "enginePowerKW": 100,
+                "enginePowerHP": 136,
+                "cc": 1997,
+                "engineCodes": "4G63 (SOHC 16V)",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 26890
+              },
+              {
+                "engine": "2.0 GLSI (E55A)",
+                "fullName": "MITSUBISHI GALANT VII Saloon (E5_A, E7_A, E8_A) | ETERNA 2.0 GLSI (E55A)",
+                "constructionYearFrom": "11.1992",
+                "constructionYearTo": "08.1996",
+                "enginePowerKW": 101,
+                "enginePowerHP": 137,
+                "cc": 1997,
+                "engineCodes": "4G63 (SOHC 16V)",
+                "kbaNumbers": "7107209",
+                "bodyType": "Saloon",
+                "TecDocID": 3432
+              }
+            ]
+          },
+          {
+            "modelSeries": "LANCER V (CB_A, CD_A, CE_A) | LIBERO",
+            "targets": [
+              {
+                "engine": "EVO I (CD9A)",
+                "fullName": "MITSUBISHI LANCER V (CB_A, CD_A, CE_A) | LIBERO EVO I (CD9A)",
+                "constructionYearFrom": "10.1992",
+                "constructionYearTo": "12.1993",
+                "enginePowerKW": 184,
+                "enginePowerHP": 250,
+                "cc": 1997,
+                "engineCodes": "4G63 Turbo",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 30017
+              },
+              {
+                "engine": "EVO II (CE9A)",
+                "fullName": "MITSUBISHI LANCER V (CB_A, CD_A, CE_A) | LIBERO EVO II (CE9A)",
+                "constructionYearFrom": "01.1994",
+                "constructionYearTo": "07.1995",
+                "enginePowerKW": 192,
+                "enginePowerHP": 261,
+                "cc": 1997,
+                "engineCodes": "4G63 Turbo",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 33629
+              },
+              {
+                "engine": "EVO III (CE9A)",
+                "fullName": "MITSUBISHI LANCER V (CB_A, CD_A, CE_A) | LIBERO EVO III (CE9A)",
+                "constructionYearFrom": "08.1995",
+                "constructionYearTo": "07.1996",
+                "enginePowerKW": 198,
+                "enginePowerHP": 269,
+                "cc": 1997,
+                "engineCodes": "4G63 Turbo",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 30404
+              }
+            ]
+          },
+          {
+            "modelSeries": "SPACE WAGON (N3_W, N4_W) | EXPO | NIMBUS | CHARIOT",
+            "targets": [
+              {
+                "engine": "2.0 (N33W)",
+                "fullName": "MITSUBISHI SPACE WAGON (N3_W, N4_W) | EXPO | NIMBUS | CHARIOT 2.0 (N33W)",
+                "constructionYearFrom": "10.1992",
+                "constructionYearTo": "10.1998",
+                "enginePowerKW": 98,
+                "enginePowerHP": 133,
+                "cc": 1997,
+                "engineCodes": "4G63 (SOHC 16V)",
+                "kbaNumbers": "7107493",
+                "bodyType": "MPV",
+                "TecDocID": 3428
+              },
+              {
+                "engine": "2.0 4WD (N43W)",
+                "fullName": "MITSUBISHI SPACE WAGON (N3_W, N4_W) | EXPO | NIMBUS | CHARIOT 2.0 4WD (N43W)",
+                "constructionYearFrom": "10.1992",
+                "constructionYearTo": "10.1998",
+                "enginePowerKW": 98,
+                "enginePowerHP": 133,
+                "cc": 1997,
+                "engineCodes": "4G63 (SOHC 16V)",
+                "kbaNumbers": "7107494, 7107258",
+                "bodyType": "MPV",
+                "TecDocID": 3429
+              },
+              {
+                "engine": "2.4 (N34W)",
+                "fullName": "MITSUBISHI SPACE WAGON (N3_W, N4_W) | EXPO | NIMBUS | CHARIOT 2.4 (N34W)",
+                "constructionYearFrom": "10.1991",
+                "constructionYearTo": "10.1997",
+                "enginePowerKW": 88,
+                "enginePowerHP": 120,
+                "cc": 2351,
+                "engineCodes": "4G64 (16V)",
+                "kbaNumbers": "",
+                "bodyType": "MPV",
+                "TecDocID": 23541
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
