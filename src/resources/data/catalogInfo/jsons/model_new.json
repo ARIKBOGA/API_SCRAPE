@@ -21234,8 +21234,8 @@
     "id": 3034,
     "marka_id": 177,
     "modeller_markalar::marka": "CHRYSLER",
-    "model": "VOYAGER IV (RG, RS) | TOWN & COUNTRY | GRAND VOYAGER",
-    "model_Web": "VOYAGER IV (RG, RS) | TOWN & COUNTRY | GRAND VOYAGER"
+    "model": "VOYAGER IV (RG, RS) | TOWN & COUNTRY | GRAND VOYAGER | VOYAGER / GRAND VOYAGER",
+    "model_Web": "VOYAGER IV (RG, RS) | TOWN & COUNTRY | GRAND VOYAGER | VOYAGER / GRAND VOYAGER"
   },
   {
     "id": 3035,
@@ -64228,8 +64228,8 @@
     "id": 9176,
     "marka_id": 486,
     "modeller_markalar::marka": "KIA",
-    "model": "SHUMA I (FB) | MENTOR / SHUMA | SEPHIA",
-    "model_Web": "SHUMA I (FB) | MENTOR / SHUMA | SEPHIA"
+    "model": "SHUMA I (FB) | SEPHIA / SHUMA | MENTOR / SHUMA | SEPHIA",
+    "model_Web": "SHUMA I (FB) | SEPHIA / SHUMA | MENTOR / SHUMA | SEPHIA"
   },
   {
     "id": 9177,
@@ -76653,8 +76653,8 @@
     "id": 10951,
     "marka_id": 593,
     "modeller_markalar::marka": "MG",
-    "model": "MG ZS SUV",
-    "model_Web": "MG ZS SUV"
+    "model": "MG ZS SUV (AZS1)",
+    "model_Web": "MG ZS SUV (AZS1)"
   },
   {
     "id": 10952,
@@ -77668,8 +77668,8 @@
     "id": 11096,
     "marka_id": 606,
     "modeller_markalar::marka": "MITSUBISHI",
-    "model": "GRANDIS (N9_, N8_) | SPACE WAGON",
-    "model_Web": "GRANDIS (N9_, N8_) | SPACE WAGON"
+    "model": "GRANDIS (N9_, N8_) | CHARIOT GRANDIS | SPACE WAGON",
+    "model_Web": "GRANDIS (N9_, N8_) | CHARIOT GRANDIS | SPACE WAGON"
   },
   {
     "id": 11097,
