@@ -13,6 +13,9 @@ export const SUPPLIER_NUMBERS: Record<string, string> = {
   FEBI: "101",
   WILMINK: "4832",
   CAUTEX: "405",
+  METELLI: "121",
+  SWAG: "151",
+  JAPANPARTS: "156"
 };
 
 export const excelTitles = [
