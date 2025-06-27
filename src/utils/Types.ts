@@ -102,6 +102,6 @@ export interface CrossNumbersYV_Pair {
 
 export const referenceArray: ProductReference[] = [
 
-  { yvNo: "23215208", brand: "BREMBO", crossNumber: "410600012R"},
+  { yvNo: "1", brand: "METELLI", crossNumber: "22-0100-1"},
 
 ];
