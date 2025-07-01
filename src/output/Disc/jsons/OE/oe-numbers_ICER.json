@@ -1,0 +1,6951 @@
+[
+  {
+    "yvNo": "52095",
+    "crossNumber": "78BD0673-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "34 11 1 160 673",
+          "34 11 6 757 750"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52099",
+    "crossNumber": "78BD4839-1",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "1 163 013",
+          "1 163 081",
+          "1 164 839",
+          "34 11 1 163 013",
+          "34 11 1 163 081",
+          "34 11 1 164 839",
+          "34 11 6 767 061",
+          "6 767 061"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52125",
+    "crossNumber": "78BD0674-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "34 11 1 160 674",
+          "34 11 1 162 282",
+          "34 11 1 162 288",
+          "34 11 1 164 199",
+          "34 11 1 164 431",
+          "34 11 1 164 921",
+          "34 11 1 165 431",
+          "34 11 1 165 455",
+          "34 11 6 766 239"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "33028",
+    "crossNumber": "78BD1815-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUTOBIANCHI",
+        "numbers": [
+          "5 961 814"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "5 961 814",
+          "7 173 842 3"
+        ]
+      },
+      {
+        "manufacturer": "INNOCENTI",
+        "numbers": [
+          "5 961 814"
+        ]
+      },
+      {
+        "manufacturer": "LANCIA",
+        "numbers": [
+          "5 961 814"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "33070",
+    "crossNumber": "78BD3465-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "ABARTH",
+        "numbers": [
+          "51885456",
+          "5741447"
+        ]
+      },
+      {
+        "manufacturer": "ALFA ROMEO",
+        "numbers": [
+          "6 057 633 5",
+          "6 080 034 5",
+          "6 080 511 7",
+          "6 081 187 9",
+          "7 173 957 2",
+          "7 663 465"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "4 640 396 0",
+          "51885456",
+          "5741447",
+          "6 081 187 9",
+          "7 163 465",
+          "7 173 842 1",
+          "7 566 931",
+          "7 645 054",
+          "7 663 465",
+          "7 685 656"
+        ]
+      },
+      {
+        "manufacturer": "LANCIA",
+        "numbers": [
+          "7 663 465"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "33086",
+    "crossNumber": "78BD4682-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "4246.K2",
+          "4246.K3",
+          "4246.Y3",
+          "4249.36"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "1 307 356 080",
+          "4 680 623 4",
+          "5 172 837 8",
+          "5 174 024 7"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "4246.K2",
+          "4246.K3",
+          "4246.Y5",
+          "4249.35"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "13017",
+    "crossNumber": "78BD5344-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1 148 202",
+          "1 320 585",
+          "1 323 620",
+          "1 373 771",
+          "1 388 256",
+          "1 808 479",
+          "3 049 893",
+          "3 555 344",
+          "3 573 537",
+          "4 077 455",
+          "98AX-1125-B1F"
+        ]
+      },
+      {
+        "manufacturer": "MAZDA",
+        "numbers": [
+          "DD32-33-25X",
+          "DD59-33-25X",
+          "DD6-333-25X"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "13022",
+    "crossNumber": "78BD1991-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1 102 559",
+          "1 571 346",
+          "1 571 347",
+          "1 571 348",
+          "1 575 877",
+          "1 583 401",
+          "1 591 990",
+          "1 591 991",
+          "1 629 450",
+          "1 629 451",
+          "5 022 650",
+          "5 022 651",
+          "6 089 874",
+          "6 089 875",
+          "6 089 876",
+          "6 119 634",
+          "6 156 352",
+          "6 158 212",
+          "6 158 213",
+          "77FB-1125-AB",
+          "84FB-1125-AA",
+          "84FX-1125-B1B",
+          "84FX-1125-CA",
+          "D8RZ-1125-D",
+          "DR8Z-1125-A"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "13121",
+    "crossNumber": "78BD5980-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1 361 298",
+          "4 367 104",
+          "4 367 106",
+          "4 455 980",
+          "4 455 985",
+          "4 457 985"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "13133",
+    "crossNumber": "78BD6767-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1 321 488",
+          "1 376 118",
+          "1 681 578",
+          "1S7W-1125-AC",
+          "4 097 477",
+          "4 097 478",
+          "4 110 587",
+          "4 179 398",
+          "4 181 042"
+        ]
+      },
+      {
+        "manufacturer": "JAGUAR",
+        "numbers": [
+          "1S7W-1125-AC",
+          "C2S 35270",
+          "C2S 42667",
+          "C2S 4566",
+          "C2S 49729"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "13151",
+    "crossNumber": "78BD7989-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1 362 867",
+          "4 367 107",
+          "4 457 989",
+          "4 475 316"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "13018",
+    "crossNumber": "78BD5610-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "5 025 610",
+          "5 029 815"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "13029",
+    "crossNumber": "78BD5613-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1 387 781",
+          "4 041 428",
+          "YC1W-1125-BA"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "15094",
+    "crossNumber": "78BD1701-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "HONDA",
+        "numbers": [
+          "45251-SH1-A00",
+          "45251-SH3-A00",
+          "45251-SH3-A10",
+          "45251-SR0-A10",
+          "45251-SR3-A00",
+          "45251-SR3-A10"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "15112",
+    "crossNumber": "78BD1701-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "HONDA",
+        "numbers": [
+          "45251-SH1-A00",
+          "45251-SH3-A00",
+          "45251-SH3-A10",
+          "45251-SR0-A10",
+          "45251-SR3-A00",
+          "45251-SR3-A10"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "16079",
+    "crossNumber": "78BD0100-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "HYUNDAI",
+        "numbers": [
+          "58129-44010"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "16111",
+    "crossNumber": "78BD1008-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "HYUNDAI",
+        "numbers": [
+          "51712-25060",
+          "51712-25061"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "22072",
+    "crossNumber": "78BD3260-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "E92Z-1125-A"
+        ]
+      },
+      {
+        "manufacturer": "MAZDA",
+        "numbers": [
+          "GJ25-33-25XB",
+          "GJ25-33-25XC",
+          "GJ25-33-25XD",
+          "GJ55-33-25XA",
+          "GJ55-33-25XB",
+          "GJ55-33-25XC",
+          "GJ55-33-25XD",
+          "GJ55-33-25XMF"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24102",
+    "crossNumber": "78BD6460-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "201 421 08 12",
+          "201 421 12 12"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24104",
+    "crossNumber": "78BD7210-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "124 421 13 12"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24105",
+    "crossNumber": "78BD6470-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "201 423 09 12",
+          "201 423 11 12",
+          "201 423 12 12"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24107",
+    "crossNumber": "78BD0181-1",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "901 421 03 12",
+          "902 421 03 12",
+          "902 421 04 12",
+          "902 421 06 12",
+          "902 421 07 12",
+          "902 421 09 12"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "2D0 615 301 A",
+          "2D0 615 301 B",
+          "2D0 615 301 C",
+          "2D0 615 301 D"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24108",
+    "crossNumber": "78BD7200-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "124 421 16 12",
+          "124 421 27 12",
+          "129 421 03 12"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24140",
+    "crossNumber": "78BD0183-1",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "902 423 01 12",
+          "902 423 03 12"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "2D0 615 601 A"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "25158",
+    "crossNumber": "78BD8107-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "HYUNDAI",
+        "numbers": [
+          "51712-M2000"
+        ]
+      },
+      {
+        "manufacturer": "KIA",
+        "numbers": [
+          "51712-M2000"
+        ]
+      },
+      {
+        "manufacturer": "MITSUBISHI",
+        "numbers": [
+          "MB 407 639",
+          "MB 668 107",
+          "MB 668 886",
+          "MB 928 994",
+          "MB 928 995",
+          "MB 950 569",
+          "MB 950 570",
+          "MR 128 153",
+          "MR 205 584",
+          "MR 205 585",
+          "MR 389 722",
+          "MR 475 330"
+        ]
+      },
+      {
+        "manufacturer": "PROTON",
+        "numbers": [
+          "PW 820 577"
+        ]
+      },
+      {
+        "manufacturer": "VOLVO",
+        "numbers": [
+          "3 087 292 6",
+          "3 087 292 68"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "26067",
+    "crossNumber": "78BD7101-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "INFINITI",
+        "numbers": [
+          "402067-1E01",
+          "402067-1E05",
+          "402067-1E06"
+        ]
+      },
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "40206-71E00",
+          "40206-71E01",
+          "40206-71E02",
+          "40206-71E05",
+          "40206-71E06",
+          "40206-93J00",
+          "40206-93J01"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "26074",
+    "crossNumber": "78BD5800-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "40206-58A00",
+          "40206-58A01",
+          "40206-60Y01"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "27012",
+    "crossNumber": "78BD1240-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BEDFORD",
+        "numbers": [
+          "90 008 005"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "5 69 030"
+        ]
+      },
+      {
+        "manufacturer": "PONTIAC",
+        "numbers": [
+          "9011 1242"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "90 008 005",
+          "90 111 242"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "27065",
+    "crossNumber": "78BD9042-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "DAEWOO",
+        "numbers": [
+          "9617 9110"
+        ]
+      },
+      {
+        "manufacturer": "LOTUS",
+        "numbers": [
+          "96 179 110"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "5 69 001",
+          "5 69 042"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "90 250 546",
+          "90 295 087",
+          "90 487 402"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "27131",
+    "crossNumber": "78BD7879-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "5 69 059"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "90 497 879",
+          "91 176 77"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "28049",
+    "crossNumber": "78BD4694-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "1690.03",
+          "91 517 695",
+          "95 661 474",
+          "95 661 747"
+        ]
+      },
+      {
+        "manufacturer": "MEGA",
+        "numbers": [
+          "95 661 747"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "4246.94",
+          "4246.A7"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "28059",
+    "crossNumber": "78BD4697-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "1690.02",
+          "4246.97",
+          "4246.B1",
+          "4246.R3",
+          "4246.R5",
+          "4246.W5",
+          "4246.W6",
+          "4249.F0",
+          "95 632 048",
+          "95 664 747",
+          "95 667 809"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "4246.97",
+          "4246.B1",
+          "4246.R3",
+          "4246.W5"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "30006",
+    "crossNumber": "78BD2500-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "ARO",
+        "numbers": [
+          "77 00 502 515"
+        ]
+      },
+      {
+        "manufacturer": "DACIA",
+        "numbers": [
+          "26 77 502 515",
+          "26 77 509 150",
+          "77 00 502 515"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "77 00 502 515",
+          "77 01 466 540"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "30040",
+    "crossNumber": "78BD4705-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "DACIA",
+        "numbers": [
+          "26 77 509 716"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "77 00 704 705",
+          "77 01 204 282"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "30085",
+    "crossNumber": "78BD6572-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "40206-00QAJ"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "77 00 756 572",
+          "77 01 204 286"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "30145",
+    "crossNumber": "78BD6848-1",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "40206-00QAD",
+          "77 00 314 064"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "44 03 038",
+          "45 01 421"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "77 00 314 064"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "91 110 38",
+          "91 61 721"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "31032",
+    "crossNumber": "78BD4322-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "002 415 019",
+          "6U0 615 301"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "6U0 615 301"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "34084",
+    "crossNumber": "78BD2550-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "CHEVROLET",
+        "numbers": [
+          "9485 3004",
+          "9485 4148"
+        ]
+      },
+      {
+        "manufacturer": "TOYOTA",
+        "numbers": [
+          "43512-02040",
+          "43512-12550"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "34089",
+    "crossNumber": "78BD5180-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "TOYOTA",
+        "numbers": [
+          "43512-26040",
+          "43512-35180"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "J 435 123 518 0"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "36009",
+    "crossNumber": "78BD3300-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "175 615 301",
+          "321 615 301",
+          "839 615 301"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "175 615 301",
+          "321 615 301"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "171 6153 01",
+          "175 615 301",
+          "321 615 301",
+          "839 615 301"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "36098",
+    "crossNumber": "78BD5303-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "6N0 615 301 C",
+          "6N0 615 301 F"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "6N0 615 301 C",
+          "6N0 615 301 F"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "36109",
+    "crossNumber": "78BD5603-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "1J0 615 301 E",
+          "1J0 615 301 P"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "1J0 615 301 E"
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "1J0 615 301 E",
+          "1J0 615 301 M"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "1J0 615 301 E",
+          "1J0 615 301 M",
+          "1J0 615 301 P"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "36115",
+    "crossNumber": "78BD5601-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "1J0 615 601"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "1J0 615 601",
+          "1J0 615 601 C",
+          "1J0 615 601 N",
+          "1J0 615 601 P"
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "1J0 615 601",
+          "1J0 615 601 C"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "1J0 615 601",
+          "1J0 615 601 C",
+          "1J0 615 601 P",
+          "1J0 615 601 Q"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "36116",
+    "crossNumber": "78BD3790-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "321 615 301 D",
+          "6N0 615 301 D"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "321 615 301 D",
+          "6N0 615 301 D"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "36137",
+    "crossNumber": "78BD3111-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "701 615 601",
+          "701 615 601 A",
+          "7D0 615 601"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "36166",
+    "crossNumber": "78BD2746-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "8D0 615 601 A"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "8D0 615 601 A",
+          "8E0 615 601 A"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "22073",
+    "crossNumber": "78BD3254",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MAZDA",
+        "numbers": [
+          "NA01-33-25",
+          "NA01-33-25A",
+          "NA01-33-25X",
+          "NA01-33-25XA",
+          "NA01-33-25XC",
+          "NA01-33-25XD",
+          "NAO1-33-25XA",
+          "SA01-33-25X"
+        ]
+      },
+      {
+        "manufacturer": "SAO",
+        "numbers": [
+          "NA01-33-25X"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "36168",
+    "crossNumber": "78BD4063-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "4A0 615 301 C",
+          "8E0 615 301 Q"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "8E0 615 301 Q"
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "4A0 615 301 C",
+          "8E0 615 301 Q"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "4A0 615 301 C",
+          "4A0 615 301 D",
+          "4A0 615 301 E",
+          "8E0 615 301 Q"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "22169",
+    "crossNumber": "78BD3256-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MAZDA",
+        "numbers": [
+          "B530-33-25XE",
+          "BB7E-33-25XA",
+          "BB7E-33-25XC",
+          "BB7E-33-25XD",
+          "BR74-33-25X",
+          "BW8Y-33-251",
+          "F1ZZ-11-25B",
+          "F2ZZ-11-25B"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "16170",
+    "crossNumber": "78BD2830-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "HYUNDAI",
+        "numbers": [
+          "51712-28300"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "36177",
+    "crossNumber": "78BD6153-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "7E0 615 301 D",
+          "7H0 615 301 D",
+          "JZW 615 301 E"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "33007",
+    "crossNumber": "78BD5812-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUTOBIANCHI",
+        "numbers": [
+          "4 139 010",
+          "4 208 311",
+          "4 385 812",
+          "9 438 581 2",
+          "9 443 901 0",
+          "RF16500250",
+          "RF16500253"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "1 650 025 3",
+          "4 139 010",
+          "4 208 311",
+          "4 385 812",
+          "7 173 842 2",
+          "RF16500250",
+          "RF16500253"
+        ]
+      },
+      {
+        "manufacturer": "FSO",
+        "numbers": [
+          "655 438 512",
+          "655 439 010",
+          "RF16500250",
+          "RF16500253"
+        ]
+      },
+      {
+        "manufacturer": "INNOCENTI",
+        "numbers": [
+          "4 385 812",
+          "9 438 581 2"
+        ]
+      },
+      {
+        "manufacturer": "LANCIA",
+        "numbers": [
+          "4 385 812",
+          "7 173 842 2",
+          "9 438 581 2",
+          "9 443 901 0",
+          "RF16-500250",
+          "RF16-500253"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "009 843 771 02",
+          "009 843 858 12",
+          "4 38 5812",
+          "RF1 650 0250",
+          "RF1 650 0253",
+          "SE0 221 650 02 A"
+        ]
+      },
+      {
+        "manufacturer": "ZASTAVA",
+        "numbers": [
+          "0 420 831 1",
+          "0 438 581 2",
+          "4 2083 11",
+          "4 385 812",
+          "4 661 870 3",
+          "RF16500250",
+          "RF16500253"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "28122",
+    "crossNumber": "78BD4750-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "16 188 904 80",
+          "16 290 588 80",
+          "4246.W1",
+          "4249.16"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "4246.W7",
+          "4249.15"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "30126",
+    "crossNumber": "78BD7829-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "77 00 426 389",
+          "77 01 205 230",
+          "77 01 205 842",
+          "77 01 206 118",
+          "77 01 207 829"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "36178",
+    "crossNumber": "78BD5615-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "1K0 615 301 K",
+          "1K0 615 301 T"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "1K0 615 301 T"
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "1K0 615 301 T"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "1K0 615 301 AB",
+          "1K0 615 301 K",
+          "1K0 615 301 T",
+          "5C0 615 301 A",
+          "5Q0 615 301 H"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "16092",
+    "crossNumber": "78BD2135-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "HYUNDAI",
+        "numbers": [
+          "51712-21350",
+          "51712-21A00",
+          "51712-21B00",
+          "51712-24100",
+          "51712-32300",
+          "51712-32A00",
+          "58161-31010",
+          "5H161-31000",
+          "5H161-31010"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24182",
+    "crossNumber": "78BD0410-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "203 421 03 12",
+          "203 421 05 12 64",
+          "210 421 07 12",
+          "210 421 24 12",
+          "210 421 24 12 64",
+          "210 421 25 12 64"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "30043",
+    "crossNumber": "78BD3550-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "DACIA",
+        "numbers": [
+          "60 01 548 578",
+          "77 01 205 653",
+          "77 01 206 339"
+        ]
+      },
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "40206-00QAA"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "77 00 780 892",
+          "77 00 813 549",
+          "77 00 842 131",
+          "77 01 204 228",
+          "77 01 204 304",
+          "77 01 204 828",
+          "77 01 205 653",
+          "77 01 206 339",
+          "82 01 464 598"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "26159",
+    "crossNumber": "78BD1057-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "40206-2F500",
+          "40206-2F501",
+          "40206-55F01",
+          "40206-55F03",
+          "40206-73L01"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "32190",
+    "crossNumber": "78BD6970-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "SANTANA",
+        "numbers": [
+          "55211-60A00"
+        ]
+      },
+      {
+        "manufacturer": "SUZUKI",
+        "numbers": [
+          "55211-60A00",
+          "55211-80A00",
+          "9605 8796"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "36193",
+    "crossNumber": "78BD5602-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "1J0 615 301 D",
+          "1J0 615 301 J",
+          "1J0 615 301 L",
+          "6R0 615 301",
+          "6R0615301 C",
+          "8Z0 615 601 B",
+          "8Z0 615 601 D"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "1J0 615 301 D",
+          "1J0 615 301 J",
+          "1J0 615 301 L",
+          "8Z0 615 601 B",
+          "8Z0 615 601 D"
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "1J0 615 301 D",
+          "1J0 615 301 J",
+          "1J0 615 301 L",
+          "8Z0 615 601 B",
+          "8Z0 615 601 D"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "1J0 615 301 D",
+          "1J0 615 301 J",
+          "1J0 615 301 L",
+          "6R0 615 301",
+          "6R0615301 C",
+          "8Z0 615 301 D",
+          "8Z0 615 601 B",
+          "8Z0 615 601 D",
+          "8Z0 6153 01 B"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "34077",
+    "crossNumber": "78BD2250-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "TOYOTA",
+        "numbers": [
+          "43512-12250",
+          "43512-12290",
+          "43512-12300",
+          "43512-12320",
+          "43512-12330",
+          "43512-12440",
+          "43512-12480",
+          "94846-350",
+          "94851-806"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "33197",
+    "crossNumber": "78BD1548-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "ALFA ROMEO",
+        "numbers": [
+          "16 410 220 230 0",
+          "4 644 500 6",
+          "4 677 674 2",
+          "6 056 916 3",
+          "6 057 154 8",
+          "6 062 207 7",
+          "6 065 347 8",
+          "6 065 856 5",
+          "6 077 154 8",
+          "6 080 172 2",
+          "6 081 344 3",
+          "6 081 593 8",
+          "7 171 143 4",
+          "7 171 144 7",
+          "7 173 956 7",
+          "7 173 956 8",
+          "8 241 053 9",
+          "8 242 759 2"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "4 644 500 6",
+          "5 193 721 7",
+          "5 193 721 8",
+          "6 062 207 7",
+          "6 081 593 8",
+          "8 242 759 2",
+          "8 245 053 9"
+        ]
+      },
+      {
+        "manufacturer": "LANCIA",
+        "numbers": [
+          "4 644 500 6",
+          "6 081 593 8",
+          "8 242 759 2",
+          "8 245 053 9"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24194",
+    "crossNumber": "78BD0412-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "CHRYSLER",
+        "numbers": [
+          "5098065AA",
+          "5098066AA"
+        ]
+      },
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "124 423 05 12",
+          "201 423 05 12",
+          "203 423 00 12",
+          "203 423 01 12",
+          "210 423 011 2",
+          "210 423 04 12",
+          "210 423 07 12",
+          "210 423 09 12"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "36198",
+    "crossNumber": "78BD5608-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "6N0 615 601 A",
+          "6N0 615 601 B"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "6N0 615 601 A",
+          "6N0 615 601 B"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24202",
+    "crossNumber": "78BD3180-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "202 421 02 12"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24203",
+    "crossNumber": "78BD3412-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "124 423 11 12",
+          "203 423 04 12",
+          "210 423 03 12",
+          "210 423 06 12",
+          "210 423 10 12"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "34205",
+    "crossNumber": "78BD2100-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "TOYOTA",
+        "numbers": [
+          "43512-02070"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "27208",
+    "crossNumber": "78BD9003-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "4 683 649 1",
+          "4 683 649 10",
+          "4 683 649 13",
+          "4 684 407 1"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "5 69 003"
+        ]
+      },
+      {
+        "manufacturer": "SAAB",
+        "numbers": [
+          "91 56 807"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "93 171 497"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "27184",
+    "crossNumber": "78BD9000-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "5 69 000",
+          "91 27 967"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "91 279 67",
+          "91 960 50"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "36216",
+    "crossNumber": "78BD5308-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "6Q0 615 301"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "6Q0 615 301",
+          "6Q0 615 301 A"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "27219",
+    "crossNumber": "78BD9060-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "5 69 060"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "90 539 466",
+          "91 176 78"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "30220",
+    "crossNumber": "78BD7795-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "DACIA",
+        "numbers": [
+          "77 01 207 795"
+        ]
+      },
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "40206-AX600",
+          "40206-AX602",
+          "40206-AX603"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "77 01 207 795"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "27064",
+    "crossNumber": "78BD9046-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "5 69 046",
+          "5 69 055"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "90 421 727",
+          "90 511 128"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "34222",
+    "crossNumber": "78BD2878-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "TOYOTA",
+        "numbers": [
+          "43512-12690",
+          "43512-42030",
+          "43512-42031"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "34223",
+    "crossNumber": "78BD2251-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "TOYOTA",
+        "numbers": [
+          "42431-02070"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52225",
+    "crossNumber": "78BD8936-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "1 158 936",
+          "1 162 289",
+          "1 164 511",
+          "1 165 457",
+          "34 21 1 158 936",
+          "34 21 1 162 289",
+          "34 21 1 164 511",
+          "34 21 1 165 457",
+          "34 21 6 864 051",
+          "6 855 158",
+          "6 864 051"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52226",
+    "crossNumber": "78BD4129-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "34 21 1 163 669",
+          "34 21 1 163 835",
+          "34 21 1 164 129",
+          "34 21 6 767 049"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "53230",
+    "crossNumber": "78BD8338-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "DAEWOO",
+        "numbers": [
+          "9626 4591",
+          "96328338",
+          "96549782"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "33207",
+    "crossNumber": "78BD8684",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "ALFA ROMEO",
+        "numbers": [
+          "0060 569 164",
+          "16 406 261 000 1",
+          "6 056 916 4",
+          "6 060 216 1",
+          "6 065 347 9",
+          "6 065 856 6",
+          "6 080 178 6",
+          "6 080 178 7",
+          "6 081 178 7",
+          "7 173 891 1",
+          "8 241 868 4",
+          "8 243 993 9",
+          "8 244 027 5"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "7 173 891 2",
+          "7 789 267"
+        ]
+      },
+      {
+        "manufacturer": "LANCIA",
+        "numbers": [
+          "6 081 480 4",
+          "7 173 891 1",
+          "7 789 267",
+          "8 240  27 5"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52237",
+    "crossNumber": "78BD6045-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "34 11 6 750 713",
+          "34 11 6 756 045",
+          "34 11 6 765 457",
+          "34 11 6 766 036",
+          "34 11 6 859 679"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "36110",
+    "crossNumber": "78BD5301-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "8E0 615 301 B",
+          "8E0 615 301 D",
+          "8E0 615 301 P"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "8E0 615 301 P"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "8E0 615 301 B",
+          "8E0 615 301 D",
+          "8E0 615 301 P"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "16241",
+    "crossNumber": "78BD1008-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "HYUNDAI",
+        "numbers": [
+          "51712-25060",
+          "51712-25061"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "27243",
+    "crossNumber": "78BD9209-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "5 69 209"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "90 512 909"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "27242",
+    "crossNumber": "78BD9210-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "5 69 210"
+        ]
+      },
+      {
+        "manufacturer": "SAAB",
+        "numbers": [
+          "45 65 693",
+          "48 37 027",
+          "48 39 338",
+          "50 24 260",
+          "50 84 751",
+          "53 91 578"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "90 512 910"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "15246",
+    "crossNumber": "78BD5252-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "HONDA",
+        "numbers": [
+          "42510-SEA-E00",
+          "42510-SEA-E50"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "15245",
+    "crossNumber": "78BD5251-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "HONDA",
+        "numbers": [
+          "45251-SEA-E30"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "33026",
+    "crossNumber": "78BD5056-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "ALFA ROMEO",
+        "numbers": [
+          "0060 806 137",
+          "0060 811 266",
+          "4 642 341 5",
+          "6 080 613 7",
+          "6 081 007 6",
+          "6 081 125 6",
+          "6 081 126 6"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "4 641 671 2",
+          "4 642 341 5",
+          "5 174 912 4",
+          "7 173 814 5",
+          "7 645 056",
+          "7 779 409"
+        ]
+      },
+      {
+        "manufacturer": "LANCIA",
+        "numbers": [
+          "4 641 671 2",
+          "4 642 341 5",
+          "7 645 056",
+          "7 779 409"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "25250",
+    "crossNumber": "78BD8027-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MITSUBISHI",
+        "numbers": [
+          "M 818 027"
+        ]
+      },
+      {
+        "manufacturer": "VOLVO",
+        "numbers": [
+          "3 081 802 7",
+          "3 081 802 72"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "36252",
+    "crossNumber": "78BD1068-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "4B0 615 301 B",
+          "JZW 615 301 B"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "4B0 615 301 B",
+          "JZW 615 301 B"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "18253",
+    "crossNumber": "78BD1712-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "KIA",
+        "numbers": [
+          "51712-3E000"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "55257",
+    "crossNumber": "78BD5117-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "JEEP",
+        "numbers": [
+          "052098672",
+          "52098672"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "36260",
+    "crossNumber": "78BD5614-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "1K0 615 301 AC",
+          "1K0 615 301 AK",
+          "1K0 615 301 S"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "1K0 615 301 AC",
+          "1K0 615 301 AS",
+          "1K0 615 301 S"
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "1K0 615 301 AC",
+          "1K0 615 301 S"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "1K0 615 301 AC",
+          "1K0 615 301 S",
+          "5C0 615 301"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "36261",
+    "crossNumber": "78BD3021-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "7H0 615 601 B"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "28251",
+    "crossNumber": "78BD4752-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "4246.17",
+          "4246.18",
+          "4246.W2",
+          "4249.18",
+          "4249.84"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "4246.17",
+          "4246.18",
+          "4246.W8",
+          "4249.17"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24262",
+    "crossNumber": "78BD0812-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "211 421 07 12",
+          "211 421 08 12"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24263",
+    "crossNumber": "78BD0413-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "000 423 10 12",
+          "211 423 07 12"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "62264",
+    "crossNumber": "78BD0903-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "LAND ROVER",
+        "numbers": [
+          "ANR4983",
+          "SDB100830"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "62265",
+    "crossNumber": "78BD1010-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "LAND ROVER",
+        "numbers": [
+          "SDB000080",
+          "SDB101070"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "33268",
+    "crossNumber": "78BD4696-1",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "4246.Z1",
+          "4249.39",
+          "4249.40",
+          "4249.K8"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "4 683 380 7",
+          "5 174 024 8",
+          "5 174 927 5",
+          "5 177 492 74",
+          "5 177 492 75",
+          "5 185 641 1",
+          "7 174 011 7"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "4246.Z3",
+          "4249.39",
+          "4249.40",
+          "4249.K8"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24270",
+    "crossNumber": "78BD3182-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "202 421 07 12",
+          "202 421 09 12"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "16307",
+    "crossNumber": "78BD5101-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "HYUNDAI",
+        "numbers": [
+          "51712-1G000"
+        ]
+      },
+      {
+        "manufacturer": "KIA",
+        "numbers": [
+          "51712-1G000"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "49308",
+    "crossNumber": "78BD4707-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "DACIA",
+        "numbers": [
+          "60 01 547 683",
+          "60 01 547 684",
+          "60 01 549 211"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "60 01 547 683",
+          "60 01 547 684",
+          "60 01 549 211",
+          "77 01 208 252",
+          "82 00 123 117"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24303",
+    "crossNumber": "78BD0190-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "906 421 00 12",
+          "906 421 01 12",
+          "9104210000",
+          "910421000007",
+          "9104210100"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "2E0 615 301"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24304",
+    "crossNumber": "78BD0192-1",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "906 423 01 12"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "2E0 615 601"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24305",
+    "crossNumber": "78BD0191-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "906 423 00 12"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "2E0 615 601 A"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24309",
+    "crossNumber": "78BD0415-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "447 421 05 12",
+          "639 421 00 12",
+          "639 421 02 12",
+          "639 421 03 12"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "13311",
+    "crossNumber": "78BD5632-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1371394",
+          "1503290",
+          "1547061"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24310",
+    "crossNumber": "78BD0416-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "639 423 01 12"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "36313",
+    "crossNumber": "78BD5616-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "1K0 615 601 AB",
+          "1K0 615 601 K"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "1K0 615 601 AB",
+          "1K0 615 601 K"
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "1K0 615 601 AB",
+          "1K0 615 601 K"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "1K0 615 601 AB",
+          "1K0 615 601 K"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "36314",
+    "crossNumber": "78BD5310-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "1K0 615 601 L"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "1K0 615 601 L"
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "1K0 615 601 L"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "1K0 615 601 AC",
+          "1K0 615 601 AJ",
+          "1K0 615 601 L"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "36315",
+    "crossNumber": "78BD5619-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "1K0 615 601 AD",
+          "1K0 615 601 M"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "1K0 615 601 AD",
+          "1K0 615 601 M"
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "1K0 615 601 AD",
+          "1K0 615 601 M"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "1K0 615 601 AD",
+          "1K0 615 601 M",
+          "5Q0 615 601 G"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "36096",
+    "crossNumber": "78BD3015-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "701 615 301 F",
+          "7D0 615 301 A",
+          "7D0 615 301 C"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "16327",
+    "crossNumber": "78BD0570-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "HYUNDAI",
+        "numbers": [
+          "51712-1C000"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "15328",
+    "crossNumber": "78BD1257-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "HONDA",
+        "numbers": [
+          "45251-S7A-N10",
+          "45251-S87-A00",
+          "45251-SCA-E00"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "15329",
+    "crossNumber": "78BD2586-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "HONDA",
+        "numbers": [
+          "45251-S2H-N00",
+          "45251-S2H-N10",
+          "45251-SP0-000"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "13335",
+    "crossNumber": "78BD5630-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1 371 393",
+          "1 503 287",
+          "6C11-1125-AA",
+          "6C11-1125-AB"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "30186",
+    "crossNumber": "78BD1410-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "43206-00QAA"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "44 03 045"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "77 00 314 107"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "91 110 45"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "18336",
+    "crossNumber": "78BD5002-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "KIA",
+        "numbers": [
+          "51712-2F100"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "16337",
+    "crossNumber": "78BD5171-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "HYUNDAI",
+        "numbers": [
+          "51712-1D100",
+          "51712-1F300",
+          "51712-1H000",
+          "51712-2C000",
+          "51712-2E300",
+          "51712-3K050"
+        ]
+      },
+      {
+        "manufacturer": "KIA",
+        "numbers": [
+          "51712-1F000",
+          "51712-1F300",
+          "51712-1H000",
+          "51712-2C000",
+          "51712-3K050"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "13312",
+    "crossNumber": "78BD3963-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1 223 663",
+          "1 223 665",
+          "1 253 729",
+          "1 253 730",
+          "1 320 352",
+          "1 373 369",
+          "1 469 082",
+          "1 501 069",
+          "1 734 696",
+          "AV61-1125-BB"
+        ]
+      },
+      {
+        "manufacturer": "VOLVO",
+        "numbers": [
+          "2 745 09",
+          "3 126 271 8"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "13342",
+    "crossNumber": "78BD5631-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1 371 420",
+          "1 464 031"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "30345",
+    "crossNumber": "78BD6845-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "40206-00QAF",
+          "77 01 206 845",
+          "82 00 010 519"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "44 08 275",
+          "44 13 734",
+          "44 14 632"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "77 01 206 845",
+          "77 11 130 077",
+          "82 00 010 519"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "91 159 915",
+          "91 165 426"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "30343",
+    "crossNumber": "78BD7823-1",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "77 01 207 823"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "34351",
+    "crossNumber": "78BD0504-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "TOYOTA",
+        "numbers": [
+          "43512-05040"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "26353",
+    "crossNumber": "78BD4200-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "40206-EB300"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "13357",
+    "crossNumber": "78BD3965-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1 223 540",
+          "1 252 728",
+          "1 320 347",
+          "1 373 360",
+          "1 748 745",
+          "3M51-2A315-AB",
+          "3M51-2A315-AE"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "16358",
+    "crossNumber": "78BD5172-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "HYUNDAI",
+        "numbers": [
+          "51712-3D100",
+          "51712-3D300"
+        ]
+      },
+      {
+        "manufacturer": "KIA",
+        "numbers": [
+          "51712-3C100"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "27360",
+    "crossNumber": "78BD9021-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "5 69 021"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "91 959 85"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "27361",
+    "crossNumber": "78BD9001-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "5 69 006",
+          "93 175 376"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "56 90 06",
+          "93 175 376"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "13363",
+    "crossNumber": "78BD6768-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1 376 138",
+          "1 464 914",
+          "1 464 915",
+          "1 465 619",
+          "1 506 339",
+          "4 098 427",
+          "4 098 428",
+          "4 143 445",
+          "4 176 921",
+          "4 179 406"
+        ]
+      },
+      {
+        "manufacturer": "JAGUAR",
+        "numbers": [
+          "C2S 35271",
+          "C2S 42668",
+          "C2S 9231"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24364",
+    "crossNumber": "78BD0411-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "CHRYSLER",
+        "numbers": [
+          "05098063AA",
+          "05098064AA",
+          "5098063AA",
+          "5098064AA",
+          "5098064AB",
+          "5098064AC"
+        ]
+      },
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "203 421 05 12",
+          "210 421 12 12",
+          "210 421 15 12",
+          "210 421 22 12",
+          "210 421 25 12"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "33375",
+    "crossNumber": "78BD1650-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "ALFA ROMEO",
+        "numbers": [
+          "4 640 135 6",
+          "4 683 104 1"
+        ]
+      },
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "4249.74"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "4 640 135 6",
+          "4 654 238 3",
+          "4 683 104 1",
+          "7 173 964 0"
+        ]
+      },
+      {
+        "manufacturer": "LANCIA",
+        "numbers": [
+          "4 640 135 6"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "4249.73",
+          "4249.74"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "53376",
+    "crossNumber": "78BD9048-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "CHEVROLET",
+        "numbers": [
+          "4808 848"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "96 625 948"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "27378",
+    "crossNumber": "78BD9110-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "5 69 109"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "90 575 113",
+          "91 177 72"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "33379",
+    "crossNumber": "78BD5622-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "4249.28",
+          "4249.29",
+          "4249.98",
+          "4249.K2"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "51 705 749",
+          "51 740 246",
+          "51 848 620",
+          "51 848 621",
+          "6001073177"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "4249.28",
+          "4249.29",
+          "4249.98",
+          "4249.K2"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "34380",
+    "crossNumber": "78BD3107-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "TOYOTA",
+        "numbers": [
+          "43512-06150",
+          "43512-33130",
+          "43512-42050",
+          "43512-42090",
+          "43512-42100"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "27385",
+    "crossNumber": "78BD0920-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "5 570 092 0",
+          "5 570 092 1",
+          "5 570 256 9"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "5 69 024"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "93 188 917",
+          "93 197 241"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "32394",
+    "crossNumber": "78BD6035-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "47 00 455",
+          "47 08 241",
+          "47 10 944",
+          "93 192 978",
+          "93 194 988",
+          "95 513 700"
+        ]
+      },
+      {
+        "manufacturer": "SUZUKI",
+        "numbers": [
+          "55311-62J00",
+          "55311-62J01"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "93 192 978",
+          "93 194 988",
+          "93 513 700"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "13057",
+    "crossNumber": "78BD7969-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1 073 756",
+          "1 323 621",
+          "1 373 781",
+          "1 637 969",
+          "1 780 880",
+          "4 083 484",
+          "5 022 666",
+          "5 023 483",
+          "5 030 658",
+          "C1BC-2A315-AA"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "13401",
+    "crossNumber": "78BD6765-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1 379 965",
+          "1 384 689",
+          "1 405 510",
+          "1 420 600",
+          "1 420 601",
+          "1 469 085",
+          "1 500 158",
+          "1 517 696",
+          "6G91-2C375-F1B",
+          "7G91-1125-BA"
+        ]
+      },
+      {
+        "manufacturer": "LAND ROVER",
+        "numbers": [
+          "LR-000571",
+          "LR-007055"
+        ]
+      },
+      {
+        "manufacturer": "VOLVO",
+        "numbers": [
+          "3 073 631 1",
+          "3 076 905 6",
+          "3 120 232 7",
+          "3 120 233 1",
+          "3 134 138 2"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "13402",
+    "crossNumber": "78BD5636-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1 523 795",
+          "1 535 924",
+          "1 546 835",
+          "1 679 853",
+          "8V51-1125-AA",
+          "8V51-1125-AB",
+          "8V51-1125-AC",
+          "8V51-1125-AD"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "26403",
+    "crossNumber": "78BD2057-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "402061KC1A",
+          "402061KC1B",
+          "402061KC3A",
+          "40206JD00A",
+          "40206JG00A",
+          "40206JG00C"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "33407",
+    "crossNumber": "78BD0922-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "5 569 025",
+          "5 570 092 2",
+          "5 570 092 3"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "93 188 918"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "15410",
+    "crossNumber": "78BD2510-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "HONDA",
+        "numbers": [
+          "42510-SMG-E20",
+          "42510-SNA-A00",
+          "42510-SNA-A01",
+          "42510-SNE-A00"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "25411",
+    "crossNumber": "78BD7019-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MITSUBISHI",
+        "numbers": [
+          "46 15A 147",
+          "MN 102 276"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "34414",
+    "crossNumber": "78BD2890-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "TOYOTA",
+        "numbers": [
+          "43512-12670"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "34415",
+    "crossNumber": "78BD2889-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "TOYOTA",
+        "numbers": [
+          "42431-02190",
+          "42431-12260"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "34416",
+    "crossNumber": "78BD2020-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "TOYOTA",
+        "numbers": [
+          "43512-52020",
+          "43512-52050"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "41423",
+    "crossNumber": "78BD5618-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "1K0 615 301 AA"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "1K0 615 301 AA"
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "1K0 615 301 AA"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "1K0 615 301 AA",
+          "5Q0 615 301 F"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "25526",
+    "crossNumber": "78BD5923-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MITSUBISHI",
+        "numbers": [
+          "4614A190",
+          "4615A115",
+          "4615A190",
+          "MN116329",
+          "MN116330"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "30427",
+    "crossNumber": "78BD4294-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "415 420 00 01",
+          "415 420 07 01"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "77 01 209 839",
+          "82 01 464 604"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "28429",
+    "crossNumber": "78BD4692-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "16 188 903 80",
+          "4246.R1",
+          "4246.R4",
+          "4249.82"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "4246.R2"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "36434",
+    "crossNumber": "78BD3393-1",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "191 615 601",
+          "357 615 601"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "191 615 601",
+          "191 615 601 B",
+          "357 615 601",
+          "6N0 615 601"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "30438",
+    "crossNumber": "78BD4022-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "40 20 600 10R",
+          "40 20 641 51R"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "32440",
+    "crossNumber": "78BD4803-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "SUZUKI",
+        "numbers": [
+          "55211-65J00"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "18441",
+    "crossNumber": "78BD5020-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "KIA",
+        "numbers": [
+          "58411-2F100"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "16442",
+    "crossNumber": "78BD5102-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "HYUNDAI",
+        "numbers": [
+          "58411-1C800"
+        ]
+      },
+      {
+        "manufacturer": "KIA",
+        "numbers": [
+          "58411-1C800",
+          "58411-1G300"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "64445",
+    "crossNumber": "78BD8674-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "SSANGYONG",
+        "numbers": [
+          "41441-09100"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "25451",
+    "crossNumber": "78BD2940-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MITSUBISHI",
+        "numbers": [
+          "MB 699 288",
+          "MB 699 289",
+          "MR 249 356",
+          "MR 913 816",
+          "MR 913 846"
+        ]
+      },
+      {
+        "manufacturer": "PROTON",
+        "numbers": [
+          "PW 820 195"
+        ]
+      },
+      {
+        "manufacturer": "VOLVO",
+        "numbers": [
+          "3 087 294 0",
+          "3 087 294 09",
+          "MR 913 816"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "53452",
+    "crossNumber": "78BD9049-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "CHEVROLET",
+        "numbers": [
+          "4804 637"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "96 625 873"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "53453",
+    "crossNumber": "78BD6028-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "CHEVROLET",
+        "numbers": [
+          "9654 9630"
+        ]
+      },
+      {
+        "manufacturer": "DAEWOO",
+        "numbers": [
+          "9654 9630"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "18456",
+    "crossNumber": "78BD8411-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "KIA",
+        "numbers": [
+          "58411 3E300"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "28458",
+    "crossNumber": "78BD4744-1",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "4246.Z9",
+          "4249.34",
+          "96 435 738 80"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "4246.Z9",
+          "4249.34",
+          "96 435 738 80"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "36461",
+    "crossNumber": "78BD3328-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "7L8 615 601 C",
+          "7L8 615 601 D",
+          "7L8 615 601 J"
+        ]
+      },
+      {
+        "manufacturer": "PORSCHE",
+        "numbers": [
+          "955 352 401 30",
+          "955 352 401 31"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "7L8 615 601 C",
+          "7L8 615 601 D",
+          "7L8 615 601 J"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "30469",
+    "crossNumber": "78BD8766-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "40206-00Q0G"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "44 19 359",
+          "93197403"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "82 00 688 880"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "16470",
+    "crossNumber": "78BD2902-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "HYUNDAI",
+        "numbers": [
+          "51712-2D300",
+          "51712-2D310",
+          "58101-2D300"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "53476",
+    "crossNumber": "78BD1559-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "CHEVROLET",
+        "numbers": [
+          "1350 2045"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "13 502 044",
+          "13 502 045",
+          "5 69 069",
+          "5 69 073"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "13 502 045"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "53477",
+    "crossNumber": "78BD1560-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "CHEVROLET",
+        "numbers": [
+          "1350 2134",
+          "1350 2135",
+          "1350 2136"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "13 502 134",
+          "13 502 135",
+          "13 502 136",
+          "5 69 072",
+          "5 69 074"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "13 502 135",
+          "5 69 072",
+          "5 69 074"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "18486",
+    "crossNumber": "78BD0580-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "HYUNDAI",
+        "numbers": [
+          "51712-2L500"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "30487",
+    "crossNumber": "78BD8767-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "43000347R",
+          "43206-00Q0A"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "44 19 362",
+          "93197406"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "43 20 003 67R"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "93197406"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "22490",
+    "crossNumber": "78BD3272-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MAZDA",
+        "numbers": [
+          "BP4Y-33-25XB",
+          "BP4Y-33-25XC",
+          "BP4Y-33-25XD"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "16492",
+    "crossNumber": "78BD5206",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "HYUNDAI",
+        "numbers": [
+          "51712C8000"
+        ]
+      },
+      {
+        "manufacturer": "KIA",
+        "numbers": [
+          "51712C8000",
+          "51712F9000"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "27493",
+    "crossNumber": "78BD4116-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "CHEVROLET",
+        "numbers": [
+          "1350 1307"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "13 501 307",
+          "13 502 213",
+          "13 579 147",
+          "5 69 063",
+          "5 69 078",
+          "5 69 421"
+        ]
+      },
+      {
+        "manufacturer": "SAAB",
+        "numbers": [
+          "13 502 213"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "13 502 213"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "27494",
+    "crossNumber": "78BD5387-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "13501308",
+          "13502214",
+          "13579150",
+          "5 69 064",
+          "5 69 083"
+        ]
+      },
+      {
+        "manufacturer": "SAAB",
+        "numbers": [
+          "13501308",
+          "13502214",
+          "13579148"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "13501308",
+          "13502214"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "27495",
+    "crossNumber": "78BD9115-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "4 683 648 9",
+          "5 179 923 5"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "5 69 115",
+          "93 188 377"
+        ]
+      },
+      {
+        "manufacturer": "SAAB",
+        "numbers": [
+          "12 762 290",
+          "91 56 785"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "93 171 848"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "15499",
+    "crossNumber": "78BD1258-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "HONDA",
+        "numbers": [
+          "42510-SFY-000",
+          "42510-TA0-A00"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "53503",
+    "crossNumber": "78BD1440-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "CHEVROLET",
+        "numbers": [
+          "9647 1274",
+          "9657 4633"
+        ]
+      },
+      {
+        "manufacturer": "DAEWOO",
+        "numbers": [
+          "9012 1445",
+          "9647 1274"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "5 69 014",
+          "5 69 031",
+          "5 69 054",
+          "90 05 088",
+          "90 05 107"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "90 008 006",
+          "90 051 07",
+          "90 511 111"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "27505",
+    "crossNumber": "78BD9108-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "5 069 111",
+          "5 69 108",
+          "5 69 111"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "90 498 304",
+          "91 177 71",
+          "91 965 87"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52510",
+    "crossNumber": "78BD3221-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "34 11 6 753 221",
+          "34 11 6 767 269",
+          "34 11 6 864 905",
+          "34 11 6 864 906",
+          "6 753 221",
+          "6 767 269",
+          "6 864 905",
+          "6 864 906"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "34516",
+    "crossNumber": "78BD2918-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "TOYOTA",
+        "numbers": [
+          "43512-60150",
+          "43512-60151"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "30520",
+    "crossNumber": "78BD3110",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "DACIA",
+        "numbers": [
+          "402061200R"
+        ]
+      },
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "4154200101"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "402061200R",
+          "402067016R",
+          "402067501R",
+          "7701210081"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24521",
+    "crossNumber": "78BD6475-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "204 421 07 12",
+          "204 421 25 12",
+          "212 421 13 12"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24522",
+    "crossNumber": "78BD6474-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "204 423 06 12",
+          "204 423 09 12",
+          "204 423 15 12"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52523",
+    "crossNumber": "78BD6402-1",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "34 11 6 756 745",
+          "34 11 6 764 021",
+          "34 11 6 864 059",
+          "6 756 745",
+          "6 764 021",
+          "6 864 059"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52524",
+    "crossNumber": "78BD3215-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "34 21 6 753 215",
+          "34 21 6 772 085"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "25426",
+    "crossNumber": "78BD6070-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MITSUBISHI",
+        "numbers": [
+          "MB 895 098",
+          "MR 389 725",
+          "MR 475 331",
+          "MR 510 741",
+          "MR 510 742"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "26531",
+    "crossNumber": "78BD2931-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "43206-8J102",
+          "43206-9W000",
+          "43206-9W100",
+          "43206-9Y000",
+          "43206-A00A",
+          "43206-JA00A",
+          "43206-JD00A"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "13533",
+    "crossNumber": "78BD6539-1",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1 763 884",
+          "1 842 633",
+          "BK21-1125-AB",
+          "BK21-1125-AC",
+          "CK41-1125-AD"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "34535",
+    "crossNumber": "78BD2897-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "TOYOTA",
+        "numbers": [
+          "43512-02330"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "30513",
+    "crossNumber": "78BD3108-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "40 20 622 12R",
+          "40 20 631 49R",
+          "40 20 668 39R"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52536",
+    "crossNumber": "78BD3555-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "34 11 6 794 429"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "26537",
+    "crossNumber": "78BD2059",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "40206-ET01A"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "402069828R",
+          "40206JY01A"
+        ]
+      },
+      {
+        "manufacturer": "SAMSUNG",
+        "numbers": [
+          "402069828R",
+          "40206JY01A"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52541",
+    "crossNumber": "78BD3558-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "3421 6 775 287"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "13543",
+    "crossNumber": "78BD7970",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1751584",
+          "1833857",
+          "1833867",
+          "AY111125AA",
+          "AY1Z1125A",
+          "EY161125AA",
+          "EY161125BA"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "30547",
+    "crossNumber": "78BD4023-1",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "43 20 015 39R",
+          "43 20 075 95R"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "13550",
+    "crossNumber": "78BD6548-1",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1 812 200",
+          "1 822 205",
+          "BK31-1125-AB",
+          "BK31-1125-AC",
+          "CK4Z-1125-A",
+          "CK4Z-1125-B"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "13554",
+    "crossNumber": "78BD3937-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1 223 664",
+          "1 223 666",
+          "1 253 964",
+          "1 253 965",
+          "1 323 560",
+          "1 373 370",
+          "1 469 083",
+          "1 500 152",
+          "1 501 059",
+          "1 520 297"
+        ]
+      },
+      {
+        "manufacturer": "VOLVO",
+        "numbers": [
+          "2 745 10",
+          "3 126 271 9"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "13555",
+    "crossNumber": "78BD3964",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1 704 765",
+          "1 934 070",
+          "2 023 618",
+          "5 302 181",
+          "BV61-2A315-BA",
+          "BV612-A315-CB",
+          "BV612A315CE",
+          "BV612A315CF",
+          "BV612A315FB"
+        ]
+      },
+      {
+        "manufacturer": "FORD (CHANGAN)",
+        "numbers": [
+          "1759531",
+          "1843729",
+          "BV612A315DA",
+          "BV612A315EA",
+          "BV612A315EB",
+          "ED8C2A315AA",
+          "ED8C2A315AB",
+          "JD8C2A315AA"
+        ]
+      },
+      {
+        "manufacturer": "FORD AUSTRALIA",
+        "numbers": [
+          "BRRF28"
+        ]
+      },
+      {
+        "manufacturer": "FORD USA",
+        "numbers": [
+          "CV6Z2C026A"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "28559",
+    "crossNumber": "78BD4755-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "4249.24",
+          "4249.25",
+          "4249.92"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9 467 548 587",
+          "9 467 548 588"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "16 188 651 80",
+          "4249.24",
+          "4249.25",
+          "4249.92"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "13562",
+    "crossNumber": "78BD6769-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1 379 931",
+          "1 385 590",
+          "1 405 500",
+          "1 864 280",
+          "6G91-2A315-BA"
+        ]
+      },
+      {
+        "manufacturer": "LAND ROVER",
+        "numbers": [
+          "LR-027123"
+        ]
+      },
+      {
+        "manufacturer": "VOLVO",
+        "numbers": [
+          "1 405 500"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "18564",
+    "crossNumber": "78BD0581-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "HYUNDAI",
+        "numbers": [
+          "58411-1H100",
+          "58411-1H300"
+        ]
+      },
+      {
+        "manufacturer": "KIA",
+        "numbers": [
+          "58411-1H300"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "36567",
+    "crossNumber": "78BD5637-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "1K0 615 601 AA"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "1K0 615 601 AA"
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "1K0 615 601 AA"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "1K0 615 601 AA",
+          "5Q0 615 601 D"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "30576",
+    "crossNumber": "78BD4009-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "DACIA",
+        "numbers": [
+          "40206-6300R"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "13578",
+    "crossNumber": "78BD3959",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1724956",
+          "1746793",
+          "1770767",
+          "1829608",
+          "1844117",
+          "3M512C375CC",
+          "3M512C375CD",
+          "3M512C375CE",
+          "9M512C375AA",
+          "BRRF97",
+          "CV611125FA",
+          "CV611125GA",
+          "DV611125FA",
+          "KU2Z1V125B"
+        ]
+      },
+      {
+        "manufacturer": "IME",
+        "numbers": [
+          "6154210",
+          "6156110"
+        ]
+      },
+      {
+        "manufacturer": "KAROSA",
+        "numbers": [
+          "6154210",
+          "6156110"
+        ]
+      },
+      {
+        "manufacturer": "LINCOLN",
+        "numbers": [
+          "CV6Z1125D"
+        ]
+      },
+      {
+        "manufacturer": "VOLVO",
+        "numbers": [
+          "31341644",
+          "31381376",
+          "31400818",
+          "31400938"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24580",
+    "crossNumber": "78BD0408-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "447 421 03 12"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "29585B",
+    "crossNumber": "78BD4745-1",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "16 192 379 80",
+          "4246.19",
+          "4249.19",
+          "4249.32",
+          "E169195",
+          "E169506"
+        ]
+      },
+      {
+        "manufacturer": "DS",
+        "numbers": [
+          "4249.19",
+          "4249.32"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "3 648 487"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "4246.19",
+          "4249.19",
+          "4249.32",
+          "E169195",
+          "E169506"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "3 648 487"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "27589",
+    "crossNumber": "78BD9061-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "5 069 061",
+          "5 69 061",
+          "91 94 477"
+        ]
+      },
+      {
+        "manufacturer": "SAAB",
+        "numbers": [
+          "32 025 723",
+          "45 67 798",
+          "50 55 389",
+          "50 84 769",
+          "51 22 833",
+          "53 91 560",
+          "91 84 405"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "91 84 405",
+          "91 944 77"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "29594B",
+    "crossNumber": "78BD5023-1",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "4249.45",
+          "4249.46"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "4249.45",
+          "4249.46"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "13602",
+    "crossNumber": "78BD3962-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1 223 566",
+          "1 223 568",
+          "1 253 962",
+          "1 253 963",
+          "1 323 551",
+          "1 373 361",
+          "1 500 156"
+        ]
+      },
+      {
+        "manufacturer": "VOLVO",
+        "numbers": [
+          "3 0666 802",
+          "3 076 911 3"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "27604",
+    "crossNumber": "78BD9020-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "5 69 020"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52605",
+    "crossNumber": "78BD4629-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "34 11 6 764 629"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52615",
+    "crossNumber": "78BD4629-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "34 11 6 764 629"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "36460",
+    "crossNumber": "78BD3327-1",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "PORSCHE",
+        "numbers": [
+          "955 351 402 40",
+          "955 351 402 41"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "7L6 615 302 D",
+          "7L6 615 302 J",
+          "7L6 615 302 N"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24622C",
+    "crossNumber": "78BD0414-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "211 421 0912"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24620C",
+    "crossNumber": "78BD2593-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "204 421 13 12",
+          "204 421 14 12",
+          "204 421 29 12"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24626CS",
+    "crossNumber": "78BD5038-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "220 421 0812",
+          "220 421 2512"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24627C",
+    "crossNumber": "78BD3055-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "220 423 0112"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "62628",
+    "crossNumber": "78BD2817-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "LAND ROVER",
+        "numbers": [
+          "NTC-8780"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "62629",
+    "crossNumber": "78BD2004-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "LAND ROVER",
+        "numbers": [
+          "NTC-8781",
+          "SDB000210",
+          "SDB000470"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24630C",
+    "crossNumber": "78BD4210-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "163 421 00 12",
+          "163 421 02 12"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24631C",
+    "crossNumber": "78BD3505-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "163 423 0012"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24632CS",
+    "crossNumber": "78BD6478-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "203 421 13 12"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "41633C",
+    "crossNumber": "78BD5313-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "4F0 615 601 E"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24635",
+    "crossNumber": "78BD0805-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "126 421 04 12",
+          "126 421 05 12"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "41636C",
+    "crossNumber": "78BD4082-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "1K0 615 601 N"
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "1K0 615 601 N"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "1K0 615 601 N"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52637C",
+    "crossNumber": "78BD2217-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "34 11 3 400 151"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52638C",
+    "crossNumber": "78BD2218-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "34 21 3 332 217"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52639C",
+    "crossNumber": "78BD6464-1",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "34 11 6 764 641",
+          "34 11 6 854 997"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52640C",
+    "crossNumber": "78BD4647-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "34 21 6 764 647"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52641C",
+    "crossNumber": "78BD1725-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "34 21 4 031 725",
+          "34 21 6 764 649",
+          "34 21 6 769 271"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24103",
+    "crossNumber": "78BD3181-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "202 423 00 12"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52642C",
+    "crossNumber": "78BD3405-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "34 11 6 764 643",
+          "34 11 6 772 669",
+          "34 11 6 854 998"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24643C",
+    "crossNumber": "78BD0118-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "169 421 00 12"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24644C",
+    "crossNumber": "78BD0111-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "169 421 01 12"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24645C",
+    "crossNumber": "78BD0119-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "169 423 00 12",
+          "169 423 03 12"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "62646",
+    "crossNumber": "78BD2207-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "LAND ROVER",
+        "numbers": [
+          "SDB000200",
+          "SDB000201"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "62650C",
+    "crossNumber": "78BD7363-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "LAND ROVER",
+        "numbers": [
+          "SDB 000642",
+          "SDB 000643",
+          "SDB 000644",
+          "SDB 000645",
+          "SDB 000646"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "41651C",
+    "crossNumber": "78BD6076-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "8K0 698 301 A"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "41652C",
+    "crossNumber": "78BD6075-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "80A 615 601 B",
+          "8K0 615 601 B",
+          "8W0 615 601 C",
+          "8W0 615 601 H"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24653C",
+    "crossNumber": "78BD6476-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "000 421 19 19",
+          "204 421 00 12"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24654C",
+    "crossNumber": "78BD5558-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "000 421 12 12",
+          "000 421 12 12 07",
+          "204 421 08 12"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "62660C",
+    "crossNumber": "78BD7364-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "LAND ROVER",
+        "numbers": [
+          "SDB000621",
+          "SDB000622",
+          "SDB000623",
+          "SDB000624"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24656CS",
+    "crossNumber": "78BD6472-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "000 421 1112",
+          "000 421 3012",
+          "204 421 1012"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52663C",
+    "crossNumber": "78BD4667",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "34 21 6 792 225",
+          "6792225"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "62664C",
+    "crossNumber": "78BD7360-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "LAND ROVER",
+        "numbers": [
+          "SDB000604"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "62665C",
+    "crossNumber": "78BD7361-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "LAND ROVER",
+        "numbers": [
+          "SDB000636"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52666C",
+    "crossNumber": "78BD1985-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "34 11 6 771 985"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52667C",
+    "crossNumber": "78BD1986-1",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "34 11 6 771 986",
+          "34 11 6 793 244",
+          "34 21 6 868 938"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52668C",
+    "crossNumber": "78BD1970-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "34 21 6 771 970"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "27669",
+    "crossNumber": "78BD1557-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "CHEVROLET",
+        "numbers": [
+          "1350 2052",
+          "1350 2057",
+          "1350 3988"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "13 502 051",
+          "13 502 052",
+          "13 503 988",
+          "5 690 70",
+          "5 690 76",
+          "5 690 82"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "13 502 051",
+          "13 502 052"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "36671",
+    "crossNumber": "78BD0198",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "2N0615301A"
+        ]
+      },
+      {
+        "manufacturer": "MAN",
+        "numbers": [
+          "2N0615301A",
+          "65508030000",
+          "65508030006"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "2N0615301A"
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "2N0615301A"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "2N0615301A"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "30287",
+    "crossNumber": "78BD4294-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "415 420 00 01",
+          "415 420 07 01"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "77 01 209 839",
+          "82 01 464 604"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "30288",
+    "crossNumber": "78BD7829-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "77 00 426 389",
+          "77 01 205 230",
+          "77 01 205 842",
+          "77 01 206 118",
+          "77 01 207 829"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "28678",
+    "crossNumber": "78BD4752-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "4246.17",
+          "4246.18",
+          "4246.W2",
+          "4249.18",
+          "4249.84"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "4246.17",
+          "4246.18",
+          "4246.W8",
+          "4249.17"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "32684",
+    "crossNumber": "78BD6041-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "71742850",
+          "71750162",
+          "71768306"
+        ]
+      },
+      {
+        "manufacturer": "SUZUKI",
+        "numbers": [
+          "55311-79J01",
+          "55311-79J02",
+          "55311-80J02"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "26689",
+    "crossNumber": "78BD4103-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "40206-3Y502",
+          "40206-4U100",
+          "40206-4U101",
+          "40206-4U103",
+          "40206-4U107"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "30690",
+    "crossNumber": "78BD2234-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "77 01 206 613",
+          "82 00 007 121"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "33691",
+    "crossNumber": "78BD0592-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "5 570 059 2",
+          "5 570 059 3"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "30695",
+    "crossNumber": "78BD4297-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "77 00 800 004",
+          "77 01 204 297",
+          "77 01 205 846"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "30696",
+    "crossNumber": "78BD4296-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "77 00 800 003",
+          "77 01 204 296",
+          "77 01 205 845"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "30697",
+    "crossNumber": "78BD4295-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "77 00 800 002",
+          "77 01 204 295",
+          "77 01 205 844"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "26699",
+    "crossNumber": "78BD2083-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "43206-99J04"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "26700",
+    "crossNumber": "78BD4101-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "43206-4U101",
+          "43206-4U103"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "22721",
+    "crossNumber": "78BD3269-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MAZDA",
+        "numbers": [
+          "GJ6Y-33-25XA"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "16726",
+    "crossNumber": "78BD4051-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "HYUNDAI",
+        "numbers": [
+          "51712-2B700",
+          "51712-2P700"
+        ]
+      },
+      {
+        "manufacturer": "KIA",
+        "numbers": [
+          "51712-2P700"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "36753",
+    "crossNumber": "78BD5642-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "3Q0 615 601"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "3Q0 615 601"
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "3Q0 615 601"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "3Q0 615 601"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "25729",
+    "crossNumber": "78BD7043-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MITSUBISHI",
+        "numbers": [
+          "MB 699716"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "18731",
+    "crossNumber": "78BD7500-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "HYUNDAI",
+        "numbers": [
+          "51712-0X500"
+        ]
+      },
+      {
+        "manufacturer": "KIA",
+        "numbers": [
+          "51712-07500",
+          "51712-X7500"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "25733",
+    "crossNumber": "78BD4644-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "CHRYSLER",
+        "numbers": [
+          "4615A117",
+          "5105 514AA"
+        ]
+      },
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "16 075 005 80"
+        ]
+      },
+      {
+        "manufacturer": "JEEP",
+        "numbers": [
+          "5105 514AA"
+        ]
+      },
+      {
+        "manufacturer": "MITSUBISHI",
+        "numbers": [
+          "4615A075",
+          "4615A117"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "16 075 005 80",
+          "16 106 230 80"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52657C",
+    "crossNumber": "78BD3406-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "34 21 6 764 651",
+          "34 21 6 855 007",
+          "6764651",
+          "6855007"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "54754",
+    "crossNumber": "78BD9077-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "VOLVO",
+        "numbers": [
+          "3 076 905 9"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "27756",
+    "crossNumber": "78BD1564",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "CHEVROLET",
+        "numbers": [
+          "13597355"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "13509119",
+          "13514611",
+          "13514612"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24621CS",
+    "crossNumber": "78BD0122-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "246 421 24 12"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "48761",
+    "crossNumber": "78BD0035-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "SUBARU",
+        "numbers": [
+          "26300-AG000",
+          "26300-AG001",
+          "26300-AG020A"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "41774",
+    "crossNumber": "78BD6077-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "8K0 615 301"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "30776B",
+    "crossNumber": "78BD2236-1",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "77 01 472 838",
+          "77 01 713 008",
+          "82 00 367 094"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "16784",
+    "crossNumber": "78BD7510-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "HYUNDAI",
+        "numbers": [
+          "51712-0X700",
+          "51712-B9000"
+        ]
+      },
+      {
+        "manufacturer": "KIA",
+        "numbers": [
+          "51712-07700"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "16788",
+    "crossNumber": "78BD2905-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "HYUNDAI",
+        "numbers": [
+          "58411-39300",
+          "58411-39600",
+          "58411-3K300",
+          "58411-3S000"
+        ]
+      },
+      {
+        "manufacturer": "KIA",
+        "numbers": [
+          "58411-39600",
+          "58411-3S000"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "16794",
+    "crossNumber": "78BD2000-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "HYUNDAI",
+        "numbers": [
+          "51712-02000",
+          "51712-02100",
+          "51712-02110"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "16797",
+    "crossNumber": "78BD5271-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "HYUNDAI",
+        "numbers": [
+          "51712-2T000",
+          "51712-2T100",
+          "51712-4C000"
+        ]
+      },
+      {
+        "manufacturer": "KIA",
+        "numbers": [
+          "51712-2T000",
+          "51712-2T100"
+        ]
+      },
+      {
+        "manufacturer": "MITSUBISHI",
+        "numbers": [
+          "4615A230"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "54807",
+    "crossNumber": "78BD7325",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "VOLVO",
+        "numbers": [
+          "31471414",
+          "32300121"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24830",
+    "crossNumber": "78BD0106",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "INFINITI",
+        "numbers": [
+          "432065DA0A",
+          "43206HG00B"
+        ]
+      },
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "2464230112",
+          "A2464230112"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24831",
+    "crossNumber": "78BD0108",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "246 421 00 12",
+          "246 421 00 12 07",
+          "246 421 11 12",
+          "A24 642 10 01 2",
+          "A24 642 10 01 20 7",
+          "A24 642 11 11 2"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24833",
+    "crossNumber": "78BD0113-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "168 421 02 12",
+          "168 421 08 12"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24834",
+    "crossNumber": "78BD2112-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "414 421 00 12"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52848",
+    "crossNumber": "78BD3153-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "34 21 1 163 133",
+          "34 21 1 163 153",
+          "34 21 1 164 175",
+          "34 21 1 164 840",
+          "34 21 6 767 060"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52849",
+    "crossNumber": "78BD2212-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "34 10 6 787 490"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52850",
+    "crossNumber": "78BD2216-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "34 20 6 790 362",
+          "34 20 6 868 936"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52851",
+    "crossNumber": "78BD6491-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "1 164 911",
+          "34 21 1 164 911",
+          "34 21 6 765 458",
+          "34 21 6 859 678",
+          "6 765 458",
+          "6 859 678"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52854",
+    "crossNumber": "78BD4666",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "34 11 6 792 217",
+          "6792217"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52855C",
+    "crossNumber": "78BD4669-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "34 11 6 792 223"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52857",
+    "crossNumber": "78BD3417-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "34 11 6 792 221"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52858",
+    "crossNumber": "78BD3418-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "34 21 6 792 229",
+          "34 21 6 864 900"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "61859",
+    "crossNumber": "78BD2898-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MINI",
+        "numbers": [
+          "34 11 9 804 828",
+          "34 11 9 811 537"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "41862",
+    "crossNumber": "78BD4067-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "4F0 615 301 D"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "41863",
+    "crossNumber": "78BD4085-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "4F0 615 301 E"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "41864",
+    "crossNumber": "78BD4039-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "8R0 615 301",
+          "8R0 615 301 C"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "8R0 615 301",
+          "8R0 615 301 C"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "41865",
+    "crossNumber": "78BD4152",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "4H0615601D",
+          "4H0615601H",
+          "4H0615601K",
+          "4H0615601Q",
+          "80A615601A",
+          "80A615601C",
+          "8W0615601E",
+          "8W0615601K"
+        ]
+      },
+      {
+        "manufacturer": "PORSCHE",
+        "numbers": [
+          "95B615601A",
+          "95B615601F",
+          "95B615601G"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "4H0615601D",
+          "4H0615601H",
+          "4H0615601K",
+          "4H0615601Q",
+          "80A615601C",
+          "8W0615601E",
+          "8W0615601K"
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "4H0615601D",
+          "4H0615601H",
+          "4H0615601K",
+          "4H0615601Q",
+          "80A615601C",
+          "8W0615601E",
+          "8W0615601K"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "4H0615601D",
+          "4H0615601H",
+          "4H0615601K",
+          "4H0615601Q",
+          "80A615601C",
+          "8W0615601E",
+          "8W0615601K"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "41866",
+    "crossNumber": "78BD5604-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "1J0 615 301 C",
+          "1J0 615 301 R",
+          "6R0 615 301 A",
+          "8J0 615 301 R",
+          "8J0 615 301 S"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "1J0 615 301",
+          "1J0 615 301 C",
+          "1J0 615 301 K",
+          "1J0 615 301 R",
+          "1J0 615 301 S",
+          "8J0 615 301 R",
+          "8J0 615 301 S"
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "1J0 615 301",
+          "1J0 615 301 C",
+          "1J0 615 301 R",
+          "1J0 615 301 S",
+          "8J0 615 301 R",
+          "8J0 615 301 S"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "1J0 615 301",
+          "1J0 615 301 C",
+          "1J0 615 301 K",
+          "1J0 615 301 R",
+          "1J0 615 301 S",
+          "6R0 615 301 A",
+          "8J0 615 301 R",
+          "8J0 615 301 S"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "41867",
+    "crossNumber": "78BD4065-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "4B0 615 301 A",
+          "8D0 615 301 J",
+          "8E0 615 301 R"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "8E0 615 301 R"
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "3B0 615 301 B",
+          "4B0 615 301 A",
+          "4B0 615 301 C",
+          "8D0 615 301 J",
+          "8E0 615 301 R"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "3B0 615 301 B",
+          "4B0 615 301 A",
+          "4B0 615 301 C",
+          "8D0 615 301 J",
+          "8E0 615 301 R"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52874C",
+    "crossNumber": "78BD3402",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "34 11 6 763 824"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52885",
+    "crossNumber": "78BD0041-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "34 11 6 799 351"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52887",
+    "crossNumber": "78BD0045-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "34 21 6 799 367"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52889",
+    "crossNumber": "78BD6071-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "34 10 1 166 071",
+          "34 11 6 769 305"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52891",
+    "crossNumber": "78BD0267-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "34 11 6 750 267"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52895",
+    "crossNumber": "78BD2315-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "34 21 1 162 315",
+          "34 21 1 165 211"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "54907",
+    "crossNumber": "78BD4045-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "VOLVO",
+        "numbers": [
+          "2 724 04",
+          "2 724 045",
+          "2 741 70",
+          "2 741 702",
+          "2 745 59",
+          "3 126 270 7",
+          "9 492 715"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "54908",
+    "crossNumber": "78BD1674-1",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "VOLVO",
+        "numbers": [
+          "9 434 167 0",
+          "9 434 167 4"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52828",
+    "crossNumber": "78BD0044-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "34 21 6 799 369"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "33912",
+    "crossNumber": "78BD4620",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "4246.J3"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "1 309 392 080",
+          "1 317 651 080",
+          "7 173 890 8"
+        ]
+      },
+      {
+        "manufacturer": "LANCIA",
+        "numbers": [
+          "1 309 392 080",
+          "1 317 651 080"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "4246.J2",
+          "4246.J3"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "41921",
+    "crossNumber": "78BD3615-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "8D0 615 301 K",
+          "8D0 615 301 M",
+          "8E0 615 301 AD"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "8D0 615 301 K",
+          "8D0 615 301 M",
+          "8E0 615 301 AD"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "36926",
+    "crossNumber": "78BD6085-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "1K0 615 301 AD",
+          "3C0 615 301 C"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "1K0 615 301 AD",
+          "3C0 615 301 C"
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "1K0 615 301 AD",
+          "3C0 615 301 C"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "1K0 615 301 AD",
+          "3C0 615 301 C",
+          "5Q0615301C"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "41928",
+    "crossNumber": "78BD4150-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "4G0 615 301",
+          "4G0 615 301 G"
+        ]
+      },
+      {
+        "manufacturer": "PORSCHE",
+        "numbers": [
+          "95B 615 301 B"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "55931",
+    "crossNumber": "78BD9269-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "JEEP",
+        "numbers": [
+          "052089269AB",
+          "52089269AB"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "55942C",
+    "crossNumber": "78BD5152-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "JEEP",
+        "numbers": [
+          "68035012AB",
+          "68035012AC"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24972",
+    "crossNumber": "78BD3507-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "164 421 04 12",
+          "164 421 13 12"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "41975",
+    "crossNumber": "78BD5620",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "8L0 615 301",
+          "8N0 615 301 A"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "8L0 615 301",
+          "8L0 615 301 A"
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "8L0 615 301",
+          "8N0 615 301 A"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "8L0 615 301",
+          "8N0 615 301 A"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "34945",
+    "crossNumber": "78BD2919-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "LEXUS",
+        "numbers": [
+          "42431-60201",
+          "42431-60270"
+        ]
+      },
+      {
+        "manufacturer": "TOYOTA",
+        "numbers": [
+          "42431-60130",
+          "42431-60190",
+          "42431-60200",
+          "42431-60201"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "24521CS",
+    "crossNumber": "78BD6473-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "204 421 0912",
+          "204 421 2812"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "41865CS",
+    "crossNumber": "78BD4152",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "4H0615601D",
+          "4H0615601H",
+          "4H0615601K",
+          "4H0615601Q",
+          "80A615601A",
+          "80A615601C",
+          "8W0615601E",
+          "8W0615601K"
+        ]
+      },
+      {
+        "manufacturer": "PORSCHE",
+        "numbers": [
+          "95B615601A",
+          "95B615601F",
+          "95B615601G"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "4H0615601D",
+          "4H0615601H",
+          "4H0615601K",
+          "4H0615601Q",
+          "80A615601C",
+          "8W0615601E",
+          "8W0615601K"
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "4H0615601D",
+          "4H0615601H",
+          "4H0615601K",
+          "4H0615601Q",
+          "80A615601C",
+          "8W0615601E",
+          "8W0615601K"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "4H0615601D",
+          "4H0615601H",
+          "4H0615601K",
+          "4H0615601Q",
+          "80A615601C",
+          "8W0615601E",
+          "8W0615601K"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52615CS",
+    "crossNumber": "78BD4629-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "34 11 6 764 629"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52854CS",
+    "crossNumber": "78BD4666",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "34 11 6 792 217",
+          "6792217"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "41636CS",
+    "crossNumber": "78BD4082-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "1K0 615 601 N"
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "1K0 615 601 N"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "1K0 615 601 N"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52668CS",
+    "crossNumber": "78BD1970-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "34 21 6 771 970"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52855CS",
+    "crossNumber": "78BD4669-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "34 11 6 792 223"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "531509",
+    "crossNumber": "78BD2559-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "CHEVROLET",
+        "numbers": [
+          "9628 6933",
+          "9630 0035",
+          "9631 2559"
+        ]
+      },
+      {
+        "manufacturer": "DAEWOO",
+        "numbers": [
+          "9628 6933",
+          "9630 0035",
+          "9631 2559"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "52662",
+    "crossNumber": "78BD1972-2",
+    "supplier": "ICER",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "34 11 6 774 875",
+          "34 11 6 792 219",
+          "34 11 6 855 006"
+        ]
+      }
+    ]
+  }
+]

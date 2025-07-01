@@ -28,12 +28,18 @@ export function convertJsonToExcel(inputFilePath: string, outputDirectory: strin
     modelDataMap.set(key, model);
   });
 
+  const processedYVNUmbers: string[] = [];
+
   try {
     const data: RootJsonData = JSON.parse(fs.readFileSync(inputFilePath, 'utf-8'));
 
     const sheetDataMap = new Map<string, any[][]>();
 
     data.forEach(item => {
+
+      if(processedYVNUmbers.includes(item.yvNo)) return;
+      processedYVNUmbers.push(item.yvNo);
+
       let baseSheetName = item.crossNumber;
       let actualSheetName = baseSheetName;
 
@@ -94,7 +100,7 @@ export function convertJsonToExcel(inputFilePath: string, outputDirectory: strin
 
     if (!fs.existsSync(outputDirectory)) fs.mkdirSync(outputDirectory, { recursive: true });
 
-    XLSX.writeFile(workbook, path.join(outputDirectory, `${path.basename(inputFilePath, '')}.xlsx`));
+    XLSX.writeFile(workbook, path.join(outputDirectory, `${path.basename(inputFilePath.slice(0, -4).concat('first-cross'))}.xlsx`));
     console.log(`Veriler başarıyla Excel'e aktarıldı: ${outputDirectory}`);
 
   } catch (error) {

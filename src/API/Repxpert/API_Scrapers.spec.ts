@@ -17,15 +17,15 @@ async function processProducts(processFunction: Function, fileName: string, thre
   const limit = pLimit(threadLimit);
 
   const results = (await Promise.all(
-    productReferences
-    //referenceArray
+    //productReferences
+    referenceArray
       .filter(
         (productRef) =>
-          productRef.brand === filterBrand &&               // process only given brand in .env file
+          //productRef.brand === filterBrand &&               // process only given brand in .env file
           productRef.crossNumber.trim() !== ""              // skip empty cells comes from excel
           //!productRef.crossNumber.trim().includes(" ")    // skip cross numbers with spaces
       )
-      //.slice(600, 800)
+      //.slice(40)
       .map((productRef) => limit(() => processFunction(productRef)))
   )).filter((r) => r !== null);
 
@@ -42,7 +42,7 @@ test("Get OE numbers for all products", async () => {
 test("Get Vehicle Compatibility for all products", async () => {
   test.setTimeout(20 * 60 * 1000);
   console.log(`Processing Vehicle Compatibility for brand: ${filterBrand}`);
-  await processProducts(processProductFor_VehicleCompatibility, `Vehicle-Compatibility_${filterBrand}.json`, 3, "Vehicle-Compatibility");
+  await processProducts(processProductFor_VehicleCompatibility, `Vehicle-Compatibility_${filterBrand}.json`, 2, "Vehicle-Compatibility");
 });
 
 test("Get cross numbers via given cross/OE numbers", async () => {

@@ -13,7 +13,26 @@ export const SUPPLIER_NUMBERS: Record<string, string> = {
   FEBI: "101",
   WILMINK: "4832",
   CAUTEX: "405",
+  METELLI: "121",
+  SWAG: "151",
+  JAPANPARTS: "156",
+  FERODO: "62",
+  "HERTH+BUSS": "55",
+  "0AMS": "7510",
+  NipoKM: "7770",
+  "Dr!ve+": "4948"
 };
+
+export const producyGroupNumbersOFRepxpert: Record<string, string> = {
+  Disc:"100032",
+  Drum:"100033", 
+  Pad:"100030", 
+  Crankshaft:"101971"
+}
+
+export function getGroupNumberOfProductType(productType: string) {
+  return producyGroupNumbersOFRepxpert[productType];
+}
 
 export const excelTitles = [
   'YV',

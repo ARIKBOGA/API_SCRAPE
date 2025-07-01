@@ -1,5 +1,1082 @@
 [
   {
+    "yvNo": "7001010",
+    "crossNumber": "3213B0009",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515.G3",
+          "0515G3"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9608938980"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515.G3",
+          "0515G3"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7001010",
+    "crossNumber": "3213B0039",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "ALFA ROMEO",
+        "numbers": [
+          "9608938980"
+        ]
+      },
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515.K9",
+          "0515.K9S1",
+          "0515G3",
+          "0515H3",
+          "0515K9",
+          "0515K9S1",
+          "515.K9",
+          "515.K9S1",
+          "515G3",
+          "515K9",
+          "515K9S1"
+        ]
+      },
+      {
+        "manufacturer": "CITROËN/PEUGEOT",
+        "numbers": [
+          "0515.K9",
+          "0515G3",
+          "0515K9",
+          "515G3",
+          "515K9"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9608938980"
+        ]
+      },
+      {
+        "manufacturer": "LANCIA",
+        "numbers": [
+          "9608938980"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515.K9",
+          "0515.K9S1",
+          "0515G3",
+          "0515H3",
+          "0515K9",
+          "0515K9S1",
+          "515.K9",
+          "515.K9S1",
+          "515G3",
+          "515K9",
+          "515K9S1"
+        ]
+      },
+      {
+        "manufacturer": "SUZUKI",
+        "numbers": [
+          "1261086CA0"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7001010",
+    "crossNumber": "3213B0148",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515.G3",
+          "0515.G3 S1",
+          "515.G3 S1"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9608938980",
+          "9608938980 S1"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515.G3",
+          "0515.G3 S1",
+          "515.G3 S1"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7002010",
+    "crossNumber": "3213B0065",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "44 18 147"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "7700110329",
+          "7700113018",
+          "7700115309",
+          "8200689702"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "93192606"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7004010",
+    "crossNumber": "3213B0051",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515.",
+          "0515.L8",
+          "0515.R2",
+          "0515.R9",
+          "0515.S4",
+          "515.L8",
+          "515.R2",
+          "515.R9",
+          "515.S4"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9467510480",
+          "9630647280",
+          "9651770980"
+        ]
+      },
+      {
+        "manufacturer": "LANCIA",
+        "numbers": [
+          "9467510480",
+          "9630647280",
+          "9651770980"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515.",
+          "0515.S4",
+          "515.S4"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7005010",
+    "crossNumber": "3213B0035",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "44 13 749",
+          "4413748",
+          "4413749",
+          "4414115",
+          "4414116",
+          "93161258",
+          "93161259",
+          "93170224",
+          "93170225"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "77 00 113 776",
+          "77 00 115 766",
+          "7700113776",
+          "7700115766",
+          "82 00 079 183",
+          "8200079183",
+          "8200386446",
+          "8200386451"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "93161259"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7007010",
+    "crossNumber": "3213B0090",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "HYUNDAI",
+        "numbers": [
+          "23124-27100",
+          "2312427000",
+          "2312427300",
+          "2312427400"
+        ]
+      },
+      {
+        "manufacturer": "KIA",
+        "numbers": [
+          "23124-27000",
+          "23124-27400",
+          "2312427100",
+          "2312427300"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7010010",
+    "crossNumber": "3213B0033",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1079188",
+          "1100051",
+          "1100051S1",
+          "1131911",
+          "1198049",
+          "1339469",
+          "1711500",
+          "1S4Q6B319BD",
+          "2M5Q6B319AA",
+          "4M5Q6B319BA",
+          "4M5Q6B319EA",
+          "FDC9A2A",
+          "XS4Q6B319",
+          "XS4Q6B319FC",
+          "XS4Q6B319FD"
+        ]
+      },
+      {
+        "manufacturer": "FORD USA",
+        "numbers": [
+          "XS4Q6B319FC",
+          "XS4Q6B319FD"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "1079188"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7011010",
+    "crossNumber": "3213B0033",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1079188",
+          "1100051",
+          "1100051S1",
+          "1131911",
+          "1198049",
+          "1339469",
+          "1711500",
+          "1S4Q6B319BD",
+          "2M5Q6B319AA",
+          "4M5Q6B319BA",
+          "4M5Q6B319EA",
+          "FDC9A2A",
+          "XS4Q6B319",
+          "XS4Q6B319FC",
+          "XS4Q6B319FD"
+        ]
+      },
+      {
+        "manufacturer": "FORD USA",
+        "numbers": [
+          "XS4Q6B319FC",
+          "XS4Q6B319FD"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "1079188"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7012010",
+    "crossNumber": "3213B0018",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "038 105 243 E",
+          "03G 105 243",
+          "03G 105 243 C",
+          "04L 105 243"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1315782",
+          "3M216B320AA"
+        ]
+      },
+      {
+        "manufacturer": "MITSUBISHI",
+        "numbers": [
+          "MN980049"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "038 105 243 E",
+          "03G 105 243",
+          "04L 105 243"
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "038 105 243 E",
+          "03G 105 243",
+          "04L 105 243"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "038 105 243 E",
+          "03G 105 243",
+          "04L 105 243"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7012010",
+    "crossNumber": "3213B0037",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "038105243E",
+          "038105243F",
+          "03G105243",
+          "03G105243C",
+          "068105255H",
+          "38105243F"
+        ]
+      },
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515N4",
+          "0515N8",
+          "0515P9"
+        ]
+      },
+      {
+        "manufacturer": "DENNIS",
+        "numbers": [
+          "80000395"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "500312310",
+          "500332292",
+          "99461230"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1315782",
+          "3M216B320AA"
+        ]
+      },
+      {
+        "manufacturer": "MITSUBISHI",
+        "numbers": [
+          "MN980049"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515N4",
+          "0515N8",
+          "0515P9"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "038105243E",
+          "038105243F",
+          "03G105243",
+          "03G105243C"
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "038105243E",
+          "038105243F",
+          "03G105243",
+          "03G105243C",
+          "38105243F"
+        ]
+      },
+      {
+        "manufacturer": "VAG",
+        "numbers": [
+          "038105243F",
+          "38205243F"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "038105243E",
+          "038105243F",
+          "03G105243",
+          "03G105243C",
+          "068105255H",
+          "38105243F"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7013010",
+    "crossNumber": "3213B0031",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "038105243",
+          "038105243K",
+          "038105243KS2",
+          "038105243L",
+          "038105243M",
+          "038105243S1",
+          "38105243",
+          "38105243K",
+          "38105243L",
+          "38105243M"
+        ]
+      },
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11232244417",
+          "11232245377",
+          "11232246511"
+        ]
+      },
+      {
+        "manufacturer": "BUICK",
+        "numbers": [
+          "01119003"
+        ]
+      },
+      {
+        "manufacturer": "CADILLAC",
+        "numbers": [
+          "01119003"
+        ]
+      },
+      {
+        "manufacturer": "CHEVROLET",
+        "numbers": [
+          "01119003"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1119003",
+          "YM216B320AA"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "0614610",
+          "0614612",
+          "614610",
+          "614612",
+          "90487878",
+          "90541669"
+        ]
+      },
+      {
+        "manufacturer": "PONTIAC",
+        "numbers": [
+          "01119003"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "038105243",
+          "038105243K",
+          "038105243KS2",
+          "038105243L",
+          "038105243M",
+          "038105243S1",
+          "38105243",
+          "38105243K",
+          "38105243L",
+          "38105243M"
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "038105243",
+          "038105243K",
+          "038105243KS2",
+          "038105243L",
+          "038105243M",
+          "038105243S1",
+          "38105243",
+          "38105243K",
+          "38105243L",
+          "38105243M"
+        ]
+      },
+      {
+        "manufacturer": "VAG",
+        "numbers": [
+          "038105243",
+          "038105243K"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "0614610",
+          "0614612",
+          "614610",
+          "614612",
+          "90487878",
+          "90541669"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "038105243",
+          "038105243K",
+          "038105243KS2",
+          "038105243L",
+          "038105243M",
+          "038105243S1",
+          "038105268",
+          "38105243",
+          "38105243K",
+          "38105243L",
+          "38105243M"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7013010",
+    "crossNumber": "3213B0075",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "038105243L",
+          "038105243M"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "038105243L",
+          "038105243M"
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "038105243L",
+          "038105243M"
+        ]
+      },
+      {
+        "manufacturer": "VAG",
+        "numbers": [
+          "038105243L",
+          "038105243M"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "038105243L",
+          "038105243M"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7021010",
+    "crossNumber": "3213B0042",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "ALFA ROMEO",
+        "numbers": [
+          "9659920080",
+          "9677608180"
+        ]
+      },
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "038105243K"
+        ]
+      },
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515S9",
+          "0515T1",
+          "515S9",
+          "515T1",
+          "96776081",
+          "9677608180",
+          "9806722380"
+        ]
+      },
+      {
+        "manufacturer": "CITROËN/PEUGEOT",
+        "numbers": [
+          "0515S9",
+          "0515T1",
+          "9677608180",
+          "9806722380"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9659920080",
+          "9677608180"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1102614",
+          "1372498",
+          "1372756",
+          "1376475",
+          "1386188",
+          "1387095",
+          "1434432",
+          "1539837",
+          "1723700",
+          "1731716",
+          "1731716S1",
+          "6C1Q6B319AD",
+          "6C1Q6B319AE",
+          "6C1Q6B319AF",
+          "6C1Q6B319CA",
+          "6C1Q6B319CB",
+          "6C1Q6B319CC",
+          "BK2Q6B319BA",
+          "BU3Q6B319AA"
+        ]
+      },
+      {
+        "manufacturer": "FORD USA",
+        "numbers": [
+          "6C1Q6B319CA",
+          "6C1Q6B319CB",
+          "6C1Q6B319CC",
+          "BK2Q6B319BA",
+          "BK2W6B319BA",
+          "BU3Q6B319AA"
+        ]
+      },
+      {
+        "manufacturer": "LANCIA",
+        "numbers": [
+          "9659920080",
+          "9677608180"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515S9",
+          "0515T1",
+          "515S9",
+          "515T1",
+          "9659920080",
+          "96776081",
+          "9677608180",
+          "9806722380"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "038105243K"
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "038105243K"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "038105243K"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7022010",
+    "crossNumber": "3213B0070",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "6260300103",
+          "A6260300103"
+        ]
+      },
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "1230300Q0A",
+          "1230300Q1D",
+          "1230300Q2F",
+          "8200767762"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "4431160",
+          "4449456",
+          "93161620",
+          "93198633"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "8200361247",
+          "8200767762"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "4431160",
+          "4449456",
+          "93161620",
+          "93198633"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7024010",
+    "crossNumber": "3213B0078",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11 23 7 800 026",
+          "11237800026",
+          "7 800 026",
+          "7800026"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7024010",
+    "crossNumber": "3213B0225",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11 23 7 800 026",
+          "7 800 026"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7031010",
+    "crossNumber": "3213B0084",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515L7",
+          "0515Q6"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9624596880",
+          "9637218980"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515L7",
+          "0515Q6"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7032010",
+    "crossNumber": "3213B0024",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "ALFA ROMEO",
+        "numbers": [
+          "46819147",
+          "55200498"
+        ]
+      },
+      {
+        "manufacturer": "CHEVROLET",
+        "numbers": [
+          "55200498",
+          "93194443"
+        ]
+      },
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515.W5",
+          "0515W5"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "46819147",
+          "55200498"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1539102",
+          "1564852",
+          "9S516B319AA"
+        ]
+      },
+      {
+        "manufacturer": "FORD USA",
+        "numbers": [
+          "9S516B319AA"
+        ]
+      },
+      {
+        "manufacturer": "LANCIA",
+        "numbers": [
+          "46819147",
+          "55200498"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "0614150",
+          "55200498",
+          "56 14 438",
+          "5614438",
+          "6 14 150",
+          "6 14 227",
+          "614150",
+          "614227",
+          "93177317",
+          "93194443"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515.W5",
+          "0515W5"
+        ]
+      },
+      {
+        "manufacturer": "SUZUKI",
+        "numbers": [
+          "12610-85E00-000",
+          "12610-85E01-000",
+          "1261085E00",
+          "1261085E01"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "55200498",
+          "56 14 438",
+          "6 14 150",
+          "6 14 227",
+          "93177317",
+          "93194443"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7032010",
+    "crossNumber": "4172P0083",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "46815125",
+          "46819146",
+          "46819147",
+          "46820063",
+          "46823547",
+          "46835095",
+          "51718499",
+          "51784844",
+          "51784845",
+          "51784846",
+          "51821652",
+          "51854103",
+          "51880175",
+          "51944878",
+          "51984054",
+          "51984055",
+          "51984056",
+          "51984058",
+          "51993603",
+          "52092135",
+          "52092136",
+          "55185075",
+          "55186280",
+          "55200498",
+          "77362721"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1538706",
+          "1539115",
+          "1539606",
+          "1564852",
+          "1571297",
+          "1581704",
+          "1598372",
+          "1705008",
+          "9S51 8501 BA",
+          "9S51 8620 DA",
+          "9S51-10344-CA",
+          "9S51-10346-DB",
+          "9S51-10346-FA",
+          "9S51-6A228-BA",
+          "9S51-6A228-BB",
+          "9S51-6B319-AA",
+          "9S5110344CA",
+          "9S5110346DB",
+          "9S5110346FA",
+          "9S516A228BA",
+          "9S516A228BB",
+          "9S516B319AA",
+          "9S518501BA",
+          "9S518620DA"
+        ]
+      },
+      {
+        "manufacturer": "LANCIA",
+        "numbers": [
+          "46815125",
+          "46819147",
+          "46820063",
+          "55200498"
+        ]
+      }
+    ]
+  },
+  {
     "yvNo": "7034010",
     "crossNumber": "3213B0020",
     "supplier": "RIDEX",
@@ -51,6 +1128,448 @@
     ]
   },
   {
+    "yvNo": "7036010",
+    "crossNumber": "3213B0019",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "MITSUBISHI",
+        "numbers": [
+          "MD374223"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7037010",
+    "crossNumber": "3213B0080",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515.",
+          "0515.K1",
+          "0515.N0",
+          "0515.P5",
+          "0515.R8",
+          "0515.S1",
+          "515.K1",
+          "515.N0",
+          "515.P5",
+          "515.R8",
+          "515.S1"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9655703580"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515.",
+          "0515.K1",
+          "0515.N0",
+          "0515.P1",
+          "0515.R8",
+          "0515.S1",
+          "515.K1",
+          "515.N0",
+          "515.P1",
+          "515.R8",
+          "515.S1",
+          "96 369 244 80",
+          "96 506 533 80",
+          "96 537 718 80"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7037010",
+    "crossNumber": "542R0663",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515.K1",
+          "0515.N0",
+          "0515.P1",
+          "0515.P5",
+          "0515.R8",
+          "0515.S1",
+          "0515K1",
+          "0515N0",
+          "0515P1",
+          "0515P5",
+          "0515R8",
+          "0515S1",
+          "16 114 229 80",
+          "16 114 245 80",
+          "1611422980",
+          "1611424580",
+          "5750.PR",
+          "5750.RF",
+          "5750.T3",
+          "5750.XA",
+          "5750.Y4",
+          "5750.YE",
+          "5750.Z2",
+          "5750.Z3",
+          "5750PR",
+          "5750RF",
+          "5750T3",
+          "5750XA",
+          "5750Y4",
+          "5750YE",
+          "5750Z2",
+          "5750Z3",
+          "5751.97",
+          "5751.98",
+          "5751.A2",
+          "5751.C8",
+          "5751.C9",
+          "5751.G3",
+          "575197",
+          "575198",
+          "5751A2",
+          "5751C8",
+          "5751C9",
+          "5751G3",
+          "96 369 244 80",
+          "96 426 581",
+          "96 426 581 80",
+          "96 463 960 80",
+          "96 496 758 80",
+          "96 506 533 80",
+          "96 520 466 80",
+          "96 537 718 80",
+          "96 554 874",
+          "96 554 874 80",
+          "9636924480",
+          "96426581",
+          "9642658180",
+          "9646396080",
+          "9649675880",
+          "9650653380",
+          "9652046680",
+          "9653771880",
+          "96554874",
+          "9655487480"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515.K1",
+          "0515.N0",
+          "0515.P1",
+          "0515.P5",
+          "0515.R8",
+          "0515.S1",
+          "0515K1",
+          "0515N0",
+          "0515P1",
+          "0515P5",
+          "0515R8",
+          "0515S1",
+          "16 114 229 80",
+          "16 114 245 80",
+          "1611422980",
+          "1611424580",
+          "5750.PR",
+          "5750.RF",
+          "5750.T3",
+          "5750.XA",
+          "5750.Y4",
+          "5750.YE",
+          "5750.Z2",
+          "5750.Z3",
+          "5750PR",
+          "5750RF",
+          "5750T3",
+          "5750XA",
+          "5750Y4",
+          "5750YE",
+          "5750Z2",
+          "5750Z3",
+          "5751.97",
+          "5751.98",
+          "5751.A2",
+          "5751.C8",
+          "5751.C9",
+          "5751.G3",
+          "575197",
+          "575198",
+          "5751A2",
+          "5751C8",
+          "5751C9",
+          "5751G3",
+          "96 369 244 80",
+          "96 426 581",
+          "96 426 581 80",
+          "96 463 960 80",
+          "96 496 758 80",
+          "96 506 533 80",
+          "96 520 466 80",
+          "96 537 718 80",
+          "96 554 874",
+          "96 554 874 80",
+          "96 840 152 80",
+          "9636924480",
+          "96426581",
+          "9642658180",
+          "9646396080",
+          "9649675880",
+          "9650653380",
+          "9652046680",
+          "9653771880",
+          "96554874",
+          "9655487480",
+          "9684015280"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7042010",
+    "crossNumber": "3213B0089",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11 23 7 562 801",
+          "11 23 7 622 909"
+        ]
+      },
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515-T2",
+          "9804347980",
+          "V7 638 551 80"
+        ]
+      },
+      {
+        "manufacturer": "GENERAL MOTORS",
+        "numbers": [
+          "03648807"
+        ]
+      },
+      {
+        "manufacturer": "MINI",
+        "numbers": [
+          "11 23 7 562 801",
+          "11 23 7 622 909",
+          "11 23 7 638 551"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "36 48 807",
+          "3648 807"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515-T2",
+          "9804347980",
+          "V7 638 551 80"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "03648807",
+          "3648807"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7047010",
+    "crossNumber": "3213B0181",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "82 00 276 840",
+          "82 00 297 935",
+          "82 00 451 073",
+          "82 00 505 833",
+          "82 00 523 068",
+          "82 00 619 927",
+          "82 00 817 574"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7048010",
+    "crossNumber": "3213B0046",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "12303-00QBD",
+          "12303-AW300",
+          "1230300QBD",
+          "12303AW300"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "82 00 268 426",
+          "82 00 297 936",
+          "82 00 457 775",
+          "82 00 523 072",
+          "8200268426",
+          "8200297936",
+          "8200376968",
+          "8200457775",
+          "8200523072"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7048010",
+    "crossNumber": "3213B0244",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "12303-00QBD",
+          "1230300QA0",
+          "1230300QA6",
+          "1230300QAZ",
+          "1230300QBD",
+          "12303AW300"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "8200018889",
+          "8200071553",
+          "8200188832",
+          "8200188910",
+          "8200268426",
+          "8200269975",
+          "8200297936",
+          "8200297937",
+          "8200376911",
+          "8200376968",
+          "8200457775",
+          "8200457779",
+          "8200523072",
+          "8200523083"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT TRUCKS",
+        "numbers": [
+          "8200268426",
+          "8200297936",
+          "8200376911",
+          "8200457775",
+          "8200523072"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7048010",
+    "crossNumber": "3213B0261",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "1230300QBD",
+          "12303AW300"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "8200268426",
+          "8200297936",
+          "8200457775",
+          "8200523072"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7051010",
+    "crossNumber": "3213B0076",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "059105251N"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "059105251AA",
+          "059105251AD",
+          "059105251AF",
+          "059105251AG",
+          "059105251AH",
+          "059105251AJ",
+          "059105251AQ",
+          "059105251AR",
+          "059105251AS",
+          "059105251AT",
+          "059105251BB",
+          "059105251BN",
+          "059105251BP",
+          "059105251BQ",
+          "059105251DB",
+          "059105251N",
+          "059105251S"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7052010",
+    "crossNumber": "3213B0027",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1226639",
+          "1379766",
+          "1727140",
+          "1748942",
+          "6C1Q 6B319 EA",
+          "6C1Q6B319EA",
+          "BK3Q 6B319 CA",
+          "BK3Q 6B319 CB",
+          "BK3Q6B319CA",
+          "BK3Q6B319CB"
+        ]
+      }
+    ]
+  },
+  {
     "yvNo": "7053010",
     "crossNumber": "3213B0103",
     "supplier": "RIDEX",
@@ -59,6 +1578,35 @@
         "manufacturer": "NISSAN",
         "numbers": [
           "12303-AD200"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7056010",
+    "crossNumber": "3213B0147",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "HONDA",
+        "numbers": [
+          "13810-PWA-003",
+          "13810-PWA-013"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7057010",
+    "crossNumber": "3213B0055",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "VOLVO",
+        "numbers": [
+          "30637335",
+          "30731865",
+          "8642368"
         ]
       }
     ]
@@ -73,6 +1621,98 @@
         "numbers": [
           "96350547",
           "96419497"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7059010",
+    "crossNumber": "3213B0085",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "504017415",
+          "504078435"
+        ]
+      },
+      {
+        "manufacturer": "IVECO",
+        "numbers": [
+          "504017415",
+          "504078435"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7061010",
+    "crossNumber": "3213B0017",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "TOYOTA",
+        "numbers": [
+          "13470-15110",
+          "13470-15120"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7062010",
+    "crossNumber": "3213B0023",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "166 030 00 03",
+          "166 030 01 03",
+          "166 030 02 03",
+          "166 030 03 03",
+          "1660300003",
+          "1660300203",
+          "1660300303",
+          "A 166 030 03 03",
+          "A166 030 00 03",
+          "A166 030 01 03",
+          "A166 030 02 03",
+          "A1660300303"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7062010",
+    "crossNumber": "3213B0145",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "1660300003",
+          "1660300203",
+          "1660300303",
+          "1660300393",
+          "6400300503",
+          "A1660300303",
+          "A6400300503"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7067010",
+    "crossNumber": "3213B0191",
+    "supplier": "RIDEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "MINI",
+        "numbers": [
+          "11238477129",
+          "11238511320"
         ]
       }
     ]

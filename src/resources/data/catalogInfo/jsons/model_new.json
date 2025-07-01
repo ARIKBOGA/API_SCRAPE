@@ -121238,5 +121238,26 @@
     "modeller_markalar::marka": "AUDI",
     "model": "Q5 Sportback (GUN)",
     "model_Web": "Q5 Sportback (GUN)"
+  },
+  {
+    "id": 17321,
+    "marka_id": 435,
+    "modeller_markalar::marka": "IVECO",
+    "model": "EUROFIRE I",
+    "model_Web": "EUROFIRE I"
+  },
+  {
+    "id": 17322,
+    "marka_id": 606,
+    "modeller_markalar::marka": "MITSUBISHI",
+    "model": "Canter (FB7, FB8, FE7, FE8) VII",
+    "model_Web": "Canter (FB7, FB8, FE7, FE8) VII"
+  },
+  {
+    "id": 17323,
+    "marka_id": 606,
+    "modeller_markalar::marka": "MITSUBISHI",
+    "model": "Canter (FE5, FE6) VI",
+    "model_Web": "Canter (FE5, FE6) VI"
   }
 ]

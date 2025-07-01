@@ -1,0 +1,104 @@
+[
+  {
+    "yvNo": "36349",
+    "crossNumber": "DB4143",
+    "supplier": "TRW",
+    "oeNumbers": [
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "113 501 615 G",
+          "113 501 615 J"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "22714",
+    "crossNumber": "DB4132",
+    "supplier": "TRW",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "E92Z1126A"
+        ]
+      },
+      {
+        "manufacturer": "FORD USA",
+        "numbers": [
+          "E92Z1126A"
+        ]
+      },
+      {
+        "manufacturer": "MAZDA",
+        "numbers": [
+          "GJ21-26-251",
+          "GJ21-26-251A",
+          "GJ21-26-251B",
+          "GK59-26-251"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "261091",
+    "crossNumber": "DB4349",
+    "supplier": "TRW",
+    "oeNumbers": [
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "43206-4M000",
+          "43206-6N000"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "341092",
+    "crossNumber": "94045200",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "DAIHATSU",
+        "numbers": [
+          "424310D030000"
+        ]
+      },
+      {
+        "manufacturer": "TOYOTA",
+        "numbers": [
+          "424310D030"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "161065",
+    "crossNumber": "TKK-113",
+    "supplier": "0AMS",
+    "oeNumbers": [
+      {
+        "manufacturer": "HYUNDAI",
+        "numbers": [
+          "584111S000",
+          "584111S100"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "341083",
+    "crossNumber": "DP1010.11.1846",
+    "supplier": "Dr!ve+",
+    "oeNumbers": [
+      {
+        "manufacturer": "TOYOTA",
+        "numbers": [
+          "4243137080"
+        ]
+      }
+    ]
+  }
+]

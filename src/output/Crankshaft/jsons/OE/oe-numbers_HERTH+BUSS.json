@@ -1,0 +1,762 @@
+[
+  {
+    "yvNo": "7005010",
+    "crossNumber": "J1091022",
+    "supplier": "HERTH+BUSS",
+    "oeNumbers": [
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "12303-00QA1",
+          "12303-00QAC",
+          "77001-15766"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "44 13 748",
+          "44 14 115",
+          "93161258",
+          "93170224"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "77 00 113 776",
+          "77 00 115 766",
+          "82 00 386 446"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "44 13 748",
+          "44 14 115",
+          "93161258",
+          "93170224"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7007010",
+    "crossNumber": "J1090501",
+    "supplier": "HERTH+BUSS",
+    "oeNumbers": [
+      {
+        "manufacturer": "HYUNDAI",
+        "numbers": [
+          "23124-27000",
+          "23124-27100",
+          "23124-27300",
+          "23124-27400"
+        ]
+      },
+      {
+        "manufacturer": "KIA",
+        "numbers": [
+          "23124-27000",
+          "23124-27100",
+          "23124-27300",
+          "23124-27400"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7008010",
+    "crossNumber": "J1098007",
+    "supplier": "HERTH+BUSS",
+    "oeNumbers": [
+      {
+        "manufacturer": "ALFA ROMEO",
+        "numbers": [
+          "46353191",
+          "46359251",
+          "55210310",
+          "55265660",
+          "55267767"
+        ]
+      },
+      {
+        "manufacturer": "CHRYSLER",
+        "numbers": [
+          "46353191",
+          "46359251",
+          "55210310",
+          "55265660",
+          "55267767",
+          "68270296AA",
+          "K68228151AA",
+          "K68270296AA",
+          "K68607477AA",
+          "K68708211AA"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "46353191",
+          "46359251",
+          "55210310",
+          "55265660",
+          "55267767",
+          "K68708211AA"
+        ]
+      },
+      {
+        "manufacturer": "JEEP",
+        "numbers": [
+          "55210310",
+          "55265660",
+          "55267767",
+          "68270296AA",
+          "K68228151AA",
+          "K68270296AA",
+          "K68708211AA"
+        ]
+      },
+      {
+        "manufacturer": "LANCIA",
+        "numbers": [
+          "46353191",
+          "46359251",
+          "55210310",
+          "55265660",
+          "55267767"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "614359",
+          "93192547"
+        ]
+      },
+      {
+        "manufacturer": "SAAB",
+        "numbers": [
+          "93 192 547"
+        ]
+      },
+      {
+        "manufacturer": "SUZUKI",
+        "numbers": [
+          "12610-55P00",
+          "12610-55P00-000",
+          "12610-62M00",
+          "12610-62M00-000"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "614359",
+          "93192547"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7009010",
+    "crossNumber": "J1092032",
+    "supplier": "HERTH+BUSS",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515 Q8",
+          "0515 T6",
+          "0515 V9",
+          "96 819 522 80"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9658659580",
+          "9681640880"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1231959",
+          "1490842",
+          "1520590",
+          "1683820",
+          "1837783",
+          "3M5Q-6B319-AA",
+          "7M5Q-6B319-AA",
+          "7M5Q-6B319-AB",
+          "9M5Q-6B319-AA",
+          "9M5Q-6B319-AB"
+        ]
+      },
+      {
+        "manufacturer": "LANCIA",
+        "numbers": [
+          "9658659580",
+          "9681640880"
+        ]
+      },
+      {
+        "manufacturer": "LEXUS",
+        "numbers": [
+          "SU001-A0124",
+          "SU001-A2671"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515 Q8",
+          "0515 T6",
+          "0515 V9",
+          "96 819 522 80"
+        ]
+      },
+      {
+        "manufacturer": "TOYOTA",
+        "numbers": [
+          "SU001-A0124",
+          "SU001-A2671"
+        ]
+      },
+      {
+        "manufacturer": "VOLVO",
+        "numbers": [
+          "30725177",
+          "30725269",
+          "30725601",
+          "30725882"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7012010",
+    "crossNumber": "J1095019",
+    "supplier": "HERTH+BUSS",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "038 105 243 E",
+          "03G 105 243",
+          "03G 105 243 C",
+          "04L 105 243"
+        ]
+      },
+      {
+        "manufacturer": "CHRYSLER",
+        "numbers": [
+          "68001304AA",
+          "K68001304AA"
+        ]
+      },
+      {
+        "manufacturer": "DODGE",
+        "numbers": [
+          "68001304AA",
+          "K68001304AA"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1315782",
+          "3M21-6B320-AA"
+        ]
+      },
+      {
+        "manufacturer": "JEEP",
+        "numbers": [
+          "68001304AA",
+          "K68001304AA"
+        ]
+      },
+      {
+        "manufacturer": "MITSUBISHI",
+        "numbers": [
+          "MN980049",
+          "MN980453"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "038 105 243 E",
+          "03G 105 243",
+          "03G 105 243 C",
+          "04L 105 243"
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "038 105 243 E",
+          "03G 105 243",
+          "04L 105 243"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "038 105 243 E",
+          "03G 105 243",
+          "03G 105 243 C",
+          "04L 105 243"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7022010",
+    "crossNumber": "J1091023",
+    "supplier": "HERTH+BUSS",
+    "oeNumbers": [
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "6000616594"
+        ]
+      },
+      {
+        "manufacturer": "INFINITI",
+        "numbers": [
+          "12303-00Q1D",
+          "12303-00Q2F"
+        ]
+      },
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "626 030 01 03",
+          "A 626 030 01 03"
+        ]
+      },
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "12303-00Q0A",
+          "12303-00Q1D",
+          "12303-00Q2F",
+          "82007-67762"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "44 23 032",
+          "44 31 160",
+          "44 49 456",
+          "93161620",
+          "93198633",
+          "95517851"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "12 30 323 02R",
+          "12 30 327 62R",
+          "82 00 361 247",
+          "82 00 767 762"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "44 23 032",
+          "44 31 160",
+          "44 49 456",
+          "93161620",
+          "93198633",
+          "95517851"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7032010",
+    "crossNumber": "J1098008",
+    "supplier": "HERTH+BUSS",
+    "oeNumbers": [
+      {
+        "manufacturer": "ALFA ROMEO",
+        "numbers": [
+          "46819147",
+          "55200498"
+        ]
+      },
+      {
+        "manufacturer": "CHEVROLET",
+        "numbers": [
+          "55200498"
+        ]
+      },
+      {
+        "manufacturer": "CHRYSLER",
+        "numbers": [
+          "46819147",
+          "55200498"
+        ]
+      },
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515 W5"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "46819147",
+          "55200498"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1539102",
+          "1564852",
+          "9S51-19A216-CA",
+          "9S51-6B319-AA"
+        ]
+      },
+      {
+        "manufacturer": "LANCIA",
+        "numbers": [
+          "46819147",
+          "55200498"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "55200498",
+          "56 14 438",
+          "61 41 50",
+          "61 42 27",
+          "93177317",
+          "93194443"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515 W5"
+        ]
+      },
+      {
+        "manufacturer": "SUBARU",
+        "numbers": [
+          "12610-85E01-000"
+        ]
+      },
+      {
+        "manufacturer": "SUZUKI",
+        "numbers": [
+          "12610-63P00",
+          "12610-63P00-000",
+          "12610-85E00",
+          "12610-85E00-000",
+          "12610-85E01",
+          "12610-85E01-000"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "55200498",
+          "56 14 438",
+          "61 41 50",
+          "61 42 27",
+          "93177317",
+          "93194443"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7035010",
+    "crossNumber": "J1090505",
+    "supplier": "HERTH+BUSS",
+    "oeNumbers": [
+      {
+        "manufacturer": "HYUNDAI",
+        "numbers": [
+          "23124-42020",
+          "23124-42030",
+          "23124-42031",
+          "23124-42032",
+          "23129-42901"
+        ]
+      },
+      {
+        "manufacturer": "KIA",
+        "numbers": [
+          "23124-42020",
+          "23124-42030",
+          "23124-42031",
+          "23124-42032",
+          "23129-42901"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7036010",
+    "crossNumber": "J1095008",
+    "supplier": "HERTH+BUSS",
+    "oeNumbers": [
+      {
+        "manufacturer": "MITSUBISHI",
+        "numbers": [
+          "MD374223"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7040010",
+    "crossNumber": "J1092009",
+    "supplier": "HERTH+BUSS",
+    "oeNumbers": [
+      {
+        "manufacturer": "LEXUS",
+        "numbers": [
+          "13408-30010",
+          "13408-30011"
+        ]
+      },
+      {
+        "manufacturer": "TOYOTA",
+        "numbers": [
+          "13408-0L020",
+          "13408-30010",
+          "13408-30011"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7041010",
+    "crossNumber": "J1090303",
+    "supplier": "HERTH+BUSS",
+    "oeNumbers": [
+      {
+        "manufacturer": "HYUNDAI",
+        "numbers": [
+          "23123-2B720",
+          "23124-2B000",
+          "23124-2B010",
+          "23124-2B020",
+          "23124-2B700",
+          "23124-2B710"
+        ]
+      },
+      {
+        "manufacturer": "KIA",
+        "numbers": [
+          "23123-2B720",
+          "23124-2B000",
+          "23124-2B010",
+          "23124-2B020",
+          "23124-2B700",
+          "23124-2B710"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7048010",
+    "crossNumber": "J1091027",
+    "supplier": "HERTH+BUSS",
+    "oeNumbers": [
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "12303-00QA0",
+          "12303-00QA6",
+          "12303-00QAZ",
+          "12303-00QBD",
+          "12303-AW300"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "82 00 188 832",
+          "82 00 268 426",
+          "82 00 297 936",
+          "82 00 376 911",
+          "82 00 457 775",
+          "82 00 523 072"
+        ]
+      },
+      {
+        "manufacturer": "SUZUKI",
+        "numbers": [
+          "12610-67JG0",
+          "12610-67JG0-000",
+          "12610-67JG1",
+          "12610-67JG1-000",
+          "12610-80KA0",
+          "12610-80KA0-000"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7053010",
+    "crossNumber": "J1091015",
+    "supplier": "HERTH+BUSS",
+    "oeNumbers": [
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "12303-AD200",
+          "12303-AD201"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7054010",
+    "crossNumber": "J1091013",
+    "supplier": "HERTH+BUSS",
+    "oeNumbers": [
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "12303-5X00A",
+          "12303-EB300",
+          "12303-EB30A",
+          "12303-EB30B",
+          "12303-EB70B"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7055010",
+    "crossNumber": "J1094008",
+    "supplier": "HERTH+BUSS",
+    "oeNumbers": [
+      {
+        "manufacturer": "HONDA",
+        "numbers": [
+          "13810-P2K-003"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7056010",
+    "crossNumber": "J1094000",
+    "supplier": "HERTH+BUSS",
+    "oeNumbers": [
+      {
+        "manufacturer": "HONDA",
+        "numbers": [
+          "13810-PWA-003",
+          "13810-PWA-013"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7058010",
+    "crossNumber": "J1090901",
+    "supplier": "HERTH+BUSS",
+    "oeNumbers": [
+      {
+        "manufacturer": "CHEVROLET",
+        "numbers": [
+          "96183223",
+          "96350547",
+          "96419497"
+        ]
+      },
+      {
+        "manufacturer": "DAEWOO",
+        "numbers": [
+          "96183223",
+          "96350547",
+          "96419497"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "48 05 173",
+          "96419497"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "48 05 173",
+          "96419497"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7060010",
+    "crossNumber": "J1092001",
+    "supplier": "HERTH+BUSS",
+    "oeNumbers": [
+      {
+        "manufacturer": "TOYOTA",
+        "numbers": [
+          "13408-11011",
+          "13408-11012",
+          "13408-11020",
+          "13470-11030"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7061010",
+    "crossNumber": "J1092008",
+    "supplier": "HERTH+BUSS",
+    "oeNumbers": [
+      {
+        "manufacturer": "TOYOTA",
+        "numbers": [
+          "13470-15110",
+          "13470-15120"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7067010",
+    "crossNumber": "J1092031",
+    "supplier": "HERTH+BUSS",
+    "oeNumbers": [
+      {
+        "manufacturer": "MINI",
+        "numbers": [
+          "11 23 8 477 129",
+          "11 23 8 511 320",
+          "8 477 129",
+          "8 511 320"
+        ]
+      },
+      {
+        "manufacturer": "TOYOTA",
+        "numbers": [
+          "13470-WA010",
+          "13470-WA011"
+        ]
+      }
+    ]
+  }
+]
