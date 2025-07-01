@@ -1,5 +1,2124 @@
 [
   {
+    "yvNo": "7001010",
+    "crossNumber": "030909",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515.G3"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9608938980"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515.G3"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7002010",
+    "crossNumber": "020915",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "4402569",
+          "4418147"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "77 00 110 329",
+          "77 00 113 018",
+          "77 00 115 309",
+          "82 00 689 702"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "9110569",
+          "93192606"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7002010",
+    "crossNumber": "752325",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "4402569",
+          "4418147"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "77 00 110 329",
+          "77 00 113 018",
+          "77 00 115 309",
+          "82 00 689 702"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "9110569",
+          "93192606"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7004010",
+    "crossNumber": "030929",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515.R2",
+          "0515.R9",
+          "0515.S4"
+        ]
+      },
+      {
+        "manufacturer": "CITROËN/PEUGEOT",
+        "numbers": [
+          "0515L8"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9467510480",
+          "9651770980"
+        ]
+      },
+      {
+        "manufacturer": "LANCIA",
+        "numbers": [
+          "9467510480",
+          "9651770980"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515.R2",
+          "0515.R9",
+          "0515.S4"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7004010",
+    "crossNumber": "752333",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515.R2",
+          "0515.R9",
+          "0515.S4"
+        ]
+      },
+      {
+        "manufacturer": "CITROËN/PEUGEOT",
+        "numbers": [
+          "0515L8"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9467510480",
+          "9651770980"
+        ]
+      },
+      {
+        "manufacturer": "LANCIA",
+        "numbers": [
+          "9467510480",
+          "9651770980"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515.R2",
+          "0515.R9",
+          "0515.S4"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7005010",
+    "crossNumber": "020939",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "4413748",
+          "4413749",
+          "4414115",
+          "4414116"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "7700113776",
+          "7700115766",
+          "8200079183",
+          "8200386446",
+          "8200386451"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "93161258",
+          "93161259",
+          "93170224",
+          "93170225"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7005010",
+    "crossNumber": "752331",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "4413748",
+          "4413749",
+          "4414115",
+          "4414116"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "7700113776",
+          "7700115766",
+          "8200079183",
+          "8200386446",
+          "8200386451"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "93161258",
+          "93161259",
+          "93170224",
+          "93170225"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7006010",
+    "crossNumber": "030955",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515.T3"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9654961080"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1690296"
+        ]
+      },
+      {
+        "manufacturer": "FORD USA",
+        "numbers": [
+          "AV6Q6B319AA"
+        ]
+      },
+      {
+        "manufacturer": "MAZDA",
+        "numbers": [
+          "Y662-11-401"
+        ]
+      },
+      {
+        "manufacturer": "MINI",
+        "numbers": [
+          "11237801979"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "3558000"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515.T3"
+        ]
+      },
+      {
+        "manufacturer": "SUZUKI",
+        "numbers": [
+          "12610-69K00",
+          "12610-69K00-000"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "03558000",
+          "3558000"
+        ]
+      },
+      {
+        "manufacturer": "VOLVO",
+        "numbers": [
+          "31330083"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7006010",
+    "crossNumber": "752345",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515.T3"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9654961080"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1690296"
+        ]
+      },
+      {
+        "manufacturer": "FORD USA",
+        "numbers": [
+          "AV6Q6B319AA"
+        ]
+      },
+      {
+        "manufacturer": "MAZDA",
+        "numbers": [
+          "Y662-11-401"
+        ]
+      },
+      {
+        "manufacturer": "MINI",
+        "numbers": [
+          "11237801979"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "3558000"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515.T3"
+        ]
+      },
+      {
+        "manufacturer": "SUZUKI",
+        "numbers": [
+          "12610-69K00",
+          "12610-69K00-000"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "03558000",
+          "3558000"
+        ]
+      },
+      {
+        "manufacturer": "VOLVO",
+        "numbers": [
+          "31330083"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7007010",
+    "crossNumber": "754664",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "HYUNDAI",
+        "numbers": [
+          "2312427000",
+          "2312427100",
+          "2312427300",
+          "2312427400"
+        ]
+      },
+      {
+        "manufacturer": "KIA",
+        "numbers": [
+          "2312427000",
+          "2312427100",
+          "2312427300",
+          "2312427400"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7008010",
+    "crossNumber": "754660",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "ALFA ROMEO",
+        "numbers": [
+          "55210310",
+          "55265660"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "55210310",
+          "55265660"
+        ]
+      },
+      {
+        "manufacturer": "GENERAL MOTORS",
+        "numbers": [
+          "093192547",
+          "93192547"
+        ]
+      },
+      {
+        "manufacturer": "JEEP",
+        "numbers": [
+          "55265660"
+        ]
+      },
+      {
+        "manufacturer": "LANCIA",
+        "numbers": [
+          "55210310",
+          "55265660"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "00614 359",
+          "0614 359",
+          "614 359"
+        ]
+      },
+      {
+        "manufacturer": "SAAB",
+        "numbers": [
+          "93 192 547"
+        ]
+      },
+      {
+        "manufacturer": "SUZUKI",
+        "numbers": [
+          "12610-55P00",
+          "12610-55P00-000"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "93192547"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7009010",
+    "crossNumber": "754639",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515.Q8",
+          "0515.T6"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9643354180"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1 231 959"
+        ]
+      },
+      {
+        "manufacturer": "LANCIA",
+        "numbers": [
+          "9643354180"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515.Q8",
+          "0515.T6"
+        ]
+      },
+      {
+        "manufacturer": "VOLVO",
+        "numbers": [
+          "1232958"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7011010",
+    "crossNumber": "080947",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1 079 188",
+          "1 100 051"
+        ]
+      },
+      {
+        "manufacturer": "FORD USA",
+        "numbers": [
+          "XS4Q6B319FC",
+          "XS4Q6B319FD"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7011010",
+    "crossNumber": "752343",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1 079 188",
+          "1 100 051"
+        ]
+      },
+      {
+        "manufacturer": "FORD USA",
+        "numbers": [
+          "XS4Q6B319FC",
+          "XS4Q6B319FD"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7012010",
+    "crossNumber": "460950",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "038 105 243 E",
+          "03G 105 243",
+          "03G 105 243 C"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1 315 782"
+        ]
+      },
+      {
+        "manufacturer": "FORD USA",
+        "numbers": [
+          "3M216B320AA"
+        ]
+      },
+      {
+        "manufacturer": "MITSUBISHI",
+        "numbers": [
+          "MN980049"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "038 105 243 E",
+          "03G 105 243",
+          "03G 105 243 C"
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "038 105 243 E",
+          "03G 105 243",
+          "03G 105 243 C"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "038 105 243 E",
+          "03G 105 243",
+          "03G 105 243 C"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7013010",
+    "crossNumber": "460963",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "038 105 243 L",
+          "038 105 243 M"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "038 105 243 L",
+          "038 105 243 M"
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "038 105 243 L",
+          "038 105 243 M"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "038 105 243 L",
+          "038 105 243 M"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7014010",
+    "crossNumber": "771581",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11517545958",
+          "11517571012",
+          "11517619020"
+        ]
+      },
+      {
+        "manufacturer": "CITROËN/PEUGEOT",
+        "numbers": [
+          "120447",
+          "120459",
+          "V761902080"
+        ]
+      },
+      {
+        "manufacturer": "DS",
+        "numbers": [
+          "120447",
+          "120459",
+          "V761902080"
+        ]
+      },
+      {
+        "manufacturer": "MINI",
+        "numbers": [
+          "11517545958",
+          "11517571012",
+          "11517619020"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "120459"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7015010",
+    "crossNumber": "030974",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515.T1",
+          "0515S9",
+          "0515T1",
+          "0516 K2",
+          "9677608180"
+        ]
+      },
+      {
+        "manufacturer": "CITROËN/PEUGEOT",
+        "numbers": [
+          "9806722380"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9659920080"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1 387 095",
+          "1372756",
+          "1376475",
+          "1386188",
+          "1434432",
+          "1539837",
+          "1723700",
+          "1731716",
+          "6C1Q6B319AD",
+          "6C1Q6B319AE",
+          "6C1Q6B319AF",
+          "BU3Q6B319AA"
+        ]
+      },
+      {
+        "manufacturer": "FORD USA",
+        "numbers": [
+          "6C1Q6B319CA",
+          "6C1Q6B319CB",
+          "6C1Q6B319CC",
+          "BK2Q6B319BA",
+          "BK2W6B319BA"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515.T1",
+          "0515S9",
+          "0515T1",
+          "0516 K2",
+          "9677608180"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7015010",
+    "crossNumber": "752346",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515.T1",
+          "0515S9",
+          "0515T1",
+          "0516 K2",
+          "9677608180"
+        ]
+      },
+      {
+        "manufacturer": "CITROËN/PEUGEOT",
+        "numbers": [
+          "9806722380"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9659920080"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1 387 095",
+          "1372756",
+          "1376475",
+          "1386188",
+          "1434432",
+          "1539837",
+          "1723700",
+          "1731716",
+          "6C1Q6B319AD",
+          "6C1Q6B319AE",
+          "6C1Q6B319AF",
+          "BU3Q6B319AA"
+        ]
+      },
+      {
+        "manufacturer": "FORD USA",
+        "numbers": [
+          "6C1Q6B319CA",
+          "6C1Q6B319CB",
+          "6C1Q6B319CC",
+          "BK2Q6B319BA",
+          "BK2W6B319BA"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515.T1",
+          "0515S9",
+          "0515T1",
+          "0516 K2",
+          "9677608180"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7016010",
+    "crossNumber": "460958",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "074 105 251 AC",
+          "074105251N",
+          "074105251R",
+          "074105251T"
+        ]
+      },
+      {
+        "manufacturer": "VOLVO",
+        "numbers": [
+          "8627933",
+          "9163918",
+          "9180620",
+          "9186573",
+          "9463918"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "026103051A",
+          "049103051C",
+          "052103051A",
+          "056103051D",
+          "068103051A",
+          "068103051B",
+          "068103051G",
+          "074 105 251 AC",
+          "074105251N",
+          "074105251R",
+          "074105251T",
+          "46105251L",
+          "46105251M"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7016010",
+    "crossNumber": "752326",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "074 105 251 AC",
+          "074105251N",
+          "074105251R",
+          "074105251T"
+        ]
+      },
+      {
+        "manufacturer": "VOLVO",
+        "numbers": [
+          "8627933",
+          "9163918",
+          "9180620",
+          "9186573",
+          "9463918"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "026103051A",
+          "049103051C",
+          "052103051A",
+          "056103051D",
+          "068103051A",
+          "068103051B",
+          "068103051G",
+          "074 105 251 AC",
+          "074105251N",
+          "074105251R",
+          "074105251T",
+          "46105251L",
+          "46105251M"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7017010",
+    "crossNumber": "030960",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515L9",
+          "0515P2",
+          "0515Q3",
+          "0515T8",
+          "0515V0",
+          "0515V5",
+          "0515V6"
+        ]
+      },
+      {
+        "manufacturer": "CITROËN/PEUGEOT",
+        "numbers": [
+          "0515L9",
+          "0515P2",
+          "0515V0",
+          "0515V6"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9467586180",
+          "9467597180",
+          "9630647180",
+          "9641548980",
+          "9681761480",
+          "9685774180"
+        ]
+      },
+      {
+        "manufacturer": "LANCIA",
+        "numbers": [
+          "9467586180",
+          "9467597180",
+          "9630647180",
+          "9641548980",
+          "9681761480",
+          "9685774180"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515L9",
+          "0515P2",
+          "0515Q3",
+          "0515T8",
+          "0515V0",
+          "0515V5",
+          "0515V6"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7017010",
+    "crossNumber": "752350",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515L9",
+          "0515P2",
+          "0515Q3",
+          "0515T8",
+          "0515V0",
+          "0515V5",
+          "0515V6"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9467586180",
+          "9467597180",
+          "9630647180",
+          "9641548980",
+          "9681761480",
+          "9685774180"
+        ]
+      },
+      {
+        "manufacturer": "LANCIA",
+        "numbers": [
+          "9467586180",
+          "9630647180",
+          "9641548980",
+          "9681761480",
+          "9685774180"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515L9",
+          "0515P2",
+          "0515Q3",
+          "0515T8",
+          "0515V0",
+          "0515V5",
+          "0515V6"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7017010",
+    "crossNumber": "754653",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN/PEUGEOT",
+        "numbers": [
+          "0515L9",
+          "0515P2",
+          "0515V0",
+          "0515V6"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7018010",
+    "crossNumber": "030940",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN/PEUGEOT",
+        "numbers": [
+          "0515P8",
+          "0515R0",
+          "0515T0",
+          "0515V0",
+          "0515V4",
+          "0515V7",
+          "0515V8"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1147683",
+          "1319519",
+          "1369546",
+          "1473366",
+          "1485765",
+          "1517975",
+          "1517976"
+        ]
+      },
+      {
+        "manufacturer": "FORD USA",
+        "numbers": [
+          "2S6Q6B319AD",
+          "2S6QGB319AA",
+          "2S6QGB319AB",
+          "3M5Q6B319CA",
+          "3M5Q6B319CB",
+          "3M5Q6B319CC"
+        ]
+      },
+      {
+        "manufacturer": "MAZDA",
+        "numbers": [
+          "Y40111401C",
+          "Y60311401"
+        ]
+      },
+      {
+        "manufacturer": "MINI",
+        "numbers": [
+          "11237801979"
+        ]
+      },
+      {
+        "manufacturer": "VOLVO",
+        "numbers": [
+          "31251290",
+          "31272289"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7018010",
+    "crossNumber": "030960",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515L9",
+          "0515P2",
+          "0515Q3",
+          "0515T8",
+          "0515V0",
+          "0515V5",
+          "0515V6"
+        ]
+      },
+      {
+        "manufacturer": "CITROËN/PEUGEOT",
+        "numbers": [
+          "0515L9",
+          "0515P2",
+          "0515V0",
+          "0515V6"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9467586180",
+          "9467597180",
+          "9630647180",
+          "9641548980",
+          "9681761480",
+          "9685774180"
+        ]
+      },
+      {
+        "manufacturer": "LANCIA",
+        "numbers": [
+          "9467586180",
+          "9467597180",
+          "9630647180",
+          "9641548980",
+          "9681761480",
+          "9685774180"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515L9",
+          "0515P2",
+          "0515Q3",
+          "0515T8",
+          "0515V0",
+          "0515V5",
+          "0515V6"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7018010",
+    "crossNumber": "752348",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN/PEUGEOT",
+        "numbers": [
+          "0515P8",
+          "0515R0",
+          "0515T0",
+          "0515V0",
+          "0515V4",
+          "0515V7",
+          "0515V8"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1147683",
+          "1319519",
+          "1369546",
+          "1473366",
+          "1485765",
+          "1517975",
+          "1517976"
+        ]
+      },
+      {
+        "manufacturer": "FORD USA",
+        "numbers": [
+          "2S6Q6B319AD",
+          "2S6QGB319AA",
+          "2S6QGB319AB",
+          "3M5Q6B319CA",
+          "3M5Q6B319CB",
+          "3M5Q6B319CC"
+        ]
+      },
+      {
+        "manufacturer": "MAZDA",
+        "numbers": [
+          "Y40111401C",
+          "Y60311401"
+        ]
+      },
+      {
+        "manufacturer": "MINI",
+        "numbers": [
+          "11237801979"
+        ]
+      },
+      {
+        "manufacturer": "VOLVO",
+        "numbers": [
+          "31251290",
+          "31272289"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7018010",
+    "crossNumber": "752350",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515L9",
+          "0515P2",
+          "0515Q3",
+          "0515T8",
+          "0515V0",
+          "0515V5",
+          "0515V6"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9467586180",
+          "9467597180",
+          "9630647180",
+          "9641548980",
+          "9681761480",
+          "9685774180"
+        ]
+      },
+      {
+        "manufacturer": "LANCIA",
+        "numbers": [
+          "9467586180",
+          "9630647180",
+          "9641548980",
+          "9681761480",
+          "9685774180"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515L9",
+          "0515P2",
+          "0515Q3",
+          "0515T8",
+          "0515V0",
+          "0515V5",
+          "0515V6"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7018010",
+    "crossNumber": "754652",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515.P8",
+          "0515.T0",
+          "0515P8",
+          "0515R0",
+          "0515T0",
+          "0515V7",
+          "0515V8"
+        ]
+      },
+      {
+        "manufacturer": "CITROËN/PEUGEOT",
+        "numbers": [
+          "0515P8",
+          "0515R0",
+          "0515T0",
+          "0515V0",
+          "0515V4",
+          "0515V7",
+          "0515V8"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1 369 546",
+          "1147683",
+          "1319519",
+          "1369546",
+          "1473366",
+          "1485765",
+          "1517975",
+          "1517976"
+        ]
+      },
+      {
+        "manufacturer": "FORD USA",
+        "numbers": [
+          "2S6Q6B319AD",
+          "2S6QGB319AA",
+          "2S6QGB319AB",
+          "3M5Q6B319CA",
+          "3M5Q6B319CB",
+          "3M5Q6B319CC"
+        ]
+      },
+      {
+        "manufacturer": "MAZDA",
+        "numbers": [
+          "Y40111401C",
+          "Y60311401"
+        ]
+      },
+      {
+        "manufacturer": "MINI",
+        "numbers": [
+          "11237801979"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515.P8",
+          "0515.T0",
+          "0515P8",
+          "0515R0",
+          "0515T0",
+          "0515V7",
+          "0515V8"
+        ]
+      },
+      {
+        "manufacturer": "VOLVO",
+        "numbers": [
+          "31251290",
+          "31272289"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7018010",
+    "crossNumber": "754653",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN/PEUGEOT",
+        "numbers": [
+          "0515L9",
+          "0515P2",
+          "0515V0",
+          "0515V6"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7019010",
+    "crossNumber": "180905",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11 23 7 786 611",
+          "11 23 7 788 611",
+          "11 23 7 793 593",
+          "11 23 8 511 371"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7019010",
+    "crossNumber": "752347",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11 23 7 786 611",
+          "11 23 7 788 611",
+          "11 23 7 793 593",
+          "11 23 8 511 371"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7020010",
+    "crossNumber": "180905",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11 23 7 786 611",
+          "11 23 7 788 611",
+          "11 23 7 793 593",
+          "11 23 8 511 371"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7020010",
+    "crossNumber": "752347",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11 23 7 786 611",
+          "11 23 7 788 611",
+          "11 23 7 793 593",
+          "11 23 8 511 371"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7021010",
+    "crossNumber": "030974",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515.T1",
+          "0515S9",
+          "0515T1",
+          "0516 K2",
+          "9677608180"
+        ]
+      },
+      {
+        "manufacturer": "CITROËN/PEUGEOT",
+        "numbers": [
+          "9806722380"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9659920080"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1 387 095",
+          "1372756",
+          "1376475",
+          "1386188",
+          "1434432",
+          "1539837",
+          "1723700",
+          "1731716",
+          "6C1Q6B319AD",
+          "6C1Q6B319AE",
+          "6C1Q6B319AF",
+          "BU3Q6B319AA"
+        ]
+      },
+      {
+        "manufacturer": "FORD USA",
+        "numbers": [
+          "6C1Q6B319CA",
+          "6C1Q6B319CB",
+          "6C1Q6B319CC",
+          "BK2Q6B319BA",
+          "BK2W6B319BA"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515.T1",
+          "0515S9",
+          "0515T1",
+          "0516 K2",
+          "9677608180"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7021010",
+    "crossNumber": "752346",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515.T1",
+          "0515S9",
+          "0515T1",
+          "0516 K2",
+          "9677608180"
+        ]
+      },
+      {
+        "manufacturer": "CITROËN/PEUGEOT",
+        "numbers": [
+          "9806722380"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9659920080"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1 387 095",
+          "1372756",
+          "1376475",
+          "1386188",
+          "1434432",
+          "1539837",
+          "1723700",
+          "1731716",
+          "6C1Q6B319AD",
+          "6C1Q6B319AE",
+          "6C1Q6B319AF",
+          "BU3Q6B319AA"
+        ]
+      },
+      {
+        "manufacturer": "FORD USA",
+        "numbers": [
+          "6C1Q6B319CA",
+          "6C1Q6B319CB",
+          "6C1Q6B319CC",
+          "BK2Q6B319BA",
+          "BK2W6B319BA"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515.T1",
+          "0515S9",
+          "0515T1",
+          "0516 K2",
+          "9677608180"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7022010",
+    "crossNumber": "021324",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "1230300Q1D"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "8200361247",
+          "8200767762"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7023010",
+    "crossNumber": "201533",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11237797995",
+          "11237799153",
+          "11237823191"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7023010",
+    "crossNumber": "773636",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11237797995",
+          "11237799153",
+          "11237823191"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7024010",
+    "crossNumber": "201653",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11 23 7 800 026",
+          "11237800026"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7024010",
+    "crossNumber": "773743",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11 23 7 800 026",
+          "11237800026"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7025010",
+    "crossNumber": "754657",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11238513539"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7025010",
+    "crossNumber": "773635",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11238513539"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7028010",
+    "crossNumber": "200901",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11 23 7 787 304",
+          "11 23 7 790 921",
+          "11 23 7 793 882",
+          "11 23 7 801 977",
+          "11 23 7 805 696"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7028010",
+    "crossNumber": "752349",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11 23 7 787 304",
+          "11 23 7 790 921",
+          "11 23 7 793 882",
+          "11 23 7 801 977",
+          "11 23 7 805 696"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7029010",
+    "crossNumber": "460964",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "VAG",
+        "numbers": [
+          "03G105243B"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7030010",
+    "crossNumber": "460965",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "045105243",
+          "045105243C",
+          "045105243D"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "045105243",
+          "045105243C",
+          "045105243D"
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "045105243",
+          "045105243C",
+          "045105243D"
+        ]
+      },
+      {
+        "manufacturer": "VAG",
+        "numbers": [
+          "045105243",
+          "045105243B"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "045105243",
+          "045105243C",
+          "045105243D"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7031010",
+    "crossNumber": "030928",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515.L7",
+          "0515.Q6"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "96245 96880",
+          "96372 18980"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515.L7",
+          "0515.Q6"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7031010",
+    "crossNumber": "752323",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515.L7",
+          "0515.Q6"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "96245 96880",
+          "96372 18980"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515.L7",
+          "0515.Q6"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7032010",
+    "crossNumber": "010965",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "ALFA ROMEO",
+        "numbers": [
+          "468 191 47",
+          "552 004 98"
+        ]
+      },
+      {
+        "manufacturer": "CITROËN/PEUGEOT",
+        "numbers": [
+          "0515.W5"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "4681 9147",
+          "5520 0498"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1564852",
+          "9S516B319AA"
+        ]
+      },
+      {
+        "manufacturer": "HYUNDAI",
+        "numbers": [
+          "12601-85E00",
+          "12601-85E01"
+        ]
+      },
+      {
+        "manufacturer": "LANCIA",
+        "numbers": [
+          "4681 9147",
+          "5520 0498"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "5614 438",
+          "614 150",
+          "93177317",
+          "93194443"
+        ]
+      },
+      {
+        "manufacturer": "SUZUKI",
+        "numbers": [
+          "1261085E00000"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7033010",
+    "crossNumber": "011076",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "55182506",
+          "551825060"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7036010",
+    "crossNumber": "700942",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "MITSUBISHI",
+        "numbers": [
+          "MD374223"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7037010",
+    "crossNumber": "030934",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515K1",
+          "0515P5",
+          "0515R8"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515K1",
+          "0515P5",
+          "0515R8"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7037010",
+    "crossNumber": "752329",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515K1",
+          "0515P5",
+          "0515R8"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515K1",
+          "0515P5",
+          "0515R8"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7038010",
+    "crossNumber": "021152",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "DACIA",
+        "numbers": [
+          "12 30 332 45R",
+          "82 00 051 194",
+          "82 00 184 103",
+          "82 00 185 800",
+          "82 00 477 938"
+        ]
+      },
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "12303-00Q0C",
+          "1230300Q1H",
+          "1230300QBA",
+          "12303AY600",
+          "12303BN700"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "12 30 332 45R",
+          "82 00 051 194",
+          "82 00 184 103",
+          "82 00 185 800",
+          "82 00 477 938"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7038010",
+    "crossNumber": "752341",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "DACIA",
+        "numbers": [
+          "12 30 332 45R",
+          "82 00 051 194",
+          "82 00 184 103",
+          "82 00 185 800",
+          "82 00 477 938"
+        ]
+      },
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "12303-00Q0C",
+          "1230300Q1H",
+          "1230300QBA",
+          "12303AY600",
+          "12303BN700"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "12 30 332 45R",
+          "82 00 051 194",
+          "82 00 184 103",
+          "82 00 185 800",
+          "82 00 477 938"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7039010",
+    "crossNumber": "080965",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1226639",
+          "1329202"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7042010",
+    "crossNumber": "754651",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11 23 7 562 801",
+          "11 23 7 622 909",
+          "11 23 7 638 551"
+        ]
+      },
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515.T2",
+          "515.T2",
+          "98 043 479 80",
+          "V7 638 551 80"
+        ]
+      },
+      {
+        "manufacturer": "DS",
+        "numbers": [
+          "V7 638 551 80"
+        ]
+      },
+      {
+        "manufacturer": "MINI",
+        "numbers": [
+          "11 23 7 562 801",
+          "11 23 7 622 909",
+          "11 23 7 638 551"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515.T2",
+          "515.T2",
+          "98 043 479 80",
+          "V7 638 551 80"
+        ]
+      }
+    ]
+  },
+  {
     "yvNo": "7043010",
     "crossNumber": "759161",
     "supplier": "CAUTEX",
@@ -13,6 +2132,220 @@
     ]
   },
   {
+    "yvNo": "7047010",
+    "crossNumber": "020949",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "8200276840",
+          "8200297835",
+          "8200297935",
+          "8200386470",
+          "8200451073",
+          "8200505833",
+          "8200523068",
+          "8200619927",
+          "8200817574"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7047010",
+    "crossNumber": "757897",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "8200276840",
+          "8200297835",
+          "8200297935",
+          "8200386470",
+          "8200451073",
+          "8200505833",
+          "8200523068",
+          "8200619927",
+          "8200817574"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7048010",
+    "crossNumber": "020941",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "1230300QA0",
+          "1230300QA6",
+          "1230300QAZ",
+          "1230300QBD",
+          "12303AW300"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "82 00 268 426",
+          "82 00 297 936",
+          "82 00 376 911",
+          "82 00 457 775",
+          "82 00 523 072",
+          "8200071553",
+          "8200188832",
+          "8200188910",
+          "8200269975",
+          "8200297937",
+          "8200376968",
+          "8200457779",
+          "8200523083"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7048010",
+    "crossNumber": "752340",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "1230300QA0",
+          "1230300QA6",
+          "1230300QAZ",
+          "1230300QBD",
+          "12303AW300"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "82 00 268 426",
+          "82 00 297 936",
+          "82 00 376 911",
+          "82 00 457 775",
+          "82 00 523 072",
+          "8200071553",
+          "8200188832",
+          "8200188910",
+          "8200269975",
+          "8200297937",
+          "8200376968",
+          "8200457779",
+          "8200523083"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7051010",
+    "crossNumber": "460953",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "059105251AA",
+          "059105251AD",
+          "059105251AF",
+          "059105251AG",
+          "059105251AH",
+          "059105251AJ",
+          "059105251AQ",
+          "059105251AR",
+          "059105251AS",
+          "059105251AT",
+          "059105251BB",
+          "059105251BN",
+          "059105251BP",
+          "059105251BQ",
+          "059105251S",
+          "59105251AA",
+          "59105251AD",
+          "59105251AF",
+          "59105251AH",
+          "59105251AJ",
+          "59105251AP",
+          "59105251AS",
+          "59105251AT",
+          "59105251BB",
+          "59105251BN",
+          "59105251BQ"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "059105251AJ",
+          "059105251AQ",
+          "059105251AR",
+          "059105251AS",
+          "059105251AT",
+          "059105251BB",
+          "059105251BN",
+          "059105251BP",
+          "059105251BQ"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7052010",
+    "crossNumber": "080976",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1 379 766",
+          "1 677 923",
+          "1 727 140",
+          "1 748 942",
+          "BK3Q6B318CA"
+        ]
+      },
+      {
+        "manufacturer": "FORD USA",
+        "numbers": [
+          "6C1Q6B319EA",
+          "BK3Q6B319CA",
+          "BK3Q6B319CB"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7052010",
+    "crossNumber": "752351",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1 379 766",
+          "1 677 923",
+          "1 727 140",
+          "1 748 942",
+          "BK3Q6B318CA"
+        ]
+      },
+      {
+        "manufacturer": "FORD USA",
+        "numbers": [
+          "6C1Q6B319EA",
+          "BK3Q6B319CA",
+          "BK3Q6B319CB"
+        ]
+      }
+    ]
+  },
+  {
     "yvNo": "7055010",
     "crossNumber": "754662",
     "supplier": "CAUTEX",
@@ -21,6 +2354,163 @@
         "manufacturer": "HONDA",
         "numbers": [
           "13810-P2K-003"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7056010",
+    "crossNumber": "754663",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "HONDA",
+        "numbers": [
+          "13810-PWA-003",
+          "13810-PWA-013"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7057010",
+    "crossNumber": "754673",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "VOLVO",
+        "numbers": [
+          "30637335",
+          "30731865",
+          "8642368"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7058010",
+    "crossNumber": "754659",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "CHEVROLET",
+        "numbers": [
+          "96183223",
+          "96350547",
+          "96419497"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "4805173",
+          "96419497"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "4805173",
+          "96419497"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7059010",
+    "crossNumber": "010976",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "504017415",
+          "504017415S1",
+          "504078435",
+          "504078435S1",
+          "5801752778"
+        ]
+      },
+      {
+        "manufacturer": "IVECO",
+        "numbers": [
+          "004254 9295",
+          "009382 4579",
+          "4255 5630",
+          "4256 1607",
+          "5 0401 7415",
+          "5 0407 8435",
+          "504017415",
+          "504017415S1",
+          "504078435",
+          "504078435S1"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7061010",
+    "crossNumber": "700936",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "TOYOTA",
+        "numbers": [
+          "13470-15110",
+          "13470-15120"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7062010",
+    "crossNumber": "180901",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "166 030 00 03",
+          "166 030 01 03",
+          "166 030 02 03",
+          "166 030 03 03",
+          "A1660300003",
+          "A1660300103",
+          "A1660300203",
+          "A1660300303"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7064010",
+    "crossNumber": "754667",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "6110300103",
+          "6110300203",
+          "6110300503",
+          "6460300903",
+          "A6110300103",
+          "A6110300203",
+          "A6460300903"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7067010",
+    "crossNumber": "773590",
+    "supplier": "CAUTEX",
+    "oeNumbers": [
+      {
+        "manufacturer": "MINI",
+        "numbers": [
+          "11 23 8 477 129",
+          "11 23 8 511 320"
         ]
       }
     ]

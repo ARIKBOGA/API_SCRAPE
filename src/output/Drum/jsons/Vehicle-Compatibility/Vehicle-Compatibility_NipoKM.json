@@ -1,0 +1,32 @@
+[
+  {
+    "yvNo": "251075",
+    "crossNumber": "TB.MB172",
+    "brand": "NipoKM",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "MITSUBISHI",
+        "models": [
+          {
+            "modelSeries": "Canter (FE5, FE6) VI",
+            "targets": [
+              {
+                "engine": "Canter 35",
+                "fullName": "MITSUBISHI Canter (FE5, FE6) VI Canter 35",
+                "constructionYearFrom": "10.1996",
+                "constructionYearTo": "07.2001",
+                "enginePowerKW": 100,
+                "enginePowerHP": 136,
+                "cc": 3908,
+                "engineCodes": "4D34-2AT4",
+                "kbaNumbers": "",
+                "bodyType": "Platform/Chassis",
+                "TecDocID": 24792
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,5 +1,1475 @@
 [
   {
+    "yvNo": "7001010",
+    "crossNumber": "FVD1038",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515 G3"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9608938980"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7001010",
+    "crossNumber": "FVD1038K",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515 G3"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9608938980"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7002010",
+    "crossNumber": "FVD1041",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "77 00 110 329",
+          "77 00 113 018",
+          "77 00 115 309",
+          "82 00 689 702"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7002010",
+    "crossNumber": "FVD1041K",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "77 00 110 329",
+          "77 00 113 018",
+          "77 00 115 309",
+          "82 00 689 702"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7004010",
+    "crossNumber": "FVD1007",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515 R2",
+          "0515 R9",
+          "0515 S4"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9467510480",
+          "9630647280",
+          "9651770980"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7004010",
+    "crossNumber": "FVD1007K",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515 R2",
+          "0515 R9",
+          "0515 S4"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9467510480",
+          "9630647280",
+          "9651770980"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7005010",
+    "crossNumber": "FVD1022",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "44 13 748",
+          "44 13 749",
+          "44 14 115",
+          "44 14 116",
+          "93161258",
+          "93161259",
+          "93170224",
+          "93170225"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "77 00 113 776",
+          "77 00 115 766",
+          "82 00 079 183",
+          "82 00 386 446"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7005010",
+    "crossNumber": "FVD1022K",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "44 13 748",
+          "44 13 749",
+          "44 14 115",
+          "44 14 116",
+          "93161258",
+          "93161259",
+          "93170224",
+          "93170225"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "77 00 113 776",
+          "77 00 115 766",
+          "82 00 079 183",
+          "82 00 386 446"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7006010",
+    "crossNumber": "FVD1008",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515 T3"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9654961080"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1690296",
+          "AVQ6 6B319 AA"
+        ]
+      },
+      {
+        "manufacturer": "MAZDA",
+        "numbers": [
+          "Y66211401"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "3558000"
+        ]
+      },
+      {
+        "manufacturer": "SUZUKI",
+        "numbers": [
+          "12610-69K00"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "3558000"
+        ]
+      },
+      {
+        "manufacturer": "VOLVO",
+        "numbers": [
+          "31330083"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7006010",
+    "crossNumber": "FVD1008K",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515 T3"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9654961080"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1690296",
+          "AVQ6 6B319 AA"
+        ]
+      },
+      {
+        "manufacturer": "MAZDA",
+        "numbers": [
+          "Y66211401"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "3558000"
+        ]
+      },
+      {
+        "manufacturer": "SUZUKI",
+        "numbers": [
+          "12610-69K00"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "3558000"
+        ]
+      },
+      {
+        "manufacturer": "VOLVO",
+        "numbers": [
+          "31330083"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7007010",
+    "crossNumber": "FVD1063",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "HYUNDAI",
+        "numbers": [
+          "2312427000",
+          "2312427100",
+          "2312427300",
+          "2312427400"
+        ]
+      },
+      {
+        "manufacturer": "KIA",
+        "numbers": [
+          "23124-27000",
+          "23124-27100",
+          "23124-27300",
+          "23124-27400"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7008010",
+    "crossNumber": "FVD1046",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "ALFA ROMEO",
+        "numbers": [
+          "55210310"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "55210310"
+        ]
+      },
+      {
+        "manufacturer": "LANCIA",
+        "numbers": [
+          "55210310"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "614359",
+          "93192547"
+        ]
+      },
+      {
+        "manufacturer": "SAAB",
+        "numbers": [
+          "93192547"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "614359",
+          "93192547"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7009010",
+    "crossNumber": "FVD1024",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515 Q8",
+          "0515 T6",
+          "0515 V9",
+          "9810746580"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1231959",
+          "1490842",
+          "1520590",
+          "1683820",
+          "1837783",
+          "3M5Q 6B319 AA",
+          "7M5Q 6B319 AA",
+          "7M5Q 6B319 AB",
+          "9M5Q 6B319 AA",
+          "9M5Q-6B319-AB"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515 Q8",
+          "0515.T6",
+          "0515.V9",
+          "9681640880",
+          "9681952280",
+          "9810746580"
+        ]
+      },
+      {
+        "manufacturer": "TOYOTA",
+        "numbers": [
+          "SU001A0124",
+          "SU001A2671"
+        ]
+      },
+      {
+        "manufacturer": "VOLVO",
+        "numbers": [
+          "30725177",
+          "30725269",
+          "30725601",
+          "30725882"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7009010",
+    "crossNumber": "FVD1024K",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515 Q8",
+          "0515 T6",
+          "0515 V9",
+          "9810746580"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1231959",
+          "1490842",
+          "1520590",
+          "1683820",
+          "3M5Q 6B319 AA",
+          "7M5Q 6B319 AA",
+          "7M5Q 6B319 AB",
+          "9M5Q 6B319 AA"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515.T6",
+          "0515.V9",
+          "9681640880",
+          "9681952280",
+          "9810746580"
+        ]
+      },
+      {
+        "manufacturer": "VOLVO",
+        "numbers": [
+          "30725177",
+          "30725269",
+          "30725601",
+          "30725882"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7010010",
+    "crossNumber": "FVD1058",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1131911",
+          "1198049",
+          "1339469",
+          "1711500",
+          "1S4Q6B319BD",
+          "2M5Q6B319AA",
+          "4M5Q6B319BA",
+          "4M5Q6B319EA"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7011010",
+    "crossNumber": "FVD1095",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1079188",
+          "1100051",
+          "XS4Q6B319FC",
+          "XS4Q6B319FD"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7012010",
+    "crossNumber": "FVD1028",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "038 105 243 E",
+          "03G 105 243",
+          "03G 105 243 C",
+          "4L 105 243"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1315782",
+          "3M21 6B320 AA"
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "4L 105 243"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "4L 105 243"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7013010",
+    "crossNumber": "FVD1080",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "VAG",
+        "numbers": [
+          "038105243L",
+          "038105243M"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7015010",
+    "crossNumber": "FVD1009",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515 T1",
+          "9677608180",
+          "9806722380"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9659920080"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1372498",
+          "1372756",
+          "1376475",
+          "1386188",
+          "1387095",
+          "1434432",
+          "1539837",
+          "1723700",
+          "1731716",
+          "6C1Q 6B319 CA",
+          "6C1Q 6B319 CB",
+          "6C1Q 6B319 CC",
+          "BK2Q 6B319 BA"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7015010",
+    "crossNumber": "FVD1009K",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515 T1",
+          "9677608180",
+          "9806722380"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9659920080"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1372498",
+          "1372756",
+          "1376475",
+          "1386188",
+          "1387095",
+          "1434432",
+          "1539837",
+          "1723700",
+          "1731716",
+          "6C1Q 6B319 CA",
+          "6C1Q 6B319 CB",
+          "6C1Q 6B319 CC",
+          "BK2Q 6B319 BA"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7016010",
+    "crossNumber": "FVD1000",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "074 105 251 AC",
+          "074 105 251 M",
+          "074 105 251 N",
+          "074 105 251 R",
+          "074 105 251 S",
+          "074 105 251 T"
+        ]
+      },
+      {
+        "manufacturer": "VOLVO",
+        "numbers": [
+          "8627933",
+          "9163918",
+          "9180620"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7016010",
+    "crossNumber": "FVD1000K",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "VAG",
+        "numbers": [
+          "074 105 251 AC",
+          "074 105 251 M",
+          "074 105 251 N",
+          "074 105 251 R",
+          "074 105 251 S",
+          "074 105 251 T"
+        ]
+      },
+      {
+        "manufacturer": "VOLVO",
+        "numbers": [
+          "8627933",
+          "9163918",
+          "9180620"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7017010",
+    "crossNumber": "FVD1011",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515 L9",
+          "0515 P2",
+          "0515 T8",
+          "0515 V5",
+          "0515 V6"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9467586180",
+          "9467597180",
+          "9641548980",
+          "9681761480"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7017010",
+    "crossNumber": "FVD1011K",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515 L9",
+          "0515 P2",
+          "0515 T8",
+          "0515 V5",
+          "0515 V6"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9467586180",
+          "9467597180",
+          "9641548980",
+          "9681761480"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7018010",
+    "crossNumber": "FVD1006",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515 P8",
+          "0515 R0",
+          "0515 T0",
+          "0515 V0",
+          "0515 V4",
+          "0515 V7",
+          "0515 V8"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1147683",
+          "1319519",
+          "1369546",
+          "1473366",
+          "1485765",
+          "1517975",
+          "1517976",
+          "2S6Q 6B319 AD",
+          "2S6Q GB319 AA",
+          "2S6Q GB319 AB",
+          "3M5Q 6B319 CB",
+          "3M5Q 6B319 CC"
+        ]
+      },
+      {
+        "manufacturer": "MAZDA",
+        "numbers": [
+          "Y60311401"
+        ]
+      },
+      {
+        "manufacturer": "VOLVO",
+        "numbers": [
+          "31251290",
+          "31272289"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7018010",
+    "crossNumber": "FVD1006K",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515 P8",
+          "0515 R0",
+          "0515 T0",
+          "0515 V0",
+          "0515 V4",
+          "0515 V7",
+          "0515 V8"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1147683",
+          "1319519",
+          "1369546",
+          "1473366",
+          "1485765",
+          "1517975",
+          "1517976",
+          "2S6Q 6B319 AD",
+          "2S6Q GB319 AA",
+          "2S6Q GB319 AB",
+          "3M5Q 6B319 CB",
+          "3M5Q 6B319 CC"
+        ]
+      },
+      {
+        "manufacturer": "MAZDA",
+        "numbers": [
+          "Y60311401"
+        ]
+      },
+      {
+        "manufacturer": "VOLVO",
+        "numbers": [
+          "31251290",
+          "31272289"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7019010",
+    "crossNumber": "FVD1035",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11 23 7 788 611",
+          "11 23 7 793 593",
+          "11 23 8 511 371"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7019010",
+    "crossNumber": "FVD1035K",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11 23 7 788 611",
+          "11 23 7 793 593",
+          "11 23 8 511 371"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7020010",
+    "crossNumber": "FVD1035",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11 23 7 788 611",
+          "11 23 7 793 593",
+          "11 23 8 511 371"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7020010",
+    "crossNumber": "FVD1035K",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11 23 7 788 611",
+          "11 23 7 793 593",
+          "11 23 8 511 371"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7021010",
+    "crossNumber": "FVD1009",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515 T1",
+          "9677608180",
+          "9806722380"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9659920080"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1372498",
+          "1372756",
+          "1376475",
+          "1386188",
+          "1387095",
+          "1434432",
+          "1539837",
+          "1723700",
+          "1731716",
+          "6C1Q 6B319 CA",
+          "6C1Q 6B319 CB",
+          "6C1Q 6B319 CC",
+          "BK2Q 6B319 BA"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7021010",
+    "crossNumber": "FVD1009K",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515 T1",
+          "9677608180",
+          "9806722380"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9659920080"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1372498",
+          "1372756",
+          "1376475",
+          "1386188",
+          "1387095",
+          "1434432",
+          "1539837",
+          "1723700",
+          "1731716",
+          "6C1Q 6B319 CA",
+          "6C1Q 6B319 CB",
+          "6C1Q 6B319 CC",
+          "BK2Q 6B319 BA"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7022010",
+    "crossNumber": "FVD1021",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "A6260300103"
+        ]
+      },
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "1230300Q0A",
+          "1230300Q1D",
+          "1230300Q2F"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "44 31 160",
+          "44 49 456"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "82 00 361 247",
+          "82 00 767 762"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "93161620",
+          "93198633"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7023010",
+    "crossNumber": "FVD1013",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11 23 7 797 995",
+          "11 23 7 799 153",
+          "11 23 7 823 191"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7023010",
+    "crossNumber": "FVD1013K",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11 23 7 797 995",
+          "11 23 7 799 153",
+          "11 23 7 823 191"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7024010",
+    "crossNumber": "FVD1092",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11237800026"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7025010",
+    "crossNumber": "FVD1091",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11238513539"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7026010",
+    "crossNumber": "FVD1189",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11238511321"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7028010",
+    "crossNumber": "FVD1004",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11 23 7 787 304",
+          "11 23 7 790 921",
+          "11 23 7 793 882",
+          "11 23 7 801 977",
+          "11 23 7 805 696"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7028010",
+    "crossNumber": "FVD1004K",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11 23 7 787 304",
+          "11 23 7 790 921",
+          "11 23 7 793 882",
+          "11 23 7 801 977",
+          "11 23 7 805 696"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7029010",
+    "crossNumber": "FVD1089",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "VAG",
+        "numbers": [
+          "03G105243B"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7030010",
+    "crossNumber": "FVD1078",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "VAG",
+        "numbers": [
+          "045105243",
+          "045105243C",
+          "045105243D"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7031010",
+    "crossNumber": "FVD1026",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515 L7",
+          "0515 Q6"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9624596880",
+          "9637218980"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7031010",
+    "crossNumber": "FVD1026K",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515 L7",
+          "0515 Q6"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9624596880",
+          "9637218980"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7032010",
+    "crossNumber": "FVD1031",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "46819147",
+          "55200498"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1564852",
+          "9S51 6B319 AA"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "06 14 150",
+          "56 14 438",
+          "6 14 150",
+          "931177317",
+          "93194443"
+        ]
+      },
+      {
+        "manufacturer": "SUZUKI",
+        "numbers": [
+          "1261085E00000"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7033010",
+    "crossNumber": "FVD1053",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "55182506"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7036010",
+    "crossNumber": "FVD1020",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "MITSUBISHI",
+        "numbers": [
+          "MD374223"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7037010",
+    "crossNumber": "FVD1012",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515 K1",
+          "0515 N0",
+          "0515 P1",
+          "0515 P5",
+          "0515 R8",
+          "0515 S1",
+          "9636924480",
+          "9650653380",
+          "9653771880"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9655703580"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7037010",
+    "crossNumber": "FVD1012K",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515 K1",
+          "0515 N0",
+          "0515 P1",
+          "0515 P5",
+          "0515 R8",
+          "0515 S1",
+          "9636924480",
+          "9650653380",
+          "9653771880"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "9655703580"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7038010",
+    "crossNumber": "FVD1033",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "A607 030 00 03",
+          "A607 030 02 03",
+          "A607 030 06 00"
+        ]
+      },
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "1230300Q1H",
+          "1230300Q2K",
+          "1230300QAU",
+          "1230300QAY",
+          "1230300QBA",
+          "12303AY600",
+          "12303BN700"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "123031777R",
+          "123033245R",
+          "8200051194",
+          "8200184103",
+          "8200185800",
+          "8200477938"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7038010",
+    "crossNumber": "FVD1033K",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "1230300Q1H",
+          "1230300Q2K",
+          "1230300QAU",
+          "1230300QAY",
+          "1230300QBA",
+          "12303AY600",
+          "12303BN700"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "123031777R",
+          "123033245R",
+          "8200051194",
+          "8200184103",
+          "8200185800",
+          "8200477938"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7039010",
+    "crossNumber": "FVD1096",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1088891",
+          "1226639",
+          "1329202",
+          "1377588",
+          "1675115",
+          "1708966",
+          "4C1Q6B319BA",
+          "9C1Q6B319AA",
+          "9C1Q6B319AB",
+          "YC1Q6B319AG",
+          "YC1Q6B319AH"
+        ]
+      },
+      {
+        "manufacturer": "LAND ROVER",
+        "numbers": [
+          "LR005344",
+          "LR019351",
+          "LR029988"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7041010",
+    "crossNumber": "FVD1226",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "HYUNDAI",
+        "numbers": [
+          "23123-2B720",
+          "23124-2B000",
+          "23124-2B010",
+          "23124-2B020",
+          "23124-2B700",
+          "23124-2B710"
+        ]
+      },
+      {
+        "manufacturer": "KIA",
+        "numbers": [
+          "23123-2B720",
+          "23124-2B000",
+          "23124-2B010",
+          "23124-2B020",
+          "23124-2B710"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7042010",
+    "crossNumber": "FVD1050",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11 23 7 562 801",
+          "11 23 7 622 909",
+          "11 23 7 638 551"
+        ]
+      },
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "0515.T2",
+          "98 043 479 80",
+          "V763855180"
+        ]
+      },
+      {
+        "manufacturer": "MINI",
+        "numbers": [
+          "11237562801",
+          "11237622909",
+          "11237638551"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "3648807",
+          "V7 638 551 80"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "0515.T2",
+          "98 043 479 80",
+          "V763855180"
+        ]
+      }
+    ]
+  },
+  {
     "yvNo": "7043010",
     "crossNumber": "FVD1178",
     "supplier": "FAI",
@@ -50,6 +1520,159 @@
     ]
   },
   {
+    "yvNo": "7045010",
+    "crossNumber": "FVD1247",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "DACIA",
+        "numbers": [
+          "12 30 371 40R"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "12 30 371 40R"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7046010",
+    "crossNumber": "FVD1236",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "DACIA",
+        "numbers": [
+          "123033842R"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "123033842R"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7047010",
+    "crossNumber": "FVD1103",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "8200276840",
+          "8200297835",
+          "8200297935",
+          "8200386470",
+          "8200451073",
+          "8200505833",
+          "8200523068",
+          "8200619927",
+          "8200817574"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7048010",
+    "crossNumber": "FVD1014",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "1230300QBD",
+          "12303AW300"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "82 00 268 426",
+          "82 00 297 936",
+          "82 00 457 775",
+          "82 00 523 072"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7048010",
+    "crossNumber": "FVD1014K",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "1230300QBD",
+          "12303AW300"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "82 00 268 426",
+          "82 00 297 936",
+          "82 00 457 775",
+          "82 00 523 072"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7049010",
+    "crossNumber": "FVD1111",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11 23 7 643 074",
+          "11 23 8 584 913",
+          "11235A80209",
+          "11238579926",
+          "11239888682"
+        ]
+      },
+      {
+        "manufacturer": "MINI",
+        "numbers": [
+          "11 23 7 643 074",
+          "11 23 8 584 913",
+          "11235A80209",
+          "11239888682"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7049010",
+    "crossNumber": "FVD1231",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "11235A80209",
+          "11238579926",
+          "11239888682"
+        ]
+      },
+      {
+        "manufacturer": "MINI",
+        "numbers": [
+          "11235A80209",
+          "11239888682"
+        ]
+      }
+    ]
+  },
+  {
     "yvNo": "7050010",
     "crossNumber": "FVD1117",
     "supplier": "FAI",
@@ -61,6 +1684,152 @@
           "04L105251B",
           "04L105251E",
           "04L105251H"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7051010",
+    "crossNumber": "FVD1108",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "VAG",
+        "numbers": [
+          "059105251AA",
+          "059105251AD",
+          "059105251AE",
+          "059105251AF",
+          "059105251AG",
+          "059105251AH",
+          "059105251AJ",
+          "059105251AP",
+          "059105251AQ",
+          "059105251AR",
+          "059105251AS",
+          "059105251AT",
+          "059105251BB",
+          "059105251BN",
+          "059105251BP",
+          "059105251BQ",
+          "059105251N",
+          "059105251S"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7052010",
+    "crossNumber": "FVD1010",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1379766",
+          "1727140",
+          "1748942",
+          "6C1Q 6B319 EA",
+          "BK3Q 6B319 CA",
+          "BK3Q 6B319 CB"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7052010",
+    "crossNumber": "FVD1010K",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1379766",
+          "1727140",
+          "1748942",
+          "6C1Q 6B319 EA",
+          "BK3Q 6B319 CA",
+          "BK3Q 6B319 CB"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7056010",
+    "crossNumber": "FVD1196",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "HONDA",
+        "numbers": [
+          "13810-PWA-003",
+          "13810-PWA-013"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7057010",
+    "crossNumber": "FVD1082",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "VOLVO",
+        "numbers": [
+          "30637335",
+          "30731865",
+          "8642368"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7062010",
+    "crossNumber": "FVD1005",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "A166 030 03 03",
+          "A1660300003",
+          "A1660300203",
+          "A1660300393"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7065010",
+    "crossNumber": "FVD1112",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "A6420300003",
+          "A6420300403"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7067010",
+    "crossNumber": "FVD1157",
+    "supplier": "FAI",
+    "oeNumbers": [
+      {
+        "manufacturer": "MINI",
+        "numbers": [
+          "11238477129",
+          "11238511320"
+        ]
+      },
+      {
+        "manufacturer": "TOYOTA",
+        "numbers": [
+          "13470-WA010",
+          "13470-WA011"
         ]
       }
     ]

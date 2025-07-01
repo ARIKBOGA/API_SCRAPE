@@ -1,0 +1,1626 @@
+[
+  {
+    "yvNo": "30997",
+    "crossNumber": "TFR-017K",
+    "brand": "0AMS",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "DACIA",
+        "models": [
+          {
+            "modelSeries": "LOGAN (LS_)",
+            "targets": [
+              {
+                "engine": "1.2 16V (LS1N, LS02, BS02)",
+                "fullName": "DACIA LOGAN (LS_) 1.2 16V (LS1N, LS02, BS02)",
+                "constructionYearFrom": "02.2006",
+                "enginePowerKW": 55,
+                "enginePowerHP": 75,
+                "cc": 1149,
+                "engineCodes": "D4F 732, D4F 734",
+                "kbaNumbers": "8212AAV",
+                "bodyType": "Saloon",
+                "TecDocID": 6698
+              },
+              {
+                "engine": "1.2 16V LPG",
+                "fullName": "DACIA LOGAN (LS_) 1.2 16V LPG",
+                "constructionYearFrom": "02.2006",
+                "enginePowerKW": 55,
+                "enginePowerHP": 75,
+                "cc": 1149,
+                "engineCodes": "D4F 734",
+                "kbaNumbers": "8212ACR",
+                "bodyType": "Saloon",
+                "TecDocID": 59315
+              },
+              {
+                "engine": "1.4 (LS0A, LS0C, LS0E, LS0G)",
+                "fullName": "DACIA LOGAN (LS_) 1.4 (LS0A, LS0C, LS0E, LS0G)",
+                "constructionYearFrom": "09.2004",
+                "enginePowerKW": 55,
+                "enginePowerHP": 75,
+                "cc": 1390,
+                "engineCodes": "K7J 710, K7J 714",
+                "kbaNumbers": "8212001, 8212AAA, 8212ABB",
+                "bodyType": "Saloon",
+                "TecDocID": 18389
+              },
+              {
+                "engine": "1.4 MPI LPG (LS0C)",
+                "fullName": "DACIA LOGAN (LS_) 1.4 MPI LPG (LS0C)",
+                "constructionYearFrom": "02.2006",
+                "constructionYearTo": "12.2012",
+                "enginePowerKW": 55,
+                "enginePowerHP": 75,
+                "cc": 1390,
+                "engineCodes": "K7J 714, K7J 710",
+                "kbaNumbers": "8212AAW",
+                "bodyType": "Saloon",
+                "TecDocID": 4351
+              },
+              {
+                "engine": "1.5 dCi (LS04)",
+                "fullName": "DACIA LOGAN (LS_) 1.5 dCi (LS04)",
+                "constructionYearFrom": "05.2010",
+                "constructionYearTo": "12.2012",
+                "enginePowerKW": 55,
+                "enginePowerHP": 75,
+                "cc": 1461,
+                "engineCodes": "K9K 892",
+                "kbaNumbers": "8212ABQ",
+                "bodyType": "Saloon",
+                "TecDocID": 6696
+              },
+              {
+                "engine": "1.5 dCi (LS04)",
+                "fullName": "DACIA LOGAN (LS_) 1.5 dCi (LS04)",
+                "constructionYearFrom": "05.2010",
+                "enginePowerKW": 65,
+                "enginePowerHP": 88,
+                "cc": 1461,
+                "engineCodes": "K9K 892",
+                "kbaNumbers": "8212ABP",
+                "bodyType": "Saloon",
+                "TecDocID": 6695
+              },
+              {
+                "engine": "1.5 dCi (LS0J, LS0Y)",
+                "fullName": "DACIA LOGAN (LS_) 1.5 dCi (LS0J, LS0Y)",
+                "constructionYearFrom": "09.2005",
+                "enginePowerKW": 48,
+                "enginePowerHP": 65,
+                "cc": 1461,
+                "engineCodes": "K9K 790",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 18979
+              },
+              {
+                "engine": "1.5 dCi (LS0K)",
+                "fullName": "DACIA LOGAN (LS_) 1.5 dCi (LS0K)",
+                "constructionYearFrom": "01.2006",
+                "constructionYearTo": "12.2012",
+                "enginePowerKW": 50,
+                "enginePowerHP": 68,
+                "cc": 1461,
+                "engineCodes": "K9K 792",
+                "kbaNumbers": "8212AAC",
+                "bodyType": "Saloon",
+                "TecDocID": 19936
+              },
+              {
+                "engine": "1.5 dCi (LS0W)",
+                "fullName": "DACIA LOGAN (LS_) 1.5 dCi (LS0W)",
+                "constructionYearFrom": "09.2007",
+                "constructionYearTo": "12.2011",
+                "enginePowerKW": 63,
+                "enginePowerHP": 86,
+                "cc": 1461,
+                "engineCodes": "K9K 796",
+                "kbaNumbers": "8212AAJ, 8212AAY",
+                "bodyType": "Saloon",
+                "TecDocID": 24490
+              },
+              {
+                "engine": "1.6 (LS0B, LS0D, LS0F, LS0H)",
+                "fullName": "DACIA LOGAN (LS_) 1.6 (LS0B, LS0D, LS0F, LS0H)",
+                "constructionYearFrom": "09.2004",
+                "enginePowerKW": 64,
+                "enginePowerHP": 87,
+                "cc": 1598,
+                "engineCodes": "K7M 710, K7M 718",
+                "kbaNumbers": "8212002, 8212AAB",
+                "bodyType": "Saloon",
+                "TecDocID": 18390
+              },
+              {
+                "engine": "1.6 16V (LS09, LS0L, LS0M, LS0P, LS0V, LS18, LS1S, LS1V,...",
+                "fullName": "DACIA LOGAN (LS_) 1.6 16V (LS09, LS0L, LS0M, LS0P, LS0V, LS18, LS1S, LS1V,...",
+                "constructionYearFrom": "02.2006",
+                "enginePowerKW": 77,
+                "enginePowerHP": 105,
+                "cc": 1598,
+                "engineCodes": "K4M 694, K4M 697, K4M 698, K4M 690, K4M 696",
+                "kbaNumbers": "8212AAD, 8212ACD",
+                "bodyType": "Saloon",
+                "TecDocID": 19368
+              },
+              {
+                "engine": "1.6 16V Flexifuel",
+                "fullName": "DACIA LOGAN (LS_) 1.6 16V Flexifuel",
+                "constructionYearFrom": "07.2010",
+                "enginePowerKW": 77,
+                "enginePowerHP": 105,
+                "cc": 1598,
+                "engineCodes": "K4M 696",
+                "kbaNumbers": "8212ACJ, 8212ACD",
+                "bodyType": "Saloon",
+                "TecDocID": 57444
+              },
+              {
+                "engine": "1.6 Bifuel",
+                "fullName": "DACIA LOGAN (LS_) 1.6 Bifuel",
+                "constructionYearFrom": "05.2010",
+                "enginePowerKW": 62,
+                "enginePowerHP": 84,
+                "cc": 1598,
+                "engineCodes": "K7M 718",
+                "kbaNumbers": "8212ACU",
+                "bodyType": "Saloon",
+                "TecDocID": 11132
+              },
+              {
+                "engine": "1.6 MPI 85",
+                "fullName": "DACIA LOGAN (LS_) 1.6 MPI 85",
+                "constructionYearFrom": "05.2010",
+                "enginePowerKW": 62,
+                "enginePowerHP": 84,
+                "cc": 1598,
+                "engineCodes": "K7M 800",
+                "kbaNumbers": "8212ACH",
+                "bodyType": "Saloon",
+                "TecDocID": 6691
+              }
+            ]
+          },
+          {
+            "modelSeries": "LOGAN II",
+            "targets": [
+              {
+                "engine": "1.0 SCe 75",
+                "fullName": "DACIA LOGAN II 1.0 SCe 75",
+                "constructionYearFrom": "01.2017",
+                "enginePowerKW": 54,
+                "enginePowerHP": 73,
+                "cc": 998,
+                "engineCodes": "B4D 401, B4D 400",
+                "kbaNumbers": "8212AEK",
+                "bodyType": "Saloon",
+                "TecDocID": 127127
+              },
+              {
+                "engine": "1.2",
+                "fullName": "DACIA LOGAN II 1.2",
+                "constructionYearFrom": "10.2012",
+                "enginePowerKW": 55,
+                "enginePowerHP": 75,
+                "cc": 1149,
+                "engineCodes": "D4F 732",
+                "kbaNumbers": "8212AAV",
+                "bodyType": "Saloon",
+                "TecDocID": 58614
+              },
+              {
+                "engine": "1.2",
+                "fullName": "DACIA LOGAN II 1.2",
+                "constructionYearFrom": "05.2015",
+                "enginePowerKW": 54,
+                "enginePowerHP": 73,
+                "cc": 1149,
+                "engineCodes": "",
+                "kbaNumbers": "8212ADS",
+                "bodyType": "Saloon",
+                "TecDocID": 114211
+              },
+              {
+                "engine": "1.5 Blue dCi 95 (L8JL)",
+                "fullName": "DACIA LOGAN II 1.5 Blue dCi 95 (L8JL)",
+                "constructionYearFrom": "05.2018",
+                "enginePowerKW": 70,
+                "enginePowerHP": 95,
+                "cc": 1461,
+                "engineCodes": "K9K 872",
+                "kbaNumbers": "8212AER",
+                "bodyType": "Saloon",
+                "TecDocID": 135643
+              },
+              {
+                "engine": "1.5 dCi",
+                "fullName": "DACIA LOGAN II 1.5 dCi",
+                "constructionYearFrom": "10.2012",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 1461,
+                "engineCodes": "K9K 612, K9K 626",
+                "kbaNumbers": "8212ADA",
+                "bodyType": "Saloon",
+                "TecDocID": 58617
+              },
+              {
+                "engine": "1.5 dCi",
+                "fullName": "DACIA LOGAN II 1.5 dCi",
+                "constructionYearFrom": "01.2013",
+                "enginePowerKW": 63,
+                "enginePowerHP": 84,
+                "cc": 1461,
+                "engineCodes": "K9K 838, K9K 830",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 110763
+              },
+              {
+                "engine": "1.5 dCi / Blue dCi 75",
+                "fullName": "DACIA LOGAN II 1.5 dCi / Blue dCi 75",
+                "constructionYearFrom": "10.2012",
+                "enginePowerKW": 55,
+                "enginePowerHP": 75,
+                "cc": 1461,
+                "engineCodes": "K9K 872, K9K 612, K9K 626",
+                "kbaNumbers": "8212ABQ",
+                "bodyType": "Saloon",
+                "TecDocID": 58615
+              },
+              {
+                "engine": "1.6 16V",
+                "fullName": "DACIA LOGAN II 1.6 16V",
+                "constructionYearFrom": "01.2013",
+                "enginePowerKW": 77,
+                "enginePowerHP": 105,
+                "cc": 1598,
+                "engineCodes": "K4M 842",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 110762
+              },
+              {
+                "engine": "TCe 90 (L8MA, L8M1, L8AC)",
+                "fullName": "DACIA LOGAN II TCe 90 (L8MA, L8M1, L8AC)",
+                "constructionYearFrom": "10.2012",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 898,
+                "engineCodes": "H4B 408, H4B 400, H4B 412",
+                "kbaNumbers": "8212ACY",
+                "bodyType": "Saloon",
+                "TecDocID": 58612
+              }
+            ]
+          },
+          {
+            "modelSeries": "LOGAN III (3K_)",
+            "targets": [
+              {
+                "engine": "1.0 TCe 90 (3KM6)",
+                "fullName": "DACIA LOGAN III (3K_) 1.0 TCe 90 (3KM6)",
+                "constructionYearFrom": "05.2021",
+                "enginePowerKW": 67,
+                "enginePowerHP": 91,
+                "cc": 999,
+                "engineCodes": "H4D 470",
+                "kbaNumbers": "8212AFO, 8212AFN",
+                "bodyType": "Saloon",
+                "TecDocID": 146708
+              }
+            ]
+          },
+          {
+            "modelSeries": "SANDERO",
+            "targets": [
+              {
+                "engine": "1.2 16V",
+                "fullName": "DACIA SANDERO 1.2 16V",
+                "constructionYearFrom": "11.2008",
+                "enginePowerKW": 55,
+                "enginePowerHP": 75,
+                "cc": 1149,
+                "engineCodes": "D4F 732",
+                "kbaNumbers": "8212AAU, 8212ABV",
+                "bodyType": "Hatchback",
+                "TecDocID": 31086
+              },
+              {
+                "engine": "1.2 16V LPG",
+                "fullName": "DACIA SANDERO 1.2 16V LPG",
+                "constructionYearFrom": "11.2008",
+                "enginePowerKW": 55,
+                "enginePowerHP": 75,
+                "cc": 1149,
+                "engineCodes": "D4F 732",
+                "kbaNumbers": "8212ACQ",
+                "bodyType": "Hatchback",
+                "TecDocID": 11131
+              },
+              {
+                "engine": "1.4 (BS0C, BS0A, BS0G, BS1F, BS0E)",
+                "fullName": "DACIA SANDERO 1.4 (BS0C, BS0A, BS0G, BS1F, BS0E)",
+                "constructionYearFrom": "06.2008",
+                "enginePowerKW": 55,
+                "enginePowerHP": 75,
+                "cc": 1390,
+                "engineCodes": "K7J 710, K7J 714",
+                "kbaNumbers": "8212AAK, 8212ABB, 8212ABR",
+                "bodyType": "Hatchback",
+                "TecDocID": 27576
+              },
+              {
+                "engine": "1.4 MPI LPG",
+                "fullName": "DACIA SANDERO 1.4 MPI LPG",
+                "constructionYearFrom": "01.2009",
+                "enginePowerKW": 53,
+                "enginePowerHP": 72,
+                "cc": 1390,
+                "engineCodes": "K7J 714",
+                "kbaNumbers": "8212AAP",
+                "bodyType": "Hatchback",
+                "TecDocID": 7197
+              },
+              {
+                "engine": "1.5 dCi",
+                "fullName": "DACIA SANDERO 1.5 dCi",
+                "constructionYearFrom": "11.2008",
+                "enginePowerKW": 50,
+                "enginePowerHP": 68,
+                "cc": 1461,
+                "engineCodes": "K9K 792",
+                "kbaNumbers": "8212AAM, 8212ABC, 8212ABT",
+                "bodyType": "Hatchback",
+                "TecDocID": 31083
+              },
+              {
+                "engine": "1.5 dCi",
+                "fullName": "DACIA SANDERO 1.5 dCi",
+                "constructionYearFrom": "11.2008",
+                "enginePowerKW": 63,
+                "enginePowerHP": 86,
+                "cc": 1461,
+                "engineCodes": "K9K 796",
+                "kbaNumbers": "8212AAN, 8212AAY, 8212ABU",
+                "bodyType": "Hatchback",
+                "TecDocID": 31084
+              },
+              {
+                "engine": "1.5 dCi",
+                "fullName": "DACIA SANDERO 1.5 dCi",
+                "constructionYearFrom": "05.2010",
+                "enginePowerKW": 55,
+                "enginePowerHP": 75,
+                "cc": 1461,
+                "engineCodes": "K9K 892",
+                "kbaNumbers": "8212ABN, 8212ABW",
+                "bodyType": "Hatchback",
+                "TecDocID": 6666
+              },
+              {
+                "engine": "1.5 dCi",
+                "fullName": "DACIA SANDERO 1.5 dCi",
+                "constructionYearFrom": "05.2010",
+                "enginePowerKW": 65,
+                "enginePowerHP": 88,
+                "cc": 1461,
+                "engineCodes": "K9K 892",
+                "kbaNumbers": "8212ABK, 8212ABX",
+                "bodyType": "Hatchback",
+                "TecDocID": 6675
+              },
+              {
+                "engine": "1.6 (BS0D, BS0B, BS0F, BS0H)",
+                "fullName": "DACIA SANDERO 1.6 (BS0D, BS0B, BS0F, BS0H)",
+                "constructionYearFrom": "06.2008",
+                "enginePowerKW": 64,
+                "enginePowerHP": 87,
+                "cc": 1598,
+                "engineCodes": "K7M 710, K7M 718",
+                "kbaNumbers": "8212AAL, 8212ABA, 8212ABS",
+                "bodyType": "Hatchback",
+                "TecDocID": 27577
+              },
+              {
+                "engine": "1.6 16V",
+                "fullName": "DACIA SANDERO 1.6 16V",
+                "constructionYearFrom": "07.2011",
+                "enginePowerKW": 77,
+                "enginePowerHP": 105,
+                "cc": 1598,
+                "engineCodes": "K4M 694, K4M 690",
+                "kbaNumbers": "8212ACT",
+                "bodyType": "Hatchback",
+                "TecDocID": 59314
+              },
+              {
+                "engine": "1.6 MPI 85 (BS03)",
+                "fullName": "DACIA SANDERO 1.6 MPI 85 (BS03)",
+                "constructionYearFrom": "05.2010",
+                "constructionYearTo": "06.2013",
+                "enginePowerKW": 62,
+                "enginePowerHP": 84,
+                "cc": 1598,
+                "engineCodes": "K7M 800, K7M 818",
+                "kbaNumbers": "8212ACI, 8212ACE",
+                "bodyType": "Hatchback",
+                "TecDocID": 6667
+              }
+            ]
+          },
+          {
+            "modelSeries": "SANDERO II",
+            "targets": [
+              {
+                "engine": "1.0 SCe 75 (B8JC, B8JD)",
+                "fullName": "DACIA SANDERO II 1.0 SCe 75 (B8JC, B8JD)",
+                "constructionYearFrom": "12.2016",
+                "enginePowerKW": 54,
+                "enginePowerHP": 73,
+                "cc": 999,
+                "engineCodes": "B4D 400, B4D 401, B4D 490",
+                "kbaNumbers": "8212AEI, 8212AEL",
+                "bodyType": "Hatchback",
+                "TecDocID": 126214
+              },
+              {
+                "engine": "1.2",
+                "fullName": "DACIA SANDERO II 1.2",
+                "constructionYearFrom": "10.2012",
+                "enginePowerKW": 55,
+                "enginePowerHP": 75,
+                "cc": 1149,
+                "engineCodes": "D4F 732",
+                "kbaNumbers": "8212AAU",
+                "bodyType": "Hatchback",
+                "TecDocID": 58134
+              },
+              {
+                "engine": "1.2",
+                "fullName": "DACIA SANDERO II 1.2",
+                "constructionYearFrom": "05.2015",
+                "enginePowerKW": 54,
+                "enginePowerHP": 73,
+                "cc": 1149,
+                "engineCodes": "D4F 732",
+                "kbaNumbers": "8212ADT",
+                "bodyType": "Hatchback",
+                "TecDocID": 114214
+              },
+              {
+                "engine": "1.2 LPG",
+                "fullName": "DACIA SANDERO II 1.2 LPG",
+                "constructionYearFrom": "10.2012",
+                "enginePowerKW": 55,
+                "enginePowerHP": 75,
+                "cc": 1149,
+                "engineCodes": "D4F 734",
+                "kbaNumbers": "8212ACQ",
+                "bodyType": "Hatchback",
+                "TecDocID": 58142
+              },
+              {
+                "engine": "1.5 Blue dCi 95 (B8JL)",
+                "fullName": "DACIA SANDERO II 1.5 Blue dCi 95 (B8JL)",
+                "constructionYearFrom": "08.2018",
+                "enginePowerKW": 70,
+                "enginePowerHP": 95,
+                "cc": 1461,
+                "engineCodes": "K9K 872",
+                "kbaNumbers": "8212AES",
+                "bodyType": "Hatchback",
+                "TecDocID": 133169
+              },
+              {
+                "engine": "1.5 dCi",
+                "fullName": "DACIA SANDERO II 1.5 dCi",
+                "constructionYearFrom": "10.2012",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 1461,
+                "engineCodes": "K9K 626, K9K 612",
+                "kbaNumbers": "8212ADB",
+                "bodyType": "Hatchback",
+                "TecDocID": 58144
+              },
+              {
+                "engine": "1.5 dCi",
+                "fullName": "DACIA SANDERO II 1.5 dCi",
+                "constructionYearFrom": "01.2013",
+                "enginePowerKW": 63,
+                "enginePowerHP": 84,
+                "cc": 1461,
+                "engineCodes": "K9K 830",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback",
+                "TecDocID": 110761
+              },
+              {
+                "engine": "1.5 dCi 75 / Blue dCi 75 (B8JW, B8M4, B8AH, B8M7, B8M6)",
+                "fullName": "DACIA SANDERO II 1.5 dCi 75 / Blue dCi 75 (B8JW, B8M4, B8AH, B8M7, B8M6)",
+                "constructionYearFrom": "10.2012",
+                "enginePowerKW": 55,
+                "enginePowerHP": 75,
+                "cc": 1461,
+                "engineCodes": "K9K 872, K9K 626, K9K 612, K9K 838",
+                "kbaNumbers": "8212ABN",
+                "bodyType": "Hatchback",
+                "TecDocID": 35269
+              },
+              {
+                "engine": "TCe 90 (B8M1, B8MA, B8AC)",
+                "fullName": "DACIA SANDERO II TCe 90 (B8M1, B8MA, B8AC)",
+                "constructionYearFrom": "10.2012",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 898,
+                "engineCodes": "H4B 400, H4B 408, H4B 412, H4B 411, H4B 410",
+                "kbaNumbers": "8212ACZ",
+                "bodyType": "Hatchback",
+                "TecDocID": 58143
+              },
+              {
+                "engine": "TCe 90 LPG (B8M1)",
+                "fullName": "DACIA SANDERO II TCe 90 LPG (B8M1)",
+                "constructionYearFrom": "09.2015",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 898,
+                "engineCodes": "H4B 410",
+                "kbaNumbers": "8212ADY",
+                "bodyType": "Hatchback",
+                "TecDocID": 118704
+              }
+            ]
+          },
+          {
+            "modelSeries": "SANDERO III",
+            "targets": [
+              {
+                "engine": "1.0 SCe 65",
+                "fullName": "DACIA SANDERO III 1.0 SCe 65",
+                "constructionYearFrom": "01.2021",
+                "enginePowerKW": 49,
+                "enginePowerHP": 67,
+                "cc": 999,
+                "engineCodes": "B4D 419",
+                "kbaNumbers": "8212AFD",
+                "bodyType": "Hatchback",
+                "TecDocID": 145025
+              },
+              {
+                "engine": "1.0 TCe 100",
+                "fullName": "DACIA SANDERO III 1.0 TCe 100",
+                "constructionYearFrom": "01.2021",
+                "enginePowerKW": 74,
+                "enginePowerHP": 101,
+                "cc": 999,
+                "engineCodes": "H4D 480",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback",
+                "TecDocID": 145026
+              },
+              {
+                "engine": "1.0 TCe 100 ECO-G",
+                "fullName": "DACIA SANDERO III 1.0 TCe 100 ECO-G",
+                "constructionYearFrom": "01.2021",
+                "enginePowerKW": 74,
+                "enginePowerHP": 101,
+                "cc": 999,
+                "engineCodes": "H4D 480",
+                "kbaNumbers": "8212AFF",
+                "bodyType": "Hatchback",
+                "TecDocID": 145027
+              },
+              {
+                "engine": "1.0 TCe 90",
+                "fullName": "DACIA SANDERO III 1.0 TCe 90",
+                "constructionYearFrom": "01.2021",
+                "enginePowerKW": 67,
+                "enginePowerHP": 91,
+                "cc": 999,
+                "engineCodes": "H4D 470",
+                "kbaNumbers": "8212AFE",
+                "bodyType": "Hatchback",
+                "TecDocID": 145028
+              },
+              {
+                "engine": "1.0 TCe LPG",
+                "fullName": "DACIA SANDERO III 1.0 TCe LPG",
+                "constructionYearFrom": "01.2021",
+                "enginePowerKW": 67,
+                "enginePowerHP": 91,
+                "cc": 999,
+                "engineCodes": "H4D 470",
+                "kbaNumbers": "8212AFH",
+                "bodyType": "Hatchback",
+                "TecDocID": 145029
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "models": [
+          {
+            "modelSeries": "LOGAN I (LS_) | TONDAR 90",
+            "targets": [
+              {
+                "engine": "1.5 dCi",
+                "fullName": "RENAULT LOGAN I (LS_) | TONDAR 90 1.5 dCi",
+                "constructionYearFrom": "02.2008",
+                "constructionYearTo": "06.2015",
+                "enginePowerKW": 63,
+                "enginePowerHP": 86,
+                "cc": 1461,
+                "engineCodes": "K9K 796",
+                "kbaNumbers": "3333AQD",
+                "bodyType": "Saloon",
+                "TecDocID": 9286
+              }
+            ]
+          },
+          {
+            "modelSeries": "LOGAN/STEPWAY II (L8_)",
+            "targets": [
+              {
+                "engine": "1.2",
+                "fullName": "RENAULT LOGAN/STEPWAY II (L8_) 1.2",
+                "constructionYearFrom": "11.2013",
+                "enginePowerKW": 55,
+                "enginePowerHP": 75,
+                "cc": 1149,
+                "engineCodes": "D4F 732",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 107937
+              },
+              {
+                "engine": "1.6",
+                "fullName": "RENAULT LOGAN/STEPWAY II (L8_) 1.6",
+                "constructionYearFrom": "04.2014",
+                "enginePowerKW": 60,
+                "enginePowerHP": 82,
+                "cc": 1598,
+                "engineCodes": "K7M 812",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 110731
+              },
+              {
+                "engine": "1.6",
+                "fullName": "RENAULT LOGAN/STEPWAY II (L8_) 1.6",
+                "constructionYearFrom": "09.2016",
+                "enginePowerKW": 83,
+                "enginePowerHP": 113,
+                "cc": 1598,
+                "engineCodes": "H4M 438",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 128883
+              }
+            ]
+          },
+          {
+            "modelSeries": "SANDERO/STEPWAY I (BS_)",
+            "targets": [
+              {
+                "engine": "1.4",
+                "fullName": "RENAULT SANDERO/STEPWAY I (BS_) 1.4",
+                "constructionYearFrom": "02.2009",
+                "enginePowerKW": 55,
+                "enginePowerHP": 75,
+                "cc": 1390,
+                "engineCodes": "K7J 710",
+                "kbaNumbers": "3333ASF",
+                "bodyType": "Hatchback",
+                "TecDocID": 32992
+              },
+              {
+                "engine": "1.6 (BS0H, BS0F)",
+                "fullName": "RENAULT SANDERO/STEPWAY I (BS_) 1.6 (BS0H, BS0F)",
+                "constructionYearFrom": "02.2009",
+                "enginePowerKW": 64,
+                "enginePowerHP": 87,
+                "cc": 1598,
+                "engineCodes": "K7M 710, K7M 718",
+                "kbaNumbers": "3333ASG",
+                "bodyType": "Hatchback",
+                "TecDocID": 32993
+              }
+            ]
+          },
+          {
+            "modelSeries": "SANDERO/STEPWAY II (B8_)",
+            "targets": [
+              {
+                "engine": "1.5 dCi (B8AL)",
+                "fullName": "RENAULT SANDERO/STEPWAY II (B8_) 1.5 dCi (B8AL)",
+                "constructionYearFrom": "01.2017",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 1461,
+                "engineCodes": "K9K 612",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback",
+                "TecDocID": 147012
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "251075",
+    "crossNumber": "TJU-039",
+    "brand": "0AMS",
+    "compatibleVehicles": []
+  },
+  {
+    "yvNo": "291066",
+    "crossNumber": "TFP-003KC",
+    "brand": "0AMS",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "CITROËN",
+        "models": [
+          {
+            "modelSeries": "C-ELYSEE (DD_)",
+            "targets": [
+              {
+                "engine": "1.2 PureTech 82 (DDHMRP)",
+                "fullName": "CITROËN C-ELYSEE (DD_) 1.2 PureTech 82 (DDHMRP)",
+                "constructionYearFrom": "02.2018",
+                "enginePowerKW": 61,
+                "enginePowerHP": 83,
+                "cc": 1199,
+                "engineCodes": "HMR (EB2FA)",
+                "kbaNumbers": "3001AYZ",
+                "bodyType": "Saloon",
+                "TecDocID": 136616
+              },
+              {
+                "engine": "1.2 VTi 82",
+                "fullName": "CITROËN C-ELYSEE (DD_) 1.2 VTi 82",
+                "constructionYearFrom": "12.2014",
+                "enginePowerKW": 60,
+                "enginePowerHP": 82,
+                "cc": 1199,
+                "engineCodes": "HMZ (EB2), HMZ (EB2F)",
+                "kbaNumbers": "3001AVE",
+                "bodyType": "Saloon",
+                "TecDocID": 117342
+              },
+              {
+                "engine": "1.6 HDI 92",
+                "fullName": "CITROËN C-ELYSEE (DD_) 1.6 HDI 92",
+                "constructionYearFrom": "11.2012",
+                "enginePowerKW": 68,
+                "enginePowerHP": 92,
+                "cc": 1560,
+                "engineCodes": "9HJ (DV6DTEDM), 9HP (DV6DTED)",
+                "kbaNumbers": "3001ARO",
+                "bodyType": "Saloon",
+                "TecDocID": 57403
+              },
+              {
+                "engine": "1.6 VTi 115 (DDNFP0, DDNFP6, DDNFP9)",
+                "fullName": "CITROËN C-ELYSEE (DD_) 1.6 VTi 115 (DDNFP0, DDNFP6, DDNFP9)",
+                "constructionYearFrom": "11.2012",
+                "enginePowerKW": 85,
+                "enginePowerHP": 115,
+                "cc": 1587,
+                "engineCodes": "NFP (EC5)",
+                "kbaNumbers": "3001ARP",
+                "bodyType": "Saloon",
+                "TecDocID": 57404
+              }
+            ]
+          },
+          {
+            "modelSeries": "C3 II (SC_)",
+            "targets": [
+              {
+                "engine": "1.1 i",
+                "fullName": "CITROËN C3 II (SC_) 1.1 i",
+                "constructionYearFrom": "01.2010",
+                "enginePowerKW": 44,
+                "enginePowerHP": 60,
+                "cc": 1124,
+                "engineCodes": "HFV (TU1A), HFX (TU1A)",
+                "kbaNumbers": "3001AKY, 3001AIQ",
+                "bodyType": "Hatchback",
+                "TecDocID": 32027
+              },
+              {
+                "engine": "1.4",
+                "fullName": "CITROËN C3 II (SC_) 1.4",
+                "constructionYearFrom": "01.2010",
+                "constructionYearTo": "08.2013",
+                "enginePowerKW": 54,
+                "enginePowerHP": 73,
+                "cc": 1360,
+                "engineCodes": "KFT (TU3AE5), KFT (TU3A), K6E (TU3A)",
+                "kbaNumbers": "3001AKZ, 3001AIR",
+                "bodyType": "Hatchback",
+                "TecDocID": 32028
+              },
+              {
+                "engine": "1.4 HDi 70 (SC8HZC, SC8HR0, SC8HP4)",
+                "fullName": "CITROËN C3 II (SC_) 1.4 HDi 70 (SC8HZC, SC8HR0, SC8HP4)",
+                "constructionYearFrom": "01.2010",
+                "enginePowerKW": 50,
+                "enginePowerHP": 68,
+                "cc": 1398,
+                "engineCodes": "8HZ (DV4TD), 8HR (DV4C), 8HP (DV4C)",
+                "kbaNumbers": "3001ALD, 3001AIV",
+                "bodyType": "Hatchback",
+                "TecDocID": 33395
+              },
+              {
+                "engine": "1.4 LPG",
+                "fullName": "CITROËN C3 II (SC_) 1.4 LPG",
+                "constructionYearFrom": "07.2010",
+                "constructionYearTo": "09.2016",
+                "enginePowerKW": 54,
+                "enginePowerHP": 73,
+                "cc": 1360,
+                "engineCodes": "KFT (TU3A)",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback",
+                "TecDocID": 123273
+              },
+              {
+                "engine": "1.6 BlueHDi 75",
+                "fullName": "CITROËN C3 II (SC_) 1.6 BlueHDi 75",
+                "constructionYearFrom": "04.2015",
+                "constructionYearTo": "09.2016",
+                "enginePowerKW": 55,
+                "enginePowerHP": 75,
+                "cc": 1560,
+                "engineCodes": "9HK (DV6ETEDM), BHW (DV6FE)",
+                "kbaNumbers": "3001ASD",
+                "bodyType": "Hatchback",
+                "TecDocID": 113666
+              }
+            ]
+          },
+          {
+            "modelSeries": "C3 III (SX)",
+            "targets": [
+              {
+                "engine": "1.2 PureTech 82 LPG",
+                "fullName": "CITROËN C3 III (SX) 1.2 PureTech 82 LPG",
+                "constructionYearFrom": "05.2018",
+                "enginePowerKW": 61,
+                "enginePowerHP": 83,
+                "cc": 1199,
+                "engineCodes": "HMR (EB2FA)",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback",
+                "TecDocID": 135809
+              },
+              {
+                "engine": "1.2 THP 110 (SXHNPS, SXHNZT, SXHNZ6)",
+                "fullName": "CITROËN C3 III (SX) 1.2 THP 110 (SXHNPS, SXHNZT, SXHNZ6)",
+                "constructionYearFrom": "09.2016",
+                "enginePowerKW": 81,
+                "enginePowerHP": 110,
+                "cc": 1199,
+                "engineCodes": "HNP (EB2ADT), HNZ (EB2DT), HNV (EB2DTM)",
+                "kbaNumbers": "3001ASW",
+                "bodyType": "Hatchback",
+                "TecDocID": 122968
+              },
+              {
+                "engine": "1.6 BlueHDi 100",
+                "fullName": "CITROËN C3 III (SX) 1.6 BlueHDi 100",
+                "constructionYearFrom": "09.2016",
+                "enginePowerKW": 73,
+                "enginePowerHP": 99,
+                "cc": 1560,
+                "engineCodes": "BHY (DV6FD)",
+                "kbaNumbers": "3001ATV",
+                "bodyType": "Hatchback",
+                "TecDocID": 122973
+              }
+            ]
+          },
+          {
+            "modelSeries": "C3 III Van (SX_, SY_)",
+            "targets": [
+              {
+                "engine": "BlueHDi 100",
+                "fullName": "CITROËN C3 III Van (SX_, SY_) BlueHDi 100",
+                "constructionYearFrom": "03.2019",
+                "enginePowerKW": 73,
+                "enginePowerHP": 99,
+                "cc": 1560,
+                "engineCodes": "BHY (DV6FD)",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback Van",
+                "TecDocID": 136600
+              },
+              {
+                "engine": "BlueHDi 100",
+                "fullName": "CITROËN C3 III Van (SX_, SY_) BlueHDi 100",
+                "constructionYearFrom": "03.2019",
+                "enginePowerKW": 75,
+                "enginePowerHP": 102,
+                "cc": 1499,
+                "engineCodes": "YHY (DV5RD)",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback Van",
+                "TecDocID": 136599
+              },
+              {
+                "engine": "BlueHDi 75",
+                "fullName": "CITROËN C3 III Van (SX_, SY_) BlueHDi 75",
+                "constructionYearFrom": "03.2019",
+                "enginePowerKW": 55,
+                "enginePowerHP": 75,
+                "cc": 1560,
+                "engineCodes": "BHW (DV6FE)",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback Van",
+                "TecDocID": 136598
+              },
+              {
+                "engine": "PureTech 110",
+                "fullName": "CITROËN C3 III Van (SX_, SY_) PureTech 110",
+                "constructionYearFrom": "03.2019",
+                "enginePowerKW": 81,
+                "enginePowerHP": 110,
+                "cc": 1199,
+                "engineCodes": "HNZ (EB2DT)",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback Van",
+                "TecDocID": 136597
+              }
+            ]
+          },
+          {
+            "modelSeries": "C4 CACTUS",
+            "targets": [
+              {
+                "engine": "1.2 PureTech 130",
+                "fullName": "CITROËN C4 CACTUS 1.2 PureTech 130",
+                "constructionYearFrom": "11.2017",
+                "enginePowerKW": 96,
+                "enginePowerHP": 131,
+                "cc": 1199,
+                "engineCodes": "HNS (EB2ADTS), HNY (EB2DTS)",
+                "kbaNumbers": "3001AYY",
+                "bodyType": "Hatchback",
+                "TecDocID": 129687
+              },
+              {
+                "engine": "1.2 THP 110",
+                "fullName": "CITROËN C4 CACTUS 1.2 THP 110",
+                "constructionYearFrom": "09.2014",
+                "enginePowerKW": 81,
+                "enginePowerHP": 110,
+                "cc": 1199,
+                "engineCodes": "HNZ (EB2DT), HNP (EB2ADT), HNV (EB2DTM)",
+                "kbaNumbers": "3001AUI",
+                "bodyType": "Hatchback",
+                "TecDocID": 108027
+              },
+              {
+                "engine": "1.2 VTi 75 / PureTech 75",
+                "fullName": "CITROËN C4 CACTUS 1.2 VTi 75 / PureTech 75",
+                "constructionYearFrom": "09.2014",
+                "enginePowerKW": 55,
+                "enginePowerHP": 75,
+                "cc": 1199,
+                "engineCodes": "HMU (EB2FD), HMU (EB2D)",
+                "kbaNumbers": "3001AUF",
+                "bodyType": "Hatchback",
+                "TecDocID": 108026
+              },
+              {
+                "engine": "1.2 VTi 82",
+                "fullName": "CITROËN C4 CACTUS 1.2 VTi 82",
+                "constructionYearFrom": "09.2014",
+                "enginePowerKW": 60,
+                "enginePowerHP": 82,
+                "cc": 1199,
+                "engineCodes": "HMZ (EB2F)",
+                "kbaNumbers": "3001ATY",
+                "bodyType": "Hatchback",
+                "TecDocID": 105914
+              },
+              {
+                "engine": "1.5 BlueHDi 100",
+                "fullName": "CITROËN C4 CACTUS 1.5 BlueHDi 100",
+                "constructionYearFrom": "06.2018",
+                "enginePowerKW": 73,
+                "enginePowerHP": 99,
+                "cc": 1499,
+                "engineCodes": "YHY (DV5RD)",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback",
+                "TecDocID": 133471
+              },
+              {
+                "engine": "1.5 BlueHDi 100",
+                "fullName": "CITROËN C4 CACTUS 1.5 BlueHDi 100",
+                "constructionYearFrom": "06.2018",
+                "enginePowerKW": 75,
+                "enginePowerHP": 102,
+                "cc": 1499,
+                "engineCodes": "YHY (DV5RD)",
+                "kbaNumbers": "3001AZK",
+                "bodyType": "Hatchback",
+                "TecDocID": 131826
+              },
+              {
+                "engine": "1.6 BlueHDi 100",
+                "fullName": "CITROËN C4 CACTUS 1.6 BlueHDi 100",
+                "constructionYearFrom": "09.2014",
+                "constructionYearTo": "06.2018",
+                "enginePowerKW": 73,
+                "enginePowerHP": 99,
+                "cc": 1560,
+                "engineCodes": "BHY (DV6FD)",
+                "kbaNumbers": "3001AUE",
+                "bodyType": "Hatchback",
+                "TecDocID": 108028
+              },
+              {
+                "engine": "1.6 HDi 90",
+                "fullName": "CITROËN C4 CACTUS 1.6 HDi 90",
+                "constructionYearFrom": "09.2014",
+                "enginePowerKW": 68,
+                "enginePowerHP": 92,
+                "cc": 1560,
+                "engineCodes": "9HJ (DV6DTEDM), 9HP (DV6D), 9HP (DV6DTED)",
+                "kbaNumbers": "3001ATZ",
+                "bodyType": "Hatchback",
+                "TecDocID": 105916
+              }
+            ]
+          },
+          {
+            "modelSeries": "C4 CACTUS Van (0B_, 0P_)",
+            "targets": [
+              {
+                "engine": "PureTech 110",
+                "fullName": "CITROËN C4 CACTUS Van (0B_, 0P_) PureTech 110",
+                "constructionYearFrom": "05.2019",
+                "enginePowerKW": 81,
+                "enginePowerHP": 110,
+                "cc": 1199,
+                "engineCodes": "HNZ (EB2DT), HNP (EB2ADT)",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback Van",
+                "TecDocID": 136636
+              },
+              {
+                "engine": "PureTech 130",
+                "fullName": "CITROËN C4 CACTUS Van (0B_, 0P_) PureTech 130",
+                "constructionYearFrom": "05.2019",
+                "enginePowerKW": 96,
+                "enginePowerHP": 131,
+                "cc": 1199,
+                "engineCodes": "HNY (EB2DTS)",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback Van",
+                "TecDocID": 136637
+              },
+              {
+                "engine": "PureTech 82",
+                "fullName": "CITROËN C4 CACTUS Van (0B_, 0P_) PureTech 82",
+                "constructionYearFrom": "05.2019",
+                "enginePowerKW": 60,
+                "enginePowerHP": 82,
+                "cc": 1199,
+                "engineCodes": "HMZ (EB2)",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback Van",
+                "TecDocID": 136631
+              }
+            ]
+          },
+          {
+            "modelSeries": "DS3 (SA_)",
+            "targets": [
+              {
+                "engine": "1.4 HDi 70 (SA8HP4)",
+                "fullName": "CITROËN DS3 (SA_) 1.4 HDi 70 (SA8HP4)",
+                "constructionYearFrom": "04.2010",
+                "constructionYearTo": "07.2015",
+                "enginePowerKW": 50,
+                "enginePowerHP": 68,
+                "cc": 1398,
+                "engineCodes": "8HR (DV4C), 8HP (DV4C)",
+                "kbaNumbers": "3001ALO",
+                "bodyType": "Hatchback",
+                "TecDocID": 12291
+              }
+            ]
+          },
+          {
+            "modelSeries": "DS3 Convertible",
+            "targets": [
+              {
+                "engine": "1.2 VTi 82",
+                "fullName": "CITROËN DS3 Convertible 1.2 VTi 82",
+                "constructionYearFrom": "01.2013",
+                "constructionYearTo": "07.2015",
+                "enginePowerKW": 60,
+                "enginePowerHP": 82,
+                "cc": 1199,
+                "engineCodes": "HMZ (EB2F)",
+                "kbaNumbers": "3001ASI",
+                "bodyType": "Convertible",
+                "TecDocID": 58583
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "DS",
+        "models": [
+          {
+            "modelSeries": "DS 3 (SA_) | DS3",
+            "targets": [
+              {
+                "engine": "1.2 THP 110 / PureTech 110 (SAHNPS, SAHNZ6, SAHNZT)",
+                "fullName": "DS DS 3 (SA_) | DS3 1.2 THP 110 / PureTech 110 (SAHNPS, SAHNZ6, SAHNZT)",
+                "constructionYearFrom": "04.2015",
+                "constructionYearTo": "07.2019",
+                "enginePowerKW": 81,
+                "enginePowerHP": 110,
+                "cc": 1199,
+                "engineCodes": "HNZ (EB2DT), HNP (EB2ADT)",
+                "kbaNumbers": "3001ASX",
+                "bodyType": "Hatchback",
+                "TecDocID": 118004
+              },
+              {
+                "engine": "1.2 THP 130 (SAHNYM)",
+                "fullName": "DS DS 3 (SA_) | DS3 1.2 THP 130 (SAHNYM)",
+                "constructionYearFrom": "09.2015",
+                "constructionYearTo": "07.2019",
+                "enginePowerKW": 96,
+                "enginePowerHP": 130,
+                "cc": 1199,
+                "engineCodes": "HNY (EB2DTS)",
+                "kbaNumbers": "3001AWF",
+                "bodyType": "Hatchback",
+                "TecDocID": 118598
+              },
+              {
+                "engine": "1.2 VTi 82 (SAHMZ6)",
+                "fullName": "DS DS 3 (SA_) | DS3 1.2 VTi 82 (SAHMZ6)",
+                "constructionYearFrom": "04.2015",
+                "constructionYearTo": "07.2019",
+                "enginePowerKW": 60,
+                "enginePowerHP": 82,
+                "cc": 1199,
+                "engineCodes": "HMZ (EB2), HMZ (EB2F)",
+                "kbaNumbers": "3001ARU",
+                "bodyType": "Hatchback",
+                "TecDocID": 118003
+              },
+              {
+                "engine": "1.4 HDi 70 (SA8HR4, SA8HP4)",
+                "fullName": "DS DS 3 (SA_) | DS3 1.4 HDi 70 (SA8HR4, SA8HP4)",
+                "constructionYearFrom": "07.2015",
+                "constructionYearTo": "12.2016",
+                "enginePowerKW": 50,
+                "enginePowerHP": 68,
+                "cc": 1398,
+                "engineCodes": "8HR (DV4C), 8HP (DV4C)",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback",
+                "TecDocID": 146611
+              },
+              {
+                "engine": "1.6 BlueHDi 100 (SABHY0, SABHYT)",
+                "fullName": "DS DS 3 (SA_) | DS3 1.6 BlueHDi 100 (SABHY0, SABHYT)",
+                "constructionYearFrom": "04.2015",
+                "constructionYearTo": "07.2019",
+                "enginePowerKW": 73,
+                "enginePowerHP": 99,
+                "cc": 1560,
+                "engineCodes": "BHY (DV6FD)",
+                "kbaNumbers": "3001ATW",
+                "bodyType": "Hatchback",
+                "TecDocID": 118006
+              },
+              {
+                "engine": "1.6 BlueHDi 120 (SABHZM)",
+                "fullName": "DS DS 3 (SA_) | DS3 1.6 BlueHDi 120 (SABHZM)",
+                "constructionYearFrom": "07.2015",
+                "constructionYearTo": "07.2019",
+                "enginePowerKW": 88,
+                "enginePowerHP": 120,
+                "cc": 1560,
+                "engineCodes": "BHZ (DV6FC)",
+                "kbaNumbers": "3001ASC",
+                "bodyType": "Hatchback",
+                "TecDocID": 118007
+              },
+              {
+                "engine": "1.6 BlueHDi 75 (SABHW6)",
+                "fullName": "DS DS 3 (SA_) | DS3 1.6 BlueHDi 75 (SABHW6)",
+                "constructionYearFrom": "07.2015",
+                "constructionYearTo": "07.2019",
+                "enginePowerKW": 55,
+                "enginePowerHP": 75,
+                "cc": 1560,
+                "engineCodes": "BHW (DV6FE)",
+                "kbaNumbers": "3001ASE",
+                "bodyType": "Hatchback",
+                "TecDocID": 118602
+              },
+              {
+                "engine": "1.6 THP (SA5GWM)",
+                "fullName": "DS DS 3 (SA_) | DS3 1.6 THP (SA5GWM)",
+                "constructionYearFrom": "07.2015",
+                "constructionYearTo": "07.2019",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1598,
+                "engineCodes": "5GW (EP6FDT)",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback",
+                "TecDocID": 132669
+              },
+              {
+                "engine": "1.6 THP 165 (SA5GZM)",
+                "fullName": "DS DS 3 (SA_) | DS3 1.6 THP 165 (SA5GZM)",
+                "constructionYearFrom": "07.2015",
+                "constructionYearTo": "07.2019",
+                "enginePowerKW": 121,
+                "enginePowerHP": 165,
+                "cc": 1598,
+                "engineCodes": "5GZ (EP6FDT)",
+                "kbaNumbers": "3001ASH",
+                "bodyType": "Hatchback",
+                "TecDocID": 118005
+              },
+              {
+                "engine": "1.6 THP 208 (SA5GRM)",
+                "fullName": "DS DS 3 (SA_) | DS3 1.6 THP 208 (SA5GRM)",
+                "constructionYearFrom": "09.2015",
+                "constructionYearTo": "07.2019",
+                "enginePowerKW": 153,
+                "enginePowerHP": 208,
+                "cc": 1598,
+                "engineCodes": "5GR (EP6FDTX)",
+                "kbaNumbers": "3001AWP",
+                "bodyType": "Hatchback",
+                "TecDocID": 118603
+              }
+            ]
+          },
+          {
+            "modelSeries": "DS 3 Convertible (SB_) | DS3",
+            "targets": [
+              {
+                "engine": "1.2 THP 110",
+                "fullName": "DS DS 3 Convertible (SB_) | DS3 1.2 THP 110",
+                "constructionYearFrom": "07.2015",
+                "constructionYearTo": "07.2019",
+                "enginePowerKW": 81,
+                "enginePowerHP": 110,
+                "cc": 1199,
+                "engineCodes": "HNP (EB2ADT), HNZ (EB2DT)",
+                "kbaNumbers": "3001ASY",
+                "bodyType": "Convertible",
+                "TecDocID": 118008
+              },
+              {
+                "engine": "1.2 THP 130",
+                "fullName": "DS DS 3 Convertible (SB_) | DS3 1.2 THP 130",
+                "constructionYearFrom": "09.2015",
+                "constructionYearTo": "07.2019",
+                "enginePowerKW": 96,
+                "enginePowerHP": 130,
+                "cc": 1199,
+                "engineCodes": "HNY (EB2DTS)",
+                "kbaNumbers": "3001AWE",
+                "bodyType": "Convertible",
+                "TecDocID": 118599
+              },
+              {
+                "engine": "1.2 VTi 82",
+                "fullName": "DS DS 3 Convertible (SB_) | DS3 1.2 VTi 82",
+                "constructionYearFrom": "07.2015",
+                "constructionYearTo": "07.2019",
+                "enginePowerKW": 60,
+                "enginePowerHP": 82,
+                "cc": 1199,
+                "engineCodes": "HMZ (EB2F)",
+                "kbaNumbers": "3001ASI",
+                "bodyType": "Convertible",
+                "TecDocID": 118601
+              },
+              {
+                "engine": "1.6 BlueHDi 100",
+                "fullName": "DS DS 3 Convertible (SB_) | DS3 1.6 BlueHDi 100",
+                "constructionYearFrom": "07.2015",
+                "constructionYearTo": "07.2019",
+                "enginePowerKW": 73,
+                "enginePowerHP": 99,
+                "cc": 1560,
+                "engineCodes": "BHY (DV6FD)",
+                "kbaNumbers": "3001ATX",
+                "bodyType": "Convertible",
+                "TecDocID": 118010
+              },
+              {
+                "engine": "1.6 BlueHDi 120",
+                "fullName": "DS DS 3 Convertible (SB_) | DS3 1.6 BlueHDi 120",
+                "constructionYearFrom": "07.2015",
+                "constructionYearTo": "07.2019",
+                "enginePowerKW": 88,
+                "enginePowerHP": 120,
+                "cc": 1560,
+                "engineCodes": "BHZ (DV6FC)",
+                "kbaNumbers": "3001ASG",
+                "bodyType": "Convertible",
+                "TecDocID": 118011
+              },
+              {
+                "engine": "1.6 THP 165",
+                "fullName": "DS DS 3 Convertible (SB_) | DS3 1.6 THP 165",
+                "constructionYearFrom": "07.2015",
+                "constructionYearTo": "07.2019",
+                "enginePowerKW": 121,
+                "enginePowerHP": 165,
+                "cc": 1598,
+                "engineCodes": "5GZ (EP6FDT)",
+                "kbaNumbers": "3001ASV",
+                "bodyType": "Convertible",
+                "TecDocID": 118009
+              },
+              {
+                "engine": "1.6 THP 208",
+                "fullName": "DS DS 3 Convertible (SB_) | DS3 1.6 THP 208",
+                "constructionYearFrom": "09.2015",
+                "constructionYearTo": "07.2019",
+                "enginePowerKW": 153,
+                "enginePowerHP": 208,
+                "cc": 1598,
+                "engineCodes": "5GR (EP6FDTX)",
+                "kbaNumbers": "3001AWO",
+                "bodyType": "Convertible",
+                "TecDocID": 118604
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "models": [
+          {
+            "modelSeries": "208 Hatchback Van (CR_)",
+            "targets": [
+              {
+                "engine": "1.5 BlueHDi 100",
+                "fullName": "PEUGEOT 208 Hatchback Van (CR_) 1.5 BlueHDi 100",
+                "constructionYearFrom": "05.2018",
+                "constructionYearTo": "12.2019",
+                "enginePowerKW": 75,
+                "enginePowerHP": 102,
+                "cc": 1499,
+                "engineCodes": "YHY (DV5RD)",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback Van",
+                "TecDocID": 136635
+              }
+            ]
+          },
+          {
+            "modelSeries": "208 I (CA_, CC_)",
+            "targets": [
+              {
+                "engine": "1.2 PureTech 82",
+                "fullName": "PEUGEOT 208 I (CA_, CC_) 1.2 PureTech 82",
+                "constructionYearFrom": "03.2018",
+                "constructionYearTo": "12.2019",
+                "enginePowerKW": 61,
+                "enginePowerHP": 82,
+                "cc": 1199,
+                "engineCodes": "HMZ (EB2F), HMR (EB2FA)",
+                "kbaNumbers": "3003AYX",
+                "bodyType": "Hatchback",
+                "TecDocID": 130989
+              },
+              {
+                "engine": "1.2 THP 110",
+                "fullName": "PEUGEOT 208 I (CA_, CC_) 1.2 THP 110",
+                "constructionYearFrom": "01.2013",
+                "constructionYearTo": "12.2019",
+                "enginePowerKW": 81,
+                "enginePowerHP": 110,
+                "cc": 1199,
+                "engineCodes": "HNP (EB2ADT), HNV (EB2DTM), HNZ (EB2DT)",
+                "kbaNumbers": "3003AUK",
+                "bodyType": "Hatchback",
+                "TecDocID": 107418
+              },
+              {
+                "engine": "1.2 VTI 82",
+                "fullName": "PEUGEOT 208 I (CA_, CC_) 1.2 VTI 82",
+                "constructionYearFrom": "03.2012",
+                "constructionYearTo": "12.2019",
+                "enginePowerKW": 60,
+                "enginePowerHP": 82,
+                "cc": 1199,
+                "engineCodes": "HMZ (EB2), HMZ (EB2F), HMR (EB2FA)",
+                "kbaNumbers": "3003ARN",
+                "bodyType": "Hatchback",
+                "TecDocID": 33807
+              },
+              {
+                "engine": "1.4 HDi",
+                "fullName": "PEUGEOT 208 I (CA_, CC_) 1.4 HDi",
+                "constructionYearFrom": "03.2012",
+                "constructionYearTo": "12.2019",
+                "enginePowerKW": 50,
+                "enginePowerHP": 68,
+                "cc": 1398,
+                "engineCodes": "8HR (DV4C), 8HP (DV4C)",
+                "kbaNumbers": "3003ARG",
+                "bodyType": "Hatchback",
+                "TecDocID": 8684
+              },
+              {
+                "engine": "1.4 VTi",
+                "fullName": "PEUGEOT 208 I (CA_, CC_) 1.4 VTi",
+                "constructionYearFrom": "03.2012",
+                "constructionYearTo": "12.2019",
+                "enginePowerKW": 70,
+                "enginePowerHP": 95,
+                "cc": 1397,
+                "engineCodes": "8FS (EP3), 8FN (EP3C), 8FP (EP3C)",
+                "kbaNumbers": "3003ARF",
+                "bodyType": "Hatchback",
+                "TecDocID": 33823
+              },
+              {
+                "engine": "1.5 BlueHDI 100",
+                "fullName": "PEUGEOT 208 I (CA_, CC_) 1.5 BlueHDI 100",
+                "constructionYearFrom": "05.2018",
+                "constructionYearTo": "12.2019",
+                "enginePowerKW": 75,
+                "enginePowerHP": 102,
+                "cc": 1499,
+                "engineCodes": "YHY (DV5RD)",
+                "kbaNumbers": "3003AZD",
+                "bodyType": "Hatchback",
+                "TecDocID": 131564
+              },
+              {
+                "engine": "1.6 BlueHDi 100",
+                "fullName": "PEUGEOT 208 I (CA_, CC_) 1.6 BlueHDi 100",
+                "constructionYearFrom": "01.2015",
+                "constructionYearTo": "12.2019",
+                "enginePowerKW": 73,
+                "enginePowerHP": 100,
+                "cc": 1560,
+                "engineCodes": "BHY (DV6FD)",
+                "kbaNumbers": "3003AVP",
+                "bodyType": "Hatchback",
+                "TecDocID": 111924
+              },
+              {
+                "engine": "1.6 BlueHDi 120",
+                "fullName": "PEUGEOT 208 I (CA_, CC_) 1.6 BlueHDi 120",
+                "constructionYearFrom": "01.2015",
+                "constructionYearTo": "12.2019",
+                "enginePowerKW": 88,
+                "enginePowerHP": 120,
+                "cc": 1560,
+                "engineCodes": "BHZ (DV6FC)",
+                "kbaNumbers": "3003AUJ",
+                "bodyType": "Hatchback",
+                "TecDocID": 109333
+              },
+              {
+                "engine": "1.6 e-HDi",
+                "fullName": "PEUGEOT 208 I (CA_, CC_) 1.6 e-HDi",
+                "constructionYearFrom": "07.2015",
+                "constructionYearTo": "12.2019",
+                "enginePowerKW": 82,
+                "enginePowerHP": 112,
+                "cc": 1560,
+                "engineCodes": "9HR (DV6C)",
+                "kbaNumbers": "3003ARI",
+                "bodyType": "Hatchback",
+                "TecDocID": 138228
+              },
+              {
+                "engine": "1.6 HDi",
+                "fullName": "PEUGEOT 208 I (CA_, CC_) 1.6 HDi",
+                "constructionYearFrom": "03.2012",
+                "constructionYearTo": "12.2019",
+                "enginePowerKW": 68,
+                "enginePowerHP": 92,
+                "cc": 1560,
+                "engineCodes": "9HJ (DV6DTEDM), 9HP (DV6DTED)",
+                "kbaNumbers": "3003ARH",
+                "bodyType": "Hatchback",
+                "TecDocID": 8685
+              },
+              {
+                "engine": "1.6 HDi",
+                "fullName": "PEUGEOT 208 I (CA_, CC_) 1.6 HDi",
+                "constructionYearFrom": "03.2012",
+                "constructionYearTo": "12.2019",
+                "enginePowerKW": 84,
+                "enginePowerHP": 114,
+                "cc": 1560,
+                "engineCodes": "9HD (DV6C)",
+                "kbaNumbers": "3003ARS",
+                "bodyType": "Hatchback",
+                "TecDocID": 8686
+              },
+              {
+                "engine": "1.6 HDi",
+                "fullName": "PEUGEOT 208 I (CA_, CC_) 1.6 HDi",
+                "constructionYearFrom": "01.2015",
+                "constructionYearTo": "12.2019",
+                "enginePowerKW": 85,
+                "enginePowerHP": 116,
+                "cc": 1560,
+                "engineCodes": "BHX (DV6FC)",
+                "kbaNumbers": "3003AUI",
+                "bodyType": "Hatchback",
+                "TecDocID": 117336
+              }
+            ]
+          },
+          {
+            "modelSeries": "301",
+            "targets": [
+              {
+                "engine": "1.2 VTi 82",
+                "fullName": "PEUGEOT 301 1.2 VTi 82",
+                "constructionYearFrom": "12.2014",
+                "enginePowerKW": 60,
+                "enginePowerHP": 82,
+                "cc": 1199,
+                "engineCodes": "HMZ (EB2F)",
+                "kbaNumbers": "3003AVJ",
+                "bodyType": "Saloon",
+                "TecDocID": 117339
+              },
+              {
+                "engine": "1.6 BlueHDi 100",
+                "fullName": "PEUGEOT 301 1.6 BlueHDi 100",
+                "constructionYearFrom": "04.2014",
+                "enginePowerKW": 73,
+                "enginePowerHP": 99,
+                "cc": 1560,
+                "engineCodes": "BHY (DV6FD)",
+                "kbaNumbers": "3003AWJ",
+                "bodyType": "Saloon",
+                "TecDocID": 113669
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "401071",
+    "crossNumber": "TUG/TKD-018",
+    "brand": "0AMS",
+    "compatibleVehicles": []
+  }
+]
