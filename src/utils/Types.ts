@@ -102,6 +102,26 @@ export interface CrossNumbersYV_Pair {
 
 export const referenceArray: ProductReference[] = [
 
-  { yvNo: "1", brand: "METELLI", crossNumber: "22-0100-1"},
+  //{ yvNo: "60206", brand: "FERODO", crossNumber: "FCR106A"},
+  //{ yvNo: "25906", brand: "TRW", crossNumber: "DF6307S"},
+  //{ yvNo: "21158401", brand: "BREMBO", crossNumber: "P 83 013" },
+  //{ yvNo: "21471401", brand: "BREMBO", crossNumber: "P 06 018" },
+  //{ yvNo: "21827201", brand: "BREMBO", crossNumber: "P 61 051" },
+  //{ yvNo: "21934201", brand: "BREMBO", crossNumber: "P 06 025" },
+  //{ yvNo: "24727203", brand: "BREMBO", crossNumber: "P 23 130" }
+
+  // Example of how to add more ProductReference objects:
+  //{ yvNo: "30997", brand: "0AMS", crossNumber: "TFR-017K" },
+  //{ yvNo: "251075", brand: "0AMS", crossNumber: "TJU-039" },
+  //{ yvNo: "291066", brand: "0AMS", crossNumber: "TFP-003KC" },
+  //{ yvNo: "401071", brand: "0AMS", crossNumber: "TUG/TKD-018" },
+
+
+  { yvNo: "36349", brand: "TRW", crossNumber: "DB4143" },
+  { yvNo: "22714", brand: "TRW", crossNumber: "DB4132" },
+  { yvNo: "261091", brand: "TRW", crossNumber: "DB4349" },
+  { yvNo: "341092", brand: "TEXTAR", crossNumber: "94045200" },
+  { yvNo: "161065", brand: "0AMS", crossNumber: "TKK-113" },
+  { yvNo: "341083", brand: "Dr!ve+", crossNumber: "DP1010.11.1846" },
 
 ];

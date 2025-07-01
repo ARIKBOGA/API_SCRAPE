@@ -15,7 +15,12 @@ export const SUPPLIER_NUMBERS: Record<string, string> = {
   CAUTEX: "405",
   METELLI: "121",
   SWAG: "151",
-  JAPANPARTS: "156"
+  JAPANPARTS: "156",
+  FERODO: "62",
+  "HERTH+BUSS": "55",
+  "0AMS": "7510",
+  NipoKM: "7770",
+  "Dr!ve+": "4948"
 };
 
 export const excelTitles = [
