@@ -23,6 +23,17 @@ export const SUPPLIER_NUMBERS: Record<string, string> = {
   "Dr!ve+": "4948"
 };
 
+export const producyGroupNumbersOFRepxpert: Record<string, string> = {
+  Disc:"100032",
+  Drum:"100033", 
+  Pad:"100030", 
+  Crankshaft:"101971"
+}
+
+export function getGroupNumberOfProductType(productType: string) {
+  return producyGroupNumbersOFRepxpert[productType];
+}
+
 export const excelTitles = [
   'YV',
   'SUPPLIER',

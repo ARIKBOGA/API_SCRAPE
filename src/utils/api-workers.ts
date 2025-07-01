@@ -4,8 +4,11 @@ import path from "path";
 import { CrossNumberApiProduct, CrossNumbersYV_Pair, OutputManufacturer, OutputModelSeries, ProductCompatibilityResult, ProductReference } from "./Types";
 import { delay, getManufacturerCodes, getmodelCodes, getTargets, getToken, getEncryptedSearchCode } from "./API_Worker_Functions";
 import { writeToFileIfNotExistsProducts } from "./TextUtils";
+import { getGroupNumberOfProductType } from "./Variables";
 
 dotenv.config({ path: path.resolve(".env") });
+
+const productType = process.env.PRODUCT_TYPE as string;
 
 
 
@@ -173,10 +176,12 @@ export async function processProductFor_CrossNumbers(element: ProductReference){
 
   const crossNumberURL_1 = process.env.CROSS_NUMBER_URL_1 || "";
   const crossNumberURL_2 = process.env.CROSS_NUMBER_URL_2 || "";
+  const crossNumberURL_3 = process.env.CROSS_NUMBER_URL_2 || "";
   const queryNumber = element.crossNumber;
   const querySize = "200";
+  const groupNumber = getGroupNumberOfProductType(productType);
 
-  const crossNumberURL = `${crossNumberURL_1}${queryNumber}${crossNumberURL_2}${querySize}`;
+  const crossNumberURL = `${crossNumberURL_1}${queryNumber}${crossNumberURL_2}${groupNumber}${crossNumberURL_3}${querySize}`;
   //console.log(crossNumberURL);
 
   const response = await apiContext.get(crossNumberURL, { headers: { Authorization: `Bearer ${token}` } });
