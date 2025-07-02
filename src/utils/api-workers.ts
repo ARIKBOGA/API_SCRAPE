@@ -162,7 +162,7 @@ export async function processProductFor_CrossNumbers(element: ProductReference){
   const { yvNo, brand: filterBrand, crossNumber } = element;
   console.log(`Processing YV: ${yvNo}, Brand: ${filterBrand}, Cross Number: ${crossNumber}`);
   const token = await getToken();
-  //console.log(token);
+  //console.log(`Token: `, token);
 
   if (!token) {
     console.error(`Failed to get token for YV: ${yvNo}, Brand: ${filterBrand}`);
@@ -176,13 +176,13 @@ export async function processProductFor_CrossNumbers(element: ProductReference){
 
   const crossNumberURL_1 = process.env.CROSS_NUMBER_URL_1 || "";
   const crossNumberURL_2 = process.env.CROSS_NUMBER_URL_2 || "";
-  const crossNumberURL_3 = process.env.CROSS_NUMBER_URL_2 || "";
+  const crossNumberURL_3 = process.env.CROSS_NUMBER_URL_3 || "";
   const queryNumber = element.crossNumber;
   const querySize = "200";
   const groupNumber = getGroupNumberOfProductType(productType);
 
   const crossNumberURL = `${crossNumberURL_1}${queryNumber}${crossNumberURL_2}${groupNumber}${crossNumberURL_3}${querySize}`;
-  //console.log(crossNumberURL);
+  //console.log(`Cross Number URL: ${crossNumberURL}`);
 
   const response = await apiContext.get(crossNumberURL, { headers: { Authorization: `Bearer ${token}` } });
   const data = await response.json();
