@@ -25,6 +25,8 @@ test.describe("Brand-Model Process", async () => {
 
     const carTypes: string[] = ["passengerCar", "commercialVehicle"];
     const brandMap: Map<string, string> = new Map();
+    brandMap.set("ZASTAVA", "TA-124");
+    
     const modelRecord: Record<string, Model[]> = {};
 
     test.beforeAll("Get Brands UUID Codes", async () => {
