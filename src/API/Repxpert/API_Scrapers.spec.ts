@@ -8,10 +8,10 @@ import { referenceArray } from "../../utils/Variables";
 
 dotenv.config({ path: path.resolve(".env") });
 const productType = process.env.PRODUCT_TYPE as string;
-const filterBrand = (process.env.FILTER_BRAND as string) !== "" ? process.env.FILTER_BRAND as string : "LOADED_NOT_FOUND";
+const filterBrand = (process.env.FILTER_BRAND as string) !== "" ? process.env.FILTER_BRAND as string : "LOADED_NOT_FOUND_commercialVehicles";
 
 async function processProducts(processFunction: Function, fileName: string, threadLimit: number, processFor: string) {
-  const productReferences = readProductReferencesFromExcel();
+  //const productReferences = readProductReferencesFromExcel();
 
   const { default: pLimit } = await import("p-limit");
   const limit = pLimit(threadLimit);
@@ -42,7 +42,7 @@ test("Get OE numbers for all products", async () => {
 test("Get Vehicle Compatibility for all products", async () => {
   test.setTimeout(20 * 60 * 1000);
   console.log(`Processing Vehicle Compatibility for brand: ${filterBrand}`);
-  await processProducts(processProductFor_VehicleCompatibility, `Vehicle-Compatibility_LOADED_NOT_FOUND.json`, 2, "Vehicle-Compatibility");
+  await processProducts(processProductFor_VehicleCompatibility, `Vehicle-Compatibility_${filterBrand}.json`, 2, "Vehicle-Compatibility");
 });
 
 test("Get cross numbers via given cross/OE numbers", async () => {
@@ -50,3 +50,30 @@ test("Get cross numbers via given cross/OE numbers", async () => {
   console.log(`Processing Cross Numbers for brand: ${filterBrand}`);
   await processProducts(processProductFor_CrossNumbers, `Cross-Numbers_${productType}_${filterBrand}.json`, 3, "Cross-Numbers");
 });
+
+
+test('Get token only', async ({request}) => {
+  const requestBody = new URLSearchParams({
+    grant_type: process.env.grant_type || "password",
+    client_id: process.env.client_id || "repxpert-GB",
+    client_secret: process.env.client_secret || "client_secret",
+    username: process.env.username || "username",
+    password: process.env.password || "password",
+  });
+
+  const tokenHeaders = {
+  "Content-Type": "application/x-www-form-urlencoded",
+  Accept: "application/json",
+  };
+
+  const tokenResponse = await request.post("https://api-aftermarket.schaeffler.de/authorizationserver/oauth/token?catalogCountry=GB", {
+    headers: tokenHeaders,
+    data: requestBody.toString(),
+  });
+
+  const jsonData = await tokenResponse.json();
+  console.log("Token Response:", jsonData);
+
+
+ 
+})
