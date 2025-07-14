@@ -42,3 +42,7 @@ export function serializeArrayOfMaps(arr: Array<Map<string, Map<string, string[]
     return obj;
   });
 }
+
+export function normalize_OE(oe: string): string {
+  return oe.replace(/[^a-zA-Z0-9]/g, '');
+}
