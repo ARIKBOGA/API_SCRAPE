@@ -8,7 +8,7 @@ import { referenceArray } from "../../utils/Variables";
 
 dotenv.config({ path: path.resolve(".env") });
 const productType = process.env.PRODUCT_TYPE as string;
-const filterBrand = (process.env.FILTER_BRAND as string) !== "" ? process.env.FILTER_BRAND as string : "LOADED_NOT_FOUND_commercialVehicles";
+const filterBrand = (process.env.FILTER_BRAND as string) !== "" ? process.env.FILTER_BRAND as string : "LOADED_NOT_FOUND_COMMERCIAL_REMINDER";
 
 async function processProducts(processFunction: Function, fileName: string, threadLimit: number, processFor: string) {
   //const productReferences = readProductReferencesFromExcel();
@@ -53,12 +53,13 @@ test("Get cross numbers via given cross/OE numbers", async () => {
 
 
 test('Get token only', async ({request}) => {
+  const env = process.env;
   const requestBody = new URLSearchParams({
-    grant_type: process.env.grant_type || "password",
-    client_id: process.env.client_id || "repxpert-GB",
-    client_secret: process.env.client_secret || "client_secret",
-    username: process.env.username || "username",
-    password: process.env.password || "password",
+    grant_type: env.grant_type || "",
+    client_id: env.client_id|| "",
+    client_secret: env.client_secret || "",
+    username: env.email || "",
+    password: env.password ||"",
   });
 
   const tokenHeaders = {
@@ -66,7 +67,7 @@ test('Get token only', async ({request}) => {
   Accept: "application/json",
   };
 
-  const tokenResponse = await request.post("https://api-aftermarket.schaeffler.de/authorizationserver/oauth/token?catalogCountry=GB", {
+  const tokenResponse = await request.post("https://www.repxpert.co.uk/authorizationserver/oauth/token?catalogCountry=GB", {
     headers: tokenHeaders,
     data: requestBody.toString(),
   });
