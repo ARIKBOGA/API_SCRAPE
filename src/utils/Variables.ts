@@ -5,9 +5,11 @@ export const SUPPLIER_NUMBERS: Record<string, string> = {
   "Dr!ve+": "4948",
   "HERTH+BUSS": "55",
   "KAVO PARTS": "201",
-  "RED-LINE": "4869",
   ABE: "4426",
+  AP: "283",
+  "A.B.S.": "206",
   "ALLIED NIPPON": "7662",
+  "BORG & BECK": "475",
   BREMBO: "65",
   BSG: "4455",
   CAUTEX: "405",
@@ -29,7 +31,9 @@ export const SUPPLIER_NUMBERS: Record<string, string> = {
   NipoKM: "7770",
   NK: "127",
   NPS: "440",
+  "RED-LINE": "4869",
   RIDEX: "6358",
+  ROADHOUSE: "152",
   RUVILLE: "23",
   SWAG: "151",
   TEXTAR: "39",
@@ -127,33 +131,24 @@ export const bodyTypes = [
 ];
 
 export const referenceArray: ProductReference[] = [
-  //{ yvNo: "60206", brand: "FERODO", crossNumber: "FCR106A"},
-  //{ yvNo: "25906", brand: "TRW", crossNumber: "DF6307S"},
-  //{ yvNo: "21158401", brand: "BREMBO", crossNumber: "P 83 013" },
-  //{ yvNo: "21471401", brand: "BREMBO", crossNumber: "P 06 018" },
-  //{ yvNo: "21827201", brand: "BREMBO", crossNumber: "P 61 051" },
-  //{ yvNo: "21934201", brand: "BREMBO", crossNumber: "P 06 025" },
-  //{ yvNo: "24727203", brand: "BREMBO", crossNumber: "P 23 130" }
-
-  // Example of how to add more ProductReference objects:
-  //{ yvNo: "30997", brand: "0AMS", crossNumber: "TFR-017K" },
-  //{ yvNo: "251075", brand: "0AMS", crossNumber: "TJU-039" },
-  //{ yvNo: "291066", brand: "0AMS", crossNumber: "TFP-003KC" },
-  //{ yvNo: "401071", brand: "0AMS", crossNumber: "TUG/TKD-018" },
-
-  //{ yvNo: "36349", brand: "TRW", crossNumber: "DB4143" },
-  //{ yvNo: "22714", brand: "TRW", crossNumber: "DB4132" },
-  //{ yvNo: "261091", brand: "TRW", crossNumber: "DB4349" },
-  //{ yvNo: "341092", brand: "TEXTAR", crossNumber: "94045200" },
-  //{ yvNo: "161065", brand: "0AMS", crossNumber: "TKK-113" },
-  //{ yvNo: "341083", brand: "Dr!ve+", crossNumber: "DP1010.11.1846" },
-  //{ yvNo: "20002201", brand: "OE", crossNumber: "3250077" },
 
   // LOADED NOT FOUND DISC
-  
-  
-  { yvNo: "201076", brand: "BREMBO", crossNumber: "09.B564.10" },
-  { yvNo: "201077", brand: "BREMBO", crossNumber: "09.B562.10" },
-  { yvNo: "601079", brand: "BREMBO", crossNumber: "09.A315.10" },
-  
+
+  //{ yvNo: "40369", brand: "FREMAX", crossNumber: "BD-3024" },
+  //{ yvNo: "40748", brand: "NipoKM", crossNumber: "DI.IZ374" },
+  //{ yvNo: "25730", brand: "TRW", crossNumber: "DF6640S" },
+  //{ yvNo: "37787", brand: "RED-LINE", crossNumber: "26GI002" },
+  //{ yvNo: "25901", brand: "ROADHOUSE", crossNumber: "62524.10" },
+  //{ yvNo: "40904", brand: "YUMAK", crossNumber: "107.01.029" },
+  //{ yvNo: "25905", brand: "YUMAK", crossNumber: "107.01.069" },
+  //{ yvNo: "63998", brand: "DANAHER", crossNumber: "DR12726" },
+  //{ yvNo: "601078", brand: "YUMAK", crossNumber: "107.01.031" },
+  //{ yvNo: "401539", brand: "A.B.S.", crossNumber: "18717" },
+  //{ yvNo: "251540", brand: "TRW", crossNumber: "DF6307S" },
+  //{ yvNo: "681547", brand: "JAPANPARTS", crossNumber: "DP-012C" },
+  //{ yvNo: "721557", brand: "FEBI", crossNumber: "198756" },
+
+  { yvNo: "23515408", brand: "BREMBO", crossNumber: "P 54 059" },
+  { yvNo: "25209201", brand: "BREMBO", crossNumber: "P 83 140" },
+
 ];
