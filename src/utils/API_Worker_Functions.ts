@@ -34,7 +34,7 @@ export async function getToken(): Promise<string | null> {
     grant_type: process.env.grant_type || "password",
     client_id: process.env.client_id || "repxpert-GB",
     client_secret: process.env.client_secret || "client_secret",
-    username: process.env.email || "username",
+    username: process.env.username || "username",
     password: process.env.password || "password",
   });
 
