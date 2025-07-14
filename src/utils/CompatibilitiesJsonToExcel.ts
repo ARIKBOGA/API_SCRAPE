@@ -148,7 +148,7 @@ export function convertJsonToExcel(inputFilePath: string, outputDirectory: strin
     if (!fs.existsSync(outputDirectory)) fs.mkdirSync(outputDirectory, { recursive: true });
 
     // Write the workbook to a file with a modified name
-    XLSX.writeFile(workbook, path.join(outputDirectory, `${path.basename(inputFilePath.slice(0, -5).concat('-VOLKSWAGEN'))}.xlsx`));
+    XLSX.writeFile(workbook, path.join(outputDirectory, `${path.basename(inputFilePath.slice(0, -5))}.xlsx`));
     console.log(`Data successfully exported to Excel: ${outputDirectory}`);
 
   } catch (error) {
