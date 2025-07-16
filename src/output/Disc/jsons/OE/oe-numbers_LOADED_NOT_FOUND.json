@@ -2367,5 +2367,595 @@
         ]
       }
     ]
+  },
+  {
+    "yvNo": "13001",
+    "crossNumber": "BSG 30-210-040",
+    "supplier": "BSG",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "711M 1125 AA"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "18068",
+    "crossNumber": "61139 10",
+    "supplier": "KAWE",
+    "oeNumbers": [
+      {
+        "manufacturer": "KIA",
+        "numbers": [
+          "0K71E33251"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "33247",
+    "crossNumber": "800-232C",
+    "supplier": "CIFAM",
+    "oeNumbers": [
+      {
+        "manufacturer": "ABARTH",
+        "numbers": [
+          "46403960",
+          "51859078",
+          "51876438",
+          "71738421",
+          "71769481",
+          "7645054",
+          "7663465",
+          "7685656"
+        ]
+      },
+      {
+        "manufacturer": "ALFA ROMEO",
+        "numbers": [
+          "60576335",
+          "60800345",
+          "60805117",
+          "60811879",
+          "71739572"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "46403960",
+          "51859078",
+          "51876438",
+          "71738421",
+          "71769481",
+          "7645054",
+          "7663465",
+          "7685656"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1541804",
+          "1715410"
+        ]
+      },
+      {
+        "manufacturer": "LANCIA",
+        "numbers": [
+          "46403960",
+          "7566931",
+          "7663465"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "43302",
+    "crossNumber": "L330R03",
+    "supplier": "NPS",
+    "oeNumbers": [
+      {
+        "manufacturer": "ROVER",
+        "numbers": [
+          "277 942103704"
+        ]
+      },
+      {
+        "manufacturer": "TATA",
+        "numbers": [
+          "270242103714",
+          "2779 4210 3704"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "40369",
+    "crossNumber": "BD-3024",
+    "supplier": "FREMAX",
+    "oeNumbers": [
+      {
+        "manufacturer": "ISUZU",
+        "numbers": [
+          "8-97168-632-1",
+          "8-97371-877-0",
+          "8-97387-228-0",
+          "8-98105-058-0",
+          "8-98248-895-0",
+          "8981050580",
+          "8982488950",
+          "98105058"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "43398",
+    "crossNumber": "DI-016C",
+    "supplier": "JAPANPARTS",
+    "oeNumbers": [
+      {
+        "manufacturer": "TATA",
+        "numbers": [
+          "271942103704"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "43399",
+    "crossNumber": "DI-017C",
+    "supplier": "JAPANPARTS",
+    "oeNumbers": [
+      {
+        "manufacturer": "TATA",
+        "numbers": [
+          "271942103701",
+          "271942103702",
+          "288842103703"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "43464",
+    "crossNumber": "DI-074C",
+    "supplier": "JAPANPARTS",
+    "oeNumbers": [
+      {
+        "manufacturer": "TATA",
+        "numbers": [
+          "289642103701"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "32472",
+    "crossNumber": "C38006ABE",
+    "supplier": "ABE",
+    "oeNumbers": [
+      {
+        "manufacturer": "CHEVROLET",
+        "numbers": [
+          "96067908"
+        ]
+      },
+      {
+        "manufacturer": "MARUTI",
+        "numbers": [
+          "55311-80F02",
+          "5531180F00",
+          "5531180F01"
+        ]
+      },
+      {
+        "manufacturer": "SUBARU",
+        "numbers": [
+          "5531180F00",
+          "5531180F01",
+          "5531180F02"
+        ]
+      },
+      {
+        "manufacturer": "SUZUKI",
+        "numbers": [
+          "09.5857.14",
+          "55311-60B30",
+          "5531180F00",
+          "5531180F01",
+          "5531180F02"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "68468",
+    "crossNumber": "DF2571",
+    "supplier": "TRW",
+    "oeNumbers": [
+      {
+        "manufacturer": "CHERY",
+        "numbers": [
+          "T11-3501075"
+        ]
+      },
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "E9 2Z1 125 A",
+          "GJ25-3525-XD"
+        ]
+      },
+      {
+        "manufacturer": "FORD USA",
+        "numbers": [
+          "E9 2Z1 125 A",
+          "GJ25-3525-XD"
+        ]
+      },
+      {
+        "manufacturer": "MAZDA",
+        "numbers": [
+          "GJ25-33-25XB",
+          "GJ25-33-25XC",
+          "GJ25-33-25XD",
+          "GJ55-33-25XA",
+          "GJ55-33-25XB",
+          "GJ55-33-25XC",
+          "GJ55-33-25XD",
+          "GJ55-35-25XD"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "67517",
+    "crossNumber": "09.E835.11",
+    "supplier": "BREMBO",
+    "oeNumbers": [
+      {
+        "manufacturer": "LEXUS",
+        "numbers": [
+          "4351248120"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "25512",
+    "crossNumber": "16671",
+    "supplier": "A.B.S.",
+    "oeNumbers": [
+      {
+        "manufacturer": "MITSUBISHI",
+        "numbers": [
+          "MB 895730"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "27093",
+    "crossNumber": "BG4155",
+    "supplier": "DELPHI",
+    "oeNumbers": [
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "51806099",
+          "51806103",
+          "51830236",
+          "55700398",
+          "55700918"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "569022",
+          "569029",
+          "569032",
+          "90008004",
+          "90008007",
+          "90008033",
+          "90121019",
+          "93188916"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "569022",
+          "569029",
+          "569032",
+          "90008004",
+          "90008007",
+          "90008033",
+          "90121019",
+          "93188916"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "40748",
+    "crossNumber": "DI.IZ374",
+    "supplier": "NipoKM",
+    "oeNumbers": [
+      {
+        "manufacturer": "ISUZU",
+        "numbers": [
+          "8-98191-956-0"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "25730",
+    "crossNumber": "DF6640S",
+    "supplier": "TRW",
+    "oeNumbers": [
+      {
+        "manufacturer": "FUSO (MITSUBISHI)",
+        "numbers": [
+          "MK326334",
+          "MK584503"
+        ]
+      },
+      {
+        "manufacturer": "MITSUBISHI",
+        "numbers": [
+          "MK326334"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "37787",
+    "crossNumber": "26GI002",
+    "supplier": "RED-LINE",
+    "oeNumbers": [
+      {
+        "manufacturer": "DFSK",
+        "numbers": [
+          "3501101-EK01"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "25901",
+    "crossNumber": "62524.10",
+    "supplier": "ROADHOUSE",
+    "oeNumbers": [
+      {
+        "manufacturer": "MITSUBISHI",
+        "numbers": [
+          "MK356524",
+          "MK584496"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "40904",
+    "crossNumber": "107.01.029",
+    "supplier": "YUMAK",
+    "oeNumbers": [
+      {
+        "manufacturer": "ISUZU",
+        "numbers": [
+          "3870135410",
+          "3870143170"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "25905",
+    "crossNumber": "107.01.069",
+    "supplier": "YUMAK",
+    "oeNumbers": [
+      {
+        "manufacturer": "MITSUBISHI",
+        "numbers": [
+          "MK584503Y"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "15785CS",
+    "crossNumber": "DDF3179C",
+    "supplier": "FERODO",
+    "oeNumbers": [
+      {
+        "manufacturer": "HONDA",
+        "numbers": [
+          "42510TBAA00",
+          "42510TEAT01"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "63998",
+    "crossNumber": "DR12726",
+    "supplier": "DANAHER",
+    "oeNumbers": [
+      {
+        "manufacturer": "GAZ",
+        "numbers": [
+          "A21R233501078"
+        ]
+      },
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "A21R233501078"
+        ]
+      },
+      {
+        "manufacturer": "METACO",
+        "numbers": [
+          "3050-393"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "601078",
+    "crossNumber": "107.01.031",
+    "supplier": "YUMAK",
+    "oeNumbers": [
+      {
+        "manufacturer": "OTOKAR",
+        "numbers": [
+          "13C33-05572AA"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "431512",
+    "crossNumber": "DI-029C",
+    "supplier": "JAPANPARTS",
+    "oeNumbers": [
+      {
+        "manufacturer": "TATA",
+        "numbers": [
+          "287442103701",
+          "288842103704"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "69898",
+    "crossNumber": "DR11716",
+    "supplier": "DANAHER",
+    "oeNumbers": [
+      {
+        "manufacturer": "ALFAROME/FIAT/LANCI",
+        "numbers": [
+          "71742850",
+          "71750162",
+          "71768306"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "71742850",
+          "71750162",
+          "71768306"
+        ]
+      },
+      {
+        "manufacturer": "METACO",
+        "numbers": [
+          "3050-037"
+        ]
+      },
+      {
+        "manufacturer": "SUZUKI",
+        "numbers": [
+          "5531179J01",
+          "5531179J01000",
+          "5531179J02"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "401539",
+    "crossNumber": "18717",
+    "supplier": "A.B.S.",
+    "oeNumbers": [
+      {
+        "manufacturer": "ISUZU",
+        "numbers": [
+          "8980240060",
+          "8982488970",
+          "98248897"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "251540",
+    "crossNumber": "DF6307S",
+    "supplier": "TRW",
+    "oeNumbers": [
+      {
+        "manufacturer": "FUSO (MITSUBISHI)",
+        "numbers": [
+          "MK374048",
+          "MX925100"
+        ]
+      },
+      {
+        "manufacturer": "MITSUBISHI",
+        "numbers": [
+          "MK374048"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "681547",
+    "crossNumber": "DP-012C",
+    "supplier": "JAPANPARTS",
+    "oeNumbers": [
+      {
+        "manufacturer": "CHERY",
+        "numbers": [
+          "M11-3502075",
+          "M113502075"
+        ]
+      },
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "11-3502075",
+          "A11-3502075",
+          "M11-3502075"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "721556",
+    "crossNumber": "198760",
+    "supplier": "FEBI",
+    "oeNumbers": [
+      {
+        "manufacturer": "BYD",
+        "numbers": [
+          "13781672-00",
+          "HA2EL-3501111A"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "721557",
+    "crossNumber": "198756",
+    "supplier": "FEBI",
+    "oeNumbers": [
+      {
+        "manufacturer": "BYD",
+        "numbers": [
+          "13781674-00",
+          "14319365-00",
+          "EM2EU-3502114A-D2",
+          "SCF-3502114A-D2"
+        ]
+      }
+    ]
   }
 ]

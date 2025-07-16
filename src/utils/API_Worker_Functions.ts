@@ -32,9 +32,9 @@ export async function getToken(): Promise<string | null> {
 
   const formBody = new URLSearchParams({
     grant_type: process.env.grant_type || "password",
-    client_id: process.env.client_id || "repxpert-GB",
+    client_id: process.env.client_id || "repxpert-spa",
     client_secret: process.env.client_secret || "client_secret",
-    username: process.env.username || "username",
+    username: process.env.email || "username",
     password: process.env.password || "password",
   });
 

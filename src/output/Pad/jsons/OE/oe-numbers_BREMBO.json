@@ -12457,12 +12457,88 @@
         ]
       }
     ]
-  },
+  }, 
   {
     "yvNo": "23515408",
-    "crossNumber": "P 49 040",
+    "crossNumber": "P 54 059",
     "supplier": "BREMBO",
-    "oeNumbers": []
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "7T432001AA",
+          "7T4Z2001A",
+          "7T4Z2V001AA",
+          "7U2J2C452AA",
+          "8T432200BA",
+          "BT432001AB",
+          "BT4Z2001A",
+          "BT4Z2001B"
+        ]
+      },
+      {
+        "manufacturer": "FORD USA",
+        "numbers": [
+          "BT432001AA",
+          "BT4Z2001A"
+        ]
+      },
+      {
+        "manufacturer": "LINCOLN",
+        "numbers": [
+          "BR1258B",
+          "BRF901",
+          "BT4Z2001A"
+        ]
+      },
+      {
+        "manufacturer": "MAZDA",
+        "numbers": [
+          "4605C248",
+          "EHY23328Z",
+          "EHY43328Z",
+          "EHY53328ZA",
+          "EHY53328ZB",
+          "KCYR3328Z",
+          "L26Y3328ZA",
+          "L2Y63323Z",
+          "L2Y63328Z",
+          "L2Y63328ZA",
+          "TAY03328Z",
+          "TKY83328Z",
+          "TKY83328ZA",
+          "TKY83328ZB"
+        ]
+      },
+      {
+        "manufacturer": "MITSUBISHI",
+        "numbers": [
+          "4605B541",
+          "L2Y63328Z",
+          "L2Y63328ZB",
+          "L2Y63329Z"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "25209201",
+    "crossNumber": "P 83 140",
+    "supplier": "BREMBO",
+    "oeNumbers": [
+      {
+        "manufacturer": "TOYOTA",
+        "numbers": [
+          "044650K240",
+          "044650K260",
+          "044650K300",
+          "044650K320",
+          "044650K330",
+          "044650K340",
+          "04465YZZEF"
+        ]
+      }
+    ]
   },
   {
     "yvNo": "23517204",

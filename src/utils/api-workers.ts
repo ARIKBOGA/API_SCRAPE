@@ -203,6 +203,7 @@ export async function processProductFor_CrossNumbers(element: ProductReference){
 
   return {
     yvNo: element.yvNo,
+    OE: element.crossNumber,
     crossNumbers: targets
   }
 
