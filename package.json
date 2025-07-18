@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "oe": "ts-node src/utils/OE_Numbers_JsonToExcel.ts",
+    "compatibility": "ts-node src/utils/CompatibilitiesJsonToExcel.ts",
+    "crossNumbers": "ts-node src/utils/CrossNumbersToExcel.ts"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
