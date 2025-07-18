@@ -48,7 +48,7 @@ test("Get Vehicle Compatibility for all products", async () => {
 test("Get cross numbers via given cross/OE numbers", async () => {
   test.setTimeout(20 * 60 * 1000);
   console.log(`Processing Cross Numbers for brand: ${filterBrand}`);
-  await processProducts(processProductFor_CrossNumbers, `Cross-Numbers_${productType}_NOT_FOUND_OE_1.json`, 3, "Cross-Numbers");
+  await processProducts(processProductFor_CrossNumbers, `Cross-Numbers_${productType}_${filterBrand}.json`, 3, "Cross-Numbers");
 });
 
 
