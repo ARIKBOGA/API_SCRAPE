@@ -11,19 +11,19 @@ const productType = process.env.PRODUCT_TYPE as string;
 const filterBrand = (process.env.FILTER_BRAND as string) !== "" ? process.env.FILTER_BRAND as string : "LOADED_NOT_FOUND_COMMERCIAL_REMINDER";
 
 async function processProducts(processFunction: Function, fileName: string, threadLimit: number, processFor: string) {
-  //const productReferences = readProductReferencesFromExcel();
+  const productReferences = readProductReferencesFromExcel();
 
   const { default: pLimit } = await import("p-limit");
   const limit = pLimit(threadLimit);
 
   const results = (await Promise.all(
-    //productReferences
-    referenceArray
+    productReferences
+      //referenceArray
       .filter(
         (productRef) =>
-          //productRef.brand === filterBrand &&               // process only given brand in .env file
+          productRef.brand === filterBrand &&               // process only given brand in .env file
           productRef.crossNumber.trim() !== ""              // skip empty cells comes from excel
-          //&& !productRef.crossNumber.trim().includes(" ")    // skip cross numbers with spaces
+        //&& !productRef.crossNumber.trim().includes(" ")    // skip cross numbers with spaces
       )
       //.slice(40)
       .map((productRef) => limit(() => processFunction(productRef)))
@@ -52,19 +52,19 @@ test("Get cross numbers via given cross/OE numbers", async () => {
 });
 
 
-test('Get token only', async ({request}) => {
+test('Get token only', async ({ request }) => {
   const env = process.env;
   const requestBody = new URLSearchParams({
     grant_type: env.grant_type || "",
-    client_id: env.client_id|| "",
+    client_id: env.client_id || "",
     client_secret: env.client_secret || "",
     username: env.email || "",
-    password: env.password ||"",
+    password: env.password || "",
   });
 
   const tokenHeaders = {
-  "Content-Type": "application/x-www-form-urlencoded",
-  Accept: "application/json",
+    "Content-Type": "application/x-www-form-urlencoded",
+    Accept: "application/json",
   };
 
   const tokenResponse = await request.post("https://www.repxpert.co.uk/authorizationserver/oauth/token?catalogCountry=GB", {
@@ -76,5 +76,5 @@ test('Get token only', async ({request}) => {
   console.log("Token Response:", jsonData);
 
 
- 
+
 })
