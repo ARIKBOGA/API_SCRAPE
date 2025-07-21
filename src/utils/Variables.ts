@@ -19,6 +19,7 @@ export const SUPPLIER_NUMBERS: Record<string, string> = {
   CORTECO: "140",
   DANAHER: "4587",
   DELPHI: "89",
+  "EBC Brakes": "6368",
   EUROBRAKE: "4770",
   FAI: "267",
   FEBI: "101",
@@ -147,4 +148,6 @@ export const bodyTypes = [
   "Van"
 ];
 
-export const referenceArray: ProductReference[] = [];
+export const referenceArray: ProductReference[] = [
+  { yvNo: "13047", brand: "EBC Brakes", crossNumber: "D032"}
+];

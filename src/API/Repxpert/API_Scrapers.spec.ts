@@ -17,11 +17,11 @@ async function processProducts(processFunction: Function, fileName: string, thre
   const limit = pLimit(threadLimit);
 
   const results = (await Promise.all(
-    productReferences
-      //referenceArray
+    //productReferences
+      referenceArray
       .filter(
         (productRef) =>
-          productRef.brand === filterBrand &&               // process only given brand in .env file
+          //productRef.brand === filterBrand &&               // process only given brand in .env file
           productRef.crossNumber.trim() !== ""              // skip empty cells comes from excel
         //&& !productRef.crossNumber.trim().includes(" ")    // skip cross numbers with spaces
       )

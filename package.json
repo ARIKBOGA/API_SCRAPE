@@ -15,6 +15,7 @@
   "type": "commonjs",
   "devDependencies": {
     "@playwright/test": "^1.53.1",
+    "@types/exceljs": "^0.5.3",
     "@types/node": "^24.0.3",
     "@types/p-limit": "^2.1.0",
     "@types/xlsx": "^0.0.35",
@@ -25,6 +26,7 @@
   "dependencies": {
     "@types/dotenv": "^6.1.1",
     "async-mutex": "^0.5.0",
+    "exceljs": "^4.4.0",
     "p-limit": "^6.2.0",
     "xlsx": "^0.18.5"
   }
