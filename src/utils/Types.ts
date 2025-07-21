@@ -99,3 +99,17 @@ export interface CrossNumbersYV_Pair {
   yvNo: string;
   crossNumbers: CrossNumberApiProduct[];
 }
+
+export type CrossNumberElement = {
+  Supplier: string;
+  ArticleNumber: string;
+  StatusCode: string;
+  StatusMessage: string;
+  ApiCode: string;
+}
+
+export type CrossNumberJson = {
+  yvNo: string;
+  OE: string;
+  crossNumbers: CrossNumberElement[];
+}

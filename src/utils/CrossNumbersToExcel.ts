@@ -18,13 +18,12 @@ jsonData.forEach((element: any) => {
     yv_OE_map.set(element.yvNo, element.OE);
 });
 
-const rowData : Record<string, Record<string, string>> = {}; // yvNo: <supplier: crossNumber(joined with ",")>
+const rowData : Record<string, Record<string, string>> = {}; // key: yvNo, value: Record<string, string>
 
 for(const element of jsonData){
     //const element: CrossNumbersYV_Pair = JSON.parse(each);
     const crossNumber: CrossNumberApiProduct[] = element.crossNumbers;
     const crossPairs : Record<string, string> = {};   // supplier: crossNumber(joined with ",")
-    const OE = element.OE;
 
     for(const each of crossNumber){
         const supplier = each.Supplier;
