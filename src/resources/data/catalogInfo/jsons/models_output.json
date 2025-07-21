@@ -167,12 +167,12 @@
       },
       {
         "name": "INTEGRA Saloon",
-        "code": "TA-6041",
+        "code": "TA-6043",
         "type": "passengerCar"
       },
       {
         "name": "INTEGRA Saloon",
-        "code": "TA-6043",
+        "code": "TA-6041",
         "type": "passengerCar"
       },
       {
@@ -1484,12 +1484,12 @@
       },
       {
         "name": "VANQUISH Vantage",
-        "code": "TA-4799",
+        "code": "TA-10732",
         "type": "passengerCar"
       },
       {
         "name": "VANQUISH Vantage",
-        "code": "TA-10732",
+        "code": "TA-4799",
         "type": "passengerCar"
       },
       {
@@ -2355,12 +2355,12 @@
       },
       {
         "name": "SENOVA D50",
-        "code": "TA-38305",
+        "code": "TA-11630",
         "type": "passengerCar"
       },
       {
         "name": "SENOVA D50",
-        "code": "TA-11630",
+        "code": "TA-38305",
         "type": "passengerCar"
       },
       {
@@ -2390,12 +2390,12 @@
       },
       {
         "name": "SENOVA X55",
-        "code": "TA-36274",
+        "code": "TA-38958",
         "type": "passengerCar"
       },
       {
         "name": "SENOVA X55",
-        "code": "TA-38958",
+        "code": "TA-36274",
         "type": "passengerCar"
       },
       {
@@ -2539,6 +2539,178 @@
         "name": "TK/MK",
         "code": "TA-13511",
         "type": "commercialVehicle"
+      }
+    ],
+    "BENELLI": [
+      {
+        "name": "125",
+        "code": "TA-12093",
+        "type": "passengerCar"
+      },
+      {
+        "name": "250-2",
+        "code": "TA-12094",
+        "type": "passengerCar"
+      },
+      {
+        "name": "254",
+        "code": "TA-12095",
+        "type": "passengerCar"
+      },
+      {
+        "name": "2C",
+        "code": "TA-14780",
+        "type": "passengerCar"
+      },
+      {
+        "name": "304",
+        "code": "TA-12096",
+        "type": "passengerCar"
+      },
+      {
+        "name": "350",
+        "code": "TA-14781",
+        "type": "passengerCar"
+      },
+      {
+        "name": "354",
+        "code": "TA-12097",
+        "type": "passengerCar"
+      },
+      {
+        "name": "491",
+        "code": "TA-12098",
+        "type": "passengerCar"
+      },
+      {
+        "name": "500",
+        "code": "TA-14778",
+        "type": "passengerCar"
+      },
+      {
+        "name": "502",
+        "code": "TA-43602",
+        "type": "passengerCar"
+      },
+      {
+        "name": "654",
+        "code": "TA-12099",
+        "type": "passengerCar"
+      },
+      {
+        "name": "750",
+        "code": "TA-14779",
+        "type": "passengerCar"
+      },
+      {
+        "name": "752S",
+        "code": "TA-42948",
+        "type": "passengerCar"
+      },
+      {
+        "name": "900",
+        "code": "TA-12100",
+        "type": "passengerCar"
+      },
+      {
+        "name": "ADIVA",
+        "code": "TA-12101",
+        "type": "passengerCar"
+      },
+      {
+        "name": "BN",
+        "code": "TA-36267",
+        "type": "passengerCar"
+      },
+      {
+        "name": "BX",
+        "code": "TA-36270",
+        "type": "passengerCar"
+      },
+      {
+        "name": "DONG",
+        "code": "TA-45541",
+        "type": "passengerCar"
+      },
+      {
+        "name": "IMPERIALE",
+        "code": "TA-40016",
+        "type": "passengerCar"
+      },
+      {
+        "name": "LEONCINO",
+        "code": "TA-36269",
+        "type": "passengerCar"
+      },
+      {
+        "name": "MOTOBI",
+        "code": "TA-45540",
+        "type": "passengerCar"
+      },
+      {
+        "name": "NAKED",
+        "code": "TA-12102",
+        "type": "passengerCar"
+      },
+      {
+        "name": "PANAREA",
+        "code": "TA-45544",
+        "type": "passengerCar"
+      },
+      {
+        "name": "PATAGONIAN",
+        "code": "TA-45543",
+        "type": "passengerCar"
+      },
+      {
+        "name": "PEPE",
+        "code": "TA-12103",
+        "type": "passengerCar"
+      },
+      {
+        "name": "QUATTRONOVE X",
+        "code": "TA-38432",
+        "type": "passengerCar"
+      },
+      {
+        "name": "RCX",
+        "code": "TA-44104",
+        "type": "passengerCar"
+      },
+      {
+        "name": "S",
+        "code": "TA-12104",
+        "type": "passengerCar"
+      },
+      {
+        "name": "TNT",
+        "code": "TA-13554",
+        "type": "passengerCar"
+      },
+      {
+        "name": "TORNADO",
+        "code": "TA-12105",
+        "type": "passengerCar"
+      },
+      {
+        "name": "TREK",
+        "code": "TA-13553",
+        "type": "passengerCar"
+      },
+      {
+        "name": "TRK",
+        "code": "TA-36268",
+        "type": "passengerCar"
+      },
+      {
+        "name": "VELVET",
+        "code": "TA-12106",
+        "type": "passengerCar"
+      },
+      {
+        "name": "ZAFFERANO",
+        "code": "TA-45542",
+        "type": "passengerCar"
       }
     ],
     "BENTLEY": [
@@ -3697,6 +3869,608 @@
         "type": "passengerCar"
       }
     ],
+    "BUICK": [
+      {
+        "name": "ALLURE Saloon (GE)",
+        "code": "TA-11698",
+        "type": "passengerCar"
+      },
+      {
+        "name": "ALLURE Saloon",
+        "code": "TA-30435",
+        "type": "passengerCar"
+      },
+      {
+        "name": "APOLLO Coupe",
+        "code": "TA-37594",
+        "type": "passengerCar"
+      },
+      {
+        "name": "APOLLO Hatchback",
+        "code": "TA-37595",
+        "type": "passengerCar"
+      },
+      {
+        "name": "APOLLO Saloon",
+        "code": "TA-30436",
+        "type": "passengerCar"
+      },
+      {
+        "name": "CASCADA",
+        "code": "TA-14970",
+        "type": "passengerCar"
+      },
+      {
+        "name": "CENTURION Hardtop",
+        "code": "TA-30438",
+        "type": "passengerCar"
+      },
+      {
+        "name": "CENTURY Coupe (4A_)",
+        "code": "TA-6638",
+        "type": "passengerCar"
+      },
+      {
+        "name": "CENTURY Coupe",
+        "code": "TA-11700",
+        "type": "passengerCar"
+      },
+      {
+        "name": "CENTURY Coupe",
+        "code": "TA-30440",
+        "type": "passengerCar"
+      },
+      {
+        "name": "CENTURY Estate (4_35)",
+        "code": "TA-5941",
+        "type": "passengerCar"
+      },
+      {
+        "name": "CENTURY Estate (A)",
+        "code": "TA-6639",
+        "type": "passengerCar"
+      },
+      {
+        "name": "CENTURY Estate",
+        "code": "TA-30442",
+        "type": "passengerCar"
+      },
+      {
+        "name": "CENTURY Saloon",
+        "code": "TA-5938",
+        "type": "passengerCar"
+      },
+      {
+        "name": "CENTURY Saloon",
+        "code": "TA-6640",
+        "type": "passengerCar"
+      },
+      {
+        "name": "CENTURY Saloon",
+        "code": "TA-6748",
+        "type": "passengerCar"
+      },
+      {
+        "name": "CENTURY Saloon",
+        "code": "TA-1986",
+        "type": "passengerCar"
+      },
+      {
+        "name": "CENTURY Saloon",
+        "code": "TA-14505",
+        "type": "passengerCar"
+      },
+      {
+        "name": "COMMERCIAL CHASSIS Cab & Chassis",
+        "code": "TA-30444",
+        "type": "passengerCar"
+      },
+      {
+        "name": "ELECTRA",
+        "code": "TA-5995",
+        "type": "passengerCar"
+      },
+      {
+        "name": "ELECTRA",
+        "code": "TA-5993",
+        "type": "passengerCar"
+      },
+      {
+        "name": "ELECTRA Convertible",
+        "code": "TA-40890",
+        "type": "passengerCar"
+      },
+      {
+        "name": "ELECTRA Coupe",
+        "code": "TA-34921",
+        "type": "passengerCar"
+      },
+      {
+        "name": "ELECTRA Coupe",
+        "code": "TA-34924",
+        "type": "passengerCar"
+      },
+      {
+        "name": "ELECTRA Coupe",
+        "code": "TA-40889",
+        "type": "passengerCar"
+      },
+      {
+        "name": "ELECTRA Coupe",
+        "code": "TA-30446",
+        "type": "passengerCar"
+      },
+      {
+        "name": "ELECTRA Estate",
+        "code": "TA-30448",
+        "type": "passengerCar"
+      },
+      {
+        "name": "ELECTRA Estate",
+        "code": "TA-14517",
+        "type": "passengerCar"
+      },
+      {
+        "name": "ELECTRA Saloon",
+        "code": "TA-30445",
+        "type": "passengerCar"
+      },
+      {
+        "name": "ELECTRA Saloon",
+        "code": "TA-44497",
+        "type": "passengerCar"
+      },
+      {
+        "name": "ELECTRA Saloon",
+        "code": "TA-36814",
+        "type": "passengerCar"
+      },
+      {
+        "name": "ENCLAVE (LD56)",
+        "code": "TA-45636",
+        "type": "passengerCar"
+      },
+      {
+        "name": "ENCLAVE",
+        "code": "TA-36522",
+        "type": "passengerCar"
+      },
+      {
+        "name": "ENCLAVE",
+        "code": "TA-10296",
+        "type": "passengerCar"
+      },
+      {
+        "name": "ENCORE GX SUV (4T_)",
+        "code": "TA-40965",
+        "type": "passengerCar"
+      },
+      {
+        "name": "ENCORE SUV",
+        "code": "TA-10865",
+        "type": "passengerCar"
+      },
+      {
+        "name": "ENVISION (X_26)",
+        "code": "TA-36386",
+        "type": "passengerCar"
+      },
+      {
+        "name": "ENVISION (Z_26)",
+        "code": "TA-42676",
+        "type": "passengerCar"
+      },
+      {
+        "name": "ENVISTA (4TS_)",
+        "code": "TA-44362",
+        "type": "passengerCar"
+      },
+      {
+        "name": "ESTATE WAGON Estate",
+        "code": "TA-30450",
+        "type": "passengerCar"
+      },
+      {
+        "name": "ESTATE WAGON Estate",
+        "code": "TA-30449",
+        "type": "passengerCar"
+      },
+      {
+        "name": "EXCELLE",
+        "code": "TA-6000",
+        "type": "passengerCar"
+      },
+      {
+        "name": "GRAN SPORT Coupe",
+        "code": "TA-30451",
+        "type": "passengerCar"
+      },
+      {
+        "name": "GS 350 Saloon",
+        "code": "TA-30453",
+        "type": "passengerCar"
+      },
+      {
+        "name": "GS 400 Saloon",
+        "code": "TA-30454",
+        "type": "passengerCar"
+      },
+      {
+        "name": "GS 455 Saloon",
+        "code": "TA-30455",
+        "type": "passengerCar"
+      },
+      {
+        "name": "GS Saloon",
+        "code": "TA-30452",
+        "type": "passengerCar"
+      },
+      {
+        "name": "LA CROSSE Saloon (Z_79)",
+        "code": "TA-36227",
+        "type": "passengerCar"
+      },
+      {
+        "name": "LA CROSSE Saloon",
+        "code": "TA-10295",
+        "type": "passengerCar"
+      },
+      {
+        "name": "LA CROSSE Saloon",
+        "code": "TA-7393",
+        "type": "passengerCar"
+      },
+      {
+        "name": "LESABRE",
+        "code": "TA-6073",
+        "type": "passengerCar"
+      },
+      {
+        "name": "LESABRE",
+        "code": "TA-6074",
+        "type": "passengerCar"
+      },
+      {
+        "name": "LESABRE",
+        "code": "TA-4094",
+        "type": "passengerCar"
+      },
+      {
+        "name": "LESABRE",
+        "code": "TA-7394",
+        "type": "passengerCar"
+      },
+      {
+        "name": "LESABRE",
+        "code": "TA-30461",
+        "type": "passengerCar"
+      },
+      {
+        "name": "LESABRE",
+        "code": "TA-35799",
+        "type": "passengerCar"
+      },
+      {
+        "name": "LESABRE",
+        "code": "TA-30458",
+        "type": "passengerCar"
+      },
+      {
+        "name": "LESABRE Convertible",
+        "code": "TA-30459",
+        "type": "passengerCar"
+      },
+      {
+        "name": "LESABRE Convertible",
+        "code": "TA-40896",
+        "type": "passengerCar"
+      },
+      {
+        "name": "LESABRE Coupe",
+        "code": "TA-34930",
+        "type": "passengerCar"
+      },
+      {
+        "name": "LESABRE Coupe",
+        "code": "TA-30460",
+        "type": "passengerCar"
+      },
+      {
+        "name": "LESABRE Coupe",
+        "code": "TA-34929",
+        "type": "passengerCar"
+      },
+      {
+        "name": "LESABRE Coupe",
+        "code": "TA-37287",
+        "type": "passengerCar"
+      },
+      {
+        "name": "LESABRE Coupe",
+        "code": "TA-40895",
+        "type": "passengerCar"
+      },
+      {
+        "name": "LESABRE Estate",
+        "code": "TA-30462",
+        "type": "passengerCar"
+      },
+      {
+        "name": "LESABRE Estate",
+        "code": "TA-40894",
+        "type": "passengerCar"
+      },
+      {
+        "name": "LUCERNE Saloon",
+        "code": "TA-30465",
+        "type": "passengerCar"
+      },
+      {
+        "name": "OPEL Coupe",
+        "code": "TA-30471",
+        "type": "passengerCar"
+      },
+      {
+        "name": "PARK AVENUE",
+        "code": "TA-5815",
+        "type": "passengerCar"
+      },
+      {
+        "name": "PARK AVENUE",
+        "code": "TA-3503",
+        "type": "passengerCar"
+      },
+      {
+        "name": "RAINIER SUV",
+        "code": "TA-30474",
+        "type": "passengerCar"
+      },
+      {
+        "name": "REATTA Convertible",
+        "code": "TA-30475",
+        "type": "passengerCar"
+      },
+      {
+        "name": "REATTA Coupe",
+        "code": "TA-30476",
+        "type": "passengerCar"
+      },
+      {
+        "name": "REGAL (4WF_)",
+        "code": "TA-6122",
+        "type": "passengerCar"
+      },
+      {
+        "name": "REGAL",
+        "code": "TA-6120",
+        "type": "passengerCar"
+      },
+      {
+        "name": "REGAL",
+        "code": "TA-6121",
+        "type": "passengerCar"
+      },
+      {
+        "name": "REGAL Coupe",
+        "code": "TA-35800",
+        "type": "passengerCar"
+      },
+      {
+        "name": "REGAL Coupe",
+        "code": "TA-34934",
+        "type": "passengerCar"
+      },
+      {
+        "name": "REGAL Coupe",
+        "code": "TA-30478",
+        "type": "passengerCar"
+      },
+      {
+        "name": "REGAL Estate",
+        "code": "TA-30480",
+        "type": "passengerCar"
+      },
+      {
+        "name": "REGAL Regal TourX",
+        "code": "TA-38327",
+        "type": "passengerCar"
+      },
+      {
+        "name": "REGAL Saloon",
+        "code": "TA-34792",
+        "type": "passengerCar"
+      },
+      {
+        "name": "REGAL Saloon",
+        "code": "TA-30477",
+        "type": "passengerCar"
+      },
+      {
+        "name": "REGAL Saloon",
+        "code": "TA-30479",
+        "type": "passengerCar"
+      },
+      {
+        "name": "REGAL Sportback (Z_68)",
+        "code": "TA-38326",
+        "type": "passengerCar"
+      },
+      {
+        "name": "RENDEZVOUZ",
+        "code": "TA-7924",
+        "type": "passengerCar"
+      },
+      {
+        "name": "RIVIERA Convertible",
+        "code": "TA-30483",
+        "type": "passengerCar"
+      },
+      {
+        "name": "RIVIERA Coupe",
+        "code": "TA-35825",
+        "type": "passengerCar"
+      },
+      {
+        "name": "RIVIERA Coupe",
+        "code": "TA-35824",
+        "type": "passengerCar"
+      },
+      {
+        "name": "RIVIERA Coupe",
+        "code": "TA-38369",
+        "type": "passengerCar"
+      },
+      {
+        "name": "RIVIERA Coupe",
+        "code": "TA-30484",
+        "type": "passengerCar"
+      },
+      {
+        "name": "RIVIERA Saloon",
+        "code": "TA-30482",
+        "type": "passengerCar"
+      },
+      {
+        "name": "ROADMASTER Estate",
+        "code": "TA-6125",
+        "type": "passengerCar"
+      },
+      {
+        "name": "ROADMASTER Saloon",
+        "code": "TA-30485",
+        "type": "passengerCar"
+      },
+      {
+        "name": "ROADMASTER Saloon",
+        "code": "TA-6641",
+        "type": "passengerCar"
+      },
+      {
+        "name": "SKYHAWK Coupe",
+        "code": "TA-30493",
+        "type": "passengerCar"
+      },
+      {
+        "name": "SKYHAWK Estate",
+        "code": "TA-30496",
+        "type": "passengerCar"
+      },
+      {
+        "name": "SKYHAWK Hatchback",
+        "code": "TA-34935",
+        "type": "passengerCar"
+      },
+      {
+        "name": "SKYHAWK Hatchback",
+        "code": "TA-30494",
+        "type": "passengerCar"
+      },
+      {
+        "name": "SKYHAWK Saloon",
+        "code": "TA-30495",
+        "type": "passengerCar"
+      },
+      {
+        "name": "SKYLARK (N)",
+        "code": "TA-1985",
+        "type": "passengerCar"
+      },
+      {
+        "name": "SKYLARK",
+        "code": "TA-9560",
+        "type": "passengerCar"
+      },
+      {
+        "name": "SKYLARK",
+        "code": "TA-14513",
+        "type": "passengerCar"
+      },
+      {
+        "name": "SKYLARK",
+        "code": "TA-36473",
+        "type": "passengerCar"
+      },
+      {
+        "name": "SKYLARK",
+        "code": "TA-30500",
+        "type": "passengerCar"
+      },
+      {
+        "name": "SKYLARK",
+        "code": "TA-30497",
+        "type": "passengerCar"
+      },
+      {
+        "name": "SKYLARK Coupe",
+        "code": "TA-30498",
+        "type": "passengerCar"
+      },
+      {
+        "name": "SKYLARK Coupe",
+        "code": "TA-34939",
+        "type": "passengerCar"
+      },
+      {
+        "name": "SKYLARK Coupe",
+        "code": "TA-34940",
+        "type": "passengerCar"
+      },
+      {
+        "name": "SKYLARK Coupe",
+        "code": "TA-34941",
+        "type": "passengerCar"
+      },
+      {
+        "name": "SKYLARK Coupe",
+        "code": "TA-37308",
+        "type": "passengerCar"
+      },
+      {
+        "name": "SKYLARK Hatchback",
+        "code": "TA-30499",
+        "type": "passengerCar"
+      },
+      {
+        "name": "SOMERSET Coupe",
+        "code": "TA-30501",
+        "type": "passengerCar"
+      },
+      {
+        "name": "SPECIAL Saloon",
+        "code": "TA-30503",
+        "type": "passengerCar"
+      },
+      {
+        "name": "SPORTWAGON Estate",
+        "code": "TA-30508",
+        "type": "passengerCar"
+      },
+      {
+        "name": "SUPER Saloon",
+        "code": "TA-30510",
+        "type": "passengerCar"
+      },
+      {
+        "name": "TERRAZA Mini Passenger Van",
+        "code": "TA-30512",
+        "type": "passengerCar"
+      },
+      {
+        "name": "VERANO Saloon",
+        "code": "TA-35957",
+        "type": "passengerCar"
+      },
+      {
+        "name": "WILDCAT Convertible",
+        "code": "TA-37593",
+        "type": "passengerCar"
+      },
+      {
+        "name": "WILDCAT Saloon",
+        "code": "TA-30513",
+        "type": "passengerCar"
+      }
+    ],
     "BYD": [
       {
         "name": "ATTO 2 | YUAN UP",
@@ -4247,12 +5021,12 @@
       },
       {
         "name": "DEVILLE Saloon",
-        "code": "TA-34942",
+        "code": "TA-34943",
         "type": "passengerCar"
       },
       {
         "name": "DEVILLE Saloon",
-        "code": "TA-34943",
+        "code": "TA-34942",
         "type": "passengerCar"
       },
       {
@@ -4533,6 +5307,88 @@
       {
         "name": "XTS (1P5)",
         "code": "TA-10623",
+        "type": "passengerCar"
+      }
+    ],
+    "CADILLAC (SGM)": [
+      {
+        "name": "ATS-L (SA1)",
+        "code": "TA-13120",
+        "type": "passengerCar"
+      },
+      {
+        "name": "CT4 (SD1)",
+        "code": "TA-40643",
+        "type": "passengerCar"
+      },
+      {
+        "name": "CT5 (SD2)",
+        "code": "TA-40164",
+        "type": "passengerCar"
+      },
+      {
+        "name": "CT6 (CK1)",
+        "code": "TA-36275",
+        "type": "passengerCar"
+      },
+      {
+        "name": "CT6 (CK2)",
+        "code": "TA-44512",
+        "type": "passengerCar"
+      },
+      {
+        "name": "CTS (CD3)",
+        "code": "TA-37245",
+        "type": "passengerCar"
+      },
+      {
+        "name": "GT4 (E11)",
+        "code": "TA-44516",
+        "type": "passengerCar"
+      },
+      {
+        "name": "LYRIQ (MC1)",
+        "code": "TA-42922",
+        "type": "passengerCar"
+      },
+      {
+        "name": "OPTIQ",
+        "code": "TA-45498",
+        "type": "passengerCar"
+      },
+      {
+        "name": "SLS (S6D)",
+        "code": "TA-8710",
+        "type": "passengerCar"
+      },
+      {
+        "name": "SRX (CE2)",
+        "code": "TA-39491",
+        "type": "passengerCar"
+      },
+      {
+        "name": "XT4 (EG8)",
+        "code": "TA-38886",
+        "type": "passengerCar"
+      },
+      {
+        "name": "XT5 (SN1)",
+        "code": "TA-36726",
+        "type": "passengerCar"
+      },
+      {
+        "name": "XT5",
+        "code": "TA-45939",
+        "type": "passengerCar"
+      },
+      {
+        "name": "XT6 (SN2)",
+        "code": "TA-39788",
+        "type": "passengerCar"
+      },
+      {
+        "name": "XTS (EG4)",
+        "code": "TA-11205",
         "type": "passengerCar"
       }
     ],
@@ -5203,12 +6059,12 @@
       },
       {
         "name": "AVALANCHE",
-        "code": "TA-6750",
+        "code": "TA-7535",
         "type": "passengerCar"
       },
       {
         "name": "AVALANCHE",
-        "code": "TA-7535",
+        "code": "TA-6750",
         "type": "passengerCar"
       },
       {
@@ -5273,17 +6129,17 @@
       },
       {
         "name": "BEL AIR Estate",
-        "code": "TA-14038",
-        "type": "passengerCar"
-      },
-      {
-        "name": "BEL AIR Estate",
         "code": "TA-14036",
         "type": "passengerCar"
       },
       {
         "name": "BEL AIR Estate",
         "code": "TA-14037",
+        "type": "passengerCar"
+      },
+      {
+        "name": "BEL AIR Estate",
+        "code": "TA-14038",
         "type": "passengerCar"
       },
       {
@@ -5303,22 +6159,22 @@
       },
       {
         "name": "BEL AIR Saloon",
-        "code": "TA-10375",
-        "type": "passengerCar"
-      },
-      {
-        "name": "BEL AIR Saloon",
-        "code": "TA-10374",
-        "type": "passengerCar"
-      },
-      {
-        "name": "BEL AIR Saloon",
         "code": "TA-30601",
         "type": "passengerCar"
       },
       {
         "name": "BEL AIR Saloon",
+        "code": "TA-10375",
+        "type": "passengerCar"
+      },
+      {
+        "name": "BEL AIR Saloon",
         "code": "TA-10376",
+        "type": "passengerCar"
+      },
+      {
+        "name": "BEL AIR Saloon",
+        "code": "TA-10374",
         "type": "passengerCar"
       },
       {
@@ -5348,12 +6204,12 @@
       },
       {
         "name": "BISCAYNE Saloon",
-        "code": "TA-36820",
+        "code": "TA-38549",
         "type": "passengerCar"
       },
       {
         "name": "BISCAYNE Saloon",
-        "code": "TA-38549",
+        "code": "TA-36820",
         "type": "passengerCar"
       },
       {
@@ -5433,12 +6289,12 @@
       },
       {
         "name": "C10 SUBURBAN SUV",
-        "code": "TA-30614",
+        "code": "TA-38765",
         "type": "passengerCar"
       },
       {
         "name": "C10 SUBURBAN SUV",
-        "code": "TA-38765",
+        "code": "TA-30614",
         "type": "passengerCar"
       },
       {
@@ -5693,12 +6549,12 @@
       },
       {
         "name": "CAPRICE",
-        "code": "TA-30642",
+        "code": "TA-2000",
         "type": "passengerCar"
       },
       {
         "name": "CAPRICE",
-        "code": "TA-2000",
+        "code": "TA-30642",
         "type": "passengerCar"
       },
       {
@@ -5718,22 +6574,22 @@
       },
       {
         "name": "CAPRICE Coupe",
-        "code": "TA-30644",
-        "type": "passengerCar"
-      },
-      {
-        "name": "CAPRICE Coupe",
         "code": "TA-37561",
         "type": "passengerCar"
       },
       {
-        "name": "CAPRICE Estate",
-        "code": "TA-5924",
+        "name": "CAPRICE Coupe",
+        "code": "TA-30644",
         "type": "passengerCar"
       },
       {
         "name": "CAPRICE Estate",
         "code": "TA-34977",
+        "type": "passengerCar"
+      },
+      {
+        "name": "CAPRICE Estate",
+        "code": "TA-5924",
         "type": "passengerCar"
       },
       {
@@ -5988,12 +6844,12 @@
       },
       {
         "name": "CHEVY II Saloon",
-        "code": "TA-14069",
+        "code": "TA-14074",
         "type": "passengerCar"
       },
       {
         "name": "CHEVY II Saloon",
-        "code": "TA-14074",
+        "code": "TA-14069",
         "type": "passengerCar"
       },
       {
@@ -6448,22 +7304,22 @@
       },
       {
         "name": "EXPRESS 1500 Standard Cargo Van",
-        "code": "TA-34997",
-        "type": "passengerCar"
-      },
-      {
-        "name": "EXPRESS 1500 Standard Cargo Van",
         "code": "TA-10789",
         "type": "passengerCar"
       },
       {
-        "name": "EXPRESS 1500 Standard Passenger Van",
-        "code": "TA-34996",
+        "name": "EXPRESS 1500 Standard Cargo Van",
+        "code": "TA-34997",
         "type": "passengerCar"
       },
       {
         "name": "EXPRESS 1500 Standard Passenger Van",
         "code": "TA-10790",
+        "type": "passengerCar"
+      },
+      {
+        "name": "EXPRESS 1500 Standard Passenger Van",
+        "code": "TA-34996",
         "type": "passengerCar"
       },
       {
@@ -6478,12 +7334,12 @@
       },
       {
         "name": "EXPRESS 2500 Extended Passenger Van",
-        "code": "TA-12952",
+        "code": "TA-34999",
         "type": "passengerCar"
       },
       {
         "name": "EXPRESS 2500 Extended Passenger Van",
-        "code": "TA-34999",
+        "code": "TA-12952",
         "type": "passengerCar"
       },
       {
@@ -6683,12 +7539,12 @@
       },
       {
         "name": "G30 Standard Cargo Van",
-        "code": "TA-30714",
+        "code": "TA-13846",
         "type": "passengerCar"
       },
       {
         "name": "G30 Standard Cargo Van",
-        "code": "TA-13846",
+        "code": "TA-30714",
         "type": "passengerCar"
       },
       {
@@ -6728,12 +7584,12 @@
       },
       {
         "name": "IMPALA Convertible",
-        "code": "TA-36699",
+        "code": "TA-36687",
         "type": "passengerCar"
       },
       {
         "name": "IMPALA Convertible",
-        "code": "TA-36687",
+        "code": "TA-36699",
         "type": "passengerCar"
       },
       {
@@ -6758,12 +7614,12 @@
       },
       {
         "name": "IMPALA Estate",
-        "code": "TA-14916",
+        "code": "TA-36686",
         "type": "passengerCar"
       },
       {
         "name": "IMPALA Estate",
-        "code": "TA-36686",
+        "code": "TA-14916",
         "type": "passengerCar"
       },
       {
@@ -6793,12 +7649,12 @@
       },
       {
         "name": "IMPALA Saloon",
-        "code": "TA-35013",
+        "code": "TA-36471",
         "type": "passengerCar"
       },
       {
         "name": "IMPALA Saloon",
-        "code": "TA-36471",
+        "code": "TA-35013",
         "type": "passengerCar"
       },
       {
@@ -7243,17 +8099,17 @@
       },
       {
         "name": "MONTE CARLO Coupe",
-        "code": "TA-14060",
-        "type": "passengerCar"
-      },
-      {
-        "name": "MONTE CARLO Coupe",
         "code": "TA-35033",
         "type": "passengerCar"
       },
       {
         "name": "MONTE CARLO Coupe",
         "code": "TA-2004",
+        "type": "passengerCar"
+      },
+      {
+        "name": "MONTE CARLO Coupe",
+        "code": "TA-14060",
         "type": "passengerCar"
       },
       {
@@ -7758,11 +8614,6 @@
       },
       {
         "name": "SILVERADO 1500 Crew Cab Pickup",
-        "code": "TA-35044",
-        "type": "passengerCar"
-      },
-      {
-        "name": "SILVERADO 1500 Crew Cab Pickup",
         "code": "TA-12924",
         "type": "passengerCar"
       },
@@ -7772,8 +8623,18 @@
         "type": "passengerCar"
       },
       {
+        "name": "SILVERADO 1500 Crew Cab Pickup",
+        "code": "TA-35044",
+        "type": "passengerCar"
+      },
+      {
         "name": "SILVERADO 1500 Extended Cab Pickup (GMT1EC)",
         "code": "TA-40495",
+        "type": "passengerCar"
+      },
+      {
+        "name": "SILVERADO 1500 Extended Cab Pickup",
+        "code": "TA-12925",
         "type": "passengerCar"
       },
       {
@@ -7784,11 +8645,6 @@
       {
         "name": "SILVERADO 1500 Extended Cab Pickup",
         "code": "TA-11145",
-        "type": "passengerCar"
-      },
-      {
-        "name": "SILVERADO 1500 Extended Cab Pickup",
-        "code": "TA-12925",
         "type": "passengerCar"
       },
       {
@@ -7803,17 +8659,17 @@
       },
       {
         "name": "SILVERADO 1500 Standard Cab Pickup",
+        "code": "TA-12927",
+        "type": "passengerCar"
+      },
+      {
+        "name": "SILVERADO 1500 Standard Cab Pickup",
         "code": "TA-36118",
         "type": "passengerCar"
       },
       {
         "name": "SILVERADO 1500 Standard Cab Pickup",
         "code": "TA-11146",
-        "type": "passengerCar"
-      },
-      {
-        "name": "SILVERADO 1500 Standard Cab Pickup",
-        "code": "TA-12927",
         "type": "passengerCar"
       },
       {
@@ -7883,22 +8739,17 @@
       },
       {
         "name": "SILVERADO 2500 HD Cab & Chassis",
-        "code": "TA-12798",
+        "code": "TA-13786",
         "type": "passengerCar"
       },
       {
         "name": "SILVERADO 2500 HD Cab & Chassis",
-        "code": "TA-13786",
+        "code": "TA-12798",
         "type": "passengerCar"
       },
       {
         "name": "SILVERADO 2500 HD Crew Cab Pickup (GMT1HC)",
         "code": "TA-40426",
-        "type": "passengerCar"
-      },
-      {
-        "name": "SILVERADO 2500 HD Crew Cab Pickup",
-        "code": "TA-35046",
         "type": "passengerCar"
       },
       {
@@ -7912,8 +8763,18 @@
         "type": "passengerCar"
       },
       {
+        "name": "SILVERADO 2500 HD Crew Cab Pickup",
+        "code": "TA-35046",
+        "type": "passengerCar"
+      },
+      {
         "name": "SILVERADO 2500 HD Extended Cab Pickup (GMT1HC)",
         "code": "TA-40427",
+        "type": "passengerCar"
+      },
+      {
+        "name": "SILVERADO 2500 HD Extended Cab Pickup",
+        "code": "TA-12941",
         "type": "passengerCar"
       },
       {
@@ -7927,18 +8788,8 @@
         "type": "passengerCar"
       },
       {
-        "name": "SILVERADO 2500 HD Extended Cab Pickup",
-        "code": "TA-12941",
-        "type": "passengerCar"
-      },
-      {
         "name": "SILVERADO 2500 HD Standard Cab Pickup (GMT1HC)",
         "code": "TA-40425",
-        "type": "passengerCar"
-      },
-      {
-        "name": "SILVERADO 2500 HD Standard Cab Pickup",
-        "code": "TA-11575",
         "type": "passengerCar"
       },
       {
@@ -7949,6 +8800,11 @@
       {
         "name": "SILVERADO 2500 HD Standard Cab Pickup",
         "code": "TA-34841",
+        "type": "passengerCar"
+      },
+      {
+        "name": "SILVERADO 2500 HD Standard Cab Pickup",
+        "code": "TA-11575",
         "type": "passengerCar"
       },
       {
@@ -7978,17 +8834,17 @@
       },
       {
         "name": "SILVERADO 3500 Cab & Chassis",
-        "code": "TA-30826",
-        "type": "passengerCar"
-      },
-      {
-        "name": "SILVERADO 3500 Cab & Chassis",
         "code": "TA-13099",
         "type": "passengerCar"
       },
       {
         "name": "SILVERADO 3500 Cab & Chassis",
         "code": "TA-10636",
+        "type": "passengerCar"
+      },
+      {
+        "name": "SILVERADO 3500 Cab & Chassis",
+        "code": "TA-30826",
         "type": "passengerCar"
       },
       {
@@ -8003,17 +8859,17 @@
       },
       {
         "name": "SILVERADO 3500 HD Cab & Chassis",
-        "code": "TA-36934",
-        "type": "passengerCar"
-      },
-      {
-        "name": "SILVERADO 3500 HD Cab & Chassis",
         "code": "TA-34329",
         "type": "passengerCar"
       },
       {
         "name": "SILVERADO 3500 HD Cab & Chassis",
         "code": "TA-12946",
+        "type": "passengerCar"
+      },
+      {
+        "name": "SILVERADO 3500 HD Cab & Chassis",
+        "code": "TA-36934",
         "type": "passengerCar"
       },
       {
@@ -8033,22 +8889,17 @@
       },
       {
         "name": "SILVERADO 3500 HD Crew Cab Pickup",
-        "code": "TA-36932",
+        "code": "TA-36128",
         "type": "passengerCar"
       },
       {
         "name": "SILVERADO 3500 HD Crew Cab Pickup",
-        "code": "TA-36128",
+        "code": "TA-36932",
         "type": "passengerCar"
       },
       {
         "name": "SILVERADO 3500 HD Extended Cab Pickup (GMT1HC)",
         "code": "TA-40432",
-        "type": "passengerCar"
-      },
-      {
-        "name": "SILVERADO 3500 HD Extended Cab Pickup",
-        "code": "TA-36933",
         "type": "passengerCar"
       },
       {
@@ -8062,13 +8913,13 @@
         "type": "passengerCar"
       },
       {
-        "name": "SILVERADO 3500 HD Standard Cab Pickup (GMT1HC)",
-        "code": "TA-40430",
+        "name": "SILVERADO 3500 HD Extended Cab Pickup",
+        "code": "TA-36933",
         "type": "passengerCar"
       },
       {
-        "name": "SILVERADO 3500 HD Standard Cab Pickup",
-        "code": "TA-36931",
+        "name": "SILVERADO 3500 HD Standard Cab Pickup (GMT1HC)",
+        "code": "TA-40430",
         "type": "passengerCar"
       },
       {
@@ -8079,6 +8930,11 @@
       {
         "name": "SILVERADO 3500 HD Standard Cab Pickup",
         "code": "TA-12943",
+        "type": "passengerCar"
+      },
+      {
+        "name": "SILVERADO 3500 HD Standard Cab Pickup",
+        "code": "TA-36931",
         "type": "passengerCar"
       },
       {
@@ -8203,12 +9059,12 @@
       },
       {
         "name": "SUBURBAN 1500 SUV",
-        "code": "TA-30842",
+        "code": "TA-36127",
         "type": "passengerCar"
       },
       {
         "name": "SUBURBAN 1500 SUV",
-        "code": "TA-36127",
+        "code": "TA-30842",
         "type": "passengerCar"
       },
       {
@@ -8218,12 +9074,12 @@
       },
       {
         "name": "SUBURBAN 2500 SUV",
-        "code": "TA-36131",
+        "code": "TA-13815",
         "type": "passengerCar"
       },
       {
         "name": "SUBURBAN 2500 SUV",
-        "code": "TA-13815",
+        "code": "TA-36131",
         "type": "passengerCar"
       },
       {
@@ -8593,17 +9449,17 @@
       },
       {
         "name": "KODIAK",
-        "code": "TA-41115",
-        "type": "commercialVehicle"
-      },
-      {
-        "name": "KODIAK",
         "code": "TA-41116",
         "type": "commercialVehicle"
       },
       {
         "name": "KODIAK",
         "code": "TA-41117",
+        "type": "commercialVehicle"
+      },
+      {
+        "name": "KODIAK",
+        "code": "TA-41115",
         "type": "commercialVehicle"
       },
       {
@@ -8620,12 +9476,12 @@
       },
       {
         "name": "200 Saloon",
-        "code": "TA-11316",
+        "code": "TA-12863",
         "type": "passengerCar"
       },
       {
         "name": "200 Saloon",
-        "code": "TA-12863",
+        "code": "TA-11316",
         "type": "passengerCar"
       },
       {
@@ -9555,12 +10411,12 @@
       },
       {
         "name": "VOYAGER I (AS)",
-        "code": "TA-3477",
+        "code": "TA-41620",
         "type": "passengerCar"
       },
       {
         "name": "VOYAGER I (AS)",
-        "code": "TA-41620",
+        "code": "TA-3477",
         "type": "passengerCar"
       },
       {
@@ -10723,12 +11579,12 @@
       },
       {
         "name": "LABO Platform/Chassis",
-        "code": "TA-6061",
+        "code": "TA-38297",
         "type": "passengerCar"
       },
       {
         "name": "LABO Platform/Chassis",
-        "code": "TA-38297",
+        "code": "TA-6061",
         "type": "passengerCar"
       },
       {
@@ -12098,12 +12954,12 @@
       },
       {
         "name": "ATTITUDE",
-        "code": "TA-9902",
+        "code": "TA-10280",
         "type": "passengerCar"
       },
       {
         "name": "ATTITUDE",
-        "code": "TA-10280",
+        "code": "TA-9902",
         "type": "passengerCar"
       },
       {
@@ -12338,12 +13194,12 @@
       },
       {
         "name": "CARAVAN Mini Cargo Van",
-        "code": "TA-31099",
+        "code": "TA-35100",
         "type": "passengerCar"
       },
       {
         "name": "CARAVAN Mini Cargo Van",
-        "code": "TA-35100",
+        "code": "TA-31099",
         "type": "passengerCar"
       },
       {
@@ -12463,12 +13319,12 @@
       },
       {
         "name": "COLT Hatchback",
-        "code": "TA-10395",
+        "code": "TA-35105",
         "type": "passengerCar"
       },
       {
         "name": "COLT Hatchback",
-        "code": "TA-35105",
+        "code": "TA-10395",
         "type": "passengerCar"
       },
       {
@@ -12488,17 +13344,17 @@
       },
       {
         "name": "COLT Saloon",
+        "code": "TA-14304",
+        "type": "passengerCar"
+      },
+      {
+        "name": "COLT Saloon",
         "code": "TA-35106",
         "type": "passengerCar"
       },
       {
         "name": "COLT Saloon",
         "code": "TA-35107",
-        "type": "passengerCar"
-      },
-      {
-        "name": "COLT Saloon",
-        "code": "TA-14304",
         "type": "passengerCar"
       },
       {
@@ -12568,12 +13424,12 @@
       },
       {
         "name": "D150 Extended Cab Pickup",
-        "code": "TA-31130",
+        "code": "TA-35110",
         "type": "passengerCar"
       },
       {
         "name": "D150 Extended Cab Pickup",
-        "code": "TA-35110",
+        "code": "TA-31130",
         "type": "passengerCar"
       },
       {
@@ -12583,12 +13439,12 @@
       },
       {
         "name": "D150 Standard Cab Pickup",
-        "code": "TA-31131",
+        "code": "TA-35111",
         "type": "passengerCar"
       },
       {
         "name": "D150 Standard Cab Pickup",
-        "code": "TA-35111",
+        "code": "TA-31131",
         "type": "passengerCar"
       },
       {
@@ -12718,12 +13574,12 @@
       },
       {
         "name": "DAKOTA Extended Cab Pickup",
-        "code": "TA-11393",
+        "code": "TA-31160",
         "type": "passengerCar"
       },
       {
         "name": "DAKOTA Extended Cab Pickup",
-        "code": "TA-31160",
+        "code": "TA-11393",
         "type": "passengerCar"
       },
       {
@@ -12853,12 +13709,12 @@
       },
       {
         "name": "GRAND CARAVAN Mini Cargo Van",
-        "code": "TA-31174",
+        "code": "TA-14493",
         "type": "passengerCar"
       },
       {
         "name": "GRAND CARAVAN Mini Cargo Van",
-        "code": "TA-14493",
+        "code": "TA-31174",
         "type": "passengerCar"
       },
       {
@@ -13123,12 +13979,12 @@
       },
       {
         "name": "RAM 1500 Crew Cab Pickup",
-        "code": "TA-35131",
+        "code": "TA-35954",
         "type": "passengerCar"
       },
       {
         "name": "RAM 1500 Crew Cab Pickup",
-        "code": "TA-35954",
+        "code": "TA-35131",
         "type": "passengerCar"
       },
       {
@@ -13228,12 +14084,12 @@
       },
       {
         "name": "RAM 2500 Extended Crew Cab Pickup",
-        "code": "TA-35960",
+        "code": "TA-13124",
         "type": "passengerCar"
       },
       {
         "name": "RAM 2500 Extended Crew Cab Pickup",
-        "code": "TA-13124",
+        "code": "TA-35960",
         "type": "passengerCar"
       },
       {
@@ -13643,12 +14499,12 @@
       },
       {
         "name": "VIPER Coupe",
-        "code": "TA-10277",
+        "code": "TA-13203",
         "type": "passengerCar"
       },
       {
         "name": "VIPER Coupe",
-        "code": "TA-13203",
+        "code": "TA-10277",
         "type": "passengerCar"
       },
       {
@@ -13673,12 +14529,12 @@
       },
       {
         "name": "W100 Standard Cab Pickup",
-        "code": "TA-11136",
+        "code": "TA-31265",
         "type": "passengerCar"
       },
       {
         "name": "W100 Standard Cab Pickup",
-        "code": "TA-31265",
+        "code": "TA-11136",
         "type": "passengerCar"
       },
       {
@@ -13723,12 +14579,12 @@
       },
       {
         "name": "W200 Standard Cab Pickup",
-        "code": "TA-31275",
+        "code": "TA-31274",
         "type": "passengerCar"
       },
       {
         "name": "W200 Standard Cab Pickup",
-        "code": "TA-31274",
+        "code": "TA-31275",
         "type": "passengerCar"
       },
       {
@@ -14695,12 +15551,12 @@
       },
       {
         "name": "BALILLA 508 Saloon (508_)",
-        "code": "TA-10054",
+        "code": "TA-10051",
         "type": "passengerCar"
       },
       {
         "name": "BALILLA 508 Saloon (508_)",
-        "code": "TA-10051",
+        "code": "TA-10054",
         "type": "passengerCar"
       },
       {
@@ -15681,11 +16537,6 @@
         "type": "passengerCar"
       },
       {
-        "name": "BANTAM III Pickup",
-        "code": "TA-44403",
-        "type": "passengerCar"
-      },
-      {
         "name": "BELINA I",
         "code": "TA-12783",
         "type": "passengerCar"
@@ -16263,11 +17114,6 @@
       {
         "name": "GALAXIE",
         "code": "TA-11595",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GALAXIE",
-        "code": "TA-9932",
         "type": "passengerCar"
       },
       {
@@ -17316,6 +18162,23 @@
         "type": "commercialVehicle"
       }
     ],
+    "FORD OTOSAN": [
+      {
+        "name": "ANADOL",
+        "code": "TA-4312",
+        "type": "passengerCar"
+      },
+      {
+        "name": "ANADOL Estate",
+        "code": "TA-4313",
+        "type": "passengerCar"
+      },
+      {
+        "name": "TAUNUS",
+        "code": "TA-4314",
+        "type": "passengerCar"
+      }
+    ],
     "FORD USA": [
       {
         "name": "AEROSTAR",
@@ -17609,12 +18472,12 @@
       },
       {
         "name": "E-350 Extended Passenger Van",
-        "code": "TA-31473",
+        "code": "TA-35268",
         "type": "passengerCar"
       },
       {
         "name": "E-350 Extended Passenger Van",
-        "code": "TA-35268",
+        "code": "TA-31473",
         "type": "passengerCar"
       },
       {
@@ -17664,22 +18527,22 @@
       },
       {
         "name": "E-350 Standard Passenger Van",
-        "code": "TA-31474",
-        "type": "passengerCar"
-      },
-      {
-        "name": "E-350 Standard Passenger Van",
         "code": "TA-13678",
         "type": "passengerCar"
       },
       {
-        "name": "E-350 Stripped Chassis",
-        "code": "TA-11655",
+        "name": "E-350 Standard Passenger Van",
+        "code": "TA-31474",
         "type": "passengerCar"
       },
       {
         "name": "E-350 Stripped Chassis",
         "code": "TA-11656",
+        "type": "passengerCar"
+      },
+      {
+        "name": "E-350 Stripped Chassis",
+        "code": "TA-11655",
         "type": "passengerCar"
       },
       {
@@ -17834,12 +18697,12 @@
       },
       {
         "name": "EXPEDITION",
-        "code": "TA-6825",
+        "code": "TA-6307",
         "type": "passengerCar"
       },
       {
         "name": "EXPEDITION",
-        "code": "TA-6307",
+        "code": "TA-6825",
         "type": "passengerCar"
       },
       {
@@ -17994,12 +18857,12 @@
       },
       {
         "name": "F-150 Crew Cab Pickup",
-        "code": "TA-11974",
+        "code": "TA-11669",
         "type": "passengerCar"
       },
       {
         "name": "F-150 Crew Cab Pickup",
-        "code": "TA-11669",
+        "code": "TA-11974",
         "type": "passengerCar"
       },
       {
@@ -18019,22 +18882,22 @@
       },
       {
         "name": "F-150 Extended Cab Pickup",
-        "code": "TA-11668",
-        "type": "passengerCar"
-      },
-      {
-        "name": "F-150 Extended Cab Pickup",
         "code": "TA-11976",
         "type": "passengerCar"
       },
       {
         "name": "F-150 Extended Cab Pickup",
-        "code": "TA-35285",
+        "code": "TA-11668",
         "type": "passengerCar"
       },
       {
         "name": "F-150 Extended Cab Pickup",
         "code": "TA-35287",
+        "type": "passengerCar"
+      },
+      {
+        "name": "F-150 Extended Cab Pickup",
+        "code": "TA-35285",
         "type": "passengerCar"
       },
       {
@@ -18084,12 +18947,12 @@
       },
       {
         "name": "F-150 Standard Cab Pickup",
-        "code": "TA-13614",
+        "code": "TA-35286",
         "type": "passengerCar"
       },
       {
         "name": "F-150 Standard Cab Pickup",
-        "code": "TA-35286",
+        "code": "TA-13614",
         "type": "passengerCar"
       },
       {
@@ -18139,12 +19002,12 @@
       },
       {
         "name": "F-250 Cab & Chassis",
-        "code": "TA-35291",
+        "code": "TA-11982",
         "type": "passengerCar"
       },
       {
         "name": "F-250 Cab & Chassis",
-        "code": "TA-11982",
+        "code": "TA-35291",
         "type": "passengerCar"
       },
       {
@@ -18174,12 +19037,7 @@
       },
       {
         "name": "F-250 Extended Cab Pickup",
-        "code": "TA-11980",
-        "type": "passengerCar"
-      },
-      {
-        "name": "F-250 Extended Cab Pickup",
-        "code": "TA-11673",
+        "code": "TA-11672",
         "type": "passengerCar"
       },
       {
@@ -18189,7 +19047,12 @@
       },
       {
         "name": "F-250 Extended Cab Pickup",
-        "code": "TA-11672",
+        "code": "TA-11673",
+        "type": "passengerCar"
+      },
+      {
+        "name": "F-250 Extended Cab Pickup",
+        "code": "TA-11980",
         "type": "passengerCar"
       },
       {
@@ -18214,12 +19077,12 @@
       },
       {
         "name": "F-250 SUPER DUTY Crew Cab Pickup",
-        "code": "TA-13173",
+        "code": "TA-13134",
         "type": "passengerCar"
       },
       {
         "name": "F-250 SUPER DUTY Crew Cab Pickup",
-        "code": "TA-13134",
+        "code": "TA-13173",
         "type": "passengerCar"
       },
       {
@@ -18239,12 +19102,12 @@
       },
       {
         "name": "F-250 SUPER DUTY Extended Cab Pickup",
-        "code": "TA-10795",
+        "code": "TA-13135",
         "type": "passengerCar"
       },
       {
         "name": "F-250 SUPER DUTY Extended Cab Pickup",
-        "code": "TA-13135",
+        "code": "TA-10795",
         "type": "passengerCar"
       },
       {
@@ -18264,12 +19127,12 @@
       },
       {
         "name": "F-250 SUPER DUTY Standard Cab Pickup",
-        "code": "TA-10796",
+        "code": "TA-11983",
         "type": "passengerCar"
       },
       {
         "name": "F-250 SUPER DUTY Standard Cab Pickup",
-        "code": "TA-11983",
+        "code": "TA-10796",
         "type": "passengerCar"
       },
       {
@@ -18284,17 +19147,22 @@
       },
       {
         "name": "F-250 Standard Cab Pickup",
-        "code": "TA-36054",
-        "type": "passengerCar"
-      },
-      {
-        "name": "F-250 Standard Cab Pickup",
         "code": "TA-36052",
         "type": "passengerCar"
       },
       {
         "name": "F-250 Standard Cab Pickup",
+        "code": "TA-36054",
+        "type": "passengerCar"
+      },
+      {
+        "name": "F-250 Standard Cab Pickup",
         "code": "TA-10401",
+        "type": "passengerCar"
+      },
+      {
+        "name": "F-250 Standard Cab Pickup",
+        "code": "TA-11977",
         "type": "passengerCar"
       },
       {
@@ -18305,11 +19173,6 @@
       {
         "name": "F-250 Standard Cab Pickup",
         "code": "TA-35293",
-        "type": "passengerCar"
-      },
-      {
-        "name": "F-250 Standard Cab Pickup",
-        "code": "TA-11977",
         "type": "passengerCar"
       },
       {
@@ -18349,12 +19212,12 @@
       },
       {
         "name": "F-350 Cab & Chassis",
-        "code": "TA-35296",
+        "code": "TA-11394",
         "type": "passengerCar"
       },
       {
         "name": "F-350 Cab & Chassis",
-        "code": "TA-11394",
+        "code": "TA-35296",
         "type": "passengerCar"
       },
       {
@@ -18444,12 +19307,12 @@
       },
       {
         "name": "F-350 SUPER DUTY Crew Cab Pickup",
-        "code": "TA-13174",
+        "code": "TA-13132",
         "type": "passengerCar"
       },
       {
         "name": "F-350 SUPER DUTY Crew Cab Pickup",
-        "code": "TA-13132",
+        "code": "TA-13174",
         "type": "passengerCar"
       },
       {
@@ -18464,12 +19327,12 @@
       },
       {
         "name": "F-350 SUPER DUTY Extended Cab Pickup",
-        "code": "TA-10799",
+        "code": "TA-13133",
         "type": "passengerCar"
       },
       {
         "name": "F-350 SUPER DUTY Extended Cab Pickup",
-        "code": "TA-13133",
+        "code": "TA-10799",
         "type": "passengerCar"
       },
       {
@@ -18519,11 +19382,6 @@
       },
       {
         "name": "F-350 Standard Cab Pickup",
-        "code": "TA-36051",
-        "type": "passengerCar"
-      },
-      {
-        "name": "F-350 Standard Cab Pickup",
         "code": "TA-13662",
         "type": "passengerCar"
       },
@@ -18535,6 +19393,11 @@
       {
         "name": "F-350 Standard Cab Pickup",
         "code": "TA-35302",
+        "type": "passengerCar"
+      },
+      {
+        "name": "F-350 Standard Cab Pickup",
+        "code": "TA-36051",
         "type": "passengerCar"
       },
       {
@@ -18564,12 +19427,12 @@
       },
       {
         "name": "F-450 SUPER DUTY",
-        "code": "TA-10885",
+        "code": "TA-11351",
         "type": "passengerCar"
       },
       {
         "name": "F-450 SUPER DUTY",
-        "code": "TA-11351",
+        "code": "TA-10885",
         "type": "passengerCar"
       },
       {
@@ -18729,12 +19592,12 @@
       },
       {
         "name": "FOCUS",
-        "code": "TA-37023",
+        "code": "TA-12801",
         "type": "passengerCar"
       },
       {
         "name": "FOCUS",
-        "code": "TA-12801",
+        "code": "TA-37023",
         "type": "passengerCar"
       },
       {
@@ -18849,12 +19712,12 @@
       },
       {
         "name": "LOBO Crew Cab Pickup",
-        "code": "TA-36091",
+        "code": "TA-13363",
         "type": "passengerCar"
       },
       {
         "name": "LOBO Crew Cab Pickup",
-        "code": "TA-13363",
+        "code": "TA-36091",
         "type": "passengerCar"
       },
       {
@@ -19094,12 +19957,12 @@
       },
       {
         "name": "PAMPA",
-        "code": "TA-6838",
+        "code": "TA-6837",
         "type": "passengerCar"
       },
       {
         "name": "PAMPA",
-        "code": "TA-6837",
+        "code": "TA-6838",
         "type": "passengerCar"
       },
       {
@@ -19244,12 +20107,12 @@
       },
       {
         "name": "SABLE Saloon",
-        "code": "TA-14628",
+        "code": "TA-34489",
         "type": "passengerCar"
       },
       {
         "name": "SABLE Saloon",
-        "code": "TA-34489",
+        "code": "TA-14628",
         "type": "passengerCar"
       },
       {
@@ -19284,12 +20147,12 @@
       },
       {
         "name": "TAURUS Estate",
-        "code": "TA-35322",
+        "code": "TA-35320",
         "type": "passengerCar"
       },
       {
         "name": "TAURUS Estate",
-        "code": "TA-35320",
+        "code": "TA-35322",
         "type": "passengerCar"
       },
       {
@@ -19980,12 +20843,12 @@
       },
       {
         "name": "MK Saloon",
-        "code": "TA-14822",
+        "code": "TA-10569",
         "type": "passengerCar"
       },
       {
         "name": "MK Saloon",
-        "code": "TA-10569",
+        "code": "TA-14822",
         "type": "passengerCar"
       },
       {
@@ -20279,12 +21142,12 @@
       },
       {
         "name": "C25 SUBURBAN Closed Off-Road Vehicle",
-        "code": "TA-31732",
+        "code": "TA-31734",
         "type": "passengerCar"
       },
       {
         "name": "C25 SUBURBAN Closed Off-Road Vehicle",
-        "code": "TA-31734",
+        "code": "TA-31732",
         "type": "passengerCar"
       },
       {
@@ -20644,12 +21507,12 @@
       },
       {
         "name": "K15/K1500 SUBURBAN Closed Off-Road Vehicle",
-        "code": "TA-31789",
+        "code": "TA-11066",
         "type": "passengerCar"
       },
       {
         "name": "K15/K1500 SUBURBAN Closed Off-Road Vehicle",
-        "code": "TA-11066",
+        "code": "TA-31789",
         "type": "passengerCar"
       },
       {
@@ -20854,12 +21717,12 @@
       },
       {
         "name": "P2500 Standard Cargo Van",
-        "code": "TA-31822",
+        "code": "TA-35805",
         "type": "passengerCar"
       },
       {
         "name": "P2500 Standard Cargo Van",
-        "code": "TA-35805",
+        "code": "TA-31822",
         "type": "passengerCar"
       },
       {
@@ -21014,12 +21877,12 @@
       },
       {
         "name": "SAVANA 1500 Standard Cargo Van",
-        "code": "TA-35204",
+        "code": "TA-31852",
         "type": "passengerCar"
       },
       {
         "name": "SAVANA 1500 Standard Cargo Van",
-        "code": "TA-31852",
+        "code": "TA-35204",
         "type": "passengerCar"
       },
       {
@@ -21234,12 +22097,12 @@
       },
       {
         "name": "SIERRA 2500 HD Crew Cab Pickup",
-        "code": "TA-36021",
+        "code": "TA-35214",
         "type": "passengerCar"
       },
       {
         "name": "SIERRA 2500 HD Crew Cab Pickup",
-        "code": "TA-35214",
+        "code": "TA-36021",
         "type": "passengerCar"
       },
       {
@@ -21254,12 +22117,12 @@
       },
       {
         "name": "SIERRA 2500 HD Extended Cab Pickup",
-        "code": "TA-36022",
+        "code": "TA-14264",
         "type": "passengerCar"
       },
       {
         "name": "SIERRA 2500 HD Extended Cab Pickup",
-        "code": "TA-14264",
+        "code": "TA-36022",
         "type": "passengerCar"
       },
       {
@@ -21274,12 +22137,12 @@
       },
       {
         "name": "SIERRA 2500 HD Standard Cab Pickup",
-        "code": "TA-36023",
+        "code": "TA-14265",
         "type": "passengerCar"
       },
       {
         "name": "SIERRA 2500 HD Standard Cab Pickup",
-        "code": "TA-14265",
+        "code": "TA-36023",
         "type": "passengerCar"
       },
       {
@@ -21752,11 +22615,6 @@
       {
         "name": "PROFIA",
         "code": "TA-39323",
-        "type": "commercialVehicle"
-      },
-      {
-        "name": "PROFIA MK II",
-        "code": "TA-42930",
         "type": "commercialVehicle"
       },
       {
@@ -29201,12 +30059,12 @@
       },
       {
         "name": "06",
-        "code": "TA-40979",
+        "code": "TA-44891",
         "type": "passengerCar"
       },
       {
         "name": "06",
-        "code": "TA-44891",
+        "code": "TA-40979",
         "type": "passengerCar"
       },
       {
@@ -31563,12 +32421,12 @@
       },
       {
         "name": "3 Saloon",
-        "code": "TA-8727",
+        "code": "TA-8726",
         "type": "passengerCar"
       },
       {
         "name": "3 Saloon",
-        "code": "TA-8726",
+        "code": "TA-8727",
         "type": "passengerCar"
       },
       {
@@ -34713,12 +35571,12 @@
       },
       {
         "name": "PRECIS Hatchback",
-        "code": "TA-32843",
+        "code": "TA-35695",
         "type": "passengerCar"
       },
       {
         "name": "PRECIS Hatchback",
-        "code": "TA-35695",
+        "code": "TA-32843",
         "type": "passengerCar"
       },
       {
@@ -35092,6 +35950,88 @@
         "type": "commercialVehicle"
       }
     ],
+    "MOSKVICH": [
+      {
+        "name": "2138",
+        "code": "TA-39899",
+        "type": "passengerCar"
+      },
+      {
+        "name": "2140",
+        "code": "TA-1856",
+        "type": "passengerCar"
+      },
+      {
+        "name": "2141 | Aleko",
+        "code": "TA-1850",
+        "type": "passengerCar"
+      },
+      {
+        "name": "2142",
+        "code": "TA-14306",
+        "type": "passengerCar"
+      },
+      {
+        "name": "2335 Pickup",
+        "code": "TA-14308",
+        "type": "passengerCar"
+      },
+      {
+        "name": "2901 Estate Van",
+        "code": "TA-14307",
+        "type": "passengerCar"
+      },
+      {
+        "name": "3 (DA21_, DA22_)",
+        "code": "TA-43755",
+        "type": "passengerCar"
+      },
+      {
+        "name": "403",
+        "code": "TA-1852",
+        "type": "passengerCar"
+      },
+      {
+        "name": "407",
+        "code": "TA-1854",
+        "type": "passengerCar"
+      },
+      {
+        "name": "412",
+        "code": "TA-1848",
+        "type": "passengerCar"
+      },
+      {
+        "name": "423 Estate",
+        "code": "TA-1853",
+        "type": "passengerCar"
+      },
+      {
+        "name": "427 Estate",
+        "code": "TA-1851",
+        "type": "passengerCar"
+      },
+      {
+        "name": "6 Liftback",
+        "code": "TA-45196",
+        "type": "passengerCar"
+      },
+      {
+        "name": "ALEKO",
+        "code": "TA-37022",
+        "type": "passengerCar"
+      },
+      {
+        "name": "ASLK 2137 Estate",
+        "code": "TA-1849",
+        "type": "passengerCar"
+      },
+      {
+        "name": "ASLK 2140",
+        "code": "TA-1847",
+        "type": "passengerCar"
+      }
+    ],
     "NISSAN": [
       {
         "name": "100NX (B13) | NX/NXR",
@@ -35155,12 +36095,12 @@
       },
       {
         "name": "240SX",
-        "code": "TA-6870",
+        "code": "TA-13574",
         "type": "passengerCar"
       },
       {
         "name": "240SX",
-        "code": "TA-13574",
+        "code": "TA-6870",
         "type": "passengerCar"
       },
       {
@@ -36710,12 +37650,12 @@
       },
       {
         "name": "PLATINA",
-        "code": "TA-13563",
+        "code": "TA-6873",
         "type": "passengerCar"
       },
       {
         "name": "PLATINA",
-        "code": "TA-6873",
+        "code": "TA-13563",
         "type": "passengerCar"
       },
       {
@@ -37712,6 +38652,173 @@
         "name": "NT500",
         "code": "TA-14057",
         "type": "commercialVehicle"
+      }
+    ],
+    "NISSAN (DFAC)": [
+      {
+        "name": "ALTIMA (L34Z)",
+        "code": "TA-39211",
+        "type": "passengerCar"
+      },
+      {
+        "name": "ARIYA",
+        "code": "TA-43626",
+        "type": "passengerCar"
+      },
+      {
+        "name": "BLUEBIRD (G10)",
+        "code": "TA-7977",
+        "type": "passengerCar"
+      },
+      {
+        "name": "BLUEBIRD SYLPHY / SYLPHY CLASSIC (G11)",
+        "code": "TA-8089",
+        "type": "passengerCar"
+      },
+      {
+        "name": "GENISS / LIVINA GENISS MPV (L10_)",
+        "code": "TA-8091",
+        "type": "passengerCar"
+      },
+      {
+        "name": "KICKS (P15)",
+        "code": "TA-38096",
+        "type": "passengerCar"
+      },
+      {
+        "name": "LANNIA Saloon (U15)",
+        "code": "TA-14814",
+        "type": "passengerCar"
+      },
+      {
+        "name": "LIVINA C-GEAR (NL10Z)",
+        "code": "TA-9849",
+        "type": "passengerCar"
+      },
+      {
+        "name": "LIVINA MPV (L10_)",
+        "code": "TA-10077",
+        "type": "passengerCar"
+      },
+      {
+        "name": "LIVINA MPV (L11Z)",
+        "code": "TA-9848",
+        "type": "passengerCar"
+      },
+      {
+        "name": "MARCH (K13)",
+        "code": "TA-10657",
+        "type": "passengerCar"
+      },
+      {
+        "name": "MAXIMA (A36)",
+        "code": "TA-36736",
+        "type": "passengerCar"
+      },
+      {
+        "name": "MURANO II (Z51)",
+        "code": "TA-9847",
+        "type": "passengerCar"
+      },
+      {
+        "name": "MURANO III (Z52)",
+        "code": "TA-14614",
+        "type": "passengerCar"
+      },
+      {
+        "name": "PATHFINDER",
+        "code": "TA-45291",
+        "type": "passengerCar"
+      },
+      {
+        "name": "QASHQAI (J10)",
+        "code": "TA-8267",
+        "type": "passengerCar"
+      },
+      {
+        "name": "QASHQAI (J11)",
+        "code": "TA-38288",
+        "type": "passengerCar"
+      },
+      {
+        "name": "QASHQAI (J12)",
+        "code": "TA-44719",
+        "type": "passengerCar"
+      },
+      {
+        "name": "SUNNY (N16)",
+        "code": "TA-7978",
+        "type": "passengerCar"
+      },
+      {
+        "name": "SUNNY (N17)",
+        "code": "TA-9839",
+        "type": "passengerCar"
+      },
+      {
+        "name": "SYLPHY (B17)",
+        "code": "TA-11147",
+        "type": "passengerCar"
+      },
+      {
+        "name": "SYLPHY (B18)",
+        "code": "TA-39688",
+        "type": "passengerCar"
+      },
+      {
+        "name": "TEANA (J31)",
+        "code": "TA-7976",
+        "type": "passengerCar"
+      },
+      {
+        "name": "TEANA (J32Z)",
+        "code": "TA-9808",
+        "type": "passengerCar"
+      },
+      {
+        "name": "TEANA (L33Z)",
+        "code": "TA-38163",
+        "type": "passengerCar"
+      },
+      {
+        "name": "TIIDA Hatchback (C11)",
+        "code": "TA-8268",
+        "type": "passengerCar"
+      },
+      {
+        "name": "TIIDA Hatchback (C12)",
+        "code": "TA-9840",
+        "type": "passengerCar"
+      },
+      {
+        "name": "TIIDA Hatchback (C13Z)",
+        "code": "TA-36768",
+        "type": "passengerCar"
+      },
+      {
+        "name": "TIIDA Saloon (C11)",
+        "code": "TA-8269",
+        "type": "passengerCar"
+      },
+      {
+        "name": "X-TRAIL (T31)",
+        "code": "TA-8270",
+        "type": "passengerCar"
+      },
+      {
+        "name": "X-TRAIL (T32)",
+        "code": "TA-36910",
+        "type": "passengerCar"
+      },
+      {
+        "name": "X-TRAIL (T33)",
+        "code": "TA-42204",
+        "type": "passengerCar"
+      },
+      {
+        "name": "X-TRAIL HONOR (T32)",
+        "code": "TA-42594",
+        "type": "passengerCar"
       }
     ],
     "OLTCIT": [
@@ -38875,6 +39982,28 @@
         "name": "VECTIO | DORUK",
         "code": "TA-8983",
         "type": "commercialVehicle"
+      }
+    ],
+    "PANTHER": [
+      {
+        "name": "J72 (72)",
+        "code": "TA-43646",
+        "type": "passengerCar"
+      },
+      {
+        "name": "KALLISTA",
+        "code": "TA-4317",
+        "type": "passengerCar"
+      },
+      {
+        "name": "LIMA",
+        "code": "TA-4318",
+        "type": "passengerCar"
+      },
+      {
+        "name": "SOLO Coupe",
+        "code": "TA-4319",
+        "type": "passengerCar"
       }
     ],
     "PERODUA": [
@@ -41015,6 +42144,18 @@
         "type": "passengerCar"
       }
     ],
+    "RANGER": [
+      {
+        "name": "REKORD",
+        "code": "TA-4354",
+        "type": "passengerCar"
+      },
+      {
+        "name": "REKORD Coupe",
+        "code": "TA-4355",
+        "type": "passengerCar"
+      }
+    ],
     "RENAULT": [
       {
         "name": "10 (119_)",
@@ -42815,6 +43956,43 @@
         "type": "passengerCar"
       }
     ],
+    "SANTANA": [
+      {
+        "name": "300 Open Off-Road Vehicle",
+        "code": "TA-40463",
+        "type": "passengerCar"
+      },
+      {
+        "name": "300/350",
+        "code": "TA-8062",
+        "type": "passengerCar"
+      },
+      {
+        "name": "LANDROVER 1300/2000",
+        "code": "TA-11215",
+        "type": "passengerCar"
+      },
+      {
+        "name": "LANDROVER 88/109",
+        "code": "TA-11214",
+        "type": "passengerCar"
+      },
+      {
+        "name": "PS10/ANIBAL",
+        "code": "TA-6450",
+        "type": "passengerCar"
+      },
+      {
+        "name": "PS10/ANIBAL Open Off-Road Vehicle",
+        "code": "TA-11213",
+        "type": "passengerCar"
+      },
+      {
+        "name": "SAMURAI",
+        "code": "TA-11218",
+        "type": "passengerCar"
+      }
+    ],
     "SAO": [
       {
         "name": "PENZA Hatchback",
@@ -43880,12 +45058,12 @@
       },
       {
         "name": "IMPREZA Estate",
-        "code": "TA-34890",
+        "code": "TA-36137",
         "type": "passengerCar"
       },
       {
         "name": "IMPREZA Estate",
-        "code": "TA-36137",
+        "code": "TA-34890",
         "type": "passengerCar"
       },
       {
@@ -44407,12 +45585,12 @@
       },
       {
         "name": "ALTO K10",
-        "code": "TA-38845",
+        "code": "TA-38846",
         "type": "passengerCar"
       },
       {
         "name": "ALTO K10",
-        "code": "TA-38846",
+        "code": "TA-38845",
         "type": "passengerCar"
       },
       {
@@ -47529,12 +48707,12 @@
       },
       {
         "name": "DYNA 200 Platform/Chassis",
-        "code": "TA-7253",
+        "code": "TA-6304",
         "type": "passengerCar"
       },
       {
         "name": "DYNA 200 Platform/Chassis",
-        "code": "TA-6304",
+        "code": "TA-7253",
         "type": "passengerCar"
       },
       {
@@ -51275,1527 +52453,12 @@
       },
       {
         "name": "POINTER",
-        "code": "TA-6897",
-        "type": "passengerCar"
-      },
-      {
-        "name": "POINTER",
         "code": "TA-6898",
-        "type": "passengerCar"
-      },
-      {
-        "name": "POINTER Pickup",
-        "code": "TA-6899",
-        "type": "passengerCar"
-      },
-      {
-        "name": "POINTER Variant",
-        "code": "TA-6896",
-        "type": "passengerCar"
-      },
-      {
-        "name": "POLO (6N2)",
-        "code": "TA-4528",
-        "type": "passengerCar"
-      },
-      {
-        "name": "POLO (86)",
-        "code": "TA-431",
-        "type": "passengerCar"
-      },
-      {
-        "name": "POLO CLASSIC (86C, 80)",
-        "code": "TA-3885",
-        "type": "passengerCar"
-      },
-      {
-        "name": "POLO Coupe (86C, 80)",
-        "code": "TA-440",
-        "type": "passengerCar"
-      },
-      {
-        "name": "POLO Hatchback Van (86CF)",
-        "code": "TA-4018",
-        "type": "passengerCar"
-      },
-      {
-        "name": "POLO II (86C, 80)",
-        "code": "TA-436",
-        "type": "passengerCar"
-      },
-      {
-        "name": "POLO III (6N1)",
-        "code": "TA-427",
-        "type": "passengerCar"
-      },
-      {
-        "name": "POLO III CLASSIC (6V2) | FLIGHT | DERBY",
-        "code": "TA-1482",
-        "type": "passengerCar"
-      },
-      {
-        "name": "POLO IV (9N_, 9A_)",
-        "code": "TA-4804",
-        "type": "passengerCar"
-      },
-      {
-        "name": "POLO IV Saloon (9A4, 9A2, 9N2, 9A6) | DERBY",
-        "code": "TA-5074",
-        "type": "passengerCar"
-      },
-      {
-        "name": "POLO IV Saloon (9N2, 9N4)",
-        "code": "TA-11307",
-        "type": "passengerCar"
-      },
-      {
-        "name": "POLO Liftback (CK4, CK5)",
-        "code": "TA-44683",
-        "type": "passengerCar"
-      },
-      {
-        "name": "POLO PLAYA",
-        "code": "TA-6901",
-        "type": "passengerCar"
-      },
-      {
-        "name": "POLO V (6R1, 6C1)",
-        "code": "TA-8025",
-        "type": "passengerCar"
-      },
-      {
-        "name": "POLO V Saloon (602, 604, 612, 614) | VENTO",
-        "code": "TA-9746",
-        "type": "passengerCar"
-      },
-      {
-        "name": "POLO VI (AW1, BZ1, AE1)",
-        "code": "TA-38138",
-        "type": "passengerCar"
-      },
-      {
-        "name": "POLO VIVO Hatchback (6R1, 6RS, 6RT)",
-        "code": "TA-42809",
-        "type": "passengerCar"
-      },
-      {
-        "name": "POLO VIVO Hatchback (6S1, 6S3)",
-        "code": "TA-11409",
-        "type": "passengerCar"
-      },
-      {
-        "name": "POLO VIVO Hatchback Van (6S3)",
-        "code": "TA-90049",
-        "type": "passengerCar"
-      },
-      {
-        "name": "POLO VIVO Saloon (6S2, 6S4)",
-        "code": "TA-11410",
-        "type": "passengerCar"
-      },
-      {
-        "name": "POLO Van Estate Van (6V5)",
-        "code": "TA-38851",
-        "type": "passengerCar"
-      },
-      {
-        "name": "POLO Van Hatchback Van (6N1)",
-        "code": "TA-4019",
-        "type": "passengerCar"
-      },
-      {
-        "name": "POLO Van V (6R1, 6C1) | POLO CityVan",
-        "code": "TA-36882",
-        "type": "passengerCar"
-      },
-      {
-        "name": "POLO Variant (6V5)",
-        "code": "TA-1993",
-        "type": "passengerCar"
-      },
-      {
-        "name": "QUANTUM Variant",
-        "code": "TA-6903",
-        "type": "passengerCar"
-      },
-      {
-        "name": "QUANTUM Variant",
-        "code": "TA-6902",
-        "type": "passengerCar"
-      },
-      {
-        "name": "ROUTAN",
-        "code": "TA-9735",
-        "type": "passengerCar"
-      },
-      {
-        "name": "SANTANA (32B) | CORSAR | QUANTUM",
-        "code": "TA-195",
-        "type": "passengerCar"
-      },
-      {
-        "name": "SANTANA",
-        "code": "TA-4636",
-        "type": "passengerCar"
-      },
-      {
-        "name": "SANTANA | CARAT",
-        "code": "TA-6368",
-        "type": "passengerCar"
-      },
-      {
-        "name": "SAVEIRO I (147)",
-        "code": "TA-6140",
-        "type": "passengerCar"
-      },
-      {
-        "name": "SAVEIRO II (9U7)",
-        "code": "TA-6141",
-        "type": "passengerCar"
-      },
-      {
-        "name": "SAVEIRO III",
-        "code": "TA-13684",
-        "type": "passengerCar"
-      },
-      {
-        "name": "SAVEIRO IV",
-        "code": "TA-6142",
-        "type": "passengerCar"
-      },
-      {
-        "name": "SAVEIRO V (5U8, 5U9)",
-        "code": "TA-9916",
-        "type": "passengerCar"
-      },
-      {
-        "name": "SAVEIRO VI (5UA, 5UB, 5UC)",
-        "code": "TA-39566",
-        "type": "passengerCar"
-      },
-      {
-        "name": "SAVEIRO VI Pickup",
-        "code": "TA-90193",
-        "type": "passengerCar"
-      },
-      {
-        "name": "SAVEIRO VII (5UD, 5UE, 5UF)",
-        "code": "TA-39567",
-        "type": "passengerCar"
-      },
-      {
-        "name": "SCIROCCO (53)",
-        "code": "TA-210",
-        "type": "passengerCar"
-      },
-      {
-        "name": "SCIROCCO (53B)",
-        "code": "TA-214",
-        "type": "passengerCar"
-      },
-      {
-        "name": "SCIROCCO III (137, 138)",
-        "code": "TA-7584",
-        "type": "passengerCar"
-      },
-      {
-        "name": "SCIROCCO Van (137)",
-        "code": "TA-39063",
-        "type": "passengerCar"
-      },
-      {
-        "name": "SENDA",
-        "code": "TA-9973",
-        "type": "passengerCar"
-      },
-      {
-        "name": "SHARAN (7M8, 7M9, 7M6)",
-        "code": "TA-1312",
-        "type": "passengerCar"
-      },
-      {
-        "name": "SHARAN (7N1, 7N2)",
-        "code": "TA-8630",
-        "type": "passengerCar"
-      },
-      {
-        "name": "SHARAN VAN (7M_)",
-        "code": "TA-41677",
-        "type": "passengerCar"
-      },
-      {
-        "name": "SHARAN VAN (7N1, 7N2)",
-        "code": "TA-41676",
-        "type": "passengerCar"
-      },
-      {
-        "name": "SP-1 / SP-2",
-        "code": "TA-11602",
-        "type": "passengerCar"
-      },
-      {
-        "name": "SPACEFOX / SPACE CROSS (5Z6, 5Z7, 5Z9) | SURAN / SURAN CROSS | SPORTVAN",
-        "code": "TA-7531",
-        "type": "passengerCar"
-      },
-      {
-        "name": "T-CROSS (C11, D31)",
-        "code": "TA-39209",
-        "type": "passengerCar"
-      },
-      {
-        "name": "T-ROC (A11, D11)",
-        "code": "TA-38190",
-        "type": "passengerCar"
-      },
-      {
-        "name": "T-ROC Convertible (AC7, AC8)",
-        "code": "TA-40210",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TAIGO (CS1)",
-        "code": "TA-42141",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TAIGUN (CW1)",
-        "code": "TA-42480",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TAOS (CL1, CP1, CQ1)",
-        "code": "TA-41959",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TARO",
-        "code": "TA-337",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TAYRON (R41)",
-        "code": "TA-45883",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TIGUAN (5N_) | TIGUAN/TIGUAN LIMITED",
-        "code": "TA-6397",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TIGUAN (AD1, AX1)",
-        "code": "TA-36223",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TIGUAN (CT1)",
-        "code": "TA-45054",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TIGUAN ALLSPACE (BW2, BJ2)",
-        "code": "TA-38132",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TIGUAN SUV Van (AD1)",
-        "code": "TA-41816",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TIGUAN VAN (5N_)",
-        "code": "TA-41678",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TL",
-        "code": "TA-45523",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TOUAREG (7LA, 7L6, 7L7)",
-        "code": "TA-4920",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TOUAREG (7P5, 7P6)",
-        "code": "TA-8607",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TOUAREG (CR7, RC8)",
-        "code": "TA-38671",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TOUAREG VAN (7P5)",
-        "code": "TA-41680",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TOURAN (1T1, 1T2)",
-        "code": "TA-4954",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TOURAN (1T3) | GOLF TOURAN",
-        "code": "TA-10449",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TOURAN (5T1) | GOLF TOURAN",
-        "code": "TA-14158",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TOURAN VAN (1T1, 1T2)",
-        "code": "TA-41679",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TOURAN VAN (1T3)",
-        "code": "TA-41554",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TOURAN VAN (5T1)",
-        "code": "TA-42376",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TRANSPORTER Passenger VAN",
-        "code": "TA-10442",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TRANSPORTER T1 Bus (22, 24, 25, 28) | TRANSPORTER / MICRO BUS",
-        "code": "TA-1598",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TRANSPORTER T1 Platform/Chassis (26)",
-        "code": "TA-1627",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TRANSPORTER T1 Van (21, 23) | KOMBI | TRANSPORTER / KOMBI",
-        "code": "TA-1626",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TRANSPORTER T2 Bus (22, 23, 24) | TRANSPORTER / MICRO BUS | KOMBI",
-        "code": "TA-455",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TRANSPORTER T2 Platform/Chassis (21, 26)",
-        "code": "TA-3888",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TRANSPORTER T2 Van (21, 23) | TRANSPORTER / KOMBI",
-        "code": "TA-1628",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TRANSPORTER T3 Bus (25_) | VANAGON | TRANSPORTER / CARAVELLE | CARAVELLE",
-        "code": "TA-3889",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TRANSPORTER T3 Platform/Chassis (24_)",
-        "code": "TA-1630",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TRANSPORTER T3 Van (24_, 25_) | VANAGON | TRANSPORTER / KOMBI",
-        "code": "TA-1629",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TRANSPORTER T4 Bus (70B, 70C, 7DB, 7DK, 70J, 70K, 7DC, 7DJ) | TRANSPORTER / CARAVELLE | KOMBI / MICROBUS / CARAVELLE | EUROVAN / CARAVELLE | EUROVAN | CARAVELLE",
-        "code": "TA-463",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TRANSPORTER T4 Platform/Chassis (70E, 70L, 70M, 7DE, 7DL, 7D",
-        "code": "TA-1632",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TRANSPORTER T4 Van (70A, 70H, 7DA, 7DH) | TRANSPORTER / KOMBI | EUROVAN",
-        "code": "TA-1631",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TRANSPORTER T5 Bus (7HB, 7HJ, 7EB, 7EJ) | TRANSPORTER / CARAVELLE | KOMBI | EUROVAN | CARAVELLE",
-        "code": "TA-5005",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TRANSPORTER T5 Platform/Chassis (7JD, 7JE, 7JL, 7JY, 7JZ, 7F | EUROVAN",
-        "code": "TA-5003",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TRANSPORTER T5 Van (7HA, 7HH, 7EA, 7EH) | TRANSPORTER / KOMBI | EUROVAN",
-        "code": "TA-5004",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TRANSPORTER T6 / CARAVELLE T6 Bus (SGB, SGJ, SHB, SHJ) | TRANSPORTER / CARAVELLE | KOMBI / TRANSPORTER KOMBI",
-        "code": "TA-14350",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TRANSPORTER T6 Platform/Chassis (SFD, SFE, SFL, SFZ, SJD, SJ",
-        "code": "TA-14352",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TRANSPORTER T6 Van (SGA, SGH, SHA, SHH)",
-        "code": "TA-14351",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TRANSPORTER T7 / CARAVELLE T7 Bus (TV_, TW_)",
-        "code": "TA-90131",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TRANSPORTER T7 Platform/Chassis (TX_, TY_)",
-        "code": "TA-90137",
-        "type": "passengerCar"
-      },
-      {
-        "name": "TRANSPORTER T7 Van (TV_, TW_)",
-        "code": "TA-90132",
-        "type": "passengerCar"
-      },
-      {
-        "name": "UP! (121, 122, BL1, BL2, BL3, 123)",
-        "code": "TA-9734",
-        "type": "passengerCar"
-      },
-      {
-        "name": "VARIANT I Variant",
-        "code": "TA-14651",
-        "type": "passengerCar"
-      },
-      {
-        "name": "VARIANT II",
-        "code": "TA-36532",
-        "type": "passengerCar"
-      },
-      {
-        "name": "VENTO (1H2) | JETTA III",
-        "code": "TA-3886",
-        "type": "passengerCar"
-      },
-      {
-        "name": "VENTO (602, 604)",
-        "code": "TA-13100",
-        "type": "passengerCar"
-      },
-      {
-        "name": "VIRTUS Saloon (BZ2) | POLO",
-        "code": "TA-38449",
-        "type": "passengerCar"
-      },
-      {
-        "name": "VOYAGE (5U4, 5U2, 5U6, 5UG) | GOL",
-        "code": "TA-9621",
-        "type": "passengerCar"
-      },
-      {
-        "name": "VOYAGE (5X1)",
-        "code": "TA-6906",
-        "type": "passengerCar"
-      },
-      {
-        "name": "VOYAGE",
-        "code": "TA-6905",
-        "type": "passengerCar"
-      },
-      {
-        "name": "VOYAGE | GACEL",
-        "code": "TA-6904",
-        "type": "passengerCar"
-      },
-      {
-        "name": "XL1 (6Z1)",
-        "code": "TA-13215",
-        "type": "passengerCar"
-      },
-      {
-        "name": "2000",
-        "code": "TA-37457",
-        "type": "commercialVehicle"
-      },
-      {
-        "name": "CONSTELLATION",
-        "code": "TA-7874",
-        "type": "commercialVehicle"
-      },
-      {
-        "name": "DELIVERY",
-        "code": "TA-7894",
-        "type": "commercialVehicle"
-      },
-      {
-        "name": "DELIVERY II",
-        "code": "TA-41486",
-        "type": "commercialVehicle"
-      },
-      {
-        "name": "HEAVY SERIES",
-        "code": "TA-90057",
-        "type": "commercialVehicle"
-      },
-      {
-        "name": "L 80",
-        "code": "TA-4811",
-        "type": "commercialVehicle"
-      },
-      {
-        "name": "LIGHT SERIES",
-        "code": "TA-90055",
-        "type": "commercialVehicle"
-      },
-      {
-        "name": "MEDIUM SERIES",
-        "code": "TA-90056",
-        "type": "commercialVehicle"
-      },
-      {
-        "name": "METEOR",
-        "code": "TA-41842",
-        "type": "commercialVehicle"
-      },
-      {
-        "name": "VOLKSBUS",
-        "code": "TA-7875",
-        "type": "commercialVehicle"
-      },
-      {
-        "name": "WORKER",
-        "code": "TA-7890",
-        "type": "commercialVehicle"
-      },
-      {
-        "name": "1500",
-        "code": "TA-45872",
-        "type": "passengerCar"
-      },
-      {
-        "name": "1500 Estate",
-        "code": "TA-45873",
-        "type": "passengerCar"
-      },
-      {
-        "name": "1500,1600 (31)",
-        "code": "TA-507",
-        "type": "passengerCar"
-      },
-      {
-        "name": "1500,1600 Hatchback (31) | FASTBACK",
-        "code": "TA-1620",
-        "type": "passengerCar"
-      },
-      {
-        "name": "1500,1600 Variant (36) | SQUAREBACK",
-        "code": "TA-1621",
-        "type": "passengerCar"
-      },
-      {
-        "name": "166",
-        "code": "TA-4644",
-        "type": "passengerCar"
-      },
-      {
-        "name": "181 | SAFARI",
-        "code": "TA-512",
-        "type": "passengerCar"
-      },
-      {
-        "name": "411,412",
-        "code": "TA-1616",
-        "type": "passengerCar"
-      },
-      {
-        "name": "412 Variant",
-        "code": "TA-405",
-        "type": "passengerCar"
-      },
-      {
-        "name": "AMAROK (2HA, 2HB, S1B, S6B, S7A, S7B, AGD)",
-        "code": "TA-8636",
-        "type": "passengerCar"
-      },
-      {
-        "name": "AMAROK (T1A, T1B)",
-        "code": "TA-44048",
-        "type": "passengerCar"
-      },
-      {
-        "name": "AMAROK Platform/Chassis (S1B, S6B, S7B)",
-        "code": "TA-14172",
-        "type": "passengerCar"
-      },
-      {
-        "name": "AMEO (631)",
-        "code": "TA-36973",
-        "type": "passengerCar"
-      },
-      {
-        "name": "APOLLO Saloon",
-        "code": "TA-7946",
-        "type": "passengerCar"
-      },
-      {
-        "name": "ARTEON (3H7, 3H8)",
-        "code": "TA-37842",
-        "type": "passengerCar"
-      },
-      {
-        "name": "ARTEON SHOOTING BRAKE (3H9)",
-        "code": "TA-41006",
-        "type": "passengerCar"
-      },
-      {
-        "name": "ATLAS (CA1, CA2, CA3) | TERAMONT",
-        "code": "TA-38193",
-        "type": "passengerCar"
-      },
-      {
-        "name": "ATLAS CROSS SPORT (CMC, CMD) | TERAMONT",
-        "code": "TA-40840",
-        "type": "passengerCar"
-      },
-      {
-        "name": "BEETLE (5C1, 5C2) | FUSCA | BJALLA",
-        "code": "TA-9710",
-        "type": "passengerCar"
-      },
-      {
-        "name": "BEETLE Convertible (5C7, 5C8)",
-        "code": "TA-10735",
-        "type": "passengerCar"
-      },
-      {
-        "name": "BORA (9M2) | CLASICO",
-        "code": "TA-11598",
-        "type": "passengerCar"
-      },
-      {
-        "name": "BORA I (1J2) | JETTA IV | JETTA",
-        "code": "TA-3884",
-        "type": "passengerCar"
-      },
-      {
-        "name": "BORA Variant (1J6) | JETTA IV",
-        "code": "TA-4125",
-        "type": "passengerCar"
-      },
-      {
-        "name": "BRASILIA",
-        "code": "TA-9917",
-        "type": "passengerCar"
-      },
-      {
-        "name": "CADDY ALLTRACK IV Box Body/MPV (SAA)",
-        "code": "TA-36198",
-        "type": "passengerCar"
-      },
-      {
-        "name": "CADDY ALLTRACK IV MPV (SAB)",
-        "code": "TA-36197",
-        "type": "passengerCar"
-      },
-      {
-        "name": "CADDY Box Body/MPV (6K9, 9E7, 9E9)",
-        "code": "TA-38217",
-        "type": "passengerCar"
-      },
-      {
-        "name": "CADDY CALIFORNIA V Camper (SBB, SBJ)",
-        "code": "TA-42705",
-        "type": "passengerCar"
-      },
-      {
-        "name": "CADDY I (14) | RABBIT PICKUP",
-        "code": "TA-3943",
-        "type": "passengerCar"
-      },
-      {
-        "name": "CADDY II Box Body/MPV (9K9A) | VAN | PANEL",
-        "code": "TA-4003",
-        "type": "passengerCar"
-      },
-      {
-        "name": "CADDY II MPV (9K9B)",
-        "code": "TA-5393",
-        "type": "passengerCar"
-      },
-      {
-        "name": "CADDY II Pickup (9U7)",
-        "code": "TA-4004",
-        "type": "passengerCar"
-      },
-      {
-        "name": "CADDY III Box Body/MPV (2KA, 2KH, 2CA, 2CH)",
-        "code": "TA-5083",
-        "type": "passengerCar"
-      },
-      {
-        "name": "CADDY III MPV (2KB, 2KJ, 2CB, 2CJ)",
-        "code": "TA-5084",
-        "type": "passengerCar"
-      },
-      {
-        "name": "CADDY IV Box Body/MPV (SAA, SAH)",
-        "code": "TA-14303",
-        "type": "passengerCar"
-      },
-      {
-        "name": "CADDY IV MPV (SAB, SAJ)",
-        "code": "TA-14302",
-        "type": "passengerCar"
-      },
-      {
-        "name": "CADDY MPV (6K9, 9E7, 9E9)",
-        "code": "TA-38216",
-        "type": "passengerCar"
-      },
-      {
-        "name": "CADDY V Box Body/MPV (SBA, SBH)",
-        "code": "TA-41500",
-        "type": "passengerCar"
-      },
-      {
-        "name": "CADDY V MPV (SBB, SBJ)",
-        "code": "TA-41499",
-        "type": "passengerCar"
-      },
-      {
-        "name": "CALIFORNIA T4 Camper (7DJ, 7DK, 70J)",
-        "code": "TA-42534",
-        "type": "passengerCar"
-      },
-      {
-        "name": "CALIFORNIA T5 Camper (7EC, 7EF, 7EG, 7HF, 7HC)",
-        "code": "TA-42535",
-        "type": "passengerCar"
-      },
-      {
-        "name": "CALIFORNIA T6 Camper (SGC, SGG, SHC)",
-        "code": "TA-42536",
-        "type": "passengerCar"
-      },
-      {
-        "name": "CALIFORNIA T7 Camper (STC)",
-        "code": "TA-90117",
-        "type": "passengerCar"
-      },
-      {
-        "name": "CC B7 (358)",
-        "code": "TA-10200",
-        "type": "passengerCar"
-      },
-      {
-        "name": "CITI GOLF",
-        "code": "TA-10502",
-        "type": "passengerCar"
-      },
-      {
-        "name": "CORRADO (53I)",
-        "code": "TA-3887",
-        "type": "passengerCar"
-      },
-      {
-        "name": "CRAFTER 30-35 Bus (2E_)",
-        "code": "TA-5528",
-        "type": "passengerCar"
-      },
-      {
-        "name": "CRAFTER 30-50 Platform/Chassis (2F_)",
-        "code": "TA-5530",
-        "type": "passengerCar"
-      },
-      {
-        "name": "CRAFTER 30-50 Van (2E_)",
-        "code": "TA-5529",
-        "type": "passengerCar"
-      },
-      {
-        "name": "CRAFTER Bus (SYI, SYJ)",
-        "code": "TA-37480",
-        "type": "passengerCar"
-      },
-      {
-        "name": "CRAFTER Platform/Chassis (SZ_)",
-        "code": "TA-37201",
-        "type": "passengerCar"
-      },
-      {
-        "name": "CRAFTER Van (SY_, SX_)",
-        "code": "TA-37200",
-        "type": "passengerCar"
-      },
-      {
-        "name": "DERBY (86)",
-        "code": "TA-270",
-        "type": "passengerCar"
-      },
-      {
-        "name": "DERBY (86C, 80)",
-        "code": "TA-275",
-        "type": "passengerCar"
-      },
-      {
-        "name": "DERBY III Saloon (6K2)",
-        "code": "TA-34729",
-        "type": "passengerCar"
-      },
-      {
-        "name": "EOS (1F7, 1F8)",
-        "code": "TA-5457",
-        "type": "passengerCar"
-      },
-      {
-        "name": "FOX (16)",
-        "code": "TA-90090",
-        "type": "passengerCar"
-      },
-      {
-        "name": "FOX Hatchback (5Z1, 5Z3, 5Z4)",
-        "code": "TA-5417",
-        "type": "passengerCar"
-      },
-      {
-        "name": "FOX Hatchback (5Z5)",
-        "code": "TA-13150",
-        "type": "passengerCar"
-      },
-      {
-        "name": "FOX Saloon",
-        "code": "TA-10554",
-        "type": "passengerCar"
-      },
-      {
-        "name": "FOX Van (5Z1)",
-        "code": "TA-39073",
-        "type": "passengerCar"
-      },
-      {
-        "name": "FOX Variant",
-        "code": "TA-34118",
-        "type": "passengerCar"
-      },
-      {
-        "name": "FRIDOLIN Van (147)",
-        "code": "TA-36982",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOL",
-        "code": "TA-44715",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOL I",
-        "code": "TA-7627",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOL II",
-        "code": "TA-7626",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOL III",
-        "code": "TA-13671",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOL IV",
-        "code": "TA-13672",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOL V",
-        "code": "TA-9611",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOL VI",
-        "code": "TA-13666",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOL VII",
-        "code": "TA-38197",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOL VIII",
-        "code": "TA-39281",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOLF ALLTRACK VII Variant (BA5, BV5)",
-        "code": "TA-13608",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOLF ALLTRACK VIII (CG5)",
-        "code": "TA-41767",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOLF Hatchback Van (1K1)",
-        "code": "TA-41815",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOLF I (17) | CARIBE | RABBIT",
-        "code": "TA-497",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOLF I Cabriolet (155) | RABBIT | RABBIT / CABRIOLET",
-        "code": "TA-488",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOLF II (19E, 1G1)",
-        "code": "TA-500",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOLF II Van (19E, 1G1)",
-        "code": "TA-37151",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOLF III (1H1)",
-        "code": "TA-505",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOLF III Cabriolet (1E7) | CABRIO",
-        "code": "TA-493",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOLF III Van (1H1)",
-        "code": "TA-37153",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOLF III Variant (1H5)",
-        "code": "TA-510",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOLF IV (1J1)",
-        "code": "TA-1994",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOLF IV (9B3) | GOLF CITY",
-        "code": "TA-38069",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOLF IV Cabriolet (1E7) | CABRIO",
-        "code": "TA-1996",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOLF IV Van (1J1)",
-        "code": "TA-37154",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOLF IV Variant (1J5) | JETTA",
-        "code": "TA-1995",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOLF PLUS V (5M1, 521)",
-        "code": "TA-5379",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOLF PLUS Van (521)",
-        "code": "TA-39069",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOLF SPORTSVAN VII (AM1, AN1)",
-        "code": "TA-11878",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOLF V (1K1) | RABBIT",
-        "code": "TA-4991",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOLF V Variant (1K5) | VENTO | JETTA | BORA / JETTA",
-        "code": "TA-6245",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOLF VAN IV Variant (1J5)",
-        "code": "TA-39045",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOLF VAN VI Variant (AJ5)",
-        "code": "TA-39067",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOLF VAN VII Variant (BA5)",
-        "code": "TA-39079",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOLF VI (5K1)",
-        "code": "TA-7873",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOLF VI Convertible (517)",
-        "code": "TA-9158",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOLF VI Van (5K1)",
-        "code": "TA-39065",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOLF VI Variant (AJ5) | JETTA",
-        "code": "TA-8442",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOLF VII (5G1, BQ1, BE1, BE2)",
-        "code": "TA-10585",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOLF VII Van (5G1)",
-        "code": "TA-39077",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOLF VII Variant (BA5, BV5) | JETTA",
-        "code": "TA-11221",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOLF VIII (CD1, DA1)",
-        "code": "TA-40179",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOLF VIII Variant (CG5, DB5)",
-        "code": "TA-41185",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GOLF Van III Variant (1H5)",
-        "code": "TA-39689",
-        "type": "passengerCar"
-      },
-      {
-        "name": "GRAND CALIFORNIA Camper (SCB, SCC)",
-        "code": "TA-40014",
-        "type": "passengerCar"
-      },
-      {
-        "name": "HORMIGA",
-        "code": "TA-14140",
-        "type": "passengerCar"
-      },
-      {
-        "name": "ID. Buzz Bus (EBB, EBJ)",
-        "code": "TA-42932",
-        "type": "passengerCar"
-      },
-      {
-        "name": "ID. Buzz Cargo (EBA)",
-        "code": "TA-42933",
-        "type": "passengerCar"
-      },
-      {
-        "name": "ID.3 (E11, E12)",
-        "code": "TA-41044",
-        "type": "passengerCar"
-      },
-      {
-        "name": "ID.4 (E21)",
-        "code": "TA-41351",
-        "type": "passengerCar"
-      },
-      {
-        "name": "ID.5 (E39)",
-        "code": "TA-42571",
-        "type": "passengerCar"
-      },
-      {
-        "name": "ID.7 (ED2)",
-        "code": "TA-44750",
-        "type": "passengerCar"
-      },
-      {
-        "name": "ID.7 Tourer (ED5)",
-        "code": "TA-45262",
-        "type": "passengerCar"
-      },
-      {
-        "name": "ILTIS (183)",
-        "code": "TA-2",
-        "type": "passengerCar"
-      },
-      {
-        "name": "JETTA CITY Saloon",
-        "code": "TA-37129",
-        "type": "passengerCar"
-      },
-      {
-        "name": "JETTA CITY Variant",
-        "code": "TA-14621",
-        "type": "passengerCar"
-      },
-      {
-        "name": "JETTA I (16) | ATLANTIC",
-        "code": "TA-7",
-        "type": "passengerCar"
-      },
-      {
-        "name": "JETTA II (19E, 1G2, 165)",
-        "code": "TA-3439",
-        "type": "passengerCar"
-      },
-      {
-        "name": "JETTA III (1K2) | BORA | VENTO",
-        "code": "TA-5423",
-        "type": "passengerCar"
-      },
-      {
-        "name": "JETTA IV (162, 163, AV3, AV2) | JETTA / CLASICO | VENTO",
-        "code": "TA-9118",
-        "type": "passengerCar"
-      },
-      {
-        "name": "JETTA VII Saloon (BU3, BU4) | VENTO",
-        "code": "TA-39274",
-        "type": "passengerCar"
-      },
-      {
-        "name": "K 70 (48)",
-        "code": "TA-22",
-        "type": "passengerCar"
-      },
-      {
-        "name": "KAEFER Convertible (15) | CAROCHA | COCCINELLE | BEETLE | ESCARABAJO | FUSCA | KEVER",
-        "code": "TA-1614",
-        "type": "passengerCar"
-      },
-      {
-        "name": "KAEFER | CAROCHA | COCCINELLE | BEETLE | ESCARABAJO | SEDAN | FUSCA | KEVER | BEETLE / SUPER BEETLE",
-        "code": "TA-90",
-        "type": "passengerCar"
-      },
-      {
-        "name": "KARMANN GHIA Convertible (14, 34)",
-        "code": "TA-1615",
-        "type": "passengerCar"
-      },
-      {
-        "name": "KARMANN GHIA Coupe (14, 34)",
-        "code": "TA-99",
-        "type": "passengerCar"
-      },
-      {
-        "name": "KOMBI / MICROBUS / CARAVELLE T3 (25_)",
-        "code": "TA-11288",
-        "type": "passengerCar"
-      },
-      {
-        "name": "KOMBI T2 Bus (22, 7X) | COMBI",
-        "code": "TA-11175",
-        "type": "passengerCar"
-      },
-      {
-        "name": "KOMBI T2 Platform/Chassis (26, 7X)",
-        "code": "TA-11943",
-        "type": "passengerCar"
-      },
-      {
-        "name": "KOMBI T2 Van (21, 23, 7X) | PANEL / COMBI",
-        "code": "TA-11176",
-        "type": "passengerCar"
-      },
-      {
-        "name": "LOAD UP! (121, 122, BL1, BL2)",
-        "code": "TA-36247",
-        "type": "passengerCar"
-      },
-      {
-        "name": "LOGUS (5X1)",
-        "code": "TA-6892",
-        "type": "passengerCar"
-      },
-      {
-        "name": "LT 28-35 I Bus (281-363) | LT28-50",
-        "code": "TA-236",
-        "type": "passengerCar"
-      },
-      {
-        "name": "LT 28-35 I Platform/Chassis (281-363) | LT28-50",
-        "code": "TA-1637",
-        "type": "passengerCar"
-      },
-      {
-        "name": "LT 28-35 I Van (281-363) | LT28-50",
-        "code": "TA-1636",
-        "type": "passengerCar"
-      },
-      {
-        "name": "LT 28-35 II Bus (2DB, 2DE, 2DK)",
-        "code": "TA-3378",
-        "type": "passengerCar"
-      },
-      {
-        "name": "LT 28-46 II Platform/Chassis (2DC, 2DF, 2DG, 2DL, 2DM)",
-        "code": "TA-3380",
-        "type": "passengerCar"
-      },
-      {
-        "name": "LT 28-46 II Van (2DA, 2DD, 2DH)",
-        "code": "TA-3379",
-        "type": "passengerCar"
-      },
-      {
-        "name": "LT 40-55 I Platform/Chassis (293-909)",
-        "code": "TA-4489",
-        "type": "passengerCar"
-      },
-      {
-        "name": "LT 40-55 I Van (291-512)",
-        "code": "TA-4488",
-        "type": "passengerCar"
-      },
-      {
-        "name": "LUPO I (6X1, 6E1)",
-        "code": "TA-3398",
-        "type": "passengerCar"
-      },
-      {
-        "name": "LUPO II (5Z1)",
-        "code": "TA-9587",
-        "type": "passengerCar"
-      },
-      {
-        "name": "MULTIVAN T5 (7HM, 7HN, 7HF, 7EF, 7EM, 7EN) | CARAVELLE",
-        "code": "TA-4988",
-        "type": "passengerCar"
-      },
-      {
-        "name": "MULTIVAN T6 (SGF, SGM, SGN, SHM, SHN) | CARAVELLE",
-        "code": "TA-14349",
-        "type": "passengerCar"
-      },
-      {
-        "name": "MULTIVAN T7 (STM, STN)",
-        "code": "TA-42517",
-        "type": "passengerCar"
-      },
-      {
-        "name": "NEW BEETLE (9C1, 1C1)",
-        "code": "TA-3402",
-        "type": "passengerCar"
-      },
-      {
-        "name": "NEW BEETLE Convertible (1Y7)",
-        "code": "TA-4957",
-        "type": "passengerCar"
-      },
-      {
-        "name": "NIVUS (CH1)",
-        "code": "TA-40993",
-        "type": "passengerCar"
-      },
-      {
-        "name": "PARATI I Variant | GOL COUNTRY",
-        "code": "TA-6893",
-        "type": "passengerCar"
-      },
-      {
-        "name": "PARATI II Variant | GOL COUNTRY",
-        "code": "TA-6108",
-        "type": "passengerCar"
-      },
-      {
-        "name": "PARATI III Variant (5X5) | GOL COUNTRY",
-        "code": "TA-6109",
-        "type": "passengerCar"
-      },
-      {
-        "name": "PARATI IV Variant (5W5) | GOL COUNTRY",
-        "code": "TA-9918",
-        "type": "passengerCar"
-      },
-      {
-        "name": "PASSAT ALLTRACK B7 (365)",
-        "code": "TA-11084",
-        "type": "passengerCar"
-      },
-      {
-        "name": "PASSAT ALLTRACK B8 Variant (3G5, CB5)",
-        "code": "TA-14622",
-        "type": "passengerCar"
-      },
-      {
-        "name": "PASSAT B1 (32) | DASHER",
-        "code": "TA-403",
-        "type": "passengerCar"
-      },
-      {
-        "name": "PASSAT B1 Saloon (32)",
-        "code": "TA-11601",
-        "type": "passengerCar"
-      },
-      {
-        "name": "PASSAT B1 Variant (33) | DASHER",
-        "code": "TA-415",
-        "type": "passengerCar"
-      },
-      {
-        "name": "PASSAT B2 (32B) | CORSAR | QUANTUM | CARAT | SANTANA",
-        "code": "TA-408",
-        "type": "passengerCar"
-      },
-      {
-        "name": "PASSAT B2 Saloon (32B) | CORSAR | QUANTUM",
-        "code": "TA-1447",
-        "type": "passengerCar"
-      },
-      {
-        "name": "PASSAT B2 Variant (33B) | CORSAR | QUANTUM | CARAT",
-        "code": "TA-419",
-        "type": "passengerCar"
-      },
-      {
-        "name": "PASSAT B3/B4 (315, 3A5)",
-        "code": "TA-39690",
-        "type": "passengerCar"
-      },
-      {
-        "name": "PASSAT B3/B4 (3A2, 35I)",
-        "code": "TA-412",
-        "type": "passengerCar"
-      },
-      {
-        "name": "PASSAT B3/B4 Variant (3A5, 35I)",
-        "code": "TA-423",
-        "type": "passengerCar"
-      },
-      {
-        "name": "PASSAT B5 (3B2)",
-        "code": "TA-1568",
-        "type": "passengerCar"
-      },
-      {
-        "name": "PASSAT B5 Variant (3B5)",
-        "code": "TA-1907",
-        "type": "passengerCar"
-      },
-      {
-        "name": "PASSAT B5.5 (3B3)",
-        "code": "TA-4736",
-        "type": "passengerCar"
-      },
-      {
-        "name": "PASSAT B5.5 Variant (3B6)",
-        "code": "TA-4737",
-        "type": "passengerCar"
-      },
-      {
-        "name": "PASSAT B6 (3C2) | PASSAT / Magotan",
-        "code": "TA-5398",
-        "type": "passengerCar"
-      },
-      {
-        "name": "PASSAT B6 Variant (3C5)",
-        "code": "TA-5427",
-        "type": "passengerCar"
-      },
-      {
-        "name": "PASSAT B7 (362)",
-        "code": "TA-9003",
-        "type": "passengerCar"
-      },
-      {
-        "name": "PASSAT B7 (A32, A33)",
-        "code": "TA-11165",
-        "type": "passengerCar"
-      },
-      {
-        "name": "PASSAT B7 Estate Van (365)",
-        "code": "TA-39030",
-        "type": "passengerCar"
-      },
-      {
-        "name": "PASSAT B7 Variant (365) | MAGOTAN",
-        "code": "TA-9004",
-        "type": "passengerCar"
-      },
-      {
-        "name": "PASSAT B8 (3G2, CB2)",
-        "code": "TA-12917",
-        "type": "passengerCar"
-      },
-      {
-        "name": "PASSAT B8 Variant (3G5, CB5)",
-        "code": "TA-12918",
-        "type": "passengerCar"
-      },
-      {
-        "name": "PASSAT B9 Variant (CJ5)",
-        "code": "TA-45017",
-        "type": "passengerCar"
-      },
-      {
-        "name": "PASSAT CC B6 (357)",
-        "code": "TA-7375",
-        "type": "passengerCar"
-      },
-      {
-        "name": "PHAETON (3D1, 3D2, 3D3, 3D4, 3D6, 3D7, 3D8, 3D9)",
-        "code": "TA-4876",
-        "type": "passengerCar"
-      },
-      {
-        "name": "POINTER",
-        "code": "TA-6895",
         "type": "passengerCar"
       },
       {
         "name": "POINTER",
         "code": "TA-6897",
-        "type": "passengerCar"
-      },
-      {
-        "name": "POINTER",
-        "code": "TA-6898",
         "type": "passengerCar"
       },
       {
@@ -54404,6 +54067,63 @@
       {
         "name": "TEMPO",
         "code": "TA-7641",
+        "type": "passengerCar"
+      }
+    ],
+    "ZASTAVA": [
+      {
+        "name": "10",
+        "code": "TA-8381",
+        "type": "passengerCar"
+      },
+      {
+        "name": "101",
+        "code": "TA-143",
+        "type": "passengerCar"
+      },
+      {
+        "name": "750",
+        "code": "TA-9121",
+        "type": "passengerCar"
+      },
+      {
+        "name": "KORAL",
+        "code": "TA-10214",
+        "type": "passengerCar"
+      },
+      {
+        "name": "RIVAL Bus",
+        "code": "TA-37485",
+        "type": "passengerCar"
+      },
+      {
+        "name": "RIVAL Platform/Chassis",
+        "code": "TA-37488",
+        "type": "passengerCar"
+      },
+      {
+        "name": "RIVAL Van",
+        "code": "TA-37486",
+        "type": "passengerCar"
+      },
+      {
+        "name": "SKALA",
+        "code": "TA-37483",
+        "type": "passengerCar"
+      },
+      {
+        "name": "YUGO",
+        "code": "TA-148",
+        "type": "passengerCar"
+      },
+      {
+        "name": "YUGO FLORIDA",
+        "code": "TA-4535",
+        "type": "passengerCar"
+      },
+      {
+        "name": "YUGO TEMPO",
+        "code": "TA-39050",
         "type": "passengerCar"
       }
     ]
