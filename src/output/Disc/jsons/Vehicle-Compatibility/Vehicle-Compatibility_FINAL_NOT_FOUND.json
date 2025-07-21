@@ -1,0 +1,561 @@
+[
+  {
+    "yvNo": "151536",
+    "crossNumber": "RT 20989",
+    "brand": "ROTINGER",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "MITSUBISHI",
+        "models": [
+          {
+            "modelSeries": "LANCER VI (CJ_, CP_)",
+            "targets": [
+              {
+                "engine": "EVO V (CP9A)",
+                "fullName": "MITSUBISHI LANCER VI (CJ_, CP_) EVO V (CP9A)",
+                "constructionYearFrom": "01.1998",
+                "constructionYearTo": "12.1998",
+                "enginePowerKW": 206,
+                "enginePowerHP": 280,
+                "cc": 1997,
+                "engineCodes": "4G63 Turbo",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 14893
+              },
+              {
+                "engine": "EVO VI (CP9A)",
+                "fullName": "MITSUBISHI LANCER VI (CJ_, CP_) EVO VI (CP9A)",
+                "constructionYearFrom": "01.1999",
+                "constructionYearTo": "02.2001",
+                "enginePowerKW": 206,
+                "enginePowerHP": 280,
+                "cc": 1997,
+                "engineCodes": "4G63 Turbo",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 27492
+              }
+            ]
+          },
+          {
+            "modelSeries": "LANCER VII (CS_A, CT_A) | CEDIA | LANCER / VIRAGE",
+            "targets": [
+              {
+                "engine": "EVO IX",
+                "fullName": "MITSUBISHI LANCER VII (CS_A, CT_A) | CEDIA | LANCER / VIRAGE EVO IX",
+                "constructionYearFrom": "07.2006",
+                "constructionYearTo": "10.2008",
+                "enginePowerKW": 269,
+                "enginePowerHP": 366,
+                "cc": 1997,
+                "engineCodes": "4G63 Turbo",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 132975
+              },
+              {
+                "engine": "EVO IX (CT9A)",
+                "fullName": "MITSUBISHI LANCER VII (CS_A, CT_A) | CEDIA | LANCER / VIRAGE EVO IX (CT9A)",
+                "constructionYearFrom": "01.2005",
+                "constructionYearTo": "09.2007",
+                "enginePowerKW": 206,
+                "enginePowerHP": 280,
+                "cc": 1997,
+                "engineCodes": "4G63 Turbo",
+                "kbaNumbers": "7107ABL, 7107299",
+                "bodyType": "Saloon",
+                "TecDocID": 19366
+              },
+              {
+                "engine": "EVO IX (CT9A)",
+                "fullName": "MITSUBISHI LANCER VII (CS_A, CT_A) | CEDIA | LANCER / VIRAGE EVO IX (CT9A)",
+                "constructionYearFrom": "08.2005",
+                "constructionYearTo": "09.2006",
+                "enginePowerKW": 213,
+                "enginePowerHP": 290,
+                "cc": 1997,
+                "engineCodes": "4G63 Turbo",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 21408
+              },
+              {
+                "engine": "EVO VII (CT9A)",
+                "fullName": "MITSUBISHI LANCER VII (CS_A, CT_A) | CEDIA | LANCER / VIRAGE EVO VII (CT9A)",
+                "constructionYearFrom": "01.2001",
+                "constructionYearTo": "01.2003",
+                "enginePowerKW": 206,
+                "enginePowerHP": 280,
+                "cc": 1997,
+                "engineCodes": "4G63 Turbo",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 125584
+              },
+              {
+                "engine": "EVO VIII (CT9A)",
+                "fullName": "MITSUBISHI LANCER VII (CS_A, CT_A) | CEDIA | LANCER / VIRAGE EVO VIII (CT9A)",
+                "constructionYearFrom": "04.2003",
+                "constructionYearTo": "03.2005",
+                "enginePowerKW": 206,
+                "enginePowerHP": 280,
+                "cc": 1997,
+                "engineCodes": "4G63 Turbo",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 125592
+              },
+              {
+                "engine": "EVO VIII - 260 (CT9A)",
+                "fullName": "MITSUBISHI LANCER VII (CS_A, CT_A) | CEDIA | LANCER / VIRAGE EVO VIII - 260 (CT9A)",
+                "constructionYearFrom": "03.2004",
+                "constructionYearTo": "07.2005",
+                "enginePowerKW": 195,
+                "enginePowerHP": 265,
+                "cc": 1997,
+                "engineCodes": "4G63 Turbo",
+                "kbaNumbers": "7107297",
+                "bodyType": "Saloon",
+                "TecDocID": 17904
+              },
+              {
+                "engine": "EVO VIII - FQ-300 (CT9A)",
+                "fullName": "MITSUBISHI LANCER VII (CS_A, CT_A) | CEDIA | LANCER / VIRAGE EVO VIII - FQ-300 (CT9A)",
+                "constructionYearFrom": "04.2003",
+                "constructionYearTo": "04.2004",
+                "enginePowerKW": 225,
+                "enginePowerHP": 305,
+                "cc": 1997,
+                "engineCodes": "4G63 Turbo",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 125593
+              },
+              {
+                "engine": "EVO VIII - FQ-300 (CT9A)",
+                "fullName": "MITSUBISHI LANCER VII (CS_A, CT_A) | CEDIA | LANCER / VIRAGE EVO VIII - FQ-300 (CT9A)",
+                "constructionYearFrom": "04.2003",
+                "constructionYearTo": "04.2004",
+                "enginePowerKW": 227,
+                "enginePowerHP": 309,
+                "cc": 1997,
+                "engineCodes": "4G63 Turbo",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 125594
+              },
+              {
+                "engine": "EVO VIII - FQ-320 (CT9A)",
+                "fullName": "MITSUBISHI LANCER VII (CS_A, CT_A) | CEDIA | LANCER / VIRAGE EVO VIII - FQ-320 (CT9A)",
+                "constructionYearFrom": "04.2004",
+                "constructionYearTo": "08.2006",
+                "enginePowerKW": 243,
+                "enginePowerHP": 331,
+                "cc": 1997,
+                "engineCodes": "4G63 Turbo",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 125595
+              },
+              {
+                "engine": "EVO VIII - FQ-330 (CT9A)",
+                "fullName": "MITSUBISHI LANCER VII (CS_A, CT_A) | CEDIA | LANCER / VIRAGE EVO VIII - FQ-330 (CT9A)",
+                "constructionYearFrom": "10.2003",
+                "constructionYearTo": "08.2006",
+                "enginePowerKW": 246,
+                "enginePowerHP": 335,
+                "cc": 1997,
+                "engineCodes": "4G63 Turbo",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 125596
+              },
+              {
+                "engine": "EVO VIII - FQ-340 (CT9A)",
+                "fullName": "MITSUBISHI LANCER VII (CS_A, CT_A) | CEDIA | LANCER / VIRAGE EVO VIII - FQ-340 (CT9A)",
+                "constructionYearFrom": "04.2004",
+                "constructionYearTo": "03.2005",
+                "enginePowerKW": 255,
+                "enginePowerHP": 347,
+                "cc": 1997,
+                "engineCodes": "4G63 Turbo",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 125600
+              },
+              {
+                "engine": "EVO VIII - FQ-400 (CT9A)",
+                "fullName": "MITSUBISHI LANCER VII (CS_A, CT_A) | CEDIA | LANCER / VIRAGE EVO VIII - FQ-400 (CT9A)",
+                "constructionYearFrom": "10.2004",
+                "constructionYearTo": "08.2006",
+                "enginePowerKW": 302,
+                "enginePowerHP": 411,
+                "cc": 1997,
+                "engineCodes": "4G63 Turbo",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 125602
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "151536",
+    "crossNumber": "RT 20989",
+    "brand": "ROTINGER",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "MITSUBISHI",
+        "models": [
+          {
+            "modelSeries": "LANCER VI (CJ_, CP_)",
+            "targets": [
+              {
+                "engine": "EVO V (CP9A)",
+                "fullName": "MITSUBISHI LANCER VI (CJ_, CP_) EVO V (CP9A)",
+                "constructionYearFrom": "01.1998",
+                "constructionYearTo": "12.1998",
+                "enginePowerKW": 206,
+                "enginePowerHP": 280,
+                "cc": 1997,
+                "engineCodes": "4G63 Turbo",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 14893
+              },
+              {
+                "engine": "EVO VI (CP9A)",
+                "fullName": "MITSUBISHI LANCER VI (CJ_, CP_) EVO VI (CP9A)",
+                "constructionYearFrom": "01.1999",
+                "constructionYearTo": "02.2001",
+                "enginePowerKW": 206,
+                "enginePowerHP": 280,
+                "cc": 1997,
+                "engineCodes": "4G63 Turbo",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 27492
+              }
+            ]
+          },
+          {
+            "modelSeries": "LANCER VII (CS_A, CT_A) | CEDIA | LANCER / VIRAGE",
+            "targets": [
+              {
+                "engine": "EVO IX",
+                "fullName": "MITSUBISHI LANCER VII (CS_A, CT_A) | CEDIA | LANCER / VIRAGE EVO IX",
+                "constructionYearFrom": "07.2006",
+                "constructionYearTo": "10.2008",
+                "enginePowerKW": 269,
+                "enginePowerHP": 366,
+                "cc": 1997,
+                "engineCodes": "4G63 Turbo",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 132975
+              },
+              {
+                "engine": "EVO IX (CT9A)",
+                "fullName": "MITSUBISHI LANCER VII (CS_A, CT_A) | CEDIA | LANCER / VIRAGE EVO IX (CT9A)",
+                "constructionYearFrom": "01.2005",
+                "constructionYearTo": "09.2007",
+                "enginePowerKW": 206,
+                "enginePowerHP": 280,
+                "cc": 1997,
+                "engineCodes": "4G63 Turbo",
+                "kbaNumbers": "7107ABL, 7107299",
+                "bodyType": "Saloon",
+                "TecDocID": 19366
+              },
+              {
+                "engine": "EVO IX (CT9A)",
+                "fullName": "MITSUBISHI LANCER VII (CS_A, CT_A) | CEDIA | LANCER / VIRAGE EVO IX (CT9A)",
+                "constructionYearFrom": "08.2005",
+                "constructionYearTo": "09.2006",
+                "enginePowerKW": 213,
+                "enginePowerHP": 290,
+                "cc": 1997,
+                "engineCodes": "4G63 Turbo",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 21408
+              },
+              {
+                "engine": "EVO VII (CT9A)",
+                "fullName": "MITSUBISHI LANCER VII (CS_A, CT_A) | CEDIA | LANCER / VIRAGE EVO VII (CT9A)",
+                "constructionYearFrom": "01.2001",
+                "constructionYearTo": "01.2003",
+                "enginePowerKW": 206,
+                "enginePowerHP": 280,
+                "cc": 1997,
+                "engineCodes": "4G63 Turbo",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 125584
+              },
+              {
+                "engine": "EVO VIII (CT9A)",
+                "fullName": "MITSUBISHI LANCER VII (CS_A, CT_A) | CEDIA | LANCER / VIRAGE EVO VIII (CT9A)",
+                "constructionYearFrom": "04.2003",
+                "constructionYearTo": "03.2005",
+                "enginePowerKW": 206,
+                "enginePowerHP": 280,
+                "cc": 1997,
+                "engineCodes": "4G63 Turbo",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 125592
+              },
+              {
+                "engine": "EVO VIII - 260 (CT9A)",
+                "fullName": "MITSUBISHI LANCER VII (CS_A, CT_A) | CEDIA | LANCER / VIRAGE EVO VIII - 260 (CT9A)",
+                "constructionYearFrom": "03.2004",
+                "constructionYearTo": "07.2005",
+                "enginePowerKW": 195,
+                "enginePowerHP": 265,
+                "cc": 1997,
+                "engineCodes": "4G63 Turbo",
+                "kbaNumbers": "7107297",
+                "bodyType": "Saloon",
+                "TecDocID": 17904
+              },
+              {
+                "engine": "EVO VIII - FQ-300 (CT9A)",
+                "fullName": "MITSUBISHI LANCER VII (CS_A, CT_A) | CEDIA | LANCER / VIRAGE EVO VIII - FQ-300 (CT9A)",
+                "constructionYearFrom": "04.2003",
+                "constructionYearTo": "04.2004",
+                "enginePowerKW": 225,
+                "enginePowerHP": 305,
+                "cc": 1997,
+                "engineCodes": "4G63 Turbo",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 125593
+              },
+              {
+                "engine": "EVO VIII - FQ-300 (CT9A)",
+                "fullName": "MITSUBISHI LANCER VII (CS_A, CT_A) | CEDIA | LANCER / VIRAGE EVO VIII - FQ-300 (CT9A)",
+                "constructionYearFrom": "04.2003",
+                "constructionYearTo": "04.2004",
+                "enginePowerKW": 227,
+                "enginePowerHP": 309,
+                "cc": 1997,
+                "engineCodes": "4G63 Turbo",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 125594
+              },
+              {
+                "engine": "EVO VIII - FQ-320 (CT9A)",
+                "fullName": "MITSUBISHI LANCER VII (CS_A, CT_A) | CEDIA | LANCER / VIRAGE EVO VIII - FQ-320 (CT9A)",
+                "constructionYearFrom": "04.2004",
+                "constructionYearTo": "08.2006",
+                "enginePowerKW": 243,
+                "enginePowerHP": 331,
+                "cc": 1997,
+                "engineCodes": "4G63 Turbo",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 125595
+              },
+              {
+                "engine": "EVO VIII - FQ-330 (CT9A)",
+                "fullName": "MITSUBISHI LANCER VII (CS_A, CT_A) | CEDIA | LANCER / VIRAGE EVO VIII - FQ-330 (CT9A)",
+                "constructionYearFrom": "10.2003",
+                "constructionYearTo": "08.2006",
+                "enginePowerKW": 246,
+                "enginePowerHP": 335,
+                "cc": 1997,
+                "engineCodes": "4G63 Turbo",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 125596
+              },
+              {
+                "engine": "EVO VIII - FQ-340 (CT9A)",
+                "fullName": "MITSUBISHI LANCER VII (CS_A, CT_A) | CEDIA | LANCER / VIRAGE EVO VIII - FQ-340 (CT9A)",
+                "constructionYearFrom": "04.2004",
+                "constructionYearTo": "03.2005",
+                "enginePowerKW": 255,
+                "enginePowerHP": 347,
+                "cc": 1997,
+                "engineCodes": "4G63 Turbo",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 125600
+              },
+              {
+                "engine": "EVO VIII - FQ-400 (CT9A)",
+                "fullName": "MITSUBISHI LANCER VII (CS_A, CT_A) | CEDIA | LANCER / VIRAGE EVO VIII - FQ-400 (CT9A)",
+                "constructionYearFrom": "10.2004",
+                "constructionYearTo": "08.2006",
+                "enginePowerKW": 302,
+                "enginePowerHP": 411,
+                "cc": 1997,
+                "engineCodes": "4G63 Turbo",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 125602
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "721557",
+    "crossNumber": "CT20369",
+    "brand": "CHITAO",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "BYD",
+        "models": [
+          {
+            "modelSeries": "YUAN PLUS | ATTO 3",
+            "targets": [
+              {
+                "engine": "EV",
+                "fullName": "BYD YUAN PLUS | ATTO 3 EV",
+                "constructionYearFrom": "02.2022",
+                "enginePowerKW": 150,
+                "enginePowerHP": 204,
+                "engineCodes": "TZ200XSQ",
+                "kbaNumbers": "2160AAB",
+                "bodyType": "SUV",
+                "TecDocID": 146771
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "401539",
+    "crossNumber": "CD5380V",
+    "brand": "BREMSI",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "ISUZU",
+        "models": [
+          {
+            "modelSeries": "FORWARD F",
+            "targets": [
+              {
+                "engine": "N75-190",
+                "fullName": "ISUZU FORWARD F N75-190",
+                "constructionYearFrom": "01.2006",
+                "enginePowerKW": 140,
+                "enginePowerHP": 190,
+                "cc": 5193,
+                "engineCodes": "4HK1-TC",
+                "kbaNumbers": "",
+                "bodyType": "Platform/Chassis",
+                "TecDocID": 19585
+              }
+            ]
+          },
+          {
+            "modelSeries": "GRAFTER",
+            "targets": [
+              {
+                "engine": "N35-120",
+                "fullName": "ISUZU GRAFTER N35-120",
+                "constructionYearFrom": "01.2014",
+                "enginePowerKW": 88,
+                "enginePowerHP": 120,
+                "cc": 2999,
+                "engineCodes": "4JJ1-TC, 4JJ1-TCS",
+                "kbaNumbers": "",
+                "bodyType": "Platform/Chassis",
+                "TecDocID": 23400
+              },
+              {
+                "engine": "N35-120",
+                "fullName": "ISUZU GRAFTER N35-120",
+                "constructionYearFrom": "01.2014",
+                "enginePowerKW": 88,
+                "enginePowerHP": 120,
+                "cc": 2999,
+                "engineCodes": "4JJ1-TC, 4JJ1-TCS",
+                "kbaNumbers": "",
+                "bodyType": "Dump Truck",
+                "TecDocID": 23401
+              },
+              {
+                "engine": "N35.150",
+                "fullName": "ISUZU GRAFTER N35.150",
+                "constructionYearFrom": "10.2008",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 2999,
+                "engineCodes": "4JJ1-TC, 4JJ1-TCS",
+                "kbaNumbers": "",
+                "bodyType": "Platform/Chassis",
+                "TecDocID": 17747
+              },
+              {
+                "engine": "N35.150",
+                "fullName": "ISUZU GRAFTER N35.150",
+                "constructionYearFrom": "10.2008",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 2999,
+                "engineCodes": "4JJ1-TC, 4JJ1-TCS",
+                "kbaNumbers": "",
+                "bodyType": "Dump Truck",
+                "TecDocID": 17748
+              }
+            ]
+          },
+          {
+            "modelSeries": "N (6th Generation)",
+            "targets": [
+              {
+                "engine": "N50.150",
+                "fullName": "ISUZU N (5th Generation) N50.150",
+                "constructionYearFrom": "10.2006",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 2999,
+                "engineCodes": "4JJ1-TC",
+                "kbaNumbers": "",
+                "bodyType": "Platform/Chassis",
+                "TecDocID": 21719
+              },
+              {
+                "engine": "NKR 85EA, NLR 85AL, NLR 85L, NNR 85L, NPR 85G, NPR 85L",
+                "fullName": "ISUZU N (6th Generation) NKR 85EA, NLR 85AL, NLR 85L, NNR 85L, NPR 85G, NPR 85L",
+                "constructionYearFrom": "10.2006",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 2999,
+                "engineCodes": "4JJ1-X, 4JJ1-TC, 4JJ1-TCS",
+                "kbaNumbers": "",
+                "bodyType": "Platform/Chassis",
+                "TecDocID": 9101
+              },
+              {
+                "engine": "NMR 85L, NPR 85L",
+                "fullName": "ISUZU N (6th Generation) NMR 85L, NPR 85L",
+                "constructionYearFrom": "10.2006",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 2999,
+                "engineCodes": "4JJ1-TC, 4JJ1-X, 4JJ1-TCS",
+                "kbaNumbers": "",
+                "bodyType": "Platform/Chassis",
+                "TecDocID": 9102
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

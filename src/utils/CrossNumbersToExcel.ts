@@ -18,13 +18,12 @@ jsonData.forEach((element: any) => {
     yv_OE_map.set(element.yvNo, element.OE);
 });
 
-const rowData : Record<string, Record<string, string>> = {}; // yvNo: <supplier: crossNumber(joined with ",")>
+const rowData : Record<string, Record<string, string>> = {}; // key: yvNo, value: Record<string, string>
 
 for(const element of jsonData){
     //const element: CrossNumbersYV_Pair = JSON.parse(each);
     const crossNumber: CrossNumberApiProduct[] = element.crossNumbers;
     const crossPairs : Record<string, string> = {};   // supplier: crossNumber(joined with ",")
-    const OE = element.OE;
 
     for(const each of crossNumber){
         const supplier = each.Supplier;
@@ -41,7 +40,7 @@ const dataArray = Object.entries(rowData).map(([yvNo, crossPairs]) => ({
     ...crossPairs
 }));
 
-const outputFilePath = `../output/${productType}/excels/Cross-Numbers/Cross-Numbers_by_${filterBrand}_Numbers.xlsx`;
+const outputFilePath = `../output/${productType}/excels/Cross Numbers/Cross-Numbers_by_${filterBrand}_Numbers.xlsx`;
 const ws = xlsx.utils.json_to_sheet(dataArray, { header: ['yvNo', "OE", ...headers] });
 const wb = xlsx.utils.book_new();
 xlsx.utils.book_append_sheet(wb, ws, "Cross Numbers BY OE Numbers");
