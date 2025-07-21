@@ -6,7 +6,8 @@
   "scripts": {
     "oe": "ts-node src/utils/OE_Numbers_JsonToExcel.ts",
     "compatibility": "ts-node src/utils/CompatibilitiesJsonToExcel.ts",
-    "crossNumbers": "ts-node src/utils/CrossNumbersToExcel.ts"
+    "crossNumbers": "ts-node src/utils/CrossNumbersToExcel.ts",
+    "combineCross": "ts-node src/IO_Operators/CrossNumberCombinator.ts"
   },
   "keywords": [],
   "author": "",
