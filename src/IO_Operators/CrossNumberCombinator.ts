@@ -3,6 +3,8 @@ import path from 'path';
 import dotenv from 'dotenv';
 import { CrossNumberJson, CrossNumberElement } from '../utils/Types';
 import { exportToExcel } from './CombinedCrossNumberToExcel';
+import { delay } from '../utils/API_Worker_Functions';
+import { Page } from '@playwright/test';
 
 // Yeni veri yapısını tanımla
 type FullCrossNumberData = {
@@ -74,7 +76,7 @@ export async function combineAllCrossNumberJsonFiles() {
 
 
 async function main() {
-    await combineAllCrossNumberJsonFiles();
+    //await combineAllCrossNumberJsonFiles();
     await exportToExcel();
 }
 

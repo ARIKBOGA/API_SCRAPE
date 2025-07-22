@@ -149,5 +149,5 @@ export const bodyTypes = [
 ];
 
 export const referenceArray: ProductReference[] = [
-  { yvNo: "13047", brand: "EBC Brakes", crossNumber: "D032"}
+  { yvNo: "20625408", brand: "BREMBO", crossNumber: "P 59 102"}
 ];
