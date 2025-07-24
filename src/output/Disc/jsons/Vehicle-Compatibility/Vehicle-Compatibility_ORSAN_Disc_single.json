@@ -1,0 +1,530 @@
+[
+  {
+    "yvNo": "43512-05010",
+    "crossNumber": "DF2742",
+    "brand": "TRW",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "TOYOTA",
+        "models": [
+          {
+            "modelSeries": "CALDINA Estate (_T19_)",
+            "targets": [
+              {
+                "engine": "2.0 TD (CT190G)",
+                "fullName": "TOYOTA CALDINA Estate (_T19_) 2.0 TD (CT190G)",
+                "constructionYearFrom": "06.1994",
+                "constructionYearTo": "09.1997",
+                "enginePowerKW": 54,
+                "enginePowerHP": 73,
+                "cc": 1974,
+                "engineCodes": "2C",
+                "kbaNumbers": "",
+                "bodyType": "Estate",
+                "TecDocID": 123781
+              }
+            ]
+          },
+          {
+            "modelSeries": "CARINA E VI (_T19_)",
+            "targets": [
+              {
+                "engine": "1.6 (AT190)",
+                "fullName": "TOYOTA CARINA E VI (_T19_) 1.6 (AT190)",
+                "constructionYearFrom": "12.1993",
+                "constructionYearTo": "09.1997",
+                "enginePowerKW": 73,
+                "enginePowerHP": 99,
+                "cc": 1587,
+                "engineCodes": "4A-FE",
+                "kbaNumbers": "5013327, 2130306",
+                "bodyType": "Hatchback",
+                "TecDocID": 4731
+              },
+              {
+                "engine": "1.6 (AT190)",
+                "fullName": "TOYOTA CARINA E VI (_T19_) 1.6 (AT190)",
+                "constructionYearFrom": "12.1993",
+                "constructionYearTo": "09.1997",
+                "enginePowerKW": 85,
+                "enginePowerHP": 116,
+                "cc": 1587,
+                "engineCodes": "4A-FE",
+                "kbaNumbers": "5013326",
+                "bodyType": "Hatchback",
+                "TecDocID": 5688
+              },
+              {
+                "engine": "1.6 16V (AT190_, AT190R)",
+                "fullName": "TOYOTA CARINA E VI (_T19_) 1.6 16V (AT190_, AT190R)",
+                "constructionYearFrom": "10.1995",
+                "constructionYearTo": "09.1997",
+                "enginePowerKW": 78,
+                "enginePowerHP": 106,
+                "cc": 1587,
+                "engineCodes": "4A-FE",
+                "kbaNumbers": "5013338",
+                "bodyType": "Hatchback",
+                "TecDocID": 10822
+              },
+              {
+                "engine": "1.6 GLI (AT190)",
+                "fullName": "TOYOTA CARINA E VI (_T19_) 1.6 GLI (AT190)",
+                "constructionYearFrom": "04.1992",
+                "constructionYearTo": "09.1997",
+                "enginePowerKW": 79,
+                "enginePowerHP": 107,
+                "cc": 1587,
+                "engineCodes": "4A-FE",
+                "kbaNumbers": "7104242, 2130302",
+                "bodyType": "Hatchback",
+                "TecDocID": 3627
+              },
+              {
+                "engine": "1.8 (AT191)",
+                "fullName": "TOYOTA CARINA E VI (_T19_) 1.8 (AT191)",
+                "constructionYearFrom": "01.1995",
+                "constructionYearTo": "09.1997",
+                "enginePowerKW": 79,
+                "enginePowerHP": 107,
+                "cc": 1762,
+                "engineCodes": "7A-FE",
+                "kbaNumbers": "5013329, 2130307",
+                "bodyType": "Hatchback",
+                "TecDocID": 4732
+              },
+              {
+                "engine": "1.8 GL (AT191)",
+                "fullName": "TOYOTA CARINA E VI (_T19_) 1.8 GL (AT191)",
+                "constructionYearFrom": "10.1994",
+                "constructionYearTo": "09.1997",
+                "enginePowerKW": 92,
+                "enginePowerHP": 125,
+                "cc": 1762,
+                "engineCodes": "7A-FE",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback",
+                "TecDocID": 20286
+              },
+              {
+                "engine": "2.0 D (CT190)",
+                "fullName": "TOYOTA CARINA E VI (_T19_) 2.0 D (CT190)",
+                "constructionYearFrom": "04.1992",
+                "constructionYearTo": "01.1996",
+                "enginePowerKW": 54,
+                "enginePowerHP": 73,
+                "cc": 1974,
+                "engineCodes": "2C",
+                "kbaNumbers": "5013330",
+                "bodyType": "Hatchback",
+                "TecDocID": 5689
+              },
+              {
+                "engine": "2.0 GLI (ST191)",
+                "fullName": "TOYOTA CARINA E VI (_T19_) 2.0 GLI (ST191)",
+                "constructionYearFrom": "04.1992",
+                "constructionYearTo": "09.1997",
+                "enginePowerKW": 98,
+                "enginePowerHP": 133,
+                "cc": 1998,
+                "engineCodes": "3S-FE",
+                "kbaNumbers": "7104244, 5013328, 2130303",
+                "bodyType": "Hatchback",
+                "TecDocID": 3630
+              },
+              {
+                "engine": "2.0 i (ST191)",
+                "fullName": "TOYOTA CARINA E VI (_T19_) 2.0 i (ST191)",
+                "constructionYearFrom": "12.1993",
+                "constructionYearTo": "09.1997",
+                "enginePowerKW": 93,
+                "enginePowerHP": 126,
+                "cc": 1998,
+                "engineCodes": "3S-FE",
+                "kbaNumbers": "5013339",
+                "bodyType": "Hatchback",
+                "TecDocID": 5690
+              },
+              {
+                "engine": "2.0 TD (CT190)",
+                "fullName": "TOYOTA CARINA E VI (_T19_) 2.0 TD (CT190)",
+                "constructionYearFrom": "01.1996",
+                "constructionYearTo": "09.1997",
+                "enginePowerKW": 61,
+                "enginePowerHP": 83,
+                "cc": 1974,
+                "engineCodes": "2C-T",
+                "kbaNumbers": "5013340",
+                "bodyType": "Hatchback",
+                "TecDocID": 5691
+              }
+            ]
+          },
+          {
+            "modelSeries": "CARINA E VI Saloon (_T19_)",
+            "targets": [
+              {
+                "engine": "1.6 (AT190)",
+                "fullName": "TOYOTA CARINA E VI Saloon (_T19_) 1.6 (AT190)",
+                "constructionYearFrom": "01.1993",
+                "constructionYearTo": "09.1997",
+                "enginePowerKW": 79,
+                "enginePowerHP": 107,
+                "cc": 1587,
+                "engineCodes": "4A-FE",
+                "kbaNumbers": "7104241, 2130300",
+                "bodyType": "Saloon",
+                "TecDocID": 3625
+              },
+              {
+                "engine": "1.6 (AT190)",
+                "fullName": "TOYOTA CARINA E VI Saloon (_T19_) 1.6 (AT190)",
+                "constructionYearFrom": "01.1995",
+                "constructionYearTo": "09.1997",
+                "enginePowerKW": 73,
+                "enginePowerHP": 99,
+                "cc": 1587,
+                "engineCodes": "4A-FE",
+                "kbaNumbers": "5013322, 2130304",
+                "bodyType": "Saloon",
+                "TecDocID": 4729
+              },
+              {
+                "engine": "1.6 (AT190)",
+                "fullName": "TOYOTA CARINA E VI Saloon (_T19_) 1.6 (AT190)",
+                "constructionYearFrom": "10.1995",
+                "constructionYearTo": "09.1997",
+                "enginePowerKW": 78,
+                "enginePowerHP": 106,
+                "cc": 1587,
+                "engineCodes": "4A-FE",
+                "kbaNumbers": "5013335",
+                "bodyType": "Saloon",
+                "TecDocID": 5685
+              },
+              {
+                "engine": "1.6 16V (AT190_, AT190R)",
+                "fullName": "TOYOTA CARINA E VI Saloon (_T19_) 1.6 16V (AT190_, AT190R)",
+                "constructionYearFrom": "12.1994",
+                "constructionYearTo": "09.1997",
+                "enginePowerKW": 85,
+                "enginePowerHP": 116,
+                "cc": 1587,
+                "engineCodes": "4A-FE",
+                "kbaNumbers": "5013321",
+                "bodyType": "Saloon",
+                "TecDocID": 10821
+              },
+              {
+                "engine": "1.8 GL (AT191)",
+                "fullName": "TOYOTA CARINA E VI Saloon (_T19_) 1.8 GL (AT191)",
+                "constructionYearFrom": "10.1994",
+                "constructionYearTo": "09.1997",
+                "enginePowerKW": 92,
+                "enginePowerHP": 125,
+                "cc": 1762,
+                "engineCodes": "7A-FE",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 20285
+              },
+              {
+                "engine": "1.8 i 16V (AT191)",
+                "fullName": "TOYOTA CARINA E VI Saloon (_T19_) 1.8 i 16V (AT191)",
+                "constructionYearFrom": "01.1995",
+                "constructionYearTo": "09.1997",
+                "enginePowerKW": 79,
+                "enginePowerHP": 107,
+                "cc": 1762,
+                "engineCodes": "7A-FE",
+                "kbaNumbers": "5013324, 2130305",
+                "bodyType": "Saloon",
+                "TecDocID": 4730
+              },
+              {
+                "engine": "2.0 (ST191)",
+                "fullName": "TOYOTA CARINA E VI Saloon (_T19_) 2.0 (ST191)",
+                "constructionYearFrom": "01.1993",
+                "constructionYearTo": "09.1997",
+                "enginePowerKW": 98,
+                "enginePowerHP": 133,
+                "cc": 1998,
+                "engineCodes": "3S-FE",
+                "kbaNumbers": "7104243, 5013323, 2130301",
+                "bodyType": "Saloon",
+                "TecDocID": 3628
+              },
+              {
+                "engine": "2.0 D (CT190)",
+                "fullName": "TOYOTA CARINA E VI Saloon (_T19_) 2.0 D (CT190)",
+                "constructionYearFrom": "08.1992",
+                "constructionYearTo": "01.1996",
+                "enginePowerKW": 54,
+                "enginePowerHP": 73,
+                "cc": 1974,
+                "engineCodes": "2C",
+                "kbaNumbers": "5013325",
+                "bodyType": "Saloon",
+                "TecDocID": 5686
+              },
+              {
+                "engine": "2.0 GTi (ST191_, ST191R)",
+                "fullName": "TOYOTA CARINA E VI Saloon (_T19_) 2.0 GTi (ST191_, ST191R)",
+                "constructionYearFrom": "04.1992",
+                "constructionYearTo": "12.1995",
+                "enginePowerKW": 116,
+                "enginePowerHP": 158,
+                "cc": 1998,
+                "engineCodes": "3S-GE",
+                "kbaNumbers": "7104254",
+                "bodyType": "Saloon",
+                "TecDocID": 15727
+              },
+              {
+                "engine": "2.0 GTi 16V (ST191_, ST191R)",
+                "fullName": "TOYOTA CARINA E VI Saloon (_T19_) 2.0 GTi 16V (ST191_, ST191R)",
+                "constructionYearFrom": "03.1994",
+                "constructionYearTo": "09.1997",
+                "enginePowerKW": 129,
+                "enginePowerHP": 175,
+                "cc": 1998,
+                "engineCodes": "3S-GE",
+                "kbaNumbers": "7104269",
+                "bodyType": "Saloon",
+                "TecDocID": 3850
+              },
+              {
+                "engine": "2.0 i (ST191)",
+                "fullName": "TOYOTA CARINA E VI Saloon (_T19_) 2.0 i (ST191)",
+                "constructionYearFrom": "12.1992",
+                "constructionYearTo": "09.1997",
+                "enginePowerKW": 93,
+                "enginePowerHP": 126,
+                "cc": 1998,
+                "engineCodes": "3S-FE",
+                "kbaNumbers": "5013336",
+                "bodyType": "Saloon",
+                "TecDocID": 5687
+              },
+              {
+                "engine": "2.0 TD (CT190_, CT190R)",
+                "fullName": "TOYOTA CARINA E VI Saloon (_T19_) 2.0 TD (CT190_, CT190R)",
+                "constructionYearFrom": "01.1996",
+                "constructionYearTo": "09.1997",
+                "enginePowerKW": 61,
+                "enginePowerHP": 83,
+                "cc": 1974,
+                "engineCodes": "2C-T",
+                "kbaNumbers": "5013337",
+                "bodyType": "Saloon",
+                "TecDocID": 10820
+              }
+            ]
+          },
+          {
+            "modelSeries": "CARINA E VI Sportswagon (_T19_)",
+            "targets": [
+              {
+                "engine": "1.6 (AT190)",
+                "fullName": "TOYOTA CARINA E VI Sportswagon (_T19_) 1.6 (AT190)",
+                "constructionYearFrom": "04.1992",
+                "constructionYearTo": "09.1997",
+                "enginePowerKW": 85,
+                "enginePowerHP": 115,
+                "cc": 1587,
+                "engineCodes": "4A-FE",
+                "kbaNumbers": "",
+                "bodyType": "Estate",
+                "TecDocID": 28700
+              },
+              {
+                "engine": "1.6 GLI (AT190_, AT190R)",
+                "fullName": "TOYOTA CARINA E VI Sportswagon (_T19_) 1.6 GLI (AT190_, AT190R)",
+                "constructionYearFrom": "01.1993",
+                "constructionYearTo": "09.1997",
+                "enginePowerKW": 79,
+                "enginePowerHP": 107,
+                "cc": 1587,
+                "engineCodes": "4A-FE",
+                "kbaNumbers": "7104257",
+                "bodyType": "Estate",
+                "TecDocID": 3632
+              },
+              {
+                "engine": "1.6 i (AT190_, AT190R)",
+                "fullName": "TOYOTA CARINA E VI Sportswagon (_T19_) 1.6 i (AT190_, AT190R)",
+                "constructionYearFrom": "02.1995",
+                "constructionYearTo": "09.1997",
+                "enginePowerKW": 73,
+                "enginePowerHP": 99,
+                "cc": 1587,
+                "engineCodes": "4A-FE",
+                "kbaNumbers": "7104274, 5013331, 2130309",
+                "bodyType": "Estate",
+                "TecDocID": 4775
+              },
+              {
+                "engine": "1.8 GL (AT191)",
+                "fullName": "TOYOTA CARINA E VI Sportswagon (_T19_) 1.8 GL (AT191)",
+                "constructionYearFrom": "10.1994",
+                "constructionYearTo": "09.1997",
+                "enginePowerKW": 92,
+                "enginePowerHP": 125,
+                "cc": 1762,
+                "engineCodes": "7A-FE",
+                "kbaNumbers": "",
+                "bodyType": "Estate",
+                "TecDocID": 20288
+              },
+              {
+                "engine": "1.8 i (AT191_, AT191R)",
+                "fullName": "TOYOTA CARINA E VI Sportswagon (_T19_) 1.8 i (AT191_, AT191R)",
+                "constructionYearFrom": "02.1995",
+                "constructionYearTo": "09.1997",
+                "enginePowerKW": 79,
+                "enginePowerHP": 107,
+                "cc": 1762,
+                "engineCodes": "7A-FE",
+                "kbaNumbers": "7104275, 5013333, 2130310",
+                "bodyType": "Estate",
+                "TecDocID": 4776
+              },
+              {
+                "engine": "2.0 D (CT190_, CT190R)",
+                "fullName": "TOYOTA CARINA E VI Sportswagon (_T19_) 2.0 D (CT190_, CT190R)",
+                "constructionYearFrom": "01.1993",
+                "constructionYearTo": "09.1997",
+                "enginePowerKW": 54,
+                "enginePowerHP": 73,
+                "cc": 1974,
+                "engineCodes": "2C",
+                "kbaNumbers": "5013334",
+                "bodyType": "Estate",
+                "TecDocID": 5692
+              },
+              {
+                "engine": "2.0 GLI (ST191_, ST191R)",
+                "fullName": "TOYOTA CARINA E VI Sportswagon (_T19_) 2.0 GLI (ST191_, ST191R)",
+                "constructionYearFrom": "01.1993",
+                "constructionYearTo": "09.1997",
+                "enginePowerKW": 98,
+                "enginePowerHP": 133,
+                "cc": 1998,
+                "engineCodes": "3S-FE",
+                "kbaNumbers": "7104258, 5013332, 2130308",
+                "bodyType": "Estate",
+                "TecDocID": 3633
+              },
+              {
+                "engine": "2.0 i (ST191_, ST191R)",
+                "fullName": "TOYOTA CARINA E VI Sportswagon (_T19_) 2.0 i (ST191_, ST191R)",
+                "constructionYearFrom": "05.1995",
+                "constructionYearTo": "09.1997",
+                "enginePowerKW": 93,
+                "enginePowerHP": 126,
+                "cc": 1998,
+                "engineCodes": "3S-FE",
+                "kbaNumbers": "5013341",
+                "bodyType": "Estate",
+                "TecDocID": 5693
+              },
+              {
+                "engine": "2.0 TD (CT190_, CT190R)",
+                "fullName": "TOYOTA CARINA E VI Sportswagon (_T19_) 2.0 TD (CT190_, CT190R)",
+                "constructionYearFrom": "01.1996",
+                "constructionYearTo": "09.1997",
+                "enginePowerKW": 61,
+                "enginePowerHP": 83,
+                "cc": 1974,
+                "engineCodes": "2C-T",
+                "kbaNumbers": "5013342",
+                "bodyType": "Estate",
+                "TecDocID": 5694
+              }
+            ]
+          },
+          {
+            "modelSeries": "CARINA V (_T17_)",
+            "targets": [
+              {
+                "engine": "2.0 D (CT170_)",
+                "fullName": "TOYOTA CARINA V (_T17_) 2.0 D (CT170_)",
+                "constructionYearFrom": "03.1988",
+                "constructionYearTo": "06.1992",
+                "enginePowerKW": 54,
+                "enginePowerHP": 73,
+                "cc": 1974,
+                "engineCodes": "2C-L",
+                "kbaNumbers": "7104208",
+                "bodyType": "Hatchback",
+                "TecDocID": 6705
+              }
+            ]
+          },
+          {
+            "modelSeries": "CARINA V Saloon (_T17_)",
+            "targets": [
+              {
+                "engine": "2.0 D (CT170_, CT170)",
+                "fullName": "TOYOTA CARINA V Saloon (_T17_) 2.0 D (CT170_, CT170)",
+                "constructionYearFrom": "03.1988",
+                "constructionYearTo": "06.1992",
+                "enginePowerKW": 54,
+                "enginePowerHP": 73,
+                "cc": 1974,
+                "engineCodes": "2C",
+                "kbaNumbers": "7104207",
+                "bodyType": "Saloon",
+                "TecDocID": 6704
+              }
+            ]
+          },
+          {
+            "modelSeries": "CORONA Saloon (_T19_)",
+            "targets": [
+              {
+                "engine": "1.6 (AT190)",
+                "fullName": "TOYOTA CORONA Saloon (_T19_) 1.6 (AT190)",
+                "constructionYearFrom": "02.1992",
+                "constructionYearTo": "09.1997",
+                "enginePowerKW": 73,
+                "enginePowerHP": 99,
+                "cc": 1587,
+                "engineCodes": "4A-FE",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 22795
+              },
+              {
+                "engine": "2.0 (ST191_, ST191)",
+                "fullName": "TOYOTA CORONA Saloon (_T19_) 2.0 (ST191_, ST191)",
+                "constructionYearFrom": "02.1992",
+                "constructionYearTo": "09.1997",
+                "enginePowerKW": 93,
+                "enginePowerHP": 126,
+                "cc": 1998,
+                "engineCodes": "3S-FE",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 22797
+              },
+              {
+                "engine": "2.0 D (CT190)",
+                "fullName": "TOYOTA CORONA Saloon (_T19_) 2.0 D (CT190)",
+                "constructionYearFrom": "02.1992",
+                "constructionYearTo": "12.1994",
+                "enginePowerKW": 54,
+                "enginePowerHP": 73,
+                "cc": 1974,
+                "engineCodes": "2C",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 124597
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
