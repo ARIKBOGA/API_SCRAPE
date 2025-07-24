@@ -9,6 +9,7 @@ export const SUPPLIER_NUMBERS: Record<string, string> = {
   AP: "283",
   "A.B.S.": "206",
   "ALLIED NIPPON": "7662",
+  "BLUE PRINT": "350",
   "BORG & BECK": "475",
   BREMBO: "65",
   BREMSI: "4872",
@@ -34,6 +35,7 @@ export const SUPPLIER_NUMBERS: Record<string, string> = {
   MANDO: "4008",
   MAXTECH: "4899",
   METELLI: "121",
+  MEYLE: "144",
   NipoKM: "7770",
   NK: "127",
   NPS: "440",
@@ -149,5 +151,11 @@ export const bodyTypes = [
 ];
 
 export const referenceArray: ProductReference[] = [
-  { yvNo: "13047", brand: "EBC Brakes", crossNumber: "D032"}
+
+  
+  { yvNo: "43512-05010", brand: "TRW", crossNumber: "DF2742" },
+ 
+
+
+
 ];

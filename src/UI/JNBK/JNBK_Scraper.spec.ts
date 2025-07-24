@@ -3,6 +3,8 @@ import path from 'path';
 import fs from 'fs';
 import { OutputManufacturer, OutputModelSeries, OutputTarget, ProductCompatibilityResult } from '../../utils/Types';
 import { referenceArray } from '../../utils/Variables';
+import { extractYears } from '../../utils/Utility';
+import { Locale } from 'locale-enum';
 
 // env dosyasından değişkenleri oku
 const productKind = process.env.PRODUCT_TYPE as string;
@@ -33,7 +35,8 @@ test.describe('JNBK Brakes OE Tech Details', () => {
                 await page.waitForLoadState('domcontentloaded'); // Sayfanın yüklenmesini bekle
                 await page.locator('#divImgCrossSpec').getByText('Specification').waitFor(); // Ürün detaylarının yüklendiğinden emin olmak için bekle
 
-                console.log(`🔍 ${crossNumber} için ürünü işliyor...`);
+                
+                
 
                 const productTitle = await page.locator("//*[@id='msg']/following-sibling::div//h2").textContent();
                 console.log(`Ürün Başlığı: ${productTitle}`);
@@ -51,6 +54,10 @@ test.describe('JNBK Brakes OE Tech Details', () => {
                     productID = words.length > 0 ? words[words.length - 1] : "";
                 }
 
+
+                /*
+
+                console.log(`🔍 ${crossNumber} için ürünü işliyor...`);
 
                 const specificationTitles = await page.locator("//*[@class='d-lg-flex']//div[@class='param-title']").allTextContents();
                 const specificationValues = await page.locator("//*[@class='d-lg-flex']//div[@class='param-field']").allTextContents();
@@ -103,71 +110,78 @@ test.describe('JNBK Brakes OE Tech Details', () => {
                 };
 
                 fs.writeFileSync(outputPath, JSON.stringify(outputData, null, 2), 'utf-8');
-
                 console.log(`✅ ${crossNumber} için ürün detayları başarıyla alındı ve ${outputPath} dosyasına yazıldı.`);
 
+                */
 
                 // Application Gatheiring process
                 const compatibilityResults: ProductCompatibilityResult[] = [];
-                const manufacturers: OutputManufacturer[] = [];
-                const modelSeries: OutputModelSeries[] = [];
+                
+                
                 const targets: OutputTarget[] = [];
 
                 const marka_model_locator = "//div[contains(@class, 'model-title')]";  // çoklu locating, dizi döndürür
                 const marka_model = page.locator(marka_model_locator);
                 const marka_model_count = await marka_model.count();
 
-                compatibilityResults.push({
-                    yvNo, crossNumber, brand: filterBrand,
-                    compatibleVehicles: []
-                });
-
+                // Compatibilities bölümündeki açılır-kapanır menüleri tek tek aç ve kapat
                 for (let i = 1; i <= marka_model_count; i++) {
+
                     const marka_model = await page.locator(`(${marka_model_locator})[${i}]`).textContent();
                     const marka_model_text = marka_model?.trim();
-                    const brand_name = marka_model_text?.split("»")[0].trim();
-                    const model_name = marka_model_text?.split("»")[1].trim();
-
-                    compatibilityResults[0].compatibleVehicles.push({
-                        manufacturer: brand_name || "",
-                        models: []
-                    })
+                    const brand_name = marka_model_text?.split("»")[0].trim() || "";
+                    const model_name = marka_model_text?.split("»")[1].trim() || "";
 
                     const rows_locator = `(//div[contains(@class, 'model-body')])[${i}]//tr`; // Mosulu locate et
                     const app_rows = await page.locator(rows_locator).all();
+
+                    // Her satırı dönerek verileri "target" nesnesi olarak "targets" dizisine ekle
                     for (let j = 0; j < app_rows.length; j++) {
+
                         const madeYear = await page.locator(`${rows_locator}[${j + 1}]//td[1]`).textContent() || "";
-                        const engineType = await page.locator(`${rows_locator}[${j + 1}]//td[2]`).textContent() || "";
+                        const cc = await page.locator(`${rows_locator}[${j + 1}]//td[2]`).textContent() || "";
                         const engineCodes = await page.locator(`${rows_locator}[${j + 1}]//td[3]`).textContent() || "";
-                        const body = await page.locator(`${rows_locator}[${j + 1}]//td[4]`).textContent() || "";
+                        const engineType_body = await page.locator(`${rows_locator}[${j + 1}]//td[4]`).textContent() || "";
+                        const years = await extractYears(madeYear, Locale.en_US);
+                        
                         const app: OutputTarget = {
-                            brand: brand_name || "",
-                            model: model_name || "",
-                            madeYear: madeYear.trim(),
-                            engineType: engineType.trim(),
-                            engineCodes: engineCodes.trim(),
-                            body: body.trim(),
-                            kw: "",
-                            hp: "",
-                            cc: "",
-                            KBA_Numbers: ""
+                            engine: engineType_body + " | " + cc, // Genelde 'engine' alanına karşılık gelir
+                            fullName: marka_model_text || "" ,// Excel'e yazılmayacak olsa da, veride bu alan olabilir
+                            constructionYearFrom: years.start,
+                            constructionYearTo: years.end,
+                            enginePowerKW: "",
+                            enginePowerHP: "",
+                            cc: cc,
+                            engineCodes: engineCodes,
+                            kbaNumbers: "",
+                            bodyType: engineType_body,
+                            TecDocID: "",
                         }
                         targets.push(app);
                     }
+
+                    const manufacturers: OutputManufacturer[] = [];
+                    const modelSeries: OutputModelSeries[] = [];
+
+                    modelSeries.push({ modelSeries: model_name, targets: targets });
+                    manufacturers.push({ manufacturer: brand_name, models: modelSeries });
+                    
+                    compatibilityResults.push({ yvNo, crossNumber, brand: filterBrand, compatibleVehicles: manufacturers });
+
                 }
 
-                const outputPath_app = path.join(`src/data/Gathered_Informations/${productKind}/Applications/English/${filterBrand}/${filterBrand}_${productID}.json`);
+                const outputPath_app = path.join(`src/output/${productKind}/jsons/Vehicle-Compatibility/Vehicle-Compatibility_${filterBrand}_${productID}.json`);
                 if (!fs.existsSync(path.dirname(outputPath_app))) {
                     fs.mkdirSync(path.dirname(outputPath_app), { recursive: true });
                 }
-                fs.writeFileSync(outputPath_app, JSON.stringify(targets, null, 2), 'utf-8');
+                fs.writeFileSync(outputPath_app, JSON.stringify(compatibilityResults, null, 2), 'utf-8');
                 console.log(`✅ ${crossNumber} için uygulamalar basarıyla alındı ve ${outputPath_app} dosyasına yazıldı.`);
 
             } catch (err) {
                 console.error(`❌ ${crossNumber} için hata:`, err);
 
                 // Hata yakalanırsa da o OE numarasını reTry listesine ekle
-                addToRetryList(crossNumber);  // Use the helper function here
+
             }
         });
     }

@@ -1,0 +1,799 @@
+[
+  {
+    "yvNo": "432004255R",
+    "crossNumber": "94042400",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "DACIA",
+        "numbers": [
+          "432009941R",
+          "6001550811",
+          "8200243735"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "432004255R",
+          "432023259R",
+          "432024763R",
+          "8200243735",
+          "8200290352"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "51990128",
+    "crossNumber": "DB5023",
+    "supplier": "TRW",
+    "oeNumbers": [
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "51860868",
+          "51898123",
+          "51990128",
+          "52015297"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "5 68 002",
+          "95515120",
+          "95524688"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "5 68 002",
+          "95515120",
+          "95524688"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "4379680",
+    "crossNumber": "94006400",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "SE022165201A"
+        ]
+      },
+      {
+        "manufacturer": "AUTOBIANCHI",
+        "numbers": [
+          "94379680"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "4379680",
+          "4779680",
+          "5890762",
+          "5974792",
+          "5975061",
+          "7672577",
+          "7777842",
+          "777842"
+        ]
+      },
+      {
+        "manufacturer": "INNOCENTI",
+        "numbers": [
+          "4373614",
+          "790833",
+          "94379680"
+        ]
+      },
+      {
+        "manufacturer": "LANCIA",
+        "numbers": [
+          "94379680"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "SE022165201A"
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "SE022165201A"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "SE022165201A"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "191501615A",
+    "crossNumber": "94006700",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "AUDI",
+        "numbers": [
+          "115330192",
+          "191501615A",
+          "1H0501615A",
+          "1H0501615B",
+          "1H050161A",
+          "1H0615601A",
+          "323501615",
+          "331501615",
+          "379501615A",
+          "5U0501615B",
+          "6U0501615",
+          "6U0501615A",
+          "6U0501615B",
+          "841501615A"
+        ]
+      },
+      {
+        "manufacturer": "SEAT",
+        "numbers": [
+          "115330192",
+          "191501615A",
+          "1H0501615A",
+          "1H0501615B",
+          "1H050161A",
+          "1H0615601A",
+          "323501615",
+          "331501615",
+          "379501615A",
+          "5U0501615B",
+          "6U0501615",
+          "6U0501615A",
+          "6U0501615B",
+          "841501615A"
+        ]
+      },
+      {
+        "manufacturer": "SKODA",
+        "numbers": [
+          "115330192",
+          "191501615A",
+          "1H0501615A",
+          "1H0501615B",
+          "1H050161A",
+          "1H0615601A",
+          "323501615",
+          "331501615",
+          "379501615A",
+          "5U0501615B",
+          "6U0501615",
+          "6U0501615A",
+          "6U0501615B",
+          "841501615A"
+        ]
+      },
+      {
+        "manufacturer": "VW",
+        "numbers": [
+          "115330192",
+          "191501615A",
+          "1H0501615A",
+          "1H0501615B",
+          "1H050161A",
+          "1H0615601A",
+          "323501615",
+          "331501615",
+          "379501615A",
+          "5U0501615B",
+          "6U0501615",
+          "6U0501615A",
+          "6U0501615B",
+          "841501615A"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "4534230201",
+    "crossNumber": "94046200",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "DACIA",
+        "numbers": [
+          "432009514R"
+        ]
+      },
+      {
+        "manufacturer": "MITSUBISHI",
+        "numbers": [
+          "MQ006680"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "432001458R"
+        ]
+      },
+      {
+        "manufacturer": "SMART",
+        "numbers": [
+          "4534230201",
+          "A4534230201"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "1313675080",
+    "crossNumber": "94010200",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "ALFA ROMEO",
+        "numbers": [
+          "4389374"
+        ]
+      },
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "424722",
+          "4449694",
+          "ZF04449694",
+          "ZF4449694"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "1313675080",
+          "6001070416"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "424722",
+          "4449694",
+          "ZF04449694",
+          "ZF4449694"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "34211162401",
+    "crossNumber": "DB4108",
+    "supplier": "TRW",
+    "oeNumbers": [
+      {
+        "manufacturer": "BMW",
+        "numbers": [
+          "1 158 815",
+          "1 159 486",
+          "1 162 400",
+          "1 162 401",
+          "34 21 1 158 815",
+          "34 21 1 159 486",
+          "34 21 1 162 400",
+          "34 21 1 162 401"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "432001501R",
+    "crossNumber": "94038900",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "DACIA",
+        "numbers": [
+          "432001324R",
+          "432001501R",
+          "432004197R",
+          "432005573R",
+          "432007320R",
+          "6001548985",
+          "6001550813",
+          "8200381151"
+        ]
+      },
+      {
+        "manufacturer": "MERCEDES-BENZ",
+        "numbers": [
+          "4154230101",
+          "A4154230101"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "432007320R",
+          "6001550813",
+          "8200381151"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7910226",
+    "crossNumber": "100.01.196",
+    "supplier": "YUMAK",
+    "oeNumbers": [
+      {
+        "manufacturer": "IVECO",
+        "numbers": [
+          "4715419",
+          "7160113",
+          "7510",
+          "790111"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "4707532",
+    "crossNumber": "100.01.197",
+    "supplier": "YUMAK",
+    "oeNumbers": [
+      {
+        "manufacturer": "IVECO",
+        "numbers": [
+          "4707532",
+          "7160035",
+          "7165361"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "60813016",
+    "crossNumber": "94019900",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "ALFA ROMEO",
+        "numbers": [
+          "51916180",
+          "51945971",
+          "60813016"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "51822458",
+          "51904079",
+          "51916180",
+          "51945971",
+          "51962845",
+          "7774593"
+        ]
+      },
+      {
+        "manufacturer": "LANCIA",
+        "numbers": [
+          "51904681"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "8200171690",
+    "crossNumber": "94013700",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "4320000QAL"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "7700421739",
+          "7700710511",
+          "8200028861",
+          "8200137104",
+          "8200171690",
+          "8200256121"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "8200835832",
+    "crossNumber": "94045500",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "DACIA",
+        "numbers": [
+          "8200835832"
+        ]
+      },
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "4320000Q2H"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "432006019R",
+          "432061754R",
+          "432066923R"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "0K68A33251A",
+    "crossNumber": "K340A00",
+    "supplier": "NPS",
+    "oeNumbers": [
+      {
+        "manufacturer": "KIA",
+        "numbers": [
+          "0K68A33251A"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "3C111126BB",
+    "crossNumber": "BSG 30-225-017",
+    "supplier": "BSG",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "3C11 1126 BB",
+          "4475268"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "1213352",
+    "crossNumber": "94026700",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1151001",
+          "1213352",
+          "1315740",
+          "1416191",
+          "1468774",
+          "1507055",
+          "2S611113A1K",
+          "2S611113AG",
+          "2S611113AH",
+          "2S611113AJ",
+          "2S611113AK",
+          "4329656",
+          "4345314",
+          "4376842",
+          "7S611113AA",
+          "81AB1113AF",
+          "VP2S6W1113AA"
+        ]
+      },
+      {
+        "manufacturer": "MAZDA",
+        "numbers": [
+          "DD3226250",
+          "DD3226250A",
+          "DG4026250"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "432004255R",
+    "crossNumber": "BFR496",
+    "supplier": "DELPHI",
+    "oeNumbers": [
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "432004255R",
+          "432021782R",
+          "432024763R",
+          "8200 276 843",
+          "8200276843",
+          "8200290352"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "1733770",
+    "crossNumber": "BF581",
+    "supplier": "DELPHI",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "3780207",
+          "XM341126AA"
+        ]
+      },
+      {
+        "manufacturer": "FORD USA",
+        "numbers": [
+          "1733770",
+          "1768317",
+          "3780207",
+          "XM341126AA",
+          "XM341126AC",
+          "XM341126AD"
+        ]
+      },
+      {
+        "manufacturer": "MAZDA",
+        "numbers": [
+          "UH7126251"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "418025",
+    "crossNumber": "DB4134",
+    "supplier": "TRW",
+    "oeNumbers": [
+      {
+        "manufacturer": "CHEVROLET",
+        "numbers": [
+          "4 18 025",
+          "90425920",
+          "90509107"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "4 18 025",
+          "4 18 051",
+          "90425920",
+          "90509107"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "4 18 025",
+          "90425920",
+          "90509107"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "568269",
+    "crossNumber": "DB4361",
+    "supplier": "TRW",
+    "oeNumbers": [
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "51840909",
+          "55701379",
+          "55703042",
+          "55704049",
+          "55704050"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "5 68 269",
+          "55701379"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "5 68 269",
+          "55701379"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "8200276843",
+    "crossNumber": "94041400",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "432021782R",
+          "8200276843"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT TRUCKS",
+        "numbers": [
+          "8200276843"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "7700530035",
+    "crossNumber": "DB4148",
+    "supplier": "TRW",
+    "oeNumbers": [
+      {
+        "manufacturer": "NISSAN",
+        "numbers": [
+          "43206-70A01",
+          "43206-70A10"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "77 00 530 035"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "XM341126BA",
+    "crossNumber": "94035400",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1733773",
+          "3865373",
+          "XM341126BA",
+          "XM341126BC"
+        ]
+      },
+      {
+        "manufacturer": "MAZDA",
+        "numbers": [
+          "UH7426251A",
+          "UH7426251C"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "568038",
+    "crossNumber": "94048400",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "BEDFORD",
+        "numbers": [
+          "90077721"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "568038",
+          "568051",
+          "568056",
+          "90077722"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "90077722",
+          "90135264"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "4500099",
+    "crossNumber": "94027000",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "4500099",
+          "9160399"
+        ]
+      },
+      {
+        "manufacturer": "RENAULT",
+        "numbers": [
+          "7700302145"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "0K67026251",
+    "crossNumber": "BF415",
+    "supplier": "DELPHI",
+    "oeNumbers": [
+      {
+        "manufacturer": "KIA",
+        "numbers": [
+          "0K67026251"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "1523797",
+    "crossNumber": "94031900",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1523797",
+          "1535923",
+          "2017683",
+          "5214583",
+          "8V511113AA",
+          "8V511113AB",
+          "C1BC1126AA",
+          "G1B51126AA"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "1360422",
+    "crossNumber": "BSG 30-225-007",
+    "supplier": "BSG",
+    "oeNumbers": [
+      {
+        "manufacturer": "FORD",
+        "numbers": [
+          "1360422",
+          "5C16 1109 AA"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "424310D030",
+    "crossNumber": "94045200",
+    "supplier": "TEXTAR",
+    "oeNumbers": [
+      {
+        "manufacturer": "DAIHATSU",
+        "numbers": [
+          "424310D030000"
+        ]
+      },
+      {
+        "manufacturer": "TOYOTA",
+        "numbers": [
+          "424310D030"
+        ]
+      }
+    ]
+  }
+]

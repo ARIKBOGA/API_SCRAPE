@@ -3,7 +3,7 @@ import path from "path";
 import fs from "fs";
 import xlsx from 'xlsx';
 import { getToken } from "../../utils/API_Worker_Functions";
-import { ApiCompatibility } from "../../utils/Types";
+import { ApiCompatibility, Model } from "../../utils/Types";
 
 export function readBrandNames(): string[] {
     const filepath = path.resolve(__dirname, "../../resources/data/catalogInfo/excels/eldeki_markalar.xlsx");
@@ -11,12 +11,6 @@ export function readBrandNames(): string[] {
     const worksheet = workbook.Sheets[workbook.SheetNames[0]];
     const data = xlsx.utils.sheet_to_json(worksheet);
     return data.map((each: any) => each["BRAND_NAME"]);
-}
-
-interface Model {
-    name: string;
-    code: string;
-    type: string;
 }
 
 

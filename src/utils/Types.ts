@@ -41,7 +41,7 @@ export type OutputTarget = {
   bodyType: string;
   TecDocID?: string;
 };
-
+// (//div[contains(@class, 'model-body')])[1]//tr[1]//td[1]
 
 // Çıktı JSON'u için Model Series nesnesi - Mevcut OutputModelSeries tipiniz
 export type OutputModelSeries = {
@@ -112,4 +112,10 @@ export type CrossNumberJson = {
   yvNo: string;
   OE: string;
   crossNumbers: CrossNumberElement[];
+}
+
+export interface Model {
+    name: string;
+    code: string;
+    type: string;
 }

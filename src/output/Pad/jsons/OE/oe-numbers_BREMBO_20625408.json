@@ -1,0 +1,27 @@
+[
+  {
+    "yvNo": "20625408",
+    "crossNumber": "P 59 102",
+    "supplier": "BREMBO",
+    "oeNumbers": [
+      {
+        "manufacturer": "CITROËN",
+        "numbers": [
+          "1673597480"
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "numbers": [
+          "1673597480"
+        ]
+      },
+      {
+        "manufacturer": "TOYOTA",
+        "numbers": [
+          "SU001B2799"
+        ]
+      }
+    ]
+  }
+]
