@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 import path from "path";
 import fs from "fs";
 import { readProductReferencesFromExcel } from "../../utils/Excel_Utils";
-import { processProductFor_CrossNumbers, processProductFor_OE, processProductFor_VehicleCompatibility } from "../../utils/api-workers";
+import { processProductFor_CrossNumbers, processProductFor_OE, processProductFor_VehicleCompatibility, processProductForArticleAttributes } from "../../utils/api-workers";
 import { referenceArray } from "../../utils/Variables";
 
 dotenv.config({ path: path.resolve(".env") });
@@ -17,15 +17,15 @@ async function processProducts(processFunction: Function, fileName: string, thre
   const limit = pLimit(threadLimit);
 
   const results = (await Promise.all(
-    productReferences
-      //referenceArray
+    //productReferences
+      referenceArray
       .filter(
         (productRef) =>
-          productRef.brand === filterBrand &&               // process only given brand in .env file
+          //productRef.brand === filterBrand &&               // process only given brand in .env file
           productRef.crossNumber.trim() !== ""              // skip empty cells comes from excel
         //&& !productRef.crossNumber.trim().includes(" ")    // skip cross numbers with spaces
       )
-      .slice(300)
+      //.slice(300)
       .map((productRef) => limit(() => processFunction(productRef)))
   )).filter((r) => r !== null);
 
@@ -36,13 +36,13 @@ async function processProducts(processFunction: Function, fileName: string, thre
 test("Get OE numbers for all products", async () => {
   test.setTimeout(20 * 60 * 1000);
   console.log(`Processing OE numbers for brand: ${filterBrand}`);
-  await processProducts(processProductFor_OE, `oe-numbers_${filterBrand}_20625408.json`, 3, "OE");
+  await processProducts(processProductFor_OE, `oe-numbers_${filterBrand}.json`, 3, "OE");
 });
 
 test("Get Vehicle Compatibility for all products", async () => {
   test.setTimeout(20 * 60 * 1000);
   console.log(`Processing Vehicle Compatibility for brand: ${filterBrand}`);
-  await processProducts(processProductFor_VehicleCompatibility, `Vehicle-Compatibility_${filterBrand}_20625408.json`, 2, "Vehicle-Compatibility");
+  await processProducts(processProductFor_VehicleCompatibility, `Vehicle-Compatibility_${filterBrand}.json`, 3, "Vehicle-Compatibility");
 });
 
 test("Get cross numbers via given cross/OE numbers", async () => {
@@ -50,6 +50,12 @@ test("Get cross numbers via given cross/OE numbers", async () => {
   console.log(`Processing Cross Numbers for brand: ${filterBrand}`);
   await processProducts(processProductFor_CrossNumbers, `Cross-Numbers_${productType}_${filterBrand}.json`, 5, "Cross-Numbers");
 });
+
+test("Get Article Attributes of the products", async () => {
+  test.setTimeout(10 * 60 * 1000);
+  console.log(`Processing Article Attributes for : ${productType} - ${filterBrand}`)
+  await processProducts(processProductForArticleAttributes, `Attributes_${productType}_${filterBrand}.json`, 5, 'Attributes');
+})
 
 
 test('Get token only', async ({ request }) => {

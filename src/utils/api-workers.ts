@@ -89,11 +89,11 @@ export async function processProductFor_VehicleCompatibility(element: ProductRef
   }
 
   // Çıktı için ana nesne yapısı
-  const result: ProductCompatibilityResult = {yvNo,crossNumber,brand: filterBrand,compatibleVehicles: []};
+  const result: ProductCompatibilityResult = { yvNo, crossNumber, brand: filterBrand, compatibleVehicles: [] };
 
   try {
     // 1️⃣ Encrypted Search Code alma
-    const encryptedSearchCode = await getEncryptedSearchCode( crossNumber, filterBrand, apiContext);
+    const encryptedSearchCode = await getEncryptedSearchCode(crossNumber, filterBrand, apiContext);
 
     if (!encryptedSearchCode) {
       console.warn(`No encrypted search code found for ${crossNumber} - YV: ${yvNo}, Brand: ${filterBrand} - Product couldn't be found !!!`);
@@ -114,7 +114,7 @@ export async function processProductFor_VehicleCompatibility(element: ProductRef
       // console.log(`Processing manufacturer: ${manufacturer.name}`);
 
       // 3️⃣ Her üretici için araç modellerini alma
-      const models = await getmodelCodes( encryptedSearchCode, apiContext, manufacturer.uuid);
+      const models = await getmodelCodes(encryptedSearchCode, apiContext, manufacturer.uuid);
       // console.log(`Found ${models.length} models for ${manufacturer.name}`);
 
       // Her bir model için döngü
@@ -126,7 +126,7 @@ export async function processProductFor_VehicleCompatibility(element: ProductRef
         // console.log(`  Processing model series: ${model.name}`);
 
         // 4️⃣ Her model için hedef (target) verilerini alma
-        const targets = await getTargets( encryptedSearchCode, apiContext, model.uuid);
+        const targets = await getTargets(encryptedSearchCode, apiContext, model.uuid);
         // console.log(`    Found ${targets.length} targets for ${model.name}`);
 
         // Hedef verilerini doğrudan OutputTarget dizisine ekle
@@ -134,12 +134,12 @@ export async function processProductFor_VehicleCompatibility(element: ProductRef
 
         // Model serisi verilerini üreticinin models dizisine ekle
         if (modelSeriesData.targets.length > 0) { // Sadece targets varsa modeli ekle
-            manufacturerData.models.push(modelSeriesData);
+          manufacturerData.models.push(modelSeriesData);
         }
       }
       // Üretici verilerini ana sonuç nesnesinin compatibleVehicles dizisine ekle
       if (manufacturerData.models.length > 0) { // Sadece modeller varsa üreticiyi ekle
-          result.compatibleVehicles.push(manufacturerData);
+        result.compatibleVehicles.push(manufacturerData);
       }
     }
 
@@ -157,7 +157,7 @@ export async function processProductFor_VehicleCompatibility(element: ProductRef
   }
 }
 
-export async function processProductFor_CrossNumbers(element: ProductReference){
+export async function processProductFor_CrossNumbers(element: ProductReference) {
   const apiContext = await request.newContext();
   const { yvNo, brand: filterBrand, crossNumber } = element;
   console.log(`Processing YV: ${yvNo}, Brand: ${filterBrand}, Cross Number: ${crossNumber}`);
@@ -186,7 +186,7 @@ export async function processProductFor_CrossNumbers(element: ProductReference){
 
   const response = await apiContext.get(crossNumberURL, { headers: { Authorization: `Bearer ${token}` } });
   const data = await response.json();
-  const products: any[]  = data.products;
+  const products: any[] = data.products;
 
   const result: CrossNumbersYV_Pair[] = [];
   const targets: CrossNumberApiProduct[] = [];
@@ -194,7 +194,7 @@ export async function processProductFor_CrossNumbers(element: ProductReference){
   for (const product of products) {
     targets.push({
       Supplier: product.brand.name,
-      ArticleNumber: product.catalogArticleNumber, 
+      ArticleNumber: product.catalogArticleNumber,
       StatusCode: product.catalogStatus.code,
       StatusMessage: product.catalogStatus.name,
       ApiCode: product.code
@@ -205,6 +205,59 @@ export async function processProductFor_CrossNumbers(element: ProductReference){
     yvNo: element.yvNo,
     OE: element.crossNumber,
     crossNumbers: targets
+  }
+
+}
+
+
+export async function processProductForArticleAttributes(element: ProductReference) {
+
+  const { yvNo, brand: filterBrand, crossNumber } = element;
+  const token = await getToken();
+
+  if (!crossNumber) {
+    console.warn(`No cross number found for YV: ${yvNo}, Brand: ${filterBrand}`);
+    return null;
+  }
+
+  console.log(`Processing YV: ${yvNo}, Brand: ${filterBrand}, Cross Number: ${crossNumber}`);
+
+  const apiContext = await request.newContext();
+
+  try {
+
+    // 1️⃣ Encrypted Search Code alma
+    const encryptedSearchCode = await getEncryptedSearchCode(
+      crossNumber,
+      filterBrand,
+      apiContext,
+    );
+
+    // 2️⃣ Article Attributes alma
+
+    const attribute_url_1 = process.env.ARTICLE_ATTRIBUTES_URL_1 as string;
+    const attribute_url_2 = process.env.ARTICLE_ATTRIBUTES_URL_2 as string;
+    const URL = `${attribute_url_1}${encryptedSearchCode}${attribute_url_2}`;
+
+    const response = await apiContext.get(URL, {
+      headers: { Authorization: `Bearer ${token}` }
+    })
+
+    const data = response.json();
+
+    const result: any = {
+      yvNo,
+      crossNumber,
+      supplier: filterBrand,
+      attributes: [],
+    };
+
+  } catch (err) {
+    console.error(`Error for YV ${yvNo} : ${crossNumber}: ${err}`);
+    return null;
+  } finally {
+    await apiContext.dispose();
+    await delay(300);
   }
 
 }
