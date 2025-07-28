@@ -14,7 +14,7 @@ const productType = process.env.PRODUCT_TYPE as string;
 
 export async function processProductFor_OE(element: ProductReference): Promise<any> {
 
-  const { yvNo, brand: filterBrand, crossNumber } = element;
+  const { yvNo, supplier: filterBrand, crossNumber } = element;
   const token = await getToken();
 
   if (!crossNumber) {
@@ -75,7 +75,7 @@ export async function processProductFor_OE(element: ProductReference): Promise<a
 export async function processProductFor_VehicleCompatibility(element: ProductReference): Promise<ProductCompatibilityResult | null> {
 
   const apiContext = await request.newContext();
-  const { yvNo, brand: filterBrand, crossNumber } = element;
+  const { yvNo, supplier: filterBrand, crossNumber } = element;
   const token = await getToken();
 
   if (!token) {
@@ -159,7 +159,7 @@ export async function processProductFor_VehicleCompatibility(element: ProductRef
 
 export async function processProductFor_CrossNumbers(element: ProductReference) {
   const apiContext = await request.newContext();
-  const { yvNo, brand: filterBrand, crossNumber } = element;
+  const { yvNo, supplier: filterBrand, crossNumber } = element;
   console.log(`Processing YV: ${yvNo}, Brand: ${filterBrand}, Cross Number: ${crossNumber}`);
   const token = await getToken();
   //console.log(`Token: `, token);
@@ -177,9 +177,9 @@ export async function processProductFor_CrossNumbers(element: ProductReference) 
   const crossNumberURL_1 = process.env.CROSS_NUMBER_URL_1 || "";
   const crossNumberURL_2 = process.env.CROSS_NUMBER_URL_2 || "";
   const crossNumberURL_3 = process.env.CROSS_NUMBER_URL_3 || "";
-  const queryNumber = element.crossNumber;
-  const querySize = "200";
-  const groupNumber = getGroupNumberOfProductType(productType);
+  const queryNumber = element.crossNumber;                       // The number or code will be searched
+  const querySize = "200";                                       // Default size is 20 but we are extending it to 200 to get all cross numbers from all suppliers
+  const groupNumber = getGroupNumberOfProductType(productType);  // Each product type has a unique grroup number for API requests
 
   const crossNumberURL = `${crossNumberURL_1}${queryNumber}${crossNumberURL_2}${groupNumber}${crossNumberURL_3}${querySize}`;
   //console.log(`Cross Number URL: ${crossNumberURL}`);
@@ -212,7 +212,7 @@ export async function processProductFor_CrossNumbers(element: ProductReference) 
 
 export async function processProductForArticleAttributes(element: ProductReference) {
 
-  const { yvNo, brand: filterBrand, crossNumber } = element;
+  const { yvNo, supplier: filterBrand, crossNumber } = element;
   const token = await getToken();
 
   if (!crossNumber) {
@@ -243,7 +243,7 @@ export async function processProductForArticleAttributes(element: ProductReferen
       headers: { Authorization: `Bearer ${token}` }
     })
 
-    const data = response.json();
+    const data = await response.json();
 
     const result: any = {
       yvNo,
@@ -252,6 +252,18 @@ export async function processProductForArticleAttributes(element: ProductReferen
       attributes: [],
     };
 
+    for (const element of data.classifications[0].features) {
+      const values = Object.values(element.featureValues[0]).join(', ');
+      //console.log(`${element.name} - ${values}`);
+
+      result.attributes.push({
+        name: element.name,
+        value: values
+      });
+    }
+
+    return result;
+    
   } catch (err) {
     console.error(`Error for YV ${yvNo} : ${crossNumber}: ${err}`);
     return null;
