@@ -2,7 +2,7 @@
 // Mevcut ProductReference tipiniz
 export type ProductReference = {
   yvNo: string;
-  brand: string;
+  supplier: string;
   crossNumber: string;
 };
 

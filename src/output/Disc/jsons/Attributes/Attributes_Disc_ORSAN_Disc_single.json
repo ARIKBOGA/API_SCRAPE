@@ -1,0 +1,61 @@
+[
+  {
+    "yvNo": "43512-05010",
+    "crossNumber": "DF2742",
+    "supplier": "TRW",
+    "attributes": [
+      {
+        "name": "Surface",
+        "value": "painted"
+      },
+      {
+        "name": "Brake Disc Type",
+        "value": "Vented"
+      },
+      {
+        "name": "Outer Diameter [mm]",
+        "value": "255"
+      },
+      {
+        "name": "Brake Disc Thickness [mm]",
+        "value": "28"
+      },
+      {
+        "name": "Minimum thickness [mm]",
+        "value": "26"
+      },
+      {
+        "name": "Centering Diameter [mm]",
+        "value": "55"
+      },
+      {
+        "name": "Height [mm]",
+        "value": "49.3"
+      },
+      {
+        "name": "Number of Holes",
+        "value": "5"
+      },
+      {
+        "name": "Thread Size",
+        "value": "14,5"
+      },
+      {
+        "name": "Bolt Hole Circle Ø [mm]",
+        "value": "100"
+      },
+      {
+        "name": "Colour",
+        "value": "black"
+      },
+      {
+        "name": "Test Mark",
+        "value": "E1 90R-02 C0176/0705"
+      },
+      {
+        "name": "SVHC",
+        "value": "No information available, please contact the manufacturer!"
+      }
+    ]
+  }
+]

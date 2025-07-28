@@ -1,0 +1,2020 @@
+[
+  {
+    "yvNo": "20625408",
+    "crossNumber": "P 59 102",
+    "brand": "BREMBO",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "CITROËN",
+        "models": [
+          {
+            "modelSeries": "JUMPY III Bus (V_) | DISPATCH",
+            "targets": [
+              {
+                "engine": "1.5 BlueHDi 100",
+                "fullName": "CITROËN JUMPY III Bus (V_) | DISPATCH 1.5 BlueHDi 100",
+                "constructionYearFrom": "06.2018",
+                "enginePowerKW": 75,
+                "enginePowerHP": 102,
+                "cc": 1499,
+                "engineCodes": "YHR (DV5RUCd)",
+                "kbaNumbers": "3001AZO",
+                "bodyType": "Bus",
+                "TecDocID": 133769
+              },
+              {
+                "engine": "1.5 BlueHDi 120",
+                "fullName": "CITROËN JUMPY III Bus (V_) | DISPATCH 1.5 BlueHDi 120",
+                "constructionYearFrom": "06.2018",
+                "enginePowerKW": 88,
+                "enginePowerHP": 120,
+                "cc": 1499,
+                "engineCodes": "YHV (DV5RUC)",
+                "kbaNumbers": "3001AZP",
+                "bodyType": "Bus",
+                "TecDocID": 133770
+              },
+              {
+                "engine": "1.6 BlueHDi 115",
+                "fullName": "CITROËN JUMPY III Bus (V_) | DISPATCH 1.6 BlueHDi 115",
+                "constructionYearFrom": "06.2016",
+                "constructionYearTo": "04.2019",
+                "enginePowerKW": 85,
+                "enginePowerHP": 115,
+                "cc": 1560,
+                "engineCodes": "BHX (DV6FCU)",
+                "kbaNumbers": "3001AWL",
+                "bodyType": "Bus",
+                "TecDocID": 122614
+              },
+              {
+                "engine": "1.6 BlueHDi 95",
+                "fullName": "CITROËN JUMPY III Bus (V_) | DISPATCH 1.6 BlueHDi 95",
+                "constructionYearFrom": "04.2016",
+                "enginePowerKW": 70,
+                "enginePowerHP": 95,
+                "cc": 1560,
+                "engineCodes": "BHS (DV6FDU)",
+                "kbaNumbers": "3001AWG",
+                "bodyType": "Bus",
+                "TecDocID": 122613
+              },
+              {
+                "engine": "2.0 BlueHDi 120",
+                "fullName": "CITROËN JUMPY III Bus (V_) | DISPATCH 2.0 BlueHDi 120",
+                "constructionYearFrom": "04.2016",
+                "enginePowerKW": 90,
+                "enginePowerHP": 122,
+                "cc": 1997,
+                "engineCodes": "AHK (DW10FE)",
+                "kbaNumbers": "3001BAD",
+                "bodyType": "Bus",
+                "TecDocID": 138950
+              },
+              {
+                "engine": "2.0 BlueHDi 150",
+                "fullName": "CITROËN JUMPY III Bus (V_) | DISPATCH 2.0 BlueHDi 150",
+                "constructionYearFrom": "04.2016",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1997,
+                "engineCodes": "AHX (DW10FD)",
+                "kbaNumbers": "3001AWM",
+                "bodyType": "Bus",
+                "TecDocID": 122624
+              },
+              {
+                "engine": "2.0 BlueHDi 180",
+                "fullName": "CITROËN JUMPY III Bus (V_) | DISPATCH 2.0 BlueHDi 180",
+                "constructionYearFrom": "04.2016",
+                "enginePowerKW": 130,
+                "enginePowerHP": 177,
+                "cc": 1997,
+                "engineCodes": "AHH (DW10FC)",
+                "kbaNumbers": "3001AWN",
+                "bodyType": "Bus",
+                "TecDocID": 124959
+              }
+            ]
+          },
+          {
+            "modelSeries": "JUMPY III Platform/Chassis (V_) | DISPATCH",
+            "targets": [
+              {
+                "engine": "2.0 BlueHDi 120",
+                "fullName": "CITROËN JUMPY III Platform/Chassis (V_) | DISPATCH 2.0 BlueHDi 120",
+                "constructionYearFrom": "09.2016",
+                "enginePowerKW": 90,
+                "enginePowerHP": 122,
+                "cc": 1997,
+                "engineCodes": "AHK (DW10FE)",
+                "kbaNumbers": "",
+                "bodyType": "Platform/Chassis",
+                "TecDocID": 125213
+              },
+              {
+                "engine": "2.0 BlueHDi 150",
+                "fullName": "CITROËN JUMPY III Platform/Chassis (V_) | DISPATCH 2.0 BlueHDi 150",
+                "constructionYearFrom": "09.2016",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1997,
+                "engineCodes": "AHX (DW10FD)",
+                "kbaNumbers": "",
+                "bodyType": "Platform/Chassis",
+                "TecDocID": 125214
+              }
+            ]
+          },
+          {
+            "modelSeries": "JUMPY III Van (V_) | DISPATCH",
+            "targets": [
+              {
+                "engine": "1.5 BlueHDi 100",
+                "fullName": "CITROËN JUMPY III Van (V_) | DISPATCH 1.5 BlueHDi 100",
+                "constructionYearFrom": "06.2018",
+                "enginePowerKW": 75,
+                "enginePowerHP": 102,
+                "cc": 1499,
+                "engineCodes": "YHR (DV5RUCd)",
+                "kbaNumbers": "3001BAF",
+                "bodyType": "Van",
+                "TecDocID": 133787
+              },
+              {
+                "engine": "1.5 BlueHDi 120",
+                "fullName": "CITROËN JUMPY III Van (V_) | DISPATCH 1.5 BlueHDi 120",
+                "constructionYearFrom": "06.2018",
+                "enginePowerKW": 88,
+                "enginePowerHP": 120,
+                "cc": 1499,
+                "engineCodes": "YHV (DV5RUC)",
+                "kbaNumbers": "3001BAG",
+                "bodyType": "Van",
+                "TecDocID": 133788
+              },
+              {
+                "engine": "1.6 BlueHDi 115",
+                "fullName": "CITROËN JUMPY III Van (V_) | DISPATCH 1.6 BlueHDi 115",
+                "constructionYearFrom": "04.2016",
+                "constructionYearTo": "06.2022",
+                "enginePowerKW": 85,
+                "enginePowerHP": 115,
+                "cc": 1560,
+                "engineCodes": "BHX (DV6FCU)",
+                "kbaNumbers": "3001AWJ",
+                "bodyType": "Van",
+                "TecDocID": 119485
+              },
+              {
+                "engine": "1.6 BlueHDi 90",
+                "fullName": "CITROËN JUMPY III Van (V_) | DISPATCH 1.6 BlueHDi 90",
+                "constructionYearFrom": "09.2018",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 1560,
+                "engineCodes": "9HF (DV6DU)",
+                "kbaNumbers": "",
+                "bodyType": "Van",
+                "TecDocID": 137091
+              },
+              {
+                "engine": "2.0 BlueHDi 120",
+                "fullName": "CITROËN JUMPY III Van (V_) | DISPATCH 2.0 BlueHDi 120",
+                "constructionYearFrom": "04.2016",
+                "enginePowerKW": 90,
+                "enginePowerHP": 122,
+                "cc": 1997,
+                "engineCodes": "AHK (DW10FE)",
+                "kbaNumbers": "3001AWK",
+                "bodyType": "Van",
+                "TecDocID": 119486
+              },
+              {
+                "engine": "2.0 BlueHDi 120 4x4",
+                "fullName": "CITROËN JUMPY III Van (V_) | DISPATCH 2.0 BlueHDi 120 4x4",
+                "constructionYearFrom": "04.2016",
+                "enginePowerKW": 90,
+                "enginePowerHP": 122,
+                "cc": 1997,
+                "engineCodes": "AHK (DW10FE)",
+                "kbaNumbers": "",
+                "bodyType": "Van",
+                "TecDocID": 139339
+              },
+              {
+                "engine": "2.0 BlueHDi 145",
+                "fullName": "CITROËN JUMPY III Van (V_) | DISPATCH 2.0 BlueHDi 145",
+                "constructionYearFrom": "08.2021",
+                "enginePowerKW": 106,
+                "enginePowerHP": 144,
+                "cc": 1997,
+                "engineCodes": "EHS (DW10FDDU370), EHT (DW10FDDU340)",
+                "kbaNumbers": "3001BCO",
+                "bodyType": "Van",
+                "TecDocID": 145194
+              },
+              {
+                "engine": "2.0 BlueHDi 150",
+                "fullName": "CITROËN JUMPY III Van (V_) | DISPATCH 2.0 BlueHDi 150",
+                "constructionYearFrom": "04.2016",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1997,
+                "engineCodes": "AHX (DW10FD)",
+                "kbaNumbers": "3001AWI",
+                "bodyType": "Van",
+                "TecDocID": 119487
+              },
+              {
+                "engine": "2.0 BlueHDi 150 4x4",
+                "fullName": "CITROËN JUMPY III Van (V_) | DISPATCH 2.0 BlueHDi 150 4x4",
+                "constructionYearFrom": "04.2016",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1997,
+                "engineCodes": "AHX (DW10FD)",
+                "kbaNumbers": "",
+                "bodyType": "Van",
+                "TecDocID": 139341
+              },
+              {
+                "engine": "2.0 BlueHDi 180",
+                "fullName": "CITROËN JUMPY III Van (V_) | DISPATCH 2.0 BlueHDi 180",
+                "constructionYearFrom": "04.2016",
+                "enginePowerKW": 130,
+                "enginePowerHP": 177,
+                "cc": 1997,
+                "engineCodes": "AHH (DW10FC), EHZ (DW10FDCU)",
+                "kbaNumbers": "3001AXT",
+                "bodyType": "Van",
+                "TecDocID": 119488
+              },
+              {
+                "engine": "ë-JUMPY",
+                "fullName": "CITROËN JUMPY III Van (V_) | DISPATCH ë-JUMPY",
+                "constructionYearFrom": "09.2020",
+                "enginePowerKW": 100,
+                "enginePowerHP": 136,
+                "engineCodes": "ZKX (ZK01)",
+                "kbaNumbers": "3001BBX",
+                "bodyType": "Van",
+                "TecDocID": 141435
+              },
+              {
+                "engine": "ë-JUMPY",
+                "fullName": "CITROËN JUMPY III Van (V_) | DISPATCH ë-JUMPY",
+                "constructionYearFrom": "11.2023",
+                "enginePowerKW": 100,
+                "enginePowerHP": 136,
+                "engineCodes": "ZKU (ZK02)",
+                "kbaNumbers": "3001BDL",
+                "bodyType": "Van",
+                "TecDocID": 158211
+              }
+            ]
+          },
+          {
+            "modelSeries": "SPACETOURER Bus (V_)",
+            "targets": [
+              {
+                "engine": "1.5 BlueHDi 100",
+                "fullName": "CITROËN SPACETOURER Bus (V_) 1.5 BlueHDi 100",
+                "constructionYearFrom": "06.2018",
+                "enginePowerKW": 75,
+                "enginePowerHP": 102,
+                "cc": 1499,
+                "engineCodes": "YHR (DV5RUCd)",
+                "kbaNumbers": "3001AZO",
+                "bodyType": "Bus",
+                "TecDocID": 132159
+              },
+              {
+                "engine": "1.5 BlueHDi 120",
+                "fullName": "CITROËN SPACETOURER Bus (V_) 1.5 BlueHDi 120",
+                "constructionYearFrom": "06.2018",
+                "enginePowerKW": 88,
+                "enginePowerHP": 120,
+                "cc": 1499,
+                "engineCodes": "YHV (DV5RUC)",
+                "kbaNumbers": "3001AZP",
+                "bodyType": "Bus",
+                "TecDocID": 132163
+              },
+              {
+                "engine": "1.6 HDi 90",
+                "fullName": "CITROËN SPACETOURER Bus (V_) 1.6 HDi 90",
+                "constructionYearFrom": "07.2018",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 1560,
+                "engineCodes": "9HF (DV6DU)",
+                "kbaNumbers": "",
+                "bodyType": "Bus",
+                "TecDocID": 137614
+              },
+              {
+                "engine": "2.0 BlueHDi 120",
+                "fullName": "CITROËN SPACETOURER Bus (V_) 2.0 BlueHDi 120",
+                "constructionYearFrom": "12.2019",
+                "enginePowerKW": 90,
+                "enginePowerHP": 122,
+                "cc": 1997,
+                "engineCodes": "AHK (DW10FE)",
+                "kbaNumbers": "3001BAD",
+                "bodyType": "Bus",
+                "TecDocID": 122623
+              },
+              {
+                "engine": "2.0 BlueHDi 145",
+                "fullName": "CITROËN SPACETOURER Bus (V_) 2.0 BlueHDi 145",
+                "constructionYearFrom": "09.2020",
+                "enginePowerKW": 106,
+                "enginePowerHP": 144,
+                "cc": 1997,
+                "engineCodes": "EHS (DW10FDDU370), EHT (DW10FDDU340)",
+                "kbaNumbers": "3001BBV",
+                "bodyType": "Bus",
+                "TecDocID": 141676
+              },
+              {
+                "engine": "2.0 BlueHDi 150",
+                "fullName": "CITROËN SPACETOURER Bus (V_) 2.0 BlueHDi 150",
+                "constructionYearFrom": "04.2016",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1997,
+                "engineCodes": "AHX (DW10FD)",
+                "kbaNumbers": "3001AWH, 3001AWM",
+                "bodyType": "Bus",
+                "TecDocID": 118967
+              },
+              {
+                "engine": "2.0 BlueHDi 150 4x4",
+                "fullName": "CITROËN SPACETOURER Bus (V_) 2.0 BlueHDi 150 4x4",
+                "constructionYearFrom": "04.2016",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1997,
+                "engineCodes": "AHX (DW10FD)",
+                "kbaNumbers": "",
+                "bodyType": "Bus",
+                "TecDocID": 139344
+              },
+              {
+                "engine": "2.0 BlueHDi 180",
+                "fullName": "CITROËN SPACETOURER Bus (V_) 2.0 BlueHDi 180",
+                "constructionYearFrom": "04.2016",
+                "enginePowerKW": 130,
+                "enginePowerHP": 178,
+                "cc": 1997,
+                "engineCodes": "AHH (DW10FC), EHZ (DW10FDCU)",
+                "kbaNumbers": "3001AWN",
+                "bodyType": "Bus",
+                "TecDocID": 118968
+              },
+              {
+                "engine": "ë-SPACETOURER",
+                "fullName": "CITROËN SPACETOURER Bus (V_) ë-SPACETOURER",
+                "constructionYearFrom": "09.2020",
+                "constructionYearTo": "10.2023",
+                "enginePowerKW": 100,
+                "enginePowerHP": 136,
+                "engineCodes": "ZKX (ZK01)",
+                "kbaNumbers": "3001BBW",
+                "bodyType": "Bus",
+                "TecDocID": 141677
+              },
+              {
+                "engine": "ë-SPACETOURER",
+                "fullName": "CITROËN SPACETOURER Bus (V_) ë-SPACETOURER",
+                "constructionYearFrom": "11.2023",
+                "enginePowerKW": 100,
+                "enginePowerHP": 136,
+                "engineCodes": "ZKU (ZK02)",
+                "kbaNumbers": "3001BDK",
+                "bodyType": "Bus",
+                "TecDocID": 158216
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "models": [
+          {
+            "modelSeries": "SCUDO Bus",
+            "targets": [
+              {
+                "engine": "E-SCUDO (507)",
+                "fullName": "FIAT SCUDO Bus E-SCUDO (507)",
+                "constructionYearFrom": "01.2022",
+                "constructionYearTo": "10.2023",
+                "enginePowerKW": 100,
+                "enginePowerHP": 136,
+                "engineCodes": "ZKX (ZK01)",
+                "kbaNumbers": "",
+                "bodyType": "Bus",
+                "TecDocID": 147264
+              },
+              {
+                "engine": "E-SCUDO (507)",
+                "fullName": "FIAT SCUDO Bus E-SCUDO (507)",
+                "constructionYearFrom": "11.2023",
+                "enginePowerKW": 100,
+                "enginePowerHP": 136,
+                "engineCodes": "ZKU (ZK02)",
+                "kbaNumbers": "3003BEF",
+                "bodyType": "Bus",
+                "TecDocID": 158246
+              }
+            ]
+          },
+          {
+            "modelSeries": "SCUDO Platform/Chassis",
+            "targets": [
+              {
+                "engine": "2.0 Multijet 145 (506)",
+                "fullName": "FIAT SCUDO Platform/Chassis 2.0 Multijet 145 (506)",
+                "constructionYearFrom": "01.2022",
+                "enginePowerKW": 106,
+                "enginePowerHP": 144,
+                "cc": 1997,
+                "engineCodes": "DW10FDDU",
+                "kbaNumbers": "",
+                "bodyType": "Platform/Chassis",
+                "TecDocID": 147262
+              },
+              {
+                "engine": "E-SCUDO (507)",
+                "fullName": "FIAT SCUDO Platform/Chassis E-SCUDO (507)",
+                "constructionYearFrom": "01.2022",
+                "constructionYearTo": "10.2023",
+                "enginePowerKW": 100,
+                "enginePowerHP": 136,
+                "engineCodes": "ZKX (ZK01)",
+                "kbaNumbers": "",
+                "bodyType": "Platform/Chassis",
+                "TecDocID": 147263
+              },
+              {
+                "engine": "E-SCUDO (507)",
+                "fullName": "FIAT SCUDO Platform/Chassis E-SCUDO (507)",
+                "constructionYearFrom": "11.2023",
+                "enginePowerKW": 100,
+                "enginePowerHP": 136,
+                "engineCodes": "ZKU (ZK02)",
+                "kbaNumbers": "",
+                "bodyType": "Platform/Chassis",
+                "TecDocID": 158251
+              }
+            ]
+          },
+          {
+            "modelSeries": "SCUDO Van",
+            "targets": [
+              {
+                "engine": "1.5 Multijet 100 (506)",
+                "fullName": "FIAT SCUDO Van 1.5 Multijet 100 (506)",
+                "constructionYearFrom": "01.2022",
+                "enginePowerKW": 75,
+                "enginePowerHP": 102,
+                "cc": 1499,
+                "engineCodes": "DV5RUCD",
+                "kbaNumbers": "3003BAK",
+                "bodyType": "Van",
+                "TecDocID": 147258
+              },
+              {
+                "engine": "1.5 Multijet 120 (506)",
+                "fullName": "FIAT SCUDO Van 1.5 Multijet 120 (506)",
+                "constructionYearFrom": "01.2022",
+                "enginePowerKW": 88,
+                "enginePowerHP": 120,
+                "cc": 1499,
+                "engineCodes": "DV5RUC",
+                "kbaNumbers": "3003BAL",
+                "bodyType": "Van",
+                "TecDocID": 147259
+              },
+              {
+                "engine": "2.0 Multijet 145 (506)",
+                "fullName": "FIAT SCUDO Van 2.0 Multijet 145 (506)",
+                "constructionYearFrom": "01.2022",
+                "enginePowerKW": 106,
+                "enginePowerHP": 144,
+                "cc": 1997,
+                "engineCodes": "DW10FDDU",
+                "kbaNumbers": "3003BCD",
+                "bodyType": "Van",
+                "TecDocID": 147260
+              },
+              {
+                "engine": "2.0 Multijet 180 (506)",
+                "fullName": "FIAT SCUDO Van 2.0 Multijet 180 (506)",
+                "constructionYearFrom": "01.2022",
+                "enginePowerKW": 130,
+                "enginePowerHP": 177,
+                "cc": 1997,
+                "engineCodes": "DW10FDCU",
+                "kbaNumbers": "3003AXZ",
+                "bodyType": "Van",
+                "TecDocID": 147261
+              },
+              {
+                "engine": "E-SCUDO (507)",
+                "fullName": "FIAT SCUDO Van E-SCUDO (507)",
+                "constructionYearFrom": "01.2022",
+                "constructionYearTo": "10.2023",
+                "enginePowerKW": 100,
+                "enginePowerHP": 136,
+                "engineCodes": "ZKX (ZK01)",
+                "kbaNumbers": "3003BBW",
+                "bodyType": "Van",
+                "TecDocID": 147257
+              },
+              {
+                "engine": "E-SCUDO (507)",
+                "fullName": "FIAT SCUDO Van E-SCUDO (507)",
+                "constructionYearFrom": "11.2023",
+                "enginePowerKW": 100,
+                "enginePowerHP": 136,
+                "engineCodes": "ZKU (ZK02)",
+                "kbaNumbers": "3003BEC",
+                "bodyType": "Van",
+                "TecDocID": 158248
+              }
+            ]
+          },
+          {
+            "modelSeries": "ULYSSE Bus",
+            "targets": [
+              {
+                "engine": "E-ULYSSE (367)",
+                "fullName": "FIAT ULYSSE Bus E-ULYSSE (367)",
+                "constructionYearFrom": "01.2022",
+                "constructionYearTo": "10.2023",
+                "enginePowerKW": 100,
+                "enginePowerHP": 136,
+                "engineCodes": "ZKX (ZK01)",
+                "kbaNumbers": "3003BCW",
+                "bodyType": "Bus",
+                "TecDocID": 147265
+              },
+              {
+                "engine": "E-ULYSSE (367)",
+                "fullName": "FIAT ULYSSE Bus E-ULYSSE (367)",
+                "constructionYearFrom": "11.2023",
+                "enginePowerKW": 100,
+                "enginePowerHP": 136,
+                "engineCodes": "ZKU (ZK02)",
+                "kbaNumbers": "3003BET",
+                "bodyType": "Bus",
+                "TecDocID": 158247
+              },
+              {
+                "engine": "Multijet 180 (366)",
+                "fullName": "FIAT ULYSSE Bus Multijet 180 (366)",
+                "constructionYearFrom": "01.2022",
+                "enginePowerKW": 130,
+                "enginePowerHP": 177,
+                "cc": 1997,
+                "engineCodes": "DW10FDCU",
+                "kbaNumbers": "3003BCV",
+                "bodyType": "Bus",
+                "TecDocID": 157532
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "models": [
+          {
+            "modelSeries": "VIVARO C Bus (K0)",
+            "targets": [
+              {
+                "engine": "1.5",
+                "fullName": "OPEL VIVARO C Bus (K0) 1.5",
+                "constructionYearFrom": "03.2019",
+                "enginePowerKW": 75,
+                "enginePowerHP": 102,
+                "cc": 1499,
+                "engineCodes": "D 15 DT (DV5RUCD)",
+                "kbaNumbers": "3003BAW",
+                "bodyType": "Bus",
+                "TecDocID": 137761
+              },
+              {
+                "engine": "1.5",
+                "fullName": "OPEL VIVARO C Bus (K0) 1.5",
+                "constructionYearFrom": "03.2019",
+                "enginePowerKW": 88,
+                "enginePowerHP": 120,
+                "cc": 1499,
+                "engineCodes": "D 15 DTH (DV5RUC)",
+                "kbaNumbers": "3003BAX",
+                "bodyType": "Bus",
+                "TecDocID": 137762
+              },
+              {
+                "engine": "2.0",
+                "fullName": "OPEL VIVARO C Bus (K0) 2.0",
+                "constructionYearFrom": "03.2019",
+                "enginePowerKW": 90,
+                "enginePowerHP": 122,
+                "cc": 1997,
+                "engineCodes": "D 20 DTL (DW10FE)",
+                "kbaNumbers": "3003BAY",
+                "bodyType": "Bus",
+                "TecDocID": 137763
+              },
+              {
+                "engine": "2.0",
+                "fullName": "OPEL VIVARO C Bus (K0) 2.0",
+                "constructionYearFrom": "03.2019",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1997,
+                "engineCodes": "D 20 DTH (DW10FD)",
+                "kbaNumbers": "3003BAZ",
+                "bodyType": "Bus",
+                "TecDocID": 137764
+              },
+              {
+                "engine": "2.0",
+                "fullName": "OPEL VIVARO C Bus (K0) 2.0",
+                "constructionYearFrom": "09.2020",
+                "enginePowerKW": 106,
+                "enginePowerHP": 144,
+                "cc": 1997,
+                "engineCodes": "DW10FDDU340, DW10FDDU370",
+                "kbaNumbers": "3003BBV",
+                "bodyType": "Bus",
+                "TecDocID": 143036
+              }
+            ]
+          },
+          {
+            "modelSeries": "VIVARO C Platform Cabin (K0)",
+            "targets": [
+              {
+                "engine": "2.0",
+                "fullName": "OPEL VIVARO C Platform Cabin (K0) 2.0",
+                "constructionYearFrom": "03.2019",
+                "enginePowerKW": 90,
+                "enginePowerHP": 122,
+                "cc": 1997,
+                "engineCodes": "D 20 DTL (DW10FE)",
+                "kbaNumbers": "",
+                "bodyType": "Platform/Chassis",
+                "TecDocID": 137766
+              },
+              {
+                "engine": "2.0",
+                "fullName": "OPEL VIVARO C Platform Cabin (K0) 2.0",
+                "constructionYearFrom": "03.2019",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1997,
+                "engineCodes": "D 20 DTH (DW10FD)",
+                "kbaNumbers": "",
+                "bodyType": "Platform/Chassis",
+                "TecDocID": 137765
+              }
+            ]
+          },
+          {
+            "modelSeries": "VIVARO C Van (K0)",
+            "targets": [
+              {
+                "engine": "1.5",
+                "fullName": "OPEL VIVARO C Van (K0) 1.5",
+                "constructionYearFrom": "03.2019",
+                "enginePowerKW": 75,
+                "enginePowerHP": 102,
+                "cc": 1499,
+                "engineCodes": "D 15 DT (DV5RUCD)",
+                "kbaNumbers": "3003BAK",
+                "bodyType": "Van",
+                "TecDocID": 137756
+              },
+              {
+                "engine": "1.5",
+                "fullName": "OPEL VIVARO C Van (K0) 1.5",
+                "constructionYearFrom": "03.2019",
+                "enginePowerKW": 88,
+                "enginePowerHP": 120,
+                "cc": 1499,
+                "engineCodes": "D 15 DTH (DV5RUC)",
+                "kbaNumbers": "3003BAL",
+                "bodyType": "Van",
+                "TecDocID": 137757
+              },
+              {
+                "engine": "1.5 All-wheel Drive",
+                "fullName": "OPEL VIVARO C Van (K0) 1.5 All-wheel Drive",
+                "constructionYearFrom": "03.2019",
+                "enginePowerKW": 88,
+                "enginePowerHP": 120,
+                "cc": 1499,
+                "engineCodes": "D 15 DTH (DV5RUC)",
+                "kbaNumbers": "",
+                "bodyType": "Van",
+                "TecDocID": 139378
+              },
+              {
+                "engine": "2.0",
+                "fullName": "OPEL VIVARO C Van (K0) 2.0",
+                "constructionYearFrom": "03.2019",
+                "enginePowerKW": 90,
+                "enginePowerHP": 122,
+                "cc": 1997,
+                "engineCodes": "D 20 DTL (DW10FE)",
+                "kbaNumbers": "3003AWZ",
+                "bodyType": "Van",
+                "TecDocID": 137758
+              },
+              {
+                "engine": "2.0",
+                "fullName": "OPEL VIVARO C Van (K0) 2.0",
+                "constructionYearFrom": "03.2019",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1997,
+                "engineCodes": "D 20 DTH (DW10FD)",
+                "kbaNumbers": "3003AXA",
+                "bodyType": "Van",
+                "TecDocID": 137759
+              },
+              {
+                "engine": "2.0",
+                "fullName": "OPEL VIVARO C Van (K0) 2.0",
+                "constructionYearFrom": "03.2019",
+                "enginePowerKW": 130,
+                "enginePowerHP": 177,
+                "cc": 1997,
+                "engineCodes": "D 20 DTR (DW10FDCU)",
+                "kbaNumbers": "3003AXZ",
+                "bodyType": "Van",
+                "TecDocID": 137760
+              },
+              {
+                "engine": "2.0",
+                "fullName": "OPEL VIVARO C Van (K0) 2.0",
+                "constructionYearFrom": "08.2021",
+                "enginePowerKW": 106,
+                "enginePowerHP": 144,
+                "cc": 1997,
+                "engineCodes": "DW10FDDU370, DW10FDDU340",
+                "kbaNumbers": "3003BCD",
+                "bodyType": "Van",
+                "TecDocID": 145135
+              },
+              {
+                "engine": "2.0 All-wheel Drive",
+                "fullName": "OPEL VIVARO C Van (K0) 2.0 All-wheel Drive",
+                "constructionYearFrom": "03.2019",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1997,
+                "engineCodes": "D 20 DTH (DW10FD)",
+                "kbaNumbers": "",
+                "bodyType": "Van",
+                "TecDocID": 139379
+              },
+              {
+                "engine": "VIVARO-E",
+                "fullName": "OPEL VIVARO C Van (K0) VIVARO-E",
+                "constructionYearFrom": "04.2024",
+                "enginePowerKW": 100,
+                "enginePowerHP": 136,
+                "engineCodes": "ZKU (ZK02)",
+                "kbaNumbers": "3003BEC",
+                "bodyType": "Van",
+                "TecDocID": 801164
+              }
+            ]
+          },
+          {
+            "modelSeries": "ZAFIRA LIFE Bus (K0)",
+            "targets": [
+              {
+                "engine": "1.5",
+                "fullName": "OPEL ZAFIRA LIFE Bus (K0) 1.5",
+                "constructionYearFrom": "03.2019",
+                "enginePowerKW": 75,
+                "enginePowerHP": 102,
+                "cc": 1499,
+                "engineCodes": "D 15 DT (DV5RUCD)",
+                "kbaNumbers": "3003BAE, 3003BAW",
+                "bodyType": "Bus",
+                "TecDocID": 137265
+              },
+              {
+                "engine": "1.5",
+                "fullName": "OPEL ZAFIRA LIFE Bus (K0) 1.5",
+                "constructionYearFrom": "03.2019",
+                "enginePowerKW": 88,
+                "enginePowerHP": 120,
+                "cc": 1499,
+                "engineCodes": "D 15 DTH (DV5RUC)",
+                "kbaNumbers": "3003BAF, 3003BAX",
+                "bodyType": "Bus",
+                "TecDocID": 137264
+              },
+              {
+                "engine": "2.0",
+                "fullName": "OPEL ZAFIRA LIFE Bus (K0) 2.0",
+                "constructionYearFrom": "03.2019",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1997,
+                "engineCodes": "D 20 DTH (DW10FD)",
+                "kbaNumbers": "3003BAZ, 3003BAH",
+                "bodyType": "Bus",
+                "TecDocID": 137282
+              },
+              {
+                "engine": "2.0",
+                "fullName": "OPEL ZAFIRA LIFE Bus (K0) 2.0",
+                "constructionYearFrom": "03.2019",
+                "enginePowerKW": 130,
+                "enginePowerHP": 177,
+                "cc": 1997,
+                "engineCodes": "D 20 DTR (DW10FDCU)",
+                "kbaNumbers": "3003BBA, 3003BAI",
+                "bodyType": "Bus",
+                "TecDocID": 137283
+              },
+              {
+                "engine": "2.0",
+                "fullName": "OPEL ZAFIRA LIFE Bus (K0) 2.0",
+                "constructionYearFrom": "08.2019",
+                "enginePowerKW": 90,
+                "enginePowerHP": 122,
+                "cc": 1997,
+                "engineCodes": "D 20 DTL (DW10FE)",
+                "kbaNumbers": "3003BAG, 3003BAY",
+                "bodyType": "Bus",
+                "TecDocID": 137966
+              },
+              {
+                "engine": "2.0",
+                "fullName": "OPEL ZAFIRA LIFE Bus (K0) 2.0",
+                "constructionYearFrom": "09.2020",
+                "enginePowerKW": 106,
+                "enginePowerHP": 144,
+                "cc": 1997,
+                "engineCodes": "DW10FDDU340, DW10FDDU370",
+                "kbaNumbers": "3003BBV",
+                "bodyType": "Bus",
+                "TecDocID": 143032
+              },
+              {
+                "engine": "2.0 4x4",
+                "fullName": "OPEL ZAFIRA LIFE Bus (K0) 2.0 4x4",
+                "constructionYearFrom": "03.2019",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1997,
+                "engineCodes": "D 20 DTH (DW10FD)",
+                "kbaNumbers": "",
+                "bodyType": "Bus",
+                "TecDocID": 139376
+              },
+              {
+                "engine": "E LIFE",
+                "fullName": "OPEL ZAFIRA LIFE Bus (K0) E LIFE",
+                "constructionYearFrom": "09.2020",
+                "enginePowerKW": 100,
+                "enginePowerHP": 136,
+                "engineCodes": "ZKX (ZK01)",
+                "kbaNumbers": "3003BBU",
+                "bodyType": "Bus",
+                "TecDocID": 141874
+              },
+              {
+                "engine": "E LIFE",
+                "fullName": "OPEL ZAFIRA LIFE Bus (K0) E LIFE",
+                "constructionYearFrom": "04.2024",
+                "enginePowerKW": 100,
+                "enginePowerHP": 136,
+                "engineCodes": "ZKU (ZK02)",
+                "kbaNumbers": "3003BEB",
+                "bodyType": "Bus",
+                "TecDocID": 801168
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "models": [
+          {
+            "modelSeries": "EXPERT Bus (V_)",
+            "targets": [
+              {
+                "engine": "1.5 BlueHDi 100",
+                "fullName": "PEUGEOT EXPERT Bus (V_) 1.5 BlueHDi 100",
+                "constructionYearFrom": "06.2018",
+                "enginePowerKW": 75,
+                "enginePowerHP": 102,
+                "cc": 1499,
+                "engineCodes": "YHR (DV5RUCd)",
+                "kbaNumbers": "3003AZX",
+                "bodyType": "Bus",
+                "TecDocID": 133797
+              },
+              {
+                "engine": "1.5 BlueHDi 120",
+                "fullName": "PEUGEOT EXPERT Bus (V_) 1.5 BlueHDi 120",
+                "constructionYearFrom": "06.2018",
+                "enginePowerKW": 88,
+                "enginePowerHP": 120,
+                "cc": 1499,
+                "engineCodes": "YHV (DV5RUC)",
+                "kbaNumbers": "3003AZY",
+                "bodyType": "Bus",
+                "TecDocID": 133798
+              },
+              {
+                "engine": "1.6 BlueHDi 115",
+                "fullName": "PEUGEOT EXPERT Bus (V_) 1.6 BlueHDi 115",
+                "constructionYearFrom": "04.2016",
+                "enginePowerKW": 85,
+                "enginePowerHP": 115,
+                "cc": 1560,
+                "engineCodes": "BHX (DV6FCU)",
+                "kbaNumbers": "3003AXB",
+                "bodyType": "Bus",
+                "TecDocID": 130535
+              },
+              {
+                "engine": "1.6 BlueHDi 95",
+                "fullName": "PEUGEOT EXPERT Bus (V_) 1.6 BlueHDi 95",
+                "constructionYearFrom": "04.2016",
+                "enginePowerKW": 70,
+                "enginePowerHP": 95,
+                "cc": 1560,
+                "engineCodes": "BHV (DV6FDU), BHS (DV6FDU)",
+                "kbaNumbers": "3003AWQ",
+                "bodyType": "Bus",
+                "TecDocID": 130534
+              },
+              {
+                "engine": "2.0 BlueHDi 120",
+                "fullName": "PEUGEOT EXPERT Bus (V_) 2.0 BlueHDi 120",
+                "constructionYearFrom": "09.2019",
+                "enginePowerKW": 90,
+                "enginePowerHP": 122,
+                "cc": 1997,
+                "engineCodes": "AHK (DW10FE)",
+                "kbaNumbers": "3003BAD",
+                "bodyType": "Bus",
+                "TecDocID": 138504
+              },
+              {
+                "engine": "2.0 BlueHDi 150",
+                "fullName": "PEUGEOT EXPERT Bus (V_) 2.0 BlueHDi 150",
+                "constructionYearFrom": "04.2016",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1997,
+                "engineCodes": "AHX (DW10FD)",
+                "kbaNumbers": "3003AWR, 3003AXC",
+                "bodyType": "Bus",
+                "TecDocID": 130536
+              },
+              {
+                "engine": "2.0 BlueHDi 180",
+                "fullName": "PEUGEOT EXPERT Bus (V_) 2.0 BlueHDi 180",
+                "constructionYearFrom": "04.2016",
+                "enginePowerKW": 130,
+                "enginePowerHP": 177,
+                "cc": 1997,
+                "engineCodes": "AHH (DW10FC), EHZ (DW10FDCU)",
+                "kbaNumbers": "3003AXD",
+                "bodyType": "Bus",
+                "TecDocID": 130538
+              }
+            ]
+          },
+          {
+            "modelSeries": "EXPERT Platform/Chassis (V_)",
+            "targets": [
+              {
+                "engine": "1.6 BlueHDi 95",
+                "fullName": "PEUGEOT EXPERT Platform/Chassis (V_) 1.6 BlueHDi 95",
+                "constructionYearFrom": "09.2016",
+                "enginePowerKW": 70,
+                "enginePowerHP": 95,
+                "cc": 1560,
+                "engineCodes": "BHV (DV6FDU)",
+                "kbaNumbers": "",
+                "bodyType": "Platform/Chassis",
+                "TecDocID": 125133
+              },
+              {
+                "engine": "2.0 BlueHDi 120",
+                "fullName": "PEUGEOT EXPERT Platform/Chassis (V_) 2.0 BlueHDi 120",
+                "constructionYearFrom": "09.2016",
+                "enginePowerKW": 90,
+                "enginePowerHP": 122,
+                "cc": 1997,
+                "engineCodes": "AHK (DW10FE)",
+                "kbaNumbers": "",
+                "bodyType": "Platform/Chassis",
+                "TecDocID": 125134
+              },
+              {
+                "engine": "2.0 BlueHDi 150",
+                "fullName": "PEUGEOT EXPERT Platform/Chassis (V_) 2.0 BlueHDi 150",
+                "constructionYearFrom": "09.2016",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1997,
+                "engineCodes": "AHX (DW10FD)",
+                "kbaNumbers": "",
+                "bodyType": "Platform/Chassis",
+                "TecDocID": 125135
+              },
+              {
+                "engine": "E-EXPERT",
+                "fullName": "PEUGEOT EXPERT Platform/Chassis (V_) E-EXPERT",
+                "constructionYearFrom": "09.2020",
+                "constructionYearTo": "10.2023",
+                "enginePowerKW": 100,
+                "enginePowerHP": 136,
+                "engineCodes": "ZKX (ZK01)",
+                "kbaNumbers": "",
+                "bodyType": "Platform/Chassis",
+                "TecDocID": 141534
+              },
+              {
+                "engine": "E-EXPERT",
+                "fullName": "PEUGEOT EXPERT Platform/Chassis (V_) E-EXPERT",
+                "constructionYearFrom": "11.2023",
+                "enginePowerKW": 100,
+                "enginePowerHP": 136,
+                "engineCodes": "ZKU (ZK02)",
+                "kbaNumbers": "",
+                "bodyType": "Platform/Chassis",
+                "TecDocID": 158220
+              }
+            ]
+          },
+          {
+            "modelSeries": "EXPERT Van (V_)",
+            "targets": [
+              {
+                "engine": "1.5 BlueHDi 100",
+                "fullName": "PEUGEOT EXPERT Van (V_) 1.5 BlueHDi 100",
+                "constructionYearFrom": "06.2018",
+                "enginePowerKW": 75,
+                "enginePowerHP": 102,
+                "cc": 1499,
+                "engineCodes": "YHR (DV5RUCd)",
+                "kbaNumbers": "3003BAK",
+                "bodyType": "Van",
+                "TecDocID": 133799
+              },
+              {
+                "engine": "1.5 BlueHDi 120",
+                "fullName": "PEUGEOT EXPERT Van (V_) 1.5 BlueHDi 120",
+                "constructionYearFrom": "06.2018",
+                "enginePowerKW": 88,
+                "enginePowerHP": 120,
+                "cc": 1499,
+                "engineCodes": "YHV (DV5RUC)",
+                "kbaNumbers": "3003BAL",
+                "bodyType": "Van",
+                "TecDocID": 133800
+              },
+              {
+                "engine": "1.6 BlueHDi 115",
+                "fullName": "PEUGEOT EXPERT Van (V_) 1.6 BlueHDi 115",
+                "constructionYearFrom": "04.2016",
+                "enginePowerKW": 85,
+                "enginePowerHP": 115,
+                "cc": 1560,
+                "engineCodes": "BHX (DV6FCU)",
+                "kbaNumbers": "3003AWY",
+                "bodyType": "Van",
+                "TecDocID": 120076
+              },
+              {
+                "engine": "1.6 BlueHDi 95",
+                "fullName": "PEUGEOT EXPERT Van (V_) 1.6 BlueHDi 95",
+                "constructionYearFrom": "04.2016",
+                "enginePowerKW": 70,
+                "enginePowerHP": 95,
+                "cc": 1560,
+                "engineCodes": "BHV (DV6FDU)",
+                "kbaNumbers": "3003AWS",
+                "bodyType": "Van",
+                "TecDocID": 120075
+              },
+              {
+                "engine": "2.0 BlueHDi 120",
+                "fullName": "PEUGEOT EXPERT Van (V_) 2.0 BlueHDi 120",
+                "constructionYearFrom": "04.2016",
+                "enginePowerKW": 90,
+                "enginePowerHP": 122,
+                "cc": 1997,
+                "engineCodes": "AHK (DW10FE)",
+                "kbaNumbers": "3003AWT, 3003AWZ",
+                "bodyType": "Van",
+                "TecDocID": 120077
+              },
+              {
+                "engine": "2.0 BlueHDi 120 4x4",
+                "fullName": "PEUGEOT EXPERT Van (V_) 2.0 BlueHDi 120 4x4",
+                "constructionYearFrom": "04.2016",
+                "enginePowerKW": 90,
+                "enginePowerHP": 122,
+                "cc": 1997,
+                "engineCodes": "AHK (DW10FE)",
+                "kbaNumbers": "",
+                "bodyType": "Van",
+                "TecDocID": 139348
+              },
+              {
+                "engine": "2.0 BlueHDi 145",
+                "fullName": "PEUGEOT EXPERT Van (V_) 2.0 BlueHDi 145",
+                "constructionYearFrom": "08.2021",
+                "enginePowerKW": 106,
+                "enginePowerHP": 144,
+                "cc": 1997,
+                "engineCodes": "EHS (DW10FDDU370), EHT (DW10FDDU340)",
+                "kbaNumbers": "3003BCD",
+                "bodyType": "Van",
+                "TecDocID": 145137
+              },
+              {
+                "engine": "2.0 BlueHDi 150",
+                "fullName": "PEUGEOT EXPERT Van (V_) 2.0 BlueHDi 150",
+                "constructionYearFrom": "04.2016",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1997,
+                "engineCodes": "AHX (DW10FD)",
+                "kbaNumbers": "3003AXA, 3003AWU",
+                "bodyType": "Van",
+                "TecDocID": 120078
+              },
+              {
+                "engine": "2.0 BlueHDi 150 4x4",
+                "fullName": "PEUGEOT EXPERT Van (V_) 2.0 BlueHDi 150 4x4",
+                "constructionYearFrom": "04.2016",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1997,
+                "engineCodes": "AHX (DW10FD)",
+                "kbaNumbers": "",
+                "bodyType": "Van",
+                "TecDocID": 139354
+              },
+              {
+                "engine": "2.0 BlueHDi 180",
+                "fullName": "PEUGEOT EXPERT Van (V_) 2.0 BlueHDi 180",
+                "constructionYearFrom": "04.2016",
+                "enginePowerKW": 130,
+                "enginePowerHP": 177,
+                "cc": 1997,
+                "engineCodes": "AHH (DW10FC), EHZ (DW10FDCU)",
+                "kbaNumbers": "3003AXZ",
+                "bodyType": "Van",
+                "TecDocID": 120079
+              },
+              {
+                "engine": "E-EXPERT",
+                "fullName": "PEUGEOT EXPERT Van (V_) E-EXPERT",
+                "constructionYearFrom": "09.2020",
+                "enginePowerKW": 100,
+                "enginePowerHP": 136,
+                "engineCodes": "ZKX (ZK01)",
+                "kbaNumbers": "3003BBW",
+                "bodyType": "Van",
+                "TecDocID": 141357
+              },
+              {
+                "engine": "E-EXPERT",
+                "fullName": "PEUGEOT EXPERT Van (V_) E-EXPERT",
+                "constructionYearFrom": "11.2023",
+                "enginePowerKW": 100,
+                "enginePowerHP": 136,
+                "engineCodes": "ZKU (ZK02)",
+                "kbaNumbers": "3003BEC",
+                "bodyType": "Van",
+                "TecDocID": 158217
+              }
+            ]
+          },
+          {
+            "modelSeries": "TRAVELLER Bus (V_)",
+            "targets": [
+              {
+                "engine": "1.5 BlueHDi 100",
+                "fullName": "PEUGEOT TRAVELLER Bus (V_) 1.5 BlueHDi 100",
+                "constructionYearFrom": "06.2018",
+                "enginePowerKW": 75,
+                "enginePowerHP": 102,
+                "cc": 1499,
+                "engineCodes": "YHR (DV5RUCd)",
+                "kbaNumbers": "3003AZX",
+                "bodyType": "Bus",
+                "TecDocID": 133795
+              },
+              {
+                "engine": "1.5 BlueHDi 120",
+                "fullName": "PEUGEOT TRAVELLER Bus (V_) 1.5 BlueHDi 120",
+                "constructionYearFrom": "06.2018",
+                "enginePowerKW": 88,
+                "enginePowerHP": 120,
+                "cc": 1499,
+                "engineCodes": "YHV (DV5RUC)",
+                "kbaNumbers": "3003AZY",
+                "bodyType": "Bus",
+                "TecDocID": 133796
+              },
+              {
+                "engine": "1.6 BlueHDi 115",
+                "fullName": "PEUGEOT TRAVELLER Bus (V_) 1.6 BlueHDi 115",
+                "constructionYearFrom": "04.2016",
+                "enginePowerKW": 85,
+                "enginePowerHP": 115,
+                "cc": 1560,
+                "engineCodes": "BHX (DV6FCU)",
+                "kbaNumbers": "3003AXB",
+                "bodyType": "Bus",
+                "TecDocID": 119503
+              },
+              {
+                "engine": "1.6 BlueHDi 95",
+                "fullName": "PEUGEOT TRAVELLER Bus (V_) 1.6 BlueHDi 95",
+                "constructionYearFrom": "04.2016",
+                "enginePowerKW": 70,
+                "enginePowerHP": 95,
+                "cc": 1560,
+                "engineCodes": "BHV (DV6FDU), BHS (DV6FDU)",
+                "kbaNumbers": "3003AWQ",
+                "bodyType": "Bus",
+                "TecDocID": 119502
+              },
+              {
+                "engine": "2.0 BlueHDi 120",
+                "fullName": "PEUGEOT TRAVELLER Bus (V_) 2.0 BlueHDi 120",
+                "constructionYearFrom": "09.2019",
+                "enginePowerKW": 90,
+                "enginePowerHP": 122,
+                "cc": 1997,
+                "engineCodes": "AHK (DW10FE)",
+                "kbaNumbers": "3003BAD",
+                "bodyType": "Bus",
+                "TecDocID": 138505
+              },
+              {
+                "engine": "2.0 BlueHDi 145",
+                "fullName": "PEUGEOT TRAVELLER Bus (V_) 2.0 BlueHDi 145",
+                "constructionYearFrom": "09.2020",
+                "enginePowerKW": 106,
+                "enginePowerHP": 144,
+                "cc": 1997,
+                "engineCodes": "EHS (DW10FDDU370), EHT (DW10FDDU340)",
+                "kbaNumbers": "3003BBX",
+                "bodyType": "Bus",
+                "TecDocID": 141389
+              },
+              {
+                "engine": "2.0 BlueHDi 150 / HDi 150",
+                "fullName": "PEUGEOT TRAVELLER Bus (V_) 2.0 BlueHDi 150 / HDi 150",
+                "constructionYearFrom": "04.2016",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1997,
+                "engineCodes": "AHX (DW10FD)",
+                "kbaNumbers": "3003AWR, 3003AXC",
+                "bodyType": "Bus",
+                "TecDocID": 119511
+              },
+              {
+                "engine": "2.0 BlueHDi 150 / HDi 150 4x4",
+                "fullName": "PEUGEOT TRAVELLER Bus (V_) 2.0 BlueHDi 150 / HDi 150 4x4",
+                "constructionYearFrom": "04.2016",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1997,
+                "engineCodes": "AHX (DW10FD)",
+                "kbaNumbers": "",
+                "bodyType": "Bus",
+                "TecDocID": 139367
+              },
+              {
+                "engine": "2.0 BlueHDi 180",
+                "fullName": "PEUGEOT TRAVELLER Bus (V_) 2.0 BlueHDi 180",
+                "constructionYearFrom": "04.2016",
+                "enginePowerKW": 130,
+                "enginePowerHP": 177,
+                "cc": 1997,
+                "engineCodes": "AHH (DW10FC), EHZ (DW10FDCU)",
+                "kbaNumbers": "3003AXD",
+                "bodyType": "Bus",
+                "TecDocID": 119513
+              },
+              {
+                "engine": "E-TRAVELLER",
+                "fullName": "PEUGEOT TRAVELLER Bus (V_) E-TRAVELLER",
+                "constructionYearFrom": "09.2020",
+                "constructionYearTo": "10.2023",
+                "enginePowerKW": 100,
+                "enginePowerHP": 136,
+                "engineCodes": "ZKX (ZK01)",
+                "kbaNumbers": "3003BBY",
+                "bodyType": "Bus",
+                "TecDocID": 141358
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "TOYOTA",
+        "models": [
+          {
+            "modelSeries": "PROACE Bus (MDZ_)",
+            "targets": [
+              {
+                "engine": "1.5 D4d (MDZ1)",
+                "fullName": "TOYOTA PROACE Bus (MDZ_) 1.5 D4d (MDZ1)",
+                "constructionYearFrom": "08.2018",
+                "enginePowerKW": 88,
+                "enginePowerHP": 120,
+                "cc": 1499,
+                "engineCodes": "5WZ-HV (DV5RUC)",
+                "kbaNumbers": "5013AMB",
+                "bodyType": "Bus",
+                "TecDocID": 136878
+              },
+              {
+                "engine": "1.5 D4d (MDZ8)",
+                "fullName": "TOYOTA PROACE Bus (MDZ_) 1.5 D4d (MDZ8)",
+                "constructionYearFrom": "08.2018",
+                "enginePowerKW": 75,
+                "enginePowerHP": 102,
+                "cc": 1499,
+                "engineCodes": "5WZ-TV (DV5RUCD)",
+                "kbaNumbers": "5013AMA",
+                "bodyType": "Bus",
+                "TecDocID": 136952
+              },
+              {
+                "engine": "1.6 D4d (MDZ2)",
+                "fullName": "TOYOTA PROACE Bus (MDZ_) 1.6 D4d (MDZ2)",
+                "constructionYearFrom": "02.2016",
+                "constructionYearTo": "04.2020",
+                "enginePowerKW": 85,
+                "enginePowerHP": 116,
+                "cc": 1560,
+                "engineCodes": "3WZ-HV (DV6FCU)",
+                "kbaNumbers": "5013AKO",
+                "bodyType": "Bus",
+                "TecDocID": 120328
+              },
+              {
+                "engine": "1.6 D4d (MDZ9)",
+                "fullName": "TOYOTA PROACE Bus (MDZ_) 1.6 D4d (MDZ9)",
+                "constructionYearFrom": "02.2016",
+                "constructionYearTo": "04.2020",
+                "enginePowerKW": 70,
+                "enginePowerHP": 95,
+                "cc": 1560,
+                "engineCodes": "3WZ-TV (DV6FDU)",
+                "kbaNumbers": "5013AKN",
+                "bodyType": "Bus",
+                "TecDocID": 120326
+              },
+              {
+                "engine": "2.0 D4d (MDZ3)",
+                "fullName": "TOYOTA PROACE Bus (MDZ_) 2.0 D4d (MDZ3)",
+                "constructionYearFrom": "11.2019",
+                "enginePowerKW": 90,
+                "enginePowerHP": 122,
+                "cc": 1997,
+                "engineCodes": "4WZ-FTV (DW10FEU)",
+                "kbaNumbers": "5013ANY",
+                "bodyType": "Bus",
+                "TecDocID": 138488
+              },
+              {
+                "engine": "2.0 D4d (MDZ4)",
+                "fullName": "TOYOTA PROACE Bus (MDZ_) 2.0 D4d (MDZ4)",
+                "constructionYearFrom": "02.2016",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1997,
+                "engineCodes": "4WZ-FTV (DW10FD), 4WZ-FTV (DW10FDU)",
+                "kbaNumbers": "5013AKQ",
+                "bodyType": "Bus",
+                "TecDocID": 120331
+              },
+              {
+                "engine": "2.0 D4d (MDZ6, MDZ5)",
+                "fullName": "TOYOTA PROACE Bus (MDZ_) 2.0 D4d (MDZ6, MDZ5)",
+                "constructionYearFrom": "02.2016",
+                "enginePowerKW": 130,
+                "enginePowerHP": 177,
+                "cc": 1997,
+                "engineCodes": "4WZ-FHV (DW10FC), 4WZ-FHV (DW10FDCU)",
+                "kbaNumbers": "5013AKP",
+                "bodyType": "Bus",
+                "TecDocID": 120263
+              },
+              {
+                "engine": "2.0 D4d (MDZA)",
+                "fullName": "TOYOTA PROACE Bus (MDZ_) 2.0 D4d (MDZA)",
+                "constructionYearFrom": "09.2020",
+                "enginePowerKW": 106,
+                "enginePowerHP": 144,
+                "cc": 1997,
+                "engineCodes": "4WZ-FTV (DW10FDDU)",
+                "kbaNumbers": "5013AOW",
+                "bodyType": "Bus",
+                "TecDocID": 143046
+              },
+              {
+                "engine": "2.0 D4d 4x4 (MDZ4)",
+                "fullName": "TOYOTA PROACE Bus (MDZ_) 2.0 D4d 4x4 (MDZ4)",
+                "constructionYearFrom": "04.2018",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1997,
+                "engineCodes": "4WZ-FTV (DW10FD), 4WZ-FTV (DW10FDU)",
+                "kbaNumbers": "",
+                "bodyType": "Bus",
+                "TecDocID": 140383
+              }
+            ]
+          },
+          {
+            "modelSeries": "PROACE Platform/Chassis (MDZ_)",
+            "targets": [
+              {
+                "engine": "2.0 D4d (MDZ3)",
+                "fullName": "TOYOTA PROACE Platform/Chassis (MDZ_) 2.0 D4d (MDZ3)",
+                "constructionYearFrom": "02.2016",
+                "enginePowerKW": 90,
+                "enginePowerHP": 122,
+                "cc": 1997,
+                "engineCodes": "4WZ-FTV (DW10FE), 4WZ-FTV (DW10FEU)",
+                "kbaNumbers": "",
+                "bodyType": "Platform/Chassis",
+                "TecDocID": 135599
+              },
+              {
+                "engine": "2.0 D4d (MDZA)",
+                "fullName": "TOYOTA PROACE Platform/Chassis (MDZ_) 2.0 D4d (MDZA)",
+                "constructionYearFrom": "08.2021",
+                "enginePowerKW": 106,
+                "enginePowerHP": 144,
+                "cc": 1997,
+                "engineCodes": "4WZ-FTV (DW10FDDU)",
+                "kbaNumbers": "",
+                "bodyType": "Platform/Chassis",
+                "TecDocID": 152646
+              },
+              {
+                "engine": "2.0 D4d 4x4 (MDZ3)",
+                "fullName": "TOYOTA PROACE Platform/Chassis (MDZ_) 2.0 D4d 4x4 (MDZ3)",
+                "constructionYearFrom": "04.2018",
+                "enginePowerKW": 90,
+                "enginePowerHP": 122,
+                "cc": 1997,
+                "engineCodes": "4WZ-FTV (DW10FEU), 4WZ-FTV (DW10FE)",
+                "kbaNumbers": "",
+                "bodyType": "Platform/Chassis",
+                "TecDocID": 146583
+              }
+            ]
+          },
+          {
+            "modelSeries": "PROACE Van (MDZ_)",
+            "targets": [
+              {
+                "engine": "1.5 D4d (MDZ1)",
+                "fullName": "TOYOTA PROACE Van (MDZ_) 1.5 D4d (MDZ1)",
+                "constructionYearFrom": "05.2019",
+                "enginePowerKW": 88,
+                "enginePowerHP": 120,
+                "cc": 1499,
+                "engineCodes": "5WZ-HV (DV5RUC)",
+                "kbaNumbers": "5013AOE",
+                "bodyType": "Van",
+                "TecDocID": 137258
+              },
+              {
+                "engine": "1.5 D4d (MDZ8)",
+                "fullName": "TOYOTA PROACE Van (MDZ_) 1.5 D4d (MDZ8)",
+                "constructionYearFrom": "05.2019",
+                "enginePowerKW": 75,
+                "enginePowerHP": 102,
+                "cc": 1499,
+                "engineCodes": "5WZ-TV (DV5RUCD)",
+                "kbaNumbers": "5013AOD",
+                "bodyType": "Van",
+                "TecDocID": 137257
+              },
+              {
+                "engine": "1.6 D4d (MDZ2)",
+                "fullName": "TOYOTA PROACE Van (MDZ_) 1.6 D4d (MDZ2)",
+                "constructionYearFrom": "02.2016",
+                "constructionYearTo": "04.2020",
+                "enginePowerKW": 85,
+                "enginePowerHP": 116,
+                "cc": 1560,
+                "engineCodes": "3WZ-HV (DV6FCU)",
+                "kbaNumbers": "5013AKS",
+                "bodyType": "Van",
+                "TecDocID": 120260
+              },
+              {
+                "engine": "1.6 D4d (MDZ9)",
+                "fullName": "TOYOTA PROACE Van (MDZ_) 1.6 D4d (MDZ9)",
+                "constructionYearFrom": "02.2016",
+                "constructionYearTo": "04.2020",
+                "enginePowerKW": 70,
+                "enginePowerHP": 95,
+                "cc": 1560,
+                "engineCodes": "3WZ-TV (DV6FDU)",
+                "kbaNumbers": "5013AKR",
+                "bodyType": "Van",
+                "TecDocID": 120259
+              },
+              {
+                "engine": "2.0 D4d (MDZ3)",
+                "fullName": "TOYOTA PROACE Van (MDZ_) 2.0 D4d (MDZ3)",
+                "constructionYearFrom": "02.2016",
+                "enginePowerKW": 90,
+                "enginePowerHP": 122,
+                "cc": 1997,
+                "engineCodes": "4WZ-FTV (DW10FE), 4WZ-FTV (DW10FEU)",
+                "kbaNumbers": "5013AKT",
+                "bodyType": "Van",
+                "TecDocID": 120264
+              },
+              {
+                "engine": "2.0 D4d (MDZ4)",
+                "fullName": "TOYOTA PROACE Van (MDZ_) 2.0 D4d (MDZ4)",
+                "constructionYearFrom": "02.2016",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1997,
+                "engineCodes": "4WZ-FTV (DW10FDU), 4WZ-FTV (DW10FD)",
+                "kbaNumbers": "5013AKU",
+                "bodyType": "Van",
+                "TecDocID": 120261
+              },
+              {
+                "engine": "2.0 D4d (MDZ6, MDZ5)",
+                "fullName": "TOYOTA PROACE Van (MDZ_) 2.0 D4d (MDZ6, MDZ5)",
+                "constructionYearFrom": "02.2016",
+                "enginePowerKW": 130,
+                "enginePowerHP": 177,
+                "cc": 1997,
+                "engineCodes": "4WZ-FHV (DW10FDCU), 4WZ-FHV (DW10FC)",
+                "kbaNumbers": "5013AKX",
+                "bodyType": "Van",
+                "TecDocID": 121440
+              },
+              {
+                "engine": "2.0 D4d (MDZA)",
+                "fullName": "TOYOTA PROACE Van (MDZ_) 2.0 D4d (MDZA)",
+                "constructionYearFrom": "08.2021",
+                "enginePowerKW": 106,
+                "enginePowerHP": 144,
+                "cc": 1997,
+                "engineCodes": "4WZ-FTV (DW10FDDU)",
+                "kbaNumbers": "5013APP",
+                "bodyType": "Van",
+                "TecDocID": 145196
+              },
+              {
+                "engine": "2.0 D4d 4x4 (MDZ3)",
+                "fullName": "TOYOTA PROACE Van (MDZ_) 2.0 D4d 4x4 (MDZ3)",
+                "constructionYearFrom": "04.2018",
+                "enginePowerKW": 90,
+                "enginePowerHP": 122,
+                "cc": 1997,
+                "engineCodes": "4WZ-FTV (DW10FE), 4WZ-FTV (DW10FEU)",
+                "kbaNumbers": "",
+                "bodyType": "Van",
+                "TecDocID": 146580
+              },
+              {
+                "engine": "2.0 D4d 4x4 (MDZ4)",
+                "fullName": "TOYOTA PROACE Van (MDZ_) 2.0 D4d 4x4 (MDZ4)",
+                "constructionYearFrom": "04.2018",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1997,
+                "engineCodes": "4WZ-FTV (DW10FD), 4WZ-FTV (DW10FDU)",
+                "kbaNumbers": "",
+                "bodyType": "Van",
+                "TecDocID": 130885
+              },
+              {
+                "engine": "2.0 D4d 4x4 (MDZA)",
+                "fullName": "TOYOTA PROACE Van (MDZ_) 2.0 D4d 4x4 (MDZA)",
+                "constructionYearFrom": "08.2021",
+                "enginePowerKW": 106,
+                "enginePowerHP": 144,
+                "cc": 1997,
+                "engineCodes": "4WZ-FTV (DW10FDDU)",
+                "kbaNumbers": "",
+                "bodyType": "Van",
+                "TecDocID": 146579
+              },
+              {
+                "engine": "Electric (MDZS, MDZZ)",
+                "fullName": "TOYOTA PROACE Van (MDZ_) Electric (MDZS, MDZZ)",
+                "constructionYearFrom": "09.2020",
+                "constructionYearTo": "12.2023",
+                "enginePowerKW": 100,
+                "enginePowerHP": 136,
+                "engineCodes": "ZKX (ZK01)",
+                "kbaNumbers": "5013AOV",
+                "bodyType": "Van",
+                "TecDocID": 142396
+              }
+            ]
+          },
+          {
+            "modelSeries": "PROACE VERSO Bus (MPY_)",
+            "targets": [
+              {
+                "engine": "1.5 D4d (MPY1)",
+                "fullName": "TOYOTA PROACE VERSO Bus (MPY_) 1.5 D4d (MPY1)",
+                "constructionYearFrom": "06.2018",
+                "enginePowerKW": 88,
+                "enginePowerHP": 120,
+                "cc": 1499,
+                "engineCodes": "5WZ-HV (DV5RUC)",
+                "kbaNumbers": "5013ANQ, 5013ANT, 5013AMB",
+                "bodyType": "Bus",
+                "TecDocID": 132164
+              },
+              {
+                "engine": "1.5 D4d (MPY8)",
+                "fullName": "TOYOTA PROACE VERSO Bus (MPY_) 1.5 D4d (MPY8)",
+                "constructionYearFrom": "06.2018",
+                "enginePowerKW": 75,
+                "enginePowerHP": 102,
+                "cc": 1499,
+                "engineCodes": "5WZ-TV (DV5RUCD)",
+                "kbaNumbers": "5013AMA",
+                "bodyType": "Bus",
+                "TecDocID": 132160
+              },
+              {
+                "engine": "1.6 D4d (MPY2)",
+                "fullName": "TOYOTA PROACE VERSO Bus (MPY_) 1.6 D4d (MPY2)",
+                "constructionYearFrom": "02.2016",
+                "constructionYearTo": "04.2020",
+                "enginePowerKW": 85,
+                "enginePowerHP": 116,
+                "cc": 1560,
+                "engineCodes": "3WZ-HV (DV6FCU)",
+                "kbaNumbers": "5013AKO",
+                "bodyType": "Bus",
+                "TecDocID": 130609
+              },
+              {
+                "engine": "2.0 D4d (MPY3)",
+                "fullName": "TOYOTA PROACE VERSO Bus (MPY_) 2.0 D4d (MPY3)",
+                "constructionYearFrom": "11.2019",
+                "enginePowerKW": 90,
+                "enginePowerHP": 122,
+                "cc": 1997,
+                "engineCodes": "4WZ-FTV (DW10FEU)",
+                "kbaNumbers": "5013ANY",
+                "bodyType": "Bus",
+                "TecDocID": 139431
+              },
+              {
+                "engine": "2.0 D4d (MPY4)",
+                "fullName": "TOYOTA PROACE VERSO Bus (MPY_) 2.0 D4d (MPY4)",
+                "constructionYearFrom": "02.2016",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1997,
+                "engineCodes": "4WZ-FTV (DW10FDU), 4WZ-FTV (DW10FD)",
+                "kbaNumbers": "5013ANR, 5013ANU, 5013AKQ",
+                "bodyType": "Bus",
+                "TecDocID": 130610
+              },
+              {
+                "engine": "2.0 D4d (MPY6, MPY5)",
+                "fullName": "TOYOTA PROACE VERSO Bus (MPY_) 2.0 D4d (MPY6, MPY5)",
+                "constructionYearFrom": "02.2016",
+                "enginePowerKW": 130,
+                "enginePowerHP": 177,
+                "cc": 1997,
+                "engineCodes": "4WZ-FHV (DW10FDCU), 4WZ-FHV (DW10FC)",
+                "kbaNumbers": "5013ANS, 5013ANV, 5013AKP",
+                "bodyType": "Bus",
+                "TecDocID": 130611
+              },
+              {
+                "engine": "2.0 D4d (MPYA)",
+                "fullName": "TOYOTA PROACE VERSO Bus (MPY_) 2.0 D4d (MPYA)",
+                "constructionYearFrom": "09.2020",
+                "enginePowerKW": 106,
+                "enginePowerHP": 144,
+                "cc": 1997,
+                "engineCodes": "4WZ-FTV (DW10FDDU)",
+                "kbaNumbers": "5013AOW, 5013APN",
+                "bodyType": "Bus",
+                "TecDocID": 143048
+              },
+              {
+                "engine": "2.0 D4d 4x4 (MPY4)",
+                "fullName": "TOYOTA PROACE VERSO Bus (MPY_) 2.0 D4d 4x4 (MPY4)",
+                "constructionYearFrom": "04.2018",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1997,
+                "engineCodes": "4WZ-FTV (DW10FD), 4WZ-FTV (DW10FDU)",
+                "kbaNumbers": "",
+                "bodyType": "Bus",
+                "TecDocID": 130815
+              },
+              {
+                "engine": "2.0 D4d 4x4 (MPYA)",
+                "fullName": "TOYOTA PROACE VERSO Bus (MPY_) 2.0 D4d 4x4 (MPYA)",
+                "constructionYearFrom": "01.2022",
+                "enginePowerKW": 106,
+                "enginePowerHP": 144,
+                "cc": 1997,
+                "engineCodes": "4WZ-FTV (DW10FDDU)",
+                "kbaNumbers": "",
+                "bodyType": "Bus",
+                "TecDocID": 151898
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "models": [
+          {
+            "modelSeries": "VIVARO C Platform Cabin (K0)",
+            "targets": [
+              {
+                "engine": "2.0",
+                "fullName": "VAUXHALL VIVARO C Platform Cabin (K0) 2.0",
+                "constructionYearFrom": "03.2019",
+                "enginePowerKW": 90,
+                "enginePowerHP": 122,
+                "cc": 1997,
+                "engineCodes": "D 20 DTL (DW10FE)",
+                "kbaNumbers": "",
+                "bodyType": "Platform/Chassis",
+                "TecDocID": 137796
+              },
+              {
+                "engine": "2.0",
+                "fullName": "VAUXHALL VIVARO C Platform Cabin (K0) 2.0",
+                "constructionYearFrom": "04.2023",
+                "enginePowerKW": 106,
+                "enginePowerHP": 144,
+                "cc": 1997,
+                "engineCodes": "DW10FDDU340",
+                "kbaNumbers": "",
+                "bodyType": "Platform/Chassis",
+                "TecDocID": 154695
+              },
+              {
+                "engine": "VIVARO-E",
+                "fullName": "VAUXHALL VIVARO C Platform Cabin (K0) VIVARO-E",
+                "constructionYearFrom": "04.2023",
+                "constructionYearTo": "03.2024",
+                "enginePowerKW": 100,
+                "enginePowerHP": 136,
+                "engineCodes": "ZKX (ZK01)",
+                "kbaNumbers": "",
+                "bodyType": "Platform/Chassis",
+                "TecDocID": 154696
+              }
+            ]
+          },
+          {
+            "modelSeries": "VIVARO C Van (K0)",
+            "targets": [
+              {
+                "engine": "1.5",
+                "fullName": "VAUXHALL VIVARO C Van (K0) 1.5",
+                "constructionYearFrom": "03.2019",
+                "enginePowerKW": 75,
+                "enginePowerHP": 102,
+                "cc": 1499,
+                "engineCodes": "D 15 DT (DV5RUCD)",
+                "kbaNumbers": "",
+                "bodyType": "Van",
+                "TecDocID": 137791
+              },
+              {
+                "engine": "1.5",
+                "fullName": "VAUXHALL VIVARO C Van (K0) 1.5",
+                "constructionYearFrom": "03.2019",
+                "enginePowerKW": 88,
+                "enginePowerHP": 120,
+                "cc": 1499,
+                "engineCodes": "D 15 DTH (DV5RUC)",
+                "kbaNumbers": "",
+                "bodyType": "Van",
+                "TecDocID": 137792
+              },
+              {
+                "engine": "1.5 4x4",
+                "fullName": "VAUXHALL VIVARO C Van (K0) 1.5 4x4",
+                "constructionYearFrom": "03.2019",
+                "enginePowerKW": 88,
+                "enginePowerHP": 120,
+                "cc": 1499,
+                "engineCodes": "D 15 DTH (DV5RUC)",
+                "kbaNumbers": "",
+                "bodyType": "Van",
+                "TecDocID": 141763
+              },
+              {
+                "engine": "2.0",
+                "fullName": "VAUXHALL VIVARO C Van (K0) 2.0",
+                "constructionYearFrom": "03.2019",
+                "enginePowerKW": 90,
+                "enginePowerHP": 122,
+                "cc": 1997,
+                "engineCodes": "D 20 DTL (DW10FE)",
+                "kbaNumbers": "",
+                "bodyType": "Van",
+                "TecDocID": 137793
+              },
+              {
+                "engine": "2.0",
+                "fullName": "VAUXHALL VIVARO C Van (K0) 2.0",
+                "constructionYearFrom": "03.2019",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1997,
+                "engineCodes": "D 20 DTH (DW10FD)",
+                "kbaNumbers": "",
+                "bodyType": "Van",
+                "TecDocID": 137794
+              },
+              {
+                "engine": "2.0",
+                "fullName": "VAUXHALL VIVARO C Van (K0) 2.0",
+                "constructionYearFrom": "03.2019",
+                "enginePowerKW": 130,
+                "enginePowerHP": 177,
+                "cc": 1997,
+                "engineCodes": "D 20 DTR (DW10FDCU)",
+                "kbaNumbers": "",
+                "bodyType": "Van",
+                "TecDocID": 137795
+              },
+              {
+                "engine": "2.0",
+                "fullName": "VAUXHALL VIVARO C Van (K0) 2.0",
+                "constructionYearFrom": "08.2021",
+                "enginePowerKW": 106,
+                "enginePowerHP": 144,
+                "cc": 1997,
+                "engineCodes": "DW10FDDU370, DW10FDDU340",
+                "kbaNumbers": "",
+                "bodyType": "Van",
+                "TecDocID": 145136
+              },
+              {
+                "engine": "2.0 4x4",
+                "fullName": "VAUXHALL VIVARO C Van (K0) 2.0 4x4",
+                "constructionYearFrom": "03.2019",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1997,
+                "engineCodes": "D 20 DTH (DW10FD)",
+                "kbaNumbers": "",
+                "bodyType": "Van",
+                "TecDocID": 141764
+              },
+              {
+                "engine": "VIVARO-E",
+                "fullName": "VAUXHALL VIVARO C Van (K0) VIVARO-E",
+                "constructionYearFrom": "09.2020",
+                "constructionYearTo": "03.2024",
+                "enginePowerKW": 100,
+                "enginePowerHP": 136,
+                "engineCodes": "ZKX (ZK01)",
+                "kbaNumbers": "",
+                "bodyType": "Van",
+                "TecDocID": 142504
+              }
+            ]
+          },
+          {
+            "modelSeries": "VIVARO LIFE Bus (K0)",
+            "targets": [
+              {
+                "engine": "1.5",
+                "fullName": "VAUXHALL VIVARO LIFE Bus (K0) 1.5",
+                "constructionYearFrom": "03.2019",
+                "enginePowerKW": 75,
+                "enginePowerHP": 102,
+                "cc": 1499,
+                "engineCodes": "D 15 DT (DV5RUCD)",
+                "kbaNumbers": "",
+                "bodyType": "Bus",
+                "TecDocID": 138480
+              },
+              {
+                "engine": "1.5",
+                "fullName": "VAUXHALL VIVARO LIFE Bus (K0) 1.5",
+                "constructionYearFrom": "03.2019",
+                "enginePowerKW": 88,
+                "enginePowerHP": 120,
+                "cc": 1499,
+                "engineCodes": "D 15 DTH (DV5RUC)",
+                "kbaNumbers": "",
+                "bodyType": "Bus",
+                "TecDocID": 137310
+              },
+              {
+                "engine": "2.0",
+                "fullName": "VAUXHALL VIVARO LIFE Bus (K0) 2.0",
+                "constructionYearFrom": "03.2019",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1997,
+                "engineCodes": "D 20 DTH (DW10FD)",
+                "kbaNumbers": "",
+                "bodyType": "Bus",
+                "TecDocID": 137311
+              },
+              {
+                "engine": "2.0",
+                "fullName": "VAUXHALL VIVARO LIFE Bus (K0) 2.0",
+                "constructionYearFrom": "03.2019",
+                "enginePowerKW": 130,
+                "enginePowerHP": 177,
+                "cc": 1997,
+                "engineCodes": "D 20 DTR (DW10FDCU)",
+                "kbaNumbers": "",
+                "bodyType": "Bus",
+                "TecDocID": 137312
+              },
+              {
+                "engine": "2.0",
+                "fullName": "VAUXHALL VIVARO LIFE Bus (K0) 2.0",
+                "constructionYearFrom": "09.2020",
+                "enginePowerKW": 106,
+                "enginePowerHP": 144,
+                "cc": 1997,
+                "engineCodes": "DW10FDDU370, DW10FDDU340",
+                "kbaNumbers": "",
+                "bodyType": "Bus",
+                "TecDocID": 143033
+              },
+              {
+                "engine": "2.0 4x4",
+                "fullName": "VAUXHALL VIVARO LIFE Bus (K0) 2.0 4x4",
+                "constructionYearFrom": "03.2019",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1997,
+                "engineCodes": "D 20 DTH (DW10FD)",
+                "kbaNumbers": "",
+                "bodyType": "Bus",
+                "TecDocID": 141766
+              },
+              {
+                "engine": "E LIFE",
+                "fullName": "VAUXHALL VIVARO LIFE Bus (K0) E LIFE",
+                "constructionYearFrom": "09.2020",
+                "constructionYearTo": "07.2024",
+                "enginePowerKW": 100,
+                "enginePowerHP": 136,
+                "engineCodes": "ZKX (ZK01)",
+                "kbaNumbers": "",
+                "bodyType": "Bus",
+                "TecDocID": 141884
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
