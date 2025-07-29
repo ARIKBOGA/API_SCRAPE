@@ -153,8 +153,8 @@ export const bodyTypes = [
 export const referenceArray: ProductReference[] = [
 
   { yvNo: "18455", supplier: "JNBK", crossNumber: "DN1505" },
-  { yvNo: "341083", supplier: "JNBK", crossNumber: "DN1217" },
-  { yvNo: "341084", supplier: "JNBK", crossNumber: "DN1226" },
+  //{ yvNo: "341083", supplier: "JNBK", crossNumber: "DN1217" },
+  //{ yvNo: "341084", supplier: "JNBK", crossNumber: "DN1226" },
 
 
 ];
