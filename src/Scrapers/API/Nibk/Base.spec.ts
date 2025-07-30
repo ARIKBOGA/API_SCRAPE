@@ -103,23 +103,15 @@ export async function getVehicleCompatibilities(ref: ProductReference, currentUr
 
             const targets: OutputTarget[] = [];
 
-            // Tablodaki her bir 'tr' elementini iterate edelim (başlık satırı hariç)
-            // tr elementleri direkt <tbody> içinde olmayabilir, bu yüzden sadece tr'leri seçtim.
-            // İlk tr genellikle başlık satırı olacağından onu atlamak için :not(:first-child) kullanıyorum.
+            // Tablodaki her bir 'tr' elementini iterate edeyoruz
+            // tr elementleri direkt <tbody> içinde olmayabilir, bu yüzden direkt tr'leri seçtik.
+            // Başlık satırı olmadığı için ilk satırdan itibaren 
             const trElements = dataTable.find("tr").get(); // Tüm veri satırlarını array olarak al
 
             for (const rowElement of trElements) {
+
                 const $row = $(rowElement);
 
-                // td'leri data-title attribute'una göre seçmek, sıra değişse bile doğru veriyi almanızı sağlar.
-                // Ancak, verdiğiniz HTML'de td'lerin sadece text content'i var gibi duruyor.
-                // Eğer data-title attribute'unu kullanmak isterseniz:
-                // const madeYear = $row.find("td[data-title='YEAR']").text().trim();
-                // const cc = $row.find("td[data-title='']").text().trim(); // engine vol
-                // const engineCodes = $row.find("td[data-title='D4CB A2']").text().trim(); // engine no (bu data-title değişiyor, o yüzden index daha iyi)
-                // const engineType_body = $row.find("td[data-title='BODY']").text().trim();
-
-                // Şu anki HTML'de data-title'lar dinamik ve boş olabiliyor, bu yüzden nth-child daha güvenli.
                 const madeYear = $row.find("td:nth-child(1)").text().trim();
                 const years = await extractYears(madeYear, Locale.en_US); // extractYears fonksiyonunu revize ettim
                 const cc = $row.find("td:nth-child(2)").text().trim();
