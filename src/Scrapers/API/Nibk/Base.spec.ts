@@ -6,7 +6,8 @@ import dotenv from "dotenv";
 import path from "path";
 import fs from "fs";
 import { delay } from '../../../utils/API_Worker_Functions';
-import { ProductCompatibilityResult, ProductReference } from '../../../utils/Types';
+import { OutputManufacturer, OutputModelSeries, OutputTarget, ProductCompatibilityResult, ProductReference } from '../../../utils/Types';
+import { Locale } from 'locale-enum';
 
 dotenv.config({ path: path.resolve(".env") });
 const productType = process.env.PRODUCT_TYPE as string;
@@ -38,13 +39,19 @@ async function JNBK_API_Scraper(process: Function, fileName: string, threadLimit
 test("JNBK API test", async () => {
 
     test.setTimeout(20 * 60 * 1000); // 20 dakika
-    console.log(`Processing OE numbers for brand: ${filterBrand}`);
-    await JNBK_API_Scraper(getVehicleCompatibilities, `Vehicle-Compatibility_${filterBrand}.json`, 3, "Vehicle-Compatibility");
+    console.log(`Processing OE numbers for brand: ${filterBrand}, count : ${referenceArray.length}`);
+    await JNBK_API_Scraper(getCompatibilityResults, `Vehicle-Compatibility_${filterBrand}.json`, 3, "Vehicle-Compatibility");
 });
 
-export async function getVehicleCompatibilities(ref: ProductReference) {
+export async function getCompatibilityResults(ref: ProductReference): Promise<ProductCompatibilityResult[]> {
+    const { yvNo, supplier } = ref;
+    const { product_id, currentUrl } = await getProduct_URL(ref);
+    const compatibilityVehicles = await getVehicleCompatibilities(ref, currentUrl);
 
-    const { url_id: productId, currentUrl } = await getProduct_URL(ref);
+    return [{ yvNo, crossNumber: product_id, brand: supplier, compatibleVehicles: compatibilityVehicles }];
+}
+
+export async function getVehicleCompatibilities(ref: ProductReference, currentUrl: string): Promise<OutputManufacturer[]> {
     const apiContext = await request.newContext();
 
     try {
@@ -54,24 +61,106 @@ export async function getVehicleCompatibilities(ref: ProductReference) {
             }
         });
 
-        const bodyText = await response.text(); // response.body() yerine
+        if (!response.ok()) {
+            throw new Error(`API isteği başarısız oldu: ${response.status()} ${response.statusText()}`);
+        }
+
+        const bodyText = await response.text();
         const $ = cheerio.load(bodyText);
 
-        const titles: string[] = $("a.achrBrandModel").map((index, element) => $(element).text()).get();
+        const compatibilityVehicles: OutputManufacturer[] = [];
 
-        console.log(titles);
+        // Her bir 'model-title' div'ini iterate edelim
+        // Bu yapıya göre her 'model-title' hemen ardından kendi 'model-body'si ile takip ediyor.
+        const modelTitles = $(".model-title");
+
+        for (let i = 0; i < modelTitles.length; i++) {
+            const titleElement = modelTitles.eq(i);
+            const fullTitle = titleElement.find("a.achrBrandModel").text().trim();
+
+            if (!fullTitle) {
+                console.warn(`Boş başlık atlandı.`);
+                continue;
+            }
+
+            const [marka, model] = fullTitle.split("»").map(s => s.trim());
+
+            // İlgili 'model-body' div'ini bulmak için doğrudan .next() kullanıyoruz
+            const modelBodyDiv = titleElement.next(".model-body");
+
+            if (modelBodyDiv.length === 0) {
+                console.warn(`Model Body bulunamadı: ${fullTitle}`);
+                continue; // Bu başlık için devam etme
+            }
+
+            // Tabloyu modelBodyDiv içinden bulalım
+            const dataTable = modelBodyDiv.find("table.search-result-table");
+
+            if (dataTable.length === 0) {
+                console.warn(`Veri tablosu bulunamadı: ${fullTitle}`);
+                continue;
+            }
+
+            const targets: OutputTarget[] = [];
+
+            // Tablodaki her bir 'tr' elementini iterate edelim (başlık satırı hariç)
+            // tr elementleri direkt <tbody> içinde olmayabilir, bu yüzden sadece tr'leri seçtim.
+            // İlk tr genellikle başlık satırı olacağından onu atlamak için :not(:first-child) kullanıyorum.
+            const trElements = dataTable.find("tr").get(); // Tüm veri satırlarını array olarak al
+
+            for (const rowElement of trElements) {
+                const $row = $(rowElement);
+
+                // td'leri data-title attribute'una göre seçmek, sıra değişse bile doğru veriyi almanızı sağlar.
+                // Ancak, verdiğiniz HTML'de td'lerin sadece text content'i var gibi duruyor.
+                // Eğer data-title attribute'unu kullanmak isterseniz:
+                // const madeYear = $row.find("td[data-title='YEAR']").text().trim();
+                // const cc = $row.find("td[data-title='']").text().trim(); // engine vol
+                // const engineCodes = $row.find("td[data-title='D4CB A2']").text().trim(); // engine no (bu data-title değişiyor, o yüzden index daha iyi)
+                // const engineType_body = $row.find("td[data-title='BODY']").text().trim();
+
+                // Şu anki HTML'de data-title'lar dinamik ve boş olabiliyor, bu yüzden nth-child daha güvenli.
+                const madeYear = $row.find("td:nth-child(1)").text().trim();
+                const years = await extractYears(madeYear, Locale.en_US); // extractYears fonksiyonunu revize ettim
+                const cc = $row.find("td:nth-child(2)").text().trim();
+                const engineCodes = $row.find("td:nth-child(3)").text().trim();
+                const engineType_body = $row.find("td:nth-child(4)").text().trim(); // BODY sütunu
+
+                targets.push({
+                    engine: `${cc} | ${engineType_body}`, // cc ve body tipini birleştir
+                    fullName: fullTitle,
+                    constructionYearFrom: years.start,
+                    constructionYearTo: years.end,
+                    engineCodes,
+                    enginePowerKW: '',
+                    enginePowerHP: '',
+                    cc: cc,
+                    kbaNumbers: '',
+                    bodyType: engineType_body, // bodyType'ı ilgili sütundan al
+                });
+            }
+
+            compatibilityVehicles.push({
+                manufacturer: marka,
+                models: [{
+                    modelSeries: model,
+                    targets: targets
+                }]
+            });
+        }
+
+        return compatibilityVehicles;
 
     } catch (error) {
-
+        console.error(`❌ ${ref.crossNumber} için hata:`, error);
+        return [];
     } finally {
         await apiContext.dispose();
-
+        await delay(300);
     }
-
-
 }
 
-export async function getProduct_URL(ref: ProductReference): Promise<{ url_id: string; currentUrl: string }> {
+export async function getProduct_URL(ref: ProductReference): Promise<{ product_id: string; currentUrl: string }> {
 
     const apiContext = await request.newContext();
     const { yvNo, supplier, crossNumber } = ref;
@@ -91,12 +180,14 @@ export async function getProduct_URL(ref: ProductReference): Promise<{ url_id: s
         const bodyText = await response.text(); // response.body() yerine
         const $ = cheerio.load(bodyText);
 
-        const url_id = $('input[name="txtProductId"]').val()?.toString() || '';
+        const productID = $("h2.search-title").text().split("»")[1].trim() || '';
         const currentUrl = $('input[name="currentUrl"]').val()?.toString() || '';
-        return { url_id: url_id, currentUrl };
+        //console.log(`Product ID: ${productID}`);
+        console.log(`${yvNo} - ${crossNumber} - Current URL: ${currentUrl}`);
+        return { product_id: productID, currentUrl };
     } catch (err) {
         console.error(`❌ ${yvNo} - ${crossNumber} - Product Info için hata:`, err);
-        return { url_id: '', currentUrl: '' };
+        return { product_id: '', currentUrl: '' };
     } finally {
         await apiContext.dispose();
         await delay(300);
