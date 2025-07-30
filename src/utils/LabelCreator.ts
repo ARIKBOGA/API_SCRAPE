@@ -1,21 +1,30 @@
 // src/generateLabelsFromSingleJson.ts
 import fs from "fs";
 import path from "path";
-import * as XLSX from "xlsx";
+import * as ExcelJS from "exceljs"; // exceljs'i import ediyoruz
 import { bodyTypes, brandAliases, modelAliases } from "./Variables";
-import dotenv from 'dotenv';
+import dotenv from "dotenv";
 
 dotenv.config({ path: path.resolve(".env") });
 
 const productType = process.env.PRODUCT_TYPE as string;
 
-const modelsNeedsToBePascalCased = new Set(JSON.parse(fs.readFileSync(path.resolve(__dirname, `../resources/data/catalogInfo/jsons/modelsNeedsToBePascalCased.json`), "utf-8")));
+const modelsNeedsToBePascalCased = new Set(
+  JSON.parse(
+    fs.readFileSync(
+      path.resolve(__dirname, `../resources/data/catalogInfo/jsons/modelsNeedsToBePascalCased.json`),
+      "utf-8"
+    )
+  )
+);
 
 function toPascalCase(str: string): string {
   return str
     .replace(/\b(\p{L}+)\b/gu, (word) => {
       if (word.length <= 3) return word;
-      return modelsNeedsToBePascalCased.has(word) ? word.charAt(0).toUpperCase() + word.slice(1).toLowerCase() : word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+      return modelsNeedsToBePascalCased.has(word)
+        ? word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
+        : word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
     })
     .trim();
 }
@@ -67,7 +76,8 @@ function getTopEntries<T>(map: Map<T, number>, limit?: number): T[] {
   return limit ? sorted.slice(0, limit).map(([key]) => key) : sorted.map(([key]) => key);
 }
 
-function generateLabel(vehicles: any[]): string {
+// Bu fonksiyon, etiket metnini ve bold yapılacak kısımlarını ayrı ayrı döndürecek.
+function generateLabelRichText(vehicles: any[]): { text: string; richText: ExcelJS.RichText[] } {
   const maxLines = 5;
   const maxLineLength = 65;
   const brandModelMap = new Map<string, Map<string, number>>();
@@ -84,22 +94,25 @@ function generateLabel(vehicles: any[]): string {
     for (const model of v.models) {
       const models = extractAndShortenModels(model.modelSeries);
 
-      let madeYaear: {from: string, to: string} | null = null;
+      let madeYaear: { from: string; to: string } | null = null;
       let minFrom: number | null = Number.MAX_SAFE_INTEGER;
       let maxTo: number | null = Number.MIN_SAFE_INTEGER;
       for (const target of model.targets) {
         let from = Number(target.constructionYearFrom);
         let to = Number(target.constructionYearTo);
-        from = from < 30 ? from + 2000: from + 1900;
-        to = to < 30 ? to + 2000: to + 1900;
+        from = from < 30 ? from + 2000 : from + 1900;
+        to = to < 30 ? to + 2000 : to + 1900;
         minFrom = from < minFrom ? from : minFrom;
-        maxTo = to > maxTo ? to : maxTo;      
+        maxTo = to > maxTo ? to : maxTo;
       }
 
-      madeYaear = {from: minFrom!.toString().slice(-2), to: maxTo!.toString().slice(-2)};
+      madeYaear = { from: minFrom!.toString().slice(-2), to: maxTo!.toString().slice(-2) };
 
       for (const m of models) {
-        modelMap.set(m.concat(` ${madeYaear!.from}-${madeYaear!.to}`), (modelMap.get(m) || 0) + 1);
+        modelMap.set(
+          m.concat(` ${madeYaear!.from}-${madeYaear!.to}`),
+          (modelMap.get(m) || 0) + 1
+        );
       }
     }
   }
@@ -133,7 +146,7 @@ function generateLabel(vehicles: any[]): string {
     }
   }
 
-  const lines: string[] = [];
+  const richTextParts: ExcelJS.RichText[] = [];
   let currentLineIndex = 0;
 
   for (const brand of sortedBrands) {
@@ -141,8 +154,8 @@ function generateLabel(vehicles: any[]): string {
     const models = brandModelsToUse.get(brand)!;
 
     for (let i = 0; i < allocated && currentLineIndex < maxLines; i++) {
-      let line = `${brand} `;
-      const prefixLen = line.length;
+      let lineStart = `${brand} `;
+      const prefixLen = lineStart.length;
       let currentLen = prefixLen;
       const modelsOnLine: string[] = [];
 
@@ -158,31 +171,69 @@ function generateLabel(vehicles: any[]): string {
       }
 
       if (modelsOnLine.length > 0) {
-        line += modelsOnLine.join(", ");
-        lines.push(line);
+        // Markayı kalın yap
+        richTextParts.push({ text: brand, font: { bold: true } });
+        richTextParts.push({ text: " " }); // Marka ile model arasına boşluk
+
+        // Modelleri normal yaz
+        richTextParts.push({ text: modelsOnLine.join(", ") });
+
+        // Satır sonu ekle (son satır hariç)
+        if (currentLineIndex < maxLines - 1 || models.length > 0) {
+          richTextParts.push({ text: "\n" });
+        }
         currentLineIndex++;
       }
     }
   }
 
-  return lines.join("\n").trim();
+  // Tüm richText parçalarını birleştirerek tam metni oluştur
+  const fullText = richTextParts.map((part) => part.text).join("");
+
+  return { text: fullText.trim(), richText: richTextParts };
 }
 
-const inputFilePath = path.resolve(__dirname, `../output/${productType}/jsons/marka_hareket/MARKA_HAREKET.json`);
-const outputFilePath = path.resolve(__dirname, `../output/${productType}/excels/Label/${productType}_Label_WithYears.xlsx`);
+const inputFilePath = path.resolve(
+  __dirname,
+  `../output/${productType}/jsons/marka_hareket/MARKA_HAREKET.json`
+);
+const outputFilePath = path.resolve(
+  __dirname,
+  `../output/${productType}/excels/Label/${productType}_Label_WithYears_BOLD.xlsx`
+);
 
-const inputData = JSON.parse(fs.readFileSync(inputFilePath, "utf-8"));
-const rows: [string, string, string][] = [];
+async function processAndWriteExcel() {
+  const inputData = JSON.parse(fs.readFileSync(inputFilePath, "utf-8"));
+  const workbook = new ExcelJS.Workbook();
+  const worksheet = workbook.addWorksheet("Etiketler");
 
-for (const item of inputData) {
-  if (!item.compatibleVehicles || item.compatibleVehicles.length === 0) continue;
-  const label = generateLabel(item.compatibleVehicles);
-  rows.push([item.yvNo, item.crossNumber, label]);
+  // Başlık satırı
+  worksheet.addRow(["YV", "CROSS", "ETIKET"]);
+  worksheet.getRow(1).font = { bold: true }; // Başlıkları kalın yap
+
+  for (const item of inputData) {
+    if (!item.compatibleVehicles || item.compatibleVehicles.length === 0) continue;
+
+    const labelData = generateLabelRichText(item.compatibleVehicles);
+    const row = worksheet.addRow([item.yvNo, item.crossNumber, labelData]); // labelData objesini doğrudan atıyoruz
+
+    // Etiket hücresini otomatik sığdırmak için (genişliği ayarlamak için)
+    // Bu, hücrenin içeriğini otomatik boyutlandırmaz, yalnızca zengin metin olarak işlenmesini sağlar.
+    // Otomatik satır yüksekliği için wrapper metin etkinleştirilir.
+    const labelCell = row.getCell(3); // 3. sütun
+    labelCell.alignment = { wrapText: true };
+  }
+
+  // Sütun genişliklerini ayarlama (isteğe bağlı)
+  worksheet.columns = [
+    { header: "YV", key: "yv", width: 15 },
+    { header: "CROSS", key: "cross", width: 20 },
+    { header: "ETIKET", key: "label", width: 70 }, // Etiket sütunu için daha geniş bir alan
+  ];
+
+  await workbook.xlsx.writeFile(outputFilePath);
+  console.log("Etiket dosyası oluşturuldu:", outputFilePath);
 }
 
-const wb = XLSX.utils.book_new();
-const ws = XLSX.utils.aoa_to_sheet([["YV", "CROSS", "ETIKET"], ...rows]);
-XLSX.utils.book_append_sheet(wb, ws, "Etiketler");
-XLSX.writeFile(wb, outputFilePath);
-
-console.log("Etiket dosyası oluşturuldu:", outputFilePath);
+// Fonksiyonu çalıştır
+processAndWriteExcel().catch((error) => console.error("Excel oluşturulurken hata oluştu:", error));
