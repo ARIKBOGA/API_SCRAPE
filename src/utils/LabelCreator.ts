@@ -83,8 +83,23 @@ function generateLabel(vehicles: any[]): string {
 
     for (const model of v.models) {
       const models = extractAndShortenModels(model.modelSeries);
+
+      let madeYaear: {from: string, to: string} | null = null;
+      let minFrom: number | null = Number.MAX_SAFE_INTEGER;
+      let maxTo: number | null = Number.MIN_SAFE_INTEGER;
+      for (const target of model.targets) {
+        let from = Number(target.constructionYearFrom);
+        let to = Number(target.constructionYearTo);
+        from = from < 30 ? from + 2000: from + 1900;
+        to = to < 30 ? to + 2000: to + 1900;
+        minFrom = from < minFrom ? from : minFrom;
+        maxTo = to > maxTo ? to : maxTo;      
+      }
+
+      madeYaear = {from: minFrom!.toString().slice(-2), to: maxTo!.toString().slice(-2)};
+
       for (const m of models) {
-        modelMap.set(m, (modelMap.get(m) || 0) + 1);
+        modelMap.set(m.concat(` ${madeYaear!.from}-${madeYaear!.to}`), (modelMap.get(m) || 0) + 1);
       }
     }
   }
@@ -126,7 +141,7 @@ function generateLabel(vehicles: any[]): string {
     const models = brandModelsToUse.get(brand)!;
 
     for (let i = 0; i < allocated && currentLineIndex < maxLines; i++) {
-      let line = `${brand} - `;
+      let line = `${brand} `;
       const prefixLen = line.length;
       let currentLen = prefixLen;
       const modelsOnLine: string[] = [];
@@ -154,7 +169,7 @@ function generateLabel(vehicles: any[]): string {
 }
 
 const inputFilePath = path.resolve(__dirname, `../output/${productType}/jsons/marka_hareket/MARKA_HAREKET.json`);
-const outputFilePath = path.resolve(__dirname, `../output/${productType}/excels/Label/${productType}_Label.xlsx`);
+const outputFilePath = path.resolve(__dirname, `../output/${productType}/excels/Label/${productType}_Label_WithYears.xlsx`);
 
 const inputData = JSON.parse(fs.readFileSync(inputFilePath, "utf-8"));
 const rows: [string, string, string][] = [];
