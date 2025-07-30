@@ -1,0 +1,3651 @@
+[
+  {
+    "yvNo": "25236",
+    "crossNumber": "RN1262V",
+    "brand": "JNBK",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "MITSUBISHI",
+        "models": [
+          {
+            "modelSeries": "Canter",
+            "targets": [
+              {
+                "engine": "2800 | FB511A",
+                "fullName": "MITSUBISHI   »   Canter",
+                "constructionYearFrom": "93",
+                "constructionYearTo": "99",
+                "engineCodes": "4M40",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2800",
+                "kbaNumbers": "",
+                "bodyType": "FB511A"
+              },
+              {
+                "engine": "3000 | FE70BB",
+                "fullName": "MITSUBISHI   »   Canter",
+                "constructionYearFrom": "04",
+                "constructionYearTo": "07",
+                "engineCodes": "4M42",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "3000",
+                "kbaNumbers": "",
+                "bodyType": "FE70BB"
+              },
+              {
+                "engine": "3000 | FE70BS",
+                "fullName": "MITSUBISHI   »   Canter",
+                "constructionYearFrom": "04",
+                "constructionYearTo": "14",
+                "engineCodes": "4M42",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "3000",
+                "kbaNumbers": "",
+                "bodyType": "FE70BS"
+              },
+              {
+                "engine": "3000 | FE74B",
+                "fullName": "MITSUBISHI   »   Canter",
+                "constructionYearFrom": "04",
+                "constructionYearTo": "11",
+                "engineCodes": "4M42",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "3000",
+                "kbaNumbers": "",
+                "bodyType": "FE74B"
+              },
+              {
+                "engine": "3000 | FE82B",
+                "fullName": "MITSUBISHI   »   Canter",
+                "constructionYearFrom": "06",
+                "constructionYearTo": "11",
+                "engineCodes": "4M42",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "3000",
+                "kbaNumbers": "",
+                "bodyType": "FE82B"
+              },
+              {
+                "engine": "3000 | FE83B",
+                "fullName": "MITSUBISHI   »   Canter",
+                "constructionYearFrom": "07",
+                "constructionYearTo": "13",
+                "engineCodes": "4M42",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "3000",
+                "kbaNumbers": "",
+                "bodyType": "FE83B"
+              },
+              {
+                "engine": "3600 | FE335EV",
+                "fullName": "MITSUBISHI   »   Canter",
+                "constructionYearFrom": "89",
+                "constructionYearTo": "97",
+                "engineCodes": "4D32A",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "3600",
+                "kbaNumbers": "",
+                "bodyType": "FE335EV"
+              },
+              {
+                "engine": "3600 | FE516B",
+                "fullName": "MITSUBISHI   »   Canter",
+                "constructionYearFrom": "93",
+                "constructionYearTo": "99",
+                "engineCodes": "4D36",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "3600",
+                "kbaNumbers": "",
+                "bodyType": "FE516B"
+              },
+              {
+                "engine": "3600 | FE516BC",
+                "fullName": "MITSUBISHI   »   Canter",
+                "constructionYearFrom": "93",
+                "constructionYearTo": "99",
+                "engineCodes": "4D36",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "3600",
+                "kbaNumbers": "",
+                "bodyType": "FE516BC"
+              },
+              {
+                "engine": "3900 | FE639",
+                "fullName": "MITSUBISHI   »   Canter",
+                "constructionYearFrom": "93",
+                "constructionYearTo": "99",
+                "engineCodes": "4D34-T",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "3900",
+                "kbaNumbers": "",
+                "bodyType": "FE639"
+              },
+              {
+                "engine": "4200 | FE337EV",
+                "fullName": "MITSUBISHI   »   Canter",
+                "constructionYearFrom": "92",
+                "constructionYearTo": "93",
+                "engineCodes": "4D33",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "4200",
+                "kbaNumbers": "",
+                "bodyType": "FE337EV"
+              },
+              {
+                "engine": "4200 | FE517BD",
+                "fullName": "MITSUBISHI   »   Canter",
+                "constructionYearFrom": "93",
+                "constructionYearTo": "99",
+                "engineCodes": "4D33",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "4200",
+                "kbaNumbers": "",
+                "bodyType": "FE517BD"
+              },
+              {
+                "engine": "4200 | FE537",
+                "fullName": "MITSUBISHI   »   Canter",
+                "constructionYearFrom": "93",
+                "constructionYearTo": "99",
+                "engineCodes": "4D33",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "4200",
+                "kbaNumbers": "",
+                "bodyType": "FE537"
+              },
+              {
+                "engine": "4200 | FE71C",
+                "fullName": "MITSUBISHI   »   Canter",
+                "constructionYearFrom": "02",
+                "constructionYearTo": "04",
+                "engineCodes": "4D33",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "4200",
+                "kbaNumbers": "",
+                "bodyType": "FE71C"
+              },
+              {
+                "engine": "4200 | FE72C",
+                "fullName": "MITSUBISHI   »   Canter",
+                "constructionYearFrom": "02",
+                "constructionYearTo": "04",
+                "engineCodes": "4D33",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "4200",
+                "kbaNumbers": "",
+                "bodyType": "FE72C"
+              },
+              {
+                "engine": "4600 | FE638",
+                "fullName": "MITSUBISHI   »   Canter",
+                "constructionYearFrom": "93",
+                "constructionYearTo": "99",
+                "engineCodes": "4D35",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "4600",
+                "kbaNumbers": "",
+                "bodyType": "FE638"
+              },
+              {
+                "engine": "4900 | FE82D",
+                "fullName": "MITSUBISHI   »   Canter",
+                "constructionYearFrom": "06",
+                "constructionYearTo": "10",
+                "engineCodes": "4M50",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "4900",
+                "kbaNumbers": "",
+                "bodyType": "FE82D"
+              },
+              {
+                "engine": "4900 | FE72D",
+                "fullName": "MITSUBISHI   »   Canter",
+                "constructionYearFrom": "04",
+                "constructionYearTo": "09",
+                "engineCodes": "4M50-T",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "4900",
+                "kbaNumbers": "",
+                "bodyType": "FE72D"
+              },
+              {
+                "engine": "4900 | FE82DE",
+                "fullName": "MITSUBISHI   »   Canter",
+                "constructionYearFrom": "02",
+                "constructionYearTo": "14",
+                "engineCodes": "4M50-T",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "4900",
+                "kbaNumbers": "",
+                "bodyType": "FE82DE"
+              },
+              {
+                "engine": "5200 | FE53EC",
+                "fullName": "MITSUBISHI   »   Canter",
+                "constructionYearFrom": "99",
+                "constructionYearTo": "02",
+                "engineCodes": "4M51",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "5200",
+                "kbaNumbers": "",
+                "bodyType": "FE53EC"
+              },
+              {
+                "engine": "5200 | FE53EEV",
+                "fullName": "MITSUBISHI   »   Canter",
+                "constructionYearFrom": "99",
+                "constructionYearTo": "02",
+                "engineCodes": "4M51",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "5200",
+                "kbaNumbers": "",
+                "bodyType": "FE53EEV"
+              },
+              {
+                "engine": "5200 | FE72E",
+                "fullName": "MITSUBISHI   »   Canter",
+                "constructionYearFrom": "02",
+                "constructionYearTo": "04",
+                "engineCodes": "4M51",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "5200",
+                "kbaNumbers": "",
+                "bodyType": "FE72E"
+              },
+              {
+                "engine": "5200 | FE83E",
+                "fullName": "MITSUBISHI   »   Canter",
+                "constructionYearFrom": "02",
+                "constructionYearTo": "04",
+                "engineCodes": "4M51",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "5200",
+                "kbaNumbers": "",
+                "bodyType": "FE83E"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "MITSUBISHI",
+        "models": [
+          {
+            "modelSeries": "Rosa",
+            "targets": [
+              {
+                "engine": "5200 | BE632#",
+                "fullName": "MITSUBISHI   »   Rosa",
+                "constructionYearFrom": "97",
+                "constructionYearTo": "99",
+                "engineCodes": "4M51",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "5200",
+                "kbaNumbers": "",
+                "bodyType": "BE632#"
+              },
+              {
+                "engine": "5200 | BE63E",
+                "fullName": "MITSUBISHI   »   Rosa",
+                "constructionYearFrom": "99",
+                "constructionYearTo": "",
+                "engineCodes": "4M51",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "5200",
+                "kbaNumbers": "",
+                "bodyType": "BE63E"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "18489",
+    "crossNumber": "RN2276V",
+    "brand": "JNBK",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "KIA",
+        "models": [
+          {
+            "modelSeries": "Bongo",
+            "targets": [
+              {
+                "engine": "2900 | K7#P VTN",
+                "fullName": "KIA   »   Bongo",
+                "constructionYearFrom": "06",
+                "constructionYearTo": "17",
+                "engineCodes": "HJ3",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2900",
+                "kbaNumbers": "",
+                "bodyType": "K7#P VTN"
+              },
+              {
+                "engine": "2900 | 1TON - H/LONG",
+                "fullName": "KIA   »   Bongo",
+                "constructionYearFrom": "06",
+                "constructionYearTo": "17",
+                "engineCodes": "J3",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2900",
+                "kbaNumbers": "",
+                "bodyType": "1TON - H/LONG"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "KIA",
+        "models": [
+          {
+            "modelSeries": "K2900",
+            "targets": [
+              {
+                "engine": "2500 | SJX76",
+                "fullName": "KIA   »   K2900",
+                "constructionYearFrom": "08",
+                "constructionYearTo": "",
+                "engineCodes": "D4CB A2",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2500",
+                "kbaNumbers": "",
+                "bodyType": "SJX76"
+              },
+              {
+                "engine": "2900 | SJX74",
+                "fullName": "KIA   »   K2900",
+                "constructionYearFrom": "08",
+                "constructionYearTo": "16",
+                "engineCodes": "J3",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2900",
+                "kbaNumbers": "",
+                "bodyType": "SJX74"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "25240",
+    "crossNumber": "RN1260V",
+    "brand": "JNBK",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "MITSUBISHI",
+        "models": [
+          {
+            "modelSeries": "Canter",
+            "targets": [
+              {
+                "engine": "2800 | FB308",
+                "fullName": "MITSUBISHI   »   Canter",
+                "constructionYearFrom": "89",
+                "constructionYearTo": "93",
+                "engineCodes": "4DR7",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2800",
+                "kbaNumbers": "",
+                "bodyType": "FB308"
+              },
+              {
+                "engine": "2800 | FB328",
+                "fullName": "MITSUBISHI   »   Canter",
+                "constructionYearFrom": "89",
+                "constructionYearTo": "93",
+                "engineCodes": "4DR7",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2800",
+                "kbaNumbers": "",
+                "bodyType": "FB328"
+              },
+              {
+                "engine": "2800 | FB511B",
+                "fullName": "MITSUBISHI   »   Canter",
+                "constructionYearFrom": "93",
+                "constructionYearTo": "06",
+                "engineCodes": "4M40",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2800",
+                "kbaNumbers": "",
+                "bodyType": "FB511B"
+              },
+              {
+                "engine": "3300 | FE301",
+                "fullName": "MITSUBISHI   »   Canter",
+                "constructionYearFrom": "85",
+                "constructionYearTo": "93",
+                "engineCodes": "4D30",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "3300",
+                "kbaNumbers": "",
+                "bodyType": "FE301"
+              },
+              {
+                "engine": "3600 | FE516BT",
+                "fullName": "MITSUBISHI   »   Canter",
+                "constructionYearFrom": "93",
+                "constructionYearTo": "99",
+                "engineCodes": "4D36",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "3600",
+                "kbaNumbers": "",
+                "bodyType": "FE516BT"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "25909",
+    "crossNumber": "RN1926V",
+    "brand": "JNBK",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "MITSUBISHI",
+        "models": [
+          {
+            "modelSeries": "Canter",
+            "targets": [
+              {
+                "engine": "3000 | FBA20",
+                "fullName": "MITSUBISHI   »   Canter",
+                "constructionYearFrom": "10",
+                "constructionYearTo": "20",
+                "engineCodes": "4P10-T",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "3000",
+                "kbaNumbers": "",
+                "bodyType": "FBA20"
+              },
+              {
+                "engine": "3000 | FEB20",
+                "fullName": "MITSUBISHI   »   Canter",
+                "constructionYearFrom": "10",
+                "constructionYearTo": "",
+                "engineCodes": "4P10-T",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "3000",
+                "kbaNumbers": "",
+                "bodyType": "FEB20"
+              },
+              {
+                "engine": "3000 | FEB21",
+                "fullName": "MITSUBISHI   »   Canter",
+                "constructionYearFrom": "10",
+                "constructionYearTo": "",
+                "engineCodes": "4P10-T",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "3000",
+                "kbaNumbers": "",
+                "bodyType": "FEB21"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "25910",
+    "crossNumber": "RN1972V",
+    "brand": "JNBK",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "MITSUBISHI",
+        "models": [
+          {
+            "modelSeries": "Canter",
+            "targets": [
+              {
+                "engine": "3000 | FBA20",
+                "fullName": "MITSUBISHI   »   Canter",
+                "constructionYearFrom": "10",
+                "constructionYearTo": "20",
+                "engineCodes": "4P10-T",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "3000",
+                "kbaNumbers": "",
+                "bodyType": "FBA20"
+              },
+              {
+                "engine": "3000 | FDA20",
+                "fullName": "MITSUBISHI   »   Canter",
+                "constructionYearFrom": "11",
+                "constructionYearTo": "",
+                "engineCodes": "4P10-T",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "3000",
+                "kbaNumbers": "",
+                "bodyType": "FDA20"
+              },
+              {
+                "engine": "3000 | FEB21",
+                "fullName": "MITSUBISHI   »   Canter",
+                "constructionYearFrom": "10",
+                "constructionYearTo": "",
+                "engineCodes": "4P10-T",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "3000",
+                "kbaNumbers": "",
+                "bodyType": "FEB21"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "40157",
+    "crossNumber": "RN1331V",
+    "brand": "JNBK",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "ISUZU",
+        "models": [
+          {
+            "modelSeries": "ELF",
+            "targets": [
+              {
+                "engine": "3100 | NKR69LAR",
+                "fullName": "ISUZU   »   ELF",
+                "constructionYearFrom": "93",
+                "constructionYearTo": "07",
+                "engineCodes": "4JG2",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "3100",
+                "kbaNumbers": "",
+                "bodyType": "NKR69LAR"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "63417",
+    "crossNumber": "RN1453V",
+    "brand": "JNBK",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "GAZ",
+        "models": [
+          {
+            "modelSeries": "Gazelle",
+            "targets": [
+              {
+                "engine": "2100 | 3221",
+                "fullName": "GAZ   »   Gazelle",
+                "constructionYearFrom": "03",
+                "constructionYearTo": "",
+                "engineCodes": "GAZ5601 Euro3(Steyr)",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2100",
+                "kbaNumbers": "",
+                "bodyType": "3221"
+              },
+              {
+                "engine": "2100 | 3303",
+                "fullName": "GAZ   »   Gazelle",
+                "constructionYearFrom": "99",
+                "constructionYearTo": "02",
+                "engineCodes": "GAZ5601 Euro3(Steyr)",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2100",
+                "kbaNumbers": "",
+                "bodyType": "3303"
+              },
+              {
+                "engine": "2100 | 3303",
+                "fullName": "GAZ   »   Gazelle",
+                "constructionYearFrom": "03",
+                "constructionYearTo": "",
+                "engineCodes": "GAZ5601 Euro3(Steyr)",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2100",
+                "kbaNumbers": "",
+                "bodyType": "3303"
+              },
+              {
+                "engine": "2100 | 3512",
+                "fullName": "GAZ   »   Gazelle",
+                "constructionYearFrom": "03",
+                "constructionYearTo": "",
+                "engineCodes": "GAZ5601 Euro3(Steyr)",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2100",
+                "kbaNumbers": "",
+                "bodyType": "3512"
+              },
+              {
+                "engine": "2100 | 3221",
+                "fullName": "GAZ   »   Gazelle",
+                "constructionYearFrom": "92",
+                "constructionYearTo": "02",
+                "engineCodes": "M14TCA",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2100",
+                "kbaNumbers": "",
+                "bodyType": "3221"
+              },
+              {
+                "engine": "2100 | 3221",
+                "fullName": "GAZ   »   Gazelle",
+                "constructionYearFrom": "99",
+                "constructionYearTo": "02",
+                "engineCodes": "M14TCA",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2100",
+                "kbaNumbers": "",
+                "bodyType": "3221"
+              },
+              {
+                "engine": "2100 | 2705",
+                "fullName": "GAZ   »   Gazelle",
+                "constructionYearFrom": "99",
+                "constructionYearTo": "02",
+                "engineCodes": "ZMZ-4061.10",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2100",
+                "kbaNumbers": "",
+                "bodyType": "2705"
+              },
+              {
+                "engine": "2100 | 2705",
+                "fullName": "GAZ   »   Gazelle",
+                "constructionYearFrom": "99",
+                "constructionYearTo": "02",
+                "engineCodes": "ZMZ-4061.10",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2100",
+                "kbaNumbers": "",
+                "bodyType": "2705"
+              },
+              {
+                "engine": "2100 | 3221",
+                "fullName": "GAZ   »   Gazelle",
+                "constructionYearFrom": "03",
+                "constructionYearTo": "",
+                "engineCodes": "ZMZ-4061.10",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2100",
+                "kbaNumbers": "",
+                "bodyType": "3221"
+              },
+              {
+                "engine": "2100 | 3302",
+                "fullName": "GAZ   »   Gazelle",
+                "constructionYearFrom": "91",
+                "constructionYearTo": "02",
+                "engineCodes": "ZMZ-4061.10",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2100",
+                "kbaNumbers": "",
+                "bodyType": "3302"
+              },
+              {
+                "engine": "2100 | 3302",
+                "fullName": "GAZ   »   Gazelle",
+                "constructionYearFrom": "93",
+                "constructionYearTo": "01",
+                "engineCodes": "ZMZ-4061.10",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2100",
+                "kbaNumbers": "",
+                "bodyType": "3302"
+              },
+              {
+                "engine": "2100 | 3302",
+                "fullName": "GAZ   »   Gazelle",
+                "constructionYearFrom": "99",
+                "constructionYearTo": "02",
+                "engineCodes": "ZMZ-4061.10",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2100",
+                "kbaNumbers": "",
+                "bodyType": "3302"
+              },
+              {
+                "engine": "2100 | 3302",
+                "fullName": "GAZ   »   Gazelle",
+                "constructionYearFrom": "91",
+                "constructionYearTo": "02",
+                "engineCodes": "ZMZ-4063.10",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2100",
+                "kbaNumbers": "",
+                "bodyType": "3302"
+              },
+              {
+                "engine": "2300 | 3303",
+                "fullName": "GAZ   »   Gazelle",
+                "constructionYearFrom": "00",
+                "constructionYearTo": "",
+                "engineCodes": "ZMZ406110",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2300",
+                "kbaNumbers": "",
+                "bodyType": "3303"
+              },
+              {
+                "engine": "2300 | 2705",
+                "fullName": "GAZ   »   Gazelle",
+                "constructionYearFrom": "03",
+                "constructionYearTo": "",
+                "engineCodes": "ZMZ4063.10",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2300",
+                "kbaNumbers": "",
+                "bodyType": "2705"
+              },
+              {
+                "engine": "2300 | 3302",
+                "fullName": "GAZ   »   Gazelle",
+                "constructionYearFrom": "00",
+                "constructionYearTo": "",
+                "engineCodes": "ZMZ406310",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2300",
+                "kbaNumbers": "",
+                "bodyType": "3302"
+              },
+              {
+                "engine": "2400 | 3303",
+                "fullName": "GAZ   »   Gazelle",
+                "constructionYearFrom": "03",
+                "constructionYearTo": "",
+                "engineCodes": "4CTi90",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2400",
+                "kbaNumbers": "",
+                "bodyType": "3303"
+              },
+              {
+                "engine": "2400 | 3512",
+                "fullName": "GAZ   »   Gazelle",
+                "constructionYearFrom": "99",
+                "constructionYearTo": "03",
+                "engineCodes": "4CTi90",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2400",
+                "kbaNumbers": "",
+                "bodyType": "3512"
+              },
+              {
+                "engine": "2400 | 2705",
+                "fullName": "GAZ   »   Gazelle",
+                "constructionYearFrom": "93",
+                "constructionYearTo": "02",
+                "engineCodes": "ZMZ-4026.10",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2400",
+                "kbaNumbers": "",
+                "bodyType": "2705"
+              },
+              {
+                "engine": "2400 | 2705",
+                "fullName": "GAZ   »   Gazelle",
+                "constructionYearFrom": "99",
+                "constructionYearTo": "02",
+                "engineCodes": "ZMZ-4026.10",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2400",
+                "kbaNumbers": "",
+                "bodyType": "2705"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "151536",
+    "crossNumber": "RN1410V",
+    "brand": "JNBK",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "ACURA",
+        "models": [
+          {
+            "modelSeries": "MDX",
+            "targets": [
+              {
+                "engine": "3700 | YD2",
+                "fullName": "ACURA   »   MDX",
+                "constructionYearFrom": "06",
+                "constructionYearTo": "13",
+                "engineCodes": "J37A1",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "3700",
+                "kbaNumbers": "",
+                "bodyType": "YD2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "ACURA",
+        "models": [
+          {
+            "modelSeries": "RLX",
+            "targets": [
+              {
+                "engine": "3500 | KC2",
+                "fullName": "ACURA   »   RLX",
+                "constructionYearFrom": "12",
+                "constructionYearTo": "20",
+                "engineCodes": "J35Y4",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "3500",
+                "kbaNumbers": "",
+                "bodyType": "KC2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "ACURA",
+        "models": [
+          {
+            "modelSeries": "ZDX",
+            "targets": [
+              {
+                "engine": "3700 | YB1",
+                "fullName": "ACURA   »   ZDX",
+                "constructionYearFrom": "09",
+                "constructionYearTo": "13",
+                "engineCodes": "J37A5",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "3700",
+                "kbaNumbers": "",
+                "bodyType": "YB1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "HONDA",
+        "models": [
+          {
+            "modelSeries": "Legend",
+            "targets": [
+              {
+                "engine": "3500 | KC2",
+                "fullName": "HONDA   »   Legend",
+                "constructionYearFrom": "15",
+                "constructionYearTo": "21",
+                "engineCodes": "JNB",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "3500",
+                "kbaNumbers": "",
+                "bodyType": "KC2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "HONDA",
+        "models": [
+          {
+            "modelSeries": "Pilot",
+            "targets": [
+              {
+                "engine": "3500 | YF3",
+                "fullName": "HONDA   »   Pilot",
+                "constructionYearFrom": "08",
+                "constructionYearTo": "15",
+                "engineCodes": "J35Z4",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "3500",
+                "kbaNumbers": "",
+                "bodyType": "YF3"
+              },
+              {
+                "engine": "3500 | YF4",
+                "fullName": "HONDA   »   Pilot",
+                "constructionYearFrom": "08",
+                "constructionYearTo": "11",
+                "engineCodes": "J35Z4",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "3500",
+                "kbaNumbers": "",
+                "bodyType": "YF4"
+              },
+              {
+                "engine": "3500 | YF4 KY",
+                "fullName": "HONDA   »   Pilot",
+                "constructionYearFrom": "11",
+                "constructionYearTo": "16",
+                "engineCodes": "J35Z4",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "3500",
+                "kbaNumbers": "",
+                "bodyType": "YF4 KY"
+              },
+              {
+                "engine": "3500 | YF4 US",
+                "fullName": "HONDA   »   Pilot",
+                "constructionYearFrom": "08",
+                "constructionYearTo": "11",
+                "engineCodes": "J35Z4",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "3500",
+                "kbaNumbers": "",
+                "bodyType": "YF4 US"
+              },
+              {
+                "engine": "3500 | YF4 US",
+                "fullName": "HONDA   »   Pilot",
+                "constructionYearFrom": "11",
+                "constructionYearTo": "16",
+                "engineCodes": "J35Z4",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "3500",
+                "kbaNumbers": "",
+                "bodyType": "YF4 US"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "261533",
+    "crossNumber": "RN1995V",
+    "brand": "JNBK",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "NISSAN",
+        "models": [
+          {
+            "modelSeries": "Grand Livina",
+            "targets": [
+              {
+                "engine": "1500 | L10N",
+                "fullName": "NISSAN   »   Grand Livina",
+                "constructionYearFrom": "07",
+                "constructionYearTo": "13",
+                "engineCodes": "HR15DE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": "L10N"
+              },
+              {
+                "engine": "1500 | L11N",
+                "fullName": "NISSAN   »   Grand Livina",
+                "constructionYearFrom": "13",
+                "constructionYearTo": "16",
+                "engineCodes": "HR15DE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": "L11N"
+              },
+              {
+                "engine": "1600 | L10L GR",
+                "fullName": "NISSAN   »   Grand Livina",
+                "constructionYearFrom": "07",
+                "constructionYearTo": "15",
+                "engineCodes": "HR16DE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1600",
+                "kbaNumbers": "",
+                "bodyType": "L10L GR"
+              },
+              {
+                "engine": "1800 | L10H",
+                "fullName": "NISSAN   »   Grand Livina",
+                "constructionYearFrom": "10",
+                "constructionYearTo": "12",
+                "engineCodes": "MR18DE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1800",
+                "kbaNumbers": "",
+                "bodyType": "L10H"
+              },
+              {
+                "engine": "1800 | L10HH",
+                "fullName": "NISSAN   »   Grand Livina",
+                "constructionYearFrom": "16",
+                "constructionYearTo": "16",
+                "engineCodes": "MR18DE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1800",
+                "kbaNumbers": "",
+                "bodyType": "L10HH"
+              },
+              {
+                "engine": "1800 | L10N",
+                "fullName": "NISSAN   »   Grand Livina",
+                "constructionYearFrom": "07",
+                "constructionYearTo": "13",
+                "engineCodes": "MR18DE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1800",
+                "kbaNumbers": "",
+                "bodyType": "L10N"
+              },
+              {
+                "engine": "1800 | L10P",
+                "fullName": "NISSAN   »   Grand Livina",
+                "constructionYearFrom": "08",
+                "constructionYearTo": "13",
+                "engineCodes": "MR18DE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1800",
+                "kbaNumbers": "",
+                "bodyType": "L10P"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "NISSAN",
+        "models": [
+          {
+            "modelSeries": "Latio",
+            "targets": [
+              {
+                "engine": "1500 | SC11 RHD",
+                "fullName": "NISSAN   »   Latio",
+                "constructionYearFrom": "06",
+                "constructionYearTo": "12",
+                "engineCodes": "HR15DE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": "SC11 RHD"
+              },
+              {
+                "engine": "1600 | SC11",
+                "fullName": "NISSAN   »   Latio",
+                "constructionYearFrom": "06",
+                "constructionYearTo": "12",
+                "engineCodes": "HR16DE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1600",
+                "kbaNumbers": "",
+                "bodyType": "SC11"
+              },
+              {
+                "engine": "1800 | SC11",
+                "fullName": "NISSAN   »   Latio",
+                "constructionYearFrom": "08",
+                "constructionYearTo": "12",
+                "engineCodes": "MR18DE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1800",
+                "kbaNumbers": "",
+                "bodyType": "SC11"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "NISSAN",
+        "models": [
+          {
+            "modelSeries": "Livina",
+            "targets": [
+              {
+                "engine": "1500 | L11N",
+                "fullName": "NISSAN   »   Livina",
+                "constructionYearFrom": "13",
+                "constructionYearTo": "",
+                "engineCodes": "HR15DE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": "L11N"
+              },
+              {
+                "engine": "1600 | L10S",
+                "fullName": "NISSAN   »   Livina",
+                "constructionYearFrom": "07",
+                "constructionYearTo": "14",
+                "engineCodes": "HR16DE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1600",
+                "kbaNumbers": "",
+                "bodyType": "L10S"
+              },
+              {
+                "engine": "1600 | L11N",
+                "fullName": "NISSAN   »   Livina",
+                "constructionYearFrom": "13",
+                "constructionYearTo": "16",
+                "engineCodes": "HR16DE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1600",
+                "kbaNumbers": "",
+                "bodyType": "L11N"
+              },
+              {
+                "engine": "1600 | NL10S",
+                "fullName": "NISSAN   »   Livina",
+                "constructionYearFrom": "08",
+                "constructionYearTo": "14",
+                "engineCodes": "HR16DE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1600",
+                "kbaNumbers": "",
+                "bodyType": "NL10S"
+              },
+              {
+                "engine": "1600 | L10B",
+                "fullName": "NISSAN   »   Livina",
+                "constructionYearFrom": "09",
+                "constructionYearTo": "12",
+                "engineCodes": "K4M",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1600",
+                "kbaNumbers": "",
+                "bodyType": "L10B"
+              },
+              {
+                "engine": "1600 | L10BB",
+                "fullName": "NISSAN   »   Livina",
+                "constructionYearFrom": "12",
+                "constructionYearTo": "14",
+                "engineCodes": "K4M",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1600",
+                "kbaNumbers": "",
+                "bodyType": "L10BB"
+              },
+              {
+                "engine": "1800 | L10B",
+                "fullName": "NISSAN   »   Livina",
+                "constructionYearFrom": "09",
+                "constructionYearTo": "12",
+                "engineCodes": "MR18DE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1800",
+                "kbaNumbers": "",
+                "bodyType": "L10B"
+              },
+              {
+                "engine": "1800 | L10BB",
+                "fullName": "NISSAN   »   Livina",
+                "constructionYearFrom": "12",
+                "constructionYearTo": "14",
+                "engineCodes": "MR18DE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1800",
+                "kbaNumbers": "",
+                "bodyType": "L10BB"
+              },
+              {
+                "engine": "1800 | L11N",
+                "fullName": "NISSAN   »   Livina",
+                "constructionYearFrom": "13",
+                "constructionYearTo": "16",
+                "engineCodes": "MR18DE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1800",
+                "kbaNumbers": "",
+                "bodyType": "L11N"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "NISSAN",
+        "models": [
+          {
+            "modelSeries": "Livina C/X-Gear",
+            "targets": [
+              {
+                "engine": "1500 | NTL10N",
+                "fullName": "NISSAN   »   Livina C/X-Gear",
+                "constructionYearFrom": "08",
+                "constructionYearTo": "13",
+                "engineCodes": "HR15DE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": "NTL10N"
+              },
+              {
+                "engine": "1600 | L11W",
+                "fullName": "NISSAN   »   Livina C/X-Gear",
+                "constructionYearFrom": "14",
+                "constructionYearTo": "17",
+                "engineCodes": "HR16DE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1600",
+                "kbaNumbers": "",
+                "bodyType": "L11W"
+              },
+              {
+                "engine": "1600 | L11WW",
+                "fullName": "NISSAN   »   Livina C/X-Gear",
+                "constructionYearFrom": "17",
+                "constructionYearTo": "20",
+                "engineCodes": "HR16DE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1600",
+                "kbaNumbers": "",
+                "bodyType": "L11WW"
+              },
+              {
+                "engine": "1600 | NTL10L",
+                "fullName": "NISSAN   »   Livina C/X-Gear",
+                "constructionYearFrom": "11",
+                "constructionYearTo": "19",
+                "engineCodes": "HR16DE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1600",
+                "kbaNumbers": "",
+                "bodyType": "NTL10L"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "NISSAN",
+        "models": [
+          {
+            "modelSeries": "Tiida",
+            "targets": [
+              {
+                "engine": "1500 | C11",
+                "fullName": "NISSAN   »   Tiida",
+                "constructionYearFrom": "04",
+                "constructionYearTo": "12",
+                "engineCodes": "HR15DE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": "C11"
+              },
+              {
+                "engine": "1600 | C11",
+                "fullName": "NISSAN   »   Tiida",
+                "constructionYearFrom": "06",
+                "constructionYearTo": "12",
+                "engineCodes": "HR16DE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1600",
+                "kbaNumbers": "",
+                "bodyType": "C11"
+              },
+              {
+                "engine": "1800 | C11",
+                "fullName": "NISSAN   »   Tiida",
+                "constructionYearFrom": "05",
+                "constructionYearTo": "12",
+                "engineCodes": "MR18DE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1800",
+                "kbaNumbers": "",
+                "bodyType": "C11"
+              },
+              {
+                "engine": "1800 | C11X",
+                "fullName": "NISSAN   »   Tiida",
+                "constructionYearFrom": "06",
+                "constructionYearTo": "09",
+                "engineCodes": "MR18DE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1800",
+                "kbaNumbers": "",
+                "bodyType": "C11X"
+              },
+              {
+                "engine": "1800 | JC11",
+                "fullName": "NISSAN   »   Tiida",
+                "constructionYearFrom": "05",
+                "constructionYearTo": "12",
+                "engineCodes": "MR18DE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1800",
+                "kbaNumbers": "",
+                "bodyType": "JC11"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "NISSAN",
+        "models": [
+          {
+            "modelSeries": "Tiida Latio",
+            "targets": [
+              {
+                "engine": "1600 | SC11",
+                "fullName": "NISSAN   »   Tiida Latio",
+                "constructionYearFrom": "04",
+                "constructionYearTo": "12",
+                "engineCodes": "HR16DE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1600",
+                "kbaNumbers": "",
+                "bodyType": "SC11"
+              },
+              {
+                "engine": "1800 | SC11",
+                "fullName": "NISSAN   »   Tiida Latio",
+                "constructionYearFrom": "08",
+                "constructionYearTo": "12",
+                "engineCodes": "MR18DE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1800",
+                "kbaNumbers": "",
+                "bodyType": "SC11"
+              },
+              {
+                "engine": "1800 | SC11T",
+                "fullName": "NISSAN   »   Tiida Latio",
+                "constructionYearFrom": "06",
+                "constructionYearTo": "11",
+                "engineCodes": "MR18DE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1800",
+                "kbaNumbers": "",
+                "bodyType": "SC11T"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "NISSAN (DFAC)",
+        "models": [
+          {
+            "modelSeries": "Bluebird Sylphy",
+            "targets": [
+              {
+                "engine": "1600 | G11Z",
+                "fullName": "NISSAN (DFAC)   »   Bluebird Sylphy",
+                "constructionYearFrom": "06",
+                "constructionYearTo": "19",
+                "engineCodes": "HR16DE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1600",
+                "kbaNumbers": "",
+                "bodyType": "G11Z"
+              },
+              {
+                "engine": "2000 | G11Z",
+                "fullName": "NISSAN (DFAC)   »   Bluebird Sylphy",
+                "constructionYearFrom": "06",
+                "constructionYearTo": "12",
+                "engineCodes": "MR20DE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2000",
+                "kbaNumbers": "",
+                "bodyType": "G11Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "NISSAN (DFAC)",
+        "models": [
+          {
+            "modelSeries": "Livina",
+            "targets": [
+              {
+                "engine": "1600 | L11Z",
+                "fullName": "NISSAN (DFAC)   »   Livina",
+                "constructionYearFrom": "13",
+                "constructionYearTo": "18",
+                "engineCodes": "HR16DE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1600",
+                "kbaNumbers": "",
+                "bodyType": "L11Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "NISSAN (DFAC)",
+        "models": [
+          {
+            "modelSeries": "Livina C/X-Gear",
+            "targets": [
+              {
+                "engine": "1600 | NL10Z",
+                "fullName": "NISSAN (DFAC)   »   Livina C/X-Gear",
+                "constructionYearFrom": "08",
+                "constructionYearTo": "",
+                "engineCodes": "HR16DE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1600",
+                "kbaNumbers": "",
+                "bodyType": "NL10Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "NISSAN (DFAC)",
+        "models": [
+          {
+            "modelSeries": "Livina Geniss",
+            "targets": [
+              {
+                "engine": "1600 | L10Z",
+                "fullName": "NISSAN (DFAC)   »   Livina Geniss",
+                "constructionYearFrom": "07",
+                "constructionYearTo": "12",
+                "engineCodes": "HR16DE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1600",
+                "kbaNumbers": "",
+                "bodyType": "L10Z"
+              },
+              {
+                "engine": "1800 | L10Z",
+                "fullName": "NISSAN (DFAC)   »   Livina Geniss",
+                "constructionYearFrom": "06",
+                "constructionYearTo": "12",
+                "engineCodes": "MR18DE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1800",
+                "kbaNumbers": "",
+                "bodyType": "L10Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "NISSAN (DFAC)",
+        "models": [
+          {
+            "modelSeries": "Tiida",
+            "targets": [
+              {
+                "engine": "1500 | C11Z",
+                "fullName": "NISSAN (DFAC)   »   Tiida",
+                "constructionYearFrom": "05",
+                "constructionYearTo": "07",
+                "engineCodes": "HR16DE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": "C11Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "401568",
+    "crossNumber": "RN2633V",
+    "brand": "JNBK",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "ISUZU",
+        "models": [
+          {
+            "modelSeries": "D-Max",
+            "targets": [
+              {
+                "engine": "1900 | TFS87  ML RHD",
+                "fullName": "ISUZU   »   D-Max",
+                "constructionYearFrom": "19",
+                "constructionYearTo": "",
+                "engineCodes": "RZ4E-TC",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1900",
+                "kbaNumbers": "",
+                "bodyType": "TFS87  ML RHD"
+              },
+              {
+                "engine": "3000 | TFS40 RHD",
+                "fullName": "ISUZU   »   D-Max",
+                "constructionYearFrom": "20",
+                "constructionYearTo": "",
+                "engineCodes": "4JJ3-TCX",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "3000",
+                "kbaNumbers": "",
+                "bodyType": "TFS40 RHD"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "MAZDA",
+        "models": [
+          {
+            "modelSeries": "BT-50",
+            "targets": [
+              {
+                "engine": "3000 | MP2TFS40",
+                "fullName": "MAZDA   »   BT-50",
+                "constructionYearFrom": "20",
+                "constructionYearTo": "",
+                "engineCodes": "4JJ3-TCX",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "3000",
+                "kbaNumbers": "",
+                "bodyType": "MP2TFS40"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "511577",
+    "crossNumber": "RN2452V",
+    "brand": "JNBK",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "DAIHATSU",
+        "models": [
+          {
+            "modelSeries": "Gran Max",
+            "targets": [
+              {
+                "engine": "1300 | S401",
+                "fullName": "DAIHATSU   »   Gran Max",
+                "constructionYearFrom": "07",
+                "constructionYearTo": "",
+                "engineCodes": "K3-DE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1300",
+                "kbaNumbers": "",
+                "bodyType": "S401"
+              },
+              {
+                "engine": "1500 | S402 TR",
+                "fullName": "DAIHATSU   »   Gran Max",
+                "constructionYearFrom": "07",
+                "constructionYearTo": "",
+                "engineCodes": "3SZ-VE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": "S402 TR"
+              },
+              {
+                "engine": "1500 | S402LVB FOURGON",
+                "fullName": "DAIHATSU   »   Gran Max",
+                "constructionYearFrom": "07",
+                "constructionYearTo": "",
+                "engineCodes": "3SZ-VE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": "S402LVB FOURGON"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "DAIHATSU",
+        "models": [
+          {
+            "modelSeries": "Luxio",
+            "targets": [
+              {
+                "engine": "1500 | S402RG",
+                "fullName": "DAIHATSU   »   Luxio",
+                "constructionYearFrom": "09",
+                "constructionYearTo": "",
+                "engineCodes": "3SZ-VE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": "S402RG"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "TOYOTA",
+        "models": [
+          {
+            "modelSeries": "Lite/Townace",
+            "targets": [
+              {
+                "engine": "1500 | S402M",
+                "fullName": "TOYOTA   »   Lite/Townace",
+                "constructionYearFrom": "08",
+                "constructionYearTo": "",
+                "engineCodes": "3SZ-VE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": "S402M"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "TOYOTA",
+        "models": [
+          {
+            "modelSeries": "Liteace",
+            "targets": [
+              {
+                "engine": "1500 | S412M",
+                "fullName": "TOYOTA   »   Liteace",
+                "constructionYearFrom": "10",
+                "constructionYearTo": "",
+                "engineCodes": "3SZ-VE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": "S412M"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "TOYOTA",
+        "models": [
+          {
+            "modelSeries": "Liteace Truck",
+            "targets": [
+              {
+                "engine": "1500 | S402U",
+                "fullName": "TOYOTA   »   Liteace Truck",
+                "constructionYearFrom": "08",
+                "constructionYearTo": "",
+                "engineCodes": "3SZ-VE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": "S402U"
+              },
+              {
+                "engine": "1500 | S412U",
+                "fullName": "TOYOTA   »   Liteace Truck",
+                "constructionYearFrom": "10",
+                "constructionYearTo": "",
+                "engineCodes": "3SZ-VE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": "S412U"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "TOYOTA",
+        "models": [
+          {
+            "modelSeries": "Liteace Van",
+            "targets": [
+              {
+                "engine": "1500 | S402M",
+                "fullName": "TOYOTA   »   Liteace Van",
+                "constructionYearFrom": "08",
+                "constructionYearTo": "",
+                "engineCodes": "3SZ-VE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": "S402M"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "TOYOTA",
+        "models": [
+          {
+            "modelSeries": "Townace Truck",
+            "targets": [
+              {
+                "engine": "1500 | S402U",
+                "fullName": "TOYOTA   »   Townace Truck",
+                "constructionYearFrom": "08",
+                "constructionYearTo": "",
+                "engineCodes": "3SZ-VE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": "S402U"
+              },
+              {
+                "engine": "1500 | S412U",
+                "fullName": "TOYOTA   »   Townace Truck",
+                "constructionYearFrom": "10",
+                "constructionYearTo": "",
+                "engineCodes": "3SZ-VE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": "S412U"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "531571",
+    "crossNumber": "RN1678V",
+    "brand": "JNBK",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "CADILLAC (GM)",
+        "models": [
+          {
+            "modelSeries": "Escalade",
+            "targets": [
+              {
+                "engine": "6200 | TK15706",
+                "fullName": "CADILLAC (GM)   »   Escalade",
+                "constructionYearFrom": "14",
+                "constructionYearTo": "20",
+                "engineCodes": "L86",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "6200",
+                "kbaNumbers": "",
+                "bodyType": "TK15706"
+              },
+              {
+                "engine": "6200 | TK10706",
+                "fullName": "CADILLAC (GM)   »   Escalade",
+                "constructionYearFrom": "06",
+                "constructionYearTo": "08",
+                "engineCodes": "L92",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "6200",
+                "kbaNumbers": "",
+                "bodyType": "TK10706"
+              },
+              {
+                "engine": "6200 | TC10706",
+                "fullName": "CADILLAC (GM)   »   Escalade",
+                "constructionYearFrom": "09",
+                "constructionYearTo": "14",
+                "engineCodes": "L94",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "6200",
+                "kbaNumbers": "",
+                "bodyType": "TC10706"
+              },
+              {
+                "engine": "6200 | TK10706",
+                "fullName": "CADILLAC (GM)   »   Escalade",
+                "constructionYearFrom": "09",
+                "constructionYearTo": "14",
+                "engineCodes": "L9H",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "6200",
+                "kbaNumbers": "",
+                "bodyType": "TK10706"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "CADILLAC (GM)",
+        "models": [
+          {
+            "modelSeries": "Escalade ESV",
+            "targets": [
+              {
+                "engine": "6200 | TK15906",
+                "fullName": "CADILLAC (GM)   »   Escalade ESV",
+                "constructionYearFrom": "14",
+                "constructionYearTo": "20",
+                "engineCodes": "L86",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "6200",
+                "kbaNumbers": "",
+                "bodyType": "TK15906"
+              },
+              {
+                "engine": "6200 | TK10906",
+                "fullName": "CADILLAC (GM)   »   Escalade ESV",
+                "constructionYearFrom": "06",
+                "constructionYearTo": "08",
+                "engineCodes": "L92",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "6200",
+                "kbaNumbers": "",
+                "bodyType": "TK10906"
+              },
+              {
+                "engine": "6200 | TK10936",
+                "fullName": "CADILLAC (GM)   »   Escalade ESV",
+                "constructionYearFrom": "06",
+                "constructionYearTo": "08",
+                "engineCodes": "L92",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "6200",
+                "kbaNumbers": "",
+                "bodyType": "TK10936"
+              },
+              {
+                "engine": "6200 | 57C",
+                "fullName": "CADILLAC (GM)   »   Escalade ESV",
+                "constructionYearFrom": "06",
+                "constructionYearTo": "14",
+                "engineCodes": "L94",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "6200",
+                "kbaNumbers": "",
+                "bodyType": "57C"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "CHEVROLET (GM)",
+        "models": [
+          {
+            "modelSeries": "Avalanche",
+            "targets": [
+              {
+                "engine": "5300 | GMT900",
+                "fullName": "CHEVROLET (GM)   »   Avalanche",
+                "constructionYearFrom": "06",
+                "constructionYearTo": "13",
+                "engineCodes": "LC9",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "5300",
+                "kbaNumbers": "",
+                "bodyType": "GMT900"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "CHEVROLET (GM)",
+        "models": [
+          {
+            "modelSeries": "Cheyenne",
+            "targets": [
+              {
+                "engine": "5300 | GMT900",
+                "fullName": "CHEVROLET (GM)   »   Cheyenne",
+                "constructionYearFrom": "06",
+                "constructionYearTo": "13",
+                "engineCodes": "LY5",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "5300",
+                "kbaNumbers": "",
+                "bodyType": "GMT900"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "CHEVROLET (GM)",
+        "models": [
+          {
+            "modelSeries": "Silverado 1500",
+            "targets": [
+              {
+                "engine": "5300 | CK15543",
+                "fullName": "CHEVROLET (GM)   »   Silverado 1500",
+                "constructionYearFrom": "15",
+                "constructionYearTo": "19",
+                "engineCodes": "L83",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "5300",
+                "kbaNumbers": "",
+                "bodyType": "CK15543"
+              },
+              {
+                "engine": "5300 | CK10543",
+                "fullName": "CHEVROLET (GM)   »   Silverado 1500",
+                "constructionYearFrom": "06",
+                "constructionYearTo": "13",
+                "engineCodes": "LH6",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "5300",
+                "kbaNumbers": "",
+                "bodyType": "CK10543"
+              },
+              {
+                "engine": "5300 | CC15543",
+                "fullName": "CHEVROLET (GM)   »   Silverado 1500",
+                "constructionYearFrom": "02",
+                "constructionYearTo": "07",
+                "engineCodes": "LM7",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "5300",
+                "kbaNumbers": "",
+                "bodyType": "CC15543"
+              },
+              {
+                "engine": "5300 | CK10703",
+                "fullName": "CHEVROLET (GM)   »   Silverado 1500",
+                "constructionYearFrom": "06",
+                "constructionYearTo": "13",
+                "engineCodes": "LMG",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "5300",
+                "kbaNumbers": "",
+                "bodyType": "CK10703"
+              },
+              {
+                "engine": "5300 | CK10753",
+                "fullName": "CHEVROLET (GM)   »   Silverado 1500",
+                "constructionYearFrom": "06",
+                "constructionYearTo": "13",
+                "engineCodes": "LY5",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "5300",
+                "kbaNumbers": "",
+                "bodyType": "CK10753"
+              },
+              {
+                "engine": "6000 | 1500",
+                "fullName": "CHEVROLET (GM)   »   Silverado 1500",
+                "constructionYearFrom": "03",
+                "constructionYearTo": "07",
+                "engineCodes": "LQ9",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "6000",
+                "kbaNumbers": "",
+                "bodyType": "1500"
+              },
+              {
+                "engine": "6200 | GMTK2",
+                "fullName": "CHEVROLET (GM)   »   Silverado 1500",
+                "constructionYearFrom": "15",
+                "constructionYearTo": "19",
+                "engineCodes": "L86",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "6200",
+                "kbaNumbers": "",
+                "bodyType": "GMTK2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "CHEVROLET (GM)",
+        "models": [
+          {
+            "modelSeries": "Suburban",
+            "targets": [
+              {
+                "engine": "5300 | CK15906",
+                "fullName": "CHEVROLET (GM)   »   Suburban",
+                "constructionYearFrom": "14",
+                "constructionYearTo": "20",
+                "engineCodes": "L83",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "5300",
+                "kbaNumbers": "",
+                "bodyType": "CK15906"
+              },
+              {
+                "engine": "5300 | CK10906",
+                "fullName": "CHEVROLET (GM)   »   Suburban",
+                "constructionYearFrom": "06",
+                "constructionYearTo": "14",
+                "engineCodes": "LC9",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "5300",
+                "kbaNumbers": "",
+                "bodyType": "CK10906"
+              },
+              {
+                "engine": "5300 | C10906",
+                "fullName": "CHEVROLET (GM)   »   Suburban",
+                "constructionYearFrom": "06",
+                "constructionYearTo": "14",
+                "engineCodes": "LMG",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "5300",
+                "kbaNumbers": "",
+                "bodyType": "C10906"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "CHEVROLET (GM)",
+        "models": [
+          {
+            "modelSeries": "Tahoe",
+            "targets": [
+              {
+                "engine": "5300 | C#15706 GL",
+                "fullName": "CHEVROLET (GM)   »   Tahoe",
+                "constructionYearFrom": "14",
+                "constructionYearTo": "20",
+                "engineCodes": "L83",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "5300",
+                "kbaNumbers": "",
+                "bodyType": "C#15706 GL"
+              },
+              {
+                "engine": "5300 | CK15706 US",
+                "fullName": "CHEVROLET (GM)   »   Tahoe",
+                "constructionYearFrom": "14",
+                "constructionYearTo": "20",
+                "engineCodes": "L83",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "5300",
+                "kbaNumbers": "",
+                "bodyType": "CK15706 US"
+              },
+              {
+                "engine": "5300 | CK10706",
+                "fullName": "CHEVROLET (GM)   »   Tahoe",
+                "constructionYearFrom": "06",
+                "constructionYearTo": "13",
+                "engineCodes": "LMG",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "5300",
+                "kbaNumbers": "",
+                "bodyType": "CK10706"
+              },
+              {
+                "engine": "6000 | CK10706",
+                "fullName": "CHEVROLET (GM)   »   Tahoe",
+                "constructionYearFrom": "07",
+                "constructionYearTo": "14",
+                "engineCodes": "LFA",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "6000",
+                "kbaNumbers": "",
+                "bodyType": "CK10706"
+              },
+              {
+                "engine": "6200 | K2UXX",
+                "fullName": "CHEVROLET (GM)   »   Tahoe",
+                "constructionYearFrom": "15",
+                "constructionYearTo": "19",
+                "engineCodes": "",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "6200",
+                "kbaNumbers": "",
+                "bodyType": "K2UXX"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "GMC",
+        "models": [
+          {
+            "modelSeries": "Sierra 1500",
+            "targets": [
+              {
+                "engine": "4800 | TC15703",
+                "fullName": "GMC   »   Sierra 1500",
+                "constructionYearFrom": "98",
+                "constructionYearTo": "07",
+                "engineCodes": "LR4",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "4800",
+                "kbaNumbers": "",
+                "bodyType": "TC15703"
+              },
+              {
+                "engine": "5300 | TK10703",
+                "fullName": "GMC   »   Sierra 1500",
+                "constructionYearFrom": "07",
+                "constructionYearTo": "14",
+                "engineCodes": "LH6",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "5300",
+                "kbaNumbers": "",
+                "bodyType": "TK10703"
+              },
+              {
+                "engine": "5300 | TK10703",
+                "fullName": "GMC   »   Sierra 1500",
+                "constructionYearFrom": "07",
+                "constructionYearTo": "14",
+                "engineCodes": "LMG",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "5300",
+                "kbaNumbers": "",
+                "bodyType": "TK10703"
+              },
+              {
+                "engine": "5300 | TK10703",
+                "fullName": "GMC   »   Sierra 1500",
+                "constructionYearFrom": "07",
+                "constructionYearTo": "14",
+                "engineCodes": "LY5",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "5300",
+                "kbaNumbers": "",
+                "bodyType": "TK10703"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "GMC",
+        "models": [
+          {
+            "modelSeries": "Yukon",
+            "targets": [
+              {
+                "engine": "5300 | TK15706",
+                "fullName": "GMC   »   Yukon",
+                "constructionYearFrom": "14",
+                "constructionYearTo": "20",
+                "engineCodes": "L83",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "5300",
+                "kbaNumbers": "",
+                "bodyType": "TK15706"
+              },
+              {
+                "engine": "6200 | TK15706",
+                "fullName": "GMC   »   Yukon",
+                "constructionYearFrom": "14",
+                "constructionYearTo": "20",
+                "engineCodes": "L86",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "6200",
+                "kbaNumbers": "",
+                "bodyType": "TK15706"
+              },
+              {
+                "engine": "6200 | TK10706",
+                "fullName": "GMC   »   Yukon",
+                "constructionYearFrom": "09",
+                "constructionYearTo": "14",
+                "engineCodes": "L94",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "6200",
+                "kbaNumbers": "",
+                "bodyType": "TK10706"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "GMC",
+        "models": [
+          {
+            "modelSeries": "Yukon XL",
+            "targets": [
+              {
+                "engine": "6200 | TK10906",
+                "fullName": "GMC   »   Yukon XL",
+                "constructionYearFrom": "08",
+                "constructionYearTo": "13",
+                "engineCodes": "L9H",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "6200",
+                "kbaNumbers": "",
+                "bodyType": "TK10906"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "GMC",
+        "models": [
+          {
+            "modelSeries": "Yukon XL 1500",
+            "targets": [
+              {
+                "engine": "5300 | TC10906",
+                "fullName": "GMC   »   Yukon XL 1500",
+                "constructionYearFrom": "10",
+                "constructionYearTo": "14",
+                "engineCodes": "LMG",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "5300",
+                "kbaNumbers": "",
+                "bodyType": "TC10906"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "531572",
+    "crossNumber": "RN2289V",
+    "brand": "JNBK",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "CADILLAC (GM)",
+        "models": [
+          {
+            "modelSeries": "Escalade",
+            "targets": [
+              {
+                "engine": "6200 | TK10_06",
+                "fullName": "CADILLAC (GM)   »   Escalade",
+                "constructionYearFrom": "20",
+                "constructionYearTo": "",
+                "engineCodes": "L87",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "6200",
+                "kbaNumbers": "",
+                "bodyType": "TK10_06"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "CHEVROLET (GM)",
+        "models": [
+          {
+            "modelSeries": "Silverado 1500",
+            "targets": [
+              {
+                "engine": "6200 | CK10543",
+                "fullName": "CHEVROLET (GM)   »   Silverado 1500",
+                "constructionYearFrom": "18",
+                "constructionYearTo": "",
+                "engineCodes": "L87",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "6200",
+                "kbaNumbers": "",
+                "bodyType": "CK10543"
+              },
+              {
+                "engine": "6200 | GMT1CC (K1500)",
+                "fullName": "CHEVROLET (GM)   »   Silverado 1500",
+                "constructionYearFrom": "18",
+                "constructionYearTo": "",
+                "engineCodes": "L87",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "6200",
+                "kbaNumbers": "",
+                "bodyType": "GMT1CC (K1500)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "CHEVROLET (GM)",
+        "models": [
+          {
+            "modelSeries": "Suburban",
+            "targets": [
+              {
+                "engine": "5300 | K10906",
+                "fullName": "CHEVROLET (GM)   »   Suburban",
+                "constructionYearFrom": "20",
+                "constructionYearTo": "",
+                "engineCodes": "L84",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "5300",
+                "kbaNumbers": "",
+                "bodyType": "K10906"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "CHEVROLET (GM)",
+        "models": [
+          {
+            "modelSeries": "Tahoe",
+            "targets": [
+              {
+                "engine": "3000 | CK10706",
+                "fullName": "CHEVROLET (GM)   »   Tahoe",
+                "constructionYearFrom": "20",
+                "constructionYearTo": "",
+                "engineCodes": "LM2",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "3000",
+                "kbaNumbers": "",
+                "bodyType": "CK10706"
+              },
+              {
+                "engine": "5300 | GMT1YC",
+                "fullName": "CHEVROLET (GM)   »   Tahoe",
+                "constructionYearFrom": "20",
+                "constructionYearTo": "",
+                "engineCodes": "L84",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "5300",
+                "kbaNumbers": "",
+                "bodyType": "GMT1YC"
+              },
+              {
+                "engine": "6200 | GMT1YC",
+                "fullName": "CHEVROLET (GM)   »   Tahoe",
+                "constructionYearFrom": "20",
+                "constructionYearTo": "",
+                "engineCodes": "L87",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "6200",
+                "kbaNumbers": "",
+                "bodyType": "GMT1YC"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "GMC",
+        "models": [
+          {
+            "modelSeries": "Sierra 1500",
+            "targets": [
+              {
+                "engine": "6200 | TK10543",
+                "fullName": "GMC   »   Sierra 1500",
+                "constructionYearFrom": "19",
+                "constructionYearTo": "",
+                "engineCodes": "L87",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "6200",
+                "kbaNumbers": "",
+                "bodyType": "TK10543"
+              },
+              {
+                "engine": "6200 | TK10743",
+                "fullName": "GMC   »   Sierra 1500",
+                "constructionYearFrom": "20",
+                "constructionYearTo": "",
+                "engineCodes": "L87",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "6200",
+                "kbaNumbers": "",
+                "bodyType": "TK10743"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "GMC",
+        "models": [
+          {
+            "modelSeries": "Yukon",
+            "targets": [
+              {
+                "engine": "6200 | TK10706",
+                "fullName": "GMC   »   Yukon",
+                "constructionYearFrom": "20",
+                "constructionYearTo": "",
+                "engineCodes": "L87",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "6200",
+                "kbaNumbers": "",
+                "bodyType": "TK10706"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "681546",
+    "crossNumber": "RN2575V",
+    "brand": "JNBK",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "CHERY",
+        "models": [
+          {
+            "modelSeries": "Arrizo 6",
+            "targets": [
+              {
+                "engine": "1500 | VDC21B",
+                "fullName": "CHERY   »   Arrizo 6",
+                "constructionYearFrom": "20",
+                "constructionYearTo": "",
+                "engineCodes": "SQRE4T15C",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": "VDC21B"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "KAIYI",
+        "models": [
+          {
+            "modelSeries": "E5",
+            "targets": [
+              {
+                "engine": "1500 | GS11",
+                "fullName": "KAIYI   »   E5",
+                "constructionYearFrom": "21",
+                "constructionYearTo": "",
+                "engineCodes": "SQRE4T15C",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": "GS11"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "OMODA (CHERY)",
+        "models": [
+          {
+            "modelSeries": "S5",
+            "targets": [
+              {
+                "engine": "1500 | M1DFL2",
+                "fullName": "OMODA (CHERY)   »   S5",
+                "constructionYearFrom": "20",
+                "constructionYearTo": "",
+                "engineCodes": "SQRE4G15C",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": "M1DFL2"
+              },
+              {
+                "engine": "1500 | M1DFL2",
+                "fullName": "OMODA (CHERY)   »   S5",
+                "constructionYearFrom": "20",
+                "constructionYearTo": "",
+                "engineCodes": "SQRE4T15B",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": "M1DFL2"
+              },
+              {
+                "engine": "1500 | M1DFL2",
+                "fullName": "OMODA (CHERY)   »   S5",
+                "constructionYearFrom": "20",
+                "constructionYearTo": "",
+                "engineCodes": "SQRE4T15C",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": "M1DFL2"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "681550",
+    "crossNumber": "RN2326V",
+    "brand": "JNBK",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "CHERY",
+        "models": [
+          {
+            "modelSeries": "Tiggo 7 Plus",
+            "targets": [
+              {
+                "engine": "1500 | T1E",
+                "fullName": "CHERY   »   Tiggo 7 Plus",
+                "constructionYearFrom": "21",
+                "constructionYearTo": "",
+                "engineCodes": "SQRE4T15C",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": "T1E"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "CHERY",
+        "models": [
+          {
+            "modelSeries": "Tiggo 7 Pro",
+            "targets": [
+              {
+                "engine": "1500 | DB21B2L",
+                "fullName": "CHERY   »   Tiggo 7 Pro",
+                "constructionYearFrom": "20",
+                "constructionYearTo": "",
+                "engineCodes": "SQRE4T15C",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": "DB21B2L"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "CHERY",
+        "models": [
+          {
+            "modelSeries": "Tiggo 7 Pro Max",
+            "targets": [
+              {
+                "engine": "1500 | T1EFL1",
+                "fullName": "CHERY   »   Tiggo 7 Pro Max",
+                "constructionYearFrom": "21",
+                "constructionYearTo": "",
+                "engineCodes": "SQRE4T15C",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": "T1EFL1"
+              },
+              {
+                "engine": "1600 | TDB21BXN",
+                "fullName": "CHERY   »   Tiggo 7 Pro Max",
+                "constructionYearFrom": "23",
+                "constructionYearTo": "",
+                "engineCodes": "SQRF4J16B",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1600",
+                "kbaNumbers": "",
+                "bodyType": "TDB21BXN"
+              },
+              {
+                "engine": "1600 | T1EFL1",
+                "fullName": "CHERY   »   Tiggo 7 Pro Max",
+                "constructionYearFrom": "23",
+                "constructionYearTo": "",
+                "engineCodes": "SQRF4J16E",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1600",
+                "kbaNumbers": "",
+                "bodyType": "T1EFL1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "CHERY",
+        "models": [
+          {
+            "modelSeries": "Tiggo 8",
+            "targets": [
+              {
+                "engine": "1500 | T18",
+                "fullName": "CHERY   »   Tiggo 8",
+                "constructionYearFrom": "22",
+                "constructionYearTo": "",
+                "engineCodes": "SQRE4T15B",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": "T18"
+              },
+              {
+                "engine": "1500 | T18",
+                "fullName": "CHERY   »   Tiggo 8",
+                "constructionYearFrom": "20",
+                "constructionYearTo": "22",
+                "engineCodes": "SQRE4T15C",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": "T18"
+              },
+              {
+                "engine": "2000 | T18",
+                "fullName": "CHERY   »   Tiggo 8",
+                "constructionYearFrom": "20",
+                "constructionYearTo": "22",
+                "engineCodes": "SQRD4T20",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2000",
+                "kbaNumbers": "",
+                "bodyType": "T18"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "CHERY",
+        "models": [
+          {
+            "modelSeries": "Tiggo 8 Pro",
+            "targets": [
+              {
+                "engine": "1600 | T1A",
+                "fullName": "CHERY   »   Tiggo 8 Pro",
+                "constructionYearFrom": "21",
+                "constructionYearTo": "24",
+                "engineCodes": "SQRF4J16",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1600",
+                "kbaNumbers": "",
+                "bodyType": "T1A"
+              },
+              {
+                "engine": "2000 | T1A",
+                "fullName": "CHERY   »   Tiggo 8 Pro",
+                "constructionYearFrom": "21",
+                "constructionYearTo": "23",
+                "engineCodes": "SQRD4T20",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2000",
+                "kbaNumbers": "",
+                "bodyType": "T1A"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "EXEED (CHERY)",
+        "models": [
+          {
+            "modelSeries": "LX",
+            "targets": [
+              {
+                "engine": "1500 | T1C",
+                "fullName": "EXEED (CHERY)   »   LX",
+                "constructionYearFrom": "20",
+                "constructionYearTo": "",
+                "engineCodes": "SQRE4T15C",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": "T1C"
+              },
+              {
+                "engine": "1600 | T1C",
+                "fullName": "EXEED (CHERY)   »   LX",
+                "constructionYearFrom": "22",
+                "constructionYearTo": "",
+                "engineCodes": "SQRF4J16A",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1600",
+                "kbaNumbers": "",
+                "bodyType": "T1C"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "OMODA (CHERY)",
+        "models": [
+          {
+            "modelSeries": "C5",
+            "targets": [
+              {
+                "engine": "1600 | T19C",
+                "fullName": "OMODA (CHERY)   »   C5",
+                "constructionYearFrom": "22",
+                "constructionYearTo": "",
+                "engineCodes": "SQRF4J16",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1600",
+                "kbaNumbers": "",
+                "bodyType": "T19C"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "XCITE",
+        "models": [
+          {
+            "modelSeries": "X-Cross 7",
+            "targets": [
+              {
+                "engine": "1500 | ",
+                "fullName": "XCITE   »   X-Cross 7",
+                "constructionYearFrom": "24",
+                "constructionYearTo": "",
+                "engineCodes": "SQRE4T15C",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "681551",
+    "crossNumber": "RN2540",
+    "brand": "JNBK",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "CHERY",
+        "models": [
+          {
+            "modelSeries": "Tiggo 7 Plus",
+            "targets": [
+              {
+                "engine": "1500 | T1E",
+                "fullName": "CHERY   »   Tiggo 7 Plus",
+                "constructionYearFrom": "21",
+                "constructionYearTo": "",
+                "engineCodes": "SQRE4T15C",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": "T1E"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "CHERY",
+        "models": [
+          {
+            "modelSeries": "Tiggo 7 Pro",
+            "targets": [
+              {
+                "engine": "1500 | DB21B2L",
+                "fullName": "CHERY   »   Tiggo 7 Pro",
+                "constructionYearFrom": "20",
+                "constructionYearTo": "",
+                "engineCodes": "SQRE4T15C",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": "DB21B2L"
+              },
+              {
+                "engine": "1500 | T1EFL1",
+                "fullName": "CHERY   »   Tiggo 7 Pro",
+                "constructionYearFrom": "23",
+                "constructionYearTo": "",
+                "engineCodes": "SQRE4T15C",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": "T1EFL1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "CHERY",
+        "models": [
+          {
+            "modelSeries": "Tiggo 7 Pro Max",
+            "targets": [
+              {
+                "engine": "1500 | T1EFL1",
+                "fullName": "CHERY   »   Tiggo 7 Pro Max",
+                "constructionYearFrom": "21",
+                "constructionYearTo": "",
+                "engineCodes": "SQRE4T15C",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": "T1EFL1"
+              },
+              {
+                "engine": "1600 | TDB21BXN",
+                "fullName": "CHERY   »   Tiggo 7 Pro Max",
+                "constructionYearFrom": "23",
+                "constructionYearTo": "",
+                "engineCodes": "SQRF4J16B",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1600",
+                "kbaNumbers": "",
+                "bodyType": "TDB21BXN"
+              },
+              {
+                "engine": "1600 | T1EFL1",
+                "fullName": "CHERY   »   Tiggo 7 Pro Max",
+                "constructionYearFrom": "23",
+                "constructionYearTo": "",
+                "engineCodes": "SQRF4J16E",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1600",
+                "kbaNumbers": "",
+                "bodyType": "T1EFL1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "EXEED (CHERY)",
+        "models": [
+          {
+            "modelSeries": "LX",
+            "targets": [
+              {
+                "engine": "1500 | T1C",
+                "fullName": "EXEED (CHERY)   »   LX",
+                "constructionYearFrom": "20",
+                "constructionYearTo": "",
+                "engineCodes": "SQRE4T15C",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": "T1C"
+              },
+              {
+                "engine": "1600 | T1C",
+                "fullName": "EXEED (CHERY)   »   LX",
+                "constructionYearFrom": "22",
+                "constructionYearTo": "",
+                "engineCodes": "SQRF4J16A",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1600",
+                "kbaNumbers": "",
+                "bodyType": "T1C"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "OMODA (CHERY)",
+        "models": [
+          {
+            "modelSeries": "C5",
+            "targets": [
+              {
+                "engine": "1600 | T19C",
+                "fullName": "OMODA (CHERY)   »   C5",
+                "constructionYearFrom": "22",
+                "constructionYearTo": "",
+                "engineCodes": "SQRF4J16",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1600",
+                "kbaNumbers": "",
+                "bodyType": "T19C"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "XCITE",
+        "models": [
+          {
+            "modelSeries": "X-Cross 7",
+            "targets": [
+              {
+                "engine": "1500 | ",
+                "fullName": "XCITE   »   X-Cross 7",
+                "constructionYearFrom": "24",
+                "constructionYearTo": "",
+                "engineCodes": "SQRE4T15C",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "681560",
+    "crossNumber": "RN2501V",
+    "brand": "JNBK",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "CHERY",
+        "models": [
+          {
+            "modelSeries": "Tiggo 4",
+            "targets": [
+              {
+                "engine": "2000 | T19",
+                "fullName": "CHERY   »   Tiggo 4",
+                "constructionYearFrom": "19",
+                "constructionYearTo": "",
+                "engineCodes": "SQRD4G20",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2000",
+                "kbaNumbers": "",
+                "bodyType": "T19"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "CHERY",
+        "models": [
+          {
+            "modelSeries": "Tiggo 7",
+            "targets": [
+              {
+                "engine": "1500 | T15",
+                "fullName": "CHERY   »   Tiggo 7",
+                "constructionYearFrom": "16",
+                "constructionYearTo": "20",
+                "engineCodes": "SQRE4T15",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": "T15"
+              },
+              {
+                "engine": "2000 | T15",
+                "fullName": "CHERY   »   Tiggo 7",
+                "constructionYearFrom": "13",
+                "constructionYearTo": "20",
+                "engineCodes": "SQRD4G20",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2000",
+                "kbaNumbers": "",
+                "bodyType": "T15"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "CHERY",
+        "models": [
+          {
+            "modelSeries": "Tiggo 8",
+            "targets": [
+              {
+                "engine": "1500 | T18",
+                "fullName": "CHERY   »   Tiggo 8",
+                "constructionYearFrom": "22",
+                "constructionYearTo": "",
+                "engineCodes": "SQRE4T15B",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": "T18"
+              },
+              {
+                "engine": "1500 | T18",
+                "fullName": "CHERY   »   Tiggo 8",
+                "constructionYearFrom": "20",
+                "constructionYearTo": "22",
+                "engineCodes": "SQRE4T15C",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": "T18"
+              },
+              {
+                "engine": "2000 | T18",
+                "fullName": "CHERY   »   Tiggo 8",
+                "constructionYearFrom": "20",
+                "constructionYearTo": "22",
+                "engineCodes": "SQRD4T20",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2000",
+                "kbaNumbers": "",
+                "bodyType": "T18"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "CHERY",
+        "models": [
+          {
+            "modelSeries": "Tiggo 8 Pro",
+            "targets": [
+              {
+                "engine": "1600 | T1A",
+                "fullName": "CHERY   »   Tiggo 8 Pro",
+                "constructionYearFrom": "21",
+                "constructionYearTo": "24",
+                "engineCodes": "SQRF4J16",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1600",
+                "kbaNumbers": "",
+                "bodyType": "T1A"
+              },
+              {
+                "engine": "1600 | T1D",
+                "fullName": "CHERY   »   Tiggo 8 Pro",
+                "constructionYearFrom": "21",
+                "constructionYearTo": "",
+                "engineCodes": "SQRF4J16A",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1600",
+                "kbaNumbers": "",
+                "bodyType": "T1D"
+              },
+              {
+                "engine": "2000 | T1A",
+                "fullName": "CHERY   »   Tiggo 8 Pro",
+                "constructionYearFrom": "21",
+                "constructionYearTo": "23",
+                "engineCodes": "SQRD4T20",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2000",
+                "kbaNumbers": "",
+                "bodyType": "T1A"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "CHERY",
+        "models": [
+          {
+            "modelSeries": "Tiggo 8 Pro Max",
+            "targets": [
+              {
+                "engine": "1600 | T1D",
+                "fullName": "CHERY   »   Tiggo 8 Pro Max",
+                "constructionYearFrom": "24",
+                "constructionYearTo": "",
+                "engineCodes": "SQRF4J16",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1600",
+                "kbaNumbers": "",
+                "bodyType": "T1D"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "JAECOO (CHERY)",
+        "models": [
+          {
+            "modelSeries": "J7",
+            "targets": [
+              {
+                "engine": "1600 | T1EJ",
+                "fullName": "JAECOO (CHERY)   »   J7",
+                "constructionYearFrom": "23",
+                "constructionYearTo": "",
+                "engineCodes": "SQRF4J16C",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1600",
+                "kbaNumbers": "",
+                "bodyType": "T1EJ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "XCITE",
+        "models": [
+          {
+            "modelSeries": "X-Cross 8",
+            "targets": [
+              {
+                "engine": "1600 | ",
+                "fullName": "XCITE   »   X-Cross 8",
+                "constructionYearFrom": "24",
+                "constructionYearTo": "",
+                "engineCodes": "SQRF4J16",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1600",
+                "kbaNumbers": "",
+                "bodyType": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "681561",
+    "crossNumber": "RN2558",
+    "brand": "JNBK",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "CHERY",
+        "models": [
+          {
+            "modelSeries": "Tiggo 4",
+            "targets": [
+              {
+                "engine": "1500 | T19",
+                "fullName": "CHERY   »   Tiggo 4",
+                "constructionYearFrom": "19",
+                "constructionYearTo": "",
+                "engineCodes": "SQRE4G15B / SQRE4G15C",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": "T19"
+              },
+              {
+                "engine": "2000 | T19",
+                "fullName": "CHERY   »   Tiggo 4",
+                "constructionYearFrom": "19",
+                "constructionYearTo": "",
+                "engineCodes": "SQRD4G20",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2000",
+                "kbaNumbers": "",
+                "bodyType": "T19"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "CHERY",
+        "models": [
+          {
+            "modelSeries": "Tiggo 7",
+            "targets": [
+              {
+                "engine": "1500 | T15",
+                "fullName": "CHERY   »   Tiggo 7",
+                "constructionYearFrom": "16",
+                "constructionYearTo": "20",
+                "engineCodes": "SQRE4T15",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": "T15"
+              },
+              {
+                "engine": "2000 | T15",
+                "fullName": "CHERY   »   Tiggo 7",
+                "constructionYearFrom": "13",
+                "constructionYearTo": "20",
+                "engineCodes": "SQRD4G20",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2000",
+                "kbaNumbers": "",
+                "bodyType": "T15"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "681569",
+    "crossNumber": "RN2502",
+    "brand": "JNBK",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "CHERY",
+        "models": [
+          {
+            "modelSeries": "Tiggo 4",
+            "targets": [
+              {
+                "engine": "2000 | T19",
+                "fullName": "CHERY   »   Tiggo 4",
+                "constructionYearFrom": "19",
+                "constructionYearTo": "",
+                "engineCodes": "SQRD4G20",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2000",
+                "kbaNumbers": "",
+                "bodyType": "T19"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "CHERY",
+        "models": [
+          {
+            "modelSeries": "Tiggo 7",
+            "targets": [
+              {
+                "engine": "1500 | T15",
+                "fullName": "CHERY   »   Tiggo 7",
+                "constructionYearFrom": "16",
+                "constructionYearTo": "20",
+                "engineCodes": "SQRE4T15",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": "T15"
+              },
+              {
+                "engine": "2000 | T15",
+                "fullName": "CHERY   »   Tiggo 7",
+                "constructionYearFrom": "13",
+                "constructionYearTo": "20",
+                "engineCodes": "SQRD4G20",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2000",
+                "kbaNumbers": "",
+                "bodyType": "T15"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "CHERY",
+        "models": [
+          {
+            "modelSeries": "Tiggo 8",
+            "targets": [
+              {
+                "engine": "1500 | T18",
+                "fullName": "CHERY   »   Tiggo 8",
+                "constructionYearFrom": "22",
+                "constructionYearTo": "",
+                "engineCodes": "SQRE4T15B",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": "T18"
+              },
+              {
+                "engine": "1500 | T18",
+                "fullName": "CHERY   »   Tiggo 8",
+                "constructionYearFrom": "20",
+                "constructionYearTo": "22",
+                "engineCodes": "SQRE4T15C",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1500",
+                "kbaNumbers": "",
+                "bodyType": "T18"
+              },
+              {
+                "engine": "2000 | T18",
+                "fullName": "CHERY   »   Tiggo 8",
+                "constructionYearFrom": "20",
+                "constructionYearTo": "22",
+                "engineCodes": "SQRD4T20",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2000",
+                "kbaNumbers": "",
+                "bodyType": "T18"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "CHERY",
+        "models": [
+          {
+            "modelSeries": "Tiggo 8 Pro",
+            "targets": [
+              {
+                "engine": "1600 | T1A",
+                "fullName": "CHERY   »   Tiggo 8 Pro",
+                "constructionYearFrom": "21",
+                "constructionYearTo": "24",
+                "engineCodes": "SQRF4J16",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1600",
+                "kbaNumbers": "",
+                "bodyType": "T1A"
+              },
+              {
+                "engine": "1600 | T1D",
+                "fullName": "CHERY   »   Tiggo 8 Pro",
+                "constructionYearFrom": "21",
+                "constructionYearTo": "",
+                "engineCodes": "SQRF4J16A",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1600",
+                "kbaNumbers": "",
+                "bodyType": "T1D"
+              },
+              {
+                "engine": "2000 | T1A",
+                "fullName": "CHERY   »   Tiggo 8 Pro",
+                "constructionYearFrom": "21",
+                "constructionYearTo": "23",
+                "engineCodes": "SQRD4T20",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2000",
+                "kbaNumbers": "",
+                "bodyType": "T1A"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "CHERY",
+        "models": [
+          {
+            "modelSeries": "Tiggo 8 Pro Max",
+            "targets": [
+              {
+                "engine": "1600 | T1D",
+                "fullName": "CHERY   »   Tiggo 8 Pro Max",
+                "constructionYearFrom": "24",
+                "constructionYearTo": "",
+                "engineCodes": "SQRF4J16",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1600",
+                "kbaNumbers": "",
+                "bodyType": "T1D"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "JAECOO (CHERY)",
+        "models": [
+          {
+            "modelSeries": "J7",
+            "targets": [
+              {
+                "engine": "1600 | T1EJ",
+                "fullName": "JAECOO (CHERY)   »   J7",
+                "constructionYearFrom": "23",
+                "constructionYearTo": "",
+                "engineCodes": "SQRF4J16C",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1600",
+                "kbaNumbers": "",
+                "bodyType": "T1EJ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "XCITE",
+        "models": [
+          {
+            "modelSeries": "X-Cross 8",
+            "targets": [
+              {
+                "engine": "1600 | ",
+                "fullName": "XCITE   »   X-Cross 8",
+                "constructionYearFrom": "24",
+                "constructionYearTo": "",
+                "engineCodes": "SQRF4J16",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1600",
+                "kbaNumbers": "",
+                "bodyType": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
