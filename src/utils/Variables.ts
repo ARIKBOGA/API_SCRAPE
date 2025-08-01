@@ -86,7 +86,7 @@ export const excelTitles = [
 export const brandAliases = new Map<string, string>([
   ["MERCEDES-BENZ", "MERCEDES"],
   ["VOLKSWAGEN", "VW"],
-  ["VW", "VOLKSWAGEN"],
+  
   ["BMW AG", "BMW"],
   ["AUDI AG", "AUDI"],
   ["FIAT CHRYSLER AUTOMOBILES", "FIAT"],
