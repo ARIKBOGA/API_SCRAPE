@@ -44,11 +44,11 @@ export function convertExcelToJson(inputFilePath: string, outputDirectory: strin
             });
 
             // Excel'den gelen verileri al ve başlıkları tam olarak eşleştir
-            const yvNo = String(rowData['YV']);
-            const crossNumber = String(rowData['CROSS NUMBER']);
-            const brand = String(rowData['MARKA']); // 'MARKA' sütunu hem brand hem de manufacturer için kullanılacak
-            const manufacturer = String(rowData['MARKA']); // 'MARKA' sütunu hem brand hem de manufacturer için kullanılacak
-            const modelSeries = String(rowData['MODEL']);
+            const yvNo = rowData['YV'];
+            const crossNumber = rowData['CROSS NUMBER'] || "";
+            const brand = rowData['SUPPLIER'] || ""; // 'MARKA' sütunu hem brand hem de manufacturer için kullanılacak
+            const manufacturer = rowData['MARKA'] || ""; // 'MARKA' sütunu hem brand hem de manufacturer için kullanılacak
+            const modelSeries = rowData['MODEL'] || "";
 
             // YV Numarasına göre ana öğeyi bul veya oluştur
             let currentItem = groupedByYvNo.get(yvNo);
@@ -86,21 +86,27 @@ export function convertExcelToJson(inputFilePath: string, outputDirectory: strin
                 currentManufacturer.models.push(currentModel);
             }
 
+            // Yıl bilgilerini "YY" formatından "YYYY" formatına dönüştür
+            const fromYear = rowData['Baş. Yil'] ? (Number(rowData['Baş. Yil']) > 30 ? `19${String(rowData['Baş. Yil'])}` : `20${String(rowData['Baş. Yil'])}`) : '';
+            const toYear = rowData['Bit. Yil'] ? (Number(rowData['Bit. Yil']) > 30 ? `19${String(rowData['Bit. Yil'])}` : `20${String(rowData['Bit. Yil'])}`) : '';
+            const kw: string = rowData['KW'] ? rowData['KW'] : "";
+            const hp: string = rowData['HP'] ? rowData['HP'] : "";
+            const cc: string = rowData['CC'] ? rowData['CC'] : "";
+
             // Target verilerini oluştur
             const target: OutputTarget = {
-                engine: String(rowData['MOTOR']),
+                engine: rowData['MOTOR'] || "",
                 // fullName alanı Excel'de doğrudan bulunmadığı için uygun bir değer atanabilir
-                fullName: `${String(rowData['MARKA'])} ${String(rowData['MODEL'])} ${String(rowData['MOTOR'])}`, 
-                // Yıl bilgilerini "YY" formatından "YYYY" formatına dönüştür
-                constructionYearFrom: rowData['Baş. Yil'] ? `20${String(rowData['Baş. Yil'])}` : '',
-                constructionYearTo: rowData['Bit. Yil'] ? `20${String(rowData['Bit. Yil'])}` : '',
-                enginePowerKW: String(rowData['KW']),
-                enginePowerHP: String(rowData['HP']),
-                cc: String(rowData['CC']), // Kullanıcının isteği üzerine string olarak bırakıldı
-                engineCodes: String(rowData['MOTOR KODU']),
-                kbaNumbers: String(rowData['KBA']),
-                bodyType: String(rowData['KASA Tipi']),
-                TecDocID: rowData['TecDocID'] ? String(rowData['TecDocID']) : undefined, // Opsiyonel
+                fullName: `${rowData['MARKA'] || ""} ${rowData['MODEL'] || ""} ${rowData['MOTOR'] || ""}`,
+                constructionYearFrom: fromYear,
+                constructionYearTo: toYear,
+                enginePowerKW: kw,
+                enginePowerHP: hp,
+                cc: cc,
+                engineCodes: rowData['MOTOR KODU'] || "",
+                kbaNumbers: rowData['KBA'] || "",
+                bodyType: rowData['KASA Tipi'] || "",
+                TecDocID: rowData['TecDocID'] || "",
             };
 
             // Hedefi ekle, aynı hedefi birden fazla kez eklememek için kontrol et

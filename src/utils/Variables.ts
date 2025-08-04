@@ -86,7 +86,6 @@ export const excelTitles = [
 export const brandAliases = new Map<string, string>([
   ["MERCEDES-BENZ", "MERCEDES"],
   ["VOLKSWAGEN", "VW"],
-  
   ["BMW AG", "BMW"],
   ["AUDI AG", "AUDI"],
   ["FIAT CHRYSLER AUTOMOBILES", "FIAT"],
@@ -110,7 +109,10 @@ export const modelAliases = new Map<string, string>([
   ["Cabriolet", "Cabrio"],
   ["SERISI", "Class"],
   ["Hatchback", "HB"],
+  ["Hatchback Van", "HB Van"],
   ["Kombi van", "Estate Van"],
+  ["Box Body/MPV", "BB/MPV"],
+  ["Platform/Chassis", "Plat/Ch"],
 ]);
 
 // Body types in English and in PascalCase

@@ -170,107 +170,93 @@ function getRankedBrandAndModels(vehicles: any[], includeBodyTypes: boolean): Ma
 }
 
 function generateLabelRichText(vehicles: any[], includeYears: boolean, includeBodyTypes: boolean): { text: string; richText: ExcelJS.RichText[] } {
-
-
     const brandSortedModelsMap = getRankedBrandAndModels(vehicles, includeBodyTypes);
     const sortedBrands = Array.from(brandSortedModelsMap.keys());
+    const lineCount = 5;
+    const lineLength = 65;
 
-    // Satır tahsisi için yeni bir Map oluşturalım
+    const richTextParts: ExcelJS.RichText[] = [];
+    let linesUsed = 0;
+
+    // ----- Satır Tahsisi Mantığı (İlk Versiyonun Çalışan Hali) -----
     const brandLineAllocation = new Map<string, number>();
     const totalModels = Array.from(brandSortedModelsMap.values()).reduce((sum, models) => sum + models.length, 0);
 
     let allocatedLines = 0;
-    const fractionalAllocations: { brand: string; fraction: number }[] = [];
-
-    // Oranlara göre satır tahsisi yap (yuvarlama kuralı ile)
     if (totalModels > 0) {
-        for (const brand of sortedBrands) {
-            const modelCount = brandSortedModelsMap.get(brand)!.length;
-            const allocation = (modelCount / totalModels) * lineCount;
-            const integerPart = Math.floor(allocation + 0.5); // .5 ve üstünü yukarı yuvarla
-            brandLineAllocation.set(brand, integerPart);
-            allocatedLines += integerPart;
-        }
-    }
-
-    // Kalan satırları en yüksek kesirli kısımlara göre dağıt
-    let remainingLines = lineCount - allocatedLines;
-    if (remainingLines > 0) {
-        // Yeniden hesaplayalım: .5 ve üstü yuvarlaması tam sonucu vermiyor olabilir.
-        // Daha iyi bir yaklaşım, yine kesirli kısımları kullanmak.
         const preciseAllocations = sortedBrands.map(brand => {
             const modelCount = brandSortedModelsMap.get(brand)!.length;
             const allocation = (modelCount / totalModels) * lineCount;
-            return { brand, allocation };
+            return { brand, allocation, integerPart: Math.floor(allocation) }; // Floor kullanıp kalanları sonra dağıtalım
         });
 
-        // Tamsayı tahsisleri ayarla
-        let totalAllocated = 0;
-        for (const { brand, allocation } of preciseAllocations) {
-            const integerPart = Math.floor(allocation + 0.5);
+        for (const { brand, integerPart } of preciseAllocations) {
             brandLineAllocation.set(brand, integerPart);
-            totalAllocated += integerPart;
+            allocatedLines += integerPart;
         }
 
-        remainingLines = lineCount - totalAllocated;
-
-        // Kesirli kısımları ayıklayıp sırala
-        const fractions = preciseAllocations
-            .map(({ brand, allocation }) => ({ brand, fraction: allocation - Math.floor(allocation + 0.5) + (allocation < 0.5 ? 1 : 0) }))
-            .sort((a, b) => b.fraction - a.fraction);
-
-        // Kalan satırları dağıt
-        for (let i = 0; i < remainingLines; i++) {
-            const brandToAllocate = fractions[i]?.brand;
-            if (brandToAllocate) {
-                brandLineAllocation.set(brandToAllocate, brandLineAllocation.get(brandToAllocate)! + 1);
+        let remainingLines = lineCount - allocatedLines;
+        if (remainingLines > 0) {
+            const fractions = preciseAllocations
+                .map(({ brand, allocation }) => ({ brand, fraction: allocation - Math.floor(allocation) }))
+                .sort((a, b) => b.fraction - a.fraction);
+            
+            for (let i = 0; i < remainingLines; i++) {
+                const brandToAllocate = fractions[i]?.brand;
+                if (brandToAllocate) {
+                    brandLineAllocation.set(brandToAllocate, (brandLineAllocation.get(brandToAllocate) || 0) + 1);
+                }
             }
         }
     }
+    // -------------------------------------------------------------
 
-    const richTextParts: ExcelJS.RichText[] = [];
-    let linesUsed = 0;
-    let currentBrand = "";
-
-    // Tahsis edilen satır sayısına göre etiketi doldur
+    // Marka başına kaç modelin yazıldığını takip eden Map
+    const modelsWrittenPerBrand = new Map<string, number>();
+    for (const brand of sortedBrands) {
+        modelsWrittenPerBrand.set(brand, 0);
+    }
+    
+    // Satır tahsisine göre etiketi doldurma döngüsü
     for (const brand of sortedBrands) {
         const allocatedLinesForBrand = brandLineAllocation.get(brand) || 0;
         const modelsQueue = brandSortedModelsMap.get(brand)!;
+
+        if (allocatedLinesForBrand === 0 && modelsQueue.length > 0) {
+            // Hiç satır tahsis edilmemiş ama modeli olan markalar için 1 satır yer açalım
+            if (linesUsed < lineCount) {
+                brandLineAllocation.set(brand, 1);
+            }
+        }
+
         let modelPointer = 0;
         let linesForThisBrandUsed = 0;
 
-        while (linesForThisBrandUsed < allocatedLinesForBrand && modelPointer < modelsQueue.length && linesUsed < lineCount) {
-            currentBrand = brand;
-
+        while (linesForThisBrandUsed < (brandLineAllocation.get(brand) || 0) && modelPointer < modelsQueue.length && linesUsed < lineCount) {
             const currentLineParts: ExcelJS.RichText[] = [];
             let currentLineLength = 0;
             let modelsAddedToLine = false;
 
             if (linesForThisBrandUsed === 0) {
-                currentLineParts.push({ text: currentBrand, font: { bold: true } });
+                currentLineParts.push({ text: brand, font: { bold: true } });
                 currentLineParts.push({ text: " " });
-                currentLineLength += currentBrand.length + 1;
+                currentLineLength += brand.length + 1;
             }
 
             while (modelPointer < modelsQueue.length && currentLineLength < lineLength) {
                 const modelInfo = modelsQueue[modelPointer];
                 const separator = modelsAddedToLine ? ", " : "";
-
-                const yearLen = includeYears && modelInfo.yearText ? 1 + modelInfo.yearText.length : 0;
+                const yearLen = includeYears && modelInfo.yearText && modelInfo.yearText !== "-|-" ? 1 + modelInfo.yearText.length : 0;
                 const potentialModelLen = modelInfo.modelText.length + yearLen;
                 const potentialLineLen = currentLineLength + separator.length + potentialModelLen;
 
                 if (potentialLineLen <= lineLength) {
-                    if (modelsAddedToLine) {
-                        currentLineParts.push({ text: separator });
-                    }
-
+                    if (modelsAddedToLine) currentLineParts.push({ text: separator });
                     currentLineParts.push({ text: modelInfo.modelText });
-                    if (includeYears && modelInfo.yearText) {
+                    if (includeYears && modelInfo.yearText && modelInfo.yearText !== "-|-") {
                         currentLineParts.push({ text: " " });
                         currentLineParts.push({ text: modelInfo.yearText, font: { italic: true } });
                     }
-
                     currentLineLength = potentialLineLen;
                     modelPointer++;
                     modelsAddedToLine = true;
@@ -279,92 +265,90 @@ function generateLabelRichText(vehicles: any[], includeYears: boolean, includeBo
                 }
             }
 
-            if (modelsAddedToLine || (linesForThisBrandUsed === 0 && modelPointer > 0)) {
-                if (linesUsed > 0) {
-                    richTextParts.push({ text: "\n" });
-                }
+            if (modelsAddedToLine) {
+                if (linesUsed > 0) richTextParts.push({ text: "\n" });
                 richTextParts.push(...currentLineParts);
                 linesUsed++;
                 linesForThisBrandUsed++;
             } else {
+                // Eğer bir satıra hiç model sığmıyorsa, döngüden çık
                 break;
             }
         }
     }
 
-    // Ekstra adım: Eğer 5 satır dolmadıysa, kalan satırları en çok modele sahip markalardan doldurmaya devam et.
-    // Bu, "5 ten az satır görmek istemiyorum" kuralını karşılar.
-    // Eğer tüm modeller bittiyse zaten döngüden çıkmış olacağız.
-    let remainingBrandModels = Array.from(brandSortedModelsMap.entries()).filter(([brand]) => {
-        const allocatedLines = brandLineAllocation.get(brand) || 0;
-        const modelsQueue = brandSortedModelsMap.get(brand)!;
-        const usedModels = modelsQueue.slice(0, modelsQueue.length).length;
+    // Ekstra adım: Tahsisat bittikten sonra hala boş satırlar varsa,
+    // en çok modele sahip markalardan döngüsel olarak doldurmaya devam et.
+    // Bu, "Innocenti" gibi markaların atlanmamasını sağlar.
+    const unwrittenModels = new Map<string, number>();
+    for(const brand of sortedBrands) {
+        const modelsWritten = (modelsWrittenPerBrand.get(brand) || 0);
+        unwrittenModels.set(brand, modelsWritten);
+    }
+    
+    let brandIndex = 0;
+    while (linesUsed < lineCount && totalModels > richTextParts.filter(p => p.text !== '\n').length) {
+        const brandToFill = sortedBrands[brandIndex % sortedBrands.length];
+        const modelsQueue = brandSortedModelsMap.get(brandToFill)!;
+        let modelPointer = unwrittenModels.get(brandToFill) || 0;
 
-        return allocatedLines < lineCount && usedModels < modelsQueue.length;
-    });
-
-    let currentBrandIndex = 0;
-    while (linesUsed < lineCount && remainingBrandModels.length > 0) {
-        const brand = remainingBrandModels[currentBrandIndex % remainingBrandModels.length][0];
-        const modelsQueue = brandSortedModelsMap.get(brand)!;
-        let modelPointer = brandLineAllocation.get(brand) || 0;
+        // Bu markanın tüm modelleri yazıldıysa, bir sonrakine geç
+        if (modelPointer >= modelsQueue.length) {
+            brandIndex++;
+            continue;
+        }
 
         const currentLineParts: ExcelJS.RichText[] = [];
         let currentLineLength = 0;
         let modelsAddedToLine = false;
 
-        // Marka adını sadece ilk satırda yaz
-        if (brandLineAllocation.get(brand) === 0) {
-            currentLineParts.push({ text: brand, font: { bold: true } });
+        if (unwrittenModels.get(brandToFill) === 0) { // Sadece ilk kez yazılıyorsa marka adını ekle
+            currentLineParts.push({ text: brandToFill, font: { bold: true } });
             currentLineParts.push({ text: " " });
-            currentLineLength += brand.length + 1;
+            currentLineLength += brandToFill.length + 1;
         }
 
-        while (modelPointer < modelsQueue.length && currentLineLength < lineLength) {
-            const modelInfo = modelsQueue[modelPointer];
+        let tempModelPointer = modelPointer;
+        while (tempModelPointer < modelsQueue.length && currentLineLength < lineLength) {
+            const modelInfo = modelsQueue[tempModelPointer];
             const separator = modelsAddedToLine ? ", " : "";
-
-            const yearLen = includeYears && modelInfo.yearText ? 1 + modelInfo.yearText.length : 0;
+            const yearLen = includeYears && modelInfo.yearText && modelInfo.yearText !== "-|-" ? 1 + modelInfo.yearText.length : 0;
             const potentialModelLen = modelInfo.modelText.length + yearLen;
             const potentialLineLen = currentLineLength + separator.length + potentialModelLen;
-
+            
             if (potentialLineLen <= lineLength) {
-                if (modelsAddedToLine) {
-                    currentLineParts.push({ text: separator });
-                }
+                if (modelsAddedToLine) currentLineParts.push({ text: separator });
                 currentLineParts.push({ text: modelInfo.modelText });
-                if (includeYears && modelInfo.yearText) {
+                if (includeYears && modelInfo.yearText && modelInfo.yearText !== "-|-") {
                     currentLineParts.push({ text: " " });
                     currentLineParts.push({ text: modelInfo.yearText, font: { italic: true } });
                 }
                 currentLineLength = potentialLineLen;
-                modelPointer++;
                 modelsAddedToLine = true;
+                tempModelPointer++;
             } else {
                 break;
             }
         }
 
         if (modelsAddedToLine) {
-            if (linesUsed > 0) {
-                richTextParts.push({ text: "\n" });
-            }
+            if (linesUsed > 0) richTextParts.push({ text: "\n" });
             richTextParts.push(...currentLineParts);
             linesUsed++;
-            brandLineAllocation.set(brand, (brandLineAllocation.get(brand) || 0) + 1); // Satır tahsisini güncelle
+            unwrittenModels.set(brandToFill, tempModelPointer); // Yazılan model sayısını güncelle
         }
 
-        currentBrandIndex++;
-
-        // Eğer o markanın tüm modelleri yazıldıysa, kalan markalar listesinden çıkar
-        if (modelPointer === modelsQueue.length) {
-            remainingBrandModels = remainingBrandModels.filter(m => m[0] !== brand);
-            currentBrandIndex = 0;
-        }
+        brandIndex++;
+    }
+    
+    // Kalan boş satırları doldur
+    while(linesUsed < lineCount) {
+        if(richTextParts.length > 0) richTextParts.push({text: "\n"});
+        richTextParts.push({text: ""});
+        linesUsed++;
     }
 
     const cleanedRichTextParts = richTextParts.filter(p => p.text !== undefined && p.text !== null);
-
     const fullText = cleanedRichTextParts.map(part => part.text).join("");
     return { text: fullText.trim(), richText: cleanedRichTextParts };
 }
