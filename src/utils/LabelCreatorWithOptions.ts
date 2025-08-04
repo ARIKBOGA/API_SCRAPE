@@ -149,7 +149,6 @@ function getRankedBrandAndModels(vehicles: any[], includeBodyTypes: boolean): Ma
         }
     }
 
-    // ... (rest of the function is the same, but now it sorts based on the refined year data)
     const sortedBrandMap = new Map<string, ModelWithInfo[]>();
     const sortedBrands = Array.from(brandData.entries()).sort(([, a], [, b]) => b.models.size - a.models.size);
 
@@ -178,7 +177,7 @@ function generateLabelRichText(vehicles: any[], includeYears: boolean, includeBo
     const richTextParts: ExcelJS.RichText[] = [];
     let linesUsed = 0;
 
-    // ----- Satır Tahsisi Mantığı (İlk Versiyonun Çalışan Hali) -----
+    // ----- Satır Tahsisi Mantığı -----
     const brandLineAllocation = new Map<string, number>();
     const totalModels = Array.from(brandSortedModelsMap.values()).reduce((sum, models) => sum + models.length, 0);
 
@@ -187,7 +186,7 @@ function generateLabelRichText(vehicles: any[], includeYears: boolean, includeBo
         const preciseAllocations = sortedBrands.map(brand => {
             const modelCount = brandSortedModelsMap.get(brand)!.length;
             const allocation = (modelCount / totalModels) * lineCount;
-            return { brand, allocation, integerPart: Math.floor(allocation) }; // Floor kullanıp kalanları sonra dağıtalım
+            return { brand, allocation, integerPart: Math.floor(allocation) }; // Floor kullanıp kalanları sonra dağıt
         });
 
         for (const { brand, integerPart } of preciseAllocations) {
@@ -223,7 +222,7 @@ function generateLabelRichText(vehicles: any[], includeYears: boolean, includeBo
         const modelsQueue = brandSortedModelsMap.get(brand)!;
 
         if (allocatedLinesForBrand === 0 && modelsQueue.length > 0) {
-            // Hiç satır tahsis edilmemiş ama modeli olan markalar için 1 satır yer açalım
+            // Hiç satır tahsis edilmemiş ama modeli olan markalar için 1 satır yer aç
             if (linesUsed < lineCount) {
                 brandLineAllocation.set(brand, 1);
             }
