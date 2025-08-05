@@ -1,12 +1,12 @@
 import * as cheerio from 'cheerio';
-import { test, request, Browser } from '@playwright/test';
+import { test, request } from '@playwright/test';
 import { referenceArray } from '../../../utils/Variables';
 import { extractYears } from '../../../utils/Utility';
 import dotenv from "dotenv";
 import path from "path";
 import fs from "fs";
 import { delay } from '../../../utils/API_Worker_Functions';
-import { OutputManufacturer, OutputModelSeries, OutputTarget, ProductCompatibilityResult, ProductReference } from '../../../utils/Types';
+import { OutputManufacturer, OutputTarget, ProductCompatibilityResult, ProductReference } from '../../../utils/Types';
 import { Locale } from 'locale-enum';
 
 dotenv.config({ path: path.resolve(".env") });
