@@ -58,10 +58,6 @@ export const productGroupNumbersOfRepxpert: Record<string, string> = {
   Crankshaft: "101971",
 };
 
-export function getGroupNumberOfProductType(productType: string) {
-  return productGroupNumbersOfRepxpert[productType];
-}
-
 export const excelTitles = [
   "YV",
   "SUPPLIER",
@@ -154,25 +150,26 @@ export const bodyTypes = [
 
 export const referenceArray: ProductReference[] = [
 
-  { yvNo: "25236", supplier: "JNBK", crossNumber: "RN1262V" },
-  { yvNo: "18489", supplier: "JNBK", crossNumber: "RN2276V" },
-  { yvNo: "25240", supplier: "JNBK", crossNumber: "RN1260V" },
-  { yvNo: "25909", supplier: "JNBK", crossNumber: "RN1926V" },
-  { yvNo: "25910", supplier: "JNBK", crossNumber: "RN1972V" },
-  { yvNo: "40157", supplier: "JNBK", crossNumber: "RN1331V" },
-  { yvNo: "63417", supplier: "JNBK", crossNumber: "RN1453V" },
-  { yvNo: "151536", supplier: "JNBK", crossNumber: "RN1410V" },
-  { yvNo: "261533", supplier: "JNBK", crossNumber: "RN1995V" },
-  { yvNo: "401568", supplier: "JNBK", crossNumber: "RN2633V" },
-  { yvNo: "511577", supplier: "JNBK", crossNumber: "RN2452V" },
-  { yvNo: "531571", supplier: "JNBK", crossNumber: "RN1678V" },
-  { yvNo: "531572", supplier: "JNBK", crossNumber: "RN2289V" },
-  { yvNo: "681546", supplier: "JNBK", crossNumber: "RN2575V" },
-  { yvNo: "681550", supplier: "JNBK", crossNumber: "RN2326V" },
-  { yvNo: "681551", supplier: "JNBK", crossNumber: "RN2540" },
-  { yvNo: "681560", supplier: "JNBK", crossNumber: "RN2501V" },
-  { yvNo: "681561", supplier: "JNBK", crossNumber: "RN2558" },
-  { yvNo: "681569", supplier: "JNBK", crossNumber: "RN2502" },
+  { yvNo: "24163", supplier: "BREMBO", crossNumber: "14.3260.10" },
+  //{ yvNo: "25236", supplier: "JNBK", crossNumber: "RN1262V" },
+  //{ yvNo: "18489", supplier: "JNBK", crossNumber: "RN2276V" },
+  //{ yvNo: "25240", supplier: "JNBK", crossNumber: "RN1260V" },
+  //{ yvNo: "25909", supplier: "JNBK", crossNumber: "RN1926V" },
+  //{ yvNo: "25910", supplier: "JNBK", crossNumber: "RN1972V" },
+  //{ yvNo: "40157", supplier: "JNBK", crossNumber: "RN1331V" },
+  //{ yvNo: "63417", supplier: "JNBK", crossNumber: "RN1453V" },
+  //{ yvNo: "151536", supplier: "JNBK", crossNumber: "RN1410V" },
+  //{ yvNo: "261533", supplier: "JNBK", crossNumber: "RN1995V" },
+  //{ yvNo: "401568", supplier: "JNBK", crossNumber: "RN2633V" },
+  //{ yvNo: "511577", supplier: "JNBK", crossNumber: "RN2452V" },
+  //{ yvNo: "531571", supplier: "JNBK", crossNumber: "RN1678V" },
+  //{ yvNo: "531572", supplier: "JNBK", crossNumber: "RN2289V" },
+  //{ yvNo: "681546", supplier: "JNBK", crossNumber: "RN2575V" },
+  //{ yvNo: "681550", supplier: "JNBK", crossNumber: "RN2326V" },
+  //{ yvNo: "681551", supplier: "JNBK", crossNumber: "RN2540" },
+  //{ yvNo: "681560", supplier: "JNBK", crossNumber: "RN2501V" },
+  //{ yvNo: "681561", supplier: "JNBK", crossNumber: "RN2558" },
+  //{ yvNo: "681569", supplier: "JNBK", crossNumber: "RN2502" },
 
 
 ];
