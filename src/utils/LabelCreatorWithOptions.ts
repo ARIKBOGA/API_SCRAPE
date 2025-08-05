@@ -13,7 +13,7 @@ const lineCount = 5;
 const lineLength = 65;
 const modelsNeedsToBePascalCased = new Set(JSON.parse(fs.readFileSync(path.resolve(__dirname, `../resources/data/catalogInfo/jsons/modelsNeedsToBePascalCased.json`), "utf-8")));
 const inputFilePath = path.resolve(__dirname, `../output/${productType}/jsons/marka_hareket/MARKA_HAREKET.json`);
-const outputFilePath = path.resolve(__dirname, `../output/${productType}/excels/Label/${productType}_Label_Optimized_Weighted_Brand_Models_ItalicYears_WithOptions_${lineCount}x${lineLength}.xlsx`);
+const outputFilePath = path.resolve(__dirname, `../output/${productType}/excels/Label/${productType}_Label_Optimized_Weighted_Brand_Models_ItalicYears_WithOptions_${lineCount}x${lineLength}_windsurf.xlsx`);
 
 function toPascalCase(str: string): string {
     return str
@@ -27,57 +27,24 @@ function toPascalCase(str: string): string {
 
 // Güncellenmiş extractAndShortenModels fonksiyonu
 function extractAndShortenModels(modelString: string, includeBodyTypes: boolean): string[] {
-    const extractedModels: string[] = [];
-    let preAliasedModelString = "";
-    try {
-        preAliasedModelString = modelString.replace(/\([^)]*\)/g, "");
-    } catch (error) {
-        console.error(error, modelString)
-    }
-    let aliasedModelsAndBodyTypes = new Map<string, string>();
+    const extractedModels = new Set<string>();
+    const modelAliasesRegex = new RegExp(Object.keys(modelAliases).join("|"), "gi");
+    const bodyTypesRegex = new RegExp(includeBodyTypes ? bodyTypes.join("|") : "", "gi");
 
-    // Önce modelAliasları işle
-    for (const [key, value] of modelAliases.entries()) {
-        const regex = new RegExp(`\\b${key}\\b`, "gi");
-        preAliasedModelString = preAliasedModelString.replace(regex, value);
-    }
-
-    const parts = preAliasedModelString
+    modelString
+        .replace(/\([^)]*\)/g, "")
         .split("|")
         .map((s) => s.trim())
-        .filter((s) => s.length > 0);
+        .filter((s) => s.length > 0)
+        .forEach((part) => {
+            let currentModel = part
+                .replace(modelAliasesRegex, (match) => modelAliases.get(match) as string)
+                .replace(bodyTypesRegex, (match) => includeBodyTypes ? ` ${match}` : "");
 
-    // bodyTypes'ı en uzun kelimeden en kısaya sırala
-    bodyTypes.sort((a, b) => b.length - a.length);
+            extractedModels.add(toPascalCase(currentModel));
+        });
 
-    for (let part of parts) {
-        let currentModel = part;
-        let bodyType = "";
-
-        // includeBodyTypes false ise, body type'ları temizle
-        for (const bt of bodyTypes) {
-            const regex = new RegExp(`\\b${bt}\\b`, "gi");
-            if (currentModel.match(regex)) {
-                if (includeBodyTypes) {
-                    bodyType = bt;
-                    currentModel = currentModel.replace(regex, "").trim();
-                } else {
-                    currentModel = currentModel.replace(regex, "").trim();
-                    break; // Sadece temizle ve çık
-                }
-            }
-        }
-
-        let finalModel = toPascalCase(currentModel);
-        if (bodyType && includeBodyTypes && !finalModel.toUpperCase().includes(bodyType.toUpperCase())) {
-            finalModel = `${finalModel} ${toPascalCase(bodyType)}`.trim();
-        }
-
-        if (!extractedModels.includes(finalModel)) {
-            extractedModels.push(finalModel);
-        }
-    }
-    return extractedModels;
+    return Array.from(extractedModels);
 }
 
 interface ModelWithInfo {
@@ -87,7 +54,7 @@ interface ModelWithInfo {
 }
 
 function getRankedBrandAndModels(vehicles: any[], includeBodyTypes: boolean): Map<string, ModelWithInfo[]> {
-    const brandData = new Map<string, { models: Map<string, { targetsCount: number; year: { from: string; to: string } }> }>();
+    const brandData = new Map<string, { models: Map<string, ModelWithInfo> }>();
 
     for (const v of vehicles) {
         const rawBrand = v.manufacturer.trim().toUpperCase();
@@ -101,50 +68,23 @@ function getRankedBrandAndModels(vehicles: any[], includeBodyTypes: boolean): Ma
         for (const model of v.models) {
             const extractedModels = extractAndShortenModels(model.modelSeries, includeBodyTypes);
 
-            let minFrom = Number.MAX_SAFE_INTEGER;
-            let maxTo = Number.MIN_SAFE_INTEGER;
-
-            for (const target of model.targets) {
-
-                if (!isNaN(target.constructionYearFrom) && Number(target.constructionYearFrom) > 0) {
-                    const from = Number(target.constructionYearFrom);
-                    minFrom = Math.min(minFrom, from);
-                }
-                if (!isNaN(target.constructionYearTo) && Number(target.constructionYearTo) > 0) {
-                    const to = Number(target.constructionYearTo);
-                    maxTo = Math.max(maxTo, to);
-                }
-            }
-
-            const madeYear = {
-                from: minFrom < 2100 && minFrom !== Number.MAX_SAFE_INTEGER ? minFrom.toString().slice(-2) : "-",
-                to: maxTo > 1900 && maxTo !== Number.MIN_SAFE_INTEGER ? maxTo.toString().slice(-2) : "-"
-            };
-
             for (const m of extractedModels) {
                 const modelKey = m.trim();
+
                 if (!brandInfo.models.has(modelKey)) {
-                    brandInfo.models.set(modelKey, { targetsCount: 0, year: madeYear });
+                    const year = getMinMaxYears(model.targets);
+                    brandInfo.models.set(modelKey, {
+                        modelText: modelKey,
+                        yearText: year.from + "|" + year.to,
+                        targetsCount: model.targets.length
+                    });
                 } else {
                     const existingModelInfo = brandInfo.models.get(modelKey)!;
+                    const newYear = getMinMaxYears(model.targets);
 
-                    // Yılları birleştirmeden önce geçerli sayısal değerlere dönüştür
-                    const existingFrom = existingModelInfo.year.from !== "-" ? Number(existingModelInfo.year.from) : Number.MAX_SAFE_INTEGER;
-                    const existingTo = existingModelInfo.year.to !== "-" ? Number(existingModelInfo.year.to) : Number.MIN_SAFE_INTEGER;
-
-                    const newFrom = madeYear.from !== "-" ? Number(madeYear.from) : Number.MAX_SAFE_INTEGER;
-                    const newTo = madeYear.to !== "-" ? Number(madeYear.to) : Number.MIN_SAFE_INTEGER;
-
-                    // Yıl aralıklarını genişlet
-                    const finalFrom = Math.min(existingFrom, newFrom);
-                    const finalTo = Math.max(existingTo, newTo);
-
-                    // Sonuçları tekrar stringe çevirirken kenar durumları kontrol et
-                    existingModelInfo.year.from = finalFrom === Number.MAX_SAFE_INTEGER ? "-" : finalFrom.toString().padStart(2, "0");
-                    existingModelInfo.year.to = finalTo === Number.MIN_SAFE_INTEGER ? "-" : finalTo.toString().padStart(2, "0");
+                    existingModelInfo.yearText = getUnionYears(existingModelInfo.yearText, newYear);
+                    existingModelInfo.targetsCount += model.targets.length;
                 }
-                const modelInfo = brandInfo.models.get(modelKey)!;
-                modelInfo.targetsCount += model.targets.length;
             }
         }
     }
@@ -155,17 +95,44 @@ function getRankedBrandAndModels(vehicles: any[], includeBodyTypes: boolean): Ma
     for (const [brandName, brandInfo] of sortedBrands) {
         const sortedModels = Array.from(brandInfo.models.entries())
             .sort(([, a], [, b]) => b.targetsCount - a.targetsCount)
-            .map(([modelKey, modelInfo]) => {
-                const yearText = `${modelInfo.year.from}|${modelInfo.year.to}`;
-                return {
-                    modelText: modelKey,
-                    yearText: yearText,
-                    targetsCount: modelInfo.targetsCount
-                } as ModelWithInfo;
-            });
+            .map(([modelKey, modelInfo]) => modelInfo);
         sortedBrandMap.set(brandName, sortedModels);
     }
     return sortedBrandMap;
+}
+
+function getMinMaxYears(targets: any[]): { from: string; to: string } {
+    let minFrom = Number.MAX_SAFE_INTEGER;
+    let maxTo = Number.MIN_SAFE_INTEGER;
+
+    for (const target of targets) {
+        if (!isNaN(target.constructionYearFrom) && Number(target.constructionYearFrom) > 0) {
+            const from = Number(target.constructionYearFrom);
+            minFrom = Math.min(minFrom, from);
+        }
+        if (!isNaN(target.constructionYearTo) && Number(target.constructionYearTo) > 0) {
+            const to = Number(target.constructionYearTo);
+            maxTo = Math.max(maxTo, to);
+        }
+    }
+
+    return {
+        from: minFrom < 2100 && minFrom !== Number.MAX_SAFE_INTEGER ? minFrom.toString().slice(-2) : "-",
+        to: maxTo > 1900 && maxTo !== Number.MIN_SAFE_INTEGER ? maxTo.toString().slice(-2) : "-"
+    };
+}
+
+function getUnionYears(years1: string, years2: { from: string; to: string }): string {
+    const year1From = years1.split("|")[0] !== "-" ? Number(years1.split("|")[0]) : Number.MAX_SAFE_INTEGER;
+    const year1To = years1.split("|")[1] !== "-" ? Number(years1.split("|")[1]) : Number.MIN_SAFE_INTEGER;
+
+    const year2From = years2.from !== "-" ? Number(years2.from) : Number.MAX_SAFE_INTEGER;
+    const year2To = years2.to !== "-" ? Number(years2.to) : Number.MIN_SAFE_INTEGER;
+
+    const finalFrom = Math.min(year1From, year2From);
+    const finalTo = Math.max(year1To, year2To);
+
+    return `${finalFrom === Number.MAX_SAFE_INTEGER ? "-" : finalFrom.toString().padStart(2, "0")}|${finalTo === Number.MIN_SAFE_INTEGER ? "-" : finalTo.toString().padStart(2, "0")}`;
 }
 
 function generateLabelRichText(vehicles: any[], includeYears: boolean, includeBodyTypes: boolean): { text: string; richText: ExcelJS.RichText[] } {
