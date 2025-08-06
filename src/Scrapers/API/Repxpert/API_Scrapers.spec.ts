@@ -6,11 +6,14 @@ import fs from "fs";
 import { processProductFor_CrossNumbers, processProductFor_OE, processProductFor_VehicleCompatibility, processProductForArticleAttributes } from "../../../utils/api-workers";
 import { referenceArray } from "../../../utils/Variables";
 import { readProductReferencesFromExcel } from "../../../utils/Excel_Utils";
-import { JNBK_Compatibility } from "../../UI/JNBK/JNBK_Scraper.spec";
 
 dotenv.config({ path: path.resolve(".env") });
 const productType = process.env.PRODUCT_TYPE as string;
 const filterBrand = (process.env.FILTER_BRAND as string) !== "" ? process.env.FILTER_BRAND as string : "LOADED_NOT_FOUND_COMMERCIAL_REMINDER";
+
+const start = 0;
+const end: number = 150;
+const end_str = end !== 0 ? end : "end";
 
 async function processProducts(processFunction: Function, fileName: string, threadLimit: number, processFor: string) {
   const productReferences = readProductReferencesFromExcel();
@@ -19,15 +22,15 @@ async function processProducts(processFunction: Function, fileName: string, thre
   const limit = pLimit(threadLimit);
 
   const results = (await Promise.all(
-    //productReferences
-    referenceArray
+    productReferences
+      //referenceArray
       .filter(
         (productRef) =>
-          //productRef.supplier === filterBrand &&               // process only given brand in .env file
+          productRef.supplier === filterBrand &&               // process only given brand in .env file
           productRef.crossNumber.trim() !== ""              // skip empty cells comes from excel
         //&& !productRef.crossNumber.trim().includes(" ")    // skip cross numbers with spaces
       )
-      //.slice(300)
+      //.slice(start)
       .map((productRef) => limit(() => processFunction(productRef)))
   )).filter((r) => r !== null);
 
