@@ -65,7 +65,7 @@ export async function exportToExcel() {
             // Her bir supplier için ArticleNumber'ları birleştir
             headers.slice(2).forEach(supplier => {
                 if (groupedSuppliers[supplier]) {
-                    rowData[supplier] = groupedSuppliers[supplier].join(', ');
+                    rowData[supplier] = Array.from(new Set(groupedSuppliers[supplier])).join(', ');
                 }
             });
 
