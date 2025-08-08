@@ -211,7 +211,7 @@ export async function processProductForArticleAttributes(element: ProductReferen
     const URL = `${part_1}${encryptedSearchCode}${part_2}`;
 
     const headers = await getAuthHeaders();
-    console.log(headers);
+    //console.log(headers);
     const response = await apiContext.get(URL, { headers: await getAuthHeaders() });
 
     const result: any = {
