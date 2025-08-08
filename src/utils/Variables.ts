@@ -145,7 +145,9 @@ export const bodyTypes = [
   "SW",
   "Targa",
   "Truck Tractor",
-  "Van"
+  "Van",
+  "BB/MPV",
+  "Plat/Ch",
 ];
 
 export const referenceArray: ProductReference[] = [
