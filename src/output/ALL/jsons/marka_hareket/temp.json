@@ -1,0 +1,142 @@
+{
+    "yvNo": 7001010,
+    "brand": "CORTECO",
+    "crossNumber": "80000352",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "CITROËN",
+        "models": [
+          {
+            "modelSeries": "BERLINGO / BERLINGO FIRST Box Body/MPV (M_)"
+          },
+          {
+            "modelSeries": "BERLINGO / BERLINGO FIRST MPV (MF_, GJK_, GFK_)"
+          },
+          {
+            "modelSeries": "EVASION MPV (22, U6) | SYNERGIE"
+          },
+          {
+            "modelSeries": "JUMPER I Bus (230P) | RELAY"
+          },
+          {
+            "modelSeries": "JUMPER I Platform/Chassis (230) | RELAY"
+          },
+          {
+            "modelSeries": "JUMPER I Van (230L) | RELAY"
+          },
+          {
+            "modelSeries": "JUMPY I (U6U_) | DISPATCH"
+          },
+          {
+            "modelSeries": "JUMPY I Platform/Chassis (BU_, BV_, BW_, BX_) | DISPATCH"
+          },
+          {
+            "modelSeries": "JUMPY I Van (BS_, BT_, BY_, BZ_) | DISPATCH"
+          },
+          {
+            "modelSeries": "XANTIA (X1_, X2_)"
+          },
+          {
+            "modelSeries": "XANTIA Break (X1_, X2_)"
+          },
+          {
+            "modelSeries": "XSARA (N1)"
+          },
+          {
+            "modelSeries": "XSARA Break (N2)"
+          },
+          {
+            "modelSeries": "XSARA Coupe (N0)"
+          },
+          {
+            "modelSeries": "ZX (N2)"
+          },
+          {
+            "modelSeries": "ZX Break (N2)"
+          }
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "models": [
+          {
+            "modelSeries": "DUCATO Bus (230_)"
+          },
+          {
+            "modelSeries": "DUCATO Platform/Chassis (230_)"
+          },
+          {
+            "modelSeries": "DUCATO Van (230_)"
+          },
+          {
+            "modelSeries": "SCUDO Bus (220_)"
+          },
+          {
+            "modelSeries": "SCUDO Van (220_)"
+          },
+          {
+            "modelSeries": "ULYSSE (220_)"
+          }
+        ]
+      },
+      {
+        "manufacturer": "PEUGEOT",
+        "models": [
+          {
+            "modelSeries": "306 (7B, N3, N5)"
+          },
+          {
+            "modelSeries": "306 Break (7E, N3, N5)"
+          },
+          {
+            "modelSeries": "306 Hatchback (7A, 7C, N3, N5)"
+          },
+          {
+            "modelSeries": "405 I (15B)"
+          },
+          {
+            "modelSeries": "405 I Break (15E)"
+          },
+          {
+            "modelSeries": "405 II (4B)"
+          },
+          {
+            "modelSeries": "405 II Break (4E)"
+          },
+          {
+            "modelSeries": "406 (8B)"
+          },
+          {
+            "modelSeries": "406 Break (8E/F)"
+          },
+          {
+            "modelSeries": "806 (221)"
+          },
+          {
+            "modelSeries": "BOXER Bus (230P)"
+          },
+          {
+            "modelSeries": "BOXER Platform/Chassis (ZCT_)"
+          },
+          {
+            "modelSeries": "BOXER Van (230L) | BOXER FURGON"
+          },
+          {
+            "modelSeries": "EXPERT (224_)"
+          },
+          {
+            "modelSeries": "EXPERT Platform/Chassis (223)"
+          },
+          {
+            "modelSeries": "EXPERT Van (222)"
+          },
+          {
+            "modelSeries": "PARTNER Box Body/MPV (5_, G_) | PARTNER FURGON | RANCH"
+          },
+          {
+            "modelSeries": "PARTNER MPV (5_, G_) | PARTNER ESCAPADE | GRAND RAID | PARTNER PATAGONICA / URBANA | RANCH"
+          }
+        ]
+      }
+    ]
+  }
