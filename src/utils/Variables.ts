@@ -150,7 +150,7 @@ export const bodyTypes = [
 
 export const referenceArray: ProductReference[] = [
 
-  { yvNo: "24163", supplier: "BREMBO", crossNumber: "14.3260.10" },
+  { yvNo: "24700303", supplier: "OE_1", crossNumber: "77361194" },
   //{ yvNo: "25236", supplier: "JNBK", crossNumber: "RN1262V" },
   //{ yvNo: "18489", supplier: "JNBK", crossNumber: "RN2276V" },
   //{ yvNo: "25240", supplier: "JNBK", crossNumber: "RN1260V" },
