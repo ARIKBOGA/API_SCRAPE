@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 import path from "path";
 import fs from "fs";
 
-import { processProductFor_CrossNumbers, processProductFor_OE, processProductFor_VehicleCompatibility, processProductForArticleAttributes } from "../../../utils/api-workers";
+import { processProductFor_CrossNumbers, processProductFor_OE, processProductFor_VehicleCompatibility, processProductForArticleAttributes } from "./helpers/api-workers";
 import { referenceArray } from "../../../utils/Variables";
 import { readProductReferencesFromExcel } from "../../../utils/Excel_Utils";
 
@@ -22,11 +22,11 @@ async function processProducts(processFunction: Function, fileName: string, thre
   const limit = pLimit(threadLimit);
 
   const results = (await Promise.all(
-    //productReferences
-      referenceArray
+    productReferences
+      //referenceArray
       .filter(
         (productRef) =>
-          //productRef.supplier === filterBrand &&               // process only given brand in .env file
+          productRef.supplier === filterBrand &&               // process only given brand in .env file
           productRef.crossNumber.trim() !== ""              // skip empty cells comes from excel
         //&& !productRef.crossNumber.trim().includes(" ")    // skip cross numbers with spaces
       )
