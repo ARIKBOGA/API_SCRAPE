@@ -35,6 +35,10 @@ const rows: row[] = data.map((item: Attribute) => {
     const attributeMap: Record<string, string> = {};
     attributes.forEach(attribute => {
         attributeMap[attribute.name] = attribute.value;
+        if (attribute.name === "WVA Number" && !attribute.value.includes(yvNo.slice(0, 5))) {
+            attributeMap[attribute.name] = yvNo.slice(0, 5) + ", " + attribute.value;
+            console.log("Added: ", yvNo.slice(0, 5), " to ", attributeMap[attribute.name]);
+        }
     });
     return {
         yvNo,

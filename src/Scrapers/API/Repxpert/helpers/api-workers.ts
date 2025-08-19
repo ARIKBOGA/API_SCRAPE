@@ -224,7 +224,7 @@ export async function processProductForArticleAttributes(element: ProductReferen
 
     for (const element of data.classifications[0].features) {
       
-      const values = Object.values(element.featureValues[0]).join(', ');
+      const values = Object.values(element.featureValues.map((value: any) => value.value)).join(', ');
       
       result.attributes.push({
         name: element.name,

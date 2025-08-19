@@ -1,0 +1,955 @@
+[
+  {
+    "yvNo": "20341401",
+    "crossNumber": "180324",
+    "supplier": "ICER",
+    "attributes": [
+      {
+        "name": "Width [mm]",
+        "value": "89.7"
+      },
+      {
+        "name": "Height [mm]",
+        "value": "74"
+      },
+      {
+        "name": "Thickness [mm]",
+        "value": "17.5"
+      },
+      {
+        "name": "Quality",
+        "value": "300"
+      },
+      {
+        "name": "Axle Version",
+        "value": "Front"
+      },
+      {
+        "name": "Technical Information Number",
+        "value": "180324"
+      },
+      {
+        "name": "Brake System",
+        "value": "ATE"
+      }
+    ]
+  },
+  {
+    "yvNo": "21201201",
+    "crossNumber": "181366",
+    "supplier": "ICER",
+    "attributes": [
+      {
+        "name": "Width [mm]",
+        "value": "156.5"
+      },
+      {
+        "name": "Height [mm]",
+        "value": "52.6"
+      },
+      {
+        "name": "Thickness [mm]",
+        "value": "17.5"
+      },
+      {
+        "name": "Quality",
+        "value": "300"
+      },
+      {
+        "name": "Axle Version",
+        "value": "Front"
+      },
+      {
+        "name": "Technical Information Number",
+        "value": "181366"
+      },
+      {
+        "name": "Brake System",
+        "value": "ATE"
+      },
+      {
+        "name": "Test Mark",
+        "value": "E1 90R-01101/178"
+      }
+    ]
+  },
+  {
+    "yvNo": "21312201",
+    "crossNumber": "180752-701",
+    "supplier": "ICER",
+    "attributes": [
+      {
+        "name": "Width [mm]",
+        "value": "89"
+      },
+      {
+        "name": "Height [mm]",
+        "value": "35.2"
+      },
+      {
+        "name": "Thickness [mm]",
+        "value": "13"
+      },
+      {
+        "name": "Quality",
+        "value": "944"
+      },
+      {
+        "name": "Axle Version",
+        "value": "Rear"
+      },
+      {
+        "name": "Technical Information Number",
+        "value": "180752-701"
+      },
+      {
+        "name": "Brake System",
+        "value": "Akebono"
+      },
+      {
+        "name": "Test Mark",
+        "value": "E1 90R-01100/174"
+      },
+      {
+        "name": "Wear Warning Contact",
+        "value": "incl. wear warning contact"
+      }
+    ]
+  },
+  {
+    "yvNo": "21347201",
+    "crossNumber": "140884",
+    "supplier": "ICER",
+    "attributes": [
+      {
+        "name": "Width [mm]",
+        "value": "160.9"
+      },
+      {
+        "name": "Height [mm]",
+        "value": "49.3"
+      },
+      {
+        "name": "Thickness [mm]",
+        "value": "17"
+      },
+      {
+        "name": "Quality",
+        "value": "639"
+      },
+      {
+        "name": "Axle Version",
+        "value": "Front"
+      },
+      {
+        "name": "Technical Information Number",
+        "value": "140884"
+      },
+      {
+        "name": "Brake System",
+        "value": "Akebono"
+      },
+      {
+        "name": "Test Mark",
+        "value": "E9 90R-01109/292"
+      }
+    ]
+  },
+  {
+    "yvNo": "21576201",
+    "crossNumber": "141104-046",
+    "supplier": "ICER",
+    "attributes": [
+      {
+        "name": "Width [mm]",
+        "value": "156.4"
+      },
+      {
+        "name": "Height [mm]",
+        "value": "64.9"
+      },
+      {
+        "name": "Thickness [mm]",
+        "value": "20.5"
+      },
+      {
+        "name": "Quality",
+        "value": "300"
+      },
+      {
+        "name": "Axle Version",
+        "value": "Front"
+      },
+      {
+        "name": "Technical Information Number",
+        "value": "141104-046"
+      },
+      {
+        "name": "Brake System",
+        "value": "ATE"
+      },
+      {
+        "name": "Test Mark",
+        "value": "E1 90R-01101/074"
+      }
+    ]
+  },
+  {
+    "yvNo": "21621201",
+    "crossNumber": "141102",
+    "supplier": "ICER",
+    "attributes": [
+      {
+        "name": "Width [mm]",
+        "value": "141.4"
+      },
+      {
+        "name": "Height [mm]",
+        "value": "50.1"
+      },
+      {
+        "name": "Thickness [mm]",
+        "value": "17"
+      },
+      {
+        "name": "Quality",
+        "value": "300"
+      },
+      {
+        "name": "Axle Version",
+        "value": "Rear"
+      },
+      {
+        "name": "Technical Information Number",
+        "value": "141102"
+      },
+      {
+        "name": "Brake System",
+        "value": "ATE"
+      },
+      {
+        "name": "Test Mark",
+        "value": "E1 90R-01101/191"
+      },
+      {
+        "name": "Wear Warning Contact",
+        "value": "incl. wear warning contact"
+      }
+    ]
+  },
+  {
+    "yvNo": "21857201",
+    "crossNumber": "181150",
+    "supplier": "ICER",
+    "attributes": [
+      {
+        "name": "Width [mm]",
+        "value": "72.1"
+      },
+      {
+        "name": "Height [mm]",
+        "value": "60.6"
+      },
+      {
+        "name": "Thickness [mm]",
+        "value": "17"
+      },
+      {
+        "name": "Quality",
+        "value": "300"
+      },
+      {
+        "name": "Axle Version",
+        "value": "Front"
+      },
+      {
+        "name": "Technical Information Number",
+        "value": "181150"
+      },
+      {
+        "name": "Brake System",
+        "value": "ATE"
+      },
+      {
+        "name": "Test Mark",
+        "value": "E1 90R-01101/084"
+      }
+    ]
+  },
+  {
+    "yvNo": "22531201",
+    "crossNumber": "182198-200",
+    "supplier": "ICER",
+    "attributes": [
+      {
+        "name": "Width [mm]",
+        "value": "123.2"
+      },
+      {
+        "name": "Height [mm]",
+        "value": "48.7"
+      },
+      {
+        "name": "Height 2 [mm]",
+        "value": "53.5"
+      },
+      {
+        "name": "Thickness [mm]",
+        "value": "14.6"
+      },
+      {
+        "name": "Quality",
+        "value": "300"
+      },
+      {
+        "name": "Axle Version",
+        "value": "Rear"
+      },
+      {
+        "name": "Technical Information Number",
+        "value": "182198-200"
+      },
+      {
+        "name": "Brake System",
+        "value": "ATE"
+      },
+      {
+        "name": "Test Mark",
+        "value": "E9 90R-02A0111/4812"
+      }
+    ]
+  },
+  {
+    "yvNo": "23177401",
+    "crossNumber": "180674-700",
+    "supplier": "ICER",
+    "attributes": [
+      {
+        "name": "Width [mm]",
+        "value": "87.4"
+      },
+      {
+        "name": "Height [mm]",
+        "value": "44.7"
+      },
+      {
+        "name": "Thickness [mm]",
+        "value": "14.4"
+      },
+      {
+        "name": "Quality",
+        "value": "944"
+      },
+      {
+        "name": "Axle Version",
+        "value": "Rear"
+      },
+      {
+        "name": "Technical Information Number",
+        "value": "180674-700"
+      },
+      {
+        "name": "Brake System",
+        "value": "LUCAS-TRW"
+      },
+      {
+        "name": "Test Mark",
+        "value": "E9 90R-01110/042"
+      }
+    ]
+  },
+  {
+    "yvNo": "23258108",
+    "crossNumber": "181271-702",
+    "supplier": "ICER",
+    "attributes": [
+      {
+        "name": "Width [mm]",
+        "value": "104.7"
+      },
+      {
+        "name": "Height [mm]",
+        "value": "42.7"
+      },
+      {
+        "name": "Thickness [mm]",
+        "value": "16.9"
+      },
+      {
+        "name": "Quality",
+        "value": "944"
+      },
+      {
+        "name": "Axle Version",
+        "value": "Rear"
+      },
+      {
+        "name": "Technical Information Number",
+        "value": "181271-702"
+      },
+      {
+        "name": "Brake System",
+        "value": "Bosch"
+      },
+      {
+        "name": "Wear Warning Contact",
+        "value": "incl. wear warning contact"
+      }
+    ]
+  },
+  {
+    "yvNo": "23510101",
+    "crossNumber": "181583",
+    "supplier": "ICER",
+    "attributes": [
+      {
+        "name": "Width [mm]",
+        "value": "116.4"
+      },
+      {
+        "name": "Width 2 [mm]",
+        "value": "116.6"
+      },
+      {
+        "name": "Height [mm]",
+        "value": "51.5"
+      },
+      {
+        "name": "Height 2 [mm]",
+        "value": "54.4"
+      },
+      {
+        "name": "Thickness [mm]",
+        "value": "16.5"
+      },
+      {
+        "name": "Quality",
+        "value": "300"
+      },
+      {
+        "name": "Axle Version",
+        "value": "Front"
+      },
+      {
+        "name": "Technical Information Number",
+        "value": "181583"
+      },
+      {
+        "name": "Brake System",
+        "value": "Akebono"
+      },
+      {
+        "name": "Test Mark",
+        "value": "E9 90R-01111/1064"
+      },
+      {
+        "name": "Wear Warning Contact",
+        "value": "incl. wear warning contact"
+      }
+    ]
+  },
+  {
+    "yvNo": "23554410",
+    "crossNumber": "180697-703",
+    "supplier": "ICER",
+    "attributes": [
+      {
+        "name": "Width [mm]",
+        "value": "87"
+      },
+      {
+        "name": "Height [mm]",
+        "value": "52.8"
+      },
+      {
+        "name": "Thickness [mm]",
+        "value": "17.2"
+      },
+      {
+        "name": "Quality",
+        "value": "944"
+      },
+      {
+        "name": "Axle Version",
+        "value": "Rear"
+      },
+      {
+        "name": "Technical Information Number",
+        "value": "180697-703"
+      },
+      {
+        "name": "Brake System",
+        "value": "LUCAS-TRW"
+      },
+      {
+        "name": "Test Mark",
+        "value": "E1 90R-01033/142"
+      }
+    ]
+  },
+  {
+    "yvNo": "23775201",
+    "crossNumber": "181596",
+    "supplier": "ICER",
+    "attributes": [
+      {
+        "name": "Width [mm]",
+        "value": "151.4"
+      },
+      {
+        "name": "Height [mm]",
+        "value": "49.3"
+      },
+      {
+        "name": "Thickness [mm]",
+        "value": "18"
+      },
+      {
+        "name": "Quality",
+        "value": "300"
+      },
+      {
+        "name": "Axle Version",
+        "value": "Front"
+      },
+      {
+        "name": "Technical Information Number",
+        "value": "181596"
+      },
+      {
+        "name": "Brake System",
+        "value": "ATE"
+      },
+      {
+        "name": "Test Mark",
+        "value": "E9 90R-01111/1024"
+      }
+    ]
+  },
+  {
+    "yvNo": "23901206",
+    "crossNumber": "141103",
+    "supplier": "ICER",
+    "attributes": [
+      {
+        "name": "Width [mm]",
+        "value": "156.4"
+      },
+      {
+        "name": "Height [mm]",
+        "value": "55"
+      },
+      {
+        "name": "Thickness [mm]",
+        "value": "18.5"
+      },
+      {
+        "name": "Quality",
+        "value": "300"
+      },
+      {
+        "name": "Axle Version",
+        "value": "Rear"
+      },
+      {
+        "name": "Technical Information Number",
+        "value": "141103"
+      },
+      {
+        "name": "Brake System",
+        "value": "ATE"
+      },
+      {
+        "name": "Test Mark",
+        "value": "E1 90R-01101/093"
+      },
+      {
+        "name": "Wear Warning Contact",
+        "value": "incl. wear warning contact"
+      }
+    ]
+  },
+  {
+    "yvNo": "24072401",
+    "crossNumber": "181659",
+    "supplier": "ICER",
+    "attributes": [
+      {
+        "name": "Width [mm]",
+        "value": "122.9"
+      },
+      {
+        "name": "Height [mm]",
+        "value": "51.8"
+      },
+      {
+        "name": "Thickness [mm]",
+        "value": "17.7"
+      },
+      {
+        "name": "Quality",
+        "value": "300"
+      },
+      {
+        "name": "Axle Version",
+        "value": "Front"
+      },
+      {
+        "name": "Technical Information Number",
+        "value": "181659"
+      },
+      {
+        "name": "Brake System",
+        "value": "Bosch"
+      },
+      {
+        "name": "Test Mark",
+        "value": "E9 90R-01111/881"
+      }
+    ]
+  },
+  {
+    "yvNo": "24073303",
+    "crossNumber": "181845",
+    "supplier": "ICER",
+    "attributes": [
+      {
+        "name": "Width [mm]",
+        "value": "116.6"
+      },
+      {
+        "name": "Height [mm]",
+        "value": "55.3"
+      },
+      {
+        "name": "Thickness [mm]",
+        "value": "16.4"
+      },
+      {
+        "name": "Quality",
+        "value": "300"
+      },
+      {
+        "name": "Axle Version",
+        "value": "Front"
+      },
+      {
+        "name": "Technical Information Number",
+        "value": "181845"
+      },
+      {
+        "name": "Brake System",
+        "value": "LUCAS-TRW"
+      },
+      {
+        "name": "Test Mark",
+        "value": "E9 90R-01111/2130"
+      },
+      {
+        "name": "Wear Warning Contact",
+        "value": "incl. wear warning contact"
+      }
+    ]
+  },
+  {
+    "yvNo": "24073401",
+    "crossNumber": "181621-703",
+    "supplier": "ICER",
+    "attributes": [
+      {
+        "name": "Width [mm]",
+        "value": "116.6"
+      },
+      {
+        "name": "Height [mm]",
+        "value": "55.3"
+      },
+      {
+        "name": "Thickness [mm]",
+        "value": "16.4"
+      },
+      {
+        "name": "Quality",
+        "value": "300"
+      },
+      {
+        "name": "Axle Version",
+        "value": "Front"
+      },
+      {
+        "name": "Technical Information Number",
+        "value": "181621-703"
+      },
+      {
+        "name": "Brake System",
+        "value": "LUCAS-TRW"
+      },
+      {
+        "name": "Test Mark",
+        "value": "E9 90R-01111/999"
+      }
+    ]
+  },
+  {
+    "yvNo": "24498201",
+    "crossNumber": "181799",
+    "supplier": "ICER",
+    "attributes": [
+      {
+        "name": "Width [mm]",
+        "value": "110.5"
+      },
+      {
+        "name": "Height [mm]",
+        "value": "46.1"
+      },
+      {
+        "name": "Thickness [mm]",
+        "value": "15"
+      },
+      {
+        "name": "Quality",
+        "value": "944"
+      },
+      {
+        "name": "Axle Version",
+        "value": "Rear"
+      },
+      {
+        "name": "Technical Information Number",
+        "value": "181799"
+      },
+      {
+        "name": "Brake System",
+        "value": "Akebono"
+      },
+      {
+        "name": "Test Mark",
+        "value": "E9 90R-01110/2098"
+      },
+      {
+        "name": "Wear Warning Contact",
+        "value": "incl. wear warning contact"
+      }
+    ]
+  },
+  {
+    "yvNo": "24510201",
+    "crossNumber": "181798",
+    "supplier": "ICER",
+    "attributes": [
+      {
+        "name": "Width [mm]",
+        "value": "149"
+      },
+      {
+        "name": "Height [mm]",
+        "value": "62.1"
+      },
+      {
+        "name": "Thickness [mm]",
+        "value": "17"
+      },
+      {
+        "name": "Quality",
+        "value": "300"
+      },
+      {
+        "name": "Axle Version",
+        "value": "Front"
+      },
+      {
+        "name": "Technical Information Number",
+        "value": "181798"
+      },
+      {
+        "name": "Brake System",
+        "value": "Mando"
+      },
+      {
+        "name": "Test Mark",
+        "value": "E9 90R-01111/2091"
+      },
+      {
+        "name": "Wear Warning Contact",
+        "value": "incl. wear warning contact"
+      }
+    ]
+  },
+  {
+    "yvNo": "24710201",
+    "crossNumber": "181856",
+    "supplier": "ICER",
+    "attributes": [
+      {
+        "name": "Width [mm]",
+        "value": "155.1"
+      },
+      {
+        "name": "Width 2 [mm]",
+        "value": "156.5"
+      },
+      {
+        "name": "Height [mm]",
+        "value": "63.1"
+      },
+      {
+        "name": "Height 2 [mm]",
+        "value": "68.3"
+      },
+      {
+        "name": "Thickness [mm]",
+        "value": "18"
+      },
+      {
+        "name": "Quality",
+        "value": "300"
+      },
+      {
+        "name": "Axle Version",
+        "value": "Front"
+      },
+      {
+        "name": "Technical Information Number",
+        "value": "181856"
+      },
+      {
+        "name": "Brake System",
+        "value": "ATE"
+      },
+      {
+        "name": "Test Mark",
+        "value": "E9 90R-01111/2467"
+      }
+    ]
+  },
+  {
+    "yvNo": "24883401",
+    "crossNumber": "181925-201",
+    "supplier": "ICER",
+    "attributes": [
+      {
+        "name": "Width [mm]",
+        "value": "136.8"
+      },
+      {
+        "name": "Height [mm]",
+        "value": "59.3"
+      },
+      {
+        "name": "Thickness [mm]",
+        "value": "18"
+      },
+      {
+        "name": "Quality",
+        "value": "300"
+      },
+      {
+        "name": "Axle Version",
+        "value": "Front"
+      },
+      {
+        "name": "Technical Information Number",
+        "value": "181925-201"
+      },
+      {
+        "name": "Brake System",
+        "value": "Bosch"
+      },
+      {
+        "name": "Test Mark",
+        "value": "E9 90R-02A0111/3497"
+      }
+    ]
+  },
+  {
+    "yvNo": "26188208",
+    "crossNumber": "182410-203",
+    "supplier": "ICER",
+    "attributes": [
+      {
+        "name": "Width [mm]",
+        "value": "122.9"
+      },
+      {
+        "name": "Height [mm]",
+        "value": "55.8"
+      },
+      {
+        "name": "Height 2 [mm]",
+        "value": "57.8"
+      },
+      {
+        "name": "Thickness [mm]",
+        "value": "16"
+      },
+      {
+        "name": "Quality",
+        "value": "300"
+      },
+      {
+        "name": "Axle Version",
+        "value": "Rear"
+      },
+      {
+        "name": "Technical Information Number",
+        "value": "182410-203"
+      },
+      {
+        "name": "Brake System",
+        "value": "ATE"
+      },
+      {
+        "name": "Test Mark",
+        "value": "E9 90R-02A0111/5893"
+      },
+      {
+        "name": "Wear Warning Contact",
+        "value": "incl. wear warning contact"
+      }
+    ]
+  },
+  {
+    "yvNo": "29153401",
+    "crossNumber": "141126-700",
+    "supplier": "ICER",
+    "attributes": [
+      {
+        "name": "Width [mm]",
+        "value": "164.6"
+      },
+      {
+        "name": "Height [mm]",
+        "value": "72.9"
+      },
+      {
+        "name": "Thickness [mm]",
+        "value": "20"
+      },
+      {
+        "name": "Quality",
+        "value": "300"
+      },
+      {
+        "name": "Axle Version",
+        "value": "Front & Rear"
+      },
+      {
+        "name": "Technical Information Number",
+        "value": "141126-700"
+      },
+      {
+        "name": "Brake System",
+        "value": "Perrot"
+      },
+      {
+        "name": "Test Mark",
+        "value": "E1 90R-01101/195"
+      },
+      {
+        "name": "Wear Warning Contact",
+        "value": "incl. wear warning contact"
+      }
+    ]
+  }
+]
