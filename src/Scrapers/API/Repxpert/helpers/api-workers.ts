@@ -1,10 +1,10 @@
 import { request } from "@playwright/test";
 import dotenv from "dotenv";
 import path from "path";
-import { CrossNumberApiProduct, OutputManufacturer, OutputModelSeries, ProductCompatibilityResult, ProductReference } from "./Types";
-import { delay, getManufacturerCodes, getmodelCodes, getTargets, getEncryptedSearchCode, getAuthHeaders } from "./API_Worker_Functions";
-import { writeToFileIfNotExistsProducts } from "./TextUtils";
-import { productGroupNumbersOfRepxpert } from "./Variables";
+import { CrossNumberApiProduct, OutputManufacturer, OutputModelSeries, ProductCompatibilityResult, ProductReference } from "../../../../utils/Types";
+import { delay, getManufacturerCodes, getmodelCodes, getTargets, getEncryptedSearchCode, getAuthHeaders } from "../../../../utils/API_Worker_Functions";
+import { writeToFileIfNotExistsProducts } from "../../../../utils/TextUtils";
+import { productGroupNumbersOfRepxpert } from "../../../../utils/Variables";
 
 dotenv.config({ path: path.resolve(".env") });
 
@@ -210,7 +210,6 @@ export async function processProductForArticleAttributes(element: ProductReferen
     const part_2 = process.env.ARTICLE_ATTRIBUTES_URL_2 as string;
     const URL = `${part_1}${encryptedSearchCode}${part_2}`;
 
-    const headers = await getAuthHeaders();
     //console.log(headers);
     const response = await apiContext.get(URL, { headers: await getAuthHeaders() });
 
@@ -225,7 +224,7 @@ export async function processProductForArticleAttributes(element: ProductReferen
 
     for (const element of data.classifications[0].features) {
       
-      const values = Object.values(element.featureValues[0]).join(', ');
+      const values = Object.values(element.featureValues.map((value: any) => value.value)).join(', ');
       
       result.attributes.push({
         name: element.name,

@@ -1,11 +1,12 @@
-import { test } from "@playwright/test";
+import { request, test } from "@playwright/test";
 import dotenv from "dotenv";
 import path from "path";
 import fs from "fs";
 
-import { processProductFor_CrossNumbers, processProductFor_OE, processProductFor_VehicleCompatibility, processProductForArticleAttributes } from "../../../utils/api-workers";
+import { processProductFor_CrossNumbers, processProductFor_OE, processProductFor_VehicleCompatibility, processProductForArticleAttributes } from "./helpers/api-workers";
 import { referenceArray } from "../../../utils/Variables";
 import { readProductReferencesFromExcel } from "../../../utils/Excel_Utils";
+import { getAuthHeaders, getEncryptedSearchCode } from "../../../utils/API_Worker_Functions";
 
 dotenv.config({ path: path.resolve(".env") });
 const productType = process.env.PRODUCT_TYPE as string;
@@ -23,7 +24,7 @@ async function processProducts(processFunction: Function, fileName: string, thre
 
   const results = (await Promise.all(
     //productReferences
-      referenceArray
+    referenceArray
       .filter(
         (productRef) =>
           //productRef.supplier === filterBrand &&               // process only given brand in .env file
@@ -90,4 +91,18 @@ test('Get token only', async ({ request }) => {
 
 
 
+})
+
+
+test("Get only ICER products WVA numbers", async ({ request }) => {
+
+  for (const ref of referenceArray) {
+    const { yvNo, supplier, crossNumber } = ref;
+    const searchCode = await getEncryptedSearchCode(crossNumber, supplier, request);
+    const response = await request.get(`https://www.repxpert.co.uk/api/Repxpert-GB/products/${searchCode}`, { headers: await getAuthHeaders() });
+    const data = await response.json();
+
+    const tradeNumbers: string[] = data.tradeNumbers.filter((tn: string) => !tn.includes("-"));
+    console.log(`YV: ${yvNo}, Brand: ${supplier}, Cross Number: ${crossNumber}, Trade Numbers: ${tradeNumbers}`);
+  }
 })
