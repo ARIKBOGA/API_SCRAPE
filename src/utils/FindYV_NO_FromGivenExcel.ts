@@ -2,9 +2,9 @@ import path from 'path';
 import xlsx from 'xlsx';
 import { normalize_OE } from './Utility';
 
-const pool_OE_path = path.resolve(__dirname, `../output/ALL/excels/OE/ORJ_NO.xlsx`);
-const query_OE_path = path.resolve(__dirname, `../output/ALL/excels/OE/Query.xlsx`);
-const OUTPUT_PATH = path.resolve(__dirname, `../output/ALL/excels/OE/FOUND.xlsx`);
+const ORJ_NO_POOL_FILE_PATH = path.resolve(__dirname, `../output/ALL/excels/OE/ORJ_NO.xlsx`);
+const QUERY_FILE_PATH = path.resolve(__dirname, `../output/ALL/excels/OE/ETBK.xlsx`);
+const RESULT_OUTPUT_PATH = path.resolve(__dirname, `../output/ALL/excels/OE/FOUND.xlsx`);
 
 
 function excelToObjects(inputFilePath: string, sheetName: string): [Map<string, string>, Set<string>] {
@@ -65,13 +65,13 @@ export function mapToExcel(resultMap: Map<string, string[]>) {
     const ws = xlsx.utils.json_to_sheet(rowData);
     const wb = xlsx.utils.book_new();
     xlsx.utils.book_append_sheet(wb, ws, "Found OE Numbers");
-    xlsx.writeFile(wb, OUTPUT_PATH)
+    xlsx.writeFile(wb, RESULT_OUTPUT_PATH)
 }
 
 
 function main() {
-    const [full_oe_pool_map, full_oe_pool_set] = excelToObjects(pool_OE_path, "NORMALIZED_OE_NUMBERS");
-    const [query_OE_map, query_OE_set] = excelToObjects(query_OE_path, "Sayfa1");
+    const [full_oe_pool_map, full_oe_pool_set] = excelToObjects(ORJ_NO_POOL_FILE_PATH, "NORMALIZED_OE_NUMBERS");
+    const [query_OE_map, query_OE_set] = excelToObjects(QUERY_FILE_PATH, "Sayfa1");
 
     const found = findOENumbers(full_oe_pool_map, query_OE_set);
     mapToExcel(found);
