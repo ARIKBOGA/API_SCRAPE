@@ -1,0 +1,53 @@
+[
+  {
+    "yvNo": "30997B",
+    "crossNumber": "198258",
+    "supplier": "FEBI",
+    "attributes": [
+      {
+        "name": "Rim Hole Number",
+        "value": "4"
+      },
+      {
+        "name": "Width [mm]",
+        "value": "45"
+      },
+      {
+        "name": "Thickness [mm]",
+        "value": "76"
+      },
+      {
+        "name": "Inner Diameter [mm]",
+        "value": "203"
+      },
+      {
+        "name": "Outer Diameter [mm]",
+        "value": "237"
+      },
+      {
+        "name": "Bolt Hole Circle Ø [mm]",
+        "value": "100"
+      },
+      {
+        "name": "max. brake drum reboring dimension [mm]",
+        "value": "204.45"
+      },
+      {
+        "name": "Supplementary Article/Info 2",
+        "value": "with wheel bearing, with ABS sensor ring"
+      },
+      {
+        "name": "Fitting Position",
+        "value": "Rear Axle Left, Rear Axle Right"
+      },
+      {
+        "name": "Centering Diameter [mm]",
+        "value": "52.4"
+      },
+      {
+        "name": "Weight [kg]",
+        "value": "6.4"
+      }
+    ]
+  }
+]

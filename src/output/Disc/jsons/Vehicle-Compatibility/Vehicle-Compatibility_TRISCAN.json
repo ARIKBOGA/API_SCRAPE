@@ -1,0 +1,43 @@
+[
+  {
+    "yvNo": "731003",
+    "crossNumber": "8120 82010C",
+    "brand": "TRISCAN",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "MG",
+        "models": [
+          {
+            "modelSeries": "MG HS (AS23)",
+            "targets": [
+              {
+                "engine": "1.5 EHS Hybrid (CSA6463)",
+                "fullName": "MG MG HS (AS23) 1.5 EHS Hybrid (CSA6463)",
+                "constructionYearFrom": "12.2020",
+                "enginePowerKW": 190,
+                "enginePowerHP": 258,
+                "cc": 1490,
+                "engineCodes": "15E4E",
+                "kbaNumbers": "2180AAB",
+                "bodyType": "SUV",
+                "TecDocID": 143339
+              },
+              {
+                "engine": "1.5 T (SAS23)",
+                "fullName": "MG MG HS (AS23) 1.5 T (SAS23)",
+                "constructionYearFrom": "09.2018",
+                "enginePowerKW": 119,
+                "enginePowerHP": 162,
+                "cc": 1490,
+                "engineCodes": "15E4E",
+                "kbaNumbers": "2180AAN",
+                "bodyType": "SUV",
+                "TecDocID": 139504
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "yvNo": "30997B",
+    "OE": "316071091R",
+    "crossNumbers": [
+      {
+        "Supplier": "FEBI BILSTEIN",
+        "ArticleNumber": "198258",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MTAxOjE5ODI1OA"
+      },
+      {
+        "Supplier": "SWAG",
+        "ArticleNumber": "33 11 2937",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MTUxOjMzIDExIDI5Mzc"
+      }
+    ]
+  }
+]

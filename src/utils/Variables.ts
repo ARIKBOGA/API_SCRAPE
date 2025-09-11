@@ -46,6 +46,7 @@ export const SUPPLIER_NUMBERS: Record<string, string> = {
   RUVILLE: "23",
   SWAG: "151",
   TEXTAR: "39",
+  TRISCAN: "108",
   TRW: "161",
   WILMINK: "4832",
   YUMAK: "6708",
@@ -151,6 +152,9 @@ export const bodyTypes = [
 ];
 
 export const referenceArray: ProductReference[] = [
+
+  // 997B
+  {yvNo: "731003", supplier:"TRISCAN", crossNumber: "10491104"}
 
 /*
 { yvNo: "20002201", supplier: "BREMBO", crossNumber: "P 49 010" },
@@ -771,7 +775,7 @@ export const referenceArray: ProductReference[] = [
 { yvNo: "21934201", supplier: "BREMBO", crossNumber: "P 06 025" },
 { yvNo: "24727203", supplier: "BREMBO", crossNumber: "P 23 130" },
 { yvNo: "23215208", supplier: "BREMBO", crossNumber: "P 68 029" },
-{ yvNo: "20625408", supplier: "BREMBO", crossNumber: "P 59 102" },*/
+{ yvNo: "20625408", supplier: "BREMBO", crossNumber: "P 59 102" },
 { yvNo: "20341401", supplier: "ICER", crossNumber: "180324" },
 { yvNo: "21201201", supplier: "ICER", crossNumber: "181366" },
 { yvNo: "21312201", supplier: "ICER", crossNumber: "180752-701" },
@@ -795,6 +799,7 @@ export const referenceArray: ProductReference[] = [
 { yvNo: "24883401", supplier: "ICER", crossNumber: "181925-201" },
 { yvNo: "26188208", supplier: "ICER", crossNumber: "182410-203" },
 { yvNo: "29153401", supplier: "ICER", crossNumber: "141126-700" },
+*/
 
 
 

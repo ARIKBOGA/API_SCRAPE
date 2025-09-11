@@ -1,0 +1,85 @@
+[
+  {
+    "yvNo": "731003",
+    "OE": "10491104",
+    "crossNumbers": [
+      {
+        "Supplier": "COMLINE",
+        "ArticleNumber": "ADC5357",
+        "StatusCode": "in_preparation",
+        "StatusMessage": "In preparation",
+        "ApiCode": "Ext-TA-NDIxOkFEQzUzNTc"
+      },
+      {
+        "Supplier": "APEC",
+        "ArticleNumber": "DSK4191",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NDUzNzpEU0s0MTkx"
+      },
+      {
+        "Supplier": "MOTAQUIP",
+        "ArticleNumber": "LVBD2395",
+        "StatusCode": "in_preparation",
+        "StatusMessage": "In preparation",
+        "ApiCode": "Ext-TA-NDU2NDpMVkJEMjM5NQ"
+      },
+      {
+        "Supplier": "0AMS",
+        "ArticleNumber": "RGM-038",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NzUxMDpSR00tMDM4"
+      },
+      {
+        "Supplier": "ALLIED NIPPON",
+        "ArticleNumber": "AND7645",
+        "StatusCode": "in_preparation",
+        "StatusMessage": "In preparation",
+        "ApiCode": "Ext-TA-NzY2MjpBTkQ3NjQ1"
+      },
+      {
+        "Supplier": "CHITAO",
+        "ArticleNumber": "CT311739",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-NzY3NTpDVDMxMTczOQ"
+      },
+      {
+        "Supplier": "FEBI BILSTEIN",
+        "ArticleNumber": "196887",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MTAxOjE5Njg4Nw"
+      },
+      {
+        "Supplier": "TRISCAN",
+        "ArticleNumber": "8120 82010C",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MTA4OjgxMjAgODIwMTBD"
+      },
+      {
+        "Supplier": "SWAG",
+        "ArticleNumber": "33 11 2370",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MTUxOjMzIDExIDIzNzA"
+      },
+      {
+        "Supplier": "BLUE PRINT",
+        "ArticleNumber": "ADBP430233",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-MzUwOkFEQlA0MzAyMzM"
+      },
+      {
+        "Supplier": "DELPHI",
+        "ArticleNumber": "BG5292C",
+        "StatusCode": "normal",
+        "StatusMessage": "Normal",
+        "ApiCode": "Ext-TA-ODk6Qkc1MjkyQw"
+      }
+    ]
+  }
+]
