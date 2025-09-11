@@ -80,17 +80,36 @@ function convertToJSonFromExcel(filePath: string, sheetName: string) {
 
 
 function checkDoubleIndicatorsInOEnumbers() {
+
     const data: { OE: string; YV: string[] }[] = JSON.parse(fs.readFileSync(path.join(__dirname, '../resources/data/catalogInfo/jsons/ORJ_NO.json'), 'utf-8'));
 
-    data
-        .map(item => ({
-            OE: item.OE,
-            YV: Array.from(new Set(item.YV.map(yv => yv.replace(/[^0-9]/g, ''))))
-        }))
-        .filter(item => item.YV.length > 1)
-        .forEach(item => {
-            console.log(item.OE, item.YV);
-        });
+    const duplicatedData = [];
+
+    for (const item of data) {
+        if (item.YV.length > 1) {
+            const yvArray = [...item.YV];
+            for(let i = 0; i < yvArray.length; i++) {
+                yvArray[i] = yvArray[i].replace("C", "").replace("S", "").replace("B", "");
+            }
+            const yvSet = new Set(yvArray);
+            if (yvSet.size > 1) {
+                duplicatedData.push(item);
+            }
+        }
+    }
+    console.log(duplicatedData.length);
+
+    const rowData = [];
+
+    for (const item of duplicatedData) {
+        rowData.push({ OE: item.OE, YV: item.YV.join(", ") });
+    }
+
+    const workbook = xlsx.utils.book_new();
+    const worksheet = xlsx.utils.json_to_sheet(rowData);
+    xlsx.utils.book_append_sheet(workbook, worksheet, 'Sheet1');
+    xlsx.writeFile(workbook, path.resolve(__dirname, `../output/ALL/excels/OE/duplicatedOENumbers.xlsx`));
+    //fs.writeFileSync(path.resolve(__dirname, `../output/ALL/excels/OE/duplicatedOENumbers.txt`), JSON.stringify(duplicatedData, null, 2));
 }
 
 //convertToJSonFromExcel("../output/ALL/excels/OE/ORJ_NO.xlsx", "NORMALIZED_OE_NUMBERS");
