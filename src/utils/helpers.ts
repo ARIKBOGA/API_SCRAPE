@@ -42,7 +42,14 @@ export function getDateTimeAsText() {
     return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
 }
 
-
+/**
+ * Converts an Excel file to a JSON file.
+ *
+ * @param filePath The path to the Excel file.
+ * @param sheetName The name of the sheet to read from the Excel file.
+ * @craetes A JSON file contains Map of OE numbers to YV numbers as <string, string[]> 
+ * Note: This function was created to check whether any OE number represents/belongs to more than one YV number.
+ */
 function convertToJSonFromExcel(filePath: string, sheetName: string) {
 
     const wb = xlsx.readFile(path.resolve(__dirname, filePath), { cellDates: true });
