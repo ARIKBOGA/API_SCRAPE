@@ -47,8 +47,7 @@ export function getDateTimeAsText() {
  *
  * @param filePath The path to the Excel file.
  * @param sheetName The name of the sheet to read from the Excel file.
- * @craetes A JSON file contains Map of OE numbers to YV numbers as <string, string[]> 
- * Note: This function was created to check whether any OE number represents/belongs to more than one YV number.
+ * @creates A JSON file contains Map of OE numbers to YV numbers as <string, string[]> 
  */
 function convertToJSonFromExcel(filePath: string, sheetName: string) {
 
@@ -86,6 +85,9 @@ function convertToJSonFromExcel(filePath: string, sheetName: string) {
 }
 
 
+/**
+ * INFO: was created to check whether any OE number represents/belongs to more than one YV number.
+ */
 function checkDoubleIndicatorsInOEnumbers() {
 
     const data: { OE: string; YV: string[] }[] = JSON.parse(fs.readFileSync(path.join(__dirname, '../resources/data/catalogInfo/jsons/ORJ_NO.json'), 'utf-8'));
