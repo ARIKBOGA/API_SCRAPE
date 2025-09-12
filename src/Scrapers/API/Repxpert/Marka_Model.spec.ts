@@ -100,7 +100,7 @@ test.describe("Brand-Model Process", async () => {
         
 
         // Write to JSON file
-        const outputPath = path.resolve(__dirname, "../../../resources/data/catalogInfo/jsons/models_output.json");
+        const outputPath = path.resolve(__dirname, "../../../resources/data/catalogInfo/jsons/ALL_MODELS_REPXPERT.json");
         fs.writeFileSync(outputPath, JSON.stringify(output, null, 2), "utf-8");
     });
 

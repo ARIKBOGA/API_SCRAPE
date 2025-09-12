@@ -43032,8 +43032,8 @@
     "id": 6148,
     "marka_id": 89,
     "modeller_markalar::marka": "MITSUBISHI",
-    "model": "Canter (FB7, FB8, FE7, FE8) VII",
-    "model_Web": "Canter (FB7, FB8, FE7, FE8) VII"
+    "model": "Canter VII (FB7, FB8, FE7, FE8) ",
+    "model_Web": "Canter VII (FB7, FB8, FE7, FE8) "
   },
   {
     "id": 6149,
@@ -69844,5 +69844,26 @@
     "modeller_markalar::marka": "ZAZ",
     "model": "TAVRIA (1102)",
     "model_Web": "TAVRIA (1102)"
+  },
+  {
+    "id": 9979,
+    "marka_id": 126,
+    "modeller_markalar::marka": "TOFAS",
+    "model": "DOGAN SLX",
+    "model_Web": "DOGAN SLX"
+  },
+  {
+    "id": 9980,
+    "marka_id": 126,
+    "modeller_markalar::marka": "TOFAS",
+    "model": "SAHIN S",
+    "model_Web": "SAHIN S"
+  },
+  {
+    "id": 9981,
+    "marka_id": 126,
+    "modeller_markalar::marka": "TOFAS",
+    "model": "KARTAL 14\"",
+    "model_Web": "KARTAL 14\""
   }
 ]
