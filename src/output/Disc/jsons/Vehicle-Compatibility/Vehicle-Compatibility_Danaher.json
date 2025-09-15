@@ -1,0 +1,2223 @@
+[
+  {
+    "yvNo": "151006",
+    "crossNumber": "DR12629",
+    "brand": "DANAHER",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "HONDA",
+        "models": [
+          {
+            "modelSeries": "CIVIC IV Hatchback (EC, ED, EE, EF) | BALLADE",
+            "targets": [
+              {
+                "engine": "1.6 i 16V Vtec (EE9)",
+                "fullName": "HONDA CIVIC IV Hatchback (EC, ED, EE, EF) | BALLADE 1.6 i 16V Vtec (EE9)",
+                "constructionYearFrom": "10.1989",
+                "constructionYearTo": "09.1991",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1595,
+                "engineCodes": "B16A1",
+                "kbaNumbers": "7100471",
+                "bodyType": "Hatchback",
+                "TecDocID": 4135
+              }
+            ]
+          },
+          {
+            "modelSeries": "CIVIC V Coupe (EJ)",
+            "targets": [
+              {
+                "engine": "1.6 i Vtec (EJ1)",
+                "fullName": "HONDA CIVIC V Coupe (EJ) 1.6 i Vtec (EJ1)",
+                "constructionYearFrom": "01.1994",
+                "constructionYearTo": "03.1996",
+                "enginePowerKW": 92,
+                "enginePowerHP": 125,
+                "cc": 1590,
+                "engineCodes": "D16Y6, D16Z9",
+                "kbaNumbers": "1153305",
+                "bodyType": "Coupe",
+                "TecDocID": 4292
+              }
+            ]
+          },
+          {
+            "modelSeries": "CIVIC V Hatchback (EG, EH)",
+            "targets": [
+              {
+                "engine": "1.6 16V Vtec (EG5, EH3)",
+                "fullName": "HONDA CIVIC V Hatchback (EG, EH) 1.6 16V Vtec (EG5, EH3)",
+                "constructionYearFrom": "10.1991",
+                "constructionYearTo": "11.1995",
+                "enginePowerKW": 92,
+                "enginePowerHP": 125,
+                "cc": 1590,
+                "engineCodes": "D16Z6",
+                "kbaNumbers": "7100478",
+                "bodyType": "Hatchback",
+                "TecDocID": 4265
+              },
+              {
+                "engine": "1.6 VTi 16V (EG6)",
+                "fullName": "HONDA CIVIC V Hatchback (EG, EH) 1.6 VTi 16V (EG6)",
+                "constructionYearFrom": "10.1991",
+                "constructionYearTo": "11.1995",
+                "enginePowerKW": 118,
+                "enginePowerHP": 160,
+                "cc": 1595,
+                "engineCodes": "B16A2",
+                "kbaNumbers": "7100477",
+                "bodyType": "Hatchback",
+                "TecDocID": 4267
+              }
+            ]
+          },
+          {
+            "modelSeries": "CIVIC V Saloon (EG, EH) | BALLADE",
+            "targets": [
+              {
+                "engine": "1.5 (EG8)",
+                "fullName": "HONDA CIVIC V Saloon (EG, EH) | BALLADE 1.5 (EG8)",
+                "constructionYearFrom": "10.1991",
+                "constructionYearTo": "12.1995",
+                "enginePowerKW": 74,
+                "enginePowerHP": 101,
+                "cc": 1493,
+                "engineCodes": "D15B2, D15Z1, D15B7",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 29531
+              },
+              {
+                "engine": "1.6 16V Vtec (EH9, EH5)",
+                "fullName": "HONDA CIVIC V Saloon (EG, EH) | BALLADE 1.6 16V Vtec (EH9, EH5)",
+                "constructionYearFrom": "10.1991",
+                "constructionYearTo": "11.1995",
+                "enginePowerKW": 92,
+                "enginePowerHP": 125,
+                "cc": 1590,
+                "engineCodes": "D16Z6, D16Z7",
+                "kbaNumbers": "7100479",
+                "bodyType": "Saloon",
+                "TecDocID": 4276
+              },
+              {
+                "engine": "1.6 4x4",
+                "fullName": "HONDA CIVIC V Saloon (EG, EH) | BALLADE 1.6 4x4",
+                "constructionYearFrom": "01.1992",
+                "constructionYearTo": "10.1995",
+                "enginePowerKW": 92,
+                "enginePowerHP": 125,
+                "cc": 1590,
+                "engineCodes": "D16Z7",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 21390
+              },
+              {
+                "engine": "1.6 VTi (EG9)",
+                "fullName": "HONDA CIVIC V Saloon (EG, EH) | BALLADE 1.6 VTi (EG9)",
+                "constructionYearFrom": "10.1991",
+                "constructionYearTo": "11.1995",
+                "enginePowerKW": 118,
+                "enginePowerHP": 160,
+                "cc": 1595,
+                "engineCodes": "B16A2",
+                "kbaNumbers": "7100476",
+                "bodyType": "Saloon",
+                "TecDocID": 4277
+              }
+            ]
+          },
+          {
+            "modelSeries": "CIVIC VI Aerodeck (MB, MC)",
+            "targets": [
+              {
+                "engine": "1.4 16V (MB8)",
+                "fullName": "HONDA CIVIC VI Aerodeck (MB, MC) 1.4 16V (MB8)",
+                "constructionYearFrom": "04.1998",
+                "constructionYearTo": "02.2001",
+                "enginePowerKW": 55,
+                "enginePowerHP": 75,
+                "cc": 1396,
+                "engineCodes": "D14A7, D14Z3",
+                "kbaNumbers": "2131320",
+                "bodyType": "Estate",
+                "TecDocID": 9543
+              },
+              {
+                "engine": "1.4 16V (MB8)",
+                "fullName": "HONDA CIVIC VI Aerodeck (MB, MC) 1.4 16V (MB8)",
+                "constructionYearFrom": "04.1998",
+                "constructionYearTo": "02.2001",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 1396,
+                "engineCodes": "D14A8, D14Z4",
+                "kbaNumbers": "2131321",
+                "bodyType": "Estate",
+                "TecDocID": 9544
+              },
+              {
+                "engine": "1.5 16V (MB9)",
+                "fullName": "HONDA CIVIC VI Aerodeck (MB, MC) 1.5 16V (MB9)",
+                "constructionYearFrom": "04.1998",
+                "constructionYearTo": "02.2001",
+                "enginePowerKW": 84,
+                "enginePowerHP": 114,
+                "cc": 1493,
+                "engineCodes": "D15Z8",
+                "kbaNumbers": "2131322",
+                "bodyType": "Estate",
+                "TecDocID": 9545
+              },
+              {
+                "engine": "1.6 16V (MC1)",
+                "fullName": "HONDA CIVIC VI Aerodeck (MB, MC) 1.6 16V (MC1)",
+                "constructionYearFrom": "04.1998",
+                "constructionYearTo": "02.2001",
+                "enginePowerKW": 85,
+                "enginePowerHP": 116,
+                "cc": 1590,
+                "engineCodes": "D16B2, D16W3",
+                "kbaNumbers": "2131318",
+                "bodyType": "Estate",
+                "TecDocID": 9546
+              },
+              {
+                "engine": "1.6 16V (MC1)",
+                "fullName": "HONDA CIVIC VI Aerodeck (MB, MC) 1.6 16V (MC1)",
+                "constructionYearFrom": "04.1998",
+                "constructionYearTo": "02.2001",
+                "enginePowerKW": 92,
+                "enginePowerHP": 125,
+                "cc": 1590,
+                "engineCodes": "D16W4",
+                "kbaNumbers": "2131333",
+                "bodyType": "Estate",
+                "TecDocID": 54963
+              },
+              {
+                "engine": "2.0 i D (MC3)",
+                "fullName": "HONDA CIVIC VI Aerodeck (MB, MC) 2.0 i D (MC3)",
+                "constructionYearFrom": "04.1998",
+                "constructionYearTo": "02.2001",
+                "enginePowerKW": 77,
+                "enginePowerHP": 105,
+                "cc": 1994,
+                "engineCodes": "20T2N",
+                "kbaNumbers": "2131323",
+                "bodyType": "Estate",
+                "TecDocID": 9548
+              }
+            ]
+          },
+          {
+            "modelSeries": "CIVIC VI Coupe (EJ, EM1)",
+            "targets": [
+              {
+                "engine": "1.6 (EJ6)",
+                "fullName": "HONDA CIVIC VI Coupe (EJ, EM1) 1.6 (EJ6)",
+                "constructionYearFrom": "05.1996",
+                "constructionYearTo": "04.1999",
+                "enginePowerKW": 79,
+                "enginePowerHP": 107,
+                "cc": 1590,
+                "engineCodes": "D16Y7",
+                "kbaNumbers": "",
+                "bodyType": "Coupe",
+                "TecDocID": 29591
+              },
+              {
+                "engine": "1.6 i (EJ6)",
+                "fullName": "HONDA CIVIC VI Coupe (EJ, EM1) 1.6 i (EJ6)",
+                "constructionYearFrom": "03.1996",
+                "constructionYearTo": "03.2000",
+                "enginePowerKW": 77,
+                "enginePowerHP": 105,
+                "cc": 1590,
+                "engineCodes": "D16Y7",
+                "kbaNumbers": "1153310",
+                "bodyType": "Coupe",
+                "TecDocID": 17525
+              },
+              {
+                "engine": "1.6 i Vtec (EM1)",
+                "fullName": "HONDA CIVIC VI Coupe (EJ, EM1) 1.6 i Vtec (EM1)",
+                "constructionYearFrom": "03.1996",
+                "constructionYearTo": "03.2000",
+                "enginePowerKW": 92,
+                "enginePowerHP": 125,
+                "cc": 1590,
+                "engineCodes": "D16Y8",
+                "kbaNumbers": "1153311",
+                "bodyType": "Coupe",
+                "TecDocID": 17524
+              },
+              {
+                "engine": "1.6 i Vtec (EM1)",
+                "fullName": "HONDA CIVIC VI Coupe (EJ, EM1) 1.6 i Vtec (EM1)",
+                "constructionYearFrom": "04.1999",
+                "constructionYearTo": "12.2000",
+                "enginePowerKW": 118,
+                "enginePowerHP": 160,
+                "cc": 1595,
+                "engineCodes": "B16A2",
+                "kbaNumbers": "1153314",
+                "bodyType": "Coupe",
+                "TecDocID": 18832
+              }
+            ]
+          },
+          {
+            "modelSeries": "CIVIC VI Fastback (MA, MB)",
+            "targets": [
+              {
+                "engine": "1.4 i (MA8, MB2)",
+                "fullName": "HONDA CIVIC VI Fastback (MA, MB) 1.4 i (MA8, MB2)",
+                "constructionYearFrom": "06.1995",
+                "constructionYearTo": "02.2001",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 1396,
+                "engineCodes": "D14A6, D14Z4, D14A8, D14A2",
+                "kbaNumbers": "2131306, 2131313",
+                "bodyType": "Hatchback",
+                "TecDocID": 4291
+              },
+              {
+                "engine": "1.4 i (MA8, MB2)",
+                "fullName": "HONDA CIVIC VI Fastback (MA, MB) 1.4 i (MA8, MB2)",
+                "constructionYearFrom": "09.1995",
+                "constructionYearTo": "02.2001",
+                "enginePowerKW": 55,
+                "enginePowerHP": 75,
+                "cc": 1396,
+                "engineCodes": "D14Z3, D14A7, D14A5",
+                "kbaNumbers": "2131307, 2131312",
+                "bodyType": "Hatchback",
+                "TecDocID": 5359
+              },
+              {
+                "engine": "1.5 i Vtec-E (MA9)",
+                "fullName": "HONDA CIVIC VI Fastback (MA, MB) 1.5 i Vtec-E (MA9)",
+                "constructionYearFrom": "09.1994",
+                "constructionYearTo": "01.1997",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 1493,
+                "engineCodes": "D15Z3",
+                "kbaNumbers": "2131305",
+                "bodyType": "Hatchback",
+                "TecDocID": 4289
+              },
+              {
+                "engine": "1.6 (MB4)",
+                "fullName": "HONDA CIVIC VI Fastback (MA, MB) 1.6 (MB4)",
+                "constructionYearFrom": "11.1998",
+                "constructionYearTo": "02.2001",
+                "enginePowerKW": 92,
+                "enginePowerHP": 125,
+                "cc": 1590,
+                "engineCodes": "D16W4",
+                "kbaNumbers": "2131332",
+                "bodyType": "Hatchback",
+                "TecDocID": 20511
+              },
+              {
+                "engine": "1.6 i (MB1)",
+                "fullName": "HONDA CIVIC VI Fastback (MA, MB) 1.6 i (MB1)",
+                "constructionYearFrom": "09.1994",
+                "constructionYearTo": "01.1997",
+                "enginePowerKW": 83,
+                "enginePowerHP": 113,
+                "cc": 1590,
+                "engineCodes": "D16Y3",
+                "kbaNumbers": "2131303",
+                "bodyType": "Hatchback",
+                "TecDocID": 4286
+              },
+              {
+                "engine": "1.6 i Vtec (MB1)",
+                "fullName": "HONDA CIVIC VI Fastback (MA, MB) 1.6 i Vtec (MB1)",
+                "constructionYearFrom": "09.1994",
+                "constructionYearTo": "01.1997",
+                "enginePowerKW": 93,
+                "enginePowerHP": 126,
+                "cc": 1590,
+                "engineCodes": "D16Y2",
+                "kbaNumbers": "2131304",
+                "bodyType": "Hatchback",
+                "TecDocID": 4288
+              },
+              {
+                "engine": "2.0 TDiC (MB7)",
+                "fullName": "HONDA CIVIC VI Fastback (MA, MB) 2.0 TDiC (MB7)",
+                "constructionYearFrom": "11.1998",
+                "constructionYearTo": "10.2000",
+                "enginePowerKW": 74,
+                "enginePowerHP": 101,
+                "cc": 1994,
+                "engineCodes": "20T2N",
+                "kbaNumbers": "2131340",
+                "bodyType": "Hatchback",
+                "TecDocID": 54964
+              },
+              {
+                "engine": "2.0 TDiC (MB7)",
+                "fullName": "HONDA CIVIC VI Fastback (MA, MB) 2.0 TDiC (MB7)",
+                "constructionYearFrom": "11.1998",
+                "constructionYearTo": "10.2000",
+                "enginePowerKW": 77,
+                "enginePowerHP": 105,
+                "cc": 1994,
+                "engineCodes": "20T2N",
+                "kbaNumbers": "2131329",
+                "bodyType": "Hatchback",
+                "TecDocID": 27822
+              }
+            ]
+          },
+          {
+            "modelSeries": "CIVIC VI Hatchback (EJ, EK)",
+            "targets": [
+              {
+                "engine": "1.4 i (EJ9)",
+                "fullName": "HONDA CIVIC VI Hatchback (EJ, EK) 1.4 i (EJ9)",
+                "constructionYearFrom": "11.1995",
+                "constructionYearTo": "02.2001",
+                "enginePowerKW": 55,
+                "enginePowerHP": 75,
+                "cc": 1396,
+                "engineCodes": "D14Z1, D14A3",
+                "kbaNumbers": "7100497",
+                "bodyType": "Hatchback",
+                "TecDocID": 5196
+              },
+              {
+                "engine": "1.4 i S (EJ9)",
+                "fullName": "HONDA CIVIC VI Hatchback (EJ, EK) 1.4 i S (EJ9)",
+                "constructionYearFrom": "11.1995",
+                "constructionYearTo": "02.2001",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 1396,
+                "engineCodes": "D14Z2, D14A4, D14Z4",
+                "kbaNumbers": "7100498",
+                "bodyType": "Hatchback",
+                "TecDocID": 5197
+              },
+              {
+                "engine": "1.4 LPG",
+                "fullName": "HONDA CIVIC VI Hatchback (EJ, EK) 1.4 LPG",
+                "constructionYearFrom": "01.1997",
+                "constructionYearTo": "02.2001",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 1396,
+                "engineCodes": "D14Z4",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback",
+                "TecDocID": 55935
+              },
+              {
+                "engine": "1.5",
+                "fullName": "HONDA CIVIC VI Hatchback (EJ, EK) 1.5",
+                "constructionYearFrom": "11.1995",
+                "constructionYearTo": "12.1996",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 1493,
+                "engineCodes": "D15Z3",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback",
+                "TecDocID": 25155
+              },
+              {
+                "engine": "1.5 i (EK3)",
+                "fullName": "HONDA CIVIC VI Hatchback (EJ, EK) 1.5 i (EK3)",
+                "constructionYearFrom": "11.1995",
+                "constructionYearTo": "02.2001",
+                "enginePowerKW": 84,
+                "enginePowerHP": 114,
+                "cc": 1493,
+                "engineCodes": "D15Z6",
+                "kbaNumbers": "7100500",
+                "bodyType": "Hatchback",
+                "TecDocID": 5199
+              },
+              {
+                "engine": "1.6",
+                "fullName": "HONDA CIVIC VI Hatchback (EJ, EK) 1.6",
+                "constructionYearFrom": "10.1995",
+                "constructionYearTo": "12.2000",
+                "enginePowerKW": 79,
+                "enginePowerHP": 107,
+                "cc": 1590,
+                "engineCodes": "D16Y7",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback",
+                "TecDocID": 44257
+              },
+              {
+                "engine": "1.6 (MB1)",
+                "fullName": "HONDA CIVIC VI Hatchback (EJ, EK) 1.6 (MB1)",
+                "constructionYearFrom": "10.1995",
+                "constructionYearTo": "03.2001",
+                "enginePowerKW": 93,
+                "enginePowerHP": 126,
+                "cc": 1590,
+                "engineCodes": "D16Y2",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback",
+                "TecDocID": 29538
+              },
+              {
+                "engine": "1.6 (MB4)",
+                "fullName": "HONDA CIVIC VI Hatchback (EJ, EK) 1.6 (MB4)",
+                "constructionYearFrom": "11.1998",
+                "constructionYearTo": "03.2001",
+                "enginePowerKW": 92,
+                "enginePowerHP": 125,
+                "cc": 1590,
+                "engineCodes": "D16W4",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback",
+                "TecDocID": 20440
+              },
+              {
+                "engine": "1.6 i (EK1)",
+                "fullName": "HONDA CIVIC VI Hatchback (EJ, EK) 1.6 i (EK1)",
+                "constructionYearFrom": "11.1995",
+                "constructionYearTo": "02.2001",
+                "enginePowerKW": 84,
+                "enginePowerHP": 114,
+                "cc": 1590,
+                "engineCodes": "D16Y5",
+                "kbaNumbers": "7100502",
+                "bodyType": "Hatchback",
+                "TecDocID": 5198
+              },
+              {
+                "engine": "1.6 VTi (EK4)",
+                "fullName": "HONDA CIVIC VI Hatchback (EJ, EK) 1.6 VTi (EK4)",
+                "constructionYearFrom": "11.1995",
+                "constructionYearTo": "02.2001",
+                "enginePowerKW": 118,
+                "enginePowerHP": 160,
+                "cc": 1595,
+                "engineCodes": "B16A2",
+                "kbaNumbers": "7100503",
+                "bodyType": "Hatchback",
+                "TecDocID": 5200
+              }
+            ]
+          },
+          {
+            "modelSeries": "CIVIC VI Saloon (EJ, EK, SO) | BALLADE | INTEGRA SJ",
+            "targets": [
+              {
+                "engine": "1.4 (EJ9)",
+                "fullName": "HONDA CIVIC VI Saloon (EJ, EK, SO) | BALLADE | INTEGRA SJ 1.4 (EJ9)",
+                "constructionYearFrom": "11.1995",
+                "constructionYearTo": "10.1998",
+                "enginePowerKW": 55,
+                "enginePowerHP": 75,
+                "cc": 1396,
+                "engineCodes": "D14A4",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 20441
+              },
+              {
+                "engine": "1.4 i (EJ9)",
+                "fullName": "HONDA CIVIC VI Saloon (EJ, EK, SO) | BALLADE | INTEGRA SJ 1.4 i (EJ9)",
+                "constructionYearFrom": "11.1995",
+                "constructionYearTo": "02.2001",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 1396,
+                "engineCodes": "D14Z4, D14Z2, D14A4",
+                "kbaNumbers": "7100499",
+                "bodyType": "Saloon",
+                "TecDocID": 5201
+              },
+              {
+                "engine": "1.5 i (EK3)",
+                "fullName": "HONDA CIVIC VI Saloon (EJ, EK, SO) | BALLADE | INTEGRA SJ 1.5 i (EK3)",
+                "constructionYearFrom": "11.1995",
+                "constructionYearTo": "02.2001",
+                "enginePowerKW": 84,
+                "enginePowerHP": 114,
+                "cc": 1493,
+                "engineCodes": "D15Z6, D15Z4, D15Z7",
+                "kbaNumbers": "7100501",
+                "bodyType": "Saloon",
+                "TecDocID": 5202
+              },
+              {
+                "engine": "1.6 i Vtec (EK1, SO4)",
+                "fullName": "HONDA CIVIC VI Saloon (EJ, EK, SO) | BALLADE | INTEGRA SJ 1.6 i Vtec (EK1, SO4)",
+                "constructionYearFrom": "11.1995",
+                "constructionYearTo": "02.2001",
+                "enginePowerKW": 92,
+                "enginePowerHP": 125,
+                "cc": 1590,
+                "engineCodes": "D16Y6, D16Y8, D16Y5",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 14901
+              },
+              {
+                "engine": "1.6 VTi (EK4, SO4)",
+                "fullName": "HONDA CIVIC VI Saloon (EJ, EK, SO) | BALLADE | INTEGRA SJ 1.6 VTi (EK4, SO4)",
+                "constructionYearFrom": "11.1995",
+                "constructionYearTo": "02.2001",
+                "enginePowerKW": 118,
+                "enginePowerHP": 160,
+                "cc": 1595,
+                "engineCodes": "B16A2",
+                "kbaNumbers": "7100504",
+                "bodyType": "Saloon",
+                "TecDocID": 5203
+              }
+            ]
+          },
+          {
+            "modelSeries": "CIVIC VII Coupe (EM2)",
+            "targets": [
+              {
+                "engine": "1.6 i (EM1)",
+                "fullName": "HONDA CIVIC VII Coupe (EM2) 1.6 i (EM1)",
+                "constructionYearFrom": "02.2001",
+                "constructionYearTo": "12.2005",
+                "enginePowerKW": 81,
+                "enginePowerHP": 110,
+                "cc": 1590,
+                "engineCodes": "D16V1",
+                "kbaNumbers": "",
+                "bodyType": "Coupe",
+                "TecDocID": 15527
+              },
+              {
+                "engine": "1.7 i (EM2)",
+                "fullName": "HONDA CIVIC VII Coupe (EM2) 1.7 i (EM2)",
+                "constructionYearFrom": "05.2001",
+                "constructionYearTo": "12.2005",
+                "enginePowerKW": 88,
+                "enginePowerHP": 120,
+                "cc": 1668,
+                "engineCodes": "D17A8",
+                "kbaNumbers": "1153315",
+                "bodyType": "Coupe",
+                "TecDocID": 16262
+              },
+              {
+                "engine": "1.7 i VTEC (EM2)",
+                "fullName": "HONDA CIVIC VII Coupe (EM2) 1.7 i VTEC (EM2)",
+                "constructionYearFrom": "05.2001",
+                "constructionYearTo": "12.2005",
+                "enginePowerKW": 92,
+                "enginePowerHP": 125,
+                "cc": 1668,
+                "engineCodes": "D17A9, D17A5",
+                "kbaNumbers": "1153316",
+                "bodyType": "Coupe",
+                "TecDocID": 16263
+              }
+            ]
+          },
+          {
+            "modelSeries": "CIVIC VII Hatchback (EU, EP, EV)",
+            "targets": [
+              {
+                "engine": "1.4 i (EP1, EU7)",
+                "fullName": "HONDA CIVIC VII Hatchback (EU, EP, EV) 1.4 i (EP1, EU7)",
+                "constructionYearFrom": "02.2001",
+                "constructionYearTo": "09.2005",
+                "enginePowerKW": 55,
+                "enginePowerHP": 75,
+                "cc": 1396,
+                "engineCodes": "D14Z6",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback",
+                "TecDocID": 15934
+              },
+              {
+                "engine": "1.4 iS (EP1, EU5, EU7)",
+                "fullName": "HONDA CIVIC VII Hatchback (EU, EP, EV) 1.4 iS (EP1, EU5, EU7)",
+                "constructionYearFrom": "11.2000",
+                "constructionYearTo": "09.2005",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 1396,
+                "engineCodes": "D14Z6, D14Z5",
+                "kbaNumbers": "7100527, 2131344, 2131347",
+                "bodyType": "Hatchback",
+                "TecDocID": 15525
+              },
+              {
+                "engine": "1.6 i (EP2, EU8, EU6)",
+                "fullName": "HONDA CIVIC VII Hatchback (EU, EP, EV) 1.6 i (EP2, EU8, EU6)",
+                "constructionYearFrom": "02.2001",
+                "constructionYearTo": "09.2005",
+                "enginePowerKW": 81,
+                "enginePowerHP": 110,
+                "cc": 1590,
+                "engineCodes": "D16W7, D16V1",
+                "kbaNumbers": "7100528, 2131345, 2131348",
+                "bodyType": "Hatchback",
+                "TecDocID": 15526
+              }
+            ]
+          },
+          {
+            "modelSeries": "CIVIC VII Saloon (ES, ET) | CIVIC FERIO",
+            "targets": [
+              {
+                "engine": "1.3 IMA (ED9, ES9)",
+                "fullName": "HONDA CIVIC VII Saloon (ES, ET) | CIVIC FERIO 1.3 IMA (ED9, ES9)",
+                "constructionYearFrom": "10.2003",
+                "constructionYearTo": "09.2005",
+                "enginePowerKW": 61,
+                "enginePowerHP": 83,
+                "cc": 1339,
+                "engineCodes": "LDA1",
+                "kbaNumbers": "7100544",
+                "bodyType": "Saloon",
+                "TecDocID": 17802
+              },
+              {
+                "engine": "1.4 (ES4)",
+                "fullName": "HONDA CIVIC VII Saloon (ES, ET) | CIVIC FERIO 1.4 (ES4)",
+                "constructionYearFrom": "12.2000",
+                "constructionYearTo": "09.2005",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 1396,
+                "engineCodes": "D14Z5",
+                "kbaNumbers": "7100529",
+                "bodyType": "Saloon",
+                "TecDocID": 18468
+              },
+              {
+                "engine": "1.5 (ES8)",
+                "fullName": "HONDA CIVIC VII Saloon (ES, ET) | CIVIC FERIO 1.5 (ES8)",
+                "constructionYearFrom": "02.2003",
+                "constructionYearTo": "09.2005",
+                "enginePowerKW": 82,
+                "enginePowerHP": 112,
+                "cc": 1493,
+                "engineCodes": "D15Y3",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 59695
+              },
+              {
+                "engine": "1.6 (ES5)",
+                "fullName": "HONDA CIVIC VII Saloon (ES, ET) | CIVIC FERIO 1.6 (ES5)",
+                "constructionYearFrom": "02.2001",
+                "constructionYearTo": "09.2005",
+                "enginePowerKW": 81,
+                "enginePowerHP": 110,
+                "cc": 1590,
+                "engineCodes": "D16W7",
+                "kbaNumbers": "7100530",
+                "bodyType": "Saloon",
+                "TecDocID": 18469
+              },
+              {
+                "engine": "1.7",
+                "fullName": "HONDA CIVIC VII Saloon (ES, ET) | CIVIC FERIO 1.7",
+                "constructionYearFrom": "02.2001",
+                "constructionYearTo": "09.2005",
+                "enginePowerKW": 85,
+                "enginePowerHP": 116,
+                "cc": 1668,
+                "engineCodes": "D17A6",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 16103
+              }
+            ]
+          },
+          {
+            "modelSeries": "CIVIC VIII Saloon (FD, FA)",
+            "targets": [
+              {
+                "engine": "1.3 IMA (FA3, FD3)",
+                "fullName": "HONDA CIVIC VIII Saloon (FD, FA) 1.3 IMA (FA3, FD3)",
+                "constructionYearFrom": "01.2006",
+                "constructionYearTo": "12.2012",
+                "enginePowerKW": 70,
+                "enginePowerHP": 95,
+                "cc": 1339,
+                "engineCodes": "LDA2",
+                "kbaNumbers": "7100AAM",
+                "bodyType": "Saloon",
+                "TecDocID": 19302
+              }
+            ]
+          },
+          {
+            "modelSeries": "CRX II (ED, EE)",
+            "targets": [
+              {
+                "engine": "1.6 i 16V Vtec (EE8)",
+                "fullName": "HONDA CRX II (ED, EE) 1.6 i 16V Vtec (EE8)",
+                "constructionYearFrom": "10.1989",
+                "constructionYearTo": "02.1992",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1595,
+                "engineCodes": "B16A1",
+                "kbaNumbers": "7100470",
+                "bodyType": "Coupe",
+                "TecDocID": 4230
+              }
+            ]
+          },
+          {
+            "modelSeries": "CRX III (EH, EG) | CIVIC del Sol",
+            "targets": [
+              {
+                "engine": "1.5 (EG1)",
+                "fullName": "HONDA CRX III (EH, EG) | CIVIC del Sol 1.5 (EG1)",
+                "constructionYearFrom": "01.1994",
+                "constructionYearTo": "04.1998",
+                "enginePowerKW": 77,
+                "enginePowerHP": 105,
+                "cc": 1493,
+                "engineCodes": "D15B7",
+                "kbaNumbers": "",
+                "bodyType": "Targa",
+                "TecDocID": 21394
+              },
+              {
+                "engine": "1.6 ESi (EH6)",
+                "fullName": "HONDA CRX III (EH, EG) | CIVIC del Sol 1.6 ESi (EH6)",
+                "constructionYearFrom": "03.1992",
+                "constructionYearTo": "12.1998",
+                "enginePowerKW": 92,
+                "enginePowerHP": 125,
+                "cc": 1590,
+                "engineCodes": "D16Z6, D16Y8",
+                "kbaNumbers": "7100486",
+                "bodyType": "Targa",
+                "TecDocID": 4232
+              },
+              {
+                "engine": "1.6 i VTi (EG2)",
+                "fullName": "HONDA CRX III (EH, EG) | CIVIC del Sol 1.6 i VTi (EG2)",
+                "constructionYearFrom": "03.1992",
+                "constructionYearTo": "12.1998",
+                "enginePowerKW": 118,
+                "enginePowerHP": 160,
+                "cc": 1595,
+                "engineCodes": "B16A2, B16A3",
+                "kbaNumbers": "7100485",
+                "bodyType": "Targa",
+                "TecDocID": 4233
+              }
+            ]
+          },
+          {
+            "modelSeries": "DOMANI (MB_)",
+            "targets": [
+              {
+                "engine": "1.6 All-wheel Drive (MB5)",
+                "fullName": "HONDA DOMANI (MB_) 1.6 All-wheel Drive (MB5)",
+                "constructionYearFrom": "10.1995",
+                "constructionYearTo": "09.1999",
+                "enginePowerKW": 88,
+                "enginePowerHP": 120,
+                "cc": 1590,
+                "engineCodes": "D16Z2, D16A",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 30531
+              }
+            ]
+          },
+          {
+            "modelSeries": "INSIGHT (ZE_)",
+            "targets": [
+              {
+                "engine": "1.3 IMA (ZE2)",
+                "fullName": "HONDA INSIGHT (ZE_) 1.3 IMA (ZE2)",
+                "constructionYearFrom": "04.2009",
+                "enginePowerKW": 73,
+                "enginePowerHP": 99,
+                "cc": 1339,
+                "engineCodes": "LDA3",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback",
+                "TecDocID": 56184
+              },
+              {
+                "engine": "1.3 IMA (ZE28, ZE2)",
+                "fullName": "HONDA INSIGHT (ZE_) 1.3 IMA (ZE28, ZE2)",
+                "constructionYearFrom": "04.2009",
+                "enginePowerKW": 65,
+                "enginePowerHP": 88,
+                "cc": 1339,
+                "engineCodes": "LDA3",
+                "kbaNumbers": "7100ABM",
+                "bodyType": "Hatchback",
+                "TecDocID": 31104
+              }
+            ]
+          },
+          {
+            "modelSeries": "INTEGRA Coupe (DC)",
+            "targets": [
+              {
+                "engine": "1.8 (DC2)",
+                "fullName": "HONDA INTEGRA Coupe (DC) 1.8 (DC2)",
+                "constructionYearFrom": "07.1993",
+                "constructionYearTo": "11.2001",
+                "enginePowerKW": 107,
+                "enginePowerHP": 146,
+                "cc": 1834,
+                "engineCodes": "B18B2",
+                "kbaNumbers": "",
+                "bodyType": "Coupe",
+                "TecDocID": 33203
+              },
+              {
+                "engine": "1.8 SiR (DC2)",
+                "fullName": "HONDA INTEGRA Coupe (DC) 1.8 SiR (DC2)",
+                "constructionYearFrom": "09.1993",
+                "constructionYearTo": "08.2001",
+                "enginePowerKW": 132,
+                "enginePowerHP": 180,
+                "cc": 1797,
+                "engineCodes": "B18C",
+                "kbaNumbers": "",
+                "bodyType": "Coupe",
+                "TecDocID": 57543
+              },
+              {
+                "engine": "1.8 VTiR (DC2)",
+                "fullName": "HONDA INTEGRA Coupe (DC) 1.8 VTiR (DC2)",
+                "constructionYearFrom": "07.1993",
+                "constructionYearTo": "11.1999",
+                "enginePowerKW": 127,
+                "enginePowerHP": 173,
+                "cc": 1797,
+                "engineCodes": "B18C1",
+                "kbaNumbers": "",
+                "bodyType": "Coupe",
+                "TecDocID": 57289
+              }
+            ]
+          },
+          {
+            "modelSeries": "INTEGRA Saloon (DA5, DA6, DA7, DA8, DA9, DB1, DB2)",
+            "targets": [
+              {
+                "engine": "1.6 (DA5)",
+                "fullName": "HONDA INTEGRA Saloon (DA5, DA6, DA7, DA8, DA9, DB1, DB2) 1.6 (DA5)",
+                "constructionYearFrom": "06.1989",
+                "constructionYearTo": "07.1993",
+                "enginePowerKW": 88,
+                "enginePowerHP": 120,
+                "cc": 1590,
+                "engineCodes": "ZC",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 131773
+              }
+            ]
+          },
+          {
+            "modelSeries": "JAZZ III (GE_, GG_, GP_, ZA_) | FIT",
+            "targets": [
+              {
+                "engine": "1.2 (GG1)",
+                "fullName": "HONDA JAZZ III (GE_, GG_, GP_, ZA_) | FIT 1.2 (GG1)",
+                "constructionYearFrom": "07.2008",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 1198,
+                "engineCodes": "L12B1, L12B2",
+                "kbaNumbers": "2131AAM, 7100ABK, 7475AAC",
+                "bodyType": "Hatchback",
+                "TecDocID": 30359
+              },
+              {
+                "engine": "1.3 HYBRID (GP1)",
+                "fullName": "HONDA JAZZ III (GE_, GG_, GP_, ZA_) | FIT 1.3 HYBRID (GP1)",
+                "constructionYearFrom": "04.2011",
+                "enginePowerKW": 75,
+                "enginePowerHP": 102,
+                "cc": 1339,
+                "engineCodes": "LDA3",
+                "kbaNumbers": "7100ABV",
+                "bodyType": "Hatchback",
+                "TecDocID": 9114
+              },
+              {
+                "engine": "1.3 i (GE6, GG3, GG6)",
+                "fullName": "HONDA JAZZ III (GE_, GG_, GP_, ZA_) | FIT 1.3 i (GE6, GG3, GG6)",
+                "constructionYearFrom": "07.2008",
+                "enginePowerKW": 73,
+                "enginePowerHP": 100,
+                "cc": 1339,
+                "engineCodes": "L13Z2, L13Z1, L13A",
+                "kbaNumbers": "2131AAN, 7100ABL, 7475AAD",
+                "bodyType": "Hatchback",
+                "TecDocID": 30358
+              },
+              {
+                "engine": "1.4",
+                "fullName": "HONDA JAZZ III (GE_, GG_, GP_, ZA_) | FIT 1.4",
+                "constructionYearFrom": "11.2008",
+                "enginePowerKW": 74,
+                "enginePowerHP": 101,
+                "cc": 1339,
+                "engineCodes": "L13Z1",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback",
+                "TecDocID": 12959
+              }
+            ]
+          },
+          {
+            "modelSeries": "JAZZ IV (GK_) | FIT",
+            "targets": [
+              {
+                "engine": "1.3",
+                "fullName": "HONDA JAZZ IV (GK_) | FIT 1.3",
+                "constructionYearFrom": "09.2015",
+                "enginePowerKW": 75,
+                "enginePowerHP": 102,
+                "cc": 1318,
+                "engineCodes": "L13B2, L13B",
+                "kbaNumbers": "7100ACV",
+                "bodyType": "Hatchback",
+                "TecDocID": 116390
+              },
+              {
+                "engine": "1.5",
+                "fullName": "HONDA JAZZ IV (GK_) | FIT 1.5",
+                "constructionYearFrom": "09.2017",
+                "enginePowerKW": 96,
+                "enginePowerHP": 130,
+                "cc": 1498,
+                "engineCodes": "L15B3",
+                "kbaNumbers": "7100ADP",
+                "bodyType": "Hatchback",
+                "TecDocID": 126827
+              }
+            ]
+          },
+          {
+            "modelSeries": "MOBILIO (GB_)",
+            "targets": [
+              {
+                "engine": "1.5 (GB1)",
+                "fullName": "HONDA MOBILIO (GB_) 1.5 (GB1)",
+                "constructionYearFrom": "12.2001",
+                "constructionYearTo": "10.2008",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 1497,
+                "engineCodes": "L15A",
+                "kbaNumbers": "",
+                "bodyType": "MPV",
+                "TecDocID": 100063
+              },
+              {
+                "engine": "1.5 4WD (GB2)",
+                "fullName": "HONDA MOBILIO (GB_) 1.5 4WD (GB2)",
+                "constructionYearFrom": "12.2001",
+                "constructionYearTo": "10.2008",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 1497,
+                "engineCodes": "L15A",
+                "kbaNumbers": "",
+                "bodyType": "MPV",
+                "TecDocID": 100065
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "LOTUS",
+        "models": [
+          {
+            "modelSeries": "ELISE",
+            "targets": [
+              {
+                "engine": "1.8",
+                "fullName": "LOTUS ELISE 1.8",
+                "constructionYearFrom": "08.1995",
+                "constructionYearTo": "11.2000",
+                "enginePowerKW": 88,
+                "enginePowerHP": 120,
+                "cc": 1796,
+                "engineCodes": "18 K4F",
+                "kbaNumbers": "",
+                "bodyType": "Convertible",
+                "TecDocID": 9721
+              },
+              {
+                "engine": "111 S",
+                "fullName": "LOTUS ELISE 111 S",
+                "constructionYearFrom": "03.1999",
+                "constructionYearTo": "11.2000",
+                "enginePowerKW": 107,
+                "enginePowerHP": 146,
+                "cc": 1796,
+                "engineCodes": "18 K4K",
+                "kbaNumbers": "",
+                "bodyType": "Convertible",
+                "TecDocID": 9722
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "MG",
+        "models": [
+          {
+            "modelSeries": "EXPRESS Hatchback Van",
+            "targets": [
+              {
+                "engine": "1.4",
+                "fullName": "MG EXPRESS Hatchback Van 1.4",
+                "constructionYearFrom": "03.2003",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 76,
+                "enginePowerHP": 103,
+                "cc": 1396,
+                "engineCodes": "14 K4F",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback Van",
+                "TecDocID": 28989
+              },
+              {
+                "engine": "160",
+                "fullName": "MG EXPRESS Hatchback Van 160",
+                "constructionYearFrom": "03.2003",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 118,
+                "enginePowerHP": 160,
+                "cc": 1796,
+                "engineCodes": "18 K4K",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback Van",
+                "TecDocID": 57042
+              },
+              {
+                "engine": "2.0 TD",
+                "fullName": "MG EXPRESS Hatchback Van 2.0 TD",
+                "constructionYearFrom": "03.2003",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 74,
+                "enginePowerHP": 101,
+                "cc": 1994,
+                "engineCodes": "20 T2N",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback Van",
+                "TecDocID": 28991
+              },
+              {
+                "engine": "2.0 TD",
+                "fullName": "MG EXPRESS Hatchback Van 2.0 TD",
+                "constructionYearFrom": "03.2003",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 83,
+                "enginePowerHP": 113,
+                "cc": 1994,
+                "engineCodes": "20 T2N",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback Van",
+                "TecDocID": 57043
+              }
+            ]
+          },
+          {
+            "modelSeries": "MG ZR",
+            "targets": [
+              {
+                "engine": "105",
+                "fullName": "MG MG ZR 105",
+                "constructionYearFrom": "06.2001",
+                "constructionYearTo": "04.2005",
+                "enginePowerKW": 76,
+                "enginePowerHP": 103,
+                "cc": 1396,
+                "engineCodes": "14 K4F",
+                "kbaNumbers": "2142314",
+                "bodyType": "Hatchback",
+                "TecDocID": 16604
+              },
+              {
+                "engine": "120",
+                "fullName": "MG MG ZR 120",
+                "constructionYearFrom": "06.2001",
+                "constructionYearTo": "04.2005",
+                "enginePowerKW": 86,
+                "enginePowerHP": 117,
+                "cc": 1796,
+                "engineCodes": "18 K4F",
+                "kbaNumbers": "2142387, 2142319",
+                "bodyType": "Hatchback",
+                "TecDocID": 16605
+              },
+              {
+                "engine": "2.0 TD",
+                "fullName": "MG MG ZR 2.0 TD",
+                "constructionYearFrom": "06.2001",
+                "constructionYearTo": "04.2005",
+                "enginePowerKW": 74,
+                "enginePowerHP": 100,
+                "cc": 1994,
+                "engineCodes": "20 T2N",
+                "kbaNumbers": "2142316",
+                "bodyType": "Hatchback",
+                "TecDocID": 16606
+              },
+              {
+                "engine": "2.0 TD",
+                "fullName": "MG MG ZR 2.0 TD",
+                "constructionYearFrom": "12.2002",
+                "constructionYearTo": "04.2005",
+                "enginePowerKW": 83,
+                "enginePowerHP": 113,
+                "cc": 1994,
+                "engineCodes": "20 T2N",
+                "kbaNumbers": "2142345, 2142390",
+                "bodyType": "Hatchback",
+                "TecDocID": 29914
+              }
+            ]
+          },
+          {
+            "modelSeries": "MG ZS",
+            "targets": [
+              {
+                "engine": "1.6",
+                "fullName": "MG MG ZS 1.6",
+                "constructionYearFrom": "07.2003",
+                "constructionYearTo": "04.2005",
+                "enginePowerKW": 79,
+                "enginePowerHP": 107,
+                "cc": 1588,
+                "engineCodes": "16 K4F",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 29915
+              },
+              {
+                "engine": "120",
+                "fullName": "MG MG ZS 120",
+                "constructionYearFrom": "07.2001",
+                "constructionYearTo": "04.2005",
+                "enginePowerKW": 86,
+                "enginePowerHP": 117,
+                "cc": 1796,
+                "engineCodes": "18 K4F",
+                "kbaNumbers": "2142309",
+                "bodyType": "Saloon",
+                "TecDocID": 16608
+              },
+              {
+                "engine": "2.0 TD",
+                "fullName": "MG MG ZS 2.0 TD",
+                "constructionYearFrom": "01.2004",
+                "constructionYearTo": "04.2005",
+                "enginePowerKW": 74,
+                "enginePowerHP": 101,
+                "cc": 1994,
+                "engineCodes": "20 T2N",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 18740
+              },
+              {
+                "engine": "2.0 TD",
+                "fullName": "MG MG ZS 2.0 TD",
+                "constructionYearFrom": "01.2004",
+                "constructionYearTo": "04.2005",
+                "enginePowerKW": 83,
+                "enginePowerHP": 113,
+                "cc": 1994,
+                "engineCodes": "20 T2N",
+                "kbaNumbers": "2142381, 2142344",
+                "bodyType": "Saloon",
+                "TecDocID": 18741
+              }
+            ]
+          },
+          {
+            "modelSeries": "MG ZS Hatchback",
+            "targets": [
+              {
+                "engine": "1.6",
+                "fullName": "MG MG ZS Hatchback 1.6",
+                "constructionYearFrom": "11.2001",
+                "constructionYearTo": "10.2005",
+                "enginePowerKW": 82,
+                "enginePowerHP": 111,
+                "cc": 1590,
+                "engineCodes": "16 K4F",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback",
+                "TecDocID": 28008
+              },
+              {
+                "engine": "120",
+                "fullName": "MG MG ZS Hatchback 120",
+                "constructionYearFrom": "07.2001",
+                "constructionYearTo": "10.2005",
+                "enginePowerKW": 86,
+                "enginePowerHP": 117,
+                "cc": 1796,
+                "engineCodes": "18 K4F",
+                "kbaNumbers": "2142308",
+                "bodyType": "Hatchback",
+                "TecDocID": 16609
+              },
+              {
+                "engine": "180",
+                "fullName": "MG MG ZS Hatchback 180",
+                "constructionYearFrom": "07.2001",
+                "constructionYearTo": "10.2005",
+                "enginePowerKW": 130,
+                "enginePowerHP": 177,
+                "cc": 2497,
+                "engineCodes": "25 K4F",
+                "kbaNumbers": "2142377, 2142378, 2142328",
+                "bodyType": "Hatchback",
+                "TecDocID": 15946
+              },
+              {
+                "engine": "2.0 TD",
+                "fullName": "MG MG ZS Hatchback 2.0 TD",
+                "constructionYearFrom": "01.2004",
+                "constructionYearTo": "10.2005",
+                "enginePowerKW": 74,
+                "enginePowerHP": 101,
+                "cc": 1994,
+                "engineCodes": "20 T2N",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback",
+                "TecDocID": 18748
+              },
+              {
+                "engine": "2.0 TD",
+                "fullName": "MG MG ZS Hatchback 2.0 TD",
+                "constructionYearFrom": "01.2004",
+                "constructionYearTo": "10.2005",
+                "enginePowerKW": 83,
+                "enginePowerHP": 113,
+                "cc": 1994,
+                "engineCodes": "20 T2N",
+                "kbaNumbers": "2142343, 2142382",
+                "bodyType": "Hatchback",
+                "TecDocID": 18749
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "ROVER",
+        "models": [
+          {
+            "modelSeries": "200 Coupe (XW)",
+            "targets": [
+              {
+                "engine": "216",
+                "fullName": "ROVER 200 Coupe (XW) 216",
+                "constructionYearFrom": "01.1996",
+                "constructionYearTo": "12.1997",
+                "enginePowerKW": 82,
+                "enginePowerHP": 112,
+                "cc": 1588,
+                "engineCodes": "16 K4F",
+                "kbaNumbers": "2055420",
+                "bodyType": "Coupe",
+                "TecDocID": 100375
+              }
+            ]
+          },
+          {
+            "modelSeries": "200 II Convertible (XW)",
+            "targets": [
+              {
+                "engine": "216 1.6",
+                "fullName": "ROVER 200 II Convertible (XW) 216 1.6",
+                "constructionYearFrom": "04.1990",
+                "constructionYearTo": "02.1996",
+                "enginePowerKW": 82,
+                "enginePowerHP": 111,
+                "cc": 1590,
+                "engineCodes": "D 16 Z2",
+                "kbaNumbers": "",
+                "bodyType": "Convertible",
+                "TecDocID": 23522
+              },
+              {
+                "engine": "216 1.6i 16V",
+                "fullName": "ROVER 200 II Convertible (XW) 216 1.6i 16V",
+                "constructionYearFrom": "01.1996",
+                "constructionYearTo": "11.1999",
+                "enginePowerKW": 82,
+                "enginePowerHP": 111,
+                "cc": 1588,
+                "engineCodes": "16 K4F",
+                "kbaNumbers": "2055421",
+                "bodyType": "Convertible",
+                "TecDocID": 7975
+              }
+            ]
+          },
+          {
+            "modelSeries": "200 II Hatchback (RF)",
+            "targets": [
+              {
+                "engine": "1.4",
+                "fullName": "ROVER 200 II Hatchback (RF) 1.4",
+                "constructionYearFrom": "01.1996",
+                "constructionYearTo": "12.1997",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 1396,
+                "engineCodes": "14 K4D",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback",
+                "TecDocID": 27146
+              },
+              {
+                "engine": "211",
+                "fullName": "ROVER 200 II Hatchback (RF) 211",
+                "constructionYearFrom": "01.1998",
+                "constructionYearTo": "03.2000",
+                "enginePowerKW": 44,
+                "enginePowerHP": 60,
+                "cc": 1120,
+                "engineCodes": "11 K2D",
+                "kbaNumbers": "2055450",
+                "bodyType": "Hatchback",
+                "TecDocID": 12299
+              },
+              {
+                "engine": "214 i",
+                "fullName": "ROVER 200 II Hatchback (RF) 214 i",
+                "constructionYearFrom": "11.1995",
+                "constructionYearTo": "03.2000",
+                "enginePowerKW": 55,
+                "enginePowerHP": 75,
+                "cc": 1396,
+                "engineCodes": "14 K2F",
+                "kbaNumbers": "2055404",
+                "bodyType": "Hatchback",
+                "TecDocID": 5328
+              },
+              {
+                "engine": "214 Si",
+                "fullName": "ROVER 200 II Hatchback (RF) 214 Si",
+                "constructionYearFrom": "11.1995",
+                "constructionYearTo": "03.2000",
+                "enginePowerKW": 76,
+                "enginePowerHP": 103,
+                "cc": 1396,
+                "engineCodes": "14 K4F",
+                "kbaNumbers": "2055405",
+                "bodyType": "Hatchback",
+                "TecDocID": 5329
+              },
+              {
+                "engine": "216 Si",
+                "fullName": "ROVER 200 II Hatchback (RF) 216 Si",
+                "constructionYearFrom": "11.1995",
+                "constructionYearTo": "06.1999",
+                "enginePowerKW": 82,
+                "enginePowerHP": 112,
+                "cc": 1588,
+                "engineCodes": "16 K4F",
+                "kbaNumbers": "2055406",
+                "bodyType": "Hatchback",
+                "TecDocID": 5330
+              },
+              {
+                "engine": "218 K Vi",
+                "fullName": "ROVER 200 II Hatchback (RF) 218 K Vi",
+                "constructionYearFrom": "11.1995",
+                "constructionYearTo": "03.2000",
+                "enginePowerKW": 107,
+                "enginePowerHP": 146,
+                "cc": 1796,
+                "engineCodes": "18 K4K",
+                "kbaNumbers": "2055407",
+                "bodyType": "Hatchback",
+                "TecDocID": 5331
+              },
+              {
+                "engine": "218 Si",
+                "fullName": "ROVER 200 II Hatchback (RF) 218 Si",
+                "constructionYearFrom": "08.1999",
+                "constructionYearTo": "03.2000",
+                "enginePowerKW": 88,
+                "enginePowerHP": 120,
+                "cc": 1796,
+                "engineCodes": "18 K4F",
+                "kbaNumbers": "2055436",
+                "bodyType": "Hatchback",
+                "TecDocID": 55393
+              },
+              {
+                "engine": "220 D/SD",
+                "fullName": "ROVER 200 II Hatchback (RF) 220 D/SD",
+                "constructionYearFrom": "11.1995",
+                "constructionYearTo": "03.2000",
+                "enginePowerKW": 63,
+                "enginePowerHP": 86,
+                "cc": 1994,
+                "engineCodes": "20 T2R",
+                "kbaNumbers": "2055408",
+                "bodyType": "Hatchback",
+                "TecDocID": 5332
+              },
+              {
+                "engine": "220 SDi",
+                "fullName": "ROVER 200 II Hatchback (RF) 220 SDi",
+                "constructionYearFrom": "11.1995",
+                "constructionYearTo": "03.2000",
+                "enginePowerKW": 77,
+                "enginePowerHP": 105,
+                "cc": 1994,
+                "engineCodes": "20 T2N",
+                "kbaNumbers": "2055409",
+                "bodyType": "Hatchback",
+                "TecDocID": 5333
+              }
+            ]
+          },
+          {
+            "modelSeries": "25 COMMERCE (RF)",
+            "targets": [
+              {
+                "engine": "1.4",
+                "fullName": "ROVER 25 COMMERCE (RF) 1.4",
+                "constructionYearFrom": "01.2003",
+                "constructionYearTo": "12.2005",
+                "enginePowerKW": 62,
+                "enginePowerHP": 84,
+                "cc": 1396,
+                "engineCodes": "14 K4M",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback Van",
+                "TecDocID": 132384
+              },
+              {
+                "engine": "2.0 iDT",
+                "fullName": "ROVER 25 COMMERCE (RF) 2.0 iDT",
+                "constructionYearFrom": "01.2003",
+                "constructionYearTo": "12.2005",
+                "enginePowerKW": 74,
+                "enginePowerHP": 101,
+                "cc": 1994,
+                "engineCodes": "20 T2N",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback Van",
+                "TecDocID": 132381
+              }
+            ]
+          },
+          {
+            "modelSeries": "25 I Hatchback (RF)",
+            "targets": [
+              {
+                "engine": "1.1",
+                "fullName": "ROVER 25 I Hatchback (RF) 1.1",
+                "constructionYearFrom": "09.1999",
+                "constructionYearTo": "06.2001",
+                "enginePowerKW": 55,
+                "enginePowerHP": 75,
+                "cc": 1120,
+                "engineCodes": "11 K4F",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback",
+                "TecDocID": 27954
+              },
+              {
+                "engine": "1.1",
+                "fullName": "ROVER 25 I Hatchback (RF) 1.1",
+                "constructionYearFrom": "11.1999",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 44,
+                "enginePowerHP": 60,
+                "cc": 1120,
+                "engineCodes": "11K2F",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback",
+                "TecDocID": 27955
+              },
+              {
+                "engine": "1.1 16V",
+                "fullName": "ROVER 25 I Hatchback (RF) 1.1 16V",
+                "constructionYearFrom": "01.2004",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 55,
+                "enginePowerHP": 75,
+                "cc": 1120,
+                "engineCodes": "11 K4F",
+                "kbaNumbers": "2142383, 2142322",
+                "bodyType": "Hatchback",
+                "TecDocID": 18762
+              },
+              {
+                "engine": "1.4 16V",
+                "fullName": "ROVER 25 I Hatchback (RF) 1.4 16V",
+                "constructionYearFrom": "10.1999",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 62,
+                "enginePowerHP": 84,
+                "cc": 1396,
+                "engineCodes": "14 K4M",
+                "kbaNumbers": "2055459, 2142318",
+                "bodyType": "Hatchback",
+                "TecDocID": 14630
+              },
+              {
+                "engine": "1.4 16V",
+                "fullName": "ROVER 25 I Hatchback (RF) 1.4 16V",
+                "constructionYearFrom": "10.1999",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 76,
+                "enginePowerHP": 103,
+                "cc": 1396,
+                "engineCodes": "14 K4F",
+                "kbaNumbers": "2142314",
+                "bodyType": "Hatchback",
+                "TecDocID": 14631
+              },
+              {
+                "engine": "1.6 16V",
+                "fullName": "ROVER 25 I Hatchback (RF) 1.6 16V",
+                "constructionYearFrom": "10.1999",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 80,
+                "enginePowerHP": 109,
+                "cc": 1588,
+                "engineCodes": "16 K4F",
+                "kbaNumbers": "2055458, 2142386, 2142317",
+                "bodyType": "Hatchback",
+                "TecDocID": 14632
+              },
+              {
+                "engine": "1.8 16V",
+                "fullName": "ROVER 25 I Hatchback (RF) 1.8 16V",
+                "constructionYearFrom": "10.1999",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 85,
+                "enginePowerHP": 116,
+                "cc": 1796,
+                "engineCodes": "18 K4F",
+                "kbaNumbers": "2055468, 2055457",
+                "bodyType": "Hatchback",
+                "TecDocID": 14633
+              },
+              {
+                "engine": "1.8 16V",
+                "fullName": "ROVER 25 I Hatchback (RF) 1.8 16V",
+                "constructionYearFrom": "02.2000",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 107,
+                "enginePowerHP": 146,
+                "cc": 1796,
+                "engineCodes": "18 K4K",
+                "kbaNumbers": "2142315",
+                "bodyType": "Hatchback",
+                "TecDocID": 14634
+              },
+              {
+                "engine": "2.0 iDT",
+                "fullName": "ROVER 25 I Hatchback (RF) 2.0 iDT",
+                "constructionYearFrom": "10.1999",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 74,
+                "enginePowerHP": 101,
+                "cc": 1994,
+                "engineCodes": "20 T2N",
+                "kbaNumbers": "2055456, 2142316",
+                "bodyType": "Hatchback",
+                "TecDocID": 14635
+              },
+              {
+                "engine": "2.0 iDT",
+                "fullName": "ROVER 25 I Hatchback (RF) 2.0 iDT",
+                "constructionYearFrom": "01.2002",
+                "constructionYearTo": "12.2004",
+                "enginePowerKW": 83,
+                "enginePowerHP": 113,
+                "cc": 1994,
+                "engineCodes": "20 T2N",
+                "kbaNumbers": "2142345, 2142390",
+                "bodyType": "Hatchback",
+                "TecDocID": 9413
+              }
+            ]
+          },
+          {
+            "modelSeries": "400 II (RT)",
+            "targets": [
+              {
+                "engine": "414",
+                "fullName": "ROVER 400 II (RT) 414",
+                "constructionYearFrom": "03.1996",
+                "constructionYearTo": "12.1999",
+                "enginePowerKW": 55,
+                "enginePowerHP": 75,
+                "cc": 1396,
+                "engineCodes": "14 K2F",
+                "kbaNumbers": "2055455",
+                "bodyType": "Saloon",
+                "TecDocID": 54948
+              },
+              {
+                "engine": "414 Si",
+                "fullName": "ROVER 400 II (RT) 414 Si",
+                "constructionYearFrom": "05.1995",
+                "constructionYearTo": "03.2000",
+                "enginePowerKW": 76,
+                "enginePowerHP": 103,
+                "cc": 1396,
+                "engineCodes": "14 K4F",
+                "kbaNumbers": "2055413",
+                "bodyType": "Saloon",
+                "TecDocID": 5660
+              },
+              {
+                "engine": "416 Si",
+                "fullName": "ROVER 400 II (RT) 416 Si",
+                "constructionYearFrom": "03.1995",
+                "constructionYearTo": "06.1999",
+                "enginePowerKW": 83,
+                "enginePowerHP": 113,
+                "cc": 1590,
+                "engineCodes": "D 16 Y3",
+                "kbaNumbers": "2055415",
+                "bodyType": "Saloon",
+                "TecDocID": 5662
+              },
+              {
+                "engine": "416 Si",
+                "fullName": "ROVER 400 II (RT) 416 Si",
+                "constructionYearFrom": "05.1995",
+                "constructionYearTo": "03.2000",
+                "enginePowerKW": 82,
+                "enginePowerHP": 112,
+                "cc": 1588,
+                "engineCodes": "16 K4F",
+                "kbaNumbers": "2055414",
+                "bodyType": "Saloon",
+                "TecDocID": 5661
+              },
+              {
+                "engine": "416 Si",
+                "fullName": "ROVER 400 II (RT) 416 Si",
+                "constructionYearFrom": "05.1995",
+                "constructionYearTo": "03.2000",
+                "enginePowerKW": 85,
+                "enginePowerHP": 116,
+                "cc": 1590,
+                "engineCodes": "D16B2",
+                "kbaNumbers": "2055435",
+                "bodyType": "Saloon",
+                "TecDocID": 58728
+              },
+              {
+                "engine": "420 D",
+                "fullName": "ROVER 400 II (RT) 420 D",
+                "constructionYearFrom": "11.1995",
+                "constructionYearTo": "03.2000",
+                "enginePowerKW": 63,
+                "enginePowerHP": 86,
+                "cc": 1994,
+                "engineCodes": "20 T2R",
+                "kbaNumbers": "2055416",
+                "bodyType": "Saloon",
+                "TecDocID": 5664
+              },
+              {
+                "engine": "420 Di",
+                "fullName": "ROVER 400 II (RT) 420 Di",
+                "constructionYearFrom": "05.1995",
+                "constructionYearTo": "03.2000",
+                "enginePowerKW": 77,
+                "enginePowerHP": 105,
+                "cc": 1994,
+                "engineCodes": "20 T2N",
+                "kbaNumbers": "2055417",
+                "bodyType": "Saloon",
+                "TecDocID": 5665
+              },
+              {
+                "engine": "420 Si Lux",
+                "fullName": "ROVER 400 II (RT) 420 Si Lux",
+                "constructionYearFrom": "12.1995",
+                "constructionYearTo": "03.2000",
+                "enginePowerKW": 100,
+                "enginePowerHP": 136,
+                "cc": 1994,
+                "engineCodes": "20 T4H",
+                "kbaNumbers": "2055419",
+                "bodyType": "Saloon",
+                "TecDocID": 5663
+              }
+            ]
+          },
+          {
+            "modelSeries": "400 II Hatchback (RT)",
+            "targets": [
+              {
+                "engine": "414",
+                "fullName": "ROVER 400 II Hatchback (RT) 414",
+                "constructionYearFrom": "03.1996",
+                "constructionYearTo": "12.1997",
+                "enginePowerKW": 55,
+                "enginePowerHP": 75,
+                "cc": 1396,
+                "engineCodes": "14 K2F",
+                "kbaNumbers": "2055443",
+                "bodyType": "Hatchback",
+                "TecDocID": 27134
+              },
+              {
+                "engine": "414 Si",
+                "fullName": "ROVER 400 II Hatchback (RT) 414 Si",
+                "constructionYearFrom": "05.1995",
+                "constructionYearTo": "03.2000",
+                "enginePowerKW": 76,
+                "enginePowerHP": 103,
+                "cc": 1396,
+                "engineCodes": "14 K4F",
+                "kbaNumbers": "2055396",
+                "bodyType": "Hatchback",
+                "TecDocID": 4723
+              },
+              {
+                "engine": "416 Si",
+                "fullName": "ROVER 400 II Hatchback (RT) 416 Si",
+                "constructionYearFrom": "05.1995",
+                "constructionYearTo": "03.2000",
+                "enginePowerKW": 82,
+                "enginePowerHP": 112,
+                "cc": 1588,
+                "engineCodes": "16 K4F",
+                "kbaNumbers": "2055397",
+                "bodyType": "Hatchback",
+                "TecDocID": 4724
+              },
+              {
+                "engine": "416 Si",
+                "fullName": "ROVER 400 II Hatchback (RT) 416 Si",
+                "constructionYearFrom": "06.1995",
+                "constructionYearTo": "03.2000",
+                "enginePowerKW": 83,
+                "enginePowerHP": 113,
+                "cc": 1590,
+                "engineCodes": "D 16 Y3",
+                "kbaNumbers": "2055398",
+                "bodyType": "Hatchback",
+                "TecDocID": 4725
+              },
+              {
+                "engine": "416 Si",
+                "fullName": "ROVER 400 II Hatchback (RT) 416 Si",
+                "constructionYearFrom": "06.1995",
+                "constructionYearTo": "03.2000",
+                "enginePowerKW": 85,
+                "enginePowerHP": 116,
+                "cc": 1590,
+                "engineCodes": "D16B2",
+                "kbaNumbers": "2055434",
+                "bodyType": "Hatchback",
+                "TecDocID": 58727
+              },
+              {
+                "engine": "420 D",
+                "fullName": "ROVER 400 II Hatchback (RT) 420 D",
+                "constructionYearFrom": "11.1995",
+                "constructionYearTo": "03.2000",
+                "enginePowerKW": 63,
+                "enginePowerHP": 86,
+                "cc": 1994,
+                "engineCodes": "20 T2R",
+                "kbaNumbers": "2055410",
+                "bodyType": "Hatchback",
+                "TecDocID": 5382
+              },
+              {
+                "engine": "420 Di",
+                "fullName": "ROVER 400 II Hatchback (RT) 420 Di",
+                "constructionYearFrom": "05.1995",
+                "constructionYearTo": "03.2000",
+                "enginePowerKW": 77,
+                "enginePowerHP": 105,
+                "cc": 1994,
+                "engineCodes": "20 T2N",
+                "kbaNumbers": "2055411",
+                "bodyType": "Hatchback",
+                "TecDocID": 5383
+              },
+              {
+                "engine": "420 Si Lux",
+                "fullName": "ROVER 400 II Hatchback (RT) 420 Si Lux",
+                "constructionYearFrom": "12.1995",
+                "constructionYearTo": "03.2000",
+                "enginePowerKW": 100,
+                "enginePowerHP": 136,
+                "cc": 1994,
+                "engineCodes": "20 T4H",
+                "kbaNumbers": "2055418",
+                "bodyType": "Hatchback",
+                "TecDocID": 5666
+              }
+            ]
+          },
+          {
+            "modelSeries": "400 Tourer (XW)",
+            "targets": [
+              {
+                "engine": "1.8 i",
+                "fullName": "ROVER 400 Tourer (XW) 1.8 i",
+                "constructionYearFrom": "06.1996",
+                "constructionYearTo": "11.1998",
+                "enginePowerKW": 107,
+                "enginePowerHP": 146,
+                "cc": 1796,
+                "engineCodes": "18 K4K",
+                "kbaNumbers": "2055423",
+                "bodyType": "Estate",
+                "TecDocID": 5667
+              },
+              {
+                "engine": "1.8 TD",
+                "fullName": "ROVER 400 Tourer (XW) 1.8 TD",
+                "constructionYearFrom": "09.1993",
+                "constructionYearTo": "11.1998",
+                "enginePowerKW": 65,
+                "enginePowerHP": 88,
+                "cc": 1769,
+                "engineCodes": "XUD 7TE",
+                "kbaNumbers": "2055385",
+                "bodyType": "Estate",
+                "TecDocID": 4019
+              },
+              {
+                "engine": "2.0 i",
+                "fullName": "ROVER 400 Tourer (XW) 2.0 i",
+                "constructionYearFrom": "05.1994",
+                "constructionYearTo": "11.1998",
+                "enginePowerKW": 100,
+                "enginePowerHP": 136,
+                "cc": 1994,
+                "engineCodes": "20 T4H",
+                "kbaNumbers": "2055384",
+                "bodyType": "Estate",
+                "TecDocID": 4018
+              }
+            ]
+          },
+          {
+            "modelSeries": "45 I Hatchback (RT)",
+            "targets": [
+              {
+                "engine": "1.4",
+                "fullName": "ROVER 45 I Hatchback (RT) 1.4",
+                "constructionYearFrom": "02.2000",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 76,
+                "enginePowerHP": 103,
+                "cc": 1396,
+                "engineCodes": "14 K4F",
+                "kbaNumbers": "2142370, 2142304",
+                "bodyType": "Hatchback",
+                "TecDocID": 14636
+              },
+              {
+                "engine": "1.6",
+                "fullName": "ROVER 45 I Hatchback (RT) 1.6",
+                "constructionYearFrom": "02.2000",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 80,
+                "enginePowerHP": 109,
+                "cc": 1588,
+                "engineCodes": "16 K4F",
+                "kbaNumbers": "2055466, 2142372, 2142306",
+                "bodyType": "Hatchback",
+                "TecDocID": 14637
+              },
+              {
+                "engine": "1.8",
+                "fullName": "ROVER 45 I Hatchback (RT) 1.8",
+                "constructionYearFrom": "02.2000",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 86,
+                "enginePowerHP": 117,
+                "cc": 1796,
+                "engineCodes": "18 K4F",
+                "kbaNumbers": "2055465, 2142374, 2142308",
+                "bodyType": "Hatchback",
+                "TecDocID": 14638
+              },
+              {
+                "engine": "2.0 iDT",
+                "fullName": "ROVER 45 I Hatchback (RT) 2.0 iDT",
+                "constructionYearFrom": "02.2000",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 74,
+                "enginePowerHP": 101,
+                "cc": 1994,
+                "engineCodes": "20 T2N",
+                "kbaNumbers": "2055467, 2142380, 2142312",
+                "bodyType": "Hatchback",
+                "TecDocID": 14639
+              },
+              {
+                "engine": "2.0 iDT",
+                "fullName": "ROVER 45 I Hatchback (RT) 2.0 iDT",
+                "constructionYearFrom": "01.2004",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 83,
+                "enginePowerHP": 113,
+                "cc": 1994,
+                "engineCodes": "20 T2N",
+                "kbaNumbers": "2142382, 2142343",
+                "bodyType": "Hatchback",
+                "TecDocID": 9455
+              },
+              {
+                "engine": "2.0 V6",
+                "fullName": "ROVER 45 I Hatchback (RT) 2.0 V6",
+                "constructionYearFrom": "02.2000",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1997,
+                "engineCodes": "20 K4F",
+                "kbaNumbers": "2055464, 2142376, 2142310",
+                "bodyType": "Hatchback",
+                "TecDocID": 14640
+              }
+            ]
+          },
+          {
+            "modelSeries": "45 I Saloon (RT)",
+            "targets": [
+              {
+                "engine": "1.4",
+                "fullName": "ROVER 45 I Saloon (RT) 1.4",
+                "constructionYearFrom": "02.2000",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 76,
+                "enginePowerHP": 103,
+                "cc": 1396,
+                "engineCodes": "14 K4F",
+                "kbaNumbers": "2142369, 2142305, 2055413",
+                "bodyType": "Saloon",
+                "TecDocID": 14700
+              },
+              {
+                "engine": "1.6",
+                "fullName": "ROVER 45 I Saloon (RT) 1.6",
+                "constructionYearFrom": "02.2000",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 80,
+                "enginePowerHP": 109,
+                "cc": 1588,
+                "engineCodes": "16 K4F",
+                "kbaNumbers": "2055462, 2142371, 2142307",
+                "bodyType": "Saloon",
+                "TecDocID": 14701
+              },
+              {
+                "engine": "1.8",
+                "fullName": "ROVER 45 I Saloon (RT) 1.8",
+                "constructionYearFrom": "02.2000",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 86,
+                "enginePowerHP": 117,
+                "cc": 1796,
+                "engineCodes": "18 K4F",
+                "kbaNumbers": "2142373, 2055461, 2142309",
+                "bodyType": "Saloon",
+                "TecDocID": 14702
+              },
+              {
+                "engine": "2.0 iDT",
+                "fullName": "ROVER 45 I Saloon (RT) 2.0 iDT",
+                "constructionYearFrom": "02.2000",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 74,
+                "enginePowerHP": 101,
+                "cc": 1994,
+                "engineCodes": "20 T2N",
+                "kbaNumbers": "2055463, 2142379, 2142313",
+                "bodyType": "Saloon",
+                "TecDocID": 14704
+              },
+              {
+                "engine": "2.0 iDT",
+                "fullName": "ROVER 45 I Saloon (RT) 2.0 iDT",
+                "constructionYearFrom": "01.2004",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 83,
+                "enginePowerHP": 113,
+                "cc": 1994,
+                "engineCodes": "20 T2N",
+                "kbaNumbers": "2142381, 2142344",
+                "bodyType": "Saloon",
+                "TecDocID": 9456
+              },
+              {
+                "engine": "2.0 V6",
+                "fullName": "ROVER 45 I Saloon (RT) 2.0 V6",
+                "constructionYearFrom": "02.2000",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1997,
+                "engineCodes": "20 K4F",
+                "kbaNumbers": "2142375, 2055460, 2142311",
+                "bodyType": "Saloon",
+                "TecDocID": 14703
+              }
+            ]
+          },
+          {
+            "modelSeries": "CDV (RF)",
+            "targets": [
+              {
+                "engine": "2.0 iDT",
+                "fullName": "ROVER CDV (RF) 2.0 iDT",
+                "constructionYearFrom": "03.2003",
+                "constructionYearTo": "04.2005",
+                "enginePowerKW": 74,
+                "enginePowerHP": 101,
+                "cc": 1994,
+                "engineCodes": "20 T2N",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback Van",
+                "TecDocID": 134192
+              }
+            ]
+          },
+          {
+            "modelSeries": "COUPE",
+            "targets": [
+              {
+                "engine": "1.6 16 V",
+                "fullName": "ROVER COUPE 1.6 16 V",
+                "constructionYearFrom": "03.1996",
+                "constructionYearTo": "11.1999",
+                "enginePowerKW": 82,
+                "enginePowerHP": 111,
+                "cc": 1588,
+                "engineCodes": "16 K4F",
+                "kbaNumbers": "",
+                "bodyType": "Coupe",
+                "TecDocID": 13850
+              },
+              {
+                "engine": "1.8 16 V",
+                "fullName": "ROVER COUPE 1.8 16 V",
+                "constructionYearFrom": "03.1996",
+                "constructionYearTo": "11.1999",
+                "enginePowerKW": 107,
+                "enginePowerHP": 145,
+                "cc": 1795,
+                "engineCodes": "18 K4K",
+                "kbaNumbers": "",
+                "bodyType": "Coupe",
+                "TecDocID": 13851
+              }
+            ]
+          },
+          {
+            "modelSeries": "STREETWISE Hatchback",
+            "targets": [
+              {
+                "engine": "1.4",
+                "fullName": "ROVER STREETWISE Hatchback 1.4",
+                "constructionYearFrom": "08.2003",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 62,
+                "enginePowerHP": 84,
+                "cc": 1396,
+                "engineCodes": "14 K4M",
+                "kbaNumbers": "2142384",
+                "bodyType": "Hatchback",
+                "TecDocID": 17796
+              },
+              {
+                "engine": "1.4",
+                "fullName": "ROVER STREETWISE Hatchback 1.4",
+                "constructionYearFrom": "08.2003",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 76,
+                "enginePowerHP": 103,
+                "cc": 1396,
+                "engineCodes": "14 K4F",
+                "kbaNumbers": "2142385",
+                "bodyType": "Hatchback",
+                "TecDocID": 17794
+              },
+              {
+                "engine": "1.6",
+                "fullName": "ROVER STREETWISE Hatchback 1.6",
+                "constructionYearFrom": "01.2004",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 80,
+                "enginePowerHP": 109,
+                "cc": 1588,
+                "engineCodes": "16 K4F",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback",
+                "TecDocID": 506
+              },
+              {
+                "engine": "1.8",
+                "fullName": "ROVER STREETWISE Hatchback 1.8",
+                "constructionYearFrom": "08.2003",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 86,
+                "enginePowerHP": 117,
+                "cc": 1796,
+                "engineCodes": "18 K4F",
+                "kbaNumbers": "2142387",
+                "bodyType": "Hatchback",
+                "TecDocID": 9412
+              },
+              {
+                "engine": "2.0 TD",
+                "fullName": "ROVER STREETWISE Hatchback 2.0 TD",
+                "constructionYearFrom": "08.2003",
+                "constructionYearTo": "05.2005",
+                "enginePowerKW": 74,
+                "enginePowerHP": 101,
+                "cc": 1994,
+                "engineCodes": "20 T2N",
+                "kbaNumbers": "2142389",
+                "bodyType": "Hatchback",
+                "TecDocID": 17795
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

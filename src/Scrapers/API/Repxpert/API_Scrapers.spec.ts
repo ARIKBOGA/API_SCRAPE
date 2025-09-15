@@ -12,8 +12,8 @@ dotenv.config({ path: path.resolve(".env") });
 const productType = process.env.PRODUCT_TYPE as string;
 const filterBrand = (process.env.FILTER_BRAND as string) !== "" ? process.env.FILTER_BRAND as string : "LOADED_NOT_FOUND_COMMERCIAL_REMINDER";
 
-const start = 0;
-const end: number = 150;
+const start = 550;
+const end: number = 0;
 const end_str = end !== 0 ? end : "end";
 
 async function processProducts(processFunction: Function, fileName: string, threadLimit: number, processFor: string) {
