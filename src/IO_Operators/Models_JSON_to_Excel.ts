@@ -10,8 +10,8 @@ interface ModelRow {
 }
 
 function initilize() {
-    const INPUT_FILE = path.resolve(__dirname, `../resources/data/catalogInfo/jsons/models_output.json`);
-    const OUTPUT_FILE = path.resolve(__dirname, `../resources/data/catalogInfo/excels/models_output.xlsx`);
+    const INPUT_FILE = path.resolve(__dirname, `../resources/data/catalogInfo/jsons/ALL_MODELS_REPXPERT.json`);
+    const OUTPUT_FILE = path.resolve(__dirname, `../resources/data/catalogInfo/excels/ALL_MODELS_REPXPERT.xlsx`);
 
     return { INPUT_FILE, OUTPUT_FILE };
 }

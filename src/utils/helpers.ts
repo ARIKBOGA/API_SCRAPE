@@ -42,7 +42,13 @@ export function getDateTimeAsText() {
     return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
 }
 
-
+/**
+ * Converts an Excel file to a JSON file.
+ *
+ * @param filePath The path to the Excel file.
+ * @param sheetName The name of the sheet to read from the Excel file.
+ * @creates A JSON file contains Map of OE numbers to YV numbers as <string, string[]> 
+ */
 function convertToJSonFromExcel(filePath: string, sheetName: string) {
 
     const wb = xlsx.readFile(path.resolve(__dirname, filePath), { cellDates: true });
@@ -79,6 +85,9 @@ function convertToJSonFromExcel(filePath: string, sheetName: string) {
 }
 
 
+/**
+ * INFO: was created to check whether any OE number represents/belongs to more than one YV number.
+ */
 function checkDoubleIndicatorsInOEnumbers() {
 
     const data: { OE: string; YV: string[] }[] = JSON.parse(fs.readFileSync(path.join(__dirname, '../resources/data/catalogInfo/jsons/ORJ_NO.json'), 'utf-8'));
@@ -112,6 +121,6 @@ function checkDoubleIndicatorsInOEnumbers() {
     //fs.writeFileSync(path.resolve(__dirname, `../output/ALL/excels/OE/duplicatedOENumbers.txt`), JSON.stringify(duplicatedData, null, 2));
 }
 
-//convertToJSonFromExcel("../output/ALL/excels/OE/ORJ_NO.xlsx", "NORMALIZED_OE_NUMBERS");
+//convertToJSonFromExcel("../output/ALL/excels/OE/ORJ_NO.xlsx", "KATALOG_09_25");
 
 checkDoubleIndicatorsInOEnumbers();

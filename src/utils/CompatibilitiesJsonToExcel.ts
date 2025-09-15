@@ -4,8 +4,8 @@ import * as fs from 'fs';
 import dotenv from 'dotenv';
 import { ModelData, OutputManufacturer, OutputModelSeries, OutputTarget, RootJsonData } from './Types';
 import { brandAliases, excelTitles } from './Variables';
-import initialMarkaData from '../resources/data/catalogInfo/jsons/marka_trimmed.json';
-import initialModelData from '../resources/data/catalogInfo/jsons/model_trimmed.json';
+import initialMarkaData from '../resources/data/catalogInfo/jsons/marka_catalog.json';
+import initialModelData from '../resources/data/catalogInfo/jsons/model_catalog.json';
 
 dotenv.config({ path: path.resolve(".env") });
 
