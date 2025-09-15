@@ -20,7 +20,7 @@ export function convertExcelToJson(inputFilePath: string, outputDirectory: strin
 
         // 'All Sheets' adlı ilk çalışma sayfasını al
         // Eğer 'All Sheets' yoksa, ilk sayfayı kullanırız.
-        const sheetName = workbook.SheetNames.includes('FULL LİSTE') ? 'FULL LİSTE' : workbook.SheetNames[0];
+        const sheetName = workbook.SheetNames.includes('KATALOG_AKTİF') ? 'KATALOG_AKTİF' : workbook.SheetNames[0];
         const worksheet = workbook.Sheets[sheetName];
 
         // Çalışma sayfasını JSON formatına dönüştür
@@ -141,7 +141,7 @@ export function convertExcelToJson(inputFilePath: string, outputDirectory: strin
 
 function main() {
     // Giriş Excel dosyasının yolu
-    const inputFilePath = path.resolve(__dirname, `../output/${productType}/excels/marka_hareket/MARKA_HAREKET.xlsx`);
+    const inputFilePath = path.resolve(__dirname, `../output/${productType}/excels/marka_hareket/MARKA_HAREKET_KATALOG.xlsx`);
     // Çıkış JSON dosyasının kaydedileceği dizin
     const outputDirectory = path.resolve(__dirname, `../output/${productType}/jsons/marka_hareket`);
 

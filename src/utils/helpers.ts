@@ -121,6 +121,6 @@ function checkDoubleIndicatorsInOEnumbers() {
     //fs.writeFileSync(path.resolve(__dirname, `../output/ALL/excels/OE/duplicatedOENumbers.txt`), JSON.stringify(duplicatedData, null, 2));
 }
 
-//convertToJSonFromExcel("../output/ALL/excels/OE/ORJ_NO.xlsx", "NORMALIZED_OE_NUMBERS");
+//convertToJSonFromExcel("../output/ALL/excels/OE/ORJ_NO.xlsx", "KATALOG_09_25");
 
 checkDoubleIndicatorsInOEnumbers();
