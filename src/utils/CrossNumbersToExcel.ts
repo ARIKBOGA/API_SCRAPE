@@ -40,7 +40,7 @@ const dataArray = Object.entries(rowData).map(([yvNo, crossPairs]) => ({
     ...crossPairs
 }));
 
-const outputFilePath = `../output/${productType}/excels/Cross Numbers/Cross-Numbers_by_${filterBrand}_Numbers.xlsx`;
+const outputFilePath = `../output/${productType}/excels/Cross-Numbers/Cross-Numbers_by_${filterBrand}_Numbers.xlsx`;
 const ws = xlsx.utils.json_to_sheet(dataArray, { header: ['yvNo', "OE", ...headers] });
 const wb = xlsx.utils.book_new();
 xlsx.utils.book_append_sheet(wb, ws, "Cross Numbers BY OE Numbers");

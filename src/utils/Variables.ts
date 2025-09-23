@@ -39,6 +39,7 @@ export const SUPPLIER_NUMBERS: Record<string, string> = {
   NipoKM: "7770",
   NK: "127",
   NPS: "440",
+  OPTIMAL: "129",
   "RED-LINE": "4869",
   RIDEX: "6358",
   ROADHOUSE: "152",
@@ -154,15 +155,17 @@ export const bodyTypes = [
 export const referenceArray: ProductReference[] = [
 
   // New disc product branched from 15112
-  {yvNo: "151006", supplier:"DANAHER", crossNumber:"DR12629"}
+  //{yvNo: "151006", supplier:"DANAHER", crossNumber:"DR12629"},
+  //{yvNo: "25902", supplier:"OPTIMAL", crossNumber:"BS-9458C"},
+  //{yvNo: "301007B", supplier:"BREMBO", crossNumber:"08.B369.37"},
+  { yvNo: "13577", supplier: "JNBK", crossNumber: "RN1750V" },
 
   // 997B
   // {yvNo: "731003", supplier:"TRISCAN", crossNumber: "10491104"}
 
 /*
  PAD with based on ICER
-
- {yvNo: "20002201", supplier:"ICER", crossNumber: "140690"},
+{yvNo: "20002201", supplier:"ICER", crossNumber: "140690"},
 {yvNo: "20011401", supplier:"ICER", crossNumber: "180020"},
 {yvNo: "20073401", supplier:"ICER", crossNumber: "180068"},
 {yvNo: "20168401", supplier:"ICER", crossNumber: "181012-700"},

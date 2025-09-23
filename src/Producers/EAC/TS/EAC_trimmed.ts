@@ -10,7 +10,7 @@ import { createDocxDocument, writeToWord, writeToExcel} from "./EAC_helpers";
  * @param end - The ending number of the range, inclusive.
  * @returns An array containing numbers from start to end (inclusive).
  */
-function getRangeArray(start: number, end: number) {
+function getNumberArrayInRange(start: number, end: number) {
   return Array.from({ length: end - start + 1 }, (_, i) => start + i);
 }
 
@@ -20,7 +20,7 @@ function getRangeArray(start: number, end: number) {
  * @param numberArray - The array of numbers to be converted.
  * @returns An array of strings, where each element is a three-digit representation of the corresponding element in the input array.
  */
-function getRangeAsString(numberArray: number[], padstart: number): string[] {
+function convertArrayToString(numberArray: number[], padstart: number): string[] {
   return numberArray.map((item) => item.toString().padStart(padstart, "0"));
 }
 
@@ -28,8 +28,8 @@ function getRangeAsString(numberArray: number[], padstart: number): string[] {
 const BRAND_INITIALS = Array.from(new Set(barcode_current_initials));
 
 // PREPARE WVA Numbers and FULL DISC & DRUM Range
-const PAD_WVA_RANGE: string[] = getRangeAsString(getRangeArray(10000, 37999), 0);
-const DISC_DRUM_FULL_RANGE = getRangeAsString(getRangeArray(1, 1600), 3);
+const PAD_WVA_RANGE: string[] = convertArrayToString(getNumberArrayInRange(10000, 37999), 0);
+const DISC_DRUM_FULL_RANGE = convertArrayToString(getNumberArrayInRange(1, 1600), 3);
 
 // Define Disc and Drum ranges in sort and remove current numbers from the full range
 let DISC_RANGE: string[], DRUM_RANGE: string[];
