@@ -1,0 +1,144 @@
+[
+  {
+    "yvNo": "511001",
+    "crossNumber": "08.5878.10",
+    "supplier": "BREMBO",
+    "oeNumbers": [
+      {
+        "manufacturer": "DAIHATSU",
+        "numbers": [
+          "4351287709",
+          "4351287709000",
+          "4351287717",
+          "4351287722",
+          "4351287722000",
+          "4351287727",
+          "4351287727000"
+        ]
+      },
+      {
+        "manufacturer": "GEELY",
+        "numbers": [
+          "3501101005"
+        ]
+      },
+      {
+        "manufacturer": "GLEAGLE",
+        "numbers": [
+          "3501101005"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "151007",
+    "crossNumber": "08.8868.20",
+    "supplier": "BREMBO",
+    "oeNumbers": [
+      {
+        "manufacturer": "HONDA",
+        "numbers": [
+          "42510S9A000",
+          "42510S9AN00",
+          "42510SCAE00",
+          "42510SMCN00",
+          "42510SMCN01",
+          "42510SMCN02"
+        ]
+      },
+      {
+        "manufacturer": "HONDA (DONGFENG)",
+        "numbers": [
+          "42510T4NH02"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "151008",
+    "crossNumber": "08.A355.11",
+    "supplier": "BREMBO",
+    "oeNumbers": [
+      {
+        "manufacturer": "ACURA",
+        "numbers": [
+          "42510TX4A01",
+          "42510TX4A02"
+        ]
+      },
+      {
+        "manufacturer": "HONDA",
+        "numbers": [
+          "42510S9AE50",
+          "42510SA9E50",
+          "42510SCAE50",
+          "42510STKA00",
+          "42510SWA000",
+          "42510SWAA00",
+          "42510SWAA01",
+          "42510SWAA02",
+          "42510SXSA00",
+          "42510T0AA00",
+          "42510T0GA01",
+          "42510T0GA02",
+          "42510T0GA04"
+        ]
+      },
+      {
+        "manufacturer": "HONDA (DONGFENG)",
+        "numbers": [
+          "42510T0TH00"
+        ]
+      }
+    ]
+  },
+  {
+    "yvNo": "271011",
+    "crossNumber": "09.9505.10",
+    "supplier": "BREMBO",
+    "oeNumbers": [
+      {
+        "manufacturer": "CADILLAC",
+        "numbers": [
+          "93188378"
+        ]
+      },
+      {
+        "manufacturer": "CHEVROLET",
+        "numbers": [
+          "93171778"
+        ]
+      },
+      {
+        "manufacturer": "FIAT",
+        "numbers": [
+          "46836490",
+          "71772548"
+        ]
+      },
+      {
+        "manufacturer": "OPEL",
+        "numbers": [
+          "569114",
+          "93171778",
+          "95526644"
+        ]
+      },
+      {
+        "manufacturer": "SAAB",
+        "numbers": [
+          "12762291",
+          "9191336",
+          "93188378"
+        ]
+      },
+      {
+        "manufacturer": "VAUXHALL",
+        "numbers": [
+          "93171778",
+          "95526644"
+        ]
+      }
+    ]
+  }
+]

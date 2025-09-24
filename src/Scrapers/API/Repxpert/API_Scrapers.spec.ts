@@ -43,13 +43,13 @@ async function processProducts(processFunction: Function, fileName: string, thre
 test("Get OE numbers for all products", async () => {
   test.setTimeout(20 * 60 * 1000);
   console.log(`Processing OE numbers for brand: ${filterBrand}`);
-  await processProducts(processProductFor_OE, `oe-numbers_${filterBrand}.json`, 3, "OE");
+  await processProducts(processProductFor_OE, `oe-numbers_${filterBrand}.json`, 4, "OE");
 });
 
 test("Get Vehicle Compatibility for all products", async () => {
   test.setTimeout(20 * 60 * 1000);
   console.log(`Processing Vehicle Compatibility for brand: ${filterBrand}`);
-  await processProducts(processProductFor_VehicleCompatibility, `Vehicle-Compatibility_${filterBrand}.json`, 3, "Vehicle-Compatibility");
+  await processProducts(processProductFor_VehicleCompatibility, `Vehicle-Compatibility_${filterBrand}.json`, 4, "Vehicle-Compatibility");
 });
 
 test("Get cross numbers via given cross/OE numbers", async () => {

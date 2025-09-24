@@ -10,7 +10,7 @@ dotenv.config({ path: path.resolve(".env") });
 const productType = process.env.PRODUCT_TYPE as string;
 
 const lineCount = 4;
-const lineLength = 45;
+const lineLength = 48;
 const modelsNeedsToBePascalCased = new Set(JSON.parse(fs.readFileSync(path.resolve(__dirname, `../resources/data/catalogInfo/jsons/modelsNeedsToBePascalCased.json`), "utf-8")));
 const inputFilePath = path.resolve(__dirname, `../output/${productType}/jsons/marka_hareket/MARKA_HAREKET_KATALOG.json`);
 const outputFilePath = path.resolve(__dirname, `../output/${productType}/excels/Label/${productType}_Label_WOD_${lineCount}x${lineLength}_With_Options.xlsx`);

@@ -158,7 +158,20 @@ export const referenceArray: ProductReference[] = [
   //{yvNo: "151006", supplier:"DANAHER", crossNumber:"DR12629"},
   //{yvNo: "25902", supplier:"OPTIMAL", crossNumber:"BS-9458C"},
   //{yvNo: "301007B", supplier:"BREMBO", crossNumber:"08.B369.37"},
-  { yvNo: "13577", supplier: "JNBK", crossNumber: "RN1750V" },
+  //{ yvNo: "13577", supplier: "JNBK", crossNumber: "RN1750V" },
+  
+
+  // 6 YENİ ÜRÜN OE/ COMPATS BİLGİLERİ
+  /*
+  {yvNo: "511001", supplier:"BREMBO", crossNumber:"08.5878.10"},
+  {yvNo: "151007", supplier:"BREMBO", crossNumber:"08.8868.20"},
+  {yvNo: "151008", supplier:"BREMBO", crossNumber:"08.A355.11"},
+  {yvNo: "271011", supplier:"BREMBO", crossNumber:"09.9505.10"}, 
+  {yvNo: "681010", supplier:"JNBK", crossNumber:"RN2551V"},
+  {yvNo: "741000", supplier:"JNBK", crossNumber:"RN2552V"},
+  */
+
+  {yvNo:"151007", supplier:"JNBK",  crossNumber:"RN1460"}
 
   // 997B
   // {yvNo: "731003", supplier:"TRISCAN", crossNumber: "10491104"}
