@@ -119,3 +119,15 @@ export interface Model {
     code: string;
     type: string;
 }
+
+export interface OERoot {
+  yvNo: string
+  crossNumber: string
+  supplier: string
+  oeNumbers: OeNumber[]
+}
+
+export interface OeNumber {
+  manufacturer: string
+  numbers: string[]
+}

@@ -36,7 +36,7 @@ async function JNBK_API_Scraper(process: Function, fileName: string, threadLimit
     fs.writeFileSync(path.join(outputDir, fileName), JSON.stringify(results, null, 2), "utf8");
 }
 
-test("JNBK API test", async () => {
+test("JNBK API: Get Vehicle Compatibilities of the products", async () => {
 
     test.setTimeout(20 * 60 * 1000); // 20 dakika
     console.log(`Processing OE numbers for brand: ${filterBrand}, count : ${referenceArray.length}`);

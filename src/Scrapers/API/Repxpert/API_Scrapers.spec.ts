@@ -12,8 +12,8 @@ dotenv.config({ path: path.resolve(".env") });
 const productType = process.env.PRODUCT_TYPE as string;
 const filterBrand = (process.env.FILTER_BRAND as string) !== "" ? process.env.FILTER_BRAND as string : "LOADED_NOT_FOUND_COMMERCIAL_REMINDER";
 
-const start = 0;
-const end: number = 150;
+const start = 550;
+const end: number = 0;
 const end_str = end !== 0 ? end : "end";
 
 async function processProducts(processFunction: Function, fileName: string, threadLimit: number, processFor: string) {
@@ -43,13 +43,13 @@ async function processProducts(processFunction: Function, fileName: string, thre
 test("Get OE numbers for all products", async () => {
   test.setTimeout(20 * 60 * 1000);
   console.log(`Processing OE numbers for brand: ${filterBrand}`);
-  await processProducts(processProductFor_OE, `oe-numbers_${filterBrand}.json`, 3, "OE");
+  await processProducts(processProductFor_OE, `oe-numbers_${filterBrand}.json`, 4, "OE");
 });
 
 test("Get Vehicle Compatibility for all products", async () => {
   test.setTimeout(20 * 60 * 1000);
   console.log(`Processing Vehicle Compatibility for brand: ${filterBrand}`);
-  await processProducts(processProductFor_VehicleCompatibility, `Vehicle-Compatibility_${filterBrand}.json`, 3, "Vehicle-Compatibility");
+  await processProducts(processProductFor_VehicleCompatibility, `Vehicle-Compatibility_${filterBrand}.json`, 4, "Vehicle-Compatibility");
 });
 
 test("Get cross numbers via given cross/OE numbers", async () => {

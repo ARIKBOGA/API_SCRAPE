@@ -69865,5 +69865,82 @@
     "modeller_markalar::marka": "TOFAS",
     "model": "KARTAL 14\"",
     "model_Web": "KARTAL 14\""
+  },
+  {
+    "id": 9982,
+    "marka_id": 89,
+    "modeller_markalar::marka": "MITSUBISHI",
+    "model": "Canter VIII (FEA_, FEB_, FEC_, FGB_)",
+    "model_Web": "Canter VIII (FEA_, FEB_, FEC_, FGB_)"
+  },
+  {
+    "id": 9983,
+    "marka_id": 131,
+    "modeller_markalar::marka": "VW",
+    "model": "AMAROK",
+    "model_Web": "AMAROK"
+  },
+  {
+    "id": 9984,
+    "marka_id": 24,
+    "modeller_markalar::marka": "CHERY",
+    "model": "Tiggo",
+    "model_Web": "Tiggo"
+  },
+  {
+    "id": 9985,
+    "marka_id": 48,
+    "modeller_markalar::marka": "GEELY",
+    "model": "EMGRAND",
+    "model_Web": "EMGRAND"
+  },
+  {
+    "id": 9986,
+    "marka_id": 139,
+    "modeller_markalar::marka": "LIFAN",
+    "model": "Lifan X60",
+    "model_Web": "Lifan X60"
+  },
+  {
+    "id": 9987,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "AVANCIER",
+    "model_Web": "AVANCIER"
+  },
+  {
+    "id": 9988,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "CR-V",
+    "model_Web": "CR-V"
+  },
+  {
+    "id": 9989,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "CR-V (USA)",
+    "model_Web": "CR-V (USA)"
+  },
+  {
+    "id": 9990,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "CROSSROAD",
+    "model_Web": "CROSSROAD"
+  },
+  {
+    "id": 9991,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "JADE",
+    "model_Web": "JADE"
+  },
+  {
+    "id": 9992,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "STREAM",
+    "model_Web": "STREAM"
   }
 ]

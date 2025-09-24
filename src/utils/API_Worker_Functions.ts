@@ -96,7 +96,7 @@ export async function getManufacturerCodes(encryptedSearchCode: string,apiContex
   const part_1 = process.env.COMPATIBILITY_MANUFACTURERS_URL_1 as string;
   const part_2 = process.env.COMPATIBILITY_MANUFACTURERS_URL_2 as string;
   const requestURL = `${part_1}${encryptedSearchCode}${part_2}`;
-  console.log(`MANUFACTURERS URL: ${requestURL}`); // Detaylı loglar için uncomment edilebilir
+  //console.log(`MANUFACTURERS URL: ${requestURL}`); // Detaylı loglar için uncomment edilebilir
 
   const manufacturer_codes_response = await apiContext.get(requestURL, { headers: await getAuthHeaders() });
 

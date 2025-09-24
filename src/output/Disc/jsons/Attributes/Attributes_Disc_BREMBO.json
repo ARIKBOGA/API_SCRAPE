@@ -1,0 +1,178 @@
+[
+  {
+    "yvNo": "511001",
+    "crossNumber": "08.5878.10",
+    "supplier": "BREMBO",
+    "attributes": [
+      {
+        "name": "Brake Disc Type",
+        "value": "solid"
+      },
+      {
+        "name": "Brake Disc Thickness [mm]",
+        "value": "11"
+      },
+      {
+        "name": "Number of Holes",
+        "value": "4"
+      },
+      {
+        "name": "Supplementary Article/Supplementary Info 2",
+        "value": "with bolts/screws"
+      },
+      {
+        "name": "Height [mm]",
+        "value": "47"
+      },
+      {
+        "name": "Centering Diameter [mm]",
+        "value": "56"
+      },
+      {
+        "name": "Outer Diameter [mm]",
+        "value": "234"
+      },
+      {
+        "name": "Minimum thickness [mm]",
+        "value": "10"
+      },
+      {
+        "name": "Tightening Torque [Nm]",
+        "value": "103"
+      }
+    ]
+  },
+  {
+    "yvNo": "151007",
+    "crossNumber": "08.8868.20",
+    "supplier": "BREMBO",
+    "attributes": [
+      {
+        "name": "Brake Disc Type",
+        "value": "solid"
+      },
+      {
+        "name": "Brake Disc Thickness [mm]",
+        "value": "9"
+      },
+      {
+        "name": "Number of Holes",
+        "value": "5"
+      },
+      {
+        "name": "Supplementary Article/Supplementary Info 2",
+        "value": "with bolts/screws"
+      },
+      {
+        "name": "Height [mm]",
+        "value": "58"
+      },
+      {
+        "name": "Centering Diameter [mm]",
+        "value": "64"
+      },
+      {
+        "name": "Outer Diameter [mm]",
+        "value": "282"
+      },
+      {
+        "name": "Minimum thickness [mm]",
+        "value": "7.5"
+      },
+      {
+        "name": "Tightening Torque [Nm]",
+        "value": "108"
+      }
+    ]
+  },
+  {
+    "yvNo": "151008",
+    "crossNumber": "08.A355.11",
+    "supplier": "BREMBO",
+    "attributes": [
+      {
+        "name": "Brake Disc Type",
+        "value": "solid"
+      },
+      {
+        "name": "Brake Disc Thickness [mm]",
+        "value": "9"
+      },
+      {
+        "name": "Number of Holes",
+        "value": "5"
+      },
+      {
+        "name": "Supplementary Article/Supplementary Info 2",
+        "value": "with bolts/screws"
+      },
+      {
+        "name": "Height [mm]",
+        "value": "61"
+      },
+      {
+        "name": "Centering Diameter [mm]",
+        "value": "64"
+      },
+      {
+        "name": "Outer Diameter [mm]",
+        "value": "305"
+      },
+      {
+        "name": "Surface",
+        "value": "Coated"
+      },
+      {
+        "name": "Minimum thickness [mm]",
+        "value": "7.5"
+      },
+      {
+        "name": "Tightening Torque [Nm]",
+        "value": "108"
+      }
+    ]
+  },
+  {
+    "yvNo": "271011",
+    "crossNumber": "09.9505.10",
+    "supplier": "BREMBO",
+    "attributes": [
+      {
+        "name": "Brake Disc Type",
+        "value": "internally vented"
+      },
+      {
+        "name": "Brake Disc Thickness [mm]",
+        "value": "20"
+      },
+      {
+        "name": "Number of Holes",
+        "value": "5"
+      },
+      {
+        "name": "Supplementary Article/Supplementary Info 2",
+        "value": "with bolts/screws"
+      },
+      {
+        "name": "Height [mm]",
+        "value": "42"
+      },
+      {
+        "name": "Centering Diameter [mm]",
+        "value": "66"
+      },
+      {
+        "name": "Outer Diameter [mm]",
+        "value": "292"
+      },
+      {
+        "name": "Minimum thickness [mm]",
+        "value": "18"
+      },
+      {
+        "name": "Tightening Torque [Nm]",
+        "value": "120"
+      }
+    ]
+  }
+]
