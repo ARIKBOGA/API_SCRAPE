@@ -1,0 +1,584 @@
+[
+  {
+    "yvNo": "16171",
+    "crossNumber": "202231",
+    "brand": "NK",
+    "compatibleVehicles": [
+      {
+        "manufacturer": "NISSAN",
+        "models": [
+          {
+            "modelSeries": "200SX (S13) | 240SX",
+            "targets": [
+              {
+                "engine": "1.8",
+                "fullName": "NISSAN 200SX (S13) | 240SX 1.8",
+                "constructionYearFrom": "09.1988",
+                "constructionYearTo": "03.1994",
+                "enginePowerKW": 99,
+                "enginePowerHP": 135,
+                "cc": 1809,
+                "engineCodes": "CA18DE",
+                "kbaNumbers": "",
+                "bodyType": "Coupe",
+                "TecDocID": 27741
+              },
+              {
+                "engine": "1.8 Turbo",
+                "fullName": "NISSAN 200SX (S13) | 240SX 1.8 Turbo",
+                "constructionYearFrom": "07.1988",
+                "constructionYearTo": "11.1993",
+                "enginePowerKW": 124,
+                "enginePowerHP": 169,
+                "cc": 1809,
+                "engineCodes": "CA18DET",
+                "kbaNumbers": "7105459",
+                "bodyType": "Coupe",
+                "TecDocID": 4304
+              },
+              {
+                "engine": "1.8 Turbo",
+                "fullName": "NISSAN 200SX (S13) | 240SX 1.8 Turbo",
+                "constructionYearFrom": "09.1988",
+                "constructionYearTo": "03.1994",
+                "enginePowerKW": 126,
+                "enginePowerHP": 171,
+                "cc": 1809,
+                "engineCodes": "CA18DT",
+                "kbaNumbers": "",
+                "bodyType": "Coupe",
+                "TecDocID": 132979
+              }
+            ]
+          },
+          {
+            "modelSeries": "ALMERA II (N16) | SUNNY | PULSAR | SENTRA",
+            "targets": [
+              {
+                "engine": "1.5",
+                "fullName": "NISSAN ALMERA II (N16) | SUNNY | PULSAR | SENTRA 1.5",
+                "constructionYearFrom": "07.2000",
+                "constructionYearTo": "11.2006",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 1498,
+                "engineCodes": "QG15DE",
+                "kbaNumbers": "9648363",
+                "bodyType": "Saloon",
+                "TecDocID": 14915
+              },
+              {
+                "engine": "1.5",
+                "fullName": "NISSAN ALMERA II (N16) | SUNNY | PULSAR | SENTRA 1.5",
+                "constructionYearFrom": "10.2002",
+                "constructionYearTo": "09.2006",
+                "enginePowerKW": 72,
+                "enginePowerHP": 98,
+                "cc": 1497,
+                "engineCodes": "QG15DE",
+                "kbaNumbers": "9648396, 3144028",
+                "bodyType": "Saloon",
+                "TecDocID": 17242
+              }
+            ]
+          },
+          {
+            "modelSeries": "ALMERA II Hatchback (N16) | PULSAR | SENTRA",
+            "targets": [
+              {
+                "engine": "1.5",
+                "fullName": "NISSAN ALMERA II Hatchback (N16) | PULSAR | SENTRA 1.5",
+                "constructionYearFrom": "03.2000",
+                "constructionYearTo": "11.2006",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 1498,
+                "engineCodes": "QG15DE",
+                "kbaNumbers": "9648353",
+                "bodyType": "Hatchback",
+                "TecDocID": 14657
+              },
+              {
+                "engine": "1.5",
+                "fullName": "NISSAN ALMERA II Hatchback (N16) | PULSAR | SENTRA 1.5",
+                "constructionYearFrom": "10.2002",
+                "constructionYearTo": "09.2006",
+                "enginePowerKW": 72,
+                "enginePowerHP": 98,
+                "cc": 1497,
+                "engineCodes": "QG15DE",
+                "kbaNumbers": "9648395, 3144029",
+                "bodyType": "Hatchback",
+                "TecDocID": 17239
+              }
+            ]
+          },
+          {
+            "modelSeries": "BLUEBIRD (U13, U14) | ALTIMA",
+            "targets": [
+              {
+                "engine": "2.0 D",
+                "fullName": "NISSAN BLUEBIRD (U13, U14) | ALTIMA 2.0 D",
+                "constructionYearFrom": "04.1997",
+                "constructionYearTo": "05.2002",
+                "enginePowerKW": 56,
+                "enginePowerHP": 76,
+                "cc": 1974,
+                "engineCodes": "CD20",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 123963
+              }
+            ]
+          },
+          {
+            "modelSeries": "PRAIRIE PRO (M11) | PRAIRIE / PRAIRIE JOY | AXXESS",
+            "targets": [
+              {
+                "engine": "2.0 i",
+                "fullName": "NISSAN PRAIRIE PRO (M11) | PRAIRIE / PRAIRIE JOY | AXXESS 2.0 i",
+                "constructionYearFrom": "10.1988",
+                "constructionYearTo": "04.1992",
+                "enginePowerKW": 72,
+                "enginePowerHP": 98,
+                "cc": 1974,
+                "engineCodes": "CA20E",
+                "kbaNumbers": "7105456",
+                "bodyType": "MPV",
+                "TecDocID": 4330
+              },
+              {
+                "engine": "2.0 i 4x4",
+                "fullName": "NISSAN PRAIRIE PRO (M11) | PRAIRIE / PRAIRIE JOY | AXXESS 2.0 i 4x4",
+                "constructionYearFrom": "10.1988",
+                "constructionYearTo": "12.1992",
+                "enginePowerKW": 72,
+                "enginePowerHP": 98,
+                "cc": 1974,
+                "engineCodes": "CA20E",
+                "kbaNumbers": "7105457",
+                "bodyType": "MPV",
+                "TecDocID": 4516
+              }
+            ]
+          },
+          {
+            "modelSeries": "PRIMERA (P10)",
+            "targets": [
+              {
+                "engine": "1.6",
+                "fullName": "NISSAN PRIMERA (P10) 1.6",
+                "constructionYearFrom": "06.1990",
+                "constructionYearTo": "01.1996",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 1597,
+                "engineCodes": "GA16DS",
+                "kbaNumbers": "2125306",
+                "bodyType": "Saloon",
+                "TecDocID": 4264
+              },
+              {
+                "engine": "1.6",
+                "fullName": "NISSAN PRIMERA (P10) 1.6",
+                "constructionYearFrom": "06.1993",
+                "constructionYearTo": "01.1996",
+                "enginePowerKW": 75,
+                "enginePowerHP": 102,
+                "cc": 1597,
+                "engineCodes": "GA16DE",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 19696
+              },
+              {
+                "engine": "2.0",
+                "fullName": "NISSAN PRIMERA (P10) 2.0",
+                "constructionYearFrom": "06.1990",
+                "constructionYearTo": "05.1996",
+                "enginePowerKW": 96,
+                "enginePowerHP": 131,
+                "cc": 1998,
+                "engineCodes": "SR20DE",
+                "kbaNumbers": "",
+                "bodyType": "Saloon",
+                "TecDocID": 56819
+              },
+              {
+                "engine": "2.0 16V",
+                "fullName": "NISSAN PRIMERA (P10) 2.0 16V",
+                "constructionYearFrom": "06.1990",
+                "constructionYearTo": "01.1996",
+                "enginePowerKW": 85,
+                "enginePowerHP": 116,
+                "cc": 1998,
+                "engineCodes": "SR20DI",
+                "kbaNumbers": "2125307",
+                "bodyType": "Saloon",
+                "TecDocID": 4266
+              },
+              {
+                "engine": "2.0 16V 4x4",
+                "fullName": "NISSAN PRIMERA (P10) 2.0 16V 4x4",
+                "constructionYearFrom": "04.1991",
+                "constructionYearTo": "06.1996",
+                "enginePowerKW": 85,
+                "enginePowerHP": 116,
+                "cc": 1998,
+                "engineCodes": "SR20DI",
+                "kbaNumbers": "2125313",
+                "bodyType": "Saloon",
+                "TecDocID": 9161
+              },
+              {
+                "engine": "2.0 GT",
+                "fullName": "NISSAN PRIMERA (P10) 2.0 GT",
+                "constructionYearFrom": "06.1990",
+                "constructionYearTo": "01.1996",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1998,
+                "engineCodes": "SR20DE",
+                "kbaNumbers": "2125309",
+                "bodyType": "Saloon",
+                "TecDocID": 4268
+              },
+              {
+                "engine": "2.0 i",
+                "fullName": "NISSAN PRIMERA (P10) 2.0 i",
+                "constructionYearFrom": "01.1995",
+                "constructionYearTo": "06.1996",
+                "enginePowerKW": 92,
+                "enginePowerHP": 125,
+                "cc": 1998,
+                "engineCodes": "SR20DE",
+                "kbaNumbers": "2125319",
+                "bodyType": "Saloon",
+                "TecDocID": 4339
+              }
+            ]
+          },
+          {
+            "modelSeries": "PRIMERA (P11)",
+            "targets": [
+              {
+                "engine": "1.6 16V",
+                "fullName": "NISSAN PRIMERA (P11) 1.6 16V",
+                "constructionYearFrom": "06.1996",
+                "constructionYearTo": "12.2001",
+                "enginePowerKW": 78,
+                "enginePowerHP": 106,
+                "cc": 1597,
+                "engineCodes": "QG16DE",
+                "kbaNumbers": "9648368",
+                "bodyType": "Saloon",
+                "TecDocID": 16107
+              },
+              {
+                "engine": "1.6 16V",
+                "fullName": "NISSAN PRIMERA (P11) 1.6 16V",
+                "constructionYearFrom": "09.1996",
+                "constructionYearTo": "12.2001",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 1597,
+                "engineCodes": "GA16DE",
+                "kbaNumbers": "9648325",
+                "bodyType": "Saloon",
+                "TecDocID": 7852
+              },
+              {
+                "engine": "1.6 16V",
+                "fullName": "NISSAN PRIMERA (P11) 1.6 16V",
+                "constructionYearFrom": "09.1996",
+                "constructionYearTo": "10.2000",
+                "enginePowerKW": 73,
+                "enginePowerHP": 99,
+                "cc": 1597,
+                "engineCodes": "GA16DE",
+                "kbaNumbers": "9648323",
+                "bodyType": "Saloon",
+                "TecDocID": 7851
+              },
+              {
+                "engine": "2.0 16V",
+                "fullName": "NISSAN PRIMERA (P11) 2.0 16V",
+                "constructionYearFrom": "09.1996",
+                "constructionYearTo": "12.2001",
+                "enginePowerKW": 85,
+                "enginePowerHP": 115,
+                "cc": 1998,
+                "engineCodes": "SR20DE",
+                "kbaNumbers": "9648329",
+                "bodyType": "Saloon",
+                "TecDocID": 7854
+              },
+              {
+                "engine": "2.0 16V",
+                "fullName": "NISSAN PRIMERA (P11) 2.0 16V",
+                "constructionYearFrom": "09.1996",
+                "constructionYearTo": "12.2001",
+                "enginePowerKW": 96,
+                "enginePowerHP": 131,
+                "cc": 1998,
+                "engineCodes": "SR20DE",
+                "kbaNumbers": "9648327",
+                "bodyType": "Saloon",
+                "TecDocID": 7853
+              },
+              {
+                "engine": "2.0 TD",
+                "fullName": "NISSAN PRIMERA (P11) 2.0 TD",
+                "constructionYearFrom": "09.1996",
+                "constructionYearTo": "12.2001",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 1974,
+                "engineCodes": "CD20T",
+                "kbaNumbers": "9648333",
+                "bodyType": "Saloon",
+                "TecDocID": 7856
+              }
+            ]
+          },
+          {
+            "modelSeries": "PRIMERA Hatchback (P10)",
+            "targets": [
+              {
+                "engine": "1.6",
+                "fullName": "NISSAN PRIMERA Hatchback (P10) 1.6",
+                "constructionYearFrom": "06.1993",
+                "constructionYearTo": "01.1996",
+                "enginePowerKW": 75,
+                "enginePowerHP": 102,
+                "cc": 1597,
+                "engineCodes": "GA16DE",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback",
+                "TecDocID": 8571
+              },
+              {
+                "engine": "2.0",
+                "fullName": "NISSAN PRIMERA Hatchback (P10) 2.0",
+                "constructionYearFrom": "06.1990",
+                "constructionYearTo": "01.1996",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1998,
+                "engineCodes": "SR20DE",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback",
+                "TecDocID": 17017
+              },
+              {
+                "engine": "2.0",
+                "fullName": "NISSAN PRIMERA Hatchback (P10) 2.0",
+                "constructionYearFrom": "09.1990",
+                "constructionYearTo": "01.1996",
+                "enginePowerKW": 112,
+                "enginePowerHP": 152,
+                "cc": 1998,
+                "engineCodes": "SR20DE",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback",
+                "TecDocID": 11821
+              },
+              {
+                "engine": "2.0 16V",
+                "fullName": "NISSAN PRIMERA Hatchback (P10) 2.0 16V",
+                "constructionYearFrom": "06.1990",
+                "constructionYearTo": "01.1996",
+                "enginePowerKW": 85,
+                "enginePowerHP": 116,
+                "cc": 1998,
+                "engineCodes": "SR20DI",
+                "kbaNumbers": "2125308",
+                "bodyType": "Hatchback",
+                "TecDocID": 4271
+              },
+              {
+                "engine": "2.0 16V 4x4",
+                "fullName": "NISSAN PRIMERA Hatchback (P10) 2.0 16V 4x4",
+                "constructionYearFrom": "04.1991",
+                "constructionYearTo": "06.1996",
+                "enginePowerKW": 85,
+                "enginePowerHP": 116,
+                "cc": 1998,
+                "engineCodes": "SR20DI",
+                "kbaNumbers": "2125314",
+                "bodyType": "Hatchback",
+                "TecDocID": 9162
+              },
+              {
+                "engine": "2.0 i",
+                "fullName": "NISSAN PRIMERA Hatchback (P10) 2.0 i",
+                "constructionYearFrom": "01.1995",
+                "constructionYearTo": "06.1996",
+                "enginePowerKW": 92,
+                "enginePowerHP": 125,
+                "cc": 1998,
+                "engineCodes": "SR20DE",
+                "kbaNumbers": "2125320",
+                "bodyType": "Hatchback",
+                "TecDocID": 4340
+              }
+            ]
+          },
+          {
+            "modelSeries": "PRIMERA Hatchback (P11)",
+            "targets": [
+              {
+                "engine": "1.6 16V",
+                "fullName": "NISSAN PRIMERA Hatchback (P11) 1.6 16V",
+                "constructionYearFrom": "09.1996",
+                "constructionYearTo": "07.2002",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 1597,
+                "engineCodes": "GA16DE",
+                "kbaNumbers": "9648326",
+                "bodyType": "Hatchback",
+                "TecDocID": 7858
+              },
+              {
+                "engine": "1.6 16V",
+                "fullName": "NISSAN PRIMERA Hatchback (P11) 1.6 16V",
+                "constructionYearFrom": "09.1996",
+                "constructionYearTo": "07.2002",
+                "enginePowerKW": 73,
+                "enginePowerHP": 99,
+                "cc": 1597,
+                "engineCodes": "GA16DE",
+                "kbaNumbers": "9648324",
+                "bodyType": "Hatchback",
+                "TecDocID": 7857
+              },
+              {
+                "engine": "1.8 16V LPG",
+                "fullName": "NISSAN PRIMERA Hatchback (P11) 1.8 16V LPG",
+                "constructionYearFrom": "08.1999",
+                "constructionYearTo": "07.2002",
+                "enginePowerKW": 84,
+                "enginePowerHP": 114,
+                "cc": 1769,
+                "engineCodes": "QG18DE",
+                "kbaNumbers": "",
+                "bodyType": "Hatchback",
+                "TecDocID": 131393
+              },
+              {
+                "engine": "2.0 16V",
+                "fullName": "NISSAN PRIMERA Hatchback (P11) 2.0 16V",
+                "constructionYearFrom": "09.1996",
+                "constructionYearTo": "07.2002",
+                "enginePowerKW": 85,
+                "enginePowerHP": 115,
+                "cc": 1998,
+                "engineCodes": "SR20DE, SR20DEL",
+                "kbaNumbers": "9648330",
+                "bodyType": "Hatchback",
+                "TecDocID": 7860
+              },
+              {
+                "engine": "2.0 16V",
+                "fullName": "NISSAN PRIMERA Hatchback (P11) 2.0 16V",
+                "constructionYearFrom": "09.1996",
+                "constructionYearTo": "07.2002",
+                "enginePowerKW": 96,
+                "enginePowerHP": 131,
+                "cc": 1998,
+                "engineCodes": "SR20DE",
+                "kbaNumbers": "9648328",
+                "bodyType": "Hatchback",
+                "TecDocID": 7859
+              },
+              {
+                "engine": "2.0 TD",
+                "fullName": "NISSAN PRIMERA Hatchback (P11) 2.0 TD",
+                "constructionYearFrom": "09.1996",
+                "constructionYearTo": "07.2002",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 1974,
+                "engineCodes": "CD20T",
+                "kbaNumbers": "9648334",
+                "bodyType": "Hatchback",
+                "TecDocID": 7862
+              }
+            ]
+          },
+          {
+            "modelSeries": "PRIMERA Traveller (W10)",
+            "targets": [
+              {
+                "engine": "1.6 i",
+                "fullName": "NISSAN PRIMERA Traveller (W10) 1.6 i",
+                "constructionYearFrom": "07.1990",
+                "constructionYearTo": "03.1998",
+                "enginePowerKW": 66,
+                "enginePowerHP": 90,
+                "cc": 1597,
+                "engineCodes": "GA16DS",
+                "kbaNumbers": "7105469, 9648300",
+                "bodyType": "Estate",
+                "TecDocID": 4272
+              },
+              {
+                "engine": "1.6 i",
+                "fullName": "NISSAN PRIMERA Traveller (W10) 1.6 i",
+                "constructionYearFrom": "02.1991",
+                "constructionYearTo": "03.1998",
+                "enginePowerKW": 75,
+                "enginePowerHP": 102,
+                "cc": 1597,
+                "engineCodes": "GA16DE",
+                "kbaNumbers": "9648301",
+                "bodyType": "Estate",
+                "TecDocID": 4337
+              },
+              {
+                "engine": "2.0",
+                "fullName": "NISSAN PRIMERA Traveller (W10) 2.0",
+                "constructionYearFrom": "07.1994",
+                "constructionYearTo": "01.1998",
+                "enginePowerKW": 110,
+                "enginePowerHP": 150,
+                "cc": 1998,
+                "engineCodes": "SR20DE",
+                "kbaNumbers": "",
+                "bodyType": "Estate",
+                "TecDocID": 20404
+              },
+              {
+                "engine": "2.0 D",
+                "fullName": "NISSAN PRIMERA Traveller (W10) 2.0 D",
+                "constructionYearFrom": "07.1990",
+                "constructionYearTo": "12.1995",
+                "enginePowerKW": 55,
+                "enginePowerHP": 75,
+                "cc": 1974,
+                "engineCodes": "CD20",
+                "kbaNumbers": "7105471, 9648318",
+                "bodyType": "Estate",
+                "TecDocID": 4274
+              },
+              {
+                "engine": "2.0 i",
+                "fullName": "NISSAN PRIMERA Traveller (W10) 2.0 i",
+                "constructionYearFrom": "07.1990",
+                "constructionYearTo": "03.1998",
+                "enginePowerKW": 85,
+                "enginePowerHP": 116,
+                "cc": 1998,
+                "engineCodes": "SR20DI",
+                "kbaNumbers": "7105470, 9648302",
+                "bodyType": "Estate",
+                "TecDocID": 4273
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

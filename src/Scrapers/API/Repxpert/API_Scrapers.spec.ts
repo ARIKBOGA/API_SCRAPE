@@ -3,10 +3,10 @@ import dotenv from "dotenv";
 import path from "path";
 import fs from "fs";
 
-import { processProductFor_CrossNumbers, processProductFor_OE, processProductFor_VehicleCompatibility, processProductForArticleAttributes } from "./helpers/api-workers";
+import { processProductFor_CrossNumbers, processProductFor_OE, processProductFor_VehicleCompatibility, processProductForArticleAttributes } from "./helpers/API_Functions";
 import { referenceArray } from "../../../utils/Variables";
 import { readProductReferencesFromExcel } from "../../../utils/Excel_Utils";
-import { getAuthHeaders, getEncryptedSearchCode } from "../../../utils/API_Worker_Functions";
+import { getAuthHeaders, getEncryptedSearchCode } from "./helpers/API_Helpers";
 
 dotenv.config({ path: path.resolve(".env") });
 const productType = process.env.PRODUCT_TYPE as string;

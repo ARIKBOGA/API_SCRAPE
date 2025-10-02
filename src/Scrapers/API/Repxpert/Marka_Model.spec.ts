@@ -2,7 +2,7 @@ import { request, test } from "@playwright/test";
 import path from "path";
 import fs from "fs";
 import xlsx from 'xlsx';
-import { getToken } from "../../../utils/API_Worker_Functions";
+import { getToken } from "./helpers/API_Helpers";
 import { ApiCompatibility, Model } from "../../../utils/Types";
 
 export function readBrandNames(): string[] {

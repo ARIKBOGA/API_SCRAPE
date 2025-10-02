@@ -1,376 +1,104 @@
 [
   {
-    "yvNo": "151007",
-    "crossNumber": "RN1460",
+    "yvNo": "22072",
+    "crossNumber": "RN1347V",
     "brand": "JNBK",
     "compatibleVehicles": [
       {
-        "manufacturer": "HONDA",
+        "manufacturer": "CHERY",
         "models": [
           {
-            "modelSeries": "Avancier",
+            "modelSeries": "Tiggo",
             "targets": [
               {
-                "engine": "2300 | TA1",
-                "fullName": "HONDA   »   Avancier",
-                "constructionYearFrom": "99",
-                "constructionYearTo": "03",
-                "engineCodes": "F23A",
-                "enginePowerKW": "",
-                "enginePowerHP": "",
-                "cc": "2300",
-                "kbaNumbers": "",
-                "bodyType": "TA1"
-              },
-              {
-                "engine": "3000 | TA3",
-                "fullName": "HONDA   »   Avancier",
-                "constructionYearFrom": "99",
-                "constructionYearTo": "03",
-                "engineCodes": "J30A",
-                "enginePowerKW": "",
-                "enginePowerHP": "",
-                "cc": "3000",
-                "kbaNumbers": "",
-                "bodyType": "TA3"
-              },
-              {
-                "engine": "3000 | TA4",
-                "fullName": "HONDA   »   Avancier",
-                "constructionYearFrom": "00",
-                "constructionYearTo": "03",
-                "engineCodes": "J30A",
-                "enginePowerKW": "",
-                "enginePowerHP": "",
-                "cc": "3000",
-                "kbaNumbers": "",
-                "bodyType": "TA4"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "manufacturer": "HONDA",
-        "models": [
-          {
-            "modelSeries": "CR-V",
-            "targets": [
-              {
-                "engine": "2000 | RD4 JPN",
-                "fullName": "HONDA   »   CR-V",
-                "constructionYearFrom": "01",
-                "constructionYearTo": "04",
-                "engineCodes": "K20A",
-                "enginePowerKW": "",
-                "enginePowerHP": "",
-                "cc": "2000",
-                "kbaNumbers": "",
-                "bodyType": "RD4 JPN"
-              },
-              {
-                "engine": "2000 | RD4 LHD PH",
-                "fullName": "HONDA   »   CR-V",
-                "constructionYearFrom": "01",
-                "constructionYearTo": "04",
-                "engineCodes": "K20A",
-                "enginePowerKW": "",
-                "enginePowerHP": "",
-                "cc": "2000",
-                "kbaNumbers": "",
-                "bodyType": "RD4 LHD PH"
-              },
-              {
-                "engine": "2000 | RD5 JPN",
-                "fullName": "HONDA   »   CR-V",
-                "constructionYearFrom": "01",
-                "constructionYearTo": "04",
-                "engineCodes": "K20A",
-                "enginePowerKW": "",
-                "enginePowerHP": "",
-                "cc": "2000",
-                "kbaNumbers": "",
-                "bodyType": "RD5 JPN"
-              },
-              {
-                "engine": "2000 | RD5 RHD KN",
-                "fullName": "HONDA   »   CR-V",
-                "constructionYearFrom": "01",
-                "constructionYearTo": "04",
-                "engineCodes": "K20A",
-                "enginePowerKW": "",
-                "enginePowerHP": "",
-                "cc": "2000",
-                "kbaNumbers": "",
-                "bodyType": "RD5 RHD KN"
-              },
-              {
-                "engine": "2000 | RD5 RHD KU",
-                "fullName": "HONDA   »   CR-V",
-                "constructionYearFrom": "01",
-                "constructionYearTo": "05",
-                "engineCodes": "K20A",
-                "enginePowerKW": "",
-                "enginePowerHP": "",
-                "cc": "2000",
-                "kbaNumbers": "",
-                "bodyType": "RD5 RHD KU"
-              },
-              {
-                "engine": "2000 | RD5 RHD KU",
-                "fullName": "HONDA   »   CR-V",
-                "constructionYearFrom": "04",
-                "constructionYearTo": "05",
-                "engineCodes": "K20A",
-                "enginePowerKW": "",
-                "enginePowerHP": "",
-                "cc": "2000",
-                "kbaNumbers": "",
-                "bodyType": "RD5 RHD KU"
-              },
-              {
-                "engine": "2000 | RD8",
-                "fullName": "HONDA   »   CR-V",
-                "constructionYearFrom": "04",
-                "constructionYearTo": "05",
-                "engineCodes": "K20A4",
-                "enginePowerKW": "",
-                "enginePowerHP": "",
-                "cc": "2000",
-                "kbaNumbers": "",
-                "bodyType": "RD8"
-              },
-              {
-                "engine": "2400 | RD7 US",
-                "fullName": "HONDA   »   CR-V",
-                "constructionYearFrom": "01",
-                "constructionYearTo": "05",
-                "engineCodes": "K24A1",
-                "enginePowerKW": "",
-                "enginePowerHP": "",
-                "cc": "2400",
-                "kbaNumbers": "",
-                "bodyType": "RD7 US"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "manufacturer": "HONDA",
-        "models": [
-          {
-            "modelSeries": "CR-V (USA)",
-            "targets": [
-              {
-                "engine": "2400 | RD6",
-                "fullName": "HONDA   »   CR-V (USA)",
-                "constructionYearFrom": "01",
-                "constructionYearTo": "05",
-                "engineCodes": "K24A1",
-                "enginePowerKW": "",
-                "enginePowerHP": "",
-                "cc": "2400",
-                "kbaNumbers": "",
-                "bodyType": "RD6"
-              },
-              {
-                "engine": "2400 | RD7",
-                "fullName": "HONDA   »   CR-V (USA)",
-                "constructionYearFrom": "01",
-                "constructionYearTo": "04",
-                "engineCodes": "K24A1",
-                "enginePowerKW": "",
-                "enginePowerHP": "",
-                "cc": "2400",
-                "kbaNumbers": "",
-                "bodyType": "RD7"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "manufacturer": "HONDA",
-        "models": [
-          {
-            "modelSeries": "Crossroad",
-            "targets": [
-              {
-                "engine": "1800 | RT1",
-                "fullName": "HONDA   »   Crossroad",
-                "constructionYearFrom": "07",
-                "constructionYearTo": "10",
-                "engineCodes": "R18A",
-                "enginePowerKW": "",
-                "enginePowerHP": "",
-                "cc": "1800",
-                "kbaNumbers": "",
-                "bodyType": "RT1"
-              },
-              {
-                "engine": "1800 | RT2",
-                "fullName": "HONDA   »   Crossroad",
-                "constructionYearFrom": "07",
-                "constructionYearTo": "10",
-                "engineCodes": "R18A",
-                "enginePowerKW": "",
-                "enginePowerHP": "",
-                "cc": "1800",
-                "kbaNumbers": "",
-                "bodyType": "RT2"
-              },
-              {
-                "engine": "2000 | RT3",
-                "fullName": "HONDA   »   Crossroad",
-                "constructionYearFrom": "07",
-                "constructionYearTo": "10",
-                "engineCodes": "R20A",
-                "enginePowerKW": "",
-                "enginePowerHP": "",
-                "cc": "2000",
-                "kbaNumbers": "",
-                "bodyType": "RT3"
-              },
-              {
-                "engine": "2000 | RT4",
-                "fullName": "HONDA   »   Crossroad",
-                "constructionYearFrom": "07",
-                "constructionYearTo": "10",
-                "engineCodes": "R20A",
-                "enginePowerKW": "",
-                "enginePowerHP": "",
-                "cc": "2000",
-                "kbaNumbers": "",
-                "bodyType": "RT4"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "manufacturer": "HONDA",
-        "models": [
-          {
-            "modelSeries": "Jade",
-            "targets": [
-              {
-                "engine": "1500 | FR5 JPN",
-                "fullName": "HONDA   »   Jade",
-                "constructionYearFrom": "15",
-                "constructionYearTo": "20",
-                "engineCodes": "L15B",
-                "enginePowerKW": "",
-                "enginePowerHP": "",
-                "cc": "1500",
-                "kbaNumbers": "",
-                "bodyType": "FR5 JPN"
-              },
-              {
-                "engine": "1500 | FR5 RHD",
-                "fullName": "HONDA   »   Jade",
-                "constructionYearFrom": "15",
-                "constructionYearTo": "20",
-                "engineCodes": "L15B",
-                "enginePowerKW": "",
-                "enginePowerHP": "",
-                "cc": "1500",
-                "kbaNumbers": "",
-                "bodyType": "FR5 RHD"
-              },
-              {
-                "engine": "1500 | FR4",
-                "fullName": "HONDA   »   Jade",
-                "constructionYearFrom": "15",
-                "constructionYearTo": "20",
-                "engineCodes": "LEB-H1",
-                "enginePowerKW": "",
-                "enginePowerHP": "",
-                "cc": "1500",
-                "kbaNumbers": "",
-                "bodyType": "FR4"
-              },
-              {
-                "engine": "1800 | FR5",
-                "fullName": "HONDA   »   Jade",
-                "constructionYearFrom": "15",
-                "constructionYearTo": "20",
-                "engineCodes": "R18A",
-                "enginePowerKW": "",
-                "enginePowerHP": "",
-                "cc": "1800",
-                "kbaNumbers": "",
-                "bodyType": "FR5"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "manufacturer": "HONDA",
-        "models": [
-          {
-            "modelSeries": "Stream",
-            "targets": [
-              {
-                "engine": "1800 | RN6 JPN",
-                "fullName": "HONDA   »   Stream",
+                "engine": "2000 | T11",
+                "fullName": "CHERY   »   Tiggo",
                 "constructionYearFrom": "06",
-                "constructionYearTo": "14",
-                "engineCodes": "R18A",
+                "constructionYearTo": "",
+                "engineCodes": "4G63S4M",
                 "enginePowerKW": "",
                 "enginePowerHP": "",
-                "cc": "1800",
+                "cc": "2000",
                 "kbaNumbers": "",
-                "bodyType": "RN6 JPN"
+                "bodyType": "T11"
               },
               {
-                "engine": "1800 | RN7",
-                "fullName": "HONDA   »   Stream",
-                "constructionYearFrom": "06",
-                "constructionYearTo": "14",
-                "engineCodes": "R18A",
-                "enginePowerKW": "",
-                "enginePowerHP": "",
-                "cc": "1800",
-                "kbaNumbers": "",
-                "bodyType": "RN7"
-              },
-              {
-                "engine": "1800 | RN6 RHD",
-                "fullName": "HONDA   »   Stream",
+                "engine": "2400 | DB14B",
+                "fullName": "CHERY   »   Tiggo",
                 "constructionYearFrom": "05",
-                "constructionYearTo": "15",
-                "engineCodes": "R18A#",
+                "constructionYearTo": "08",
+                "engineCodes": "4G64",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2400",
+                "kbaNumbers": "",
+                "bodyType": "DB14B"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "MAZDA",
+        "models": [
+          {
+            "modelSeries": "Capella",
+            "targets": [
+              {
+                "engine": "2000 | GDFP",
+                "fullName": "MAZDA   »   Capella",
+                "constructionYearFrom": "87",
+                "constructionYearTo": "91",
+                "engineCodes": "RF",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2000",
+                "kbaNumbers": "",
+                "bodyType": "GDFP"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "MAZDA",
+        "models": [
+          {
+            "modelSeries": "Capella Cargo",
+            "targets": [
+              {
+                "engine": "2000 | GVER",
+                "fullName": "MAZDA   »   Capella Cargo",
+                "constructionYearFrom": "89",
+                "constructionYearTo": "97",
+                "engineCodes": "FE",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2000",
+                "kbaNumbers": "",
+                "bodyType": "GVER"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "MAZDA",
+        "models": [
+          {
+            "modelSeries": "Persona",
+            "targets": [
+              {
+                "engine": "1800 | MA8P",
+                "fullName": "MAZDA   »   Persona",
+                "constructionYearFrom": "88",
+                "constructionYearTo": "92",
+                "engineCodes": "F8-E",
                 "enginePowerKW": "",
                 "enginePowerHP": "",
                 "cc": "1800",
                 "kbaNumbers": "",
-                "bodyType": "RN6 RHD"
-              },
-              {
-                "engine": "2000 | RN8",
-                "fullName": "HONDA   »   Stream",
-                "constructionYearFrom": "06",
-                "constructionYearTo": "14",
-                "engineCodes": "R20A",
-                "enginePowerKW": "",
-                "enginePowerHP": "",
-                "cc": "2000",
-                "kbaNumbers": "",
-                "bodyType": "RN8"
-              },
-              {
-                "engine": "2000 | RN9",
-                "fullName": "HONDA   »   Stream",
-                "constructionYearFrom": "06",
-                "constructionYearTo": "14",
-                "engineCodes": "R20A",
-                "enginePowerKW": "",
-                "enginePowerHP": "",
-                "cc": "2000",
-                "kbaNumbers": "",
-                "bodyType": "RN9"
+                "bodyType": "MA8P"
               }
             ]
           }
