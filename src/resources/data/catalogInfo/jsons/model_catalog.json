@@ -34275,8 +34275,8 @@
     "id": 4897,
     "marka_id": 67,
     "modeller_markalar::marka": "LADA",
-    "model": "izh PICK-UP",
-    "model_Web": "izh PICK-UP"
+    "model": "Izh PICK-UP",
+    "model_Web": "Izh PICK-UP"
   },
   {
     "id": 4898,
@@ -56759,8 +56759,8 @@
     "id": 8109,
     "marka_id": 118,
     "modeller_markalar::marka": "SMART",
-    "model": "#1",
-    "model_Web": "#1"
+    "model": "",
+    "model_Web": ""
   },
   {
     "id": 8110,
@@ -69942,5 +69942,817 @@
     "modeller_markalar::marka": "HONDA",
     "model": "STREAM",
     "model_Web": "STREAM"
+  },
+  {
+    "id": 9993,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "CITY",
+    "model_Web": "CITY"
+  },
+  {
+    "id": 9994,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "CIVIC",
+    "model_Web": "CIVIC"
+  },
+  {
+    "id": 9995,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "CIVIC CRX",
+    "model_Web": "CIVIC CRX"
+  },
+  {
+    "id": 9996,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "CIVIC Ferio",
+    "model_Web": "CIVIC Ferio"
+  },
+  {
+    "id": 9997,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "INSIGHT",
+    "model_Web": "INSIGHT"
+  },
+  {
+    "id": 9998,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "INTEGRA",
+    "model_Web": "INTEGRA"
+  },
+  {
+    "id": 9999,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "ACCORD",
+    "model_Web": "ACCORD"
+  },
+  {
+    "id": 10000,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "ACCORD Coupe",
+    "model_Web": "ACCORD Coupe"
+  },
+  {
+    "id": 10001,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "ACCORD INSPIRE",
+    "model_Web": "ACCORD INSPIRE"
+  },
+  {
+    "id": 10002,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "ACCORD Wagon",
+    "model_Web": "ACCORD Wagon"
+  },
+  {
+    "id": 10003,
+    "marka_id": 3,
+    "modeller_markalar::marka": "ACURA",
+    "model": "ILX",
+    "model_Web": "ILX"
+  },
+  {
+    "id": 10004,
+    "marka_id": 3,
+    "modeller_markalar::marka": "ACURA",
+    "model": "CL",
+    "model_Web": "CL"
+  },
+  {
+    "id": 10005,
+    "marka_id": 3,
+    "modeller_markalar::marka": "ACURA",
+    "model": "INTEGRA",
+    "model_Web": "INTEGRA"
+  },
+  {
+    "id": 10006,
+    "marka_id": 3,
+    "modeller_markalar::marka": "ACURA",
+    "model": "TSX",
+    "model_Web": "TSX"
+  },
+  {
+    "id": 10007,
+    "marka_id": 3,
+    "modeller_markalar::marka": "ACURA",
+    "model": "CDX",
+    "model_Web": "CDX"
+  },
+  {
+    "id": 10008,
+    "marka_id": 76,
+    "modeller_markalar::marka": "LOTUS",
+    "model": "EXIGE S",
+    "model_Web": "EXIGE S"
+  },
+  {
+    "id": 10009,
+    "marka_id": 112,
+    "modeller_markalar::marka": "ROVER",
+    "model": "620",
+    "model_Web": "620"
+  },
+  {
+    "id": 10010,
+    "marka_id": 112,
+    "modeller_markalar::marka": "ROVER",
+    "model": "618",
+    "model_Web": "618"
+  },
+  {
+    "id": 10011,
+    "marka_id": 112,
+    "modeller_markalar::marka": "ROVER",
+    "model": "623",
+    "model_Web": "623"
+  },
+  {
+    "id": 10012,
+    "marka_id": 112,
+    "modeller_markalar::marka": "ROVER",
+    "model": "45",
+    "model_Web": "45"
+  },
+  {
+    "id": 10013,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "ASCOT",
+    "model_Web": "ASCOT"
+  },
+  {
+    "id": 10014,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "Ascot/Rafaga",
+    "model_Web": "Ascot/Rafaga"
+  },
+  {
+    "id": 10015,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "VIGOR",
+    "model_Web": "VIGOR"
+  },
+  {
+    "id": 10016,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "BR-V",
+    "model_Web": "BR-V"
+  },
+  {
+    "id": 10017,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "CIVIC (USA)",
+    "model_Web": "CIVIC (USA)"
+  },
+  {
+    "id": 10018,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "CIVIC VIII (EUR)",
+    "model_Web": "CIVIC VIII (EUR)"
+  },
+  {
+    "id": 10019,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "EDIX",
+    "model_Web": "EDIX"
+  },
+  {
+    "id": 10020,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "ELEMENT",
+    "model_Web": "ELEMENT"
+  },
+  {
+    "id": 10021,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "FR-V",
+    "model_Web": "FR-V"
+  },
+  {
+    "id": 10022,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "HR-V",
+    "model_Web": "HR-V"
+  },
+  {
+    "id": 10023,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "INSPIRE",
+    "model_Web": "INSPIRE"
+  },
+  {
+    "id": 10024,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "ODYSSEY",
+    "model_Web": "ODYSSEY"
+  },
+  {
+    "id": 10025,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "STEPWGN",
+    "model_Web": "STEPWGN"
+  },
+  {
+    "id": 10026,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "STEPWGN Spada",
+    "model_Web": "STEPWGN Spada"
+  },
+  {
+    "id": 10027,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "VEZEL",
+    "model_Web": "VEZEL"
+  },
+  {
+    "id": 10028,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "ENVIX",
+    "model_Web": "ENVIX"
+  },
+  {
+    "id": 10029,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "XR-V",
+    "model_Web": "XR-V"
+  },
+  {
+    "id": 10030,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "CRIDER",
+    "model_Web": "CRIDER"
+  },
+  {
+    "id": 10031,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "CAPA Hatchback",
+    "model_Web": "CAPA Hatchback"
+  },
+  {
+    "id": 10032,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "CITY ZX",
+    "model_Web": "CITY ZX"
+  },
+  {
+    "id": 10033,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "FIT",
+    "model_Web": "FIT"
+  },
+  {
+    "id": 10034,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "FIT Aria",
+    "model_Web": "FIT Aria"
+  },
+  {
+    "id": 10035,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "JAZZ",
+    "model_Web": "JAZZ"
+  },
+  {
+    "id": 10036,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "LOGO",
+    "model_Web": "LOGO"
+  },
+  {
+    "id": 10037,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "ACCORD Aerodeck",
+    "model_Web": "ACCORD Aerodeck"
+  },
+  {
+    "id": 10038,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "CONCERTO",
+    "model_Web": "CONCERTO"
+  },
+  {
+    "id": 10039,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "CR-X",
+    "model_Web": "CR-X"
+  },
+  {
+    "id": 10040,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "CR-X del Sol",
+    "model_Web": "CR-X del Sol"
+  },
+  {
+    "id": 10041,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "PRELUDE",
+    "model_Web": "PRELUDE"
+  },
+  {
+    "id": 10042,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "ACCORD Tourer",
+    "model_Web": "ACCORD Tourer"
+  },
+  {
+    "id": 10043,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "CIVIC Type R",
+    "model_Web": "CIVIC Type R"
+  },
+  {
+    "id": 10044,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "LIFE",
+    "model_Web": "LIFE"
+  },
+  {
+    "id": 10045,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "N Box",
+    "model_Web": "N Box"
+  },
+  {
+    "id": 10046,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "N Box Slash",
+    "model_Web": "N Box Slash"
+  },
+  {
+    "id": 10047,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "N One",
+    "model_Web": "N One"
+  },
+  {
+    "id": 10048,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "N-WGN",
+    "model_Web": "N-WGN"
+  },
+  {
+    "id": 10049,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "That-s",
+    "model_Web": "That-s"
+  },
+  {
+    "id": 10050,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "ZEST",
+    "model_Web": "ZEST"
+  },
+  {
+    "id": 10051,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "ZEST Spark",
+    "model_Web": "ZEST Spark"
+  },
+  {
+    "id": 10052,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "TORNEO",
+    "model_Web": "TORNEO"
+  },
+  {
+    "id": 10053,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "ACTY",
+    "model_Web": "ACTY"
+  },
+  {
+    "id": 10054,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "ORTHIA",
+    "model_Web": "ORTHIA"
+  },
+  {
+    "id": 10055,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "VAMOS",
+    "model_Web": "VAMOS"
+  },
+  {
+    "id": 10056,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "VAMOS Hobio",
+    "model_Web": "VAMOS Hobio"
+  },
+  {
+    "id": 10057,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "Fit Shuttle",
+    "model_Web": "Fit Shuttle"
+  },
+  {
+    "id": 10058,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "S-MX",
+    "model_Web": "S-MX"
+  },
+  {
+    "id": 10059,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "UR-V",
+    "model_Web": "UR-V"
+  },
+  {
+    "id": 10060,
+    "marka_id": 52,
+    "modeller_markalar::marka": "HONDA",
+    "model": "AVENCIER",
+    "model_Web": "AVENCIER"
+  },
+  {
+    "id": 10061,
+    "marka_id": 10,
+    "modeller_markalar::marka": "AUDI",
+    "model": "A1",
+    "model_Web": "A1"
+  },
+  {
+    "id": 10062,
+    "marka_id": 10,
+    "modeller_markalar::marka": "AUDI",
+    "model": "A3 II",
+    "model_Web": "A3 II"
+  },
+  {
+    "id": 10063,
+    "marka_id": 10,
+    "modeller_markalar::marka": "AUDI",
+    "model": "A3 III",
+    "model_Web": "A3 III"
+  },
+  {
+    "id": 10064,
+    "marka_id": 10,
+    "modeller_markalar::marka": "AUDI",
+    "model": "A3 IV",
+    "model_Web": "A3 IV"
+  },
+  {
+    "id": 10065,
+    "marka_id": 10,
+    "modeller_markalar::marka": "AUDI",
+    "model": "Q2",
+    "model_Web": "Q2"
+  },
+  {
+    "id": 10066,
+    "marka_id": 10,
+    "modeller_markalar::marka": "AUDI",
+    "model": "Q3",
+    "model_Web": "Q3"
+  },
+  {
+    "id": 10067,
+    "marka_id": 10,
+    "modeller_markalar::marka": "AUDI",
+    "model": "TT",
+    "model_Web": "TT"
+  },
+  {
+    "id": 10068,
+    "marka_id": 29,
+    "modeller_markalar::marka": "CUPRA",
+    "model": "Formentor",
+    "model_Web": "Formentor"
+  },
+  {
+    "id": 10069,
+    "marka_id": 43,
+    "modeller_markalar::marka": "FORD",
+    "model": "Grand Tourneo Connect",
+    "model_Web": "Grand Tourneo Connect"
+  },
+  {
+    "id": 10070,
+    "marka_id": 43,
+    "modeller_markalar::marka": "FORD",
+    "model": "Tourneo Connect",
+    "model_Web": "Tourneo Connect"
+  },
+  {
+    "id": 10071,
+    "marka_id": 116,
+    "modeller_markalar::marka": "SEAT",
+    "model": "Ateca",
+    "model_Web": "Ateca"
+  },
+  {
+    "id": 10072,
+    "marka_id": 116,
+    "modeller_markalar::marka": "SEAT",
+    "model": "Leon",
+    "model_Web": "Leon"
+  },
+  {
+    "id": 10073,
+    "marka_id": 116,
+    "modeller_markalar::marka": "SEAT",
+    "model": "Leon II",
+    "model_Web": "Leon II"
+  },
+  {
+    "id": 10074,
+    "marka_id": 116,
+    "modeller_markalar::marka": "SEAT",
+    "model": "Leon III",
+    "model_Web": "Leon III"
+  },
+  {
+    "id": 10075,
+    "marka_id": 117,
+    "modeller_markalar::marka": "SKODA",
+    "model": "Karoq",
+    "model_Web": "Karoq"
+  },
+  {
+    "id": 10076,
+    "marka_id": 117,
+    "modeller_markalar::marka": "SKODA",
+    "model": "Kodiaq I",
+    "model_Web": "Kodiaq I"
+  },
+  {
+    "id": 10077,
+    "marka_id": 117,
+    "modeller_markalar::marka": "SKODA",
+    "model": "Octavia III",
+    "model_Web": "Octavia III"
+  },
+  {
+    "id": 10078,
+    "marka_id": 117,
+    "modeller_markalar::marka": "SKODA",
+    "model": "Octavia IV",
+    "model_Web": "Octavia IV"
+  },
+  {
+    "id": 10079,
+    "marka_id": 117,
+    "modeller_markalar::marka": "SKODA",
+    "model": "Octavia RS",
+    "model_Web": "Octavia RS"
+  },
+  {
+    "id": 10080,
+    "marka_id": 117,
+    "modeller_markalar::marka": "SKODA",
+    "model": "SuperB II",
+    "model_Web": "SuperB II"
+  },
+  {
+    "id": 10081,
+    "marka_id": 117,
+    "modeller_markalar::marka": "SKODA",
+    "model": "SuperB III",
+    "model_Web": "SuperB III"
+  },
+  {
+    "id": 10082,
+    "marka_id": 117,
+    "modeller_markalar::marka": "SKODA",
+    "model": "Yeti",
+    "model_Web": "Yeti"
+  },
+  {
+    "id": 10083,
+    "marka_id": 131,
+    "modeller_markalar::marka": "VW",
+    "model": "Arteon",
+    "model_Web": "Arteon"
+  },
+  {
+    "id": 10084,
+    "marka_id": 131,
+    "modeller_markalar::marka": "VW",
+    "model": "Beetle",
+    "model_Web": "Beetle"
+  },
+  {
+    "id": 10085,
+    "marka_id": 131,
+    "modeller_markalar::marka": "VW",
+    "model": "Caddy III",
+    "model_Web": "Caddy III"
+  },
+  {
+    "id": 10086,
+    "marka_id": 131,
+    "modeller_markalar::marka": "VW",
+    "model": "Caddy V",
+    "model_Web": "Caddy V"
+  },
+  {
+    "id": 10087,
+    "marka_id": 131,
+    "modeller_markalar::marka": "VW",
+    "model": "CC",
+    "model_Web": "CC"
+  },
+  {
+    "id": 10088,
+    "marka_id": 131,
+    "modeller_markalar::marka": "VW",
+    "model": "Eos",
+    "model_Web": "Eos"
+  },
+  {
+    "id": 10089,
+    "marka_id": 131,
+    "modeller_markalar::marka": "VW",
+    "model": "Golf GTD",
+    "model_Web": "Golf GTD"
+  },
+  {
+    "id": 10090,
+    "marka_id": 131,
+    "modeller_markalar::marka": "VW",
+    "model": "Golf V",
+    "model_Web": "Golf V"
+  },
+  {
+    "id": 10091,
+    "marka_id": 131,
+    "modeller_markalar::marka": "VW",
+    "model": "Golf VI",
+    "model_Web": "Golf VI"
+  },
+  {
+    "id": 10092,
+    "marka_id": 131,
+    "modeller_markalar::marka": "VW",
+    "model": "Golf VI Convertible",
+    "model_Web": "Golf VI Convertible"
+  },
+  {
+    "id": 10093,
+    "marka_id": 131,
+    "modeller_markalar::marka": "VW",
+    "model": "Golf VII",
+    "model_Web": "Golf VII"
+  },
+  {
+    "id": 10094,
+    "marka_id": 131,
+    "modeller_markalar::marka": "VW",
+    "model": "Jetta V",
+    "model_Web": "Jetta V"
+  },
+  {
+    "id": 10095,
+    "marka_id": 131,
+    "modeller_markalar::marka": "VW",
+    "model": "Jetta VI",
+    "model_Web": "Jetta VI"
+  },
+  {
+    "id": 10096,
+    "marka_id": 131,
+    "modeller_markalar::marka": "VW",
+    "model": "New Beetle",
+    "model_Web": "New Beetle"
+  },
+  {
+    "id": 10097,
+    "marka_id": 131,
+    "modeller_markalar::marka": "VW",
+    "model": "New Passat",
+    "model_Web": "New Passat"
+  },
+  {
+    "id": 10098,
+    "marka_id": 131,
+    "modeller_markalar::marka": "VW",
+    "model": "Passat",
+    "model_Web": "Passat"
+  },
+  {
+    "id": 10099,
+    "marka_id": 131,
+    "modeller_markalar::marka": "VW",
+    "model": "Passat CC",
+    "model_Web": "Passat CC"
+  },
+  {
+    "id": 10100,
+    "marka_id": 131,
+    "modeller_markalar::marka": "VW",
+    "model": "Passat Variant",
+    "model_Web": "Passat Variant"
+  },
+  {
+    "id": 10101,
+    "marka_id": 131,
+    "modeller_markalar::marka": "VW",
+    "model": "Scirocco",
+    "model_Web": "Scirocco"
+  },
+  {
+    "id": 10102,
+    "marka_id": 131,
+    "modeller_markalar::marka": "VW",
+    "model": "Sharan II",
+    "model_Web": "Sharan II"
+  },
+  {
+    "id": 10103,
+    "marka_id": 131,
+    "modeller_markalar::marka": "VW",
+    "model": "T-Roc",
+    "model_Web": "T-Roc"
+  },
+  {
+    "id": 10104,
+    "marka_id": 131,
+    "modeller_markalar::marka": "VW",
+    "model": "Taos",
+    "model_Web": "Taos"
+  },
+  {
+    "id": 10105,
+    "marka_id": 131,
+    "modeller_markalar::marka": "VW",
+    "model": "Tiguan",
+    "model_Web": "Tiguan"
+  },
+  {
+    "id": 10106,
+    "marka_id": 131,
+    "modeller_markalar::marka": "VW",
+    "model": "Tiguan II",
+    "model_Web": "Tiguan II"
+  },
+  {
+    "id": 10107,
+    "marka_id": 131,
+    "modeller_markalar::marka": "VW",
+    "model": "Touran",
+    "model_Web": "Touran"
+  },
+  {
+    "id": 10108,
+    "marka_id": 131,
+    "modeller_markalar::marka": "VW",
+    "model": "Tharu",
+    "model_Web": "Tharu"
   }
 ]

@@ -1,0 +1,9474 @@
+[
+  {
+    "AtakKodu": "M2058VR",
+    "YV_NO": [
+      "24654C",
+      "24656CS",
+      "24654CS"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "M2087VR",
+    "YV_NO": [
+      "24521",
+      "24521CS"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "M2090VR",
+    "YV_NO": [
+      "24621CS"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "B2109VR",
+    "YV_NO": [
+      "52990",
+      "52990C",
+      "52990CS"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "B2108VR",
+    "YV_NO": [
+      "52990",
+      "52990C",
+      "52990CS"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "M2032V",
+    "YV_NO": [
+      "24620C",
+      "24620CS"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "M2104VR",
+    "YV_NO": [
+      "24649C"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "M2733V",
+    "YV_NO": [
+      "24626CS"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "M2181P",
+    "YV_NO": [
+      "24194"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "M2002V",
+    "YV_NO": [
+      "24623C"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "M2029V",
+    "YV_NO": [
+      "24972"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "M2059V",
+    "YV_NO": [
+      "24654C",
+      "24656CS",
+      "24654CS"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "M2060P",
+    "YV_NO": [
+      "24655C"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "B2076V",
+    "YV_NO": [
+      "52885",
+      "52885CS"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "A1011P",
+    "YV_NO": [
+      "36008"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "B2501P",
+    "YV_NO": [
+      "52530"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "O1261V",
+    "YV_NO": [
+      "27400"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "N2045V",
+    "YV_NO": [
+      "26403",
+      "30552",
+      "26606",
+      "30778",
+      "26606C",
+      "30778C"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "C1003P",
+    "YV_NO": [
+      "33268"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "O1003V",
+    "YV_NO": [
+      "30145"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "B2072P",
+    "YV_NO": [
+      "61861C",
+      "61861CS"
+    ],
+    "matched": "MINI"
+  },
+  {
+    "AtakKodu": "V1025V",
+    "YV_NO": [
+      "54941C"
+    ],
+    "matched": "VOLVO"
+  },
+  {
+    "AtakKodu": "V1024V",
+    "YV_NO": [
+      "54940C"
+    ],
+    "matched": "VOLVO"
+  },
+  {
+    "AtakKodu": "B2002VR",
+    "YV_NO": [
+      "52637C"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "B2004PR",
+    "YV_NO": [
+      "52641C"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "B2013VR",
+    "YV_NO": [
+      "52605",
+      "52615",
+      "52615CS"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "B2017VR",
+    "YV_NO": [
+      "52642C"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "B2018VR",
+    "YV_NO": [
+      "52657C",
+      "52858",
+      "52879",
+      "52968",
+      "52858CS",
+      "52879CS",
+      "52657CS"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "B2040VR",
+    "YV_NO": [
+      "52667C",
+      "52667CS"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "B2049VR",
+    "YV_NO": [
+      "52662C",
+      "52662CS",
+      "52662"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "B2451PR",
+    "YV_NO": [
+      "52226"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "B2511PR",
+    "YV_NO": [
+      "52851"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "B2521VR",
+    "YV_NO": [
+      "52237",
+      "52666C"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "B2546VR",
+    "YV_NO": [
+      "52893"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "B2547VR",
+    "YV_NO": [
+      "52625C"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "M2017VR",
+    "YV_NO": [
+      "24262"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "M2019PR",
+    "YV_NO": [
+      "24263"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "B2050VR",
+    "YV_NO": [
+      "52237",
+      "52666C"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "B2057VR",
+    "YV_NO": [
+      "52854",
+      "52854CS"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "B2058PR",
+    "YV_NO": [
+      "52663C"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "B2060VR",
+    "YV_NO": [
+      "52657C",
+      "52858",
+      "52879",
+      "52968",
+      "52858CS",
+      "52879CS",
+      "52657CS"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "B2067VR",
+    "YV_NO": [
+      "52849"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "B2070VR",
+    "YV_NO": [
+      "52880C",
+      "52880CS"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "B2073VR",
+    "YV_NO": [
+      "52536",
+      "52536CS",
+      "52536C"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "B2074VR",
+    "YV_NO": [
+      "52541",
+      "52541CS",
+      "52541C"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "B2077VR",
+    "YV_NO": [
+      "52821",
+      "52821CS"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "B2082VR",
+    "YV_NO": [
+      "52883C",
+      "52883CS"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "B2371PR",
+    "YV_NO": [
+      "52225"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "B2381VR",
+    "YV_NO": [
+      "52125"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "B2431VR",
+    "YV_NO": [
+      "52895"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "B2441VR",
+    "YV_NO": [
+      "52099"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "M2056VR",
+    "YV_NO": [
+      "24521",
+      "24521CS"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "M2063VR",
+    "YV_NO": [
+      "24653C"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "M2081PR",
+    "YV_NO": [
+      "24832",
+      "24832CS"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "M2094VR",
+    "YV_NO": [
+      "24621CS"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "M2101VR",
+    "YV_NO": [
+      "24108",
+      "24270"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "M2191VR",
+    "YV_NO": [
+      "24635"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "M2381PR",
+    "YV_NO": [
+      "24202"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "M2601VR",
+    "YV_NO": [
+      "24182",
+      "24182CS"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "B2010VR",
+    "YV_NO": [
+      "52523"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "B2037VR",
+    "YV_NO": [
+      "52510",
+      "52847"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "B2054VR",
+    "YV_NO": [
+      "52668C",
+      "52668CS"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "B2079VR",
+    "YV_NO": [
+      "52886",
+      "52886CS"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "B2080VR",
+    "YV_NO": [
+      "52828"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "B2078PR",
+    "YV_NO": [
+      "52887",
+      "52887CS"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "K2042PR",
+    "YV_NO": [
+      "161063"
+    ],
+    "matched": "KIA"
+  },
+  {
+    "AtakKodu": "A4000VR",
+    "YV_NO": [
+      "62265"
+    ],
+    "matched": "LAND-ROVER"
+  },
+  {
+    "AtakKodu": "A4002VR",
+    "YV_NO": [
+      "62650C"
+    ],
+    "matched": "LAND-ROVER"
+  },
+  {
+    "AtakKodu": "A4015VR",
+    "YV_NO": [
+      "62664C"
+    ],
+    "matched": "LAND-ROVER"
+  },
+  {
+    "AtakKodu": "A4019VR",
+    "YV_NO": [
+      "62661C"
+    ],
+    "matched": "LAND-ROVER"
+  },
+  {
+    "AtakKodu": "A4023VR",
+    "YV_NO": [
+      "62935C"
+    ],
+    "matched": "LAND-ROVER"
+  },
+  {
+    "AtakKodu": "A4331PR",
+    "YV_NO": [
+      "62264"
+    ],
+    "matched": "LAND-ROVER"
+  },
+  {
+    "AtakKodu": "A4014VR",
+    "YV_NO": [
+      "62660C"
+    ],
+    "matched": "LAND-ROVER"
+  },
+  {
+    "AtakKodu": "V1014VR",
+    "YV_NO": [
+      "541068"
+    ],
+    "matched": "VOLVO"
+  },
+  {
+    "AtakKodu": "A4032VR",
+    "YV_NO": [
+      "62660C"
+    ],
+    "matched": "LAND-ROVER"
+  },
+  {
+    "AtakKodu": "A4027VR",
+    "YV_NO": [
+      "62897C"
+    ],
+    "matched": "LAND-ROVER"
+  },
+  {
+    "AtakKodu": "V1035PR",
+    "YV_NO": [
+      "54808"
+    ],
+    "matched": "VOLVO"
+  },
+  {
+    "AtakKodu": "V1036VR",
+    "YV_NO": [
+      "54807"
+    ],
+    "matched": "VOLVO"
+  },
+  {
+    "AtakKodu": "NBD-HO001",
+    "YV_NO": [
+      "15112",
+      "15112CS"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "NBD-HO002",
+    "YV_NO": [
+      "15328",
+      "15685",
+      "15328CS"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "NBD-HO004",
+    "YV_NO": [
+      "15094"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "NBD-HY001",
+    "YV_NO": [
+      "16492"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "NBD-HY002",
+    "YV_NO": [
+      "16500"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "NBD-HY003",
+    "YV_NO": [
+      "16307"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "NBD-HY004",
+    "YV_NO": [
+      "16442"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "NBD-HY006",
+    "YV_NO": [
+      "16327",
+      "18731"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "NBD-HY007",
+    "YV_NO": [
+      "16326",
+      "16560"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "NBD-HY008",
+    "YV_NO": [
+      "16092"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "NBD-HY009",
+    "YV_NO": [
+      "18546"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "NBD-HY011",
+    "YV_NO": [
+      "16337",
+      "16358",
+      "161562"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "NBD-HY012",
+    "YV_NO": [
+      "18486",
+      "18486CS"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "NBD-HY013",
+    "YV_NO": [
+      "16079"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "NBD-HY014",
+    "YV_NO": [
+      "18191"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "NBD-KI001",
+    "YV_NO": [
+      "16542"
+    ],
+    "matched": "KIA"
+  },
+  {
+    "AtakKodu": "NBD-KI002",
+    "YV_NO": [
+      "18336"
+    ],
+    "matched": "KIA"
+  },
+  {
+    "AtakKodu": "NBD-MI001",
+    "YV_NO": [
+      "25411"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "NBD-MI002",
+    "YV_NO": [
+      "25075",
+      "25082"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "NBD-NI001",
+    "YV_NO": [
+      "26403",
+      "30552",
+      "26606",
+      "30778",
+      "26606C",
+      "30778C"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "NBD-NI002",
+    "YV_NO": [
+      "26403",
+      "30552",
+      "26606",
+      "30778",
+      "26606C",
+      "30778C"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "NBD-NI003",
+    "YV_NO": [
+      "30438",
+      "26316",
+      "30438C",
+      "30438CS"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "NBD-NI004",
+    "YV_NO": [
+      "26353"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "NBD-TO001",
+    "YV_NO": [
+      "34156",
+      "34205"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "NBD-TO002",
+    "YV_NO": [
+      "34223"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "NBD-TO003",
+    "YV_NO": [
+      "341535"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "NBD-TO004",
+    "YV_NO": [
+      "34389"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "NBD-TO006",
+    "YV_NO": [
+      "34084"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "NBD-TO007",
+    "YV_NO": [
+      "34325"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "NBD-TO008",
+    "YV_NO": [
+      "34414"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "NBD-TO009",
+    "YV_NO": [
+      "34535"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "NBD-TO011",
+    "YV_NO": [
+      "34406"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "NBD-TO012",
+    "YV_NO": [
+      "34575",
+      "34575C"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "NBD-SS001",
+    "YV_NO": [
+      "64741"
+    ],
+    "matched": "SSANGYONG"
+  },
+  {
+    "AtakKodu": "NBD-SS002",
+    "YV_NO": [
+      "64445"
+    ],
+    "matched": "SSANGYONG"
+  },
+  {
+    "AtakKodu": "NBD-SS003",
+    "YV_NO": [
+      "64994"
+    ],
+    "matched": "SSANGYONG"
+  },
+  {
+    "AtakKodu": "NBD-SS004",
+    "YV_NO": [
+      "64765"
+    ],
+    "matched": "SSANGYONG"
+  },
+  {
+    "AtakKodu": "NBD-SS005",
+    "YV_NO": [
+      "64766"
+    ],
+    "matched": "SSANGYONG"
+  },
+  {
+    "AtakKodu": "NBD-SZ001",
+    "YV_NO": [
+      "32394"
+    ],
+    "matched": "SUZUKI"
+  },
+  {
+    "AtakKodu": "NBD-SZ004",
+    "YV_NO": [
+      "32673",
+      "32684"
+    ],
+    "matched": "SUZUKI"
+  },
+  {
+    "AtakKodu": "NBD-TO016",
+    "YV_NO": [
+      "34176"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "NBD-TO017",
+    "YV_NO": [
+      "34222"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "NBD-TO018",
+    "YV_NO": [
+      "34430",
+      "341564"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "NBD-TO019",
+    "YV_NO": [
+      "34507"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "NBD-TO020",
+    "YV_NO": [
+      "34430",
+      "341564"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "NBD-TO021",
+    "YV_NO": [
+      "34415"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "NBD-TO022",
+    "YV_NO": [
+      "34416"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "NBD-TO023",
+    "YV_NO": [
+      "34392",
+      "34738"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "NBD-TO025",
+    "YV_NO": [
+      "34961",
+      "341531",
+      "341531C"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "NBD-TO026",
+    "YV_NO": [
+      "34687",
+      "34688"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "NBD-TO027",
+    "YV_NO": [
+      "34380"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "NBD-TO029",
+    "YV_NO": [
+      "34408"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "NBD-TO030",
+    "YV_NO": [
+      "34421"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "NBD-TO031",
+    "YV_NO": [
+      "34351"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "NBD-TO032",
+    "YV_NO": [
+      "34482"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "NBD-TO033",
+    "YV_NO": [
+      "341575"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "NBD-TO034",
+    "YV_NO": [
+      "34392",
+      "34738"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "NBD-TO035",
+    "YV_NO": [
+      "341501"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "NBD-TO036",
+    "YV_NO": [
+      "34810"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "NBD-MZ009",
+    "YV_NO": [
+      "13420"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "NBD-MZ010",
+    "YV_NO": [
+      "13388"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "NBD-HO005",
+    "YV_NO": [
+      "15333"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "NBD-HO006",
+    "YV_NO": [
+      "15246",
+      "15450"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "NBD-HO007",
+    "YV_NO": [
+      "15329"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "NBD-HO008",
+    "YV_NO": [
+      "15245",
+      "15245CS"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "NBD-HO009",
+    "YV_NO": [
+      "151007"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "NBD-HO010",
+    "YV_NO": [
+      "15443",
+      "15443CS"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "NBD-HO012",
+    "YV_NO": [
+      "15457"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "NBD-HO013",
+    "YV_NO": [
+      "15409"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "NBD-HO014",
+    "YV_NO": [
+      "15410"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "NBD-HO015",
+    "YV_NO": [
+      "15672"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "NBD-HO016",
+    "YV_NO": [
+      "15676",
+      "15676CS"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "NBD-HO018",
+    "YV_NO": [
+      "15677",
+      "15677CS"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "NBD-HO019",
+    "YV_NO": [
+      "15676",
+      "15676CS"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "NBD-HO020",
+    "YV_NO": [
+      "15499"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "NBD-HY015",
+    "YV_NO": [
+      "16459"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "NBD-HY016",
+    "YV_NO": [
+      "16724"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "NBD-HY017",
+    "YV_NO": [
+      "18564",
+      "16788"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "NBD-HY018",
+    "YV_NO": [
+      "16327",
+      "18731"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "NBD-HY019",
+    "YV_NO": [
+      "161044"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "NBD-HY020",
+    "YV_NO": [
+      "16374",
+      "16374C"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "NBD-HY021",
+    "YV_NO": [
+      "16949"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "NBD-HY023",
+    "YV_NO": [
+      "16582"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "NBD-HY024",
+    "YV_NO": [
+      "16337",
+      "16358",
+      "161562"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "NBD-HY025",
+    "YV_NO": [
+      "16784"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "NBD-HY026",
+    "YV_NO": [
+      "16608"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "NBD-HY027",
+    "YV_NO": [
+      "16609"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "NBD-HY030",
+    "YV_NO": [
+      "16786"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "NBD-HY031",
+    "YV_NO": [
+      "16542"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "NBD-HY032",
+    "YV_NO": [
+      "16470"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "NBD-IS001",
+    "YV_NO": [
+      "40347"
+    ],
+    "matched": "ISUZU"
+  },
+  {
+    "AtakKodu": "NBD-IS002",
+    "YV_NO": [
+      "40527"
+    ],
+    "matched": "ISUZU"
+  },
+  {
+    "AtakKodu": "NBD-KI004",
+    "YV_NO": [
+      "18441"
+    ],
+    "matched": "KIA"
+  },
+  {
+    "AtakKodu": "NBD-KI005",
+    "YV_NO": [
+      "18146",
+      "18146C"
+    ],
+    "matched": "KIA"
+  },
+  {
+    "AtakKodu": "NBD-KI006",
+    "YV_NO": [
+      "18497"
+    ],
+    "matched": "KIA"
+  },
+  {
+    "AtakKodu": "NBD-KI007",
+    "YV_NO": [
+      "18489"
+    ],
+    "matched": "KIA"
+  },
+  {
+    "AtakKodu": "NBD-KI008",
+    "YV_NO": [
+      "18732"
+    ],
+    "matched": "KIA"
+  },
+  {
+    "AtakKodu": "NBD-KI009",
+    "YV_NO": [
+      "18566"
+    ],
+    "matched": "KIA"
+  },
+  {
+    "AtakKodu": "NBD-KI012",
+    "YV_NO": [
+      "18564",
+      "16788"
+    ],
+    "matched": "KIA"
+  },
+  {
+    "AtakKodu": "NBD-KI013",
+    "YV_NO": [
+      "16610"
+    ],
+    "matched": "KIA"
+  },
+  {
+    "AtakKodu": "NBD-KI014",
+    "YV_NO": [
+      "16726"
+    ],
+    "matched": "KIA"
+  },
+  {
+    "AtakKodu": "NBD-MI005",
+    "YV_NO": [
+      "25155"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "NBD-MI006",
+    "YV_NO": [
+      "25367"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "NBD-MI007",
+    "YV_NO": [
+      "25526",
+      "25426"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "NBD-MI008",
+    "YV_NO": [
+      "25698"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "NBD-MI009",
+    "YV_NO": [
+      "25526",
+      "25426"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "NBD-MI011",
+    "YV_NO": [
+      "25502"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "NBD-MI012",
+    "YV_NO": [
+      "25451"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "NBD-MZ001",
+    "YV_NO": [
+      "22073"
+    ],
+    "matched": "MAZDA"
+  },
+  {
+    "AtakKodu": "NBD-MZ002",
+    "YV_NO": [
+      "22773"
+    ],
+    "matched": "MAZDA"
+  },
+  {
+    "AtakKodu": "NBD-MZ005",
+    "YV_NO": [
+      "22490"
+    ],
+    "matched": "MAZDA"
+  },
+  {
+    "AtakKodu": "NBD-MZ006",
+    "YV_NO": [
+      "22996"
+    ],
+    "matched": "MAZDA"
+  },
+  {
+    "AtakKodu": "NBD-MZ007",
+    "YV_NO": [
+      "22611"
+    ],
+    "matched": "MAZDA"
+  },
+  {
+    "AtakKodu": "NBD-MZ008",
+    "YV_NO": [
+      "22612"
+    ],
+    "matched": "MAZDA"
+  },
+  {
+    "AtakKodu": "NBD-NI005",
+    "YV_NO": [
+      "26067"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "NBD-NI006",
+    "YV_NO": [
+      "26154"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "NBD-NI007",
+    "YV_NO": [
+      "26159",
+      "26231"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "NBD-NI008",
+    "YV_NO": [
+      "26689"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "NBD-NI009",
+    "YV_NO": [
+      "26531"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "NBD-NI010",
+    "YV_NO": [
+      "26083"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "NBD-NI011",
+    "YV_NO": [
+      "30220",
+      "26950",
+      "30220CS"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "NBD-NI012",
+    "YV_NO": [
+      "26607"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "NBD-NI013",
+    "YV_NO": [
+      "26537",
+      "26618",
+      "30779"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "NBD-NI014",
+    "YV_NO": [
+      "26616"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "NBD-NI016",
+    "YV_NO": [
+      "26746"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "NBD-NI017",
+    "YV_NO": [
+      "26537",
+      "26618",
+      "30779"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "NBD-TO038",
+    "YV_NO": [
+      "34963"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "TDF2059",
+    "YV_NO": [
+      "36193",
+      "36193CS"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "TDF2055",
+    "YV_NO": [
+      "36260"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "TDF2058",
+    "YV_NO": [
+      "41423",
+      "41423CS"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "TDF2062",
+    "YV_NO": [
+      "36567",
+      "36567CS"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "TDF2063",
+    "YV_NO": [
+      "36753",
+      "36753CS"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "TDF2050-I1",
+    "YV_NO": [
+      "36758",
+      "36758CS"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "TDF2060",
+    "YV_NO": [
+      "15328",
+      "15685",
+      "15328CS"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "TDF2061",
+    "YV_NO": [
+      "15112",
+      "15112CS"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "TDF2056",
+    "YV_NO": [
+      "16307"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "TDF2050",
+    "YV_NO": [
+      "16492"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "TDF2053",
+    "YV_NO": [
+      "16500"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "TDF2052",
+    "YV_NO": [
+      "33118",
+      "33026"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "TDF2047",
+    "YV_NO": [
+      "33007"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "TDF2052-I1",
+    "YV_NO": [
+      "33375",
+      "27385",
+      "33375CS"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "TDF2052-I2",
+    "YV_NO": [
+      "33375",
+      "27385",
+      "33375CS"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "TDF2051",
+    "YV_NO": [
+      "33197",
+      "33269",
+      "33407",
+      "33952",
+      "33197CS"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "TDF2051-I1",
+    "YV_NO": [
+      "33197",
+      "33269",
+      "33407",
+      "33952",
+      "33197CS"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "TDF2048",
+    "YV_NO": [
+      "33686"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "TDF2041-I1",
+    "YV_NO": [
+      "30179",
+      "30126",
+      "30180",
+      "30287",
+      "30288"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "TDF2057",
+    "YV_NO": [
+      "30220",
+      "30220CS"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "TDF2041",
+    "YV_NO": [
+      "30438",
+      "26316",
+      "30438C",
+      "30438CS"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "TDF2041-I2",
+    "YV_NO": [
+      "30427"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "TDF2049",
+    "YV_NO": [
+      "30085"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "TDF2054",
+    "YV_NO": [
+      "30040"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "TDF2043",
+    "YV_NO": [
+      "30043"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1178D",
+    "YV_NO": [
+      "27219"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1193D",
+    "YV_NO": [
+      "53476"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1196D",
+    "YV_NO": [
+      "27669"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1292D",
+    "YV_NO": [
+      "36193",
+      "36193CS"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1299D",
+    "YV_NO": [
+      "36177"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1302D",
+    "YV_NO": [
+      "36260"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1306D",
+    "YV_NO": [
+      "36109"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1309D",
+    "YV_NO": [
+      "36098",
+      "36216"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1314D",
+    "YV_NO": [
+      "24303"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1327D",
+    "YV_NO": [
+      "36670",
+      "36670C"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1329D",
+    "YV_NO": [
+      "36750",
+      "36750CS"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1362D",
+    "YV_NO": [
+      "27590",
+      "27590CS"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1367D",
+    "YV_NO": [
+      "24916"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "WBD1368D",
+    "YV_NO": [
+      "24580"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "WBD1374D",
+    "YV_NO": [
+      "361534",
+      "361534CS"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1387D",
+    "YV_NO": [
+      "41923",
+      "41928",
+      "41928CS"
+    ],
+    "matched": "AUDI"
+  },
+  {
+    "AtakKodu": "WBD1392D",
+    "YV_NO": [
+      "27769"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1396D",
+    "YV_NO": [
+      "36780"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1406D",
+    "YV_NO": [
+      "13680",
+      "13680CS"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1455D",
+    "YV_NO": [
+      "41771C",
+      "41771CS"
+    ],
+    "matched": "AUDI"
+  },
+  {
+    "AtakKodu": "WBD1003D",
+    "YV_NO": [
+      "41651C",
+      "41864"
+    ],
+    "matched": "AUDI"
+  },
+  {
+    "AtakKodu": "WBD1041D",
+    "YV_NO": [
+      "13121",
+      "13543",
+      "131552"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1063D",
+    "YV_NO": [
+      "13554"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1596CD",
+    "YV_NO": [
+      "241528C"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "WBD1604CD",
+    "YV_NO": [
+      "52990",
+      "52990C",
+      "52990CS"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1605CD",
+    "YV_NO": [
+      "52990",
+      "52990C",
+      "52990CS"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1611D",
+    "YV_NO": [
+      "411545C"
+    ],
+    "matched": "AUDI"
+  },
+  {
+    "AtakKodu": "WBD1294D",
+    "YV_NO": [
+      "36110"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1295D",
+    "YV_NO": [
+      "36096"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1297D",
+    "YV_NO": [
+      "36168",
+      "36252"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1300D",
+    "YV_NO": [
+      "36261"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1304D",
+    "YV_NO": [
+      "36098",
+      "36216"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1315D",
+    "YV_NO": [
+      "24304"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1375D",
+    "YV_NO": [
+      "41863"
+    ],
+    "matched": "AUDI"
+  },
+  {
+    "AtakKodu": "WBD1378D",
+    "YV_NO": [
+      "41865",
+      "41924",
+      "41865CS"
+    ],
+    "matched": "AUDI"
+  },
+  {
+    "AtakKodu": "WBD1383D",
+    "YV_NO": [
+      "36927"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1317D",
+    "YV_NO": [
+      "36168",
+      "36252"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1318D",
+    "YV_NO": [
+      "41636C",
+      "41636CS"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1322D",
+    "YV_NO": [
+      "36927"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1427D",
+    "YV_NO": [
+      "13578"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1431D",
+    "YV_NO": [
+      "36764"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1434D",
+    "YV_NO": [
+      "24142"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1343D",
+    "YV_NO": [
+      "53514"
+    ],
+    "matched": "CHEVROLET"
+  },
+  {
+    "AtakKodu": "WBD1473D",
+    "YV_NO": [
+      "24148"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "WBD1040D",
+    "YV_NO": [
+      "13055"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1043D",
+    "YV_NO": [
+      "13029"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1045D",
+    "YV_NO": [
+      "13334"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1048D",
+    "YV_NO": [
+      "13335",
+      "13548"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1050D",
+    "YV_NO": [
+      "13311"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1054D",
+    "YV_NO": [
+      "13420"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1056D",
+    "YV_NO": [
+      "13388"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1059D",
+    "YV_NO": [
+      "13533",
+      "13793"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1065D",
+    "YV_NO": [
+      "13551",
+      "13971"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1066D",
+    "YV_NO": [
+      "13550"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1173D",
+    "YV_NO": [
+      "27167"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1176D",
+    "YV_NO": [
+      "27065",
+      "27131"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1177D",
+    "YV_NO": [
+      "27063"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1180D",
+    "YV_NO": [
+      "27208"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1189D",
+    "YV_NO": [
+      "27361"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1195D",
+    "YV_NO": [
+      "27964"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1197D",
+    "YV_NO": [
+      "27590",
+      "27590CS"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1546C",
+    "YV_NO": [
+      "24621CS"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "WBD1177CD",
+    "YV_NO": [
+      "27063"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1178CD",
+    "YV_NO": [
+      "27219"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1179CD",
+    "YV_NO": [
+      "27184"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1180CD",
+    "YV_NO": [
+      "27208"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1187CD",
+    "YV_NO": [
+      "271513"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1188CD",
+    "YV_NO": [
+      "271011"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1387CD",
+    "YV_NO": [
+      "41923",
+      "41928",
+      "41928CS"
+    ],
+    "matched": "AUDI"
+  },
+  {
+    "AtakKodu": "WBD1392CD",
+    "YV_NO": [
+      "27769"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1395CD",
+    "YV_NO": [
+      "36763"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1396CD",
+    "YV_NO": [
+      "36780"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1039CD",
+    "YV_NO": [
+      "13017",
+      "13402"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1040CD",
+    "YV_NO": [
+      "13055"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1041CD",
+    "YV_NO": [
+      "13121",
+      "13543",
+      "131552"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1043CD",
+    "YV_NO": [
+      "13029"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1044CD",
+    "YV_NO": [
+      "13312",
+      "13757"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1045CD",
+    "YV_NO": [
+      "13334"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1046CD",
+    "YV_NO": [
+      "13133"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1047CD",
+    "YV_NO": [
+      "13024"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1048CD",
+    "YV_NO": [
+      "13335",
+      "13548"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1050CD",
+    "YV_NO": [
+      "13311"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1054CD",
+    "YV_NO": [
+      "13420"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1055CD",
+    "YV_NO": [
+      "13017",
+      "13402"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1056CD",
+    "YV_NO": [
+      "13388"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1058CD",
+    "YV_NO": [
+      "13577"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1059CD",
+    "YV_NO": [
+      "13533",
+      "13793"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1189CD",
+    "YV_NO": [
+      "27361"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1191CD",
+    "YV_NO": [
+      "27494"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1192CD",
+    "YV_NO": [
+      "27588"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1193CD",
+    "YV_NO": [
+      "53476"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1063CD",
+    "YV_NO": [
+      "13554"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1064CD",
+    "YV_NO": [
+      "13121",
+      "13543"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1065CD",
+    "YV_NO": [
+      "13551",
+      "13971"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1066CD",
+    "YV_NO": [
+      "13550"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1195CD",
+    "YV_NO": [
+      "27964"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1196CD",
+    "YV_NO": [
+      "27669"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1197CD",
+    "YV_NO": [
+      "27590",
+      "27590CS"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1292CD",
+    "YV_NO": [
+      "36193",
+      "36193CS"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1294CD",
+    "YV_NO": [
+      "36110"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1295CD",
+    "YV_NO": [
+      "36096"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1297CD",
+    "YV_NO": [
+      "36168",
+      "36252"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1299CD",
+    "YV_NO": [
+      "36177"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1300CD",
+    "YV_NO": [
+      "36261"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1302CD",
+    "YV_NO": [
+      "36260"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1303CD",
+    "YV_NO": [
+      "36178",
+      "36178CS"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1291CD",
+    "YV_NO": [
+      "36116",
+      "36116CS"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1304CD",
+    "YV_NO": [
+      "36098",
+      "36216"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1306CD",
+    "YV_NO": [
+      "36109"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1309CD",
+    "YV_NO": [
+      "36098",
+      "36216"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1312CD",
+    "YV_NO": [
+      "36259"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1313CD",
+    "YV_NO": [
+      "41423",
+      "41423CS"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1314CD",
+    "YV_NO": [
+      "24303"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1315CD",
+    "YV_NO": [
+      "24304"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1317CD",
+    "YV_NO": [
+      "36168",
+      "36252"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1318CD",
+    "YV_NO": [
+      "41636C",
+      "41636CS"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1319CD",
+    "YV_NO": [
+      "36920",
+      "36920CS"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1320CD",
+    "YV_NO": [
+      "36920",
+      "36920CS"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1321CD",
+    "YV_NO": [
+      "36461",
+      "36461CS"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1322CD",
+    "YV_NO": [
+      "36927"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1324CD",
+    "YV_NO": [
+      "36926",
+      "36926CS"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1327CD",
+    "YV_NO": [
+      "36670",
+      "36670C"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1329CD",
+    "YV_NO": [
+      "36750",
+      "36750CS"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1339CD",
+    "YV_NO": [
+      "53201",
+      "53230",
+      "53338",
+      "531509"
+    ],
+    "matched": "DAEWOO"
+  },
+  {
+    "AtakKodu": "WBD1340CD",
+    "YV_NO": [
+      "53503"
+    ],
+    "matched": "CHEVROLET"
+  },
+  {
+    "AtakKodu": "WBD1341CD",
+    "YV_NO": [
+      "53376"
+    ],
+    "matched": "CHEVROLET"
+  },
+  {
+    "AtakKodu": "WBD1342CD",
+    "YV_NO": [
+      "53452"
+    ],
+    "matched": "CHEVROLET"
+  },
+  {
+    "AtakKodu": "WBD1343CD",
+    "YV_NO": [
+      "53514"
+    ],
+    "matched": "CHEVROLET"
+  },
+  {
+    "AtakKodu": "WBD1353CD",
+    "YV_NO": [
+      "13401",
+      "13601",
+      "13742",
+      "13742C"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1361CD",
+    "YV_NO": [
+      "53476"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1362CD",
+    "YV_NO": [
+      "27590",
+      "27590CS"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1002CD",
+    "YV_NO": [
+      "41774"
+    ],
+    "matched": "AUDI"
+  },
+  {
+    "AtakKodu": "WBD1003CD",
+    "YV_NO": [
+      "41651C",
+      "41864"
+    ],
+    "matched": "AUDI"
+  },
+  {
+    "AtakKodu": "WBD1366CD",
+    "YV_NO": [
+      "24309"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "WBD1367CD",
+    "YV_NO": [
+      "24916"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "WBD1368CD",
+    "YV_NO": [
+      "24580"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "WBD1373CD",
+    "YV_NO": [
+      "36671"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1374CD",
+    "YV_NO": [
+      "361534",
+      "361534CS"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1173CD",
+    "YV_NO": [
+      "27167"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1174CD",
+    "YV_NO": [
+      "27065",
+      "27131"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1175CD",
+    "YV_NO": [
+      "27064"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1176CD",
+    "YV_NO": [
+      "27065",
+      "27131"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1375CD",
+    "YV_NO": [
+      "41863"
+    ],
+    "matched": "AUDI"
+  },
+  {
+    "AtakKodu": "WBD1378CD",
+    "YV_NO": [
+      "41865",
+      "41924",
+      "41865CS"
+    ],
+    "matched": "AUDI"
+  },
+  {
+    "AtakKodu": "WBD1383CD",
+    "YV_NO": [
+      "36927"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1540CD",
+    "YV_NO": [
+      "24521",
+      "24521CS"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "WBD1542CD",
+    "YV_NO": [
+      "24653C"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "WBD1546CD",
+    "YV_NO": [
+      "24621CS"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "WBD1549CD",
+    "YV_NO": [
+      "24108",
+      "24270"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "WBD1555CD",
+    "YV_NO": [
+      "24182",
+      "24182CS"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "WBD1575CD",
+    "YV_NO": [
+      "36460",
+      "36460CS"
+    ],
+    "matched": "PORSCHE"
+  },
+  {
+    "AtakKodu": "WBD1647D",
+    "YV_NO": [
+      "41862"
+    ],
+    "matched": "AUDI"
+  },
+  {
+    "AtakKodu": "WBD1648D",
+    "YV_NO": [
+      "52850"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1649D",
+    "YV_NO": [
+      "52881C"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1650D",
+    "YV_NO": [
+      "52881C"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1611CD",
+    "YV_NO": [
+      "411545C"
+    ],
+    "matched": "AUDI"
+  },
+  {
+    "AtakKodu": "WBD1628CD",
+    "YV_NO": [
+      "13533",
+      "13793"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1632CD",
+    "YV_NO": [
+      "36938C",
+      "36938CS"
+    ],
+    "matched": "SKODA"
+  },
+  {
+    "AtakKodu": "WBD1641CD",
+    "YV_NO": [
+      "41867"
+    ],
+    "matched": "AUDI"
+  },
+  {
+    "AtakKodu": "WBD1644CD",
+    "YV_NO": [
+      "52882",
+      "52882C"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1647CD",
+    "YV_NO": [
+      "41862"
+    ],
+    "matched": "AUDI"
+  },
+  {
+    "AtakKodu": "WBD1406CD",
+    "YV_NO": [
+      "13680",
+      "13680CS"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1407CD",
+    "YV_NO": [
+      "13555",
+      "13681",
+      "13681CS"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1648CD",
+    "YV_NO": [
+      "52850"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1651CD",
+    "YV_NO": [
+      "13682"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1416CD",
+    "YV_NO": [
+      "41651C",
+      "41864"
+    ],
+    "matched": "AUDI"
+  },
+  {
+    "AtakKodu": "WBD1421CD",
+    "YV_NO": [
+      "13751"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1423CD",
+    "YV_NO": [
+      "24303"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "WBD1431CD",
+    "YV_NO": [
+      "36764"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1434CD",
+    "YV_NO": [
+      "24142"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1442CD",
+    "YV_NO": [
+      "27493"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1450CD",
+    "YV_NO": [
+      "36758",
+      "36758CS"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1453CD",
+    "YV_NO": [
+      "13019"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1455CD",
+    "YV_NO": [
+      "41771C",
+      "41771CS"
+    ],
+    "matched": "AUDI"
+  },
+  {
+    "AtakKodu": "WBD1526CD",
+    "YV_NO": [
+      "52125"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1536CD",
+    "YV_NO": [
+      "24262"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "WBD1514CD",
+    "YV_NO": [
+      "52668C",
+      "52668CS"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1515CD",
+    "YV_NO": [
+      "52854",
+      "52854CS"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1523CD",
+    "YV_NO": [
+      "52828"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1518CD",
+    "YV_NO": [
+      "52849"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1548CD",
+    "YV_NO": [
+      "24621CS"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "WBD1517CD",
+    "YV_NO": [
+      "52657C",
+      "52858",
+      "52879",
+      "52968",
+      "52858CS",
+      "52879CS",
+      "52657CS"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1531CD",
+    "YV_NO": [
+      "52237",
+      "52666C"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1635CD",
+    "YV_NO": [
+      "52855C",
+      "52855CS"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1512CD",
+    "YV_NO": [
+      "52667C",
+      "52667CS"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1522CD",
+    "YV_NO": [
+      "52886",
+      "52886CS"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1524CD",
+    "YV_NO": [
+      "52883C",
+      "52883CS"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1509CD",
+    "YV_NO": [
+      "52637C"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1510CD",
+    "YV_NO": [
+      "52605",
+      "52615",
+      "52615CS"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1513CD",
+    "YV_NO": [
+      "52237",
+      "52666C"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1516CD",
+    "YV_NO": [
+      "52663C"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1519CD",
+    "YV_NO": [
+      "52880C",
+      "52880CS"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1520CD",
+    "YV_NO": [
+      "52536",
+      "52536CS",
+      "52536C"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1521CD",
+    "YV_NO": [
+      "52821",
+      "52821CS"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1090D",
+    "YV_NO": [
+      "16337",
+      "16358",
+      "161562"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1105D",
+    "YV_NO": [
+      "16492"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1108D",
+    "YV_NO": [
+      "18486",
+      "18486CS"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1111D",
+    "YV_NO": [
+      "16560"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1127D",
+    "YV_NO": [
+      "16542"
+    ],
+    "matched": "KIA"
+  },
+  {
+    "AtakKodu": "WBD1143D",
+    "YV_NO": [
+      "25411"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "WBD1160D",
+    "YV_NO": [
+      "26403",
+      "30552",
+      "26606",
+      "30778",
+      "26606C",
+      "30778C"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1162D",
+    "YV_NO": [
+      "26353"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1165D",
+    "YV_NO": [
+      "30438",
+      "26316",
+      "30438C",
+      "30438CS"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1170D",
+    "YV_NO": [
+      "26403",
+      "30552",
+      "26606",
+      "30778",
+      "26606C",
+      "30778C"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1258D",
+    "YV_NO": [
+      "34156",
+      "34205"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1284D",
+    "YV_NO": [
+      "34535"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1290D",
+    "YV_NO": [
+      "34575",
+      "34575C"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1393D",
+    "YV_NO": [
+      "15676",
+      "15676CS"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1467D",
+    "YV_NO": [
+      "16542"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1071D",
+    "YV_NO": [
+      "15328",
+      "15685",
+      "15328CS"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1069D",
+    "YV_NO": [
+      "15094"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1278D",
+    "YV_NO": [
+      "34408"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1280D",
+    "YV_NO": [
+      "34421"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1282D",
+    "YV_NO": [
+      "34351"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1286D",
+    "YV_NO": [
+      "34156",
+      "34205"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1289D",
+    "YV_NO": [
+      "34392",
+      "34738"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1403D",
+    "YV_NO": [
+      "25733"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "WBD1411D",
+    "YV_NO": [
+      "26782"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1429D",
+    "YV_NO": [
+      "15676",
+      "15676CS"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1435D",
+    "YV_NO": [
+      "64765"
+    ],
+    "matched": "SSANGYONG"
+  },
+  {
+    "AtakKodu": "WBD1351D",
+    "YV_NO": [
+      "64445"
+    ],
+    "matched": "SSANGYONG"
+  },
+  {
+    "AtakKodu": "WBD1352D",
+    "YV_NO": [
+      "64994"
+    ],
+    "matched": "SSANGYONG"
+  },
+  {
+    "AtakKodu": "WBD1460D",
+    "YV_NO": [
+      "22773"
+    ],
+    "matched": "MAZDA"
+  },
+  {
+    "AtakKodu": "WBD1477D",
+    "YV_NO": [
+      "22490"
+    ],
+    "matched": "MAZDA"
+  },
+  {
+    "AtakKodu": "WBD1482D",
+    "YV_NO": [
+      "16726"
+    ],
+    "matched": "KIA"
+  },
+  {
+    "AtakKodu": "WBD1489D",
+    "YV_NO": [
+      "22611"
+    ],
+    "matched": "MAZDA"
+  },
+  {
+    "AtakKodu": "WBD1497D",
+    "YV_NO": [
+      "15498",
+      "15498CS"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1073D",
+    "YV_NO": [
+      "15329"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1076D",
+    "YV_NO": [
+      "15443",
+      "15443CS"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1087D",
+    "YV_NO": [
+      "16048"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1088D",
+    "YV_NO": [
+      "16326",
+      "16560"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1089D",
+    "YV_NO": [
+      "18191"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1092D",
+    "YV_NO": [
+      "16111"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1096D",
+    "YV_NO": [
+      "16724"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1098D",
+    "YV_NO": [
+      "16433",
+      "16796"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1099D",
+    "YV_NO": [
+      "16726"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1101D",
+    "YV_NO": [
+      "16327",
+      "18731"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1103D",
+    "YV_NO": [
+      "16374",
+      "16374C"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1104D",
+    "YV_NO": [
+      "16949"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1107D",
+    "YV_NO": [
+      "18546"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1113D",
+    "YV_NO": [
+      "16337",
+      "16358",
+      "161562"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1117D",
+    "YV_NO": [
+      "40347"
+    ],
+    "matched": "ISUZU"
+  },
+  {
+    "AtakKodu": "WBD1118D",
+    "YV_NO": [
+      "40370"
+    ],
+    "matched": "ISUZU"
+  },
+  {
+    "AtakKodu": "WBD1119D",
+    "YV_NO": [
+      "40527"
+    ],
+    "matched": "ISUZU"
+  },
+  {
+    "AtakKodu": "WBD1121D",
+    "YV_NO": [
+      "18336"
+    ],
+    "matched": "KIA"
+  },
+  {
+    "AtakKodu": "WBD1124D",
+    "YV_NO": [
+      "18456"
+    ],
+    "matched": "KIA"
+  },
+  {
+    "AtakKodu": "WBD1125D",
+    "YV_NO": [
+      "18497"
+    ],
+    "matched": "KIA"
+  },
+  {
+    "AtakKodu": "WBD1126D",
+    "YV_NO": [
+      "16784"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1128D",
+    "YV_NO": [
+      "18489"
+    ],
+    "matched": "KIA"
+  },
+  {
+    "AtakKodu": "WBD1131D",
+    "YV_NO": [
+      "18732"
+    ],
+    "matched": "KIA"
+  },
+  {
+    "AtakKodu": "WBD1132D",
+    "YV_NO": [
+      "22073"
+    ],
+    "matched": "MAZDA"
+  },
+  {
+    "AtakKodu": "WBD1135D",
+    "YV_NO": [
+      "25075",
+      "25082"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "WBD1139D",
+    "YV_NO": [
+      "25367"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "WBD1146D",
+    "YV_NO": [
+      "25729"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "WBD1148D",
+    "YV_NO": [
+      "25502"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "WBD1151D",
+    "YV_NO": [
+      "26067"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1152D",
+    "YV_NO": [
+      "26154"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1153D",
+    "YV_NO": [
+      "26159",
+      "26231"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1154D",
+    "YV_NO": [
+      "26689"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1155D",
+    "YV_NO": [
+      "26339"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1156D",
+    "YV_NO": [
+      "26397"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1159D",
+    "YV_NO": [
+      "26539"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1164D",
+    "YV_NO": [
+      "26083"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1166D",
+    "YV_NO": [
+      "30220",
+      "26950",
+      "30220CS"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1168D",
+    "YV_NO": [
+      "26254"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1244D",
+    "YV_NO": [
+      "32394"
+    ],
+    "matched": "SUZUKI"
+  },
+  {
+    "AtakKodu": "WBD1246D",
+    "YV_NO": [
+      "32440"
+    ],
+    "matched": "SUZUKI"
+  },
+  {
+    "AtakKodu": "WBD1248D",
+    "YV_NO": [
+      "32256"
+    ],
+    "matched": "SUZUKI"
+  },
+  {
+    "AtakKodu": "WBD1260D",
+    "YV_NO": [
+      "34176"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1261D",
+    "YV_NO": [
+      "34222"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1262D",
+    "YV_NO": [
+      "34325"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1264D",
+    "YV_NO": [
+      "34507"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1276D",
+    "YV_NO": [
+      "34380"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1271D",
+    "YV_NO": [
+      "34389"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1244CD",
+    "YV_NO": [
+      "32394"
+    ],
+    "matched": "SUZUKI"
+  },
+  {
+    "AtakKodu": "WBD1246CD",
+    "YV_NO": [
+      "32440"
+    ],
+    "matched": "SUZUKI"
+  },
+  {
+    "AtakKodu": "WBD1248CD",
+    "YV_NO": [
+      "32256"
+    ],
+    "matched": "SUZUKI"
+  },
+  {
+    "AtakKodu": "WBD1388CD",
+    "YV_NO": [
+      "18566"
+    ],
+    "matched": "KIA"
+  },
+  {
+    "AtakKodu": "WBD1393CD",
+    "YV_NO": [
+      "15676",
+      "15676CS"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1249CD",
+    "YV_NO": [
+      "32617"
+    ],
+    "matched": "SUZUKI"
+  },
+  {
+    "AtakKodu": "WBD1256CD",
+    "YV_NO": [
+      "34077",
+      "34466"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1257CD",
+    "YV_NO": [
+      "34084"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1258CD",
+    "YV_NO": [
+      "34156",
+      "34205"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1260CD",
+    "YV_NO": [
+      "34176"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1261CD",
+    "YV_NO": [
+      "34222"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1262CD",
+    "YV_NO": [
+      "34325"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1033CD",
+    "YV_NO": [
+      "32673",
+      "32684"
+    ],
+    "matched": "SUZUKI"
+  },
+  {
+    "AtakKodu": "WBD1069CD",
+    "YV_NO": [
+      "15094"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1070CD",
+    "YV_NO": [
+      "15333"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1071CD",
+    "YV_NO": [
+      "15328",
+      "15685",
+      "15328CS"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1073CD",
+    "YV_NO": [
+      "15329"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1074CD",
+    "YV_NO": [
+      "15245",
+      "15245CS"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1076CD",
+    "YV_NO": [
+      "15443",
+      "15443CS"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1078CD",
+    "YV_NO": [
+      "15432"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1080CD",
+    "YV_NO": [
+      "15112",
+      "15112CS"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1266CD",
+    "YV_NO": [
+      "34414"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1268CD",
+    "YV_NO": [
+      "341535"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1269CD",
+    "YV_NO": [
+      "34416"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1270CD",
+    "YV_NO": [
+      "34323"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1271CD",
+    "YV_NO": [
+      "34389"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1272CD",
+    "YV_NO": [
+      "34392",
+      "34738"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1274CD",
+    "YV_NO": [
+      "34961",
+      "341531",
+      "341531C"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1083CD",
+    "YV_NO": [
+      "15410"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1085CD",
+    "YV_NO": [
+      "16092"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1086CD",
+    "YV_NO": [
+      "16079"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1088CD",
+    "YV_NO": [
+      "16326",
+      "16560"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1089CD",
+    "YV_NO": [
+      "18191"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1090CD",
+    "YV_NO": [
+      "16337",
+      "16358",
+      "161562"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1092CD",
+    "YV_NO": [
+      "16111"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1093CD",
+    "YV_NO": [
+      "16307"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1276CD",
+    "YV_NO": [
+      "34380"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1278CD",
+    "YV_NO": [
+      "34408"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1279CD",
+    "YV_NO": [
+      "34406"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1095CD",
+    "YV_NO": [
+      "16327",
+      "18731"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1096CD",
+    "YV_NO": [
+      "16724"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1280CD",
+    "YV_NO": [
+      "34421"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1281CD",
+    "YV_NO": [
+      "34390"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1282CD",
+    "YV_NO": [
+      "34351"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1284CD",
+    "YV_NO": [
+      "34535"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1286CD",
+    "YV_NO": [
+      "34156",
+      "34205"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1287CD",
+    "YV_NO": [
+      "34482"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1289CD",
+    "YV_NO": [
+      "34392",
+      "34738"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1290CD",
+    "YV_NO": [
+      "34575",
+      "34575C"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1105CD",
+    "YV_NO": [
+      "16492"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1107CD",
+    "YV_NO": [
+      "18546"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1108CD",
+    "YV_NO": [
+      "18486",
+      "18486CS"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "BD1111CD",
+    "YV_NO": [
+      "16560"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1113CD",
+    "YV_NO": [
+      "16337",
+      "16358",
+      "161562"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1115CD",
+    "YV_NO": [
+      "16583"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1117CD",
+    "YV_NO": [
+      "40347"
+    ],
+    "matched": "ISUZU"
+  },
+  {
+    "AtakKodu": "WBD1119CD",
+    "YV_NO": [
+      "40527"
+    ],
+    "matched": "ISUZU"
+  },
+  {
+    "AtakKodu": "WBD1120CD",
+    "YV_NO": [
+      "18253"
+    ],
+    "matched": "KIA"
+  },
+  {
+    "AtakKodu": "WBD1121CD",
+    "YV_NO": [
+      "18336"
+    ],
+    "matched": "KIA"
+  },
+  {
+    "AtakKodu": "WBD1123CD",
+    "YV_NO": [
+      "18146",
+      "18146C"
+    ],
+    "matched": "KIA"
+  },
+  {
+    "AtakKodu": "WBD1124CD",
+    "YV_NO": [
+      "18456"
+    ],
+    "matched": "KIA"
+  },
+  {
+    "AtakKodu": "WBD1125CD",
+    "YV_NO": [
+      "18497"
+    ],
+    "matched": "KIA"
+  },
+  {
+    "AtakKodu": "WBD1126CD",
+    "YV_NO": [
+      "16784"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1127CD",
+    "YV_NO": [
+      "16542"
+    ],
+    "matched": "KIA"
+  },
+  {
+    "AtakKodu": "WBD1128CD",
+    "YV_NO": [
+      "18489"
+    ],
+    "matched": "KIA"
+  },
+  {
+    "AtakKodu": "WBD1131CD",
+    "YV_NO": [
+      "18732"
+    ],
+    "matched": "KIA"
+  },
+  {
+    "AtakKodu": "WBD1132CD",
+    "YV_NO": [
+      "22073"
+    ],
+    "matched": "MAZDA"
+  },
+  {
+    "AtakKodu": "WBD1134CD",
+    "YV_NO": [
+      "18069"
+    ],
+    "matched": "MAZDA"
+  },
+  {
+    "AtakKodu": "WBD1135CD",
+    "YV_NO": [
+      "25075",
+      "25082"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "WBD1136CD",
+    "YV_NO": [
+      "25119"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "WBD1137CD",
+    "YV_NO": [
+      "25158",
+      "25958"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "WBD1138CD",
+    "YV_NO": [
+      "25155"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "WBD1141CD",
+    "YV_NO": [
+      "25526",
+      "25426"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "WBD1143CD",
+    "YV_NO": [
+      "25411"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "WBD1144CD",
+    "YV_NO": [
+      "25526",
+      "25426"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "WBD1148CD",
+    "YV_NO": [
+      "25502"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "WBD1152CD",
+    "YV_NO": [
+      "26154"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1153CD",
+    "YV_NO": [
+      "26159",
+      "26231"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1351CD",
+    "YV_NO": [
+      "64445"
+    ],
+    "matched": "SSANGYONG"
+  },
+  {
+    "AtakKodu": "WBD1352CD",
+    "YV_NO": [
+      "64994"
+    ],
+    "matched": "SSANGYONG"
+  },
+  {
+    "AtakKodu": "WBD1359CD",
+    "YV_NO": [
+      "15672"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1155CD",
+    "YV_NO": [
+      "26339"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1156CD",
+    "YV_NO": [
+      "26397"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1159CD",
+    "YV_NO": [
+      "26539"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1160CD",
+    "YV_NO": [
+      "26403",
+      "30552",
+      "26606",
+      "30778",
+      "26606C",
+      "30778C"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1162CD",
+    "YV_NO": [
+      "26353"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1164CD",
+    "YV_NO": [
+      "26083"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1165CD",
+    "YV_NO": [
+      "30438",
+      "26316",
+      "30438C",
+      "30438CS"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1166CD",
+    "YV_NO": [
+      "30220",
+      "26950",
+      "30220CS"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1168CD",
+    "YV_NO": [
+      "26254"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1170CD",
+    "YV_NO": [
+      "26403",
+      "30552",
+      "26606",
+      "30778",
+      "26606C",
+      "30778C"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1385CD",
+    "YV_NO": [
+      "16608"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1582CD",
+    "YV_NO": [
+      "15798"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1595CD",
+    "YV_NO": [
+      "25993"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "WBD1608CD",
+    "YV_NO": [
+      "34963"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1625CD",
+    "YV_NO": [
+      "25250"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "WBD1626CD",
+    "YV_NO": [
+      "25730",
+      "25905"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "WBD1627CD",
+    "YV_NO": [
+      "25906",
+      "251540"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "WBD1637CD",
+    "YV_NO": [
+      "15785",
+      "15785CS"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1646CD",
+    "YV_NO": [
+      "16797"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1401CD",
+    "YV_NO": [
+      "34759",
+      "34759CS"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1403CD",
+    "YV_NO": [
+      "25733"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "WBD1404CD",
+    "YV_NO": [
+      "26616"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1411CD",
+    "YV_NO": [
+      "26782"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1429CD",
+    "YV_NO": [
+      "15676",
+      "15676CS"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1435CD",
+    "YV_NO": [
+      "64765"
+    ],
+    "matched": "SSANGYONG"
+  },
+  {
+    "AtakKodu": "WBD1437CD",
+    "YV_NO": [
+      "26746"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1457CD",
+    "YV_NO": [
+      "16492"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1458CD",
+    "YV_NO": [
+      "32673",
+      "32684"
+    ],
+    "matched": "SUZUKI"
+  },
+  {
+    "AtakKodu": "WBD1460CD",
+    "YV_NO": [
+      "22773"
+    ],
+    "matched": "MAZDA"
+  },
+  {
+    "AtakKodu": "WBD1467CD",
+    "YV_NO": [
+      "16542"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1468CD",
+    "YV_NO": [
+      "16470"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1489CD",
+    "YV_NO": [
+      "22611"
+    ],
+    "matched": "MAZDA"
+  },
+  {
+    "AtakKodu": "WBD1497CD",
+    "YV_NO": [
+      "15498",
+      "15498CS"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1498CD",
+    "YV_NO": [
+      "26537",
+      "26618",
+      "30779"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1007D",
+    "YV_NO": [
+      "33118",
+      "33026"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1017D",
+    "YV_NO": [
+      "33375",
+      "27385",
+      "33375CS"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1018D",
+    "YV_NO": [
+      "33375",
+      "27385",
+      "33375CS"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1020D",
+    "YV_NO": [
+      "33197",
+      "33269",
+      "33407",
+      "33952",
+      "33197CS"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1025D",
+    "YV_NO": [
+      "33377",
+      "331558"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1029D",
+    "YV_NO": [
+      "33197",
+      "33269",
+      "33407",
+      "33952",
+      "33197CS"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1032D",
+    "YV_NO": [
+      "33471"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1036D",
+    "YV_NO": [
+      "33197",
+      "33269",
+      "33407",
+      "33952",
+      "33197CS"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1466D",
+    "YV_NO": [
+      "33912",
+      "33913",
+      "33914"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1008D",
+    "YV_NO": [
+      "33086"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1020CD",
+    "YV_NO": [
+      "33197",
+      "33269",
+      "33407",
+      "33952",
+      "33197CS"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1025CD",
+    "YV_NO": [
+      "33377",
+      "331558"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1028CD",
+    "YV_NO": [
+      "28559",
+      "28679",
+      "28679CS"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1029CD",
+    "YV_NO": [
+      "33197",
+      "33269",
+      "33407",
+      "33952",
+      "33197CS"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1031CD",
+    "YV_NO": [
+      "33197",
+      "33269",
+      "33407",
+      "33952",
+      "33197CS"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1032CD",
+    "YV_NO": [
+      "33471"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1036CD",
+    "YV_NO": [
+      "33197",
+      "33269",
+      "33407",
+      "33952",
+      "33197CS"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1038CD",
+    "YV_NO": [
+      "331559"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1007CD",
+    "YV_NO": [
+      "33118",
+      "33026"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1008CD",
+    "YV_NO": [
+      "33086"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1009CD",
+    "YV_NO": [
+      "33118",
+      "33026"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1010CD",
+    "YV_NO": [
+      "33007"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1012CD",
+    "YV_NO": [
+      "33027"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1017CD",
+    "YV_NO": [
+      "33375",
+      "27385",
+      "33375CS"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1018CD",
+    "YV_NO": [
+      "33375",
+      "27385",
+      "33375CS"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1609CD",
+    "YV_NO": [
+      "33912",
+      "33913",
+      "33914"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1412CD",
+    "YV_NO": [
+      "60424"
+    ],
+    "matched": "IVECO"
+  },
+  {
+    "AtakKodu": "WBD1413CD",
+    "YV_NO": [
+      "60484"
+    ],
+    "matched": "IVECO"
+  },
+  {
+    "AtakKodu": "WBD1414CD",
+    "YV_NO": [
+      "60428"
+    ],
+    "matched": "IVECO"
+  },
+  {
+    "AtakKodu": "WBD1415CD",
+    "YV_NO": [
+      "60600"
+    ],
+    "matched": "IVECO"
+  },
+  {
+    "AtakKodu": "WBD1466CD",
+    "YV_NO": [
+      "33912",
+      "33913",
+      "33914"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1476CD",
+    "YV_NO": [
+      "47917",
+      "47917CS"
+    ],
+    "matched": "JEEP"
+  },
+  {
+    "AtakKodu": "WBD1487CD",
+    "YV_NO": [
+      "33912",
+      "33913",
+      "33914"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1198D",
+    "YV_NO": [
+      "28049"
+    ],
+    "matched": "CITROEN"
+  },
+  {
+    "AtakKodu": "WBD1201D",
+    "YV_NO": [
+      "28122",
+      "28122CS"
+    ],
+    "matched": "PEUGEOT"
+  },
+  {
+    "AtakKodu": "WBD1212D",
+    "YV_NO": [
+      "28404"
+    ],
+    "matched": "PEUGEOT"
+  },
+  {
+    "AtakKodu": "WBD1221D",
+    "YV_NO": [
+      "30179",
+      "30126",
+      "30180",
+      "30287",
+      "30288"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1222D",
+    "YV_NO": [
+      "30345"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1226D",
+    "YV_NO": [
+      "30220",
+      "30220CS"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1228D",
+    "YV_NO": [
+      "30469"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1230D",
+    "YV_NO": [
+      "30427"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1232D",
+    "YV_NO": [
+      "30438",
+      "30438C",
+      "30438CS"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1240D",
+    "YV_NO": [
+      "30598"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1348D",
+    "YV_NO": [
+      "30576"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1386D",
+    "YV_NO": [
+      "28678"
+    ],
+    "matched": "PEUGEOT"
+  },
+  {
+    "AtakKodu": "WBD1422D",
+    "YV_NO": [
+      "26537",
+      "26618",
+      "30779"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1592D",
+    "YV_NO": [
+      "28574"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1488D",
+    "YV_NO": [
+      "30520",
+      "30513",
+      "30513CS",
+      "30513C"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1574D",
+    "YV_NO": [
+      "28404"
+    ],
+    "matched": "PEUGEOT"
+  },
+  {
+    "AtakKodu": "WBD1200D",
+    "YV_NO": [
+      "28059"
+    ],
+    "matched": "PEUGEOT"
+  },
+  {
+    "AtakKodu": "WBD1215D",
+    "YV_NO": [
+      "30145"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1216D",
+    "YV_NO": [
+      "30085"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1236D",
+    "YV_NO": [
+      "30552",
+      "26606",
+      "30778",
+      "26606C",
+      "30778C"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1239CD",
+    "YV_NO": [
+      "26537",
+      "26618",
+      "30779"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1240CD",
+    "YV_NO": [
+      "30598"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1397CD",
+    "YV_NO": [
+      "29675"
+    ],
+    "matched": "PEUGEOT"
+  },
+  {
+    "AtakKodu": "WBD1398CD",
+    "YV_NO": [
+      "28752"
+    ],
+    "matched": "PEUGEOT"
+  },
+  {
+    "AtakKodu": "WBD1198CD",
+    "YV_NO": [
+      "28049"
+    ],
+    "matched": "CITROEN"
+  },
+  {
+    "AtakKodu": "WBD1200CD",
+    "YV_NO": [
+      "28059"
+    ],
+    "matched": "PEUGEOT"
+  },
+  {
+    "AtakKodu": "WBD1201CD",
+    "YV_NO": [
+      "28122",
+      "28122CS"
+    ],
+    "matched": "PEUGEOT"
+  },
+  {
+    "AtakKodu": "WBD1202CD",
+    "YV_NO": [
+      "28404"
+    ],
+    "matched": "PEUGEOT"
+  },
+  {
+    "AtakKodu": "WBD1204CD",
+    "YV_NO": [
+      "28251"
+    ],
+    "matched": "PEUGEOT"
+  },
+  {
+    "AtakKodu": "WBD1210CD",
+    "YV_NO": [
+      "28574"
+    ],
+    "matched": "CITROEN"
+  },
+  {
+    "AtakKodu": "WBD1212CD",
+    "YV_NO": [
+      "28404"
+    ],
+    "matched": "PEUGEOT"
+  },
+  {
+    "AtakKodu": "WBD1214CD",
+    "YV_NO": [
+      "28559",
+      "28679",
+      "28679CS"
+    ],
+    "matched": "PEUGEOT"
+  },
+  {
+    "AtakKodu": "WBD1215CD",
+    "YV_NO": [
+      "30145"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1216CD",
+    "YV_NO": [
+      "30085"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1219CD",
+    "YV_NO": [
+      "30043"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1220CD",
+    "YV_NO": [
+      "30123"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1221CD",
+    "YV_NO": [
+      "30179",
+      "30126",
+      "30180",
+      "30287",
+      "30288"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1222CD",
+    "YV_NO": [
+      "30345"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1226CD",
+    "YV_NO": [
+      "30220",
+      "30220CS"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1228CD",
+    "YV_NO": [
+      "30469"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1230CD",
+    "YV_NO": [
+      "30427"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1232CD",
+    "YV_NO": [
+      "30438",
+      "30438C",
+      "30438CS"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1236CD",
+    "YV_NO": [
+      "30552",
+      "26606",
+      "30778",
+      "26606C",
+      "30778C"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1345CD",
+    "YV_NO": [
+      "49113",
+      "49306"
+    ],
+    "matched": "DACIA"
+  },
+  {
+    "AtakKodu": "WBD1347CD",
+    "YV_NO": [
+      "49113",
+      "49306"
+    ],
+    "matched": "DACIA"
+  },
+  {
+    "AtakKodu": "WBD1348CD",
+    "YV_NO": [
+      "30576"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1349CD",
+    "YV_NO": [
+      "30126",
+      "30288"
+    ],
+    "matched": "DACIA"
+  },
+  {
+    "AtakKodu": "WBD1386CD",
+    "YV_NO": [
+      "28678"
+    ],
+    "matched": "PEUGEOT"
+  },
+  {
+    "AtakKodu": "WBD1574CD",
+    "YV_NO": [
+      "28404"
+    ],
+    "matched": "PEUGEOT"
+  },
+  {
+    "AtakKodu": "WBD1592CD",
+    "YV_NO": [
+      "28574"
+    ],
+    "matched": "CITROEN"
+  },
+  {
+    "AtakKodu": "WBD1422CD",
+    "YV_NO": [
+      "26537",
+      "26618",
+      "30779"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1428CD",
+    "YV_NO": [
+      "30690"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1441CD",
+    "YV_NO": [
+      "30179",
+      "30126",
+      "30180",
+      "30287",
+      "30288"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1488CD",
+    "YV_NO": [
+      "30520",
+      "30513",
+      "30513CS",
+      "30513C"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1601D",
+    "YV_NO": [
+      "551506"
+    ],
+    "matched": "JEEP"
+  },
+  {
+    "AtakKodu": "WBD1600D",
+    "YV_NO": [
+      "55942C"
+    ],
+    "matched": "JEEP"
+  },
+  {
+    "AtakKodu": "WBD1573D",
+    "YV_NO": [
+      "581573"
+    ],
+    "matched": "CHRYSLER"
+  },
+  {
+    "AtakKodu": "WBD1561CD",
+    "YV_NO": [
+      "55931"
+    ],
+    "matched": "JEEP"
+  },
+  {
+    "AtakKodu": "WBD1568CD",
+    "YV_NO": [
+      "55200"
+    ],
+    "matched": "JEEP"
+  },
+  {
+    "AtakKodu": "WBD1600CD",
+    "YV_NO": [
+      "55942C"
+    ],
+    "matched": "JEEP"
+  },
+  {
+    "AtakKodu": "WBD1601CD",
+    "YV_NO": [
+      "551506"
+    ],
+    "matched": "JEEP"
+  },
+  {
+    "AtakKodu": "WBD1494CD",
+    "YV_NO": [
+      "55257"
+    ],
+    "matched": "JEEP"
+  },
+  {
+    "AtakKodu": "WBD1597CD",
+    "YV_NO": [
+      "62660C"
+    ],
+    "matched": "LAND-ROVER"
+  },
+  {
+    "AtakKodu": "WBD1621D",
+    "YV_NO": [
+      "13554"
+    ],
+    "matched": "VOLVO"
+  },
+  {
+    "AtakKodu": "WBD1598CD",
+    "YV_NO": [
+      "62897C"
+    ],
+    "matched": "LAND-ROVER"
+  },
+  {
+    "AtakKodu": "WBD1584D",
+    "YV_NO": [
+      "54907"
+    ],
+    "matched": "VOLVO"
+  },
+  {
+    "AtakKodu": "WBD1337D",
+    "YV_NO": [
+      "13312",
+      "13757"
+    ],
+    "matched": "VOLVO"
+  },
+  {
+    "AtakKodu": "WBD1444D",
+    "YV_NO": [
+      "541068"
+    ],
+    "matched": "VOLVO"
+  },
+  {
+    "AtakKodu": "WBD1556D",
+    "YV_NO": [
+      "54940C"
+    ],
+    "matched": "VOLVO"
+  },
+  {
+    "AtakKodu": "WBD1255CD",
+    "YV_NO": [
+      "43464"
+    ],
+    "matched": "TATA"
+  },
+  {
+    "AtakKodu": "WBD1556CD",
+    "YV_NO": [
+      "54940C"
+    ],
+    "matched": "VOLVO"
+  },
+  {
+    "AtakKodu": "WBD1557CD",
+    "YV_NO": [
+      "54941C"
+    ],
+    "matched": "VOLVO"
+  },
+  {
+    "AtakKodu": "WBD1621CD",
+    "YV_NO": [
+      "13554"
+    ],
+    "matched": "VOLVO"
+  },
+  {
+    "AtakKodu": "WBD1639CD",
+    "YV_NO": [
+      "62844"
+    ],
+    "matched": "LAND-ROVER"
+  },
+  {
+    "AtakKodu": "WBD1444CD",
+    "YV_NO": [
+      "541068"
+    ],
+    "matched": "VOLVO"
+  },
+  {
+    "AtakKodu": "WBD1501CD",
+    "YV_NO": [
+      "62265"
+    ],
+    "matched": "LAND-ROVER"
+  },
+  {
+    "AtakKodu": "WBD1502CD",
+    "YV_NO": [
+      "62650C"
+    ],
+    "matched": "LAND-ROVER"
+  },
+  {
+    "AtakKodu": "WBD1503CD",
+    "YV_NO": [
+      "62665C"
+    ],
+    "matched": "LAND-ROVER"
+  },
+  {
+    "AtakKodu": "WBD1505CD",
+    "YV_NO": [
+      "62664C"
+    ],
+    "matched": "LAND-ROVER"
+  },
+  {
+    "AtakKodu": "WBD1535CD",
+    "YV_NO": [
+      "13401"
+    ],
+    "matched": "LAND-ROVER"
+  },
+  {
+    "AtakKodu": "WBD1584CD",
+    "YV_NO": [
+      "54907"
+    ],
+    "matched": "VOLVO"
+  },
+  {
+    "AtakKodu": "WBD1580CD",
+    "YV_NO": [
+      "54939C"
+    ],
+    "matched": "VOLVO"
+  },
+  {
+    "AtakKodu": "WBD1506CD",
+    "YV_NO": [
+      "62935C"
+    ],
+    "matched": "LAND-ROVER"
+  },
+  {
+    "AtakKodu": "WBD1558CD",
+    "YV_NO": [
+      "61859",
+      "61859CS"
+    ],
+    "matched": "MINI"
+  },
+  {
+    "AtakKodu": "WBD1059",
+    "YV_NO": [
+      "13533",
+      "13793"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1060",
+    "YV_NO": [
+      "13534"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1061",
+    "YV_NO": [
+      "13528"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1062",
+    "YV_NO": [
+      "13602"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1063",
+    "YV_NO": [
+      "13554"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1064",
+    "YV_NO": [
+      "13121",
+      "13543"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1065",
+    "YV_NO": [
+      "13551",
+      "13971"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1066",
+    "YV_NO": [
+      "13550"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1067",
+    "YV_NO": [
+      "13553"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1068",
+    "YV_NO": [
+      "13572"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1039",
+    "YV_NO": [
+      "13017",
+      "13402"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1040",
+    "YV_NO": [
+      "13055"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1041",
+    "YV_NO": [
+      "13121",
+      "13543",
+      "131552"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1042",
+    "YV_NO": [
+      "13151"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1043",
+    "YV_NO": [
+      "13029"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1044",
+    "YV_NO": [
+      "13312",
+      "13757"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1045",
+    "YV_NO": [
+      "13334"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1046",
+    "YV_NO": [
+      "13133"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1002",
+    "YV_NO": [
+      "41774"
+    ],
+    "matched": "AUDI"
+  },
+  {
+    "AtakKodu": "WBD1003",
+    "YV_NO": [
+      "41651C",
+      "41864"
+    ],
+    "matched": "AUDI"
+  },
+  {
+    "AtakKodu": "WBD1047",
+    "YV_NO": [
+      "13024"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1048",
+    "YV_NO": [
+      "13335",
+      "13548"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1049",
+    "YV_NO": [
+      "13342"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1050",
+    "YV_NO": [
+      "13311"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1004",
+    "YV_NO": [
+      "41652C",
+      "41781"
+    ],
+    "matched": "AUDI"
+  },
+  {
+    "AtakKodu": "WBD1051",
+    "YV_NO": [
+      "13357"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1052",
+    "YV_NO": [
+      "13401",
+      "13601",
+      "13742",
+      "13742C"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1053",
+    "YV_NO": [
+      "13562",
+      "13816"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1054",
+    "YV_NO": [
+      "13420"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1055",
+    "YV_NO": [
+      "13017",
+      "13402"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1057",
+    "YV_NO": [
+      "13555",
+      "13681",
+      "13681CS"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1058",
+    "YV_NO": [
+      "13577"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1363",
+    "YV_NO": [
+      "27755",
+      "27755CS"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1364",
+    "YV_NO": [
+      "27756",
+      "27756CS"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1367",
+    "YV_NO": [
+      "24916"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "WBD1369",
+    "YV_NO": [
+      "24581",
+      "24627C"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "WBD1370",
+    "YV_NO": [
+      "24310"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "WBD1362",
+    "YV_NO": [
+      "27590",
+      "27590CS"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1366",
+    "YV_NO": [
+      "24309"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "WBD1395",
+    "YV_NO": [
+      "36763"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1406",
+    "YV_NO": [
+      "13680",
+      "13680CS"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1407",
+    "YV_NO": [
+      "13555",
+      "13681",
+      "13681CS"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1353",
+    "YV_NO": [
+      "13401",
+      "13601",
+      "13742",
+      "13742C"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1354",
+    "YV_NO": [
+      "13562",
+      "13816"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1387",
+    "YV_NO": [
+      "41923",
+      "41928",
+      "41928CS"
+    ],
+    "matched": "AUDI"
+  },
+  {
+    "AtakKodu": "WBD1374",
+    "YV_NO": [
+      "361534",
+      "361534CS"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1378",
+    "YV_NO": [
+      "41865",
+      "41924",
+      "41865CS"
+    ],
+    "matched": "AUDI"
+  },
+  {
+    "AtakKodu": "WBD1392",
+    "YV_NO": [
+      "27769"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1176",
+    "YV_NO": [
+      "27065",
+      "27131"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1177",
+    "YV_NO": [
+      "27063"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1178",
+    "YV_NO": [
+      "27219"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1172",
+    "YV_NO": [
+      "27012"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1173",
+    "YV_NO": [
+      "27167"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1174",
+    "YV_NO": [
+      "27065",
+      "27131"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1175",
+    "YV_NO": [
+      "27064"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1179",
+    "YV_NO": [
+      "27184"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1180",
+    "YV_NO": [
+      "27208"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1181",
+    "YV_NO": [
+      "27495"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1320",
+    "YV_NO": [
+      "36920",
+      "36920CS"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1321",
+    "YV_NO": [
+      "36461",
+      "36461CS"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1322",
+    "YV_NO": [
+      "36927"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1323",
+    "YV_NO": [
+      "36567",
+      "36567CS"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1324",
+    "YV_NO": [
+      "36926",
+      "36926CS"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1327",
+    "YV_NO": [
+      "36670",
+      "36670C"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1328",
+    "YV_NO": [
+      "36753",
+      "36753CS"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1329",
+    "YV_NO": [
+      "36750",
+      "36750CS"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1339",
+    "YV_NO": [
+      "53201",
+      "53230",
+      "53338",
+      "531509"
+    ],
+    "matched": "DAEWOO"
+  },
+  {
+    "AtakKodu": "WBD1340",
+    "YV_NO": [
+      "53503"
+    ],
+    "matched": "CHEVROLET"
+  },
+  {
+    "AtakKodu": "WBD1341",
+    "YV_NO": [
+      "53376"
+    ],
+    "matched": "CHEVROLET"
+  },
+  {
+    "AtakKodu": "WBD1342",
+    "YV_NO": [
+      "53452"
+    ],
+    "matched": "CHEVROLET"
+  },
+  {
+    "AtakKodu": "WBD1291",
+    "YV_NO": [
+      "36116",
+      "36116CS"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1292",
+    "YV_NO": [
+      "36193",
+      "36193CS"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1293",
+    "YV_NO": [
+      "36166"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1294",
+    "YV_NO": [
+      "36110"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1295",
+    "YV_NO": [
+      "36096"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1297",
+    "YV_NO": [
+      "36168",
+      "36252"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1298",
+    "YV_NO": [
+      "36137"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1299",
+    "YV_NO": [
+      "36177"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1300",
+    "YV_NO": [
+      "36261"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1183",
+    "YV_NO": [
+      "27505"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1184",
+    "YV_NO": [
+      "27378"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1185",
+    "YV_NO": [
+      "27243"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1186",
+    "YV_NO": [
+      "27242"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1243",
+    "YV_NO": [
+      "31031",
+      "31032"
+    ],
+    "matched": "SKODA"
+  },
+  {
+    "AtakKodu": "WBD1302",
+    "YV_NO": [
+      "36260"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1303",
+    "YV_NO": [
+      "36178",
+      "36178CS"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1304",
+    "YV_NO": [
+      "36098",
+      "36216"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1187",
+    "YV_NO": [
+      "271513"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1188",
+    "YV_NO": [
+      "271011"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1189",
+    "YV_NO": [
+      "27361"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1190",
+    "YV_NO": [
+      "27362"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1305",
+    "YV_NO": [
+      "24140"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1306",
+    "YV_NO": [
+      "36109"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1307",
+    "YV_NO": [
+      "36009"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1308",
+    "YV_NO": [
+      "36115"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1191",
+    "YV_NO": [
+      "27494"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1192",
+    "YV_NO": [
+      "27588"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1193",
+    "YV_NO": [
+      "53476"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1194",
+    "YV_NO": [
+      "53477",
+      "53477CS"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1309",
+    "YV_NO": [
+      "36098",
+      "36216"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1310",
+    "YV_NO": [
+      "36314"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1311",
+    "YV_NO": [
+      "36315"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1195",
+    "YV_NO": [
+      "27964"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1196",
+    "YV_NO": [
+      "27669"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1197",
+    "YV_NO": [
+      "27590",
+      "27590CS"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1313",
+    "YV_NO": [
+      "41423",
+      "41423CS"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1314",
+    "YV_NO": [
+      "24303"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1315",
+    "YV_NO": [
+      "24304"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1316",
+    "YV_NO": [
+      "24305"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1318",
+    "YV_NO": [
+      "41636C",
+      "41636CS"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1319",
+    "YV_NO": [
+      "36920",
+      "36920CS"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1373",
+    "YV_NO": [
+      "36671"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1383",
+    "YV_NO": [
+      "36927"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1375",
+    "YV_NO": [
+      "41863"
+    ],
+    "matched": "AUDI"
+  },
+  {
+    "AtakKodu": "WBD1377",
+    "YV_NO": [
+      "41633C"
+    ],
+    "matched": "AUDI"
+  },
+  {
+    "AtakKodu": "WBD1449",
+    "YV_NO": [
+      "13573"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1450",
+    "YV_NO": [
+      "36758",
+      "36758CS"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1456",
+    "YV_NO": [
+      "41652C",
+      "41781"
+    ],
+    "matched": "AUDI"
+  },
+  {
+    "AtakKodu": "WBD1416",
+    "YV_NO": [
+      "41651C",
+      "41864"
+    ],
+    "matched": "AUDI"
+  },
+  {
+    "AtakKodu": "WBD1427",
+    "YV_NO": [
+      "13578"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1431",
+    "YV_NO": [
+      "36764"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1434",
+    "YV_NO": [
+      "24142"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1442",
+    "YV_NO": [
+      "27493"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1453",
+    "YV_NO": [
+      "13019"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1486",
+    "YV_NO": [
+      "27587"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1423",
+    "YV_NO": [
+      "24303"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "WBD1451",
+    "YV_NO": [
+      "31799"
+    ],
+    "matched": "SKODA"
+  },
+  {
+    "AtakKodu": "WBD1454",
+    "YV_NO": [
+      "13018"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1420",
+    "YV_NO": [
+      "27772"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1473",
+    "YV_NO": [
+      "24148"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "WBD1474",
+    "YV_NO": [
+      "24227"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "WBD1577",
+    "YV_NO": [
+      "36925",
+      "36925CS"
+    ],
+    "matched": "PORSCHE"
+  },
+  {
+    "AtakKodu": "WBD1575",
+    "YV_NO": [
+      "36460",
+      "36460CS"
+    ],
+    "matched": "PORSCHE"
+  },
+  {
+    "AtakKodu": "WBD1576",
+    "YV_NO": [
+      "36460",
+      "36460CS"
+    ],
+    "matched": "PORSCHE"
+  },
+  {
+    "AtakKodu": "WBD1585",
+    "YV_NO": [
+      "13363"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1611",
+    "YV_NO": [
+      "411545C"
+    ],
+    "matched": "AUDI"
+  },
+  {
+    "AtakKodu": "WBD1560",
+    "YV_NO": [
+      "41937C"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1571",
+    "YV_NO": [
+      "27604"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1509",
+    "YV_NO": [
+      "52637C"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1510",
+    "YV_NO": [
+      "52605",
+      "52615",
+      "52615CS"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1512",
+    "YV_NO": [
+      "52667C",
+      "52667CS"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1513",
+    "YV_NO": [
+      "52237",
+      "52666C"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1514",
+    "YV_NO": [
+      "52668C",
+      "52668CS"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1515",
+    "YV_NO": [
+      "52854",
+      "52854CS"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1516",
+    "YV_NO": [
+      "52663C"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1517",
+    "YV_NO": [
+      "52657C",
+      "52858",
+      "52879",
+      "52968",
+      "52858CS",
+      "52879CS",
+      "52657CS"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1518",
+    "YV_NO": [
+      "52849"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1520",
+    "YV_NO": [
+      "52536",
+      "52536CS",
+      "52536C"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1525",
+    "YV_NO": [
+      "52225"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1526",
+    "YV_NO": [
+      "52125"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1528",
+    "YV_NO": [
+      "52895"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1530",
+    "YV_NO": [
+      "52851"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1531",
+    "YV_NO": [
+      "52237",
+      "52666C"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1532",
+    "YV_NO": [
+      "52893"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1536",
+    "YV_NO": [
+      "24262"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "WBD1537",
+    "YV_NO": [
+      "24263"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "WBD1546",
+    "YV_NO": [
+      "24621CS"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "WBD1555",
+    "YV_NO": [
+      "24182",
+      "24182CS"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "WBD1052CD",
+    "YV_NO": [
+      "13401",
+      "13601",
+      "13742",
+      "13742C"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1642",
+    "YV_NO": [
+      "41624C"
+    ],
+    "matched": "AUDI"
+  },
+  {
+    "AtakKodu": "WBD1641",
+    "YV_NO": [
+      "41867"
+    ],
+    "matched": "AUDI"
+  },
+  {
+    "AtakKodu": "WBD1648",
+    "YV_NO": [
+      "52850"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1628",
+    "YV_NO": [
+      "13533",
+      "13793"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1632",
+    "YV_NO": [
+      "36938C",
+      "36938CS"
+    ],
+    "matched": "SKODA"
+  },
+  {
+    "AtakKodu": "WBD1069",
+    "YV_NO": [
+      "15094"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1070",
+    "YV_NO": [
+      "15333"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1075",
+    "YV_NO": [
+      "151007"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1076",
+    "YV_NO": [
+      "15443",
+      "15443CS"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1080",
+    "YV_NO": [
+      "15112",
+      "15112CS"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1081",
+    "YV_NO": [
+      "15409"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1082",
+    "YV_NO": [
+      "15246",
+      "15450"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1083",
+    "YV_NO": [
+      "15410"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1033",
+    "YV_NO": [
+      "32673",
+      "32684"
+    ],
+    "matched": "SUZUKI"
+  },
+  {
+    "AtakKodu": "WBD1078",
+    "YV_NO": [
+      "15432"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1079",
+    "YV_NO": [
+      "15457"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1084",
+    "YV_NO": [
+      "15499"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1085",
+    "YV_NO": [
+      "16092"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1086",
+    "YV_NO": [
+      "16079"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1087",
+    "YV_NO": [
+      "16048"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1071",
+    "YV_NO": [
+      "15328",
+      "15685",
+      "15328CS"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1072",
+    "YV_NO": [
+      "15246",
+      "15450"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1073",
+    "YV_NO": [
+      "15329"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1074",
+    "YV_NO": [
+      "15245",
+      "15245CS"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1146",
+    "YV_NO": [
+      "25729"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "WBD1111",
+    "YV_NO": [
+      "16560"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1112",
+    "YV_NO": [
+      "16582"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1113",
+    "YV_NO": [
+      "16337",
+      "16358",
+      "161562"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1149",
+    "YV_NO": [
+      "25451"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "WBD1151",
+    "YV_NO": [
+      "26067"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1152",
+    "YV_NO": [
+      "26154"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1115",
+    "YV_NO": [
+      "16583"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1116",
+    "YV_NO": [
+      "16584"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1153",
+    "YV_NO": [
+      "26159",
+      "26231"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1154",
+    "YV_NO": [
+      "26689"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1155",
+    "YV_NO": [
+      "26339"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1156",
+    "YV_NO": [
+      "26397"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1117",
+    "YV_NO": [
+      "40347"
+    ],
+    "matched": "ISUZU"
+  },
+  {
+    "AtakKodu": "WBD1118",
+    "YV_NO": [
+      "40370"
+    ],
+    "matched": "ISUZU"
+  },
+  {
+    "AtakKodu": "WBD1119",
+    "YV_NO": [
+      "40527"
+    ],
+    "matched": "ISUZU"
+  },
+  {
+    "AtakKodu": "WBD1120",
+    "YV_NO": [
+      "18253"
+    ],
+    "matched": "KIA"
+  },
+  {
+    "AtakKodu": "WBD1158",
+    "YV_NO": [
+      "26531"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1159",
+    "YV_NO": [
+      "26539"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1160",
+    "YV_NO": [
+      "26403",
+      "30552",
+      "26606",
+      "30778",
+      "26606C",
+      "30778C"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1121",
+    "YV_NO": [
+      "18336"
+    ],
+    "matched": "KIA"
+  },
+  {
+    "AtakKodu": "WBD1122",
+    "YV_NO": [
+      "18441"
+    ],
+    "matched": "KIA"
+  },
+  {
+    "AtakKodu": "WBD1124",
+    "YV_NO": [
+      "18456"
+    ],
+    "matched": "KIA"
+  },
+  {
+    "AtakKodu": "WBD1168",
+    "YV_NO": [
+      "26254"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1170",
+    "YV_NO": [
+      "26403",
+      "30552",
+      "26606",
+      "30778",
+      "26606C",
+      "30778C"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1171",
+    "YV_NO": [
+      "26607"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1125",
+    "YV_NO": [
+      "18497"
+    ],
+    "matched": "KIA"
+  },
+  {
+    "AtakKodu": "WBD1126",
+    "YV_NO": [
+      "16784"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1127",
+    "YV_NO": [
+      "16542"
+    ],
+    "matched": "KIA"
+  },
+  {
+    "AtakKodu": "WBD1128",
+    "YV_NO": [
+      "18489"
+    ],
+    "matched": "KIA"
+  },
+  {
+    "AtakKodu": "WBD1365",
+    "YV_NO": [
+      "341501"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1401",
+    "YV_NO": [
+      "34759",
+      "34759CS"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1402",
+    "YV_NO": [
+      "34760"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1411",
+    "YV_NO": [
+      "26782"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1403",
+    "YV_NO": [
+      "25733"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "WBD1404",
+    "YV_NO": [
+      "26616"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1393",
+    "YV_NO": [
+      "15676",
+      "15676CS"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1162",
+    "YV_NO": [
+      "26353"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1164",
+    "YV_NO": [
+      "26083"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1165",
+    "YV_NO": [
+      "30438",
+      "26316",
+      "30438C",
+      "30438CS"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1166",
+    "YV_NO": [
+      "30220",
+      "26950",
+      "30220CS"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1088",
+    "YV_NO": [
+      "16326",
+      "16560"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1089",
+    "YV_NO": [
+      "18191"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1090",
+    "YV_NO": [
+      "16337",
+      "16358",
+      "161562"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1091",
+    "YV_NO": [
+      "16459"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1092",
+    "YV_NO": [
+      "16111"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1093",
+    "YV_NO": [
+      "16307"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1094",
+    "YV_NO": [
+      "16442"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1132",
+    "YV_NO": [
+      "22073"
+    ],
+    "matched": "MAZDA"
+  },
+  {
+    "AtakKodu": "WBD1095",
+    "YV_NO": [
+      "16327",
+      "18731"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1096",
+    "YV_NO": [
+      "16724"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1097",
+    "YV_NO": [
+      "18564",
+      "16788"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1098",
+    "YV_NO": [
+      "16433",
+      "16796"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1135",
+    "YV_NO": [
+      "25075",
+      "25082"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "WBD1136",
+    "YV_NO": [
+      "25119"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "WBD1099",
+    "YV_NO": [
+      "16726"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1100",
+    "YV_NO": [
+      "16791",
+      "18792"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1101",
+    "YV_NO": [
+      "16327",
+      "18731"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1102",
+    "YV_NO": [
+      "161044"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1139",
+    "YV_NO": [
+      "25367"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "WBD1141",
+    "YV_NO": [
+      "25526",
+      "25426"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "WBD1103",
+    "YV_NO": [
+      "16374",
+      "16374C"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1104",
+    "YV_NO": [
+      "16949"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1105",
+    "YV_NO": [
+      "16492"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1106",
+    "YV_NO": [
+      "16500"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1142",
+    "YV_NO": [
+      "25698"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "WBD1143",
+    "YV_NO": [
+      "25411"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "WBD1144",
+    "YV_NO": [
+      "25526",
+      "25426"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "WBD1107",
+    "YV_NO": [
+      "18546"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1108",
+    "YV_NO": [
+      "18486",
+      "18486CS"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1265",
+    "YV_NO": [
+      "34430",
+      "341564"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1266",
+    "YV_NO": [
+      "34414"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1267",
+    "YV_NO": [
+      "34415"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1268",
+    "YV_NO": [
+      "341535"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1269",
+    "YV_NO": [
+      "34416"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1270",
+    "YV_NO": [
+      "34323"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1271",
+    "YV_NO": [
+      "34389"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1272",
+    "YV_NO": [
+      "34392",
+      "34738"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1276",
+    "YV_NO": [
+      "34380"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1279",
+    "YV_NO": [
+      "34406"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1280",
+    "YV_NO": [
+      "34421"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1281",
+    "YV_NO": [
+      "34390"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1282",
+    "YV_NO": [
+      "34351"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1284",
+    "YV_NO": [
+      "34535"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1285",
+    "YV_NO": [
+      "34957"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1286",
+    "YV_NO": [
+      "34156",
+      "34205"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1288",
+    "YV_NO": [
+      "341575"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1289",
+    "YV_NO": [
+      "34392",
+      "34738"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1290",
+    "YV_NO": [
+      "34575",
+      "34575C"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1350",
+    "YV_NO": [
+      "64741"
+    ],
+    "matched": "SSANGYONG"
+  },
+  {
+    "AtakKodu": "WBD1351",
+    "YV_NO": [
+      "64445"
+    ],
+    "matched": "SSANGYONG"
+  },
+  {
+    "AtakKodu": "WBD1244",
+    "YV_NO": [
+      "32394"
+    ],
+    "matched": "SUZUKI"
+  },
+  {
+    "AtakKodu": "WBD1246",
+    "YV_NO": [
+      "32440"
+    ],
+    "matched": "SUZUKI"
+  },
+  {
+    "AtakKodu": "WBD1248",
+    "YV_NO": [
+      "32256"
+    ],
+    "matched": "SUZUKI"
+  },
+  {
+    "AtakKodu": "WBD1249",
+    "YV_NO": [
+      "32617"
+    ],
+    "matched": "SUZUKI"
+  },
+  {
+    "AtakKodu": "WBD1256",
+    "YV_NO": [
+      "34077",
+      "34466"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1257",
+    "YV_NO": [
+      "34084"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1258",
+    "YV_NO": [
+      "34156",
+      "34205"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1259",
+    "YV_NO": [
+      "34223"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1260",
+    "YV_NO": [
+      "34176"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1261",
+    "YV_NO": [
+      "34222"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1262",
+    "YV_NO": [
+      "34325"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1263",
+    "YV_NO": [
+      "34430",
+      "341564"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1385",
+    "YV_NO": [
+      "16608"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1389",
+    "YV_NO": [
+      "34810"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1498",
+    "YV_NO": [
+      "26537",
+      "26618",
+      "30779"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1491",
+    "YV_NO": [
+      "32190"
+    ],
+    "matched": "SUZUKI"
+  },
+  {
+    "AtakKodu": "WBD1497",
+    "YV_NO": [
+      "15498",
+      "15498CS"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1458",
+    "YV_NO": [
+      "32673",
+      "32684"
+    ],
+    "matched": "SUZUKI"
+  },
+  {
+    "AtakKodu": "WBD1464",
+    "YV_NO": [
+      "16786"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1436",
+    "YV_NO": [
+      "64766"
+    ],
+    "matched": "SSANGYONG"
+  },
+  {
+    "AtakKodu": "WBD1477",
+    "YV_NO": [
+      "22490"
+    ],
+    "matched": "MAZDA"
+  },
+  {
+    "AtakKodu": "WBD1478",
+    "YV_NO": [
+      "22996"
+    ],
+    "matched": "MAZDA"
+  },
+  {
+    "AtakKodu": "WBD1482",
+    "YV_NO": [
+      "16726"
+    ],
+    "matched": "KIA"
+  },
+  {
+    "AtakKodu": "WBD1475",
+    "YV_NO": [
+      "16610"
+    ],
+    "matched": "KIA"
+  },
+  {
+    "AtakKodu": "WBD1469",
+    "YV_NO": [
+      "18564",
+      "16788"
+    ],
+    "matched": "KIA"
+  },
+  {
+    "AtakKodu": "WBD1489",
+    "YV_NO": [
+      "22611"
+    ],
+    "matched": "MAZDA"
+  },
+  {
+    "AtakKodu": "WBD1437",
+    "YV_NO": [
+      "26746"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1435",
+    "YV_NO": [
+      "64765"
+    ],
+    "matched": "SSANGYONG"
+  },
+  {
+    "AtakKodu": "WBD1619",
+    "YV_NO": [
+      "18546"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1595",
+    "YV_NO": [
+      "25993"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "WBD1622",
+    "YV_NO": [
+      "151544"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1625",
+    "YV_NO": [
+      "25250"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "WBD1608",
+    "YV_NO": [
+      "34963"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1646",
+    "YV_NO": [
+      "16797"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1627",
+    "YV_NO": [
+      "25906",
+      "251540"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "WBD1626",
+    "YV_NO": [
+      "25730",
+      "25905"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "WBD1637",
+    "YV_NO": [
+      "15785",
+      "15785CS"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1017",
+    "YV_NO": [
+      "33375",
+      "27385",
+      "33375CS"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1018",
+    "YV_NO": [
+      "33375",
+      "27385",
+      "33375CS"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1019",
+    "YV_NO": [
+      "33152"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1020",
+    "YV_NO": [
+      "33197",
+      "33269",
+      "33407",
+      "33952",
+      "33197CS"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1022",
+    "YV_NO": [
+      "33419"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1025",
+    "YV_NO": [
+      "33377",
+      "331558"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1026",
+    "YV_NO": [
+      "28817"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1028",
+    "YV_NO": [
+      "28559",
+      "28679",
+      "28679CS"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1029",
+    "YV_NO": [
+      "33197",
+      "33269",
+      "33407",
+      "33952",
+      "33197CS"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1030",
+    "YV_NO": [
+      "33691",
+      "33694"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1031",
+    "YV_NO": [
+      "33197",
+      "33269",
+      "33407",
+      "33952",
+      "33197CS"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1032",
+    "YV_NO": [
+      "33471"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1036",
+    "YV_NO": [
+      "33197",
+      "33269",
+      "33407",
+      "33952",
+      "33197CS"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1037",
+    "YV_NO": [
+      "33686"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1007",
+    "YV_NO": [
+      "33118",
+      "33026"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1008",
+    "YV_NO": [
+      "33086"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1009",
+    "YV_NO": [
+      "33118",
+      "33026"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1010",
+    "YV_NO": [
+      "33007"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1011",
+    "YV_NO": [
+      "33028"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1012",
+    "YV_NO": [
+      "33027"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1014",
+    "YV_NO": [
+      "33249"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1015",
+    "YV_NO": [
+      "33268"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1405",
+    "YV_NO": [
+      "33070"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1381",
+    "YV_NO": [
+      "33207",
+      "33614"
+    ],
+    "matched": "ALFA-ROMEO"
+  },
+  {
+    "AtakKodu": "WBD1499",
+    "YV_NO": [
+      "60983"
+    ],
+    "matched": "IVECO"
+  },
+  {
+    "AtakKodu": "WBD1500",
+    "YV_NO": [
+      "60951"
+    ],
+    "matched": "IVECO"
+  },
+  {
+    "AtakKodu": "WBD1466",
+    "YV_NO": [
+      "33912",
+      "33913",
+      "33914"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1487",
+    "YV_NO": [
+      "33912",
+      "33913",
+      "33914"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1418",
+    "YV_NO": [
+      "60211"
+    ],
+    "matched": "IVECO"
+  },
+  {
+    "AtakKodu": "WBD1472",
+    "YV_NO": [
+      "60981",
+      "60982"
+    ],
+    "matched": "IVECO"
+  },
+  {
+    "AtakKodu": "WBD1412",
+    "YV_NO": [
+      "60424"
+    ],
+    "matched": "IVECO"
+  },
+  {
+    "AtakKodu": "WBD1413",
+    "YV_NO": [
+      "60484"
+    ],
+    "matched": "IVECO"
+  },
+  {
+    "AtakKodu": "WBD1414",
+    "YV_NO": [
+      "60428"
+    ],
+    "matched": "IVECO"
+  },
+  {
+    "AtakKodu": "WBD1415",
+    "YV_NO": [
+      "60600"
+    ],
+    "matched": "IVECO"
+  },
+  {
+    "AtakKodu": "WBD1476",
+    "YV_NO": [
+      "47917",
+      "47917CS"
+    ],
+    "matched": "JEEP"
+  },
+  {
+    "AtakKodu": "WBD1609",
+    "YV_NO": [
+      "33912",
+      "33913",
+      "33914"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1005",
+    "YV_NO": [
+      "28429"
+    ],
+    "matched": "CITROEN"
+  },
+  {
+    "AtakKodu": "WBD1397",
+    "YV_NO": [
+      "29675"
+    ],
+    "matched": "PEUGEOT"
+  },
+  {
+    "AtakKodu": "WBD1398",
+    "YV_NO": [
+      "28752"
+    ],
+    "matched": "PEUGEOT"
+  },
+  {
+    "AtakKodu": "WBD1386",
+    "YV_NO": [
+      "28678"
+    ],
+    "matched": "PEUGEOT"
+  },
+  {
+    "AtakKodu": "WBD1210",
+    "YV_NO": [
+      "28574"
+    ],
+    "matched": "PEUGEOT"
+  },
+  {
+    "AtakKodu": "WBD1211",
+    "YV_NO": [
+      "28674"
+    ],
+    "matched": "PEUGEOT"
+  },
+  {
+    "AtakKodu": "WBD1212",
+    "YV_NO": [
+      "28404"
+    ],
+    "matched": "PEUGEOT"
+  },
+  {
+    "AtakKodu": "WBD1213",
+    "YV_NO": [
+      "28770",
+      "28770CS"
+    ],
+    "matched": "CITROEN"
+  },
+  {
+    "AtakKodu": "WBD1214",
+    "YV_NO": [
+      "28559",
+      "28679",
+      "28679CS"
+    ],
+    "matched": "PEUGEOT"
+  },
+  {
+    "AtakKodu": "WBD1215",
+    "YV_NO": [
+      "30145"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1216",
+    "YV_NO": [
+      "30085"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1217",
+    "YV_NO": [
+      "30040"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1218",
+    "YV_NO": [
+      "30006"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1219",
+    "YV_NO": [
+      "30043"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1220",
+    "YV_NO": [
+      "30123"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1221",
+    "YV_NO": [
+      "30179",
+      "30126",
+      "30180",
+      "30287",
+      "30288"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1222",
+    "YV_NO": [
+      "30345"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1223",
+    "YV_NO": [
+      "30186"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1226",
+    "YV_NO": [
+      "30220",
+      "30220CS"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1228",
+    "YV_NO": [
+      "30469"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1229",
+    "YV_NO": [
+      "30487",
+      "30299"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1230",
+    "YV_NO": [
+      "30427"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1345",
+    "YV_NO": [
+      "49113",
+      "49306"
+    ],
+    "matched": "DACIA"
+  },
+  {
+    "AtakKodu": "WBD1232",
+    "YV_NO": [
+      "30438",
+      "26316",
+      "30438C",
+      "30438CS"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1346",
+    "YV_NO": [
+      "49308"
+    ],
+    "matched": "DACIA"
+  },
+  {
+    "AtakKodu": "WBD1347",
+    "YV_NO": [
+      "49113",
+      "49306"
+    ],
+    "matched": "DACIA"
+  },
+  {
+    "AtakKodu": "WBD1348",
+    "YV_NO": [
+      "30576"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1235",
+    "YV_NO": [
+      "30506"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1236",
+    "YV_NO": [
+      "30552",
+      "26606",
+      "30778",
+      "26606C",
+      "30778C"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1239",
+    "YV_NO": [
+      "26537",
+      "26618",
+      "30779"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1240",
+    "YV_NO": [
+      "30598"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1198",
+    "YV_NO": [
+      "28049"
+    ],
+    "matched": "CITROEN"
+  },
+  {
+    "AtakKodu": "WBD1199",
+    "YV_NO": [
+      "28501"
+    ],
+    "matched": "CITROEN"
+  },
+  {
+    "AtakKodu": "WBD1200",
+    "YV_NO": [
+      "28059"
+    ],
+    "matched": "PEUGEOT"
+  },
+  {
+    "AtakKodu": "WBD1201",
+    "YV_NO": [
+      "28122",
+      "28122CS"
+    ],
+    "matched": "PEUGEOT"
+  },
+  {
+    "AtakKodu": "WBD1202",
+    "YV_NO": [
+      "28404"
+    ],
+    "matched": "PEUGEOT"
+  },
+  {
+    "AtakKodu": "WBD1204",
+    "YV_NO": [
+      "28251"
+    ],
+    "matched": "PEUGEOT"
+  },
+  {
+    "AtakKodu": "WBD1205",
+    "YV_NO": [
+      "28185"
+    ],
+    "matched": "PEUGEOT"
+  },
+  {
+    "AtakKodu": "WBD1382",
+    "YV_NO": [
+      "28454"
+    ],
+    "matched": "PEUGEOT"
+  },
+  {
+    "AtakKodu": "WBD1384",
+    "YV_NO": [
+      "28405",
+      "29745",
+      "28405CS",
+      "281021"
+    ],
+    "matched": "PEUGEOT"
+  },
+  {
+    "AtakKodu": "WBD1438",
+    "YV_NO": [
+      "28449"
+    ],
+    "matched": "PEUGEOT"
+  },
+  {
+    "AtakKodu": "WBD1441",
+    "YV_NO": [
+      "30179",
+      "30126",
+      "30180",
+      "30287",
+      "30288"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1425",
+    "YV_NO": [
+      "701537"
+    ],
+    "matched": "PEUGEOT"
+  },
+  {
+    "AtakKodu": "WBD1488",
+    "YV_NO": [
+      "30520",
+      "30513",
+      "30513CS",
+      "30513C"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1422",
+    "YV_NO": [
+      "26537",
+      "26618",
+      "30779"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1616",
+    "YV_NO": [
+      "28153"
+    ],
+    "matched": "CITROEN"
+  },
+  {
+    "AtakKodu": "WBD1592",
+    "YV_NO": [
+      "28574"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1574",
+    "YV_NO": [
+      "28404"
+    ],
+    "matched": "PEUGEOT"
+  },
+  {
+    "AtakKodu": "WBD1494",
+    "YV_NO": [
+      "55257"
+    ],
+    "matched": "JEEP"
+  },
+  {
+    "AtakKodu": "WBD1600",
+    "YV_NO": [
+      "55942C"
+    ],
+    "matched": "JEEP"
+  },
+  {
+    "AtakKodu": "WBD1601",
+    "YV_NO": [
+      "551506"
+    ],
+    "matched": "JEEP"
+  },
+  {
+    "AtakKodu": "WBD1573",
+    "YV_NO": [
+      "581573"
+    ],
+    "matched": "CHRYSLER"
+  },
+  {
+    "AtakKodu": "WBD1566",
+    "YV_NO": [
+      "55558"
+    ],
+    "matched": "JEEP"
+  },
+  {
+    "AtakKodu": "WBD1570",
+    "YV_NO": [
+      "55933"
+    ],
+    "matched": "JEEP"
+  },
+  {
+    "AtakKodu": "WBD1558",
+    "YV_NO": [
+      "61859",
+      "61859CS"
+    ],
+    "matched": "MINI"
+  },
+  {
+    "AtakKodu": "WBD1330",
+    "YV_NO": [
+      "54754"
+    ],
+    "matched": "VOLVO"
+  },
+  {
+    "AtakKodu": "WBD1337",
+    "YV_NO": [
+      "13312",
+      "13757"
+    ],
+    "matched": "VOLVO"
+  },
+  {
+    "AtakKodu": "WBD1251",
+    "YV_NO": [
+      "43465"
+    ],
+    "matched": "TATA"
+  },
+  {
+    "AtakKodu": "WBD1254",
+    "YV_NO": [
+      "43134"
+    ],
+    "matched": "TATA"
+  },
+  {
+    "AtakKodu": "WBD1255",
+    "YV_NO": [
+      "43464"
+    ],
+    "matched": "TATA"
+  },
+  {
+    "AtakKodu": "WBD1444",
+    "YV_NO": [
+      "541068"
+    ],
+    "matched": "VOLVO"
+  },
+  {
+    "AtakKodu": "WBD1584",
+    "YV_NO": [
+      "54907"
+    ],
+    "matched": "VOLVO"
+  },
+  {
+    "AtakKodu": "WBD1556",
+    "YV_NO": [
+      "54940C"
+    ],
+    "matched": "VOLVO"
+  },
+  {
+    "AtakKodu": "WBD1557",
+    "YV_NO": [
+      "54941C"
+    ],
+    "matched": "VOLVO"
+  },
+  {
+    "AtakKodu": "WBD1559",
+    "YV_NO": [
+      "61861C",
+      "61861CS"
+    ],
+    "matched": "MINI"
+  },
+  {
+    "AtakKodu": "WBD1501",
+    "YV_NO": [
+      "62265"
+    ],
+    "matched": "LAND-ROVER"
+  },
+  {
+    "AtakKodu": "WBD1502",
+    "YV_NO": [
+      "62650C"
+    ],
+    "matched": "LAND-ROVER"
+  },
+  {
+    "AtakKodu": "WBD1503",
+    "YV_NO": [
+      "62665C"
+    ],
+    "matched": "LAND-ROVER"
+  },
+  {
+    "AtakKodu": "WBD1504",
+    "YV_NO": [
+      "62899"
+    ],
+    "matched": "LAND-ROVER"
+  },
+  {
+    "AtakKodu": "WBD1505",
+    "YV_NO": [
+      "62664C"
+    ],
+    "matched": "LAND-ROVER"
+  },
+  {
+    "AtakKodu": "WBD1597",
+    "YV_NO": [
+      "62660C"
+    ],
+    "matched": "LAND-ROVER"
+  },
+  {
+    "AtakKodu": "WBD1639",
+    "YV_NO": [
+      "62844"
+    ],
+    "matched": "LAND-ROVER"
+  },
+  {
+    "AtakKodu": "WBD1640",
+    "YV_NO": [
+      "64768"
+    ],
+    "matched": "SSANGYONG"
+  },
+  {
+    "AtakKodu": "WBD1658",
+    "YV_NO": [
+      "681547"
+    ],
+    "matched": "CHERY"
+  },
+  {
+    "AtakKodu": "WBD1509C",
+    "YV_NO": [
+      "52637C"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1518C",
+    "YV_NO": [
+      "52849"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1519C",
+    "YV_NO": [
+      "52880C",
+      "52880CS"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1522C",
+    "YV_NO": [
+      "52886",
+      "52886CS"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1523C",
+    "YV_NO": [
+      "52828"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1527C",
+    "YV_NO": [
+      "52510",
+      "52847"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1528C",
+    "YV_NO": [
+      "52895"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1530C",
+    "YV_NO": [
+      "52851"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1531C",
+    "YV_NO": [
+      "52237",
+      "52666C"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1532C",
+    "YV_NO": [
+      "52893"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1534C",
+    "YV_NO": [
+      "52625C"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1548C",
+    "YV_NO": [
+      "24621CS"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "WBD1554C",
+    "YV_NO": [
+      "24202"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "WBD1512C",
+    "YV_NO": [
+      "52667C",
+      "52667CS"
+    ],
+    "matched": "BMW"
+  },
+  {
+    "AtakKodu": "WBD1181C",
+    "YV_NO": [
+      "27495"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1182C",
+    "YV_NO": [
+      "27011"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1183C",
+    "YV_NO": [
+      "27505"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1184C",
+    "YV_NO": [
+      "27378"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1185C",
+    "YV_NO": [
+      "27243"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1042C",
+    "YV_NO": [
+      "13151"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1049C",
+    "YV_NO": [
+      "13342"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1053C",
+    "YV_NO": [
+      "13562",
+      "13816"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1057C",
+    "YV_NO": [
+      "13555",
+      "13681",
+      "13681CS"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1060C",
+    "YV_NO": [
+      "13534"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1062C",
+    "YV_NO": [
+      "13602"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1190C",
+    "YV_NO": [
+      "27362"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1067C",
+    "YV_NO": [
+      "13553"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1068C",
+    "YV_NO": [
+      "13572"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1293C",
+    "YV_NO": [
+      "36166"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1305C",
+    "YV_NO": [
+      "24140"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1310C",
+    "YV_NO": [
+      "36314"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1311C",
+    "YV_NO": [
+      "36315"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1316C",
+    "YV_NO": [
+      "24305"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1354C",
+    "YV_NO": [
+      "13562",
+      "13816"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1004C",
+    "YV_NO": [
+      "41652C",
+      "41781"
+    ],
+    "matched": "AUDI"
+  },
+  {
+    "AtakKodu": "WBD1364C",
+    "YV_NO": [
+      "27756",
+      "27756CS"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1370C",
+    "YV_NO": [
+      "24310"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "WBD1377C",
+    "YV_NO": [
+      "41633C"
+    ],
+    "matched": "AUDI"
+  },
+  {
+    "AtakKodu": "WBD1560C",
+    "YV_NO": [
+      "41937C"
+    ],
+    "matched": "VW"
+  },
+  {
+    "AtakKodu": "WBD1642C",
+    "YV_NO": [
+      "41624C"
+    ],
+    "matched": "AUDI"
+  },
+  {
+    "AtakKodu": "WBD1420C",
+    "YV_NO": [
+      "27772"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1426C",
+    "YV_NO": [
+      "24805"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "WBD1449C",
+    "YV_NO": [
+      "13573"
+    ],
+    "matched": "FORD"
+  },
+  {
+    "AtakKodu": "WBD1474C",
+    "YV_NO": [
+      "24227"
+    ],
+    "matched": "MERCEDES"
+  },
+  {
+    "AtakKodu": "WBD1480C",
+    "YV_NO": [
+      "27744"
+    ],
+    "matched": "OPEL"
+  },
+  {
+    "AtakKodu": "WBD1389C",
+    "YV_NO": [
+      "34810"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1259C",
+    "YV_NO": [
+      "34223"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1263C",
+    "YV_NO": [
+      "34430",
+      "341564"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1072C",
+    "YV_NO": [
+      "15246",
+      "15450"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1075C",
+    "YV_NO": [
+      "151007"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1081C",
+    "YV_NO": [
+      "15409"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1082C",
+    "YV_NO": [
+      "15246",
+      "15450"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1265C",
+    "YV_NO": [
+      "34430",
+      "341564"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1267C",
+    "YV_NO": [
+      "34415"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1084C",
+    "YV_NO": [
+      "15499"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1097C",
+    "YV_NO": [
+      "18564",
+      "16788"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1100C",
+    "YV_NO": [
+      "16791",
+      "18792"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1102C",
+    "YV_NO": [
+      "161044"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1285C",
+    "YV_NO": [
+      "34957"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1288C",
+    "YV_NO": [
+      "341575"
+    ],
+    "matched": "TOYOTA"
+  },
+  {
+    "AtakKodu": "WBD1106C",
+    "YV_NO": [
+      "16500"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1116C",
+    "YV_NO": [
+      "16584"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1122C",
+    "YV_NO": [
+      "18441"
+    ],
+    "matched": "KIA"
+  },
+  {
+    "AtakKodu": "WBD1350C",
+    "YV_NO": [
+      "64741"
+    ],
+    "matched": "SSANGYONG"
+  },
+  {
+    "AtakKodu": "WBD1142C",
+    "YV_NO": [
+      "25698"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "WBD1149C",
+    "YV_NO": [
+      "25451"
+    ],
+    "matched": "MITSUBISHI"
+  },
+  {
+    "AtakKodu": "WBD1158C",
+    "YV_NO": [
+      "26531"
+    ],
+    "matched": "NISSAN"
+  },
+  {
+    "AtakKodu": "WBD1622C",
+    "YV_NO": [
+      "151544"
+    ],
+    "matched": "HONDA"
+  },
+  {
+    "AtakKodu": "WBD1464C",
+    "YV_NO": [
+      "16786"
+    ],
+    "matched": "HYUNDAI"
+  },
+  {
+    "AtakKodu": "WBD1469C",
+    "YV_NO": [
+      "18564",
+      "16788"
+    ],
+    "matched": "KIA"
+  },
+  {
+    "AtakKodu": "WBD1478C",
+    "YV_NO": [
+      "22996"
+    ],
+    "matched": "MAZDA"
+  },
+  {
+    "AtakKodu": "WBD1491C",
+    "YV_NO": [
+      "32190"
+    ],
+    "matched": "SUZUKI"
+  },
+  {
+    "AtakKodu": "WBD1022C",
+    "YV_NO": [
+      "33419"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1026C",
+    "YV_NO": [
+      "28817"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1030C",
+    "YV_NO": [
+      "33691",
+      "33694"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1037C",
+    "YV_NO": [
+      "33686"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1011C",
+    "YV_NO": [
+      "33028"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1014C",
+    "YV_NO": [
+      "33249"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1015C",
+    "YV_NO": [
+      "33268"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1019C",
+    "YV_NO": [
+      "33152"
+    ],
+    "matched": "FIAT"
+  },
+  {
+    "AtakKodu": "WBD1381C",
+    "YV_NO": [
+      "33207",
+      "33614"
+    ],
+    "matched": "ALFA-ROMEO"
+  },
+  {
+    "AtakKodu": "WBD1418C",
+    "YV_NO": [
+      "60211"
+    ],
+    "matched": "IVECO"
+  },
+  {
+    "AtakKodu": "WBD1472C",
+    "YV_NO": [
+      "60981",
+      "60982"
+    ],
+    "matched": "IVECO"
+  },
+  {
+    "AtakKodu": "WBD1199C",
+    "YV_NO": [
+      "28501"
+    ],
+    "matched": "CITROEN"
+  },
+  {
+    "AtakKodu": "WBD1205C",
+    "YV_NO": [
+      "28185"
+    ],
+    "matched": "PEUGEOT"
+  },
+  {
+    "AtakKodu": "WBD1217C",
+    "YV_NO": [
+      "30040"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1218C",
+    "YV_NO": [
+      "30006"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1223C",
+    "YV_NO": [
+      "30186"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1229C",
+    "YV_NO": [
+      "30487",
+      "30299"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1235C",
+    "YV_NO": [
+      "30506"
+    ],
+    "matched": "RENAULT"
+  },
+  {
+    "AtakKodu": "WBD1346C",
+    "YV_NO": [
+      "49308"
+    ],
+    "matched": "DACIA"
+  },
+  {
+    "AtakKodu": "WBD1382C",
+    "YV_NO": [
+      "28454"
+    ],
+    "matched": "PEUGEOT"
+  },
+  {
+    "AtakKodu": "WBD1616C",
+    "YV_NO": [
+      "28153"
+    ],
+    "matched": "CITROEN"
+  },
+  {
+    "AtakKodu": "WBD1438C",
+    "YV_NO": [
+      "28449"
+    ],
+    "matched": "PEUGEOT"
+  },
+  {
+    "AtakKodu": "WBD1566C",
+    "YV_NO": [
+      "55558"
+    ],
+    "matched": "JEEP"
+  },
+  {
+    "AtakKodu": "WBD1504C",
+    "YV_NO": [
+      "62899"
+    ],
+    "matched": "LAND-ROVER"
+  },
+  {
+    "AtakKodu": "WBD1506C",
+    "YV_NO": [
+      "62935C"
+    ],
+    "matched": "LAND-ROVER"
+  },
+  {
+    "AtakKodu": "WBD1508C",
+    "YV_NO": [
+      "62264"
+    ],
+    "matched": "LAND-ROVER"
+  },
+  {
+    "AtakKodu": "WBD1558C",
+    "YV_NO": [
+      "61859",
+      "61859CS"
+    ],
+    "matched": "MINI"
+  },
+  {
+    "AtakKodu": "WBD1559C",
+    "YV_NO": [
+      "61861C",
+      "61861CS"
+    ],
+    "matched": "MINI"
+  },
+  {
+    "AtakKodu": "WBD1640C",
+    "YV_NO": [
+      "64768"
+    ],
+    "matched": "SSANGYONG"
+  },
+  {
+    "AtakKodu": "WBD1658C",
+    "YV_NO": [
+      "681547"
+    ],
+    "matched": "CHERY"
+  }
+]

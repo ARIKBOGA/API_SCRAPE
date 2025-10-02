@@ -91,6 +91,8 @@ export const brandAliases = new Map<string, string>([
   ["GENERAL MOTORS", "GMC"],
   ["FERQUI", "MERCEDES-BENZ"],
   ["DMB", "BMW"],
+  ["HONDA (DONGFENG)", "HONDA"],
+  ["HONDA (GAC)", "HONDA"],
   // Daha fazla marka kısaltması eklenebilir
 ]);
 
@@ -171,7 +173,39 @@ export const referenceArray: ProductReference[] = [
   {yvNo: "741000", supplier:"JNBK", crossNumber:"RN2552V"},
   */
 
-  {yvNo:"151007", supplier:"JNBK",  crossNumber:"RN1460"}
+  //{yvNo:"151007", supplier:"JNBK",  crossNumber:"RN1460"}
+  {yvNo:"24107", supplier:"ICER",  crossNumber:"78BD0181-1"}
+
+  /* HONDA PRODUCTS
+  {yvNo:"15129", supplier:"JNBK",  crossNumber:"RN1024V"},
+  {yvNo:"15192", supplier:"JNBK",  crossNumber:"RN1030V"},
+  {yvNo:"15328", supplier:"JNBK",  crossNumber:"RN1218V"},
+  {yvNo:"15328CS", supplier:"JNBK",  crossNumber:"RN1218V"},
+  {yvNo:"15333", supplier:"JNBK",  crossNumber:"RN1138V"},
+  {yvNo:"15432", supplier:"JNBK",  crossNumber:"RN1376V"},
+  {yvNo:"15450", supplier:"JNBK",  crossNumber:"RN1054"},
+  {yvNo:"15457", supplier:"JNBK",  crossNumber:"RN1047"},
+  {yvNo:"15498", supplier:"JNBK",  crossNumber:"RN1408V"},
+  {yvNo:"15498CS", supplier:"JNBK",  crossNumber:"RN1408V"},
+  {yvNo:"15499", supplier:"JNBK",  crossNumber:"RN1409"},
+  {yvNo:"15613", supplier:"JNBK",  crossNumber:"RN1350V"},
+  {yvNo:"15672", supplier:"JNBK",  crossNumber:"RN2353V"},
+  {yvNo:"15672CS", supplier:"JNBK",  crossNumber:"RN2353V"},
+  {yvNo:"15676", supplier:"JNBK",  crossNumber:"RN1418V"},
+  {yvNo:"15676CS", supplier:"JNBK",  crossNumber:"RN1418V"},
+  {yvNo:"15677", supplier:"JNBK",  crossNumber:"RN2283"},
+  {yvNo:"15677CS", supplier:"JNBK",  crossNumber:"RN2283"},
+  {yvNo:"15685", supplier:"JNBK",  crossNumber:"RN1621V"},
+  {yvNo:"15701", supplier:"JNBK",  crossNumber:"DN1385"},
+  {yvNo:"15702", supplier:"JNBK",  crossNumber:"DN1377"},
+  {yvNo:"15723", supplier:"JNBK",  crossNumber:"DN1379"},
+  {yvNo:"15785", supplier:"JNBK",  crossNumber:"RN2157"},
+  {yvNo:"15785CS", supplier:"JNBK",  crossNumber:"RN2157"},
+  {yvNo:"15798", supplier:"JNBK",  crossNumber:"RN1405V"},
+  {yvNo:"15803", supplier:"JNBK",  crossNumber:"RN2347V"},
+  */
+  
+  //{yvNo:"16171", supplier:"NK",  crossNumber:"202231"},
 
   // 997B
   // {yvNo: "731003", supplier:"TRISCAN", crossNumber: "10491104"}
