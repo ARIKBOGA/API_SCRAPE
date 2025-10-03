@@ -1,104 +1,812 @@
 [
   {
-    "yvNo": "22072",
-    "crossNumber": "RN1347V",
+    "yvNo": "25158",
+    "crossNumber": "RN1011V",
     "brand": "JNBK",
     "compatibleVehicles": [
       {
-        "manufacturer": "CHERY",
+        "manufacturer": "KIA",
         "models": [
           {
-            "modelSeries": "Tiggo",
+            "modelSeries": "Joice",
             "targets": [
               {
-                "engine": "2000 | T11",
-                "fullName": "CHERY   »   Tiggo",
-                "constructionYearFrom": "06",
-                "constructionYearTo": "",
-                "engineCodes": "4G63S4M",
+                "engine": "2000 | GHMT",
+                "fullName": "KIA   »   Joice",
+                "constructionYearFrom": "99",
+                "constructionYearTo": "03",
+                "engineCodes": "G4CP",
                 "enginePowerKW": "",
                 "enginePowerHP": "",
                 "cc": "2000",
                 "kbaNumbers": "",
-                "bodyType": "T11"
+                "bodyType": "GHMT"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "MITSUBISHI",
+        "models": [
+          {
+            "modelSeries": "Aspire",
+            "targets": [
+              {
+                "engine": "1800 | EA1A",
+                "fullName": "MITSUBISHI   »   Aspire",
+                "constructionYearFrom": "98",
+                "constructionYearTo": "00",
+                "engineCodes": "4G93",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1800",
+                "kbaNumbers": "",
+                "bodyType": "EA1A"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "MITSUBISHI",
+        "models": [
+          {
+            "modelSeries": "Carisma",
+            "targets": [
+              {
+                "engine": "1600 | DA1A",
+                "fullName": "MITSUBISHI   »   Carisma",
+                "constructionYearFrom": "95",
+                "constructionYearTo": "00",
+                "engineCodes": "4G92",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1600",
+                "kbaNumbers": "",
+                "bodyType": "DA1A"
               },
               {
-                "engine": "2400 | DB14B",
-                "fullName": "CHERY   »   Tiggo",
-                "constructionYearFrom": "05",
-                "constructionYearTo": "08",
+                "engine": "1800 | DA2A",
+                "fullName": "MITSUBISHI   »   Carisma",
+                "constructionYearFrom": "95",
+                "constructionYearTo": "03",
+                "engineCodes": "4G93",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1800",
+                "kbaNumbers": "",
+                "bodyType": "DA2A"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "MITSUBISHI",
+        "models": [
+          {
+            "modelSeries": "Chariot",
+            "targets": [
+              {
+                "engine": "2000 | N38W",
+                "fullName": "MITSUBISHI   »   Chariot",
+                "constructionYearFrom": "93",
+                "constructionYearTo": "97",
+                "engineCodes": "4D68",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2000",
+                "kbaNumbers": "",
+                "bodyType": "N38W"
+              },
+              {
+                "engine": "2000 | N33W",
+                "fullName": "MITSUBISHI   »   Chariot",
+                "constructionYearFrom": "91",
+                "constructionYearTo": "97",
+                "engineCodes": "4G63",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2000",
+                "kbaNumbers": "",
+                "bodyType": "N33W"
+              },
+              {
+                "engine": "2000 | N43W",
+                "fullName": "MITSUBISHI   »   Chariot",
+                "constructionYearFrom": "91",
+                "constructionYearTo": "97",
+                "engineCodes": "4G63#",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2000",
+                "kbaNumbers": "",
+                "bodyType": "N43W"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "MITSUBISHI",
+        "models": [
+          {
+            "modelSeries": "Dion",
+            "targets": [
+              {
+                "engine": "2000 | CR9W",
+                "fullName": "MITSUBISHI   »   Dion",
+                "constructionYearFrom": "00",
+                "constructionYearTo": "04",
+                "engineCodes": "4G63",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2000",
+                "kbaNumbers": "",
+                "bodyType": "CR9W"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "MITSUBISHI",
+        "models": [
+          {
+            "modelSeries": "Eterna",
+            "targets": [
+              {
+                "engine": "1800 | E37A",
+                "fullName": "MITSUBISHI   »   Eterna",
+                "constructionYearFrom": "89",
+                "constructionYearTo": "92",
+                "engineCodes": "4G37",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1800",
+                "kbaNumbers": "",
+                "bodyType": "E37A"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "MITSUBISHI",
+        "models": [
+          {
+            "modelSeries": "Galant",
+            "targets": [
+              {
+                "engine": "1800 | E34A",
+                "fullName": "MITSUBISHI   »   Galant",
+                "constructionYearFrom": "88",
+                "constructionYearTo": "89",
+                "engineCodes": "4D65-T",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1800",
+                "kbaNumbers": "",
+                "bodyType": "E34A"
+              },
+              {
+                "engine": "1800 | E32A",
+                "fullName": "MITSUBISHI   »   Galant",
+                "constructionYearFrom": "87",
+                "constructionYearTo": "89",
+                "engineCodes": "4G37",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1800",
+                "kbaNumbers": "",
+                "bodyType": "E32A"
+              },
+              {
+                "engine": "1800 | E35A",
+                "fullName": "MITSUBISHI   »   Galant",
+                "constructionYearFrom": "87",
+                "constructionYearTo": "92",
+                "engineCodes": "4G67",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1800",
+                "kbaNumbers": "",
+                "bodyType": "E35A"
+              },
+              {
+                "engine": "1800 | E52A",
+                "fullName": "MITSUBISHI   »   Galant",
+                "constructionYearFrom": "92",
+                "constructionYearTo": "96",
+                "engineCodes": "4G93",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1800",
+                "kbaNumbers": "",
+                "bodyType": "E52A"
+              },
+              {
+                "engine": "1800 | EC1A",
+                "fullName": "MITSUBISHI   »   Galant",
+                "constructionYearFrom": "96",
+                "constructionYearTo": "00",
+                "engineCodes": "4G93",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1800",
+                "kbaNumbers": "",
+                "bodyType": "EC1A"
+              },
+              {
+                "engine": "1800 | E53A",
+                "fullName": "MITSUBISHI   »   Galant",
+                "constructionYearFrom": "92",
+                "constructionYearTo": "96",
+                "engineCodes": "6A11",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1800",
+                "kbaNumbers": "",
+                "bodyType": "E53A"
+              },
+              {
+                "engine": "2000 | E57A",
+                "fullName": "MITSUBISHI   »   Galant",
+                "constructionYearFrom": "92",
+                "constructionYearTo": "96",
+                "engineCodes": "4D68-T",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2000",
+                "kbaNumbers": "",
+                "bodyType": "E57A"
+              },
+              {
+                "engine": "2000 | E77A",
+                "fullName": "MITSUBISHI   »   Galant",
+                "constructionYearFrom": "92",
+                "constructionYearTo": "98",
+                "engineCodes": "4D68-T",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2000",
+                "kbaNumbers": "",
+                "bodyType": "E77A"
+              },
+              {
+                "engine": "2000 | EA6W",
+                "fullName": "MITSUBISHI   »   Galant",
+                "constructionYearFrom": "96",
+                "constructionYearTo": "04",
+                "engineCodes": "4D68-T",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2000",
+                "kbaNumbers": "",
+                "bodyType": "EA6W"
+              },
+              {
+                "engine": "2000 | E33A",
+                "fullName": "MITSUBISHI   »   Galant",
+                "constructionYearFrom": "87",
+                "constructionYearTo": "92",
+                "engineCodes": "4G63",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2000",
+                "kbaNumbers": "",
+                "bodyType": "E33A"
+              },
+              {
+                "engine": "2000 | EA2A",
+                "fullName": "MITSUBISHI   »   Galant",
+                "constructionYearFrom": "96",
+                "constructionYearTo": "06",
+                "engineCodes": "4G63",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2000",
+                "kbaNumbers": "",
+                "bodyType": "EA2A"
+              },
+              {
+                "engine": "2000 | EA2W",
+                "fullName": "MITSUBISHI   »   Galant",
+                "constructionYearFrom": "96",
+                "constructionYearTo": "04",
+                "engineCodes": "4G63",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2000",
+                "kbaNumbers": "",
+                "bodyType": "EA2W"
+              },
+              {
+                "engine": "2000 | E38A",
+                "fullName": "MITSUBISHI   »   Galant",
+                "constructionYearFrom": "87",
+                "constructionYearTo": "92",
+                "engineCodes": "4G63-T",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2000",
+                "kbaNumbers": "",
+                "bodyType": "E38A"
+              },
+              {
+                "engine": "2000 | E39A",
+                "fullName": "MITSUBISHI   »   Galant",
+                "constructionYearFrom": "87",
+                "constructionYearTo": "89",
+                "engineCodes": "4G63#",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2000",
+                "kbaNumbers": "",
+                "bodyType": "E39A"
+              },
+              {
+                "engine": "2000 | E54A",
+                "fullName": "MITSUBISHI   »   Galant",
+                "constructionYearFrom": "92",
+                "constructionYearTo": "96",
+                "engineCodes": "6A12",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2000",
+                "kbaNumbers": "",
+                "bodyType": "E54A"
+              },
+              {
+                "engine": "2400 | E56A",
+                "fullName": "MITSUBISHI   »   Galant",
+                "constructionYearFrom": "92",
+                "constructionYearTo": "96",
                 "engineCodes": "4G64",
                 "enginePowerKW": "",
                 "enginePowerHP": "",
                 "cc": "2400",
                 "kbaNumbers": "",
-                "bodyType": "DB14B"
+                "bodyType": "E56A"
               }
             ]
           }
         ]
       },
       {
-        "manufacturer": "MAZDA",
+        "manufacturer": "MITSUBISHI",
         "models": [
           {
-            "modelSeries": "Capella",
+            "modelSeries": "Lancer",
             "targets": [
               {
-                "engine": "2000 | GDFP",
-                "fullName": "MAZDA   »   Capella",
-                "constructionYearFrom": "87",
-                "constructionYearTo": "91",
-                "engineCodes": "RF",
+                "engine": "1600 | CS3A",
+                "fullName": "MITSUBISHI   »   Lancer",
+                "constructionYearFrom": "00",
+                "constructionYearTo": "13",
+                "engineCodes": "4G18",
                 "enginePowerKW": "",
                 "enginePowerHP": "",
-                "cc": "2000",
+                "cc": "1600",
                 "kbaNumbers": "",
-                "bodyType": "GDFP"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "manufacturer": "MAZDA",
-        "models": [
-          {
-            "modelSeries": "Capella Cargo",
-            "targets": [
+                "bodyType": "CS3A"
+              },
               {
-                "engine": "2000 | GVER",
-                "fullName": "MAZDA   »   Capella Cargo",
-                "constructionYearFrom": "89",
-                "constructionYearTo": "97",
-                "engineCodes": "FE",
+                "engine": "1600 | CK4A",
+                "fullName": "MITSUBISHI   »   Lancer",
+                "constructionYearFrom": "95",
+                "constructionYearTo": "01",
+                "engineCodes": "4G92",
                 "enginePowerKW": "",
                 "enginePowerHP": "",
-                "cc": "2000",
+                "cc": "1600",
                 "kbaNumbers": "",
-                "bodyType": "GVER"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "manufacturer": "MAZDA",
-        "models": [
-          {
-            "modelSeries": "Persona",
-            "targets": [
+                "bodyType": "CK4A"
+              },
               {
-                "engine": "1800 | MA8P",
-                "fullName": "MAZDA   »   Persona",
-                "constructionYearFrom": "88",
-                "constructionYearTo": "92",
-                "engineCodes": "F8-E",
+                "engine": "1800 | CD5A",
+                "fullName": "MITSUBISHI   »   Lancer",
+                "constructionYearFrom": "91",
+                "constructionYearTo": "95",
+                "engineCodes": "4G93-T",
                 "enginePowerKW": "",
                 "enginePowerHP": "",
                 "cc": "1800",
                 "kbaNumbers": "",
-                "bodyType": "MA8P"
+                "bodyType": "CD5A"
+              },
+              {
+                "engine": "1800 | CM5A",
+                "fullName": "MITSUBISHI   »   Lancer",
+                "constructionYearFrom": "95",
+                "constructionYearTo": "99",
+                "engineCodes": "4G93-T",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1800",
+                "kbaNumbers": "",
+                "bodyType": "CM5A"
+              },
+              {
+                "engine": "1800 | CD4A",
+                "fullName": "MITSUBISHI   »   Lancer",
+                "constructionYearFrom": "92",
+                "constructionYearTo": "02",
+                "engineCodes": "6G74",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1800",
+                "kbaNumbers": "",
+                "bodyType": "CD4A"
+              },
+              {
+                "engine": "2000 | CS6A",
+                "fullName": "MITSUBISHI   »   Lancer",
+                "constructionYearFrom": "04",
+                "constructionYearTo": "07",
+                "engineCodes": "4G94",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2000",
+                "kbaNumbers": "",
+                "bodyType": "CS6A"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "MITSUBISHI",
+        "models": [
+          {
+            "modelSeries": "Legnum",
+            "targets": [
+              {
+                "engine": "2000 | EC7W",
+                "fullName": "MITSUBISHI   »   Legnum",
+                "constructionYearFrom": "00",
+                "constructionYearTo": "02",
+                "engineCodes": "4G94",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2000",
+                "kbaNumbers": "",
+                "bodyType": "EC7W"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "MITSUBISHI",
+        "models": [
+          {
+            "modelSeries": "Mirage",
+            "targets": [
+              {
+                "engine": "1600 | CJ4A",
+                "fullName": "MITSUBISHI   »   Mirage",
+                "constructionYearFrom": "95",
+                "constructionYearTo": "00",
+                "engineCodes": "4G92",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1600",
+                "kbaNumbers": "",
+                "bodyType": "CJ4A"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "MITSUBISHI",
+        "models": [
+          {
+            "modelSeries": "RVR",
+            "targets": [
+              {
+                "engine": "1800 | N11W",
+                "fullName": "MITSUBISHI   »   RVR",
+                "constructionYearFrom": "91",
+                "constructionYearTo": "97",
+                "engineCodes": "4G93",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1800",
+                "kbaNumbers": "",
+                "bodyType": "N11W"
+              },
+              {
+                "engine": "1800 | N21W",
+                "fullName": "MITSUBISHI   »   RVR",
+                "constructionYearFrom": "91",
+                "constructionYearTo": "97",
+                "engineCodes": "4G93",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1800",
+                "kbaNumbers": "",
+                "bodyType": "N21W"
+              },
+              {
+                "engine": "2000 | N28W",
+                "fullName": "MITSUBISHI   »   RVR",
+                "constructionYearFrom": "92",
+                "constructionYearTo": "97",
+                "engineCodes": "4D68-T",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2000",
+                "kbaNumbers": "",
+                "bodyType": "N28W"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "MITSUBISHI",
+        "models": [
+          {
+            "modelSeries": "Space Runner",
+            "targets": [
+              {
+                "engine": "1800 | N11W",
+                "fullName": "MITSUBISHI   »   Space Runner",
+                "constructionYearFrom": "91",
+                "constructionYearTo": "99",
+                "engineCodes": "4G93",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1800",
+                "kbaNumbers": "",
+                "bodyType": "N11W"
+              },
+              {
+                "engine": "1800 | N21W",
+                "fullName": "MITSUBISHI   »   Space Runner",
+                "constructionYearFrom": "91",
+                "constructionYearTo": "99",
+                "engineCodes": "4G93",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1800",
+                "kbaNumbers": "",
+                "bodyType": "N21W"
+              },
+              {
+                "engine": "2000 | N18W",
+                "fullName": "MITSUBISHI   »   Space Runner",
+                "constructionYearFrom": "91",
+                "constructionYearTo": "99",
+                "engineCodes": "4D68-T",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2000",
+                "kbaNumbers": "",
+                "bodyType": "N18W"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "MITSUBISHI",
+        "models": [
+          {
+            "modelSeries": "Space Star",
+            "targets": [
+              {
+                "engine": "1300 | DG1A",
+                "fullName": "MITSUBISHI   »   Space Star",
+                "constructionYearFrom": "98",
+                "constructionYearTo": "05",
+                "engineCodes": "4G13",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1300",
+                "kbaNumbers": "",
+                "bodyType": "DG1A"
+              },
+              {
+                "engine": "1800 | DG5A",
+                "fullName": "MITSUBISHI   »   Space Star",
+                "constructionYearFrom": "98",
+                "constructionYearTo": "05",
+                "engineCodes": "4G93",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1800",
+                "kbaNumbers": "",
+                "bodyType": "DG5A"
+              },
+              {
+                "engine": "1900 | DG4A",
+                "fullName": "MITSUBISHI   »   Space Star",
+                "constructionYearFrom": "02",
+                "constructionYearTo": "",
+                "engineCodes": "F9Q2",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1900",
+                "kbaNumbers": "",
+                "bodyType": "DG4A"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "MITSUBISHI",
+        "models": [
+          {
+            "modelSeries": "Space Wagon",
+            "targets": [
+              {
+                "engine": "1800 | N31W",
+                "fullName": "MITSUBISHI   »   Space Wagon",
+                "constructionYearFrom": "91",
+                "constructionYearTo": "98",
+                "engineCodes": "4G93",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1800",
+                "kbaNumbers": "",
+                "bodyType": "N31W"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "VOLVO",
+        "models": [
+          {
+            "modelSeries": "S40",
+            "targets": [
+              {
+                "engine": "1600",
+                "fullName": "VOLVO   »   S40",
+                "constructionYearFrom": "96",
+                "constructionYearTo": "04",
+                "engineCodes": "B4164S",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1600",
+                "kbaNumbers": "",
+                "bodyType": ""
+              },
+              {
+                "engine": "1600 | VS10",
+                "fullName": "VOLVO   »   S40",
+                "constructionYearFrom": "95",
+                "constructionYearTo": "97",
+                "engineCodes": "B4164S",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1600",
+                "kbaNumbers": "",
+                "bodyType": "VS10"
+              },
+              {
+                "engine": "1800",
+                "fullName": "VOLVO   »   S40",
+                "constructionYearFrom": "95",
+                "constructionYearTo": "97",
+                "engineCodes": "B4184S",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1800",
+                "kbaNumbers": "",
+                "bodyType": ""
+              },
+              {
+                "engine": "1900",
+                "fullName": "VOLVO   »   S40",
+                "constructionYearFrom": "96",
+                "constructionYearTo": "97",
+                "engineCodes": "B4194T",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1900",
+                "kbaNumbers": "",
+                "bodyType": ""
+              },
+              {
+                "engine": "1900",
+                "fullName": "VOLVO   »   S40",
+                "constructionYearFrom": "96",
+                "constructionYearTo": "97",
+                "engineCodes": "D4192T",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1900",
+                "kbaNumbers": "",
+                "bodyType": ""
+              },
+              {
+                "engine": "2000",
+                "fullName": "VOLVO   »   S40",
+                "constructionYearFrom": "95",
+                "constructionYearTo": "97",
+                "engineCodes": "B4204S",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2000",
+                "kbaNumbers": "",
+                "bodyType": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "manufacturer": "VOLVO",
+        "models": [
+          {
+            "modelSeries": "V40",
+            "targets": [
+              {
+                "engine": "1600",
+                "fullName": "VOLVO   »   V40",
+                "constructionYearFrom": "96",
+                "constructionYearTo": "97",
+                "engineCodes": "B4164S",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1600",
+                "kbaNumbers": "",
+                "bodyType": ""
+              },
+              {
+                "engine": "1800",
+                "fullName": "VOLVO   »   V40",
+                "constructionYearFrom": "96",
+                "constructionYearTo": "97",
+                "engineCodes": "B4184S",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1800",
+                "kbaNumbers": "",
+                "bodyType": ""
+              },
+              {
+                "engine": "1900",
+                "fullName": "VOLVO   »   V40",
+                "constructionYearFrom": "96",
+                "constructionYearTo": "97",
+                "engineCodes": "B4194T",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1900",
+                "kbaNumbers": "",
+                "bodyType": ""
+              },
+              {
+                "engine": "1900",
+                "fullName": "VOLVO   »   V40",
+                "constructionYearFrom": "96",
+                "constructionYearTo": "97",
+                "engineCodes": "D4192T",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "1900",
+                "kbaNumbers": "",
+                "bodyType": ""
+              },
+              {
+                "engine": "2000",
+                "fullName": "VOLVO   »   V40",
+                "constructionYearFrom": "96",
+                "constructionYearTo": "97",
+                "engineCodes": "B4204S",
+                "enginePowerKW": "",
+                "enginePowerHP": "",
+                "cc": "2000",
+                "kbaNumbers": "",
+                "bodyType": ""
               }
             ]
           }

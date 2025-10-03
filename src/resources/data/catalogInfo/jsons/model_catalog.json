@@ -56759,8 +56759,8 @@
     "id": 8109,
     "marka_id": 118,
     "modeller_markalar::marka": "SMART",
-    "model": "",
-    "model_Web": ""
+    "model": "For next New item",
+    "model_Web": "For next New item"
   },
   {
     "id": 8110,
@@ -70754,5 +70754,19 @@
     "modeller_markalar::marka": "VW",
     "model": "Tharu",
     "model_Web": "Tharu"
+  },
+  {
+    "id": 10109,
+    "marka_id": 132,
+    "modeller_markalar::marka": "VOLVO",
+    "model": "S40",
+    "model_Web": "S40"
+  },
+  {
+    "id": 10110,
+    "marka_id": 132,
+    "modeller_markalar::marka": "VOLVO",
+    "model": "V40",
+    "model_Web": "V40"
   }
 ]

@@ -32,6 +32,7 @@ export const SUPPLIER_NUMBERS: Record<string, string> = {
   JAPKO: "481",
   KAWE: "286",
   KRAFTVOLL: "6923",
+  LPR: "197",
   MANDO: "4008",
   MAXTECH: "4899",
   METELLI: "121",
@@ -173,8 +174,9 @@ export const referenceArray: ProductReference[] = [
   {yvNo: "741000", supplier:"JNBK", crossNumber:"RN2552V"},
   */
 
-  //{yvNo:"151007", supplier:"JNBK",  crossNumber:"RN1460"}
-  {yvNo:"24107", supplier:"ICER",  crossNumber:"78BD0181-1"}
+  //{yvNo:"25158", supplier:"JNBK",  crossNumber:"RN1011V"}
+  //{yvNo:"24107", supplier:"ICER",  crossNumber:"78BD0181-1"}
+  {yvNo:"30006", supplier:"TEXTAR",  crossNumber:"92009200"}
 
   /* HONDA PRODUCTS
   {yvNo:"15129", supplier:"JNBK",  crossNumber:"RN1024V"},

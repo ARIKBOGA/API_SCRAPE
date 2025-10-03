@@ -119,7 +119,7 @@ export async function getVehicleCompatibilities(ref: ProductReference, currentUr
                 const engineType_body = $row.find("td:nth-child(4)").text().trim(); // BODY sütunu
 
                 targets.push({
-                    engine: `${cc} | ${engineType_body}`, // cc ve body tipini birleştir
+                    engine: [cc, engineType_body].filter(Boolean).join(" | "), // Filter out empty strings and join them efficiently
                     fullName: fullTitle,
                     constructionYearFrom: years.start,
                     constructionYearTo: years.end,
