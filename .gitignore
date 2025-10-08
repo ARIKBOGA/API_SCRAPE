@@ -15,5 +15,10 @@ node_modules/
 # OS
 *.DS_Store
 *.Thumbs.db*.xlsx
+
+// Documents
 *.xlsx
 *.docx
+
+// Scraped Files
+/src/output

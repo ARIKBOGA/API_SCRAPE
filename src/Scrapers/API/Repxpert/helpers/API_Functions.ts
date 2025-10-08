@@ -162,11 +162,12 @@ export async function processProductFor_CrossNumbers(element: ProductReference) 
   const querySize = "200";                                       // Default size is 20 but we are extending it to 200 to get all cross numbers from all suppliers
   const groupNumber = productGroupNumbersOfRepxpert[productType]; // Each product type has a unique grroup number for API requests
 
-  const crossNumberURL = `${part_1}${queryCode}${part_2}${groupNumber}${part_3}${querySize}&currentPage=1`;
+  const crossNumberURL = `${part_1}${queryCode}${part_2}${groupNumber}${part_3}${querySize}`;
   console.log(`Cross Number URL: ${crossNumberURL}`);
 
   const response = await apiContext.get(crossNumberURL, { headers: await getAuthHeaders() });
   const data = await response.json();
+
   const products: any[] = data.products;
 
   const targets: CrossNumberApiProduct[] = [];

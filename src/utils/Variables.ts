@@ -14,6 +14,7 @@ export const SUPPLIER_NUMBERS: Record<string, string> = {
   BREMBO: "65",
   BREMSI: "4872",
   BSG: "4455",
+  CAR: "243",
   CAUTEX: "405",
   CHITAO: "7675",
   CIFAM: "311",
@@ -27,6 +28,7 @@ export const SUPPLIER_NUMBERS: Record<string, string> = {
   FERODO: "62",
   FREMAX: "409",
   FROW: "7373",
+  HELLA: "2",
   ICER: "158",
   JAPANPARTS: "156",
   JAPKO: "481",
@@ -37,19 +39,24 @@ export const SUPPLIER_NUMBERS: Record<string, string> = {
   MAXTECH: "4899",
   METELLI: "121",
   MEYLE: "144",
+  National: "190",
   NipoKM: "7770",
   NK: "127",
   NPS: "440",
   OPTIMAL: "129",
+  PAGID: "12",
   "RED-LINE": "4869",
   RIDEX: "6358",
   ROADHOUSE: "152",
   ROTINGER: "4676",
   RUVILLE: "23",
+  SNR: "110",
+  STELLOX: "4595",
   SWAG: "151",
   TEXTAR: "39",
   TRISCAN: "108",
   TRW: "161",
+  VAICO: "162",
   WILMINK: "4832",
   YUMAK: "6708",
 };
@@ -59,6 +66,11 @@ export const productGroupNumbersOfRepxpert: Record<string, string> = {
   Drum: "100033",
   Pad: "100030",
   Crankshaft: "101971",
+  PassengerDisc: "100006",
+  PassengerDrum: "100033",
+  CommercialVehicleBrakesDisc: "200097",
+  CommercialVehicleBrakesDrum: "200353",
+  CommercialVehicleBrakes: "200058",
 };
 
 export const excelTitles = [
@@ -176,7 +188,28 @@ export const referenceArray: ProductReference[] = [
 
   //{yvNo:"25158", supplier:"JNBK",  crossNumber:"RN1011V"}
   //{yvNo:"24107", supplier:"ICER",  crossNumber:"78BD0181-1"}
-  {yvNo:"30006", supplier:"TEXTAR",  crossNumber:"92009200"}
+  //{yvNo:"30006", supplier:"TEXTAR",  crossNumber:"92009200"}
+  //{yvNo:"261574", supplier:"BREMBO",  crossNumber:"09.7263.30"}
+
+  //{yvNo: "18060214", supplier:"A.B.S.", crossNumber:"18974"},  // A.B.S. 18974
+  //{yvNo: "19211496", supplier:"FREMAX", crossNumber:"BD-5066"},  // FREMAX BD-5066
+  //{yvNo: "MN102000", supplier:"KAVO PARTS", crossNumber:"BR-5810-C"},  //  KAVO PARTS BR-5810-C
+  //{yvNo: "5L3Z2C026AA", supplier:"0AMS", crossNumber:"RUF-184"},  // 0AMS RUF-184
+  //{yvNo: "FL3Z2C026C", supplier:"0AMS", crossNumber:"RUF-265"},  // 0AMS RUF-265
+  //{yvNo: "43206-V0300", supplier:"STELLOX", crossNumber:"6020-1334V-SX"},  // STELLOX 6020-1334V-SX, NPS N331N32
+  //{yvNo: "43206-V0300", supplier:"NPS", crossNumber:"N331N32"},  // STELLOX 6020-1334V-SX, NPS N331N32
+
+      
+  //{yvNo: "9434210312", supplier:"TRW", crossNumber:"DF5025S"}, // COMMERCIAL
+  //{yvNo: "9604210312", supplier:"FERODO", crossNumber:"FCR372A"}, // COMMERCIAL
+  //{yvNo: "8970158870", supplier:"FREMAX", crossNumber:"BD-7600"},  // FREMAX BD-7600  Commercial
+
+  //{yvNo: "20879454", supplier:"JNBK", crossNumber:"RN2221V"}, // JNBK RN2221V
+  //{yvNo: "15065077", supplier:"JNBK", crossNumber:"RN2103V"},  // RN2103V
+  //{yvNo: "435120C010", supplier:"JNBK", crossNumber:"RN2354V"},  // JNBK RN2354V
+  //{yvNo: "68414884AB", supplier:"JNBK", crossNumber:"RN2601V"},  // JNBK RN2601V
+  //{yvNo: "10390111", supplier:"JNBK", crossNumber:"RN2211V"}, // jnbk RN2211V
+  //{yvNo: "10391043", supplier:"JNBK", crossNumber:"RN2212V"}, // jnbk RN2212V
 
   /* HONDA PRODUCTS
   {yvNo:"15129", supplier:"JNBK",  crossNumber:"RN1024V"},

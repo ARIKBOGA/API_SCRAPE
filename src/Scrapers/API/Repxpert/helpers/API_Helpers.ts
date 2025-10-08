@@ -1,11 +1,14 @@
 import { request, APIRequestContext } from "@playwright/test";
 import dotenv from "dotenv";
 import path from "path";
-import { SUPPLIER_NUMBERS } from "../../../../utils/Variables";
+import { productGroupNumbersOfRepxpert, SUPPLIER_NUMBERS } from "../../../../utils/Variables";
 import { ApiCompatibility, ApiTarget, OutputTarget } from "../../../../utils/Types";
 import { Mutex } from 'async-mutex';
 
 dotenv.config({ path: path.resolve(".env") });
+
+const productType = process.env.PRODUCT_TYPE as string;
+
 
 let cachedToken: string | null = null;
 
@@ -82,6 +85,8 @@ export async function getEncryptedSearchCode( crossNumber: string, filterBrand: 
     const part_3 = process.env.ENCRYPTED_SEARCH_URL_3 || "";
     const normalizedCrossNumber = crossNumber.replace(/ /g, '').trim();
     const requestURL = `${part_1}${encodeURIComponent(normalizedCrossNumber)}${part_2}${SUPPLIER_NUMBERS[filterBrand]}${part_3}`;
+
+    //console.log(`ENCRYPTED SEARCH URL: ${requestURL}`);
 
     await delay(300);
     

@@ -20,7 +20,7 @@ interface OE_rowData {
     OE: string;
 }
 
-const jsonPath = path.resolve(__dirname, `../output/${productType}/jsons/OE/oe-numbers_${filterBrand}.json`);
+const jsonPath = path.resolve(__dirname, `../../output/${productType}/jsons/OE/oe-numbers_${filterBrand}.json`);
 const jsonData = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'));
 
 const rowData: OE_rowData[] = [];
@@ -84,7 +84,7 @@ for (const element of jsonData) {
 
 }
 
-const outputFilePath = path.resolve(__dirname, `../output/${productType}/excels/OE/OE_Numbers_${filterBrand}.xlsx`);
+const outputFilePath = path.resolve(__dirname, `../../output/${productType}/excels/OE/OE_Numbers_${filterBrand}.xlsx`);
 const headers = Object.keys(rowData[0]);
 const wb = xlsx.utils.book_new();
 const ws = xlsx.utils.json_to_sheet(rowData, { header: headers });

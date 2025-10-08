@@ -19,7 +19,6 @@ async function JNBK_API_Scraper(process: Function, fileName: string, threadLimit
     const limit = pLimit(threadLimit);
 
     const results = (await Promise.all(
-        //productReferences
         referenceArray
             .filter(
                 (productRef) =>

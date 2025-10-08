@@ -1,5 +1,5 @@
 import path from 'path';
-import initialMarkaData from '../resources/data/catalogInfo/jsons/marka_catalog.json';
+import initialMarkaData from '../../resources/data/catalogInfo/jsons/marka_catalog.json';
 import fs from 'fs';
 import xlsx from 'xlsx';
 
