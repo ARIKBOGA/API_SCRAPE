@@ -1,4 +1,4 @@
-import { request } from "@playwright/test";
+import { APIRequest, APIRequestContext, request } from "@playwright/test";
 import dotenv from "dotenv";
 import path from "path";
 import { CrossNumberApiProduct, OutputManufacturer, OutputModelSeries, ProductCompatibilityResult, ProductReference } from "../../../../utils/Types";
@@ -11,7 +11,7 @@ dotenv.config({ path: path.resolve(".env") });
 const productType = process.env.PRODUCT_TYPE as string;
 
 
-export async function processProductFor_OE(element: ProductReference): Promise<any> {
+export async function processProductFor_OE(element: ProductReference, apiContext: APIRequestContext): Promise<any> {
 
   const { yvNo, supplier, crossNumber } = element;
 
@@ -21,7 +21,6 @@ export async function processProductFor_OE(element: ProductReference): Promise<a
   }
 
   console.log(`Processing YV: ${yvNo}, Brand: ${supplier}, Cross Number: ${crossNumber}`);
-  const apiContext = await request.newContext();
 
   try {
     // 1️⃣ Encrypted Search Code alma
@@ -65,9 +64,8 @@ export async function processProductFor_OE(element: ProductReference): Promise<a
   }
 }
 
-export async function processProductFor_VehicleCompatibility(element: ProductReference): Promise<ProductCompatibilityResult | null> {
+export async function processProductFor_VehicleCompatibility(element: ProductReference, apiContext: APIRequestContext): Promise<ProductCompatibilityResult | null> {
 
-  const apiContext = await request.newContext();
   const { yvNo, supplier, crossNumber } = element;
 
   if (!crossNumber) {
@@ -144,63 +142,56 @@ export async function processProductFor_VehicleCompatibility(element: ProductRef
   }
 }
 
-export async function processProductFor_CrossNumbers(element: ProductReference) {
-  const apiContext = await request.newContext();
+export async function processProductFor_CrossNumbers(element: ProductReference, apiContext: APIRequestContext) {
   const { yvNo, supplier, crossNumber } = element;
-
   console.log(`Processing YV: ${yvNo}, Brand: ${supplier}, Cross Number: ${crossNumber}`);
 
-  if (!crossNumber) {
-    console.warn(`No cross number found for YV: ${yvNo}, Brand: ${supplier}`);
-    return null;
-  }
+  if (!crossNumber?.trim()) return null;
 
   const baseURI = process.env.BASE_URI as string;
-  const queryCode = element.crossNumber;                       // The number or code will be searched
-  const querySize = 100;                                       // Default size is 20 but we are extending it to 200 to get all cross numbers from all suppliers
-  const groupNumber = productGroupNumbersOfRepxpert[productType]; // Each product type has a unique grroup number for API requests
+  const groupNumber = productGroupNumbersOfRepxpert[productType];
+  const pageSize = 100;
 
+  let currentPage = 0;
+  let totalPages = 1;
   const products: any[] = [];
-  for (let currentPage = 0; currentPage <= 2; currentPage++) {
-    await delay(1000);
+  const MAX_PAGES = 5;
+
+  do {
     const params = {
       currentPage: `${currentPage}`,
-      query: `${queryCode}::assemblyGroups:${groupNumber}`,
-      pageSize: `${querySize}`,
+      query: `${crossNumber}::assemblyGroups:${groupNumber}`,
+      pageSize: `${pageSize}`,
     };
-
     const URL = `${baseURI}?${new URLSearchParams(params).toString()}`;
 
     try {
-      const response = await apiContext.get(URL, { headers: await getAuthHeaders() });
-      const data = await response.json();
+      const data = await fetchWithRetry(apiContext, URL);
+      if (!data?.products) break;
       products.push(...data.products);
+      totalPages = data.pagination?.totalPages ?? 1;
     } catch (error) {
-      console.log("Sorgu esnasında hata oluştu: ", element.crossNumber, error);
+      console.error(`Sorgu başarısız: ${crossNumber}`, error);
+      break;
     }
 
-  }
+    currentPage++;
+    await delay(500);
+  } while (currentPage < totalPages && currentPage < MAX_PAGES);
 
-  const targets: CrossNumberApiProduct[] = [];
+  const crossNumbers = products.map(p => ({
+    Supplier: p.brand?.name ?? "Unknown",
+    ArticleNumber: p.catalogArticleNumber ?? "",
+    StatusCode: p.catalogStatus?.code ?? "",
+    StatusMessage: p.catalogStatus?.name ?? "",
+    ApiCode: p.code ?? ""
+  } as CrossNumberApiProduct));
 
-  for (const product of products) {
-    targets.push({
-      Supplier: product.brand.name,
-      ArticleNumber: product.catalogArticleNumber,
-      StatusCode: product.catalogStatus.code,
-      StatusMessage: product.catalogStatus.name,
-      ApiCode: product.code
-    })
-  }
-
-  return {
-    yvNo: element.yvNo,
-    OE: element.crossNumber,
-    crossNumbers: targets
-  }
+  return { yvNo, OE: crossNumber, crossNumbers };
 }
 
-export async function processProductForArticleAttributes(element: ProductReference) {
+
+export async function processProductForArticleAttributes(element: ProductReference, apiContext: APIRequestContext) {
 
   const { yvNo, supplier, crossNumber } = element;
 
@@ -210,8 +201,6 @@ export async function processProductForArticleAttributes(element: ProductReferen
   }
 
   console.log(`Processing YV: ${yvNo}, Brand: ${supplier}, Cross Number: ${crossNumber}`);
-
-  const apiContext = await request.newContext();
 
   try {
     // 1️⃣ Encrypted Search Code alma
@@ -253,4 +242,20 @@ export async function processProductForArticleAttributes(element: ProductReferen
     await apiContext.dispose();
     await delay(300);
   }
+}
+
+
+// RE-TRY mechanism
+async function fetchWithRetry(apiContext: APIRequestContext, url: string, retries = 3) {
+  for (let attempt = 1; attempt <= retries; attempt++) {
+    try {
+      const response = await apiContext.get(url, { headers: await getAuthHeaders() });
+      if (response.ok()) return response.json();
+      console.warn(`Attempt ${attempt}: ${response.status()} for ${url}`);
+    } catch (error) {
+      console.warn(`Attempt ${attempt} failed:`, error);
+    }
+    await new Promise(r => setTimeout(r, 1000 * attempt)); // exponential backoff
+  }
+  throw new Error(`Failed after ${retries} attempts: ${url}`);
 }

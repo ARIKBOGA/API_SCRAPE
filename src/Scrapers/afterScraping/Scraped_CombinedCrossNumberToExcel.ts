@@ -4,16 +4,8 @@ import ExcelJS from 'exceljs';
 
 import dotenv from 'dotenv';
 
-
 dotenv.config({ path: path.resolve(".env") });
 
-const productType = process.env.PRODUCT_TYPE as string;
-
-// JSON verisinin yolu
-const jsonFilePath = path.resolve(__dirname, `../../output/${productType}/jsons/Cross-Numbers/Cross-Numbers_${productType}_Full_Data.json`); // Dosya yolunu kendi product type'ınıza göre güncelleyin.
-
-// Excel dosyasının kaydedileceği yol
-const excelFilePath = path.resolve(__dirname, `../../output/${productType}/excels/Cross-Numbers/${productType}_Combined_CrossNumbers_wip.xlsx`); // İstediğiniz ismi verebilirsiniz.
 
 // JSON'dan dönüştürülen tip
 type FullCrossNumberData = {
@@ -25,10 +17,14 @@ type FullCrossNumberData = {
     }[];
 };
 
-export async function exportToExcel() {
+export async function exportToExcel(data: FullCrossNumberData[], OUTPUT_EXCEL_PATH: string) {
+
+    if (!data || data.length === 0) {
+        console.warn("Excel'e yazılacak veri bulunamadı.");
+        return;
+    }
+
     try {
-        const fileContent = fs.readFileSync(jsonFilePath, 'utf-8');
-        const data: FullCrossNumberData[] = JSON.parse(fileContent);
 
         const workbook = new ExcelJS.Workbook();
         const worksheet = workbook.addWorksheet('Cross Numbers');
@@ -49,7 +45,7 @@ export async function exportToExcel() {
         const rows = data.map(item => {
             const rowData: Record<string, string> = {
                 YV: item.yvNo,
-                OE_NUMBERS: item.oeNumbers.join(', ') // OE numaralarını birleştir
+                OE_NUMBERS: Array.from(new Set(item.oeNumbers)).join(', ') // Benzersiz OE numaralarını birleştir
             };
 
             // CrossNumbers'ı supplier'a göre grupla
@@ -76,13 +72,13 @@ export async function exportToExcel() {
         worksheet.addRows(rows);
 
         // Excel dosyasını kaydet
-        await workbook.xlsx.writeFile(excelFilePath);
+        await workbook.xlsx.writeFile(OUTPUT_EXCEL_PATH);
 
-        console.log(`Veri başarıyla ${excelFilePath} dosyasına aktarıldı.`);
+        console.log(`Veri başarıyla ${OUTPUT_EXCEL_PATH} dosyasına aktarıldı.`);
 
     } catch (error) {
-        console.error("Bir hata oluştu:", error);
+        console.error("Excel'e aktarma sırasında bir hata oluştu:", error);
+        throw error; // Hatanın yukarı taşınmasını sağla
     }
 }
 
-exportToExcel();
