@@ -1,9 +1,10 @@
-// src/generateLabelsFromSingleJson.ts
 import fs from "fs";
 import path from "path";
 import * as ExcelJS from "exceljs";
 import { bodyTypes, brandAliases, modelAliases } from "../utils/Variables";
 import dotenv from 'dotenv';
+import { toPascalCase } from "./helpers/Functions";
+import { ModelWithInfo } from "./helpers/Types";
 
 dotenv.config({ path: path.resolve(".env") });
 
@@ -11,18 +12,10 @@ const productType = process.env.PRODUCT_TYPE as string;
 
 const lineCount = 4;
 const lineLength = 48;
-const modelsNeedsToBePascalCased = new Set(JSON.parse(fs.readFileSync(path.resolve(__dirname, `../resources/data/catalogInfo/jsons/modelsNeedsToBePascalCased.json`), "utf-8")));
-const inputFilePath = path.resolve(__dirname, `../output/${productType}/jsons/marka_hareket/MARKA_HAREKET_KATALOG.json`);
-const outputFilePath = path.resolve(__dirname, `../output/${productType}/excels/Label/${productType}_Label_WOD_ETİKET_${lineCount}x${lineLength}.xlsx`);
 
-function toPascalCase(str: string): string {
-    return str
-        .replace(/\b(\p{L}+)\b/gu, (word) => {
-            if (word.length <= 3) return word;
-            return modelsNeedsToBePascalCased.has(word) ? word.charAt(0).toUpperCase() + word.slice(1).toLowerCase() : word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
-        })
-        .trim();
-}
+const inputFilePath = path.resolve(__dirname, `../output/${productType}/jsons/marka_hareket/MARKA_HAREKET_KATALOG.json`);
+const outputFilePath = path.resolve(__dirname, `../output/${productType}/excels/label/${productType}_Label_WOD_${lineCount}x${lineLength}_With_Options.xlsx`);
+
 
 
 // Güncellenmiş extractAndShortenModels fonksiyonu
@@ -80,11 +73,6 @@ function extractAndShortenModels(modelString: string, includeBodyTypes: boolean)
     return extractedModels;
 }
 
-interface ModelWithInfo {
-    modelText: string;
-    yearText: string;
-    targetsCount: number;
-}
 
 function getRankedBrandAndModels(vehicles: any[], includeBodyTypes: boolean): Map<string, ModelWithInfo[]> {
     const brandData = new Map<string, { models: Map<string, { targetsCount: number; year: { from: string; to: string } }> }>();

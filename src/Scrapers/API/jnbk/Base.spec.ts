@@ -19,7 +19,6 @@ async function JNBK_API_Scraper(process: Function, fileName: string, threadLimit
     const limit = pLimit(threadLimit);
 
     const results = (await Promise.all(
-        //productReferences
         referenceArray
             .filter(
                 (productRef) =>
@@ -119,7 +118,7 @@ export async function getVehicleCompatibilities(ref: ProductReference, currentUr
                 const engineType_body = $row.find("td:nth-child(4)").text().trim(); // BODY sütunu
 
                 targets.push({
-                    engine: `${cc} | ${engineType_body}`, // cc ve body tipini birleştir
+                    engine: [cc, engineType_body].filter(Boolean).join(" | "), // Filter out empty strings and join them efficiently
                     fullName: fullTitle,
                     constructionYearFrom: years.start,
                     constructionYearTo: years.end,

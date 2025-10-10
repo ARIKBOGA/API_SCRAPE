@@ -44,11 +44,11 @@ export function convertExcelToJson(inputFilePath: string, outputDirectory: strin
             });
 
             // Excel'den gelen verileri al ve başlıkları tam olarak eşleştir
-            const yvNo = rowData['YV'];
+            const yvNo = rowData['yvNo'];
             const crossNumber = rowData['CROSS NUMBER'] || "";
             const brand = rowData['SUPPLIER'] || ""; // 'MARKA' sütunu hem brand hem de manufacturer için kullanılacak
-            const manufacturer = rowData['MARKA'] || ""; // 'MARKA' sütunu hem brand hem de manufacturer için kullanılacak
-            const modelSeries = rowData['MODEL'] || "";
+            const manufacturer = rowData['marka_aciklama'] || ""; // 'MARKA' sütunu hem brand hem de manufacturer için kullanılacak
+            const modelSeries = rowData['model_aciklama'] || "";
 
             // YV Numarasına göre ana öğeyi bul veya oluştur
             let currentItem = groupedByYvNo.get(yvNo);
@@ -87,23 +87,25 @@ export function convertExcelToJson(inputFilePath: string, outputDirectory: strin
             }
 
             // Yıl bilgilerini "YY" formatından "YYYY" formatına dönüştür
-            const fromYear = rowData['Baş. Yil'] ? (Number(rowData['Baş. Yil']) > 30 ? `19${String(rowData['Baş. Yil'])}` : `20${String(rowData['Baş. Yil'])}`) : '';
-            const toYear = rowData['Bit. Yil'] ? (Number(rowData['Bit. Yil']) > 30 ? `19${String(rowData['Bit. Yil'])}` : `20${String(rowData['Bit. Yil'])}`) : '';
-            const kw: string = rowData['KW'] ? rowData['KW'] : "";
-            const hp: string = rowData['HP'] ? rowData['HP'] : "";
+            const basYil = rowData['BasYil'];
+            const bitYil = rowData['Bityil'];
+            const fromYear = basYil ? (basYil > 30 ? `19${String(basYil)}` : `20${String(basYil)}`) : '';
+            const toYear = bitYil ? (Number(bitYil) > 30 ? `19${String(bitYil)}` : `20${String(bitYil)}`) : '';
+            const kw: string = rowData['motor kw'] ? rowData['motor kw'] : "";
+            const hp: string = rowData['motor hp'] ? rowData['motor hp'] : "";
             const cc: string = rowData['CC'] ? rowData['CC'] : "";
 
             // Target verilerini oluştur
             const target: OutputTarget = {
-                engine: rowData['MOTOR'] || "",
+                engine: rowData['motor'] || "",
                 // fullName alanı Excel'de doğrudan bulunmadığı için uygun bir değer atanabilir
-                fullName: `${rowData['MARKA'] || ""} ${rowData['MODEL'] || ""} ${rowData['MOTOR'] || ""}`,
+                fullName: `${rowData['marka_aciklama'] || ""} ${rowData['model_aciklama'] || ""} ${rowData['motor'] || ""}`,
                 constructionYearFrom: fromYear,
                 constructionYearTo: toYear,
                 enginePowerKW: kw,
                 enginePowerHP: hp,
                 cc: cc,
-                engineCodes: rowData['MOTOR KODU'] || "",
+                engineCodes: rowData['motor kodu'] || "",
                 kbaNumbers: rowData['KBA'] || "",
                 bodyType: rowData['KASA Tipi'] || "",
                 TecDocID: rowData['TecDocID'] || "",
