@@ -10,10 +10,10 @@ dotenv.config({ path: path.resolve(".env") });
 const productType = process.env.PRODUCT_TYPE as string;
 
 // JSON verisinin yolu
-const jsonFilePath = path.resolve(__dirname, `../output/${productType}/jsons/Cross-Numbers/Cross-Numbers_${productType}_Full_Data.json`); // Dosya yolunu kendi product type'ınıza göre güncelleyin.
+const jsonFilePath = path.resolve(__dirname, `../../output/${productType}/jsons/Cross-Numbers/Cross-Numbers_${productType}_Full_Data.json`); // Dosya yolunu kendi product type'ınıza göre güncelleyin.
 
 // Excel dosyasının kaydedileceği yol
-const excelFilePath = path.resolve(__dirname, `../output/${productType}/excels/Cross-Numbers/${productType}_Combined_CrossNumbers_wip.xlsx`); // İstediğiniz ismi verebilirsiniz.
+const excelFilePath = path.resolve(__dirname, `../../output/${productType}/excels/Cross-Numbers/${productType}_Combined_CrossNumbers_wip.xlsx`); // İstediğiniz ismi verebilirsiniz.
 
 // JSON'dan dönüştürülen tip
 type FullCrossNumberData = {

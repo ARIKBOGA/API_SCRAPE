@@ -155,20 +155,31 @@ export async function processProductFor_CrossNumbers(element: ProductReference) 
     return null;
   }
 
-  const part_1 = process.env.CROSS_NUMBER_URL_1 || "";
-  const part_2 = process.env.CROSS_NUMBER_URL_2 || "";
-  const part_3 = process.env.CROSS_NUMBER_URL_3 || "";
+  const baseURI = process.env.BASE_URI as string;
   const queryCode = element.crossNumber;                       // The number or code will be searched
-  const querySize = "200";                                       // Default size is 20 but we are extending it to 200 to get all cross numbers from all suppliers
+  const querySize = 100;                                       // Default size is 20 but we are extending it to 200 to get all cross numbers from all suppliers
   const groupNumber = productGroupNumbersOfRepxpert[productType]; // Each product type has a unique grroup number for API requests
 
-  const crossNumberURL = `${part_1}${queryCode}${part_2}${groupNumber}${part_3}${querySize}`;
-  console.log(`Cross Number URL: ${crossNumberURL}`);
+  const products: any[] = [];
+  for (let currentPage = 0; currentPage <= 2; currentPage++) {
+    await delay(1000);
+    const params = {
+      currentPage: `${currentPage}`,
+      query: `${queryCode}::assemblyGroups:${groupNumber}`,
+      pageSize: `${querySize}`,
+    };
 
-  const response = await apiContext.get(crossNumberURL, { headers: await getAuthHeaders() });
-  const data = await response.json();
+    const URL = `${baseURI}?${new URLSearchParams(params).toString()}`;
 
-  const products: any[] = data.products;
+    try {
+      const response = await apiContext.get(URL, { headers: await getAuthHeaders() });
+      const data = await response.json();
+      products.push(...data.products);
+    } catch (error) {
+      console.log("Sorgu esnasında hata oluştu: ", element.crossNumber, error);
+    }
+
+  }
 
   const targets: CrossNumberApiProduct[] = [];
 
@@ -204,7 +215,7 @@ export async function processProductForArticleAttributes(element: ProductReferen
 
   try {
     // 1️⃣ Encrypted Search Code alma
-    const encryptedSearchCode = await getEncryptedSearchCode( crossNumber, supplier, apiContext);
+    const encryptedSearchCode = await getEncryptedSearchCode(crossNumber, supplier, apiContext);
 
     // 2️⃣ Article Attributes alma
     const part_1 = process.env.ARTICLE_ATTRIBUTES_URL_1 as string;
@@ -224,9 +235,9 @@ export async function processProductForArticleAttributes(element: ProductReferen
     const data = await response.json();
 
     for (const element of data.classifications[0].features) {
-      
+
       const values = Object.values(element.featureValues.map((value: any) => value.value)).join(', ');
-      
+
       result.attributes.push({
         name: element.name,
         value: values

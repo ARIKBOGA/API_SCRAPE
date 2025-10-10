@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import dotenv from 'dotenv';
-import { CrossNumberJson, CrossNumberElement } from '../utils/Types';
+import { CrossNumberJson, CrossNumberElement } from '../../utils/Types';
 import { exportToExcel } from './Scraped_CombinedCrossNumberToExcel';
 
 // Yeni veri yapısını tanımla
@@ -14,8 +14,8 @@ type FullCrossNumberData = {
 dotenv.config({ path: path.resolve(".env") });
 
 const productType = process.env.PRODUCT_TYPE as string;
-const workFolderPath = path.resolve(__dirname, `../output/${productType}/jsons/Cross-Numbers`);
-const outputFilePath = path.resolve(__dirname, `../output/${productType}/jsons/Cross-Numbers/Cross-Numbers_${productType}_Full_Data.json`);
+const workFolderPath = path.resolve(__dirname, `../../output/${productType}/jsons/Cross-Numbers`);
+const outputFilePath = path.resolve(__dirname, `../../output/${productType}/jsons/Cross-Numbers/Cross-Numbers_${productType}_Full_Data.json`);
 
 export async function combineCrossNumberJsonFiles() {
     const jsonFiles = fs.readdirSync(workFolderPath)
