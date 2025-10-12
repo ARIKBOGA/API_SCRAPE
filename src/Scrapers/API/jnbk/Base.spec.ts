@@ -23,7 +23,7 @@ async function JNBK_API_Scraper(process: Function, fileName: string, threadLimit
             .filter(
                 (productRef) =>
                     //productRef.supplier === filterBrand &&               // process only given brand in .env file
-                    productRef.crossNumber.trim() !== ""              // skip empty cells comes from excel
+                    productRef.freeTextSearch.trim() !== ""              // skip empty cells comes from excel
                 //&& !productRef.crossNumber.trim().includes(" ")    // skip cross numbers with spaces
             )
             //.slice(300)
@@ -143,7 +143,7 @@ export async function getVehicleCompatibilities(ref: ProductReference, currentUr
         return compatibilityVehicles;
 
     } catch (error) {
-        console.error(`❌ ${ref.crossNumber} için hata:`, error);
+        console.error(`❌ ${ref.freeTextSearch} için hata:`, error);
         return [];
     } finally {
         await apiContext.dispose();
@@ -154,7 +154,7 @@ export async function getVehicleCompatibilities(ref: ProductReference, currentUr
 export async function getProduct_URL(ref: ProductReference): Promise<{ product_id: string; currentUrl: string }> {
 
     const apiContext = await request.newContext();
-    const { yvNo, supplier, crossNumber } = ref;
+    const { yvNo, supplier, freeTextSearch: crossNumber } = ref;
 
     try {
         const response = await apiContext.post("https://www.jnbk-brakes.com/catalogue/cars", {

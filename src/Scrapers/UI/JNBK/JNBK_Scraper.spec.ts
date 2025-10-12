@@ -30,7 +30,7 @@ async function processJNBKProducts(browser: Browser, processFunction: Function, 
         referenceArray
             .filter(
                 (productRef) =>
-                    productRef.crossNumber.trim() !== ""
+                    productRef.freeTextSearch.trim() !== ""
             )
             .map((productRef) => limit(async () => { // Her referans için ayrı bir işlem başlatır
                 const page = await browser.newPage(); // Her işlem için yeni bir sayfa oluşturur
@@ -166,7 +166,7 @@ export async function extractCompatibilities(page: Page): Promise<OutputManufact
 
 export async function JNBK_Compatibility(page: Page, reference: ProductReference): Promise<ProductCompatibilityResult | undefined> {
 
-    const { yvNo, supplier, crossNumber } = reference;
+    const { yvNo, supplier, freeTextSearch: crossNumber } = reference;
     try {
         await navigateAndSearch(page, URL, crossNumber); // navigateAndSearch fonksiyonunu await ile çağırır
 

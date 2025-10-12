@@ -8,6 +8,7 @@ import { referenceArray } from "../../../utils/Variables";
 import { readProductReferencesFromExcel } from "../../../utils/Excel_Utils";
 import { getAuthHeaders, getEncryptedSearchCode } from "./helpers/API_Helpers";
 import { ProductReference } from "../../../utils/Types";
+import { REPXPERT } from "./config/ApiData";
 
 dotenv.config({ path: path.resolve(".env") });
 const productType = process.env.PRODUCT_TYPE as string;
@@ -35,9 +36,9 @@ async function processProducts(
       referenceArray
         .filter(
           (productRef) =>
-            productRef.crossNumber.trim() !== ""
+            productRef.freeTextSearch.trim() !== ""
         )
-        .slice(start, end)
+        .slice(0,1)
         .map((productRef) => limit(() => processFunction(productRef, apiContext)))
     )
   ).filter((r) => r !== null);
@@ -82,29 +83,21 @@ test("Get Article Attributes of the products", async () => {
 
 
 test('Get token only', async ({ request }) => {
-  const env = process.env;
-  const requestBody = new URLSearchParams({
-    grant_type: env.grant_type || "",
-    client_id: env.client_id || "",
-    client_secret: env.client_secret || "",
-    username: env.email || "",
-    password: env.password || "",
-  });
 
-  const tokenHeaders = {
-    "Content-Type": "application/x-www-form-urlencoded",
-    Accept: "application/json",
-  };
+  const requestBody = new URLSearchParams(REPXPERT.tokenRequest.requestBody);
 
-  const tokenResponse = await request.post("https://www.repxpert.co.uk/authorizationserver/oauth/token?catalogCountry=GB", {
+  const tokenHeaders = REPXPERT.tokenRequest.headers;
+
+  const URL = REPXPERT.tokenRequest.URL;
+
+  const response = await request.post(URL, {
     headers: tokenHeaders,
     data: requestBody.toString(),
   });
 
-  const jsonData = await tokenResponse.json();
-  console.log("Token Response:", jsonData);
 
-
+  const encryptedCode = await getEncryptedSearchCode("4B0698151AC", "BREMBO", request);
+  console.log("Encrypted Code:", encryptedCode);
 
 })
 
@@ -112,7 +105,7 @@ test('Get token only', async ({ request }) => {
 test("Get only ICER products WVA numbers", async ({ request }) => {
 
   for (const ref of referenceArray) {
-    const { yvNo, supplier, crossNumber } = ref;
+    const { yvNo, supplier, freeTextSearch: crossNumber } = ref;
     const searchCode = await getEncryptedSearchCode(crossNumber, supplier, request);
     const response = await request.get(`https://www.repxpert.co.uk/api/Repxpert-GB/products/${searchCode}`, { headers: await getAuthHeaders() });
     const data = await response.json();

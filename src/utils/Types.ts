@@ -3,7 +3,7 @@
 export type ProductReference = {
   yvNo: string;
   supplier: string;
-  crossNumber: string;
+  freeTextSearch: string;
 };
 
 // API'den gelen genel uyumluluk nesnesi (manufacturer ve model için) - Excel için doğrudan kullanılmıyor

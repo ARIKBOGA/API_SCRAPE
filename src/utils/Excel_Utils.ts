@@ -61,7 +61,7 @@ export function readProductReferencesFromExcel(): ProductReference[] {
             references.push({
               yvNo,
               supplier: key.trim(),
-              crossNumber: crossNumber.trim()
+              freeTextSearch: crossNumber.trim()
             });
           }
         });

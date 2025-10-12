@@ -4,21 +4,15 @@ import path from "path";
 import { productGroupNumbersOfRepxpert, SUPPLIER_NUMBERS } from "../../../../utils/Variables";
 import { ApiCompatibility, ApiTarget, OutputTarget } from "../../../../utils/Types";
 import { Mutex } from 'async-mutex';
+import { REPXPERT } from "../config/ApiData";
 
 dotenv.config({ path: path.resolve(".env") });
-
-const productType = process.env.PRODUCT_TYPE as string;
 
 
 let cachedToken: string | null = null;
 
 let headers: { getHeaders: any; };
 const mutex = new Mutex();
-
-const tokenHeaders = {
-  "Content-Type": "application/x-www-form-urlencoded",
-  Accept: "application/json",
-};
 
 /**
  * Returns a promise that resolves after the given ms.
@@ -51,19 +45,13 @@ export async function getToken(): Promise<string | null> {
   if (cachedToken) return cachedToken;
 
   const apiContext = await request.newContext();
-  const requestURL = process.env.TOKEN_URI as string;
-
-  const requestBody = new URLSearchParams({
-    grant_type: process.env.grant_type || "password",
-    client_id: process.env.client_id || "repxpert-spa",
-    client_secret: process.env.client_secret || "client_secret",
-    username: process.env.email || "username",
-    password: process.env.password || "password",
-  });
+  const requestURL = REPXPERT.tokenRequest.URL;
+  const tokenHeaders = REPXPERT.tokenRequest.headers;
+  const requestBody = new URLSearchParams(REPXPERT.tokenRequest.requestBody).toString();
 
   const tokenResponse = await apiContext.post(requestURL, {
     headers: tokenHeaders,
-    data: requestBody.toString(),
+    data: requestBody,
   });
 
   if (!tokenResponse.ok()) {
@@ -77,60 +65,48 @@ export async function getToken(): Promise<string | null> {
   return cachedToken;
 }
 
-export async function getEncryptedSearchCode( crossNumber: string, filterBrand: string, apiContext: APIRequestContext): Promise<string | null> {
-
+export async function getEncryptedSearchCode( freeTextSearch: string, filterBrand: string, apiContext: APIRequestContext): Promise<string | null> {
   try {
-    const part_1 = process.env.ENCRYPTED_SEARCH_URL_1 || "";
-    const part_2 = process.env.ENCRYPTED_SEARCH_URL_2 || "";
-    const part_3 = process.env.ENCRYPTED_SEARCH_URL_3 || "";
-    const normalizedCrossNumber = crossNumber.replace(/ /g, '').trim();
-    const requestURL = `${part_1}${encodeURIComponent(normalizedCrossNumber)}${part_2}${SUPPLIER_NUMBERS[filterBrand]}${part_3}`;
-
-    //console.log(`ENCRYPTED SEARCH URL: ${requestURL}`);
+    const normalizedFreeTextSearch = freeTextSearch.replace(/ /g, '').trim();
+    const requestURL = REPXPERT.getEncrSrcURL(normalizedFreeTextSearch, filterBrand);
 
     await delay(300);
-    
-    const response = await apiContext.get(requestURL, { headers: await getAuthHeaders() });
 
+    const response = await apiContext.get(requestURL, { headers: await getAuthHeaders() });
     const data = await response.json();
-    const result = data.products?.[0]?.code;
-    return result;
+    const encryptedCode = data.products?.[0]?.code;
+
+    return encryptedCode;
+
   } catch (err) {
-    console.error(`Error fetching encrypted code for ${crossNumber}: ${err}`);
+    console.error(`Error fetching encrypted code for ${freeTextSearch}: ${err}`);
     return null;
   }
 }
 
 export async function getManufacturerCodes(encryptedSearchCode: string,apiContext: APIRequestContext): Promise<ApiCompatibility[]> {
 
-  const part_1 = process.env.COMPATIBILITY_MANUFACTURERS_URL_1 as string;
-  const part_2 = process.env.COMPATIBILITY_MANUFACTURERS_URL_2 as string;
-  const requestURL = `${part_1}${encryptedSearchCode}${part_2}`;
-  //console.log(`MANUFACTURERS URL: ${requestURL}`); // Detaylı loglar için uncomment edilebilir
+  const requestURL = REPXPERT.getManufacturersURL(encryptedSearchCode);
+  //console.log(`MANUFACTURERS URL: ${requestURL}`); 
 
-  const manufacturer_codes_response = await apiContext.get(requestURL, { headers: await getAuthHeaders() });
+  const response = await apiContext.get(requestURL, { headers: await getAuthHeaders() });
 
-  const manufacturer_codes_json = await manufacturer_codes_response.json();
+  const jsonData = await response.json();
   
-  // `map` kullanarak daha temiz bir dönüşüm
-  return manufacturer_codes_json.manufacturers.map((each: ApiCompatibility) => ({ 
+  return jsonData.manufacturers.map((each: ApiCompatibility) => ({ 
     name: each.name, 
     uuid: each.uuid 
   }));
 }
 
-export async function getmodelCodes(encryptedSearchCode: string, apiContext: APIRequestContext, manufacturer_uuid: string ): Promise<ApiCompatibility[]> { // parametre adını değiştirdim, `_code` yerine `_uuid` daha doğru
+export async function getmodelCodes(encryptedSearchCode: string, apiContext: APIRequestContext, manufacturer_uuid: string ): Promise<ApiCompatibility[]> { 
 
-  const part_1 = process.env.COMPATIBILITY_MODEL_URL_1 as string;
-  const part_2 = process.env.COMPATIBILITY_MODEL_URL_2 as string;
-  const part_3 = process.env.COMPATIBILITY_MODEL_URL_3 as string;
-  const requestURL = `${part_1}${encryptedSearchCode}${part_2}${manufacturer_uuid}${part_3}`;
+  const requestURL = REPXPERT.getModelSeriesURL(encryptedSearchCode, manufacturer_uuid);
 
   const response = await apiContext.get(requestURL, { headers: await getAuthHeaders() });
-  const data = await response.json();
+  const jsonData = await response.json();
 
-  // `map` kullanarak daha temiz bir dönüşüm
-  return data.modelSeries.map((each: ApiCompatibility) => ({
+  return jsonData.modelSeries.map((each: ApiCompatibility) => ({
     name: each.name,
     uuid: each.uuid,
   }));
@@ -138,18 +114,15 @@ export async function getmodelCodes(encryptedSearchCode: string, apiContext: API
 
 export async function getTargets( encryptedSearchCode: string, apiContext: APIRequestContext, model_uuid: string ): Promise<OutputTarget[]> {
   
-  const part_1 = process.env.COMPATIBILITY_TARGET_URL_1 as string;
-  const part_2 = process.env.COMPATIBILITY_TARGET_URL_2 as string;
-  const part_3 = process.env.COMPATIBILITY_TARGET_URL_3 as string;
-  const requestURL = `${part_1}${encryptedSearchCode}${part_2}${model_uuid}${part_3}`;
+  const requestURL = REPXPERT.getTargetsURL(encryptedSearchCode, model_uuid);
 
   const response = await apiContext.get(requestURL, { headers: await getAuthHeaders() });
-  const data = await response.json();
+  const jsonData = await response.json();
 
   // API'den gelen `targets` dizisini doğrudan OutputTarget tipine dönüştürerek döndürüyoruz.
   // Gerekirse burada bir dönüşüm (mapping) yapabiliriz eğer API'den gelen isimler farklıysa.
 
-  return data.targets.map((target: ApiTarget) => ({
+  return jsonData.targets.map((target: ApiTarget) => ({
     engine: target.name,
     fullName: target.fullName,
     constructionYearFrom: target.constructionYearFrom,
