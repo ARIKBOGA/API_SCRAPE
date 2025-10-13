@@ -2,7 +2,7 @@ import { test, Page, Browser } from '@playwright/test'; // Browser'ı import edi
 import path from 'path';
 import fs from 'fs';
 import { OutputManufacturer, OutputModelSeries, OutputTarget, ProductCompatibilityResult, ProductReference } from '../../../utils/Types';
-import { referenceArray } from '../../../utils/Variables';
+import { referenceArray } from '../../api/data/Variables';
 import { extractYears } from '../../../utils/Utility';
 import { Locale } from 'locale-enum';
 

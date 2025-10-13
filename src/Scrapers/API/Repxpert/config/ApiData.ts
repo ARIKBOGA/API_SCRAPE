@@ -1,6 +1,7 @@
 import path from "path";
 import dotenv from "dotenv";
-import { productGroupNumbersOfRepxpert, SUPPLIER_NUMBERS } from "../../../../utils/Variables";
+import { productGroupNumbersOfRepxpert, SUPPLIER_NUMBERS } from "../../data/Variables";
+import { usernameEnvKey } from "./SystemVariables";
 
 dotenv.config({ path: path.resolve(".env") });
 
@@ -9,8 +10,8 @@ const generalInfo = {
   filterBrand: process.env.FILTER_BRAND as string,
   vehicleType: "passengerCar",
   BASE_URI: "https://www.repxpert.co.uk/api/Repxpert-GB/products/",
-  crossNumbersPageSize : 100,
-  crossNumbersCurrentPage : 0,
+  crossNumbersPageSize: 100,
+  crossNumbersCurrentPage: 0,
 };
 
 export const REPXPERT = {
@@ -18,11 +19,11 @@ export const REPXPERT = {
   ...generalInfo,
 
   tokenRequest: {
-    requestBody: {
-      grant_type: "password",
-      client_id: "repxpert-spa",
+    body: {
+      grant_type: process.env.grant_type!,
+      client_id: process.env.client_id!,
       client_secret: process.env.client_secret!,
-      username: process.env.username!,
+      username: process.env?.[usernameEnvKey]!,
       password: process.env.password!,
     },
 
@@ -31,7 +32,7 @@ export const REPXPERT = {
       Accept: "application/json",
     },
 
-    URL: "https://api-aftermarket.schaeffler.de/authorizationserver/oauth/token?catalogCountry=GB",
+    URL: "https://api-aftermarket.schaeffler.de/authorizationserver/oauth/token",
   },
 
   getCrossNumbersURL: (freeTextSearch: string) => {
@@ -44,54 +45,23 @@ export const REPXPERT = {
   },
 
   getEncrSrcURL: (freeTextSearch: string, filterBrand: string) => {
-    return (
-      generalInfo.BASE_URI +
-      "search?query=" +
-      freeTextSearch +
-      "::brand:" +
-      SUPPLIER_NUMBERS[filterBrand] +
-      "assemblyGroups:" +
-      productGroupNumbersOfRepxpert[generalInfo.productType] +
-      "&pageSize=20"
-    );
+    const params = {
+      query: `${freeTextSearch}::brand:${SUPPLIER_NUMBERS[filterBrand]}::assemblyGroups:${productGroupNumbersOfRepxpert[generalInfo.productType]}`,
+      pageSize: "20",
+    };
+    return `${generalInfo.BASE_URI}search?${new URLSearchParams(params).toString()}`;
   },
 
-  getOE_URL: (encryptedSearchCode: string) => {
-    return generalInfo.BASE_URI + encryptedSearchCode + "/oenumbers?lang=en_GB&curr=RXP&catalogCountry=GB"
-  },
+  getOE_URL: (encryptedSearchCode: string) => `${generalInfo.BASE_URI}${encryptedSearchCode}/oenumbers`,
 
-  getManufacturersURL: (encryptedSearchCode: string) => {
-    return (
-      generalInfo.BASE_URI  +
-      encryptedSearchCode +
-      "/linkages/manufacturers?targetTypeCodes=" +
-      generalInfo.vehicleType
-    );
-  },
+  getManufacturersURL: (encryptedSearchCode: string) =>
+    `${generalInfo.BASE_URI}${encryptedSearchCode}/linkages/manufacturers?targetTypeCodes=${generalInfo.vehicleType}`,
 
-  getModelSeriesURL: (
-    encryptedSearchCode: string,
-    manufacturer_uuid: string
-  ) => {
-    return (
-      generalInfo.BASE_URI +
-      encryptedSearchCode +
-      "/linkages/manufacturers/" +
-      manufacturer_uuid +
-      "/modelSeries?targetTypeCodes=" +
-      generalInfo.vehicleType
-    );
-  },
+  getModelSeriesURL: (encryptedSearchCode: string, manufacturer_uuid: string) =>
+    `${generalInfo.BASE_URI}${encryptedSearchCode}/linkages/manufacturers/${manufacturer_uuid}/modelSeries?targetTypeCodes=${generalInfo.vehicleType}`,
 
+  getTargetsURL: (encryptedSearchCode: string, model_uuid: string) =>
+    `${generalInfo.BASE_URI}${encryptedSearchCode}/linkages/modelSeries/${model_uuid}/targets?targetTypeCodes=${generalInfo.vehicleType}`,
 
-  getTargetsURL: (encryptedSearchCode: string, model_uuid: string) => {
-    return (
-      generalInfo.BASE_URI +
-      encryptedSearchCode +
-      "/linkages/modelSeries/" +
-      model_uuid +
-      "/targets?targetTypeCodes=" +
-      generalInfo.vehicleType
-    );
-  },
+  getArticleAttributesURL: (encryptedSearchCode: string) => `${generalInfo.BASE_URI}${encryptedSearchCode}`
 };

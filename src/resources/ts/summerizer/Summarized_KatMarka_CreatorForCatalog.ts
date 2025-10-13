@@ -1,6 +1,6 @@
 import path from 'path';
 import xlsx from 'xlsx';
-import initialMarkaData from '../resources/data/catalogInfo/jsons/marka_catalog.json';
+import initialMarkaData from '../../data/catalogInfo/jsons/marka_catalog.json';
 
 const SOURCE_FILE_PATH = path.resolve(__dirname, `../resources/data/catalogInfo/excels/katmarka.xlsx`);
 const OUTPUT_FILE_PATH = path.resolve(__dirname, `../output/catalogInfo/excels/createdKatMarka.xlsx`);

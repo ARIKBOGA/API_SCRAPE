@@ -1,7 +1,7 @@
 import { request, APIRequestContext } from "@playwright/test";
 import dotenv from "dotenv";
 import path from "path";
-import { productGroupNumbersOfRepxpert, SUPPLIER_NUMBERS } from "../../../../utils/Variables";
+import { productGroupNumbersOfRepxpert, SUPPLIER_NUMBERS } from "../../data/Variables";
 import { ApiCompatibility, ApiTarget, OutputTarget } from "../../../../utils/Types";
 import { Mutex } from 'async-mutex';
 import { REPXPERT } from "../config/ApiData";
@@ -47,7 +47,7 @@ export async function getToken(): Promise<string | null> {
   const apiContext = await request.newContext();
   const requestURL = REPXPERT.tokenRequest.URL;
   const tokenHeaders = REPXPERT.tokenRequest.headers;
-  const requestBody = new URLSearchParams(REPXPERT.tokenRequest.requestBody).toString();
+  const requestBody = new URLSearchParams(REPXPERT.tokenRequest.body).toString();
 
   const tokenResponse = await apiContext.post(requestURL, {
     headers: tokenHeaders,

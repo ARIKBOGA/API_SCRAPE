@@ -4,7 +4,7 @@ import path from "path";
 import fs from "fs";
 
 import { processProductFor_CrossNumbers, processProductFor_OE, processProductFor_VehicleCompatibility, processProductForArticleAttributes } from "./helpers/API_Functions";
-import { referenceArray } from "../../../utils/Variables";
+import { referenceArray } from "../data/Variables";
 import { readProductReferencesFromExcel } from "../../../utils/Excel_Utils";
 import { getAuthHeaders, getEncryptedSearchCode } from "./helpers/API_Helpers";
 import { ProductReference } from "../../../utils/Types";
@@ -38,7 +38,7 @@ async function processProducts(
           (productRef) =>
             productRef.freeTextSearch.trim() !== ""
         )
-        .slice(0,1)
+        //.slice(0,1)
         .map((productRef) => limit(() => processFunction(productRef, apiContext)))
     )
   ).filter((r) => r !== null);
@@ -84,7 +84,7 @@ test("Get Article Attributes of the products", async () => {
 
 test('Get token only', async ({ request }) => {
 
-  const requestBody = new URLSearchParams(REPXPERT.tokenRequest.requestBody);
+  const requestBody = new URLSearchParams(REPXPERT.tokenRequest.body);
 
   const tokenHeaders = REPXPERT.tokenRequest.headers;
 
@@ -95,10 +95,11 @@ test('Get token only', async ({ request }) => {
     data: requestBody.toString(),
   });
 
+  const data = await response.json();
+  console.log(data?.access_token);
 
   const encryptedCode = await getEncryptedSearchCode("4B0698151AC", "BREMBO", request);
   console.log("Encrypted Code:", encryptedCode);
-
 })
 
 

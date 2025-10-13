@@ -4,7 +4,7 @@ import path from "path";
 import { CrossNumberApiProduct, OutputManufacturer, OutputModelSeries, ProductCompatibilityResult, ProductReference } from "../../../../utils/Types";
 import { delay, getAuthHeaders, getEncryptedSearchCode, getManufacturerCodes, getmodelCodes, getTargets } from "./API_Helpers";
 import { writeToFileIfNotExistsProducts } from "../../../../utils/outOfScopeHelpers/TextUtils";
-import { productGroupNumbersOfRepxpert } from "../../../../utils/Variables";
+import { productGroupNumbersOfRepxpert } from "../../data/Variables";
 import { REFUSED } from "dns";
 import { REPXPERT } from "../config/ApiData";
 
@@ -138,22 +138,26 @@ export async function processProductFor_CrossNumbers(element: ProductReference, 
   let currentPage = 0, totalPages = 1;
   const products: any[] = [];
   const MAX_PAGES = 5;
+  const URL = REPXPERT.getCrossNumbersURL(freeTextSearch);
+  let returnedFreeTextSearch;
 
   do {
-    const URL = REPXPERT.getCrossNumbersURL(freeTextSearch);
-
     try {
       const data = await fetchWithRetry(apiContext, URL);
       if (!data?.products) break;
       products.push(...data.products);
       totalPages = data.pagination?.totalPages ?? 1;
+      returnedFreeTextSearch = data.freeTextSearch;
+      if (returnedFreeTextSearch?.toLowerCase() !== freeTextSearch.toLowerCase()) {
+        console.warn(`Warning: Search term mismatch. Expected: ${freeTextSearch}, Got: ${returnedFreeTextSearch}`);
+      }
     } catch (error) {
       console.error(`Sorgu başarısız: ${freeTextSearch}`, error);
       break;
     }
-
     currentPage++;
     await delay(500);
+
   } while (currentPage < totalPages && currentPage < MAX_PAGES);
 
   const crossNumbers = products.map(p => ({
@@ -164,7 +168,7 @@ export async function processProductFor_CrossNumbers(element: ProductReference, 
     ApiCode: p.code ?? ""
   } as CrossNumberApiProduct));
 
-  return { yvNo, OE: freeTextSearch, crossNumbers };
+  return { yvNo, OE: returnedFreeTextSearch, crossNumbers };
 }
 
 
@@ -182,30 +186,29 @@ export async function processProductForArticleAttributes(element: ProductReferen
   try {
     // 1️⃣ Encrypted Search Code alma
     const encryptedSearchCode = await getEncryptedSearchCode(crossNumber, supplier, apiContext);
-
+    if (!encryptedSearchCode) {
+      console.warn(`No encrypted search code found for ${crossNumber} - YV: ${yvNo}, Brand: ${supplier} - Product couldn't be found !!!`);
+      return null;
+    }
     // 2️⃣ Article Attributes alma
-    const part_1 = process.env.ARTICLE_ATTRIBUTES_URL_1 as string;
-    const part_2 = process.env.ARTICLE_ATTRIBUTES_URL_2 as string;
-    const URL = `${part_1}${encryptedSearchCode}${part_2}`;
-
-    //console.log(headers);
+    const URL = REPXPERT.getArticleAttributesURL(encryptedSearchCode);
     const response = await apiContext.get(URL, { headers: await getAuthHeaders() });
 
+    const data = await response.json();
     const result: any = {
       yvNo,
-      crossNumber,
-      supplier: supplier,
+      crossNumber: data.catalogArticleNumber,
+      supplier: data.brand.name,
       attributes: [],
     };
 
-    const data = await response.json();
+    const features = data.classifications[0].features;
+    for (const feature of features) {
 
-    for (const element of data.classifications[0].features) {
-
-      const values = Object.values(element.featureValues.map((value: any) => value.value)).join(', ');
+      const values = Object.values(feature.featureValues.map((value: any) => value.value)).join(', ');
 
       result.attributes.push({
-        name: element.name,
+        name: feature.name,
         value: values
       });
     }

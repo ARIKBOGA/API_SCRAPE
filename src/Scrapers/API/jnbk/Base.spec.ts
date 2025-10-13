@@ -1,6 +1,6 @@
 import * as cheerio from 'cheerio';
 import { test, request } from '@playwright/test';
-import { referenceArray } from '../../../utils/Variables';
+import { referenceArray } from '../data/Variables';
 import { extractYears } from '../../../utils/Utility';
 import dotenv from "dotenv";
 import path from "path";
