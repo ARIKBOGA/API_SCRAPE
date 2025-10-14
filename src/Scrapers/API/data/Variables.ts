@@ -174,7 +174,16 @@ export const bodyTypes = [
 
 export const referenceArray: ProductReference[] = [
 
- {yvNo: "15112", supplier:"BREMBO", freeTextSearch:"1647867480"},  // BREMBO 08.A355.11
+ {yvNo: "22072", supplier:"JNBK", freeTextSearch:"RN1347V"},  
+ {yvNo: "25058", supplier:"JNBK", freeTextSearch:"RN1334V"},  
+ {yvNo: "25082", supplier:"JNBK", freeTextSearch:"RN1329V"},  
+ {yvNo: "25119", supplier:"JNBK", freeTextSearch:"RN1103V"},  
+ {yvNo: "25158", supplier:"JNBK", freeTextSearch:"RN1011V"},  
+ {yvNo: "25240", supplier:"JNBK", freeTextSearch:"RN1260V"},  
+ {yvNo: "13577", supplier:"JNBK", freeTextSearch:"RN1750V"},  
+ {yvNo: "26782", supplier:"JNBK", freeTextSearch:"RN1420V"},  
+ {yvNo: "25906", supplier:"JNBK", freeTextSearch:"RN2303V"},  
+ {yvNo: "15328CS", supplier:"JNBK", freeTextSearch:"RN1218V"},  
 
 
 

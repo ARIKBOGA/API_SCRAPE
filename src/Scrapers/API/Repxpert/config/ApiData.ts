@@ -65,3 +65,8 @@ export const REPXPERT = {
 
   getArticleAttributesURL: (encryptedSearchCode: string) => `${generalInfo.BASE_URI}${encryptedSearchCode}`
 };
+
+export const JNBK = {
+  BASE_URI: "https://www.jnbk-brakes.com/catalogue/cars",
+  
+}

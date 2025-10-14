@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Veri kazıma (scraping) ve işleme operasyonları için Node.js projesi.",
   "main": "dist/index.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "start": "node dist/index.js",
     "build": "tsc",
