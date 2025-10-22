@@ -2,7 +2,7 @@
 import fs from "fs";
 import path from "path";
 import * as ExcelJS from "exceljs";
-import { bodyTypes, brandAliases, modelAliases } from "../scrapers/api/data/Variables";
+import { bodyTypes, brandAliases, modelAliases } from "../scrapers/api/resources/Variables";
 import dotenv from 'dotenv';
 
 dotenv.config({ path: path.resolve(".env") });
