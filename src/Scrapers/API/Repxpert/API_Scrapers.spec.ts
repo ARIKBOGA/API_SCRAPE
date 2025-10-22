@@ -4,7 +4,7 @@ import path from "path";
 import fs from "fs";
 
 import { processProductFor_CrossNumbers, processProductFor_OE, processProductFor_VehicleCompatibility, processProductForArticleAttributes } from "./helpers/API_Functions";
-import { referenceArray } from "../data/Variables";
+import { referenceArray } from "../resources/Variables";
 import { readProductReferencesFromExcel } from "../../../utils/Excel_Utils";
 import { getAuthHeaders, getEncryptedSearchCode } from "./helpers/API_Helpers";
 import { ProductReference } from "../../../utils/Types";
@@ -71,7 +71,7 @@ test("Get Vehicle Compatibility for all products", async () => {
 test("Get cross numbers via given cross/OE numbers", async () => {
   test.setTimeout(20 * 60 * 1000);
   console.log(`Processing Cross Numbers for brand: ${filterBrand}`);
-  await processProducts(processProductFor_CrossNumbers, `Cross-Numbers_${productType}_${filterBrand}_${start}-${end_str}.json`, 5, "Cross-Numbers");
+  await processProducts(processProductFor_CrossNumbers, `Cross-Numbers_${productType}_${filterBrand}.json`, 5, "Cross-Numbers");
 });
 
 test("Get Article Attributes of the products", async () => {

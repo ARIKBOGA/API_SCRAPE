@@ -2,10 +2,10 @@ import fs from "fs";
 import path from "path";
 import * as XLSX from "xlsx";
 
-const filePathToRead = path.resolve(__dirname, '../resources/data/catalogInfo/excels/model_catalog.xlsx');
-const filePathToWrite = path.resolve(__dirname, '../resources/data/catalogInfo/jsons/model_catalog.json');
+const filePathToRead = path.resolve(__dirname, '../../data/catalogInfo/excels/model_catalog.xlsx');
+const filePathToWrite = path.resolve(__dirname, '../../data/catalogInfo/jsons/model_catalog.json');
 
-const convertToArrayOfObjectsJSON = (filePath: string) => {
+const convertToArrayOfObjectsJSON = (filePath: string) => { 
     // Çalışma kitabını dosyadan okuyun
     const workbook = XLSX.readFile(filePath, { cellDates: true });
 

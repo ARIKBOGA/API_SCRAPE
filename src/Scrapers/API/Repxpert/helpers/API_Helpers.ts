@@ -1,7 +1,7 @@
 import { request, APIRequestContext } from "@playwright/test";
 import dotenv from "dotenv";
 import path from "path";
-import { productGroupNumbersOfRepxpert, SUPPLIER_NUMBERS } from "../../data/Variables";
+import { productGroupNumbersOfRepxpert, SUPPLIER_NUMBERS } from "../../resources/Variables";
 import { ApiCompatibility, ApiTarget, OutputTarget } from "../../../../utils/Types";
 import { Mutex } from 'async-mutex';
 import { REPXPERT } from "../config/ApiData";

@@ -2,7 +2,8 @@ import * as XLSX from 'xlsx';
 import * as path from 'path';
 import * as fs from 'fs';
 import dotenv from 'dotenv';
-import { RootJsonData, OutputManufacturer, OutputModelSeries, OutputTarget, ProductCompatibilityResult } from '../utils/Types'; // Types dosyanızdan import edin
+import { ProductCompatibilityResult, RootJsonData, OutputManufacturer, OutputModelSeries, OutputTarget } from '../../../utils/Types';
+// Types dosyanızdan import edin
 
 dotenv.config({ path: path.resolve(".env") });
 
@@ -114,7 +115,7 @@ export function convertExcelToJson(inputFilePath: string, outputDirectory: strin
             // Hedefi ekle, aynı hedefi birden fazla kez eklememek için kontrol et
             // JSON.stringify kullanarak hedef nesnesinin benzersiz bir temsilini oluştur
             const targetKey = JSON.stringify(target);
-            if (!currentModel.targets.some(t => JSON.stringify(t) === targetKey)) {
+            if (!currentModel.targets.some((t: OutputTarget) => JSON.stringify(t) === targetKey)) {
                 currentModel.targets.push(target);
             }
         });
@@ -143,9 +144,9 @@ export function convertExcelToJson(inputFilePath: string, outputDirectory: strin
 
 function main() {
     // Giriş Excel dosyasının yolu
-    const inputFilePath = path.resolve(__dirname, `../output/${productType}/excels/marka_hareket/MARKA_HAREKET_KATALOG.xlsx`);
+    const inputFilePath = path.resolve(__dirname, `../../data/catalogInfo/excels/MARKA_HAREKET_KATALOG.xlsx`);
     // Çıkış JSON dosyasının kaydedileceği dizin
-    const outputDirectory = path.resolve(__dirname, `../output/${productType}/jsons/marka_hareket`);
+    const outputDirectory = path.resolve(__dirname, `../../data/catalogInfo/jsons`);
 
     convertExcelToJson(inputFilePath, outputDirectory);
 }

@@ -4,7 +4,7 @@ import path from "path";
 import { CrossNumberApiProduct, OutputManufacturer, OutputModelSeries, ProductCompatibilityResult, ProductReference } from "../../../../utils/Types";
 import { delay, getAuthHeaders, getEncryptedSearchCode, getManufacturerCodes, getmodelCodes, getTargets } from "./API_Helpers";
 import { writeToFileIfNotExistsProducts } from "../../../../utils/outOfScopeHelpers/TextUtils";
-import { productGroupNumbersOfRepxpert } from "../../data/Variables";
+import { productGroupNumbersOfRepxpert } from "../../resources/Variables";
 import { REFUSED } from "dns";
 import { REPXPERT } from "../config/ApiData";
 
@@ -13,48 +13,40 @@ dotenv.config({ path: path.resolve(".env") });
 const productType = process.env.PRODUCT_TYPE as string;
 
 
-export async function processProductFor_OE(element: ProductReference, apiContext: APIRequestContext): Promise<any> {
-
+export async function processProductFor_OE(
+  element: ProductReference,
+  apiContext: APIRequestContext
+): Promise<any> {
   const { yvNo, supplier, freeTextSearch } = element;
   console.log(`Processing YV: ${yvNo}, Brand: ${supplier}, Cross Number: ${freeTextSearch}`);
 
   try {
-    // 1️⃣ Encrypted Search Code alma
-    const encryptedSearchCode = await getEncryptedSearchCode( freeTextSearch, supplier, apiContext);
-
-    if(!encryptedSearchCode) {
-      console.warn(`No encrypted search code found for ${freeTextSearch} - YV: ${yvNo}, Brand: ${supplier} - Product couldn't be found !!!`);
-      await writeToFileIfNotExistsProducts(`YV: ${yvNo}, Brand: ${supplier} -  ${freeTextSearch}`);
+    const encryptedSearchCode = await getEncryptedSearchCode(freeTextSearch, supplier, apiContext);
+    if (!encryptedSearchCode) {
+      console.warn(`No encrypted search code found for ${freeTextSearch} - YV: ${yvNo}, Brand: ${supplier}`);
+      await writeToFileIfNotExistsProducts(`YV: ${yvNo}, Brand: ${supplier} - ${freeTextSearch}`);
       return null;
     }
-    const oeURL = REPXPERT.getOE_URL(encryptedSearchCode);
-    //console.log(oeURL);
 
+    const oeURL = REPXPERT.getOE_URL(encryptedSearchCode);
     const oeResp = await apiContext.get(oeURL, { headers: await getAuthHeaders() });
     const oeData = await oeResp.json();
 
-    const result: any = {
+    const result = {
       yvNo,
       crossNumber: freeTextSearch,
-      supplier: supplier,
-      oeNumbers: [],
+      supplier,
+      oeNumbers: oeData.oenumbers.map((oe: any) => ({
+        manufacturer: oe.manufacturer.name,
+        numbers: oe.numbers.map((n: any) => n.number),
+      })),
     };
 
-    oeData.oenumbers.forEach((oe: any) => {
-      const numbers = oe.numbers.map((n: any) => n.number);
-      result.oeNumbers.push({
-        manufacturer: oe.manufacturer.name,
-        numbers,
-      });
-    });
-
+    await delay(300);
     return result;
   } catch (err) {
     console.error(`Error for YV ${yvNo} : ${freeTextSearch}: ${err}`);
     return null;
-  } finally {
-    await apiContext.dispose();
-    await delay(300);
   }
 }
 
@@ -124,7 +116,7 @@ export async function processProductFor_VehicleCompatibility(element: ProductRef
     console.error(`Error for YV ${yvNo} (${freeTextSearch}): ${err}`);
     return null;
   } finally {
-    await apiContext.dispose();
+    //await apiContext.dispose();
     await delay(300);
   }
 }
@@ -219,7 +211,7 @@ export async function processProductForArticleAttributes(element: ProductReferen
     console.error(`Error for YV ${yvNo} : ${crossNumber}: ${err}`);
     return null;
   } finally {
-    await apiContext.dispose();
+    //await apiContext.dispose();
     await delay(300);
   }
 }

@@ -1,5 +1,5 @@
 import { test } from "@playwright/test";
-import { referenceArray } from "../data/Variables";
+import { referenceArray } from "../resources/Variables";
 import path from "path";
 import dotenv from "dotenv";
 import pLimit from "p-limit";

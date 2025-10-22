@@ -1,6 +1,6 @@
 import path from "path";
 import dotenv from "dotenv";
-import { productGroupNumbersOfRepxpert, SUPPLIER_NUMBERS } from "../../data/Variables";
+import { productGroupNumbersOfRepxpert, SUPPLIER_NUMBERS } from "../../resources/Variables";
 import { usernameEnvKey } from "./SystemVariables";
 
 dotenv.config({ path: path.resolve(".env") });
