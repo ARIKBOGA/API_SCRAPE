@@ -22,3 +22,6 @@ node_modules/
 
 // Scraped Files
 /src/output
+src/scrapers/**/*.xlsx
+/src/scrapers/**/*json
+/src/scrapers/**/*jsonl
