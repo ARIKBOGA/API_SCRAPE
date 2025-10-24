@@ -1,19 +1,14 @@
 import * as fs from 'fs/promises';
 import path from 'path';
 import dotenv from 'dotenv';
-import { CrossNumberJson, CrossNumberElement } from '../../utils/Types';
-import { exportToExcel } from './Scraped_CombinedCrossNumberToExcel';
+import { CrossNumberJson, CrossNumberElement, FullCrossNumberData } from '../../utils/Types';
+import ExcelJS from 'exceljs';
 
-// Yeni veri yapısını tanımla
-type FullCrossNumberData = {
-    yvNo: string;
-    oeNumbers: string[];
-    crossNumbers: CrossNumberElement[];
-};
 
 dotenv.config({ path: path.resolve(".env") });
 
 const productType = process.env.PRODUCT_TYPE as string;
+const filterBrand = process.env.FILTER_BRAND as string;
 const WORK_FOLDER_PATH = path.resolve(__dirname, `../../output/${productType}/jsons/Cross-Numbers`);
 const OUTPUT_JSON_PATH = path.resolve(__dirname, `../../output/${productType}/jsons/Cross-Numbers/Cross-Numbers_${productType}_Full_Data.json`);
 const OUTPUT_EXCEL_PATH = path.resolve(__dirname, `../../output/${productType}/excels/Cross-Numbers/${productType}_Combined_CrossNumbers.xlsx`);
@@ -21,7 +16,7 @@ const OUTPUT_EXCEL_PATH = path.resolve(__dirname, `../../output/${productType}/e
 export async function combineCrossNumberData(workFolderPath: string) {
     const fileNames = await fs.readdir(workFolderPath);
     const jsonFiles = fileNames
-        .filter((file) => file.startsWith("Cross-Numbers") && file.endsWith(".json"));
+        .filter((file) => file.startsWith(`Cross-Numbers_${productType}_${filterBrand}`) && file.endsWith(".json"));
 
 
     console.log(`Found ${jsonFiles.length} JSON files to process.`);
@@ -69,6 +64,72 @@ export async function combineCrossNumberData(workFolderPath: string) {
 
     return fullData;
 }
+
+export async function exportToExcel(data: FullCrossNumberData[], OUTPUT_EXCEL_PATH: string) {
+
+    if (!data || data.length === 0) {
+        console.warn("Excel'e yazılacak veri bulunamadı.");
+        return;
+    }
+
+    try {
+
+        const workbook = new ExcelJS.Workbook();
+        const worksheet = workbook.addWorksheet('Cross Numbers');
+
+        // Dinamik başlıkları ve crossNumbers verilerini hazırla
+        const uniqueSuppliers = new Set<string>();
+        data.forEach(row => {
+            row.crossNumbers.forEach(cn => {
+                uniqueSuppliers.add(cn.Supplier);
+            });
+        });
+
+        // Başlıkları belirle
+        const headers = ['YV', 'OE_NUMBERS', ...Array.from(uniqueSuppliers)];
+        worksheet.columns = headers.map(header => ({ header, key: header, width: 15 }));
+
+        // Excel satırlarını oluştur
+        const rows = data.map(item => {
+            const rowData: Record<string, string> = {
+                YV: item.yvNo,
+                OE_NUMBERS: Array.from(new Set(item.oeNumbers)).join(', ') // Benzersiz OE numaralarını birleştir
+            };
+
+            // CrossNumbers'ı supplier'a göre grupla
+            const groupedSuppliers = item.crossNumbers.reduce((acc, current) => {
+                const { Supplier, ArticleNumber } = current;
+                if (!acc[Supplier]) {
+                    acc[Supplier] = [];
+                }
+                acc[Supplier].push(ArticleNumber);
+                return acc;
+            }, {} as Record<string, string[]>);
+
+            // Her bir supplier için ArticleNumber'ları birleştir
+            headers.slice(2).forEach(supplier => {
+                if (groupedSuppliers[supplier]) {
+                    rowData[supplier] = Array.from(new Set(groupedSuppliers[supplier])).join(', ');
+                }
+            });
+
+            return rowData;
+        });
+
+        // Verileri çalışma sayfasına ekle
+        worksheet.addRows(rows);
+
+        // Excel dosyasını kaydet
+        await workbook.xlsx.writeFile(OUTPUT_EXCEL_PATH);
+
+        console.log(`Veri başarıyla ${OUTPUT_EXCEL_PATH} dosyasına aktarıldı.`);
+
+    } catch (error) {
+        console.error("Excel'e aktarma sırasında bir hata oluştu:", error);
+        throw error; // Hatanın yukarı taşınmasını sağla
+    }
+}
+
 
 
 async function main() {

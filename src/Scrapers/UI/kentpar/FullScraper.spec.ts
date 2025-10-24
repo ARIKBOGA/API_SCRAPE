@@ -1,5 +1,5 @@
-import { test, request, expect } from '@playwright/test';
-import fs, { link } from 'fs';
+import { test, expect } from '@playwright/test';
+import fs from 'fs';
 import path from 'path';
 import * as cheerio from 'cheerio';
 
