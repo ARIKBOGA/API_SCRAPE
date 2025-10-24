@@ -65,7 +65,7 @@ export async function getToken(): Promise<string | null> {
   return cachedToken;
 }
 
-export async function getEncryptedSearchCode( freeTextSearch: string, filterBrand: string, apiContext: APIRequestContext): Promise<string | null> {
+export async function getEncryptedSearchCode(freeTextSearch: string, filterBrand: string, apiContext: APIRequestContext): Promise<string | null> {
   try {
     const normalizedFreeTextSearch = freeTextSearch.replace(/ /g, '').trim();
     const requestURL = REPXPERT.getEncrSrcURL(normalizedFreeTextSearch, filterBrand);
@@ -84,45 +84,62 @@ export async function getEncryptedSearchCode( freeTextSearch: string, filterBran
   }
 }
 
-export async function getManufacturerCodes(encryptedSearchCode: string,apiContext: APIRequestContext): Promise<ApiCompatibility[]> {
+export async function getManufacturerCodes(encryptedSearchCode: string, apiContext: APIRequestContext): Promise<ApiCompatibility[]> {
 
-  const requestURL = REPXPERT.getManufacturersURL(encryptedSearchCode);
-  //console.log(`MANUFACTURERS URL: ${requestURL}`); 
+  const { passengerCarURL, commercialVehicleURL } = REPXPERT.getManufacturersURL(encryptedSearchCode);
 
-  const response = await apiContext.get(requestURL, { headers: await getAuthHeaders() });
+  const [passengerCarResponse, commercialVehicleResponse] = await Promise.all([
+    apiContext.get(passengerCarURL, { headers: await getAuthHeaders() }),
+    apiContext.get(commercialVehicleURL, { headers: await getAuthHeaders() }),
+  ]);
 
-  const jsonData = await response.json();
-  
-  return jsonData.manufacturers.map((each: ApiCompatibility) => ({ 
-    name: each.name, 
-    uuid: each.uuid 
+  const passengerCarData = (await passengerCarResponse.json()).manufacturers || [];
+  const commercialVehicleData = (await commercialVehicleResponse.json()).manufacturers || [];
+
+  const allManufacturers = [...passengerCarData, ...commercialVehicleData];
+
+  return allManufacturers.map((each: ApiCompatibility) => ({
+    name: each.name,
+    uuid: each.uuid
   }));
 }
 
-export async function getmodelCodes(encryptedSearchCode: string, apiContext: APIRequestContext, manufacturer_uuid: string ): Promise<ApiCompatibility[]> { 
+export async function getmodelCodes(encryptedSearchCode: string, apiContext: APIRequestContext, manufacturer_uuid: string): Promise<ApiCompatibility[]> {
 
-  const requestURL = REPXPERT.getModelSeriesURL(encryptedSearchCode, manufacturer_uuid);
+  const { passengerCarURL, commercialVehicleURL } = REPXPERT.getModelSeriesURL(encryptedSearchCode, manufacturer_uuid);
 
-  const response = await apiContext.get(requestURL, { headers: await getAuthHeaders() });
-  const jsonData = await response.json();
+  const [passengerCarResponse, commercialVehicleResponse] = await Promise.all([
+    apiContext.get(passengerCarURL, { headers: await getAuthHeaders() }),
+    apiContext.get(commercialVehicleURL, { headers: await getAuthHeaders() }),
+  ]);
+  const passengerCarData = (await passengerCarResponse.json()).modelSeries || [];
+  const commercialVehicleData = (await commercialVehicleResponse.json()).modelSeries || [];
 
-  return jsonData.modelSeries.map((each: ApiCompatibility) => ({
+  const allModelSeries = [...passengerCarData, ...commercialVehicleData];
+
+  return allModelSeries.map((each: ApiCompatibility) => ({
     name: each.name,
     uuid: each.uuid,
   }));
 }
 
-export async function getTargets( encryptedSearchCode: string, apiContext: APIRequestContext, model_uuid: string ): Promise<OutputTarget[]> {
-  
-  const requestURL = REPXPERT.getTargetsURL(encryptedSearchCode, model_uuid);
+export async function getTargets(encryptedSearchCode: string, apiContext: APIRequestContext, model_uuid: string): Promise<OutputTarget[]> {
 
-  const response = await apiContext.get(requestURL, { headers: await getAuthHeaders() });
-  const jsonData = await response.json();
+  const { passengerCarURL, commercialVehicleURL } = REPXPERT.getTargetsURL(encryptedSearchCode, model_uuid);
+
+  const [passengerCarResponse, commercialVehicleResponse] = await Promise.all([
+    apiContext.get(passengerCarURL, { headers: await getAuthHeaders() }),
+    apiContext.get(commercialVehicleURL, { headers: await getAuthHeaders() }),
+  ]);
+  const passengerCarData = (await passengerCarResponse.json()).targets || [];
+  const commercialVehicleData = (await commercialVehicleResponse.json()).targets || [];
+
+  const allTargets = [...passengerCarData, ...commercialVehicleData];
 
   // API'den gelen `targets` dizisini doğrudan OutputTarget tipine dönüştürerek döndürüyoruz.
   // Gerekirse burada bir dönüşüm (mapping) yapabiliriz eğer API'den gelen isimler farklıysa.
 
-  return jsonData.targets.map((target: ApiTarget) => ({
+  return allTargets.map((target: ApiTarget) => ({
     engine: target.name,
     fullName: target.fullName,
     constructionYearFrom: target.constructionYearFrom,

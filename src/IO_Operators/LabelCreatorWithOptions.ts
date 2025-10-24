@@ -10,8 +10,8 @@ dotenv.config({ path: path.resolve(".env") });
 
 const productType = process.env.PRODUCT_TYPE as string;
 
-const lineCount = 4;
-const lineLength = 49;
+const lineCount = 7;
+const lineLength = 29;
 
 const inputFilePath = path.resolve(__dirname, `../resources/data/catalogInfo/jsons/MARKA_HAREKET_KATALOG.json`);
 const outputFilePath = path.resolve(__dirname, `../output/${productType}/excels/label/${productType}_Label_WOD_${lineCount}x${lineLength}_With_Options.xlsx`);
@@ -267,7 +267,7 @@ async function processAndWriteExcel() {
             continue;
         }
 
-        const labelData = generateLabelRichText(item.compatibleVehicles, true, true); // Yıllar ve kasa tipleri dahil/hariç
+        const labelData = generateLabelRichText(item.compatibleVehicles, true, false); // Yıllar ve kasa tipleri dahil/hariç
 
         const row = worksheet.addRow([item.yvNo, item.crossNumber, { richText: labelData.richText }]);
 

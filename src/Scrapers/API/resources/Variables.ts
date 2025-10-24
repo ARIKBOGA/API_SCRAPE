@@ -55,6 +55,7 @@ export const SUPPLIER_NUMBERS: Record<string, string> = {
   STELLOX: "4595",
   SWAG: "151",
   TEXTAR: "39",
+  TRICLO: "4970",
   TRISCAN: "108",
   TRW: "161",
   VAICO: "162",
@@ -77,6 +78,7 @@ export const productGroupNumbersOfRepxpert: Record<string, string> = {
   BrakePad: "402092",
   BrakeDrum: "402106",
   BeltPulley: "101971",
+  Alternator: "301969"
 };
 
 export const excelTitles = [
@@ -176,12 +178,68 @@ export const bodyTypes = [
 
 export const referenceArray: ProductReference[] = [
 
- //{yvNo: "18436", supplier:"JNBK", freeTextSearch:"RN1623V"},  
- {yvNo: "7069010", supplier:"FAI", freeTextSearch:"FVD1131"},  
- {yvNo: "7070010", supplier:"NipoKM", freeTextSearch:"PC.MB120"},  
- {yvNo: "7071010", supplier:"CORTECO", freeTextSearch:"80000363"},  
- {yvNo: "7072010", supplier:"Schaeffler INA", freeTextSearch:"531 0551 20"},  
- {yvNo: "7073010", supplier:"Schaeffler INA", freeTextSearch:"544 0195 10"},  
+  // NEW BELTPULLEYS
+
+  { yvNo: "361519", supplier: "OE", freeTextSearch: "5WA615301" },
+  { yvNo: "361519", supplier: "OE", freeTextSearch: "5WA615301A" },
+  { yvNo: "361519", supplier: "OE", freeTextSearch: "5WA615301B" },
+  { yvNo: "361519", supplier: "OE", freeTextSearch: "5WA615301J" },
+
+  // NEW BELTPULLEYS
+  //{yvNo: "7069010", supplier:"FAI", freeTextSearch:"FVD1131"}, 
+
+  //{yvNo: "7070010", supplier:"NipoKM", freeTextSearch:"PC.MB120"},  
+  //{yvNo: "7071010", supplier:"RUVILLE", freeTextSearch:"520087"}, 
+  //{yvNo: "7072010", supplier:"Schaeffler INA", freeTextSearch:"531 0551 20"}, 
+  //{yvNo: "7073010", supplier:"RUVILLE", freeTextSearch:"520253"}, 
+  //{yvNo: "7074010", supplier:"RUVILLE", freeTextSearch:"520415"}, 
+  //{yvNo: "7075010", supplier:"RUVILLE", freeTextSearch:"520429"}, 
+  //{yvNo: "7076010", supplier:"RUVILLE", freeTextSearch:"520440"}, 
+  //{yvNo: "7077010", supplier:"RUVILLE", freeTextSearch:"520439"}, 
+  //{yvNo: "7078010", supplier:"RUVILLE", freeTextSearch:"520210"}, 
+  //{yvNo: "7079010", supplier:"RUVILLE", freeTextSearch:"520262"},
+//
+  //{yvNo: "7080010", supplier:"FEBI", freeTextSearch:"199077"},
+  //{yvNo: "7081010", supplier:"RUVILLE", freeTextSearch:"520148"}, 
+  //{yvNo: "7082010", supplier:"RUVILLE", freeTextSearch:"520428"}, 
+  //{yvNo: "7083010", supplier:"RUVILLE", freeTextSearch:"520274"}, 
+  //{yvNo: "7084010", supplier:"RUVILLE", freeTextSearch:"520112"}, 
+  //{yvNo: "7085010", supplier:"RUVILLE", freeTextSearch:"520383"}, 
+  //{yvNo: "7086010", supplier:"RUVILLE", freeTextSearch:"520291"}, 
+  //{yvNo: "7087010", supplier:"RUVILLE", freeTextSearch:"520255"}, 
+  //{yvNo: "7088010", supplier:"RUVILLE", freeTextSearch:"520413"}, 
+  //{yvNo: "7089010", supplier:"RUVILLE", freeTextSearch:"520419"}, 
+//
+  //{yvNo: "7090010", supplier:"RUVILLE", freeTextSearch:"520443"}, 
+  //{yvNo: "7091010", supplier:"RUVILLE", freeTextSearch:"520334"}, 
+  //{yvNo: "7092010", supplier:"RUVILLE", freeTextSearch:"520299"}, 
+  //{yvNo: "7093010", supplier:"RUVILLE", freeTextSearch:"520185"}, 
+  //{yvNo: "7094010", supplier:"RUVILLE", freeTextSearch:"520184"}, 
+  //{yvNo: "7095010", supplier:"RUVILLE", freeTextSearch:"520187"}, 
+  //{yvNo: "7096010", supplier:"RUVILLE", freeTextSearch:"520192"},
+  //{yvNo: "7097010", supplier:"RUVILLE", freeTextSearch:"520246"},
+  //{yvNo: "7098010", supplier:"RUVILLE", freeTextSearch:"520193"},
+  //{yvNo: "7099010", supplier:"RUVILLE", freeTextSearch:"520076"},
+//
+  //{yvNo: "7100010", supplier:"RUVILLE", freeTextSearch:"520153"},
+  //{yvNo: "7101010", supplier:"RUVILLE", freeTextSearch:"520213"},
+  //{yvNo: "7102010", supplier:"RUVILLE", freeTextSearch:"520243"},
+  //{yvNo: "7103010", supplier:"RUVILLE", freeTextSearch:"520247"},
+
+  
+
+ 
+
+
+
+
+ 
+ //{yvNo: "7069010", supplier:"FAI", freeTextSearch:"FVD1131"},  
+ //{yvNo: "7070010", supplier:"NipoKM", freeTextSearch:"PC.MB120"},  
+ //{yvNo: "7071010", supplier:"CORTECO", freeTextSearch:"80000363"},  
+ //{yvNo: "7072010", supplier:"Schaeffler INA", freeTextSearch:"531 0551 20"},  
+ //{yvNo: "7073010", supplier:"Schaeffler INA", freeTextSearch:"544 0195 10"},  
+ //{yvNo: "nada", supplier:"TRICLO", freeTextSearch:"426517"},  
 
 
 

@@ -8,7 +8,7 @@ dotenv.config({ path: path.resolve(".env") });
 const generalInfo = {
   productType: process.env.PRODUCT_TYPE as string,
   filterBrand: process.env.FILTER_BRAND as string,
-  vehicleType: "passengerCar",
+  vehicleType: ["passengerCar", "commercialVehicle"],
   BASE_URI: "https://www.repxpert.co.uk/api/Repxpert-GB/products/",
   crossNumbersPageSize: 100,
   crossNumbersCurrentPage: 0,
@@ -54,19 +54,28 @@ export const REPXPERT = {
 
   getOE_URL: (encryptedSearchCode: string) => `${generalInfo.BASE_URI}${encryptedSearchCode}/oenumbers`,
 
-  getManufacturersURL: (encryptedSearchCode: string) =>
-    `${generalInfo.BASE_URI}${encryptedSearchCode}/linkages/manufacturers?targetTypeCodes=${generalInfo.vehicleType}`,
+  getManufacturersURL: (encryptedSearchCode: string) => {
+    const passengerCarURL = `${generalInfo.BASE_URI}${encryptedSearchCode}/linkages/manufacturers?targetTypeCodes=${generalInfo.vehicleType[0]}`;
+    const commercialVehicleURL = `${generalInfo.BASE_URI}${encryptedSearchCode}/linkages/manufacturers?targetTypeCodes=${generalInfo.vehicleType[1]}`;
+    return { passengerCarURL, commercialVehicleURL };
+  },
 
-  getModelSeriesURL: (encryptedSearchCode: string, manufacturer_uuid: string) =>
-    `${generalInfo.BASE_URI}${encryptedSearchCode}/linkages/manufacturers/${manufacturer_uuid}/modelSeries?targetTypeCodes=${generalInfo.vehicleType}`,
+  getModelSeriesURL: (encryptedSearchCode: string, manufacturer_uuid: string) => {
+    const passengerCarURL = `${generalInfo.BASE_URI}${encryptedSearchCode}/linkages/manufacturers/${manufacturer_uuid}/modelSeries?targetTypeCodes=${generalInfo.vehicleType[0]}`;
+    const commercialVehicleURL = `${generalInfo.BASE_URI}${encryptedSearchCode}/linkages/manufacturers/${manufacturer_uuid}/modelSeries?targetTypeCodes=${generalInfo.vehicleType[1]}`;
+    return { passengerCarURL, commercialVehicleURL };
+  },
 
-  getTargetsURL: (encryptedSearchCode: string, model_uuid: string) =>
-    `${generalInfo.BASE_URI}${encryptedSearchCode}/linkages/modelSeries/${model_uuid}/targets?targetTypeCodes=${generalInfo.vehicleType}`,
+  getTargetsURL: (encryptedSearchCode: string, model_uuid: string) => {
+    const passengerCarURL = `${generalInfo.BASE_URI}${encryptedSearchCode}/linkages/modelSeries/${model_uuid}/targets?targetTypeCodes=${generalInfo.vehicleType[0]}`;
+    const commercialVehicleURL = `${generalInfo.BASE_URI}${encryptedSearchCode}/linkages/modelSeries/${model_uuid}/targets?targetTypeCodes=${generalInfo.vehicleType[1]}`;
+    return { passengerCarURL, commercialVehicleURL };
+  },
 
   getArticleAttributesURL: (encryptedSearchCode: string) => `${generalInfo.BASE_URI}${encryptedSearchCode}`
 };
 
 export const JNBK = {
   BASE_URI: "https://www.jnbk-brakes.com/catalogue/cars",
-  
+
 }

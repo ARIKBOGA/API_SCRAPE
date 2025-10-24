@@ -114,6 +114,13 @@ export type CrossNumberJson = {
   crossNumbers: CrossNumberElement[];
 }
 
+// JSON'dan dönüştürülen tip
+export type FullCrossNumberData = {
+    yvNo: string;
+    oeNumbers: string[];
+    crossNumbers: CrossNumberElement[];
+};
+
 export interface Model {
     name: string;
     code: string;

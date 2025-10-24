@@ -1,69 +1,70 @@
 import path from 'path';
 import xlsx from 'xlsx';
+import fs from 'fs';
 import initialMarkaData from '../../data/catalogInfo/jsons/marka_catalog.json';
+import { OutputManufacturer } from '../../../utils/Types';
 
-const SOURCE_FILE_PATH = path.resolve(__dirname, `../resources/data/catalogInfo/excels/katmarka.xlsx`);
-const OUTPUT_FILE_PATH = path.resolve(__dirname, `../output/catalogInfo/excels/createdKatMarka.xlsx`);
+const MARKA_ORIGIN_PATH = path.resolve(__dirname, '../../data/catalogInfo/jsons/MARKA_ORIGIN.json');
+const MARKA_HAREKET_PATH = path.resolve(__dirname, '../../data/catalogInfo/jsons/MARKA_HAREKET_KATALOG.json');
 
-const headers = ['yvNo', 'marka', 'marka_aciklama'];
+const MARKA_HAREKET = JSON.parse(fs.readFileSync(MARKA_HAREKET_PATH, 'utf-8'));
+const MARKA_ORIGIN = JSON.parse(fs.readFileSync(MARKA_ORIGIN_PATH, 'utf-8'));
 
-// Import Marka (Brand) data and store it in a map for easy lookup
-const markaNameToIdMap = new Map<string, number>();
-for (const [idString, name] of Object.entries(initialMarkaData)) {
-    markaNameToIdMap.set(name.trim().toUpperCase(), parseInt(idString));
+
+const OUTPUT_FILE_PATH = path.resolve(__dirname, `../../data/catalogInfo/excels/createdKatMarka.xlsx`);
+
+interface KatMarka {
+    yvNo: string;
+    marka_id: string;
+    marka: string;
+    marka_origin: string;
+    origin_code: string;
 }
 
-const createdKatMarkaMap: Map<string, Set<string>> = new Map<string, Set<string>>();
-
-export const katMarkaRows = () => {
-    const workbook = xlsx.readFile(SOURCE_FILE_PATH);
-    const worksheet = workbook.Sheets[workbook.SheetNames[0]];
-    const jsonData = xlsx.utils.sheet_to_json(worksheet);
-
-    jsonData.forEach((row: any) => {
-        const yvNo = row['yvNo']?.toString()?.trim();
-        const brand = row['marka_aciklama']?.toString()?.trim()?.toUpperCase();
-
-        if (!createdKatMarkaMap.has(yvNo)) {
-            createdKatMarkaMap.set(yvNo, new Set<string>());
-        }
-        createdKatMarkaMap.get(yvNo)?.add(brand);
-    });;
+function getMarkaOrigin(marka: string): string {
+    const markaOrigin = MARKA_ORIGIN.find((item: any) => item.MARKA === marka);
+    return markaOrigin?.["MENŞE ÜLKE (ORTAKLIK)"] || "";
 }
 
-
-export function serializeCreatedKatMarkaMap(): Record<string, string[]> {
-    const serializedMap: Record<string, string[]> = {};
-
-    createdKatMarkaMap.forEach((brands, yvNo) => {
-        serializedMap[yvNo] = Array.from(brands);
-    });
-
-    return serializedMap;
+function getOriginCode(marka: string): string {
+    const markaOrigin = MARKA_ORIGIN.find((item: any) => item.MARKA === marka);
+    return markaOrigin?.["ÜLKE KODU (ORTAKLIK KODU)"] || "";
 }
 
-export function writeKatMarkaMapToFile(katMarkaMap: Record<string, string[]>) {
-
-    const rows: (string | number | undefined)[][] = [];
-    const workbook = xlsx.utils.book_new();
-
-    for (const [yvNo, brands] of Object.entries(katMarkaMap)) {
-        brands.forEach(brand => {
-            const marka = markaNameToIdMap.get(brand.trim().toUpperCase());
-            rows.push([yvNo, marka, brand]);
-        })
+function getMarkaId(marka: string): string {
+    // Import Marka (Brand) data and store it in a map for easy lookup
+    const markaNameToIdMap = new Map<string, number>();
+    for (const [idString, name] of Object.entries(initialMarkaData)) {
+        markaNameToIdMap.set(name.trim().toUpperCase(), parseInt(idString));
     }
-    const worksheet = xlsx.utils.aoa_to_sheet([headers, ...rows]);
-    xlsx.utils.book_append_sheet(workbook, worksheet, 'KatMarka');
-    xlsx.writeFile(workbook, OUTPUT_FILE_PATH);
+
+    return markaNameToIdMap.get(marka.trim().toUpperCase())?.toString() || "";
 }
 
+function main() {
 
-export function main() {
+    const rowData: KatMarka[] = [];
 
-    katMarkaRows();
-    const serializedMap = serializeCreatedKatMarkaMap();
-    writeKatMarkaMapToFile(serializedMap);
+    for (const item of MARKA_HAREKET) {
+
+        const uniqueVehicles = Array.from(new Set(item.compatibleVehicles)) as OutputManufacturer[];
+        for (const vehicle of uniqueVehicles) {
+            rowData.push({
+                yvNo: item.yvNo,
+                marka_id: getMarkaId(vehicle.manufacturer),
+                marka: vehicle.manufacturer,
+                marka_origin: getMarkaOrigin(vehicle.manufacturer),
+                origin_code: getOriginCode(vehicle.manufacturer)
+            })
+        }
+
+    }
+
+    const wb = xlsx.utils.book_new();
+    const ws = xlsx.utils.json_to_sheet(rowData);
+    xlsx.utils.book_append_sheet(wb, ws, "KatMarka");
+    xlsx.writeFile(wb, OUTPUT_FILE_PATH);
+
 }
 
 main();
