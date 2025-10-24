@@ -1,38 +1,55 @@
 {
   "name": "api_scrape",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "oe": "ts-node src/utils/OE_Numbers_JsonToExcel.ts",
-    "compatibility": "ts-node src/utils/CompatibilitiesJsonToExcel.ts",
-    "crossNumbers": "ts-node src/utils/CrossNumbersToExcel.ts",
-    "combineCross": "ts-node src/IO_Operators/CrossNumberCombinator.ts",
-    "label": "ts-node src/utils/LabelCreator.ts",
-    "marka_hareket": "ts-node src/utils/Marka_Hareket_ExcelToJson.ts"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "description": "Veri kazıma (scraping) ve işleme operasyonları için Node.js projesi.",
+  "main": "dist/index.js",
   "type": "commonjs",
-  "devDependencies": {
-    "@playwright/test": "^1.53.1",
-    "@types/exceljs": "^0.5.3",
-    "@types/node": "^24.0.3",
-    "@types/p-limit": "^2.1.0",
-    "@types/xlsx": "^0.0.35",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "test": "playwright test",
+    
+    "oe": "npm run build && node dist/utils/OE_Numbers_JsonToExcel.js",
+    "compatibility": "npm run build && node dist/utils/CompatibilitiesJsonToExcel.js",
+    "crossNumbers": "npm run build && node dist/utils/CrossNumbersToExcel.js",
+    "combineCross": "npm run build && node dist/IO_Operators/CrossNumberCombinator.js",
+    "label": "npm run build && node dist/utils/LabelCreator.js",
+    "marka_hareket": "npm run build && node dist/utils/Marka_Hareket_ExcelToJson.js",
+    
+    "ts:oe": "ts-node src/utils/OE_Numbers_JsonToExcel.ts",
+    "ts:compatibility": "ts-node src/utils/CompatibilitiesJsonToExcel.ts",
+    "ts:crossNumbers": "ts-node src/utils/CrossNumbersToExcel.ts",
+    "ts:combineCross": "ts-node src/IO_Operators/CrossNumberCombinator.ts",
+    "ts:label": "ts-node src/utils/LabelCreator.ts",
+    "ts:marka_hareket": "ts-node src/utils/Marka_Hareket_ExcelToJson.ts"
+  },
+  "keywords": [
+    "typescript",
+    "nodejs",
+    "playwright",
+    "excel",
+    "data-processing",
+    "scraping"
+  ],
+  "author": "IT Department",
+  "license": "ISC",
+  "dependencies": {
+    "async-mutex": "^0.5.0",
     "cheerio": "^1.1.2",
     "docx": "^9.5.1",
     "dotenv": "^16.5.0",
-    "locale-enum": "^1.1.1",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.8.3"
-  },
-  "dependencies": {
-    "@types/dotenv": "^6.1.1",
-    "async-mutex": "^0.5.0",
     "exceljs": "^4.4.0",
+    "locale-enum": "^1.1.1",
     "p-limit": "^6.2.0",
     "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.53.1",
+    "@types/cheerio": "^0.22.35",
+    "@types/node": "^20.14.9",
+    "@types/p-limit": "^2.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
   }
 }

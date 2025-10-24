@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import * as ExcelJS from "exceljs";
-import { bodyTypes, brandAliases, modelAliases } from "../utils/Variables";
+import { bodyTypes, brandAliases, modelAliases } from "../scrapers/api/resources/Variables";
 import dotenv from 'dotenv';
 import { toPascalCase } from "./helpers/Functions";
 import { ModelWithInfo } from "./helpers/Types";
@@ -10,10 +10,10 @@ dotenv.config({ path: path.resolve(".env") });
 
 const productType = process.env.PRODUCT_TYPE as string;
 
-const lineCount = 4;
-const lineLength = 48;
+const lineCount = 20;
+const lineLength = 50;
 
-const inputFilePath = path.resolve(__dirname, `../output/${productType}/jsons/marka_hareket/MARKA_HAREKET_KATALOG.json`);
+const inputFilePath = path.resolve(__dirname, `../resources/data/catalogInfo/jsons/MARKA_HAREKET_KATALOG.json`);
 const outputFilePath = path.resolve(__dirname, `../output/${productType}/excels/label/${productType}_Label_WOD_${lineCount}x${lineLength}_With_Options.xlsx`);
 
 

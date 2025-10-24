@@ -3,7 +3,7 @@
 export type ProductReference = {
   yvNo: string;
   supplier: string;
-  crossNumber: string;
+  freeTextSearch: string;
 };
 
 // API'den gelen genel uyumluluk nesnesi (manufacturer ve model için) - Excel için doğrudan kullanılmıyor
@@ -113,6 +113,13 @@ export type CrossNumberJson = {
   OE: string;
   crossNumbers: CrossNumberElement[];
 }
+
+// JSON'dan dönüştürülen tip
+export type FullCrossNumberData = {
+    yvNo: string;
+    oeNumbers: string[];
+    crossNumbers: CrossNumberElement[];
+};
 
 export interface Model {
     name: string;

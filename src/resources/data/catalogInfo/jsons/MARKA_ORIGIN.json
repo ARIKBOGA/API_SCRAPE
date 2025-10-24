@@ -1,0 +1,702 @@
+[
+  {
+    "MARKA": "ABARTH",
+    "MENŞE ÜLKE (ORTAKLIK)": "İTALYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "IT"
+  },
+  {
+    "MARKA": "AC",
+    "MENŞE ÜLKE (ORTAKLIK)": "İNGİLTERE",
+    "ÜLKE KODU (ORTAKLIK KODU)": "UK"
+  },
+  {
+    "MARKA": "ACURA",
+    "MENŞE ÜLKE (ORTAKLIK)": "JAPONYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "JP"
+  },
+  {
+    "MARKA": "ALFA ROMEO",
+    "MENŞE ÜLKE (ORTAKLIK)": "İTALYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "IT"
+  },
+  {
+    "MARKA": "ALPINA",
+    "MENŞE ÜLKE (ORTAKLIK)": "ALMANYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "DE"
+  },
+  {
+    "MARKA": "ALPINE",
+    "MENŞE ÜLKE (ORTAKLIK)": "FRANSA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "FR"
+  },
+  {
+    "MARKA": "ARO",
+    "MENŞE ÜLKE (ORTAKLIK)": "ROMANYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "RO"
+  },
+  {
+    "MARKA": "ASIA MOTORS",
+    "MENŞE ÜLKE (ORTAKLIK)": "GÜNEY KORE (ÇİN)",
+    "ÜLKE KODU (ORTAKLIK KODU)": "KR (CN)"
+  },
+  {
+    "MARKA": "ASTON MARTIN",
+    "MENŞE ÜLKE (ORTAKLIK)": "İNGİLTERE",
+    "ÜLKE KODU (ORTAKLIK KODU)": "UK"
+  },
+  {
+    "MARKA": "AUDI",
+    "MENŞE ÜLKE (ORTAKLIK)": "ALMANYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "DE"
+  },
+  {
+    "MARKA": "AUTOBIANCHI",
+    "MENŞE ÜLKE (ORTAKLIK)": "İTALYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "IT"
+  },
+  {
+    "MARKA": "BAIC",
+    "MENŞE ÜLKE (ORTAKLIK)": "ÇİN",
+    "ÜLKE KODU (ORTAKLIK KODU)": "CN"
+  },
+  {
+    "MARKA": "BEDFORD",
+    "MENŞE ÜLKE (ORTAKLIK)": "İNGİLTERE",
+    "ÜLKE KODU (ORTAKLIK KODU)": "UK"
+  },
+  {
+    "MARKA": "BENELLI",
+    "MENŞE ÜLKE (ORTAKLIK)": "İTALYA (ÇİN)",
+    "ÜLKE KODU (ORTAKLIK KODU)": "IT (CN)"
+  },
+  {
+    "MARKA": "BENTLEY",
+    "MENŞE ÜLKE (ORTAKLIK)": "İNGİLTERE (ALMANYA)",
+    "ÜLKE KODU (ORTAKLIK KODU)": "UK (DE)"
+  },
+  {
+    "MARKA": "BMC",
+    "MENŞE ÜLKE (ORTAKLIK)": "TÜRKİYE",
+    "ÜLKE KODU (ORTAKLIK KODU)": "TR"
+  },
+  {
+    "MARKA": "BMW",
+    "MENŞE ÜLKE (ORTAKLIK)": "ALMANYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "DE"
+  },
+  {
+    "MARKA": "BUICK",
+    "MENŞE ÜLKE (ORTAKLIK)": "ABD (ÇİN)",
+    "ÜLKE KODU (ORTAKLIK KODU)": "US (CN)"
+  },
+  {
+    "MARKA": "BYD",
+    "MENŞE ÜLKE (ORTAKLIK)": "ÇİN",
+    "ÜLKE KODU (ORTAKLIK KODU)": "CN"
+  },
+  {
+    "MARKA": "CADILLAC",
+    "MENŞE ÜLKE (ORTAKLIK)": "ABD",
+    "ÜLKE KODU (ORTAKLIK KODU)": "US"
+  },
+  {
+    "MARKA": "CADILLAC (GM)",
+    "MENŞE ÜLKE (ORTAKLIK)": "ABD",
+    "ÜLKE KODU (ORTAKLIK KODU)": "US"
+  },
+  {
+    "MARKA": "CADILLAC (SGM)",
+    "MENŞE ÜLKE (ORTAKLIK)": "ABD (ÇİN)",
+    "ÜLKE KODU (ORTAKLIK KODU)": "US (CN)"
+  },
+  {
+    "MARKA": "CARBODIES",
+    "MENŞE ÜLKE (ORTAKLIK)": "İNGİLTERE",
+    "ÜLKE KODU (ORTAKLIK KODU)": "UK"
+  },
+  {
+    "MARKA": "CHERY",
+    "MENŞE ÜLKE (ORTAKLIK)": "ÇİN",
+    "ÜLKE KODU (ORTAKLIK KODU)": "CN"
+  },
+  {
+    "MARKA": "CHEVROLET",
+    "MENŞE ÜLKE (ORTAKLIK)": "ABD",
+    "ÜLKE KODU (ORTAKLIK KODU)": "US"
+  },
+  {
+    "MARKA": "CHEVROLET (GM)",
+    "MENŞE ÜLKE (ORTAKLIK)": "ABD",
+    "ÜLKE KODU (ORTAKLIK KODU)": "US"
+  },
+  {
+    "MARKA": "CHRYSLER",
+    "MENŞE ÜLKE (ORTAKLIK)": "ABD",
+    "ÜLKE KODU (ORTAKLIK KODU)": "US"
+  },
+  {
+    "MARKA": "CITROËN",
+    "MENŞE ÜLKE (ORTAKLIK)": "FRANSA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "FR"
+  },
+  {
+    "MARKA": "CUPRA",
+    "MENŞE ÜLKE (ORTAKLIK)": "İSPANYA (ALMANYA)",
+    "ÜLKE KODU (ORTAKLIK KODU)": "ES (DE)"
+  },
+  {
+    "MARKA": "DACIA",
+    "MENŞE ÜLKE (ORTAKLIK)": "ROMANYA (FRANSA)",
+    "ÜLKE KODU (ORTAKLIK KODU)": "RO (FR)"
+  },
+  {
+    "MARKA": "DAEWOO",
+    "MENŞE ÜLKE (ORTAKLIK)": "GÜNEY KORE (ABD)",
+    "ÜLKE KODU (ORTAKLIK KODU)": "KR (US)"
+  },
+  {
+    "MARKA": "DAIHATSU",
+    "MENŞE ÜLKE (ORTAKLIK)": "JAPONYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "JP"
+  },
+  {
+    "MARKA": "DAIMLER",
+    "MENŞE ÜLKE (ORTAKLIK)": "ALMANYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "DE"
+  },
+  {
+    "MARKA": "DALLAS",
+    "MENŞE ÜLKE (ORTAKLIK)": "ABD",
+    "ÜLKE KODU (ORTAKLIK KODU)": "US"
+  },
+  {
+    "MARKA": "DFM",
+    "MENŞE ÜLKE (ORTAKLIK)": "ÇİN",
+    "ÜLKE KODU (ORTAKLIK KODU)": "CN"
+  },
+  {
+    "MARKA": "DFSK",
+    "MENŞE ÜLKE (ORTAKLIK)": "ÇİN",
+    "ÜLKE KODU (ORTAKLIK KODU)": "CN"
+  },
+  {
+    "MARKA": "DODGE",
+    "MENŞE ÜLKE (ORTAKLIK)": "ABD",
+    "ÜLKE KODU (ORTAKLIK KODU)": "US"
+  },
+  {
+    "MARKA": "DS",
+    "MENŞE ÜLKE (ORTAKLIK)": "FRANSA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "FR"
+  },
+  {
+    "MARKA": "DS (CAPSA)",
+    "MENŞE ÜLKE (ORTAKLIK)": "FRANSA (ÇİN)",
+    "ÜLKE KODU (ORTAKLIK KODU)": "FR (CN)"
+  },
+  {
+    "MARKA": "EUNOS",
+    "MENŞE ÜLKE (ORTAKLIK)": "JAPONYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "JP"
+  },
+  {
+    "MARKA": "EXEED (CHERY)",
+    "MENŞE ÜLKE (ORTAKLIK)": "ÇİN",
+    "ÜLKE KODU (ORTAKLIK KODU)": "CN"
+  },
+  {
+    "MARKA": "FERRARI",
+    "MENŞE ÜLKE (ORTAKLIK)": "İTALYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "IT"
+  },
+  {
+    "MARKA": "FIAT",
+    "MENŞE ÜLKE (ORTAKLIK)": "İTALYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "IT"
+  },
+  {
+    "MARKA": "FORD",
+    "MENŞE ÜLKE (ORTAKLIK)": "ABD",
+    "ÜLKE KODU (ORTAKLIK KODU)": "US"
+  },
+  {
+    "MARKA": "FORD OTOSAN",
+    "MENŞE ÜLKE (ORTAKLIK)": "TÜRKİYE (ABD)",
+    "ÜLKE KODU (ORTAKLIK KODU)": "TR (US)"
+  },
+  {
+    "MARKA": "FORD USA",
+    "MENŞE ÜLKE (ORTAKLIK)": "ABD",
+    "ÜLKE KODU (ORTAKLIK KODU)": "US"
+  },
+  {
+    "MARKA": "FSO",
+    "MENŞE ÜLKE (ORTAKLIK)": "POLONYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "PL"
+  },
+  {
+    "MARKA": "GAZ",
+    "MENŞE ÜLKE (ORTAKLIK)": "RUSYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "RU"
+  },
+  {
+    "MARKA": "GEELY",
+    "MENŞE ÜLKE (ORTAKLIK)": "ÇİN",
+    "ÜLKE KODU (ORTAKLIK KODU)": "CN"
+  },
+  {
+    "MARKA": "GEO",
+    "MENŞE ÜLKE (ORTAKLIK)": "ABD (JAPONYA)",
+    "ÜLKE KODU (ORTAKLIK KODU)": "US (JP)"
+  },
+  {
+    "MARKA": "GMC",
+    "MENŞE ÜLKE (ORTAKLIK)": "ABD",
+    "ÜLKE KODU (ORTAKLIK KODU)": "US"
+  },
+  {
+    "MARKA": "HINO",
+    "MENŞE ÜLKE (ORTAKLIK)": "JAPONYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "JP"
+  },
+  {
+    "MARKA": "HONDA",
+    "MENŞE ÜLKE (ORTAKLIK)": "JAPONYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "JP"
+  },
+  {
+    "MARKA": "HUMMER",
+    "MENŞE ÜLKE (ORTAKLIK)": "ABD",
+    "ÜLKE KODU (ORTAKLIK KODU)": "US"
+  },
+  {
+    "MARKA": "HYUNDAI",
+    "MENŞE ÜLKE (ORTAKLIK)": "GÜNEY KORE",
+    "ÜLKE KODU (ORTAKLIK KODU)": "KR"
+  },
+  {
+    "MARKA": "INFINITI",
+    "MENŞE ÜLKE (ORTAKLIK)": "JAPONYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "JP"
+  },
+  {
+    "MARKA": "INNOCENTI",
+    "MENŞE ÜLKE (ORTAKLIK)": "İTALYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "IT"
+  },
+  {
+    "MARKA": "ISUZU",
+    "MENŞE ÜLKE (ORTAKLIK)": "JAPONYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "JP"
+  },
+  {
+    "MARKA": "IVECO",
+    "MENŞE ÜLKE (ORTAKLIK)": "İTALYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "IT"
+  },
+  {
+    "MARKA": "JAECOO",
+    "MENŞE ÜLKE (ORTAKLIK)": "ÇİN",
+    "ÜLKE KODU (ORTAKLIK KODU)": "CN"
+  },
+  {
+    "MARKA": "JAECOO (CHERY)",
+    "MENŞE ÜLKE (ORTAKLIK)": "ÇİN",
+    "ÜLKE KODU (ORTAKLIK KODU)": "CN"
+  },
+  {
+    "MARKA": "JAGUAR",
+    "MENŞE ÜLKE (ORTAKLIK)": "İNGİLTERE (HİNDİSTAN)",
+    "ÜLKE KODU (ORTAKLIK KODU)": "UK (IN)"
+  },
+  {
+    "MARKA": "JEEP",
+    "MENŞE ÜLKE (ORTAKLIK)": "ABD",
+    "ÜLKE KODU (ORTAKLIK KODU)": "US"
+  },
+  {
+    "MARKA": "KAIYI",
+    "MENŞE ÜLKE (ORTAKLIK)": "ÇİN",
+    "ÜLKE KODU (ORTAKLIK KODU)": "CN"
+  },
+  {
+    "MARKA": "KARSAN",
+    "MENŞE ÜLKE (ORTAKLIK)": "TÜRKİYE",
+    "ÜLKE KODU (ORTAKLIK KODU)": "TR"
+  },
+  {
+    "MARKA": "KG MOBILITY",
+    "MENŞE ÜLKE (ORTAKLIK)": "GÜNEY KORE",
+    "ÜLKE KODU (ORTAKLIK KODU)": "KR"
+  },
+  {
+    "MARKA": "KIA",
+    "MENŞE ÜLKE (ORTAKLIK)": "GÜNEY KORE",
+    "ÜLKE KODU (ORTAKLIK KODU)": "KR"
+  },
+  {
+    "MARKA": "LADA",
+    "MENŞE ÜLKE (ORTAKLIK)": "RUSYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "RU"
+  },
+  {
+    "MARKA": "LAMBORGHINI",
+    "MENŞE ÜLKE (ORTAKLIK)": "İTALYA (ALMANYA)",
+    "ÜLKE KODU (ORTAKLIK KODU)": "IT (DE)"
+  },
+  {
+    "MARKA": "LANCIA",
+    "MENŞE ÜLKE (ORTAKLIK)": "İTALYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "IT"
+  },
+  {
+    "MARKA": "LAND ROVER",
+    "MENŞE ÜLKE (ORTAKLIK)": "İNGİLTERE (HİNDİSTAN)",
+    "ÜLKE KODU (ORTAKLIK KODU)": "UK (IN)"
+  },
+  {
+    "MARKA": "LAND ROVER (CHERY)",
+    "MENŞE ÜLKE (ORTAKLIK)": "İNGİLTERE (ÇİN)",
+    "ÜLKE KODU (ORTAKLIK KODU)": "UK (CN)"
+  },
+  {
+    "MARKA": "LANDWIND (JMC)",
+    "MENŞE ÜLKE (ORTAKLIK)": "ÇİN",
+    "ÜLKE KODU (ORTAKLIK KODU)": "CN"
+  },
+  {
+    "MARKA": "LDV",
+    "MENŞE ÜLKE (ORTAKLIK)": "İNGİLTERE (ÇİN)",
+    "ÜLKE KODU (ORTAKLIK KODU)": "UK (CN)"
+  },
+  {
+    "MARKA": "LEXUS",
+    "MENŞE ÜLKE (ORTAKLIK)": "JAPONYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "JP"
+  },
+  {
+    "MARKA": "LIFAN",
+    "MENŞE ÜLKE (ORTAKLIK)": "ÇİN",
+    "ÜLKE KODU (ORTAKLIK KODU)": "CN"
+  },
+  {
+    "MARKA": "LINCOLN",
+    "MENŞE ÜLKE (ORTAKLIK)": "ABD",
+    "ÜLKE KODU (ORTAKLIK KODU)": "US"
+  },
+  {
+    "MARKA": "LOTUS",
+    "MENŞE ÜLKE (ORTAKLIK)": "İNGİLTERE (ÇİN)",
+    "ÜLKE KODU (ORTAKLIK KODU)": "UK (CN)"
+  },
+  {
+    "MARKA": "LTI",
+    "MENŞE ÜLKE (ORTAKLIK)": "İNGİLTERE",
+    "ÜLKE KODU (ORTAKLIK KODU)": "UK"
+  },
+  {
+    "MARKA": "LYNK & CO",
+    "MENŞE ÜLKE (ORTAKLIK)": "ÇİN",
+    "ÜLKE KODU (ORTAKLIK KODU)": "CN"
+  },
+  {
+    "MARKA": "MAHINDRA",
+    "MENŞE ÜLKE (ORTAKLIK)": "HİNDİSTAN",
+    "ÜLKE KODU (ORTAKLIK KODU)": "IN"
+  },
+  {
+    "MARKA": "MAN",
+    "MENŞE ÜLKE (ORTAKLIK)": "ALMANYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "DE"
+  },
+  {
+    "MARKA": "MASERATI",
+    "MENŞE ÜLKE (ORTAKLIK)": "İTALYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "IT"
+  },
+  {
+    "MARKA": "MAXUS",
+    "MENŞE ÜLKE (ORTAKLIK)": "ÇİN",
+    "ÜLKE KODU (ORTAKLIK KODU)": "CN"
+  },
+  {
+    "MARKA": "MAZDA",
+    "MENŞE ÜLKE (ORTAKLIK)": "JAPONYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "JP"
+  },
+  {
+    "MARKA": "MAZDA (CHANGAN)",
+    "MENŞE ÜLKE (ORTAKLIK)": "JAPONYA (ÇİN)",
+    "ÜLKE KODU (ORTAKLIK KODU)": "JP (CN)"
+  },
+  {
+    "MARKA": "MEGA",
+    "MENŞE ÜLKE (ORTAKLIK)": "FRANSA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "FR"
+  },
+  {
+    "MARKA": "MERCEDES-BENZ",
+    "MENŞE ÜLKE (ORTAKLIK)": "ALMANYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "DE"
+  },
+  {
+    "MARKA": "MG",
+    "MENŞE ÜLKE (ORTAKLIK)": "ÇİN (İNGİLTERE)",
+    "ÜLKE KODU (ORTAKLIK KODU)": "CN (UK)"
+  },
+  {
+    "MARKA": "MINI",
+    "MENŞE ÜLKE (ORTAKLIK)": "İNGİLTERE (ALMANYA)",
+    "ÜLKE KODU (ORTAKLIK KODU)": "UK (DE)"
+  },
+  {
+    "MARKA": "MITSUBISHI",
+    "MENŞE ÜLKE (ORTAKLIK)": "JAPONYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "JP"
+  },
+  {
+    "MARKA": "MOSKVICH",
+    "MENŞE ÜLKE (ORTAKLIK)": "RUSYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "RU"
+  },
+  {
+    "MARKA": "NISSAN",
+    "MENŞE ÜLKE (ORTAKLIK)": "JAPONYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "JP"
+  },
+  {
+    "MARKA": "NISSAN (DFAC)",
+    "MENŞE ÜLKE (ORTAKLIK)": "JAPONYA (ÇİN)",
+    "ÜLKE KODU (ORTAKLIK KODU)": "JP (CN)"
+  },
+  {
+    "MARKA": "OLTCIT",
+    "MENŞE ÜLKE (ORTAKLIK)": "ROMANYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "RO"
+  },
+  {
+    "MARKA": "OMODA",
+    "MENŞE ÜLKE (ORTAKLIK)": "ÇİN",
+    "ÜLKE KODU (ORTAKLIK KODU)": "CN"
+  },
+  {
+    "MARKA": "OMODA (CHERY)",
+    "MENŞE ÜLKE (ORTAKLIK)": "ÇİN",
+    "ÜLKE KODU (ORTAKLIK KODU)": "CN"
+  },
+  {
+    "MARKA": "OPEL",
+    "MENŞE ÜLKE (ORTAKLIK)": "ALMANYA (FRANSA)",
+    "ÜLKE KODU (ORTAKLIK KODU)": "DE (FR)"
+  },
+  {
+    "MARKA": "OTOKAR",
+    "MENŞE ÜLKE (ORTAKLIK)": "TÜRKİYE",
+    "ÜLKE KODU (ORTAKLIK KODU)": "TR"
+  },
+  {
+    "MARKA": "PANTHER",
+    "MENŞE ÜLKE (ORTAKLIK)": "İNGİLTERE",
+    "ÜLKE KODU (ORTAKLIK KODU)": "UK"
+  },
+  {
+    "MARKA": "PERODUA",
+    "MENŞE ÜLKE (ORTAKLIK)": "MALEZYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "MY"
+  },
+  {
+    "MARKA": "PEUGEOT",
+    "MENŞE ÜLKE (ORTAKLIK)": "FRANSA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "FR"
+  },
+  {
+    "MARKA": "PEUGEOT (DF-PSA)",
+    "MENŞE ÜLKE (ORTAKLIK)": "FRANSA (ÇİN)",
+    "ÜLKE KODU (ORTAKLIK KODU)": "FR (CN)"
+  },
+  {
+    "MARKA": "PIAGGIO",
+    "MENŞE ÜLKE (ORTAKLIK)": "İTALYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "IT"
+  },
+  {
+    "MARKA": "PININFARINA",
+    "MENŞE ÜLKE (ORTAKLIK)": "İTALYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "IT"
+  },
+  {
+    "MARKA": "POLESTAR",
+    "MENŞE ÜLKE (ORTAKLIK)": "İSVEÇ (ÇİN)",
+    "ÜLKE KODU (ORTAKLIK KODU)": "SE (CN)"
+  },
+  {
+    "MARKA": "PORSCHE",
+    "MENŞE ÜLKE (ORTAKLIK)": "ALMANYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "DE"
+  },
+  {
+    "MARKA": "PROTON",
+    "MENŞE ÜLKE (ORTAKLIK)": "MALEZYA (ÇİN)",
+    "ÜLKE KODU (ORTAKLIK KODU)": "MY (CN)"
+  },
+  {
+    "MARKA": "PUCH",
+    "MENŞE ÜLKE (ORTAKLIK)": "AVUSTURYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "AT"
+  },
+  {
+    "MARKA": "RANGER",
+    "MENŞE ÜLKE (ORTAKLIK)": "ABD",
+    "ÜLKE KODU (ORTAKLIK KODU)": "US"
+  },
+  {
+    "MARKA": "RENAULT",
+    "MENŞE ÜLKE (ORTAKLIK)": "FRANSA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "FR"
+  },
+  {
+    "MARKA": "RENAULT TRUCKS",
+    "MENŞE ÜLKE (ORTAKLIK)": "FRANSA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "FR"
+  },
+  {
+    "MARKA": "ROLLS-ROYCE",
+    "MENŞE ÜLKE (ORTAKLIK)": "İNGİLTERE (ALMANYA)",
+    "ÜLKE KODU (ORTAKLIK KODU)": "UK (DE)"
+  },
+  {
+    "MARKA": "ROVER",
+    "MENŞE ÜLKE (ORTAKLIK)": "İNGİLTERE (ÇİN)",
+    "ÜLKE KODU (ORTAKLIK KODU)": "UK (CN)"
+  },
+  {
+    "MARKA": "SAAB",
+    "MENŞE ÜLKE (ORTAKLIK)": "İSVEÇ",
+    "ÜLKE KODU (ORTAKLIK KODU)": "SE"
+  },
+  {
+    "MARKA": "SANTANA",
+    "MENŞE ÜLKE (ORTAKLIK)": "İSPANYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "ES"
+  },
+  {
+    "MARKA": "SAO",
+    "MENŞE ÜLKE (ORTAKLIK)": "ÇİN",
+    "ÜLKE KODU (ORTAKLIK KODU)": "CN"
+  },
+  {
+    "MARKA": "SEAT",
+    "MENŞE ÜLKE (ORTAKLIK)": "ALMANYA (İSPANYA)",
+    "ÜLKE KODU (ORTAKLIK KODU)": "DE (ES)"
+  },
+  {
+    "MARKA": "SKODA",
+    "MENŞE ÜLKE (ORTAKLIK)": "ALMANYA (ÇEKYA)",
+    "ÜLKE KODU (ORTAKLIK KODU)": "CZ (DE)"
+  },
+  {
+    "MARKA": "SMART",
+    "MENŞE ÜLKE (ORTAKLIK)": "ALMANYA (ÇİN)",
+    "ÜLKE KODU (ORTAKLIK KODU)": "DE (CN)"
+  },
+  {
+    "MARKA": "SSANGYONG",
+    "MENŞE ÜLKE (ORTAKLIK)": "GÜNEY KORE",
+    "ÜLKE KODU (ORTAKLIK KODU)": "KR"
+  },
+  {
+    "MARKA": "STREETSCOOTER",
+    "MENŞE ÜLKE (ORTAKLIK)": "ALMANYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "DE"
+  },
+  {
+    "MARKA": "SUBARU",
+    "MENŞE ÜLKE (ORTAKLIK)": "JAPONYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "JP"
+  },
+  {
+    "MARKA": "SUZUKI",
+    "MENŞE ÜLKE (ORTAKLIK)": "JAPONYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "JP"
+  },
+  {
+    "MARKA": "TALBOT",
+    "MENŞE ÜLKE (ORTAKLIK)": "FRANSA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "FR"
+  },
+  {
+    "MARKA": "TATA",
+    "MENŞE ÜLKE (ORTAKLIK)": "HİNDİSTAN",
+    "ÜLKE KODU (ORTAKLIK KODU)": "IN"
+  },
+  {
+    "MARKA": "TESLA",
+    "MENŞE ÜLKE (ORTAKLIK)": "ABD",
+    "ÜLKE KODU (ORTAKLIK KODU)": "US"
+  },
+  {
+    "MARKA": "TOFAS",
+    "MENŞE ÜLKE (ORTAKLIK)": "TÜRKİYE (İTALYA)",
+    "ÜLKE KODU (ORTAKLIK KODU)": "TR (IT)"
+  },
+  {
+    "MARKA": "TOGG",
+    "MENŞE ÜLKE (ORTAKLIK)": "TÜRKİYE",
+    "ÜLKE KODU (ORTAKLIK KODU)": "TR"
+  },
+  {
+    "MARKA": "TOYOTA",
+    "MENŞE ÜLKE (ORTAKLIK)": "JAPONYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "JP"
+  },
+  {
+    "MARKA": "TVR",
+    "MENŞE ÜLKE (ORTAKLIK)": "İNGİLTERE",
+    "ÜLKE KODU (ORTAKLIK KODU)": "UK"
+  },
+  {
+    "MARKA": "VAUXHALL",
+    "MENŞE ÜLKE (ORTAKLIK)": "İNGİLTERE (ALMANYA)",
+    "ÜLKE KODU (ORTAKLIK KODU)": "UK (DE)"
+  },
+  {
+    "MARKA": "VOLKSWAGEN",
+    "MENŞE ÜLKE (ORTAKLIK)": "ALMANYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "DE"
+  },
+  {
+    "MARKA": "VOLVO",
+    "MENŞE ÜLKE (ORTAKLIK)": "İSVEÇ (ÇİN)",
+    "ÜLKE KODU (ORTAKLIK KODU)": "SE (CN)"
+  },
+  {
+    "MARKA": "VW",
+    "MENŞE ÜLKE (ORTAKLIK)": "ALMANYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "DE"
+  },
+  {
+    "MARKA": "WIESMANN",
+    "MENŞE ÜLKE (ORTAKLIK)": "ALMANYA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "DE"
+  },
+  {
+    "MARKA": "XCITE",
+    "MENŞE ÜLKE (ORTAKLIK)": "ÇİN",
+    "ÜLKE KODU (ORTAKLIK KODU)": "CN"
+  },
+  {
+    "MARKA": "YUGO",
+    "MENŞE ÜLKE (ORTAKLIK)": "SIRBİSTAN",
+    "ÜLKE KODU (ORTAKLIK KODU)": "RS"
+  },
+  {
+    "MARKA": "ZASTAVA",
+    "MENŞE ÜLKE (ORTAKLIK)": "SIRBİSTAN",
+    "ÜLKE KODU (ORTAKLIK KODU)": "RS"
+  },
+  {
+    "MARKA": "ZAZ",
+    "MENŞE ÜLKE (ORTAKLIK)": "UKRAYNA",
+    "ÜLKE KODU (ORTAKLIK KODU)": "UA"
+  }
+]
