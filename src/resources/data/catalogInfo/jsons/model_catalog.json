@@ -43753,8 +43753,8 @@
     "id": 6251,
     "marka_id": 91,
     "modeller_markalar::marka": "MITSUBISHI",
-    "model": "Canter VII (FB7, FB8, FE7, FE8) ",
-    "model_Web": "Canter VII (FB7, FB8, FE7, FE8) "
+    "model": "CANTER VII (FB7_, FE7_, FB8_, FE8_)",
+    "model_Web": "CANTER VII (FB7_, FE7_, FB8_, FE8_)"
   },
   {
     "id": 6252,
@@ -70957,5 +70957,803 @@
     "modeller_markalar::marka": "DAEWOO",
     "model": "LUBLIN II Pianale piatto/Telaio",
     "model_Web": "LUBLIN II Pianale piatto/Telaio"
+  },
+  {
+    "id": 10138,
+    "marka_id": 134,
+    "modeller_markalar::marka": "VW",
+    "model": "POLO V Hatchback Van (6R1, 6C1)",
+    "model_Web": "POLO V Hatchback Van (6R1, 6C1)"
+  },
+  {
+    "id": 10139,
+    "marka_id": 28,
+    "modeller_markalar::marka": "CITROËN",
+    "model": "C3 AIRCROSS I (2R_, 2C_)",
+    "model_Web": "C3 AIRCROSS I (2R_, 2C_)"
+  },
+  {
+    "id": 10140,
+    "marka_id": 10,
+    "modeller_markalar::marka": "AUDI",
+    "model": "Q3 (FJB)",
+    "model_Web": "Q3 (FJB)"
+  },
+  {
+    "id": 10141,
+    "marka_id": 55,
+    "modeller_markalar::marka": "HYUNDAI",
+    "model": "H100 Truck",
+    "model_Web": "H100 Truck"
+  },
+  {
+    "id": 10142,
+    "marka_id": 55,
+    "modeller_markalar::marka": "HYUNDAI",
+    "model": "PORTER",
+    "model_Web": "PORTER"
+  },
+  {
+    "id": 10143,
+    "marka_id": 67,
+    "modeller_markalar::marka": "KIA",
+    "model": "BONGO Frontier",
+    "model_Web": "BONGO Frontier"
+  },
+  {
+    "id": 10144,
+    "marka_id": 67,
+    "modeller_markalar::marka": "KIA",
+    "model": "K2500",
+    "model_Web": "K2500"
+  },
+  {
+    "id": 10145,
+    "marka_id": 37,
+    "modeller_markalar::marka": "DODGE",
+    "model": "DURANGO",
+    "model_Web": "DURANGO"
+  },
+  {
+    "id": 10146,
+    "marka_id": 37,
+    "modeller_markalar::marka": "DODGE",
+    "model": "RAM 1500",
+    "model_Web": "RAM 1500"
+  },
+  {
+    "id": 10147,
+    "marka_id": 140,
+    "modeller_markalar::marka": "RAM",
+    "model": "1500",
+    "model_Web": "1500"
+  },
+  {
+    "id": 10148,
+    "marka_id": 75,
+    "modeller_markalar::marka": "LEXUS",
+    "model": "ES240",
+    "model_Web": "ES240"
+  },
+  {
+    "id": 10149,
+    "marka_id": 75,
+    "modeller_markalar::marka": "LEXUS",
+    "model": "ES350",
+    "model_Web": "ES350"
+  },
+  {
+    "id": 10150,
+    "marka_id": 130,
+    "modeller_markalar::marka": "TOYOTA",
+    "model": "AVALON",
+    "model_Web": "AVALON"
+  },
+  {
+    "id": 10151,
+    "marka_id": 130,
+    "modeller_markalar::marka": "TOYOTA",
+    "model": "CAMRY",
+    "model_Web": "CAMRY"
+  },
+  {
+    "id": 10152,
+    "marka_id": 130,
+    "modeller_markalar::marka": "TOYOTA",
+    "model": "CAMRY/AURION",
+    "model_Web": "CAMRY/AURION"
+  },
+  {
+    "id": 10153,
+    "marka_id": 141,
+    "modeller_markalar::marka": "PONTIAC",
+    "model": "VIBE I",
+    "model_Web": "VIBE I"
+  },
+  {
+    "id": 10154,
+    "marka_id": 130,
+    "modeller_markalar::marka": "TOYOTA",
+    "model": "ALLION",
+    "model_Web": "ALLION"
+  },
+  {
+    "id": 10155,
+    "marka_id": 130,
+    "modeller_markalar::marka": "TOYOTA",
+    "model": "CALDINA",
+    "model_Web": "CALDINA"
+  },
+  {
+    "id": 10156,
+    "marka_id": 130,
+    "modeller_markalar::marka": "TOYOTA",
+    "model": "CELICA",
+    "model_Web": "CELICA"
+  },
+  {
+    "id": 10157,
+    "marka_id": 130,
+    "modeller_markalar::marka": "TOYOTA",
+    "model": "COROLLA",
+    "model_Web": "COROLLA"
+  },
+  {
+    "id": 10158,
+    "marka_id": 130,
+    "modeller_markalar::marka": "TOYOTA",
+    "model": "MATRIX",
+    "model_Web": "MATRIX"
+  },
+  {
+    "id": 10159,
+    "marka_id": 130,
+    "modeller_markalar::marka": "TOYOTA",
+    "model": "OPA",
+    "model_Web": "OPA"
+  },
+  {
+    "id": 10160,
+    "marka_id": 130,
+    "modeller_markalar::marka": "TOYOTA",
+    "model": "SCION TC",
+    "model_Web": "SCION TC"
+  },
+  {
+    "id": 10161,
+    "marka_id": 130,
+    "modeller_markalar::marka": "TOYOTA",
+    "model": "VOLTZ",
+    "model_Web": "VOLTZ"
+  },
+  {
+    "id": 10162,
+    "marka_id": 130,
+    "modeller_markalar::marka": "TOYOTA",
+    "model": "WILL VS",
+    "model_Web": "WILL VS"
+  },
+  {
+    "id": 10163,
+    "marka_id": 75,
+    "modeller_markalar::marka": "LEXUS",
+    "model": "ES200",
+    "model_Web": "ES200"
+  },
+  {
+    "id": 10164,
+    "marka_id": 75,
+    "modeller_markalar::marka": "LEXUS",
+    "model": "ES250",
+    "model_Web": "ES250"
+  },
+  {
+    "id": 10165,
+    "marka_id": 75,
+    "modeller_markalar::marka": "LEXUS",
+    "model": "ES300H",
+    "model_Web": "ES300H"
+  },
+  {
+    "id": 10166,
+    "marka_id": 75,
+    "modeller_markalar::marka": "LEXUS",
+    "model": "ES350",
+    "model_Web": "ES350"
+  },
+  {
+    "id": 10167,
+    "marka_id": 130,
+    "modeller_markalar::marka": "TOYOTA",
+    "model": "AVALON",
+    "model_Web": "AVALON"
+  },
+  {
+    "id": 10168,
+    "marka_id": 130,
+    "modeller_markalar::marka": "TOYOTA",
+    "model": "CAMRY",
+    "model_Web": "CAMRY"
+  },
+  {
+    "id": 10169,
+    "marka_id": 44,
+    "modeller_markalar::marka": "FORD",
+    "model": "EXPEDITION",
+    "model_Web": "EXPEDITION"
+  },
+  {
+    "id": 10170,
+    "marka_id": 44,
+    "modeller_markalar::marka": "FORD",
+    "model": "F-150",
+    "model_Web": "F-150"
+  },
+  {
+    "id": 10171,
+    "marka_id": 44,
+    "modeller_markalar::marka": "FORD",
+    "model": "F-150 SVT RAPTOR",
+    "model_Web": "F-150 SVT RAPTOR"
+  },
+  {
+    "id": 10172,
+    "marka_id": 77,
+    "modeller_markalar::marka": "LINCOLN",
+    "model": "NAVIGATOR",
+    "model_Web": "NAVIGATOR"
+  },
+  {
+    "id": 10173,
+    "marka_id": 75,
+    "modeller_markalar::marka": "LEXUS",
+    "model": "RX270",
+    "model_Web": "RX270"
+  },
+  {
+    "id": 10174,
+    "marka_id": 75,
+    "modeller_markalar::marka": "LEXUS",
+    "model": "RX350",
+    "model_Web": "RX350"
+  },
+  {
+    "id": 10175,
+    "marka_id": 75,
+    "modeller_markalar::marka": "LEXUS",
+    "model": "RX450H",
+    "model_Web": "RX450H"
+  },
+  {
+    "id": 10176,
+    "marka_id": 130,
+    "modeller_markalar::marka": "TOYOTA",
+    "model": "HIGHLANDER",
+    "model_Web": "HIGHLANDER"
+  },
+  {
+    "id": 10177,
+    "marka_id": 130,
+    "modeller_markalar::marka": "TOYOTA",
+    "model": "KLUGER",
+    "model_Web": "KLUGER"
+  },
+  {
+    "id": 10178,
+    "marka_id": 130,
+    "modeller_markalar::marka": "TOYOTA",
+    "model": "SIENNA",
+    "model_Web": "SIENNA"
+  },
+  {
+    "id": 10179,
+    "marka_id": 130,
+    "modeller_markalar::marka": "TOYOTA",
+    "model": "HIGHLANDER",
+    "model_Web": "HIGHLANDER"
+  },
+  {
+    "id": 10180,
+    "marka_id": 27,
+    "modeller_markalar::marka": "CHRYSLER",
+    "model": "TOWN & COUNTRY",
+    "model_Web": "TOWN & COUNTRY"
+  },
+  {
+    "id": 10181,
+    "marka_id": 37,
+    "modeller_markalar::marka": "DODGE",
+    "model": "JOURNEY",
+    "model_Web": "JOURNEY"
+  },
+  {
+    "id": 10182,
+    "marka_id": 43,
+    "modeller_markalar::marka": "FIAT",
+    "model": "FREEMONT",
+    "model_Web": "FREEMONT"
+  },
+  {
+    "id": 10184,
+    "marka_id": 75,
+    "modeller_markalar::marka": "LEXUS",
+    "model": "LX450D",
+    "model_Web": "LX450D"
+  },
+  {
+    "id": 10185,
+    "marka_id": 130,
+    "modeller_markalar::marka": "TOYOTA",
+    "model": "LAND CRUISER 200",
+    "model_Web": "LAND CRUISER 200"
+  },
+  {
+    "id": 10186,
+    "marka_id": 130,
+    "modeller_markalar::marka": "TOYOTA",
+    "model": "SEQUOIA",
+    "model_Web": "SEQUOIA"
+  },
+  {
+    "id": 10187,
+    "marka_id": 130,
+    "modeller_markalar::marka": "TOYOTA",
+    "model": "TUNDRA",
+    "model_Web": "TUNDRA"
+  },
+  {
+    "id": 10188,
+    "marka_id": 46,
+    "modeller_markalar::marka": "FORD USA",
+    "model": "FUSION",
+    "model_Web": "FUSION"
+  },
+  {
+    "id": 10189,
+    "marka_id": 85,
+    "modeller_markalar::marka": "MAZDA",
+    "model": "MAZDA 6",
+    "model_Web": "MAZDA 6"
+  },
+  {
+    "id": 10190,
+    "marka_id": 142,
+    "modeller_markalar::marka": "MERCURY",
+    "model": "MILAN",
+    "model_Web": "MILAN"
+  },
+  {
+    "id": 10191,
+    "marka_id": 27,
+    "modeller_markalar::marka": "CHRYSLER",
+    "model": "SEBRING",
+    "model_Web": "SEBRING"
+  },
+  {
+    "id": 10192,
+    "marka_id": 63,
+    "modeller_markalar::marka": "JEEP",
+    "model": "COMPASS",
+    "model_Web": "COMPASS"
+  },
+  {
+    "id": 10193,
+    "marka_id": 63,
+    "modeller_markalar::marka": "JEEP",
+    "model": "PATRIOT",
+    "model_Web": "PATRIOT"
+  },
+  {
+    "id": 10194,
+    "marka_id": 91,
+    "modeller_markalar::marka": "MITSUBISHI",
+    "model": "GALANT FORTIS",
+    "model_Web": "GALANT FORTIS"
+  },
+  {
+    "id": 10195,
+    "marka_id": 91,
+    "modeller_markalar::marka": "MITSUBISHI",
+    "model": "LANCER",
+    "model_Web": "LANCER"
+  },
+  {
+    "id": 10196,
+    "marka_id": 91,
+    "modeller_markalar::marka": "MITSUBISHI",
+    "model": "LANCER EX",
+    "model_Web": "LANCER EX"
+  },
+  {
+    "id": 10197,
+    "marka_id": 91,
+    "modeller_markalar::marka": "MITSUBISHI",
+    "model": "LANCER SPORTBACK",
+    "model_Web": "LANCER SPORTBACK"
+  },
+  {
+    "id": 10198,
+    "marka_id": 123,
+    "modeller_markalar::marka": "SUBARU",
+    "model": "BRZ",
+    "model_Web": "BRZ"
+  },
+  {
+    "id": 10199,
+    "marka_id": 123,
+    "modeller_markalar::marka": "SUBARU",
+    "model": "EXIGA",
+    "model_Web": "EXIGA"
+  },
+  {
+    "id": 10200,
+    "marka_id": 123,
+    "modeller_markalar::marka": "SUBARU",
+    "model": "FORESTER",
+    "model_Web": "FORESTER"
+  },
+  {
+    "id": 10201,
+    "marka_id": 123,
+    "modeller_markalar::marka": "SUBARU",
+    "model": "IMPREZA",
+    "model_Web": "IMPREZA"
+  },
+  {
+    "id": 10202,
+    "marka_id": 123,
+    "modeller_markalar::marka": "SUBARU",
+    "model": "IMPREZA WRX",
+    "model_Web": "IMPREZA WRX"
+  },
+  {
+    "id": 10203,
+    "marka_id": 123,
+    "modeller_markalar::marka": "SUBARU",
+    "model": "IMPREZA WRX STI",
+    "model_Web": "IMPREZA WRX STI"
+  },
+  {
+    "id": 10204,
+    "marka_id": 123,
+    "modeller_markalar::marka": "SUBARU",
+    "model": "LEGACY",
+    "model_Web": "LEGACY"
+  },
+  {
+    "id": 10205,
+    "marka_id": 123,
+    "modeller_markalar::marka": "SUBARU",
+    "model": "LEGACY OUTBACK",
+    "model_Web": "LEGACY OUTBACK"
+  },
+  {
+    "id": 10206,
+    "marka_id": 123,
+    "modeller_markalar::marka": "SUBARU",
+    "model": "XV",
+    "model_Web": "XV"
+  },
+  {
+    "id": 10207,
+    "marka_id": 130,
+    "modeller_markalar::marka": "TOYOTA",
+    "model": "GR 86",
+    "model_Web": "GR 86"
+  },
+  {
+    "id": 10208,
+    "marka_id": 130,
+    "modeller_markalar::marka": "TOYOTA",
+    "model": "86",
+    "model_Web": "86"
+  },
+  {
+    "id": 10209,
+    "marka_id": 130,
+    "modeller_markalar::marka": "TOYOTA",
+    "model": "SCION FR-S",
+    "model_Web": "SCION FR-S"
+  },
+  {
+    "id": 10210,
+    "marka_id": 26,
+    "modeller_markalar::marka": "CHEVROLET (GM)",
+    "model": "EQUINOX",
+    "model_Web": "EQUINOX"
+  },
+  {
+    "id": 10211,
+    "marka_id": 37,
+    "modeller_markalar::marka": "DODGE",
+    "model": "RAM 3500",
+    "model_Web": "RAM 3500"
+  },
+  {
+    "id": 10212,
+    "marka_id": 140,
+    "modeller_markalar::marka": "RAM",
+    "model": "2500",
+    "model_Web": "2500"
+  },
+  {
+    "id": 10213,
+    "marka_id": 140,
+    "modeller_markalar::marka": "RAM",
+    "model": "3500",
+    "model_Web": "3500"
+  },
+  {
+    "id": 10214,
+    "marka_id": 26,
+    "modeller_markalar::marka": "CHEVROLET (GM)",
+    "model": "IMPALA",
+    "model_Web": "IMPALA"
+  },
+  {
+    "id": 10215,
+    "marka_id": 26,
+    "modeller_markalar::marka": "CHEVROLET (GM)",
+    "model": "MONTE CARLO COUPE",
+    "model_Web": "MONTE CARLO COUPE"
+  },
+  {
+    "id": 10216,
+    "marka_id": 56,
+    "modeller_markalar::marka": "INFINITI",
+    "model": "FX35",
+    "model_Web": "FX35"
+  },
+  {
+    "id": 10217,
+    "marka_id": 56,
+    "modeller_markalar::marka": "INFINITI",
+    "model": "FX37",
+    "model_Web": "FX37"
+  },
+  {
+    "id": 10218,
+    "marka_id": 56,
+    "modeller_markalar::marka": "INFINITI",
+    "model": "FX45",
+    "model_Web": "FX45"
+  },
+  {
+    "id": 10219,
+    "marka_id": 56,
+    "modeller_markalar::marka": "INFINITI",
+    "model": "M25",
+    "model_Web": "M25"
+  },
+  {
+    "id": 10220,
+    "marka_id": 56,
+    "modeller_markalar::marka": "INFINITI",
+    "model": "M30D",
+    "model_Web": "M30D"
+  },
+  {
+    "id": 10221,
+    "marka_id": 56,
+    "modeller_markalar::marka": "INFINITI",
+    "model": "Q60",
+    "model_Web": "Q60"
+  },
+  {
+    "id": 10222,
+    "marka_id": 56,
+    "modeller_markalar::marka": "INFINITI",
+    "model": "Q70",
+    "model_Web": "Q70"
+  },
+  {
+    "id": 10223,
+    "marka_id": 56,
+    "modeller_markalar::marka": "INFINITI",
+    "model": "QX60/JX",
+    "model_Web": "QX60/JX"
+  },
+  {
+    "id": 10224,
+    "marka_id": 91,
+    "modeller_markalar::marka": "MITSUBISHI",
+    "model": "DIGNITY",
+    "model_Web": "DIGNITY"
+  },
+  {
+    "id": 10225,
+    "marka_id": 91,
+    "modeller_markalar::marka": "MITSUBISHI",
+    "model": "PROUDIA",
+    "model_Web": "PROUDIA"
+  },
+  {
+    "id": 10226,
+    "marka_id": 93,
+    "modeller_markalar::marka": "NISSAN",
+    "model": "CIMA",
+    "model_Web": "CIMA"
+  },
+  {
+    "id": 10227,
+    "marka_id": 93,
+    "modeller_markalar::marka": "NISSAN",
+    "model": "ELGRAND",
+    "model_Web": "ELGRAND"
+  },
+  {
+    "id": 10228,
+    "marka_id": 93,
+    "modeller_markalar::marka": "NISSAN",
+    "model": "FUGA",
+    "model_Web": "FUGA"
+  },
+  {
+    "id": 10229,
+    "marka_id": 93,
+    "modeller_markalar::marka": "NISSAN",
+    "model": "MURANO",
+    "model_Web": "MURANO"
+  },
+  {
+    "id": 10230,
+    "marka_id": 93,
+    "modeller_markalar::marka": "NISSAN",
+    "model": "PATHFINDER",
+    "model_Web": "PATHFINDER"
+  },
+  {
+    "id": 10231,
+    "marka_id": 93,
+    "modeller_markalar::marka": "NISSAN",
+    "model": "PRESAGE",
+    "model_Web": "PRESAGE"
+  },
+  {
+    "id": 10232,
+    "marka_id": 93,
+    "modeller_markalar::marka": "NISSAN",
+    "model": "QUEST",
+    "model_Web": "QUEST"
+  },
+  {
+    "id": 10233,
+    "marka_id": 93,
+    "modeller_markalar::marka": "NISSAN",
+    "model": "SKYLINE",
+    "model_Web": "SKYLINE"
+  },
+  {
+    "id": 10234,
+    "marka_id": 93,
+    "modeller_markalar::marka": "NISSAN",
+    "model": "CUBE",
+    "model_Web": "CUBE"
+  },
+  {
+    "id": 10235,
+    "marka_id": 93,
+    "modeller_markalar::marka": "NISSAN",
+    "model": "SENTRA",
+    "model_Web": "SENTRA"
+  },
+  {
+    "id": 10236,
+    "marka_id": 93,
+    "modeller_markalar::marka": "NISSAN",
+    "model": "TIIDA SEDAN",
+    "model_Web": "TIIDA SEDAN"
+  },
+  {
+    "id": 10237,
+    "marka_id": 93,
+    "modeller_markalar::marka": "NISSAN",
+    "model": "VERSA",
+    "model_Web": "VERSA"
+  },
+  {
+    "id": 10238,
+    "marka_id": 93,
+    "modeller_markalar::marka": "NISSAN",
+    "model": "VERSA SEDAN",
+    "model_Web": "VERSA SEDAN"
+  },
+  {
+    "id": 10239,
+    "marka_id": 37,
+    "modeller_markalar::marka": "DODGE",
+    "model": "DURANGO",
+    "model_Web": "DURANGO"
+  },
+  {
+    "id": 10240,
+    "marka_id": 63,
+    "modeller_markalar::marka": "JEEP",
+    "model": "GRAND CHEROKEE",
+    "model_Web": "GRAND CHEROKEE"
+  },
+  {
+    "id": 10241,
+    "marka_id": 26,
+    "modeller_markalar::marka": "CHEVROLET (GM)",
+    "model": "EXPRESS G1500 VAN",
+    "model_Web": "EXPRESS G1500 VAN"
+  },
+  {
+    "id": 10242,
+    "marka_id": 46,
+    "modeller_markalar::marka": "FORD USA",
+    "model": "ECOSPORT",
+    "model_Web": "ECOSPORT"
+  },
+  {
+    "id": 10243,
+    "marka_id": 46,
+    "modeller_markalar::marka": "FORD USA",
+    "model": "FOCUS II",
+    "model_Web": "FOCUS II"
+  },
+  {
+    "id": 10244,
+    "marka_id": 44,
+    "modeller_markalar::marka": "FORD",
+    "model": "EDGE",
+    "model_Web": "EDGE"
+  },
+  {
+    "id": 10245,
+    "marka_id": 85,
+    "modeller_markalar::marka": "MAZDA",
+    "model": "CX-7",
+    "model_Web": "CX-7"
+  },
+  {
+    "id": 10246,
+    "marka_id": 85,
+    "modeller_markalar::marka": "MAZDA",
+    "model": "CX-9",
+    "model_Web": "CX-9"
+  },
+  {
+    "id": 10247,
+    "marka_id": 85,
+    "modeller_markalar::marka": "MAZDA",
+    "model": "MPV",
+    "model_Web": "MPV"
+  },
+  {
+    "id": 10248,
+    "marka_id": 4,
+    "modeller_markalar::marka": "ALFA ROMEO",
+    "model": "147",
+    "model_Web": "147"
+  },
+  {
+    "id": 10249,
+    "marka_id": 4,
+    "modeller_markalar::marka": "ALFA ROMEO",
+    "model": "156",
+    "model_Web": "156"
+  },
+  {
+    "id": 10250,
+    "marka_id": 4,
+    "modeller_markalar::marka": "ALFA ROMEO",
+    "model": "GT",
+    "model_Web": "GT"
+  },
+  {
+    "id": 10251,
+    "marka_id": 44,
+    "modeller_markalar::marka": "FORD",
+    "model": "EXPLORER",
+    "model_Web": "EXPLORER"
+  },
+  {
+    "id": 10252,
+    "marka_id": 44,
+    "modeller_markalar::marka": "FORD",
+    "model": "FLEX",
+    "model_Web": "FLEX"
   }
 ]

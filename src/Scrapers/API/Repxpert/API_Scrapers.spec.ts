@@ -15,7 +15,7 @@ const productType = process.env.PRODUCT_TYPE as string;
 const filterBrand = (process.env.FILTER_BRAND as string) !== "" ? process.env.FILTER_BRAND as string : "LOADED_NOT_FOUND_COMMERCIAL_REMINDER";
 
 const start = 0;
-const end: number = 600;
+const end: number = referenceArray.length;
 const end_str = end !== 0 ? end : "end";
 
 async function processProducts(
@@ -38,7 +38,7 @@ async function processProducts(
           (productRef) =>
             productRef.freeTextSearch.trim() !== ""
         )
-        //.slice(0,1)
+        .slice(start, end)
         .map((productRef) => limit(() => processFunction(productRef, apiContext)))
     )
   ).filter((r) => r !== null);
@@ -65,13 +65,13 @@ test("Get OE numbers for all products", async () => {
 test("Get Vehicle Compatibility for all products", async () => {
   test.setTimeout(20 * 60 * 1000);
   console.log(`Processing Vehicle Compatibility for brand: ${filterBrand}`);
-  await processProducts(processProductFor_VehicleCompatibility, `Vehicle-Compatibility_${filterBrand}.json`, 1, "Vehicle-Compatibility");
+  await processProducts(processProductFor_VehicleCompatibility, `Vehicle-Compatibility_${filterBrand}.json`, 2, "Vehicle-Compatibility");
 });
 
 test("Get cross numbers via given cross/OE numbers", async () => {
   test.setTimeout(20 * 60 * 1000);
   console.log(`Processing Cross Numbers for brand: ${filterBrand}`);
-  await processProducts(processProductFor_CrossNumbers, `Cross-Numbers_${productType}_${filterBrand}.json`, 5, "Cross-Numbers");
+  await processProducts(processProductFor_CrossNumbers, `Cross-Numbers_${productType}_${filterBrand}_${start}_${end_str}.json`, 5, "Cross-Numbers");
 });
 
 test("Get Article Attributes of the products", async () => {

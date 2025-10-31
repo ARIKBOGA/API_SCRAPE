@@ -698,5 +698,20 @@
     "MARKA": "ZAZ",
     "MENŞE ÜLKE (ORTAKLIK)": "UKRAYNA",
     "ÜLKE KODU (ORTAKLIK KODU)": "UA"
+  },
+  {
+    "MARKA": "RAM",
+    "MENŞE ÜLKE (ORTAKLIK)": "ABD",
+    "ÜLKE KODU (ORTAKLIK KODU)": "US"
+  },
+  {
+    "MARKA": "PONTIAC",
+    "MENŞE ÜLKE (ORTAKLIK)": "ABD",
+    "ÜLKE KODU (ORTAKLIK KODU)": "US"
+  },
+  {
+    "MARKA": "MERCURY",
+    "MENŞE ÜLKE (ORTAKLIK)": "ABD",
+    "ÜLKE KODU (ORTAKLIK KODU)": "US"
   }
 ]

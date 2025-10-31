@@ -64,6 +64,7 @@ function main() {
     const ws = xlsx.utils.json_to_sheet(rowData);
     xlsx.utils.book_append_sheet(wb, ws, "KatMarka");
     xlsx.writeFile(wb, OUTPUT_FILE_PATH);
+    console.log(`Excel dosyası oluşturuldu ==>> ${OUTPUT_FILE_PATH}`);
 
 }
 

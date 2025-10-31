@@ -126,14 +126,14 @@ export async function processForCompatibilities(freeTextSearch: string, $: cheer
 
 export async function processForArticleAttributes(freeTextSearch: string, $: cheerio.Root) {
 
-    const attributes: { [key: string]: string } = {};
+    const attributes: { name: string, value: string }[] = [];
     try {
         const selector = ".detail__specification > .d-lg-flex > .col > .str";
         $(selector).each((index, element) => {
-            const key = $(element).find(".param-title").text().replace("Ø", "").trim();
+            const name = $(element).find(".param-title").text().replace("Ø", "").trim();
             const value = $(element).find(".param-field").text().trim();
-            if (key && value) {
-                attributes[key] = value;
+            if (name && value) {
+                attributes.push({ name, value });
             }
         })
     } catch (error) {

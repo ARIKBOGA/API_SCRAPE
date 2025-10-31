@@ -87,7 +87,7 @@ export function convertJsonToExcel(inputFilePath: string, outputDirectory: strin
         // Iterate through each model series
         vehicle.models.forEach((model: OutputModelSeries) => {
           // Construct the model key and lookup the model ID
-          const modelKey = `${vehicle.manufacturer.trim().toUpperCase()}_${model.modelSeries.trim().toUpperCase()}`;
+          const modelKey = `${brandAliases.get(vehicle.manufacturer.trim().toUpperCase())||vehicle.manufacturer.trim().toUpperCase()}_${model.modelSeries.trim().toUpperCase()}`;
           const foundModelData = modelDataMap.get(modelKey);
           const model_id = foundModelData ? foundModelData.id : null;
 
