@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import * as ExcelJS from "exceljs";
-import { bodyTypes, brandAliases, modelAliases } from "../scrapers/api/resources/Variables";
+import { bodyTypes, brandAliases, modelAliases } from "../Scrapers/API/resources/Variables";
 import dotenv from 'dotenv';
 import { toPascalCase } from "./helpers/Functions";
 import { ModelWithInfo } from "./helpers/Types";

@@ -4,8 +4,6 @@ import path from "path";
 import { CrossNumberApiProduct, OutputManufacturer, OutputModelSeries, ProductCompatibilityResult, ProductReference } from "../../../../utils/Types";
 import { delay, getAuthHeaders, getEncryptedSearchCode, getManufacturerCodes, getmodelCodes, getTargets } from "./API_Helpers";
 import { writeToFileIfNotExistsProducts } from "../../../../utils/outOfScopeHelpers/TextUtils";
-import { productGroupNumbersOfRepxpert } from "../../resources/Variables";
-import { REFUSED } from "dns";
 import { REPXPERT } from "../config/ApiData";
 
 dotenv.config({ path: path.resolve(".env") });

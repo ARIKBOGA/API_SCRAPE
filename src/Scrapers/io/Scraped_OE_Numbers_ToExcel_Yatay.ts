@@ -3,7 +3,7 @@ import xlsx from "xlsx";
 import fs from 'fs'
 import dotenv from 'dotenv';
 import initialMarkaData from '../../resources/data/catalogInfo/jsons/marka_catalog.json';
-import { brandAliases } from "../api/resources/Variables";
+import { brandAliases } from "../API/resources/Variables";
 import { normalize_OE } from "../../utils/Utility";
 
 
