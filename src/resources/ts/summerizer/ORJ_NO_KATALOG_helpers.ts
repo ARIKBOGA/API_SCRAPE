@@ -2,9 +2,9 @@ import path from 'path';
 import fs from 'fs';
 import xlsx from 'xlsx';
 import dotenv from 'dotenv';
-import OE_YV_DATA from '../resources/data/catalogInfo/jsons/ORJ_NO.json';
-import { OERoot } from './Types';
-import { normalize_OE } from './Utility';
+import OE_YV_DATA from '../../data/catalogInfo/jsons/ORJ_NO_KATALOG.json';
+import { OERoot } from '../../../utils/Types';
+import { normalize_OE } from '../../../utils/Utility';
 
 
 dotenv.config({ path: path.resolve(".env") });
@@ -124,7 +124,7 @@ function convertToJSonFromExcel(filePath: string, sheetName: string) {
  */
 function checkDoubleIndicatorsInOEnumbers() {
 
-    const data: { OE: string; YV: string[] }[] = JSON.parse(fs.readFileSync(path.join(__dirname, '../resources/data/catalogInfo/jsons/OE_YV_MAP_ICER_ALL_PAD.json'), 'utf-8'));
+    const data: { OE: string; YV: string[] }[] = JSON.parse(fs.readFileSync(path.join(__dirname, '../resources/data/catalogInfo/jsons/ORJ_NO_KATALOG.json'), 'utf-8'));
 
     const duplicatedData = [];
 

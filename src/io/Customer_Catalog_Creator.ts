@@ -2,8 +2,11 @@
 import fs from "fs";
 import path from "path";
 import * as ExcelJS from "exceljs";
-import { bodyTypes, brandAliases, modelAliases } from "../Scrapers/API/resources/Variables";
+import xlsx from 'xlsx';
+import { bodyTypes, brandAliases, modelAliases } from "../scrapers/api/resources/Variables";
 import dotenv from 'dotenv';
+import { YV_OE_NO_MAP } from "./ORJ_NO_map_For_Label_and_Customer_Catalog";
+import { group } from "console";
 
 dotenv.config({ path: path.resolve(".env") });
 
@@ -12,9 +15,8 @@ const productType = process.env.PRODUCT_TYPE as string;
 const lineCount = 10;
 const lineLength = 50; // Test etmek için bu değeri değiştirebilirsin
 const modelsNeedsToBePascalCased = new Set(JSON.parse(fs.readFileSync(path.resolve(__dirname, `../resources/data/catalogInfo/jsons/modelsNeedsToBePascalCased.json`), "utf-8")));
-const inputFilePath = path.resolve(__dirname, `../output/${productType}/jsons/marka_hareket/MARKA_HAREKET_KATALOG.json`);
-const outputFilePath = path.resolve(__dirname, `../output/${productType}/excels/Label/${productType}_CUSTOMER_CATALOG_${lineCount}x${lineLength}_wip.xlsx`);
-
+const inputFilePath = path.resolve(__dirname, `../resources/data/catalogInfo/jsons/MARKA_HAREKET_KATALOG.json`);
+const outputFilePath = path.resolve(__dirname, `../output/${productType}/excels/label/${productType}_CUSTOMER_CATALOG_${lineCount}x${lineLength}.xlsx`);
 function toPascalCase(str: string): string {
     const romanNumeralRegex = /^(?=[MDCLXVI])M*(C[MD]|D?C{0,3})(X[CL]|L?X{0,3})(I[XV]|V?I{0,3})$/i;
 
@@ -200,10 +202,10 @@ function generateLabelRichText(vehicles: any[], includeYears: boolean, includeBo
             }
 
             const currentLineParts: ExcelJS.RichText[] = [];
-            
+
             // Satır başı
             if (linesUsed > 0) {
-                 currentLineParts.push({ text: "\n" });
+                currentLineParts.push({ text: "\n" });
             }
 
             // Eğer markanın ilk modeli ise marka adını ekle
@@ -217,9 +219,9 @@ function generateLabelRichText(vehicles: any[], includeYears: boolean, includeBo
             currentLineParts.push({ text: modelInfo.modelText });
             const yearText = includeYears && modelInfo.yearText && modelInfo.yearText !== "-|-" ? ` ${modelInfo.yearText}` : "";
             if (yearText) {
-                 currentLineParts.push({ text: yearText, font: { italic: true } });
+                currentLineParts.push({ text: yearText, font: { italic: true } });
             }
-            
+
             richTextParts.push(...currentLineParts);
             linesUsed++;
         }
@@ -230,158 +232,145 @@ function generateLabelRichText(vehicles: any[], includeYears: boolean, includeBo
     return { text: fullText.trim(), richText: richTextParts };
 }
 
+async function getCatalogAttributes() {
+    const inputFilePath = path.resolve(__dirname, `../resources/data/catalogInfo/excels/ATTRIBUTES_KATALOG.xlsx`);
+    const wb = xlsx.readFile(inputFilePath, { cellDates: true });
+    const ws = wb.Sheets[wb.SheetNames[0]];
+    const data: any = xlsx.utils.sheet_to_json(ws);
+    const map = new Map();
+    data.forEach((row: any) => {
+        map.set(row["YV NO"], row);
+    })
+    return map
+}
 
-async function processAndWriteExcel() {
-    let inputData;
+
+/**
+ * JSON dosyasını okur, veriyi işler ve bir Excel dosyasına yazar.
+ * @returns {Promise<void>}
+ */
+async function processAndWriteExcel(): Promise<void> {
+    // 1. Veri Okuma ve Hata Yönetimi
+    let inputData: any[];
     try {
-        inputData = JSON.parse(fs.readFileSync(inputFilePath, "utf-8"));
+        const fileContent = fs.readFileSync(inputFilePath, "utf-8");
+        inputData = JSON.parse(fileContent);
     } catch (error) {
-        console.error(`Hata: JSON dosyası okunamadı veya bozuk: ${inputFilePath}`, error);
+        console.error(`❌ Hata: JSON dosyası okunamadı veya bozuk: ${inputFilePath}`, error);
+        // Robustness: Hata oluşursa program akışını durdur.
         return;
     }
 
+    // 2. Asenkron Veri Hazırlığı
+    const catalogAttributes = await getCatalogAttributes();
+
     const workbook = new ExcelJS.Workbook();
-    const worksheet = workbook.addWorksheet("Etiketler");
+    const FULL_CATALOG = workbook.addWorksheet("TÜM ÜRÜNLER");
+    const DISC = workbook.addWorksheet("DİSK");
+    const DRUM = workbook.addWorksheet("KAMPANA");
+    const PAD = workbook.addWorksheet("BALATA");
+    const BELTPULLEY = workbook.addWorksheet("KASNAK");
 
-    worksheet.addRow(["YV", "CROSS", "ETIKET"]);
-    worksheet.getRow(1).font = { bold: true };
-
-    for (const item of inputData) {
-        if (!item.compatibleVehicles || item.compatibleVehicles.length === 0) {
-            worksheet.addRow([item.yvNo, item.crossNumber, "ETİKET ÜRETİLEMEDİ (UYUMLU ARAÇ YOK)"]);
-            continue;
-        }
-
-        const labelData = generateLabelRichText(item.compatibleVehicles, true, true);
-
-        const row = worksheet.addRow([item.yvNo, item.crossNumber, { richText: labelData.richText }]);
-
-        const labelCell = row.getCell(3);
-        labelCell.alignment = { wrapText: true };
-    }
-
-    worksheet.columns = [
-        { header: "YV", key: "yv", width: 15 },
-        { header: "CROSS", key: "cross", width: 15 },
+    // 3. Başlık Satırı ve Biçimlendirme
+    const headerColumns = [
+        { header: "YV", key: "yv", width: 12 },
+        { header: "OE", key: "oe", width: 18 },
         { header: "ETIKET", key: "label", width: lineLength + 5 },
+        { header: "TİP", key: "type", width: 5 },
+        { header: "POZİSYON", key: "position", width: 10 },
+        { header: "GRUP", key: "groupName", width: 10 },
     ];
 
+    FULL_CATALOG.columns = headerColumns;
+    DISC.columns = headerColumns;
+    DRUM.columns = headerColumns;
+    PAD.columns = headerColumns;
+    BELTPULLEY.columns = headerColumns;
+
+    // Başlık satırı eklenirken headers'ı otomatik kullanır, ama font ve hizalama için ilk satırı yine de manuel ayarlayalım
+    FULL_CATALOG.getRow(1).font = { bold: true };
+    FULL_CATALOG.getRow(1).alignment = { horizontal: "center", vertical: "middle" };
+
+    DISC.getRow(1).font = { bold: true };
+    DISC.getRow(1).alignment = { horizontal: "center", vertical: "middle" };
+
+    DRUM.getRow(1).font = { bold: true };
+    DRUM.getRow(1).alignment = { horizontal: "center", vertical: "middle" };
+
+    PAD.getRow(1).font = { bold: true };
+    PAD.getRow(1).alignment = { horizontal: "center", vertical: "middle" };
+
+    BELTPULLEY.getRow(1).font = { bold: true };
+    BELTPULLEY.getRow(1).alignment = { horizontal: "center", vertical: "middle" };
+
+
+    // 4. Veri İşleme ve Excel'e Yazma Döngüsü
+
+    for (const item of inputData) {
+        // Opsiyonel Zincirleme (?.), Nullish Coalescing (??) ve Array.from/slice kullanımı çok iyi.
+        const first_5_OE = Array.from(YV_OE_NO_MAP.get(item.yvNo) || []).slice(0, 5).join("\n");
+        const attributes = catalogAttributes.get(item.yvNo);
+
+        const type = attributes?.["Tip"] ?? ""; // Boş ise "" atama ile sağlamlık
+        const position = attributes?.["Pozisyon"] ?? "";
+        const groupName = attributes?.["grup::name"] ?? "";
+
+        let labelCellContent: string | { richText: any[] };
+
+        if (!item.compatibleVehicles || item.compatibleVehicles.length === 0) {
+            // Early continue/exit mantığı temiz
+            labelCellContent = "ETİKET ÜRETİLEMEDİ (UYUMLU ARAÇ YOK)";
+        } else {
+            const labelData = generateLabelRichText(item.compatibleVehicles, true, true);
+            labelCellContent = { richText: labelData.richText };
+        }
+
+        const row = FULL_CATALOG.addRow([
+            item.yvNo,
+            first_5_OE,
+            labelCellContent, // Hazırlanan içerik
+            type,
+            position,
+            groupName
+        ]);
+
+        await setStyleToRow(row);
+
+        const groupID = attributes?.["grupId"] ?? "";
+        if (groupID && groupID == "1") {
+            const discRow = DISC.addRow(row.values);
+            await setStyleToRow(discRow);
+        } else if (groupID && groupID == "2") {
+            const drumRow = DRUM.addRow(row.values);
+            await setStyleToRow(drumRow);
+        } else if (groupID && groupID == "3") {
+            const padRow = PAD.addRow(row.values);
+            await setStyleToRow(padRow);
+        } else if (groupID && groupID == "5") {
+            const beltpulleyRow = BELTPULLEY.addRow(row.values);
+            await setStyleToRow(beltpulleyRow);
+        }
+    }
+
+    // 5. Dosya Yazma ve Sonlandırma
     await workbook.xlsx.writeFile(outputFilePath);
-    console.log("Etiket dosyası oluşturuldu:", outputFilePath);
+    console.log(`✅ Etiket dosyası başarıyla oluşturuldu: ${outputFilePath}`);
+
 }
+
+async function setStyleToRow(row: ExcelJS.Row) {
+    row.getCell(1).alignment = { wrapText: true, horizontal: "center", vertical: "middle" }; // YV
+    row.getCell(2).alignment = { wrapText: true, horizontal: "center", vertical: "middle" }; // OE
+    row.getCell(3).alignment = { wrapText: true, horizontal: "right", vertical: "middle" };     // ETIKET
+    row.getCell(4).alignment = { wrapText: true, horizontal: "center", vertical: "middle" }; // TİP
+    row.getCell(5).alignment = { wrapText: true, horizontal: "center", vertical: "middle" }; // POZİSYON
+    row.getCell(6).alignment = { wrapText: true, horizontal: "center", vertical: "middle" }; // GRUP
+    return row;
+}
+
+// processAndWriteExcel(); // Çağrı şekliniz.
 
 processAndWriteExcel()
     .catch((error) => console.error("Excel oluşturulurken hata oluştu:", error));
 
 
-// Uzuzn modelleri alt satıra yazan kod
-/*
-// Sadece generateLabelRichText fonksiyonu güncellenmiştir.
-
-function generateLabelRichText(vehicles: any[], includeYears: boolean, includeBodyTypes: boolean): { text: string; richText: ExcelJS.RichText[] } {
-    const brandSortedModelsMap = getRankedBrandAndModels(vehicles, includeBodyTypes);
-    const sortedBrands = Array.from(brandSortedModelsMap.keys());
-    const richTextParts: ExcelJS.RichText[] = [];
-
-    // Yeni, daha doğru tip tanımı
-    type LabelItem =
-        | { type: 'brand'; text: string; isBold: true }
-        | { type: 'model'; text: string; yearText?: string; isItalic: true };
-
-    const labelItems: LabelItem[] = [];
-    for (const brand of sortedBrands) {
-        labelItems.push({ type: 'brand', text: brand, isBold: true });
-        const modelsQueue = brandSortedModelsMap.get(brand)!;
-        for (const modelInfo of modelsQueue) {
-            let modelText = modelInfo.modelText;
-            const yearText = includeYears && modelInfo.yearText && modelInfo.yearText !== "-|-" ? ` ${modelInfo.yearText}` : undefined;
-            labelItems.push({ type: 'model', text: modelText, yearText, isItalic: true });
-        }
-    }
-
-    let linesUsed = 0;
-    let currentLineParts: ExcelJS.RichText[] = [];
-    let currentLineLength = 0;
-
-    for (const item of labelItems) {
-        if (linesUsed >= lineCount) {
-            break; // Satır limitini aştık
-        }
-        
-        let partText = item.text;
-        const separator = currentLineLength > 0 ? ", " : "";
-
-        // Marka adı ise ve satır boş değilse, yeni satıra geç
-        if (item.type === 'brand' && currentLineLength > 0) {
-            richTextParts.push(...currentLineParts);
-            richTextParts.push({ text: "\n" });
-            linesUsed++;
-            
-            // Satır limitini kontrol et
-            if (linesUsed >= lineCount) {
-                 break;
-            }
-
-            currentLineParts = [];
-            currentLineLength = 0;
-        }
-
-        let fullItemText = partText;
-        if (item.type === 'model' && item.yearText) {
-            fullItemText += item.yearText;
-        }
-
-        const potentialLineLen = currentLineLength + (currentLineLength > 0 ? separator.length : 0) + fullItemText.length;
-
-        if (potentialLineLen <= lineLength) {
-            // Öğe satıra sığıyor, ekle
-            if (currentLineLength > 0) currentLineParts.push({ text: separator });
-            currentLineParts.push({ text: partText, font: { bold: item.type === 'brand' } });
-            if (item.type === 'model' && item.yearText) {
-                currentLineParts.push({ text: item.yearText, font: { italic: true } });
-            }
-            currentLineLength = potentialLineLen;
-        } else {
-            // Öğe satıra sığmıyor, yeni satıra geç
-            if (currentLineLength > 0) {
-                richTextParts.push(...currentLineParts);
-                richTextParts.push({ text: "\n" });
-                linesUsed++;
-                 // Satır limitini kontrol et
-                if (linesUsed >= lineCount) {
-                    break;
-                }
-            }
-            
-            // Yeni satırda öğeyi ekle
-            currentLineParts = [];
-            currentLineParts.push({ text: partText, font: { bold: item.type === 'brand' } });
-            if (item.type === 'model' && item.yearText) {
-                currentLineParts.push({ text: item.yearText, font: { italic: true } });
-            }
-            currentLineLength = fullItemText.length;
-        }
-    }
-    
-    // Son kalan satırı ekle
-    if (currentLineParts.length > 0 && linesUsed < lineCount) {
-        if (linesUsed > 0) {
-            richTextParts.push({ text: "\n" });
-        }
-        richTextParts.push(...currentLineParts);
-        linesUsed++;
-    }
-
-    // Kalan satırları boş string ile doldurma (richText'te boş satır olarak görünmesi için)
-    while (linesUsed < lineCount) {
-        if (richTextParts.length > 0 && richTextParts[richTextParts.length - 1].text !== "\n") {
-            richTextParts.push({ text: "\n" });
-        }
-        richTextParts.push({ text: "" });
-        linesUsed++;
-    }
-    
-    const fullText = richTextParts.map(part => part.text).join("");
-    return { text: fullText.trim(), richText: richTextParts };
-}
-*/
