@@ -71755,5 +71755,75 @@
     "modeller_markalar::marka": "FORD",
     "model": "FLEX",
     "model_Web": "FLEX"
+  },
+  {
+    "id": 10253,
+    "marka_id": 37,
+    "modeller_markalar::marka": "DODGE",
+    "model": "RAM 2500",
+    "model_Web": "RAM 2500"
+  },
+  {
+    "id": 10254,
+    "marka_id": 37,
+    "modeller_markalar::marka": "DODGE",
+    "model": "RAM 4000",
+    "model_Web": "RAM 4000"
+  },
+  {
+    "id": 10255,
+    "marka_id": 141,
+    "modeller_markalar::marka": "PONTIAC",
+    "model": "G4",
+    "model_Web": "G4"
+  },
+  {
+    "id": 10256,
+    "marka_id": 141,
+    "modeller_markalar::marka": "PONTIAC",
+    "model": "G5",
+    "model_Web": "G5"
+  },
+  {
+    "id": 10257,
+    "marka_id": 141,
+    "modeller_markalar::marka": "PONTIAC",
+    "model": "G6",
+    "model_Web": "G6"
+  },
+  {
+    "id": 10258,
+    "marka_id": 141,
+    "modeller_markalar::marka": "PONTIAC",
+    "model": "PURSUIT",
+    "model_Web": "PURSUIT"
+  },
+  {
+    "id": 10259,
+    "marka_id": 46,
+    "modeller_markalar::marka": "FORD USA",
+    "model": "LOBO",
+    "model_Web": "LOBO"
+  },
+  {
+    "id": 10260,
+    "marka_id": 143,
+    "modeller_markalar::marka": "SATURN",
+    "model": "AURA",
+    "model_Web": "AURA"
+  },
+  {
+    "id": 10261,
+    "marka_id": 143,
+    "modeller_markalar::marka": "SATURN",
+    "model": "ION",
+    "model_Web": "ION"
+  },
+  {
+    "id": 10262,
+    "marka_id": 44,
+    "modeller_markalar::marka": "FORD",
+    "model": "LOBO",
+    "model_Web": "LOBO"
   }
 ]
