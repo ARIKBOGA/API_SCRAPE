@@ -3,7 +3,7 @@ import path from "path";
 import fs from "fs";
 import xlsx from 'xlsx';
 import { getToken } from "./helpers/API_Helpers";
-import { ApiCompatibility, Model } from "../../../utils/Types";
+import { Model } from "../../../utils/Types";
 
 export function readBrandNames(): string[] {
     const filepath = path.resolve(__dirname, "../../../resources/catalog/excels/eldeki_markalar.xlsx");
@@ -13,6 +13,10 @@ export function readBrandNames(): string[] {
     return data.map((each: any) => each["BRAND_NAME"]);
 }
 
+const MARAKALAR = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../../../resources/catalog/jsons/MARKALAR.json'), 'utf-8'));
+
+const currentBrandList: string[] = Object.values(MARAKALAR);
+
 
 
 test.describe("Brand-Model Process", async () => {
@@ -20,7 +24,7 @@ test.describe("Brand-Model Process", async () => {
     const carTypes: string[] = ["passengerCar", "commercialVehicle"];
     const brandMap: Map<string, string> = new Map();
     brandMap.set("ZASTAVA", "TA-124");
-    
+
     const modelRecord: Record<string, Model[]> = {};
 
     test.beforeAll("Get Brands UUID Codes", async () => {
@@ -50,10 +54,7 @@ test.describe("Brand-Model Process", async () => {
         const token = await getToken();
         const headers = { headers: { Authorization: `Bearer ${token}` } };
 
-        const currentBrandsArray = readBrandNames();
-
-        for (const brandName of currentBrandsArray) {
-
+        currentBrandList.slice(0, 2).forEach(async (brandName: string) => {
             const uuid = brandMap.get(brandName);
 
             for (const carType of carTypes) {
@@ -63,7 +64,7 @@ test.describe("Brand-Model Process", async () => {
                 const response = await apiContext.get(uri, headers);
                 try {
                     const data = await response.json();
-                     
+
                     const modelSeries: any[] = data.modelSeries;
 
                     modelSeries.forEach((each: any) => {
@@ -79,14 +80,17 @@ test.describe("Brand-Model Process", async () => {
                         }
                     });
 
-                    
+
                 } catch (error) {
                     console.log(`Error: ${brandName} ${carType} -> ${uri}`);
                     //console.log(error);
                 }
 
             }
-        }
+        })
+
+
+
 
     })
 
@@ -97,10 +101,10 @@ test.describe("Brand-Model Process", async () => {
             models: modelRecord
         };
 
-        
+
 
         // Write to JSON file
-        const outputPath = path.resolve(__dirname, "../../../resources/catalog/jsons/catalog/jsons/ALL_MODELS_REPXPERT.json");
+        const outputPath = path.resolve(__dirname, "output/jsons/ALL_MODELS_REPXPERT.json");
         fs.writeFileSync(outputPath, JSON.stringify(output, null, 2), "utf-8");
     });
 
