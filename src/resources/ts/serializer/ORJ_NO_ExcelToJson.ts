@@ -34,8 +34,8 @@ function convertToJSonFromExcel(filePath: string, sheetName: string) {
         yv_oe_records.push({ OE: oeKey, YV: Array.from(yvSet) });
     });
 
-    fs.writeFile(path.join(__dirname, '../../data/catalogInfo/jsons/ORJ_NO_KATALOG.json'), JSON.stringify(yv_oe_records, null, 2));
-    //fs.writeFile(path.join(__dirname, '../resources/data/catalogInfo/jsons/ORJ_NO_KATALOG_yeni.json'), JSON.stringify(yv_oe_records, null, 2));
+    fs.writeFile(path.join(__dirname, '../../catalog/jsons/ORJ_NO.json'), JSON.stringify(yv_oe_records, null, 2));
+    //fs.writeFile(path.join(__dirname, '../resources/catalog/jsons/ORJ_NO_KATALOG_yeni.json'), JSON.stringify(yv_oe_records, null, 2));
 }
 
-convertToJSonFromExcel('../../data/catalogInfo/excels/ORJ_NO_KATALOG.xlsx', 'Sheet1');
+convertToJSonFromExcel('../../catalog/excels/ORJ_NO.xlsx', 'Sheet1');

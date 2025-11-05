@@ -67,7 +67,7 @@ export type ProductCompatibilityResult = {
 export type RootJsonData = ProductCompatibilityResult[];
 
 // Sizin eklediğiniz tipler:
-export interface ModelData {
+export type ModelData = {
   id: number;
   marka_id: number;
   "modeller_markalar::marka": string;
@@ -75,19 +75,19 @@ export interface ModelData {
   model_Web: string;
 }
 
-export interface ModelMatch {
+export type ModelMatch = {
   original: string;
   normalized: string;
   model_id: number;
   marka_id: number | null;
 }
 
-export interface MarkaData {
+export type MarkaData = {
   [key: string]: string;
 }
 
 
-export interface CrossNumberApiProduct {
+export type CrossNumberApiProduct = {
   Supplier: string;
   ArticleNumber: string;
   StatusCode: string;
@@ -95,7 +95,7 @@ export interface CrossNumberApiProduct {
   ApiCode: string;
 }
 
-export interface CrossNumbersYV_Pair {
+export type CrossNumbersYV_Pair = {
   yvNo: string;
   crossNumbers: CrossNumberApiProduct[];
 }
@@ -121,20 +121,20 @@ export type FullCrossNumberData = {
     crossNumbers: CrossNumberElement[];
 };
 
-export interface Model {
+export type Model = {
     name: string;
     code: string;
     type: string;
 }
 
-export interface OERoot {
+export type OERoot = {
   yvNo: string
   crossNumber: string
   supplier: string
   oeNumbers: OeNumber[]
 }
 
-export interface OeNumber {
+export type OeNumber = {
   manufacturer: string
   numbers: string[]
 }

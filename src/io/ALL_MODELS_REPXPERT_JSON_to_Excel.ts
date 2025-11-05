@@ -1,17 +1,16 @@
 import fs from 'fs';
 import path from 'path';
 import xlsx from 'xlsx';
-import { Model } from '../utils/Types';
-import { Interface } from 'readline';
 
-interface ModelRow {
+
+type ModelRow = {
     Brand: string;
     Model: string;
 }
 
 function initilize() {
-    const INPUT_FILE = path.resolve(__dirname, `../resources/data/catalogInfo/jsons/ALL_MODELS_REPXPERT.json`);
-    const OUTPUT_FILE = path.resolve(__dirname, `../resources/data/catalogInfo/excels/ALL_MODELS_REPXPERT.xlsx`);
+    const INPUT_FILE = path.resolve(__dirname, `../resources/catalog/jsons/catalog/jsons/ALL_MODELS_REPXPERT.json`);
+    const OUTPUT_FILE = path.resolve(__dirname, `../resources/catalog/excels/ALL_MODELS_REPXPERT.xlsx`);
 
     return { INPUT_FILE, OUTPUT_FILE };
 }

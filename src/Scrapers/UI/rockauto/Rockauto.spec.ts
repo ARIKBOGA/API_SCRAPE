@@ -13,7 +13,7 @@ const manufacturerFilter = "RAYBESTOS";
 const crossNumbers = readCrossNumbersOfManufacturers(manufacturerFilter);
 const singleCrossNumber: Reference[] = [{ manufacturer: "RAYBESTOS", crossNumber: "9764" }];
 
-const sliceNumbers = [500, 1000];
+const sliceNumbers = [0, referenceArray.length];
 
 test.describe("Rockauto OE number Scraping", async () => {
 
@@ -66,7 +66,7 @@ test.describe("Rockauto OE number Scraping", async () => {
                     }
                 }
                 // !!! Don't forget to change the extension of the Results.json file as ".jsonl" before run the test !!!
-                await fs.promises.appendFile(path.join(OUTPUT_DIR, `Results.jsonl`), JSON.stringify(results, null, 2) + ',\n', 'utf-8');
+                await fs.promises.appendFile(path.join(OUTPUT_DIR, `November_Results.jsonl`), JSON.stringify(results, null, 2) + ',\n', 'utf-8');
                 await page.close();
             });
         })

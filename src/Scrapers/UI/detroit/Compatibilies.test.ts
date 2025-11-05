@@ -6,8 +6,8 @@ import xlsx from 'xlsx';
 import dotenv from 'dotenv';
 import { ModelData } from '../../../utils/Types';
 import { parseCompatibilityYears } from '../kentpar/utils/YearExtracter';
-import initialMarkaData from '../../../resources/data/catalogInfo/jsons/marka_catalog.json';
-import initialModelData from '../../../resources/data/catalogInfo/jsons/marka_catalog.json';
+import initialMarkaData from '../../../resources/catalog/jsons/MARKALAR.json';
+import initialModelData from '../../../resources/catalog/jsons/MARKALAR.json';
 import { brandAliases } from '../../api/resources/Variables';
 import { modelDataMap } from '../../io/Utils';
 
@@ -16,7 +16,7 @@ dotenv.config({ path: path.resolve('.env') });
 
 const PRODUCT_TYPE = process.env.PRODUCT_TYPE as string;
 
-interface CarData {
+type DetroitCompatibility = {
     DETROIT_NO: string;
     YV_NO: string;
     Year: string;
@@ -31,13 +31,13 @@ interface CarData {
     Note: string;
 }
 
-interface DetroitElement {
+type DetroitProduct = {
     DETROIT_NO: string;
     YV_NO: string;
     URL: string;
 }
 
-const apiData: DetroitElement[] = [
+const apiData: DetroitProduct[] = [
     {
         DETROIT_NO: '53012',
         YV_NO: '451135',
@@ -70,10 +70,10 @@ const TR_SELECTOR = '.table__row';
 const CELL_SELECTOR = 'th.table__cell';
 
 async function scrapeAPI(
-    detroitProducts: DetroitElement[] = apiData
-): Promise<CarData[]> {
+    detroitProducts: DetroitProduct[] = apiData
+): Promise<DetroitCompatibility[]> {
     console.log(`🚀 API Request ile TH verileri çekiliyor...`);
-    const results: CarData[] = [];
+    const results: DetroitCompatibility[] = [];
     const apiContext = await request.newContext();
 
     for (const product of detroitProducts) {
@@ -134,7 +134,7 @@ async function scrapeAPI(
 
 // Playwright test runner ile çalıştır
 test('API Request: Scrape compatibility table data with TH selector', async () => {
-    const data: CarData[] = await scrapeAPI();
+    const data: DetroitCompatibility[] = await scrapeAPI();
     expect(data.length).toBeGreaterThan(0);
 
     // write data to excel

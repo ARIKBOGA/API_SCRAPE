@@ -1,10 +1,10 @@
 import xlsx from 'xlsx';
 import path from 'path';
 
-const INPUT_PATH = path.resolve(__dirname, `../resources/data/catalogInfo/excels/etiket_tüm.xlsx`);
-const OUTPUT_PATH = path.resolve(__dirname, `../resources/data/catalogInfo/excels/etiket_tüm_merged.xlsx`);
+const INPUT_PATH = path.resolve(__dirname, `../resources/catalog/excels/etiket_tüm.xlsx`);
+const OUTPUT_PATH = path.resolve(__dirname, `../resources/catalog/excels/etiket_tüm_merged.xlsx`);
 
-interface Etiket {
+type Etiket = {
     YV: string;
     [key: string]: any; // Excel'deki diğer tüm sütunlar
 }

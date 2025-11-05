@@ -1,5 +1,5 @@
 import { ModelData } from "../../utils/Types";
-import initialModelData from "../../resources/data/catalogInfo/jsons/model_catalog.json";
+import initialModelData from "../../resources/catalog/jsons/MODELLER.json";
 
 export const modelDataMap = new Map<string, ModelData>();
 (initialModelData as ModelData[]).forEach(model => {

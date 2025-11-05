@@ -14,7 +14,7 @@ const PRODUCT_TYPE = process.env.PRODUCT_TYPE!;
 
 export function getORJ_NO_DATA() {
 
-    const inputFilepath = path.resolve(__dirname, '../../resources/data/catalogInfo/excels/ORJ_NO_KATALOG.xlsx');
+    const inputFilepath = path.resolve(__dirname, '../../resources/catalog/excels/ORJ_NO.xlsx');
 
     const wb = xlsx.readFile(inputFilepath);
     const ws = wb.Sheets[wb.SheetNames[0]];
@@ -23,7 +23,13 @@ export function getORJ_NO_DATA() {
     return data.filter((row: any) => row["KATOLOG::grupId"] === PRODUCT_GROUP_ID[PRODUCT_TYPE])
 }
 
-export function get_ORJ_NO_DATA_map() {
+/**
+ * Returns a Map where the key is the YV number and the value is a Set of ORJ numbers
+ * that correspond to the given YV number.
+ * @returns {Map<string, Set<string>>} A Map of YV numbers to their corresponding ORJ numbers
+ */
+export function get_ORJ_NO_DATA_map(): Map<string, Set<string>> {
+
     const data = new Map<string, Set<string>>();
 
     getORJ_NO_DATA().forEach((row: any) => {
@@ -37,5 +43,10 @@ export function get_ORJ_NO_DATA_map() {
             data.set(yv, new Set([oe]));
         }
     })
+    const oeSet = new Set<string>();
+    data.forEach((value, key) => {
+        value.forEach(oe => oeSet.add(oe));
+    })
+    console.log(`${PRODUCT_TYPE} Ürün Sayısı: ${data.size}, OE sayısı: ${oeSet.size}`);
     return data;
 }

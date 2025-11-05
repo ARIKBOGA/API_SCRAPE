@@ -1,10 +1,10 @@
 import fs from "fs";
 import path from "path";
 import * as ExcelJS from "exceljs";
-import { bodyTypes, brandAliases, modelAliases } from "../Scrapers/API/resources/Variables";
+import { bodyTypes, brandAliases, modelAliases } from "../scrapers/api/resources/Variables";
 import dotenv from 'dotenv';
 import { toPascalCase } from "./helpers/Functions";
-import { ModelWithInfo } from "./helpers/Types";
+import { ModelWithQuantity } from "./helpers/Types";
 
 dotenv.config({ path: path.resolve(".env") });
 
@@ -13,7 +13,7 @@ const productType = process.env.PRODUCT_TYPE as string;
 const lineCount = 20;
 const lineLength = 50;
 
-const inputFilePath = path.resolve(__dirname, `../resources/data/catalogInfo/jsons/MARKA_HAREKET_KATALOG.json`);
+const inputFilePath = path.resolve(__dirname, `../resources/catalog/jsons/MARKA_HAREKET.json`);
 const outputFilePath = path.resolve(__dirname, `../output/${productType}/excels/label/${productType}_Label_WOD_${lineCount}x${lineLength}_With_Options.xlsx`);
 
 
@@ -74,7 +74,7 @@ function extractAndShortenModels(modelString: string, includeBodyTypes: boolean)
 }
 
 
-function getRankedBrandAndModels(vehicles: any[], includeBodyTypes: boolean): Map<string, ModelWithInfo[]> {
+function getRankedBrandAndModels(vehicles: any[], includeBodyTypes: boolean): Map<string, ModelWithQuantity[]> {
     const brandData = new Map<string, { models: Map<string, { targetsCount: number; year: { from: string; to: string } }> }>();
 
     for (const v of vehicles) {
@@ -138,7 +138,7 @@ function getRankedBrandAndModels(vehicles: any[], includeBodyTypes: boolean): Ma
     }
 
     // ... (rest of the function is the same, but now it sorts based on the refined year data)
-    const sortedBrandMap = new Map<string, ModelWithInfo[]>();
+    const sortedBrandMap = new Map<string, ModelWithQuantity[]>();
     const sortedBrands = Array.from(brandData.entries()).sort(([, a], [, b]) => b.models.size - a.models.size);
 
     for (const [brandName, brandInfo] of sortedBrands) {
@@ -150,7 +150,7 @@ function getRankedBrandAndModels(vehicles: any[], includeBodyTypes: boolean): Ma
                     modelText: modelKey,
                     yearText: yearText,
                     targetsCount: modelInfo.targetsCount
-                } as ModelWithInfo;
+                } as ModelWithQuantity;
             });
         sortedBrandMap.set(brandName, sortedModels);
     }

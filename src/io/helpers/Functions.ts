@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-const modelsNeedsToBePascalCased = new Set(JSON.parse(fs.readFileSync(path.resolve(__dirname, `../../resources/data/catalogInfo/jsons/modelsNeedsToBePascalCased.json`), "utf-8")));
+const modelsNeedsToBePascalCased = new Set(JSON.parse(fs.readFileSync(path.resolve(__dirname, `../../resources/catalog/jsons/catalog/jsons/modelsNeedsToBePascalCased.json`), "utf-8")));
 
 export function toPascalCase(str: string): string {
 

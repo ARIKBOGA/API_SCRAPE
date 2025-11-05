@@ -7,6 +7,7 @@ import { bodyTypes, brandAliases, modelAliases } from "../scrapers/api/resources
 import dotenv from 'dotenv';
 import { YV_OE_NO_MAP } from "./ORJ_NO_map_For_Label_and_Customer_Catalog";
 import { group } from "console";
+import { ModelWithQuantity } from "./helpers/Types";
 
 dotenv.config({ path: path.resolve(".env") });
 
@@ -14,8 +15,8 @@ const productType = process.env.PRODUCT_TYPE as string;
 
 const lineCount = 10;
 const lineLength = 50; // Test etmek için bu değeri değiştirebilirsin
-const modelsNeedsToBePascalCased = new Set(JSON.parse(fs.readFileSync(path.resolve(__dirname, `../resources/data/catalogInfo/jsons/modelsNeedsToBePascalCased.json`), "utf-8")));
-const inputFilePath = path.resolve(__dirname, `../resources/data/catalogInfo/jsons/MARKA_HAREKET_KATALOG.json`);
+const modelsNeedsToBePascalCased = new Set(JSON.parse(fs.readFileSync(path.resolve(__dirname, `../resources/catalog/jsons/catalog/jsons/modelsNeedsToBePascalCased.json`), "utf-8")));
+const inputFilePath = path.resolve(__dirname, `../resources/catalog/jsons/MARKA_HAREKET.json`);
 const outputFilePath = path.resolve(__dirname, `../output/${productType}/excels/label/${productType}_CUSTOMER_CATALOG_${lineCount}x${lineLength}.xlsx`);
 function toPascalCase(str: string): string {
     const romanNumeralRegex = /^(?=[MDCLXVI])M*(C[MD]|D?C{0,3})(X[CL]|L?X{0,3})(I[XV]|V?I{0,3})$/i;
@@ -85,19 +86,13 @@ function extractAndShortenModels(modelString: string, includeBodyTypes: boolean)
     return Array.from(extractedModels);
 }
 
-interface ModelWithInfo {
-    modelText: string;
-    yearText: string;
-    targetsCount: number;
-}
-
 /**
  * Araç verilerini işleyerek marka ve modelleri hedeflenen araç sayısına göre sıralar.
  * @param vehicles Araç verilerinin listesi.
  * @param includeBodyTypes Kasa tiplerini dahil edip etmeyeceği.
  * @returns Sıralanmış marka ve model verilerini içeren bir Map.
  */
-function getRankedBrandAndModels(vehicles: any[], includeBodyTypes: boolean): Map<string, ModelWithInfo[]> {
+function getRankedBrandAndModels(vehicles: any[], includeBodyTypes: boolean): Map<string, ModelWithQuantity[]> {
     const brandData = new Map<string, { models: Map<string, { targetsCount: number; year: { from: string; to: string } }> }>();
 
     for (const v of vehicles) {
@@ -155,7 +150,7 @@ function getRankedBrandAndModels(vehicles: any[], includeBodyTypes: boolean): Ma
         }
     }
 
-    const sortedBrandMap = new Map<string, ModelWithInfo[]>();
+    const sortedBrandMap = new Map<string, ModelWithQuantity[]>();
     const sortedBrands = Array.from(brandData.entries()).sort(([, a], [, b]) => b.models.size - a.models.size);
 
     for (const [brandName, brandInfo] of sortedBrands) {
@@ -167,7 +162,7 @@ function getRankedBrandAndModels(vehicles: any[], includeBodyTypes: boolean): Ma
                     modelText: modelKey,
                     yearText: yearText,
                     targetsCount: modelInfo.targetsCount
-                } as ModelWithInfo;
+                } as ModelWithQuantity;
             });
         sortedBrandMap.set(brandName, sortedModels);
     }
@@ -233,7 +228,7 @@ function generateLabelRichText(vehicles: any[], includeYears: boolean, includeBo
 }
 
 async function getCatalogAttributes() {
-    const inputFilePath = path.resolve(__dirname, `../resources/data/catalogInfo/excels/ATTRIBUTES_KATALOG.xlsx`);
+    const inputFilePath = path.resolve(__dirname, `../resources/catalog/excels/ATTRIBUTES.xlsx`);
     const wb = xlsx.readFile(inputFilePath, { cellDates: true });
     const ws = wb.Sheets[wb.SheetNames[0]];
     const data: any = xlsx.utils.sheet_to_json(ws);

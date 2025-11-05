@@ -22,7 +22,7 @@ if (!fs.existsSync(OUTPUT_PATH)) {
 const data = JSON.parse(fs.readFileSync(INPUT_FILE, 'utf-8'));
 
 // Tip tanımları (mevcut tanımlarınız yeterince temiz)
-interface AttributeItem {
+type AttributeItem = {
     yvNo: string,
     crossNumber: string,
     supplier: string,
@@ -32,7 +32,7 @@ interface AttributeItem {
     }[]
 }
 
-interface Row {
+type Row = {
     yvNo: string,
     crossNumber: string,
     supplier: string,

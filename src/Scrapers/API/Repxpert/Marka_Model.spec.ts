@@ -6,7 +6,7 @@ import { getToken } from "./helpers/API_Helpers";
 import { ApiCompatibility, Model } from "../../../utils/Types";
 
 export function readBrandNames(): string[] {
-    const filepath = path.resolve(__dirname, "../../../resources/data/catalogInfo/excels/eldeki_markalar.xlsx");
+    const filepath = path.resolve(__dirname, "../../../resources/catalog/excels/eldeki_markalar.xlsx");
     const workbook = xlsx.readFile(filepath);
     const worksheet = workbook.Sheets[workbook.SheetNames[0]];
     const data = xlsx.utils.sheet_to_json(worksheet);
@@ -100,7 +100,7 @@ test.describe("Brand-Model Process", async () => {
         
 
         // Write to JSON file
-        const outputPath = path.resolve(__dirname, "../../../resources/data/catalogInfo/jsons/ALL_MODELS_REPXPERT.json");
+        const outputPath = path.resolve(__dirname, "../../../resources/catalog/jsons/catalog/jsons/ALL_MODELS_REPXPERT.json");
         fs.writeFileSync(outputPath, JSON.stringify(output, null, 2), "utf-8");
     });
 
