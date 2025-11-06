@@ -34,8 +34,6 @@ export async function getAuthHeaders(): Promise<Record<string, string>> {
     "accept-language": "tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7",
     "Accept-Encoding": "gzip, deflate, br",
     "user-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)...",
-    Connection: "keep-alive",
-    Referer: "https://www.repxpert.co.uk/en-gb/search/results?q=55491021&source=globalsearch",
     Cookie: cookie
   };
 }
