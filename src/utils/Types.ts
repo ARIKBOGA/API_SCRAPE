@@ -125,6 +125,7 @@ export type Model = {
     name: string;
     code: string;
     type: string;
+    constructionYearFrom: string;
 }
 
 export type OERoot = {

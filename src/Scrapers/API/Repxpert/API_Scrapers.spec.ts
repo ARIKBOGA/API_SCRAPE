@@ -55,30 +55,36 @@ async function processProducts(
   await apiContext.dispose();
 }
 
+test.describe("The suit of the main scraping branches from Rpexpert", () => {
 
-test("Get OE numbers for all products", async () => {
-  test.setTimeout(20 * 60 * 1000);
-  console.log(`Processing OE numbers for brand: ${filterBrand}`);
-  await processProducts(processProductFor_OE, `oe-numbers_${filterBrand}.json`, 4, "OE");
-});
 
-test("Get Vehicle Compatibility for all products", async () => {
-  test.setTimeout(20 * 60 * 1000);
-  console.log(`Processing Vehicle Compatibility for brand: ${filterBrand}`);
-  await processProducts(processProductFor_VehicleCompatibility, `Vehicle-Compatibility_${filterBrand}.json`, 2, "Vehicle-Compatibility");
-});
+
+  test("Get OE numbers for all products", async () => {
+    test.setTimeout(20 * 60 * 1000);
+    console.log(`Processing OE numbers for brand: ${filterBrand}`);
+    await processProducts(processProductFor_OE, `oe-numbers_${filterBrand}.json`, 4, "OE");
+  });
+
+  test("Get Vehicle Compatibility for all products", async () => {
+    test.setTimeout(20 * 60 * 1000);
+    console.log(`Processing Vehicle Compatibility for brand: ${filterBrand}`);
+    await processProducts(processProductFor_VehicleCompatibility, `Vehicle-Compatibility_${filterBrand}.json`, 2, "Vehicle-Compatibility");
+  });
+
+  test("Get Article Attributes of the products", async () => {
+    test.setTimeout(10 * 60 * 1000);
+    console.log(`Processing Article Attributes for : ${productType} - ${filterBrand}`)
+    await processProducts(processProductForArticleAttributes, `Attributes_${productType}_${filterBrand}.json`, 5, 'Attributes');
+  })
+  
+})
+
 
 test("Get cross numbers via given cross/OE numbers", async () => {
   test.setTimeout(20 * 60 * 1000);
   console.log(`Processing Cross Numbers for brand: ${filterBrand}`);
   await processProducts(processProductFor_CrossNumbers, `Cross-Numbers_${productType}_${filterBrand}_${start}_${end_str}.json`, 5, "Cross-Numbers");
 });
-
-test("Get Article Attributes of the products", async () => {
-  test.setTimeout(10 * 60 * 1000);
-  console.log(`Processing Article Attributes for : ${productType} - ${filterBrand}`)
-  await processProducts(processProductForArticleAttributes, `Attributes_${productType}_${filterBrand}.json`, 5, 'Attributes');
-})
 
 
 
