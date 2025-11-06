@@ -30,6 +30,7 @@ export const REPXPERT = {
     headers: {
       "Content-Type": "application/x-www-form-urlencoded",
       Accept: "application/json",
+      "accept-language": "tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7"
     },
 
     URL: "https://api-aftermarket.schaeffler.de/authorizationserver/oauth/token",
