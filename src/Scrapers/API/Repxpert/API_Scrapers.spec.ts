@@ -14,9 +14,9 @@ dotenv.config({ path: path.resolve(".env") });
 const productType = process.env.PRODUCT_TYPE as string;
 const filterBrand = (process.env.FILTER_BRAND as string) !== "" ? process.env.FILTER_BRAND as string : "LOADED_NOT_FOUND_COMMERCIAL_REMINDER";
 
-const start = 0;
+const start = 20;
 const end: number = 0;
-const end_str = end !== 0 ? end : "end";
+const endCalc = end === 0 ? referenceArray.length : end;
 
 async function processProducts(
   processFunction: (productRef: ProductReference, apiContext: APIRequestContext) => Promise<any>,
@@ -38,7 +38,7 @@ async function processProducts(
           (productRef) =>
             productRef.freeTextSearch.trim() !== ""
         )
-        //.slice(start, end)
+        .slice(start, endCalc)
         .map((productRef) => limit(() => processFunction(productRef, apiContext)))
     )
   ).filter((r) => r !== null);
@@ -58,7 +58,6 @@ async function processProducts(
 test.describe("The suit of the main scraping branches from Rpexpert", () => {
 
 
-
   test("Get OE numbers for all products", async () => {
     test.setTimeout(20 * 60 * 1000);
     console.log(`Processing OE numbers for brand: ${filterBrand}`);
@@ -68,7 +67,7 @@ test.describe("The suit of the main scraping branches from Rpexpert", () => {
   test("Get Vehicle Compatibility for all products", async () => {
     test.setTimeout(20 * 60 * 1000);
     console.log(`Processing Vehicle Compatibility for brand: ${filterBrand}`);
-    await processProducts(processProductFor_VehicleCompatibility, `Vehicle-Compatibility_${filterBrand}.json`, 2, "Vehicle-Compatibility");
+    await processProducts(processProductFor_VehicleCompatibility, `Vehicle-Compatibility_${filterBrand}_${start}_${endCalc}.json`, 1, "Vehicle-Compatibility");
   });
 
   test("Get Article Attributes of the products", async () => {
@@ -83,7 +82,7 @@ test.describe("The suit of the main scraping branches from Rpexpert", () => {
 test("Get cross numbers via given cross/OE numbers", async () => {
   test.setTimeout(20 * 60 * 1000);
   console.log(`Processing Cross Numbers for brand: ${filterBrand}`);
-  await processProducts(processProductFor_CrossNumbers, `Cross-Numbers_${productType}_${filterBrand}_${start}_${end_str}.json`, 5, "Cross-Numbers");
+  await processProducts(processProductFor_CrossNumbers, `Cross-Numbers_${productType}_${filterBrand}_${start}_${endCalc}.json`, 5, "Cross-Numbers");
 });
 
 

@@ -14,5 +14,5 @@ function removeDuplicates(nums: number[]): number {
   return index;
 }
 
-const k = removeDuplicates([1, 1, 2]); // 2, nums = [1,2,_]
+const k = removeDuplicates([1, 1, 2, 3, 3, 3, 4, 4, 4, 5]); // 2, nums = [1,2,_]
 console.log(k);

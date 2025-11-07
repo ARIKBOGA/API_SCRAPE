@@ -9,14 +9,12 @@
     "build": "tsc",
     "dev": "ts-node src/index.ts",
     "test": "playwright test",
-    
     "oe": "npm run build && node dist/utils/OE_Numbers_JsonToExcel.js",
     "compatibility": "npm run build && node dist/utils/CompatibilitiesJsonToExcel.js",
     "crossNumbers": "npm run build && node dist/utils/CrossNumbersToExcel.js",
     "combineCross": "npm run build && node dist/IO_Operators/CrossNumberCombinator.js",
     "label": "npm run build && node dist/utils/LabelCreator.js",
     "marka_hareket": "npm run build && node dist/utils/Marka_Hareket_ExcelToJson.js",
-    
     "ts:oe": "ts-node src/utils/OE_Numbers_JsonToExcel.ts",
     "ts:compatibility": "ts-node src/utils/CompatibilitiesJsonToExcel.ts",
     "ts:crossNumbers": "ts-node src/utils/CrossNumbersToExcel.ts",
@@ -45,9 +43,9 @@
     "xlsx": "^0.18.5"
   },
   "devDependencies": {
-    "@playwright/test": "^1.53.1",
+    "@playwright/test": "^1.56.1",
     "@types/cheerio": "^0.22.35",
-    "@types/node": "^20.14.9",
+    "@types/node": "^24.10.0",
     "@types/p-limit": "^2.1.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.3"

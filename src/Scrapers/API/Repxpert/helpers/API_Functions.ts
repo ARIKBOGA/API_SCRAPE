@@ -67,7 +67,7 @@ export async function processProductFor_VehicleCompatibility(element: ProductRef
 
     // 2️⃣ Üretici kodlarını alma
     const manufacturers = await getManufacturerCodes(encryptedSearchCode, apiContext);
-    console.log(`Found ${manufacturers.length} manufacturers for ${freeTextSearch}`);
+    console.log(`Found ${manufacturers.length} manufacturers of ${supplier} - ${freeTextSearch} for YV: ${yvNo}`);
 
     // Her bir üretici için döngü
     for (const manufacturer of manufacturers) {
@@ -90,6 +90,7 @@ export async function processProductFor_VehicleCompatibility(element: ProductRef
 
         // 4️⃣ Her model için hedef (target) verilerini alma
         const targets = await getTargets(encryptedSearchCode, apiContext, model.uuid);
+        await delay(300);
         // console.log(`    Found ${targets.length} targets for ${model.name}`);
 
         // Hedef verilerini doğrudan OutputTarget dizisine ekle
@@ -104,6 +105,7 @@ export async function processProductFor_VehicleCompatibility(element: ProductRef
       if (manufacturerData.models.length > 0) { // Sadece modeller varsa üreticiyi ekle
         result.compatibleVehicles.push(manufacturerData);
       }
+      await delay(300);
     }
 
     if (result.compatibleVehicles.length === 0) {

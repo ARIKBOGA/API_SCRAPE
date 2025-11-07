@@ -199,7 +199,7 @@ export const bodyTypes = [
 export const referenceArray: ProductReference[] = [
 
 // FIND CROSS NUMBERS AFTER HAVING ALL OE NUMBERS
-
+/*
 {yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"1148202"},
 {yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"1320585"},
 {yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"1323620"},
@@ -267,15 +267,17 @@ export const referenceArray: ProductReference[] = [
 {yvNo: "25993CS", supplier:"CROSS_NO", freeTextSearch:"4615A223"},
 {yvNo: "25993CS", supplier:"CROSS_NO", freeTextSearch:"4615A285"},
 
-/*
 
 {yvNo: "25993CS", supplier:"BREMBO", freeTextSearch:"09.E069.11"},
 {yvNo: "34575CS", supplier:"BREMBO", freeTextSearch:"09-B461-1X"},
 {yvNo: "13017CS", supplier:"BREMBO", freeTextSearch:"09-7806-1X"},
 {yvNo: "22490CS", supplier:"BREMBO", freeTextSearch:"09-9464-2X"},
 {yvNo: "22773CS", supplier:"BREMBO", freeTextSearch:"09-C652-1X"},
-
 */
+
+
+
+
 
 
 
@@ -377,45 +379,44 @@ export const referenceArray: ProductReference[] = [
   //{ yvNo: "361519", supplier: "OE", freeTextSearch: "5WA615301J" },
 
   // NEW BELTPULLEYS
-  //{yvNo: "7069010", supplier:"FAI", freeTextSearch:"FVD1131"}, 
+  {yvNo: "7069010", supplier:"FAI", freeTextSearch:"FVD1131"}, 
+  {yvNo: "7070010", supplier:"NipoKM", freeTextSearch:"PC.MB120"},  
+  {yvNo: "7071010", supplier:"RUVILLE", freeTextSearch:"520087"}, 
+  {yvNo: "7072010", supplier:"Schaeffler INA", freeTextSearch:"531 0551 20"}, 
+  {yvNo: "7073010", supplier:"RUVILLE", freeTextSearch:"520253"}, 
+  {yvNo: "7074010", supplier:"RUVILLE", freeTextSearch:"520415"}, 
+  {yvNo: "7075010", supplier:"RUVILLE", freeTextSearch:"520429"}, 
+  {yvNo: "7076010", supplier:"RUVILLE", freeTextSearch:"520440"}, 
+  {yvNo: "7077010", supplier:"RUVILLE", freeTextSearch:"520439"}, 
+  {yvNo: "7078010", supplier:"RUVILLE", freeTextSearch:"520210"}, 
+  {yvNo: "7079010", supplier:"RUVILLE", freeTextSearch:"520262"},
 
-  //{yvNo: "7070010", supplier:"NipoKM", freeTextSearch:"PC.MB120"},  
-  //{yvNo: "7071010", supplier:"RUVILLE", freeTextSearch:"520087"}, 
-  //{yvNo: "7072010", supplier:"Schaeffler INA", freeTextSearch:"531 0551 20"}, 
-  //{yvNo: "7073010", supplier:"RUVILLE", freeTextSearch:"520253"}, 
-  //{yvNo: "7074010", supplier:"RUVILLE", freeTextSearch:"520415"}, 
-  //{yvNo: "7075010", supplier:"RUVILLE", freeTextSearch:"520429"}, 
-  //{yvNo: "7076010", supplier:"RUVILLE", freeTextSearch:"520440"}, 
-  //{yvNo: "7077010", supplier:"RUVILLE", freeTextSearch:"520439"}, 
-  //{yvNo: "7078010", supplier:"RUVILLE", freeTextSearch:"520210"}, 
-  //{yvNo: "7079010", supplier:"RUVILLE", freeTextSearch:"520262"},
-//
-  //{yvNo: "7080010", supplier:"FEBI", freeTextSearch:"199077"},
-  //{yvNo: "7081010", supplier:"RUVILLE", freeTextSearch:"520148"}, 
-  //{yvNo: "7082010", supplier:"RUVILLE", freeTextSearch:"520428"}, 
-  //{yvNo: "7083010", supplier:"RUVILLE", freeTextSearch:"520274"}, 
-  //{yvNo: "7084010", supplier:"RUVILLE", freeTextSearch:"520112"}, 
-  //{yvNo: "7085010", supplier:"RUVILLE", freeTextSearch:"520383"}, 
-  //{yvNo: "7086010", supplier:"RUVILLE", freeTextSearch:"520291"}, 
-  //{yvNo: "7087010", supplier:"RUVILLE", freeTextSearch:"520255"}, 
-  //{yvNo: "7088010", supplier:"RUVILLE", freeTextSearch:"520413"}, 
-  //{yvNo: "7089010", supplier:"RUVILLE", freeTextSearch:"520419"}, 
-//
-  //{yvNo: "7090010", supplier:"RUVILLE", freeTextSearch:"520443"}, 
-  //{yvNo: "7091010", supplier:"RUVILLE", freeTextSearch:"520334"}, 
-  //{yvNo: "7092010", supplier:"RUVILLE", freeTextSearch:"520299"}, 
-  //{yvNo: "7093010", supplier:"RUVILLE", freeTextSearch:"520185"}, 
-  //{yvNo: "7094010", supplier:"RUVILLE", freeTextSearch:"520184"}, 
-  //{yvNo: "7095010", supplier:"RUVILLE", freeTextSearch:"520187"}, 
-  //{yvNo: "7096010", supplier:"RUVILLE", freeTextSearch:"520192"},
-  //{yvNo: "7097010", supplier:"RUVILLE", freeTextSearch:"520246"},
-  //{yvNo: "7098010", supplier:"RUVILLE", freeTextSearch:"520193"},
-  //{yvNo: "7099010", supplier:"RUVILLE", freeTextSearch:"520076"},
-//
-  //{yvNo: "7100010", supplier:"RUVILLE", freeTextSearch:"520153"},
-  //{yvNo: "7101010", supplier:"RUVILLE", freeTextSearch:"520213"},
-  //{yvNo: "7102010", supplier:"RUVILLE", freeTextSearch:"520243"},
-  //{yvNo: "7103010", supplier:"RUVILLE", freeTextSearch:"520247"},
+  {yvNo: "7080010", supplier:"FEBI", freeTextSearch:"199077"},
+  {yvNo: "7081010", supplier:"RUVILLE", freeTextSearch:"520148"}, 
+  {yvNo: "7082010", supplier:"RUVILLE", freeTextSearch:"520428"}, 
+  {yvNo: "7083010", supplier:"RUVILLE", freeTextSearch:"520274"}, 
+  {yvNo: "7084010", supplier:"RUVILLE", freeTextSearch:"520112"}, 
+  {yvNo: "7085010", supplier:"RUVILLE", freeTextSearch:"520383"}, 
+  {yvNo: "7086010", supplier:"RUVILLE", freeTextSearch:"520291"}, 
+  {yvNo: "7087010", supplier:"RUVILLE", freeTextSearch:"520255"}, 
+  {yvNo: "7088010", supplier:"RUVILLE", freeTextSearch:"520413"}, 
+  {yvNo: "7089010", supplier:"RUVILLE", freeTextSearch:"520419"}, 
+
+  {yvNo: "7090010", supplier:"RUVILLE", freeTextSearch:"520443"}, 
+  {yvNo: "7091010", supplier:"RUVILLE", freeTextSearch:"520334"}, 
+  {yvNo: "7092010", supplier:"RUVILLE", freeTextSearch:"520299"}, 
+  {yvNo: "7093010", supplier:"RUVILLE", freeTextSearch:"520185"}, 
+  {yvNo: "7094010", supplier:"RUVILLE", freeTextSearch:"520184"}, 
+  {yvNo: "7095010", supplier:"RUVILLE", freeTextSearch:"520187"}, 
+  {yvNo: "7096010", supplier:"RUVILLE", freeTextSearch:"520192"},
+  {yvNo: "7097010", supplier:"RUVILLE", freeTextSearch:"520246"},
+  {yvNo: "7098010", supplier:"RUVILLE", freeTextSearch:"520193"},
+  {yvNo: "7099010", supplier:"RUVILLE", freeTextSearch:"520076"},
+
+  {yvNo: "7100010", supplier:"RUVILLE", freeTextSearch:"520153"},
+  {yvNo: "7101010", supplier:"RUVILLE", freeTextSearch:"520213"},
+  {yvNo: "7102010", supplier:"RUVILLE", freeTextSearch:"520243"},
+  {yvNo: "7103010", supplier:"RUVILLE", freeTextSearch:"520247"},
 
   
 
