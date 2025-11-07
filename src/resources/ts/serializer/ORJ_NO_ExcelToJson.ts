@@ -34,7 +34,9 @@ function convertToJSonFromExcel(filePath: string, sheetName: string) {
         yv_oe_records.push({ OE: oeKey, YV: Array.from(yvSet) });
     });
 
-    fs.writeFile(path.join(__dirname, '../../catalog/jsons/ORJ_NO.json'), JSON.stringify(yv_oe_records, null, 2));
+    const OUTPUT_PATH = path.join(__dirname, '../../catalog/jsons/ORJ_NO.json');
+    fs.writeFile(OUTPUT_PATH, JSON.stringify(yv_oe_records, null, 2));
+    console.log('\"ORJ_NO\" Excel dosyası nesne dizisi formatında JSON\'a dönüştürüldü ==>', OUTPUT_PATH);
     //fs.writeFile(path.join(__dirname, '../resources/catalog/jsons/ORJ_NO_KATALOG_yeni.json'), JSON.stringify(yv_oe_records, null, 2));
 }
 

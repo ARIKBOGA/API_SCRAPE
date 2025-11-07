@@ -75,7 +75,7 @@ test('Bulk JNBK Code Scraping', async () => {
     }
 
     const promises = allScrapingTasks
-        .slice(6000, 7000)
+        .slice(10000, allScrapingTasks.length)
         .map(task => limit(() => scrapeTask(task)));
 
     // Tüm paralel görevlerin bitmesini bekleyin.

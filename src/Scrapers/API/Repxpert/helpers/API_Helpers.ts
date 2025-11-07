@@ -19,13 +19,6 @@ export async function delay(ms: number): Promise<any> {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-function extractCookie(rawSetCookie: string | string[] | undefined): string {
-  if (!rawSetCookie) return "";
-  const arr = Array.isArray(rawSetCookie) ? rawSetCookie : [rawSetCookie];
-  const jsession = arr.find(c => /JSESSIONID=/i.test(c));
-  return jsession ? jsession.split(";")[0] : "";
-}
-
 
 export async function getAuthHeaders(): Promise<Record<string, string>> {
   const { token, cookie } = await getToken();
@@ -62,7 +55,7 @@ export async function getToken(): Promise<{ token: string, cookie: string }> {
   cachedExpiresAt = Date.now() + (tokenData.expires_in ? tokenData.expires_in * 1000 : TOKEN_TTL_MS);
 
   const headers = tokenResponse.headers();
-  cachedCookie = extractCookie(headers["set-cookie"]);
+  cachedCookie = headers["set-cookie"];
 
   await apiContext.dispose();
   return { token: cachedToken, cookie: cachedCookie };

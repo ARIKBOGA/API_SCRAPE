@@ -112,6 +112,7 @@ function checkDoubleIndicatorsInOEnumbers() {
     const worksheet = xlsx.utils.json_to_sheet(rowData);
     xlsx.utils.book_append_sheet(workbook, worksheet, 'Sheet1');
     xlsx.writeFile(workbook, path.resolve(__dirname, `../../../output/ALL/excels/OE/duplicatedOENumbers.xlsx`));
+    console.log("Excel dosyası oluşturuldu ==>", path.resolve(__dirname, `../../../output/ALL/excels/OE/duplicatedOENumbers.xlsx`));
     //fs.writeFileSync(path.resolve(__dirname, `../output/ALL/excels/OE/duplicatedOENumbers.txt`), JSON.stringify(duplicatedData, null, 2));
 }
 

@@ -1,10 +1,8 @@
-import { request, test } from "@playwright/test";
+import { test } from "@playwright/test";
 import path from "path";
 import fs from "fs";
-import xlsx from 'xlsx';
-import { getAuthHeaders, getToken } from "./helpers/API_Helpers";
+import { getAuthHeaders } from "./helpers/API_Helpers";
 import { Model } from "../../../utils/Types";
-
 
 /*
 export function readBrandNames(): string[] {
@@ -26,31 +24,23 @@ test.describe("🌍 Brand-Model Process", () => {
     // Map'i private ve readonly gibi düşünebiliriz.
     const BRANDS_MASTER_MAP = new Map<string, Map<string, string>>()
     const MODELS_MASTER_RESULT: Record<string, Record<string, Model[]>> = {};
-    const MODEL_RESULT: Record<string, Model[]> = {};
 
-    let authHeaders: any; // Header'ları beforeAll'da almak için
-    let apiContext: any; // Context'i beforeAll'da oluşturmak için
-
-    // API Context ve Marka verilerini tek seferde al
     test.beforeAll("1. Get Auth & Brands UUID Codes", async () => {
-        // API Context'i bir kere oluştur
-        apiContext = await request.newContext();
-        authHeaders = await getAuthHeaders(); // Auth header'ları al
-        const myHeader = {
-            "Authorization": authHeaders.Authorization,
-            "Cookie": authHeaders.Cookie
+
+        const requestOptions = {
+            method: "GET",
+            headers: await getAuthHeaders(),
         };
 
         for (const carType of carTypes) {
             const brandMap: Map<string, string> = new Map();
             const URL = `https://www.repxpert.co.uk/api/Repxpert-GB/manufacturers?globalCarPark=true&targetTypeCodes=${carType}`;
 
-            // Hata yakalamayı da eklemek iyi olur.
             try {
-                const response = await apiContext.get(URL, { header: myHeader });
+                const response = await fetch(URL, requestOptions);
                 // Status kontrolü eklemek önemli
-                if (!response.ok()) {
-                    console.error(`Error fetching brands for ${carType}: ${response.status()}`);
+                if (!response.status.toString().startsWith("2")) {
+                    console.error(`Error fetching brands for ${carType}: ${response.status}`);
                     continue; // Bir sonraki carType'a geç
                 }
 
@@ -75,30 +65,36 @@ test.describe("🌍 Brand-Model Process", () => {
     // Modelleri Çekme Testi
     test("2. Get all models of given brands", async () => {
         // TimeOut'u test blok seviyesine indirmek daha doğru
-        test.setTimeout(2 * 60 * 1000);
+        test.setTimeout(20 * 60 * 1000);
 
-        const token = await getToken();
-        const headers = { headers: { Authorization: `Bearer ${token}` } };
+        const requestOptions = {
+            method: "GET",
+            headers: await getAuthHeaders(),
+        };
 
         for (const carType of carTypes) {
+
             const brandMap = BRANDS_MASTER_MAP.get(carType);
             if (!brandMap) continue;
 
+            const MODEL_RESULT: Record<string, Model[]> = {};
+
             // 2. İyileştirme: Map'in kendi anahtar listesini al
             const brandNames = Array.from(brandMap.keys());
+            console.log(brandNames);
 
-            for (const brandName of brandNames.slice(0, 3)) {
+            for (const brandName of brandNames) {
 
                 const uuid = brandMap.get(brandName);
                 if (!uuid) continue;
 
-                const uri = `https://www.repxpert.co.uk/api/Repxpert-GB/manufacturers/${uuid}/modelSeries?targetTypeCodes=${carType}&globalCarPark=true`;
+                const URL = `https://www.repxpert.co.uk/api/Repxpert-GB/manufacturers/${uuid}/modelSeries?targetTypeCodes=${carType}&globalCarPark=true`;
 
                 try {
-                    const response = await apiContext.get(uri, headers);
+                    const response = await fetch(URL, requestOptions);
 
-                    if (!response.ok()) {
-                        console.log(`Warning: Status ${response.status()} for ${brandName} (${carType})`);
+                    if (!response.status.toString().startsWith("2")) {
+                        console.log(`Warning: Status ${response.status} for ${brandName} (${carType})`);
                         continue;
                     }
 
@@ -118,7 +114,7 @@ test.describe("🌍 Brand-Model Process", () => {
 
                 } catch (error) {
                     // JSON parse veya Network hatasını yakala
-                    console.error(`Error processing ${brandName} ${carType} -> ${uri}`, error);
+                    console.error(`Error processing ${brandName} ${carType} -> ${URL}`, error);
                 }
             }
             MODELS_MASTER_RESULT[carType] = MODEL_RESULT;
@@ -128,14 +124,10 @@ test.describe("🌍 Brand-Model Process", () => {
     // Çıktıyı JSON dosyasına yaz
     test.afterAll(async () => {
 
-        const RESULT = {
-            REPXPERT_MODELS: MODELS_MASTER_RESULT
-        };
-
-        const outputPath = path.resolve(__dirname, "output/jsons/ALL_MODELS_REPXPERT.json");
+        const outputPath = path.resolve(__dirname, "output/jsons/ALL_MODELS_REPXPERT_array.json");
         fs.mkdirSync(path.dirname(outputPath), { recursive: true });
 
-        fs.writeFileSync(outputPath, JSON.stringify(RESULT, null, 2), "utf-8");
+        fs.writeFileSync(outputPath, JSON.stringify(MODELS_MASTER_RESULT, null, 2), "utf-8");
         console.log(`✅ Model verileri başarıyla yazıldı: ${outputPath}`);
     });
 });

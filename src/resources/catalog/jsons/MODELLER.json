@@ -71825,5 +71825,12 @@
     "modeller_markalar::marka": "FORD",
     "model": "LOBO",
     "model_Web": "LOBO"
+  },
+  {
+    "id": 10263,
+    "marka_id": 85,
+    "modeller_markalar::marka": "MAZDA",
+    "model": "3 (BK) | AXELA | 3 SPORT",
+    "model_Web": "3 (BK) | AXELA | 3 SPORT"
   }
 ]
