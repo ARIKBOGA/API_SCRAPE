@@ -144,9 +144,9 @@ export function convertExcelToJson(inputFilePath: string, outputDirectory: strin
 
 function main() {
     // Giriş Excel dosyasının yolu
-    const inputFilePath = path.resolve(__dirname, `../../data/catalogInfo/excels/MARKA_HAREKET_KATALOG.xlsx`);
+    const inputFilePath = path.resolve(__dirname, `../../catalog/excels/MARKA_HAREKET.xlsx`);
     // Çıkış JSON dosyasının kaydedileceği dizin
-    const outputDirectory = path.resolve(__dirname, `../../data/catalogInfo/jsons`);
+    const outputDirectory = path.resolve(__dirname, `../../catalog/jsons`);
 
     convertExcelToJson(inputFilePath, outputDirectory);
 }

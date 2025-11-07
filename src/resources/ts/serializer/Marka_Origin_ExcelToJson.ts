@@ -2,8 +2,8 @@ import fs from "fs";
 import path from "path";
 import * as XLSX from "xlsx";
 
-const INPUT_FILE_PATH = path.resolve(__dirname, '../../data/catalogInfo/excels/MARKA_ORIGIN.xlsx');
-const OUTPUT_FILE_PATH = path.resolve(__dirname, '../../data/catalogInfo/jsons/MARKA_ORIGIN.json');
+const INPUT_FILE_PATH = path.resolve(__dirname, '../../catalog/excels/MARKA_ORIGIN.xlsx');
+const OUTPUT_FILE_PATH = path.resolve(__dirname, '../../catalog/jsons/MARKA_ORIGIN.json');
 
 function main() {
 

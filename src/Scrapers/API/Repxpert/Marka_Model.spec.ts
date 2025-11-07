@@ -1,107 +1,133 @@
-import { request, test } from "@playwright/test";
+import { test } from "@playwright/test";
 import path from "path";
 import fs from "fs";
-import xlsx from 'xlsx';
-import { getToken } from "./helpers/API_Helpers";
-import { ApiCompatibility, Model } from "../../../utils/Types";
+import { getAuthHeaders } from "./helpers/API_Helpers";
+import { Model } from "../../../utils/Types";
 
+/*
 export function readBrandNames(): string[] {
-    const filepath = path.resolve(__dirname, "../../../resources/data/catalogInfo/excels/eldeki_markalar.xlsx");
+    const filepath = path.resolve(__dirname, "../../../resources/catalog/excels/eldeki_markalar.xlsx");
     const workbook = xlsx.readFile(filepath);
     const worksheet = workbook.Sheets[workbook.SheetNames[0]];
     const data = xlsx.utils.sheet_to_json(worksheet);
     return data.map((each: any) => each["BRAND_NAME"]);
 }
+const MARAKALAR = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../../../resources/catalog/jsons/MARKALAR.json'), 'utf-8'));
+
+const currentBrandList: string[] = Object.values(MARAKALAR);
+*/
 
 
-
-test.describe("Brand-Model Process", async () => {
+test.describe("🌍 Brand-Model Process", () => {
 
     const carTypes: string[] = ["passengerCar", "commercialVehicle"];
-    const brandMap: Map<string, string> = new Map();
-    brandMap.set("ZASTAVA", "TA-124");
-    
-    const modelRecord: Record<string, Model[]> = {};
+    // Map'i private ve readonly gibi düşünebiliriz.
+    const BRANDS_MASTER_MAP = new Map<string, Map<string, string>>()
+    const MODELS_MASTER_RESULT: Record<string, Record<string, Model[]>> = {};
 
-    test.beforeAll("Get Brands UUID Codes", async () => {
+    test.beforeAll("1. Get Auth & Brands UUID Codes", async () => {
 
-        const apiContext = await request.newContext();
-        const token = await getToken();
-        const headers = { headers: { Authorization: `Bearer ${token}` } };
+        const requestOptions = {
+            method: "GET",
+            headers: await getAuthHeaders(),
+        };
 
         for (const carType of carTypes) {
-            const uri = `https://www.repxpert.co.uk/api/Repxpert-GB/manufacturers?targetTypeCodes=${carType}&globalCarPark=true`;
-            const response = await apiContext.get(uri, headers);
-            const data = await response.json();
-            console.log(data.manufacturers.length);
-            data.manufacturers.forEach((manufacturer: { name: string; uuid: string; }) => {
-                brandMap.set(manufacturer.name, manufacturer.uuid);
-            })
-        }
-        //console.log(brandMap.size);
-        //await apiContext.dispose();
+            const brandMap: Map<string, string> = new Map();
+            const URL = `https://www.repxpert.co.uk/api/Repxpert-GB/manufacturers?globalCarPark=true&targetTypeCodes=${carType}`;
 
+            try {
+                const response = await fetch(URL, requestOptions);
+                // Status kontrolü eklemek önemli
+                if (!response.status.toString().startsWith("2")) {
+                    console.error(`Error fetching brands for ${carType}: ${response.status}`);
+                    continue; // Bir sonraki carType'a geç
+                }
+
+                const data = await response.json();
+                console.log(`Fetched ${data.manufacturers.length} brands for ${carType}`);
+
+                data.manufacturers.forEach((manufacturer: { name: string; uuid: string; }) => {
+                    brandMap.set(manufacturer.name, manufacturer.uuid);
+                })
+                BRANDS_MASTER_MAP.set(carType, brandMap);
+            } catch (error) {
+                console.error(`CRITICAL: Failed to get brands for ${carType}.`, error);
+            }
+        }
+
+        // Hardcoded eklemeler
+        BRANDS_MASTER_MAP.get("passengerCar")?.set("ZASTAVA", "TA-124");
+        BRANDS_MASTER_MAP.get("passengerCar")?.set("ZAZ", "TA-1139");
+        BRANDS_MASTER_MAP.get("passengerCar")?.set("YUGO", "TA-2816");
     });
 
-    test("Get all models of given brands", async () => {
-        test.setTimeout(2 * 60 * 1000);
+    // Modelleri Çekme Testi
+    test("2. Get all models of given brands", async () => {
+        // TimeOut'u test blok seviyesine indirmek daha doğru
+        test.setTimeout(20 * 60 * 1000);
 
-        const apiContext = await request.newContext();
-        const token = await getToken();
-        const headers = { headers: { Authorization: `Bearer ${token}` } };
+        const requestOptions = {
+            method: "GET",
+            headers: await getAuthHeaders(),
+        };
 
-        const currentBrandsArray = readBrandNames();
+        for (const carType of carTypes) {
 
-        for (const brandName of currentBrandsArray) {
+            const brandMap = BRANDS_MASTER_MAP.get(carType);
+            if (!brandMap) continue;
 
-            const uuid = brandMap.get(brandName);
+            const MODEL_RESULT: Record<string, Model[]> = {};
 
-            for (const carType of carTypes) {
+            // 2. İyileştirme: Map'in kendi anahtar listesini al
+            const brandNames = Array.from(brandMap.keys());
+            console.log(brandNames);
 
-                const uri = `https://www.repxpert.co.uk/api/Repxpert-GB/manufacturers/${uuid}/modelSeries?targetTypeCodes=${carType}&globalCarPark=true`;
+            for (const brandName of brandNames) {
 
-                const response = await apiContext.get(uri, headers);
+                const uuid = brandMap.get(brandName);
+                if (!uuid) continue;
+
+                const URL = `https://www.repxpert.co.uk/api/Repxpert-GB/manufacturers/${uuid}/modelSeries?targetTypeCodes=${carType}&globalCarPark=true`;
+
                 try {
+                    const response = await fetch(URL, requestOptions);
+
+                    if (!response.status.toString().startsWith("2")) {
+                        console.log(`Warning: Status ${response.status} for ${brandName} (${carType})`);
+                        continue;
+                    }
+
                     const data = await response.json();
-                     
                     const modelSeries: any[] = data.modelSeries;
 
                     modelSeries.forEach((each: any) => {
                         const model: Model = {
                             name: each.name,
                             code: each.uuid,
-                            type: each.type.code
+                            type: each.type.code,
+                            constructionYearFrom: each.constructionYearFrom
                         };
-                        if (modelRecord[brandName]) {
-                            modelRecord[brandName].push(model);
-                        } else {
-                            modelRecord[brandName] = [model];
-                        }
+                        // Daha kısa yazım:
+                        MODEL_RESULT[brandName] = (MODEL_RESULT[brandName] || []).concat(model);
                     });
 
-                    
                 } catch (error) {
-                    console.log(`Error: ${brandName} ${carType} -> ${uri}`);
-                    //console.log(error);
+                    // JSON parse veya Network hatasını yakala
+                    console.error(`Error processing ${brandName} ${carType} -> ${URL}`, error);
                 }
-
             }
+            MODELS_MASTER_RESULT[carType] = MODEL_RESULT;
         }
-
-    })
-
-
-    test.afterAll(async () => {
-        // Prepare object for JSON output
-        const output = {
-            models: modelRecord
-        };
-
-        
-
-        // Write to JSON file
-        const outputPath = path.resolve(__dirname, "../../../resources/data/catalogInfo/jsons/ALL_MODELS_REPXPERT.json");
-        fs.writeFileSync(outputPath, JSON.stringify(output, null, 2), "utf-8");
     });
 
+    // Çıktıyı JSON dosyasına yaz
+    test.afterAll(async () => {
+
+        const outputPath = path.resolve(__dirname, "output/jsons/ALL_MODELS_REPXPERT_array.json");
+        fs.mkdirSync(path.dirname(outputPath), { recursive: true });
+
+        fs.writeFileSync(outputPath, JSON.stringify(MODELS_MASTER_RESULT, null, 2), "utf-8");
+        console.log(`✅ Model verileri başarıyla yazıldı: ${outputPath}`);
+    });
 });

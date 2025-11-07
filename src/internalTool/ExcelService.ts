@@ -1,7 +1,7 @@
 import fs from 'fs/promises';
 import path from 'path';
 import xlsx from 'xlsx';
-import { getDateTimeAsText, getOE_YV_Map, normalizeText } from '../utils/helpers';
+import { getDateTimeAsText, getOE_YV_Map, normalizeText } from '../resources/ts/summerizer/ORJ_NO_KATALOG_helpers';
 import { removeMoreThan_X } from './RemoverService';
 import dotenv from 'dotenv';
 

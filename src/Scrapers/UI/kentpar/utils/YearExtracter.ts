@@ -1,5 +1,5 @@
 // Önceki gibi tip tanımlarımızı koruyoruz.
-interface YearRange {
+type  YearRange = {
     startYear: string | null;
     endYear: string | null;
 }

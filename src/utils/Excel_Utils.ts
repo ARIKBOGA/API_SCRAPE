@@ -16,7 +16,7 @@ const productType = process.env.PRODUCT_TYPE as string;
  */
 export function readProductReferencesFromExcel(): ProductReference[] {
   // Get the path to the Excel file specified in the PRODUCT_TYPE environment variable
-  const excelPath = path.resolve(__dirname, `../resources/data/catalogInfo/excels/${productType}_katalog_full.xlsx`);
+  const excelPath = path.resolve(__dirname, `../resources/catalog/excels/${productType}_katalog_full.xlsx`);
 
   // Read the Excel file
   const workbook = xlsx.readFile(excelPath);

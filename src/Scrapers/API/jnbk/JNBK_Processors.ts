@@ -1,9 +1,10 @@
 import { Locale } from "locale-enum";
 import { OutputManufacturer, OutputTarget } from "../../../utils/Types";
-import { delay } from "../repxpert/helpers/API_Helpers";
 import { extractYears } from "../../../utils/Utility";
+import { delay } from "../Repxpert/helpers/API_Helpers";
+import * as cheerio from "cheerio";
 
-export async function processForOE_Numbers(freeTextSearch: string, $: cheerio.Root) {
+export async function processForOE_Numbers(freeTextSearch: string, $: cheerio.Root): Promise<Map<string, string[]>> {
 
     try {
         const selector = ".detail__plate > .detail__body > .d-lg-flex > .column > .str";
@@ -126,14 +127,14 @@ export async function processForCompatibilities(freeTextSearch: string, $: cheer
 
 export async function processForArticleAttributes(freeTextSearch: string, $: cheerio.Root) {
 
-    const attributes: { [key: string]: string } = {};
+    const attributes: { name: string, value: string }[] = [];
     try {
         const selector = ".detail__specification > .d-lg-flex > .col > .str";
         $(selector).each((index, element) => {
-            const key = $(element).find(".param-title").text().replace("Ø", "").trim();
+            const name = $(element).find(".param-title").text().replace("Ø", "").trim();
             const value = $(element).find(".param-field").text().trim();
-            if (key && value) {
-                attributes[key] = value;
+            if (name && value) {
+                attributes.push({ name, value });
             }
         })
     } catch (error) {

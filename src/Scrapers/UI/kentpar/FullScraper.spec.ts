@@ -3,13 +3,13 @@ import fs from 'fs';
 import path from 'path';
 import * as cheerio from 'cheerio';
 
-export interface KentparProduct {
+export type KentparProduct = {
     oe: string;
     compatibility: string;
     years: string;
     engine: string;
 }
-export interface KentparItem {
+export type KentparItem = {
     KENTPAR_NO: string;
     products: KentparProduct[];
 }

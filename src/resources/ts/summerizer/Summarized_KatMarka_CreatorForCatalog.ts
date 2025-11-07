@@ -1,19 +1,19 @@
 import path from 'path';
 import xlsx from 'xlsx';
 import fs from 'fs';
-import initialMarkaData from '../../data/catalogInfo/jsons/marka_catalog.json';
+import initialMarkaData from '../../catalog/jsons/MARKALAR.json';
 import { OutputManufacturer } from '../../../utils/Types';
 
-const MARKA_ORIGIN_PATH = path.resolve(__dirname, '../../data/catalogInfo/jsons/MARKA_ORIGIN.json');
-const MARKA_HAREKET_PATH = path.resolve(__dirname, '../../data/catalogInfo/jsons/MARKA_HAREKET_KATALOG.json');
+const MARKA_ORIGIN_PATH = path.resolve(__dirname, '../../catalog/jsons/MARKA_ORIGIN.json');
+const MARKA_HAREKET_PATH = path.resolve(__dirname, '../../catalog/jsons/MARKA_HAREKET.json');
 
 const MARKA_HAREKET = JSON.parse(fs.readFileSync(MARKA_HAREKET_PATH, 'utf-8'));
 const MARKA_ORIGIN = JSON.parse(fs.readFileSync(MARKA_ORIGIN_PATH, 'utf-8'));
 
 
-const OUTPUT_FILE_PATH = path.resolve(__dirname, `../../data/catalogInfo/excels/createdKatMarka.xlsx`);
+const OUTPUT_FILE_PATH = path.resolve(__dirname, '../../../output/ALL/excels/katmarka/CREATED_KATMARKA.xlsx');
 
-interface KatMarka {
+type KatMarka = {
     yvNo: string;
     marka_id: string;
     marka: string;
@@ -64,6 +64,7 @@ function main() {
     const ws = xlsx.utils.json_to_sheet(rowData);
     xlsx.utils.book_append_sheet(wb, ws, "KatMarka");
     xlsx.writeFile(wb, OUTPUT_FILE_PATH);
+    console.log(`Excel dosyası oluşturuldu ==>> ${OUTPUT_FILE_PATH}`);
 
 }
 

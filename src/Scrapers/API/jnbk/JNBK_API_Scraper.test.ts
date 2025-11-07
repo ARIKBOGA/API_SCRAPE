@@ -45,7 +45,7 @@ test.describe("JNBK API Scraper", () => {
 
         await writeJSONSafe(`${outputDir}/Vehicle-Compatibility/Vehicle-Compatibility_${FILTER_BRAND}.json`, compats);
         await writeJSONSafe(`${outputDir}/OE/oe-numbers_${FILTER_BRAND}.json`, oes);
-        await writeJSONSafe(`${outputDir}/Attributes/Attributes_${FILTER_BRAND}.json`, attrs);
+        await writeJSONSafe(`${outputDir}/Attributes/Attributes_${PRODUCT_TYPE}_${FILTER_BRAND}.json`, attrs);
 
         console.log(
             `✅ Finished! Valid entries: ${valid.length} / ${filteredRefs.length}. Success rate: ${((valid.length / filteredRefs.length) * 100).toFixed(2)}%`

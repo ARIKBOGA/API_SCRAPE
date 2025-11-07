@@ -1,18 +1,14 @@
 import { request, APIRequestContext } from "@playwright/test";
 import dotenv from "dotenv";
 import path from "path";
-import { productGroupNumbersOfRepxpert, SUPPLIER_NUMBERS } from "../../resources/Variables";
 import { ApiCompatibility, ApiTarget, OutputTarget } from "../../../../utils/Types";
-import { Mutex } from 'async-mutex';
 import { REPXPERT } from "../config/ApiData";
 
 dotenv.config({ path: path.resolve(".env") });
 
 
-let cachedToken: string | null = null;
-
-let headers: { getHeaders: any; };
-const mutex = new Mutex();
+let cachedToken: string = "";
+let cachedCookie: string = "";
 
 /**
  * Returns a promise that resolves after the given ms.
@@ -23,36 +19,32 @@ export async function delay(ms: number): Promise<any> {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-export async function getAuthHeaders(): Promise<{ Authorization: string }> {
-  if (!headers) {
-    await mutex.runExclusive(async () => {
-      if (!headers) {
-        headers = {
-          async getHeaders() {
-            return {
-              Authorization: `Bearer ${await getToken()}`,
-            };
-          },
-        };
-      }
-    });
-  }
-  return headers.getHeaders();
+
+export async function getAuthHeaders(): Promise<Record<string, string>> {
+  const { token, cookie } = await getToken();
+  return {
+    Authorization: `Bearer ${token}`,
+    "accept-language": "tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7",
+    "Accept-Encoding": "gzip, deflate, br",
+    "user-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)...",
+    Cookie: cookie
+  };
 }
 
-export async function getToken(): Promise<string | null> {
 
-  if (cachedToken) return cachedToken;
+let cachedExpiresAt = 0;
+const TOKEN_TTL_MS = 15 * 60 * 1000; // 15 dk fallback
+
+export async function getToken(): Promise<{ token: string, cookie: string }> {
+  if (cachedToken && cachedCookie && Date.now() < cachedExpiresAt)
+    return { token: cachedToken, cookie: cachedCookie };
 
   const apiContext = await request.newContext();
   const requestURL = REPXPERT.tokenRequest.URL;
   const tokenHeaders = REPXPERT.tokenRequest.headers;
   const requestBody = new URLSearchParams(REPXPERT.tokenRequest.body).toString();
 
-  const tokenResponse = await apiContext.post(requestURL, {
-    headers: tokenHeaders,
-    data: requestBody,
-  });
+  const tokenResponse = await apiContext.post(requestURL, { headers: tokenHeaders, data: requestBody });
 
   if (!tokenResponse.ok()) {
     throw new Error(`Failed to get token: ${tokenResponse.status()}`);
@@ -60,10 +52,15 @@ export async function getToken(): Promise<string | null> {
 
   const tokenData = await tokenResponse.json();
   cachedToken = tokenData.access_token;
+  cachedExpiresAt = Date.now() + (tokenData.expires_in ? tokenData.expires_in * 1000 : TOKEN_TTL_MS);
+
+  const headers = tokenResponse.headers();
+  cachedCookie = headers["set-cookie"];
 
   await apiContext.dispose();
-  return cachedToken;
+  return { token: cachedToken, cookie: cachedCookie };
 }
+
 
 export async function getEncryptedSearchCode(freeTextSearch: string, filterBrand: string, apiContext: APIRequestContext): Promise<string | null> {
   try {

@@ -2,7 +2,7 @@ import path from "path";
 import xlsx from "xlsx";
 import fs from 'fs'
 import dotenv from 'dotenv';
-import initialMarkaData from '../../resources/data/catalogInfo/jsons/marka_catalog.json';
+import initialMarkaData from '../../resources/catalog/jsons/MARKALAR.json';
 import { brandAliases } from "../api/resources/Variables";
 import { normalize_OE } from "../../utils/Utility";
 
@@ -12,7 +12,7 @@ dotenv.config({ path: path.resolve(".env") });
 const productType = process.env.PRODUCT_TYPE as string;
 const filterBrand = process.env.FILTER_BRAND as string;
 
-interface OE_rowData {
+type OE_rowData = {
     YV: string;
     "CROSS NO": string;
     "MARKA ID": number | string;

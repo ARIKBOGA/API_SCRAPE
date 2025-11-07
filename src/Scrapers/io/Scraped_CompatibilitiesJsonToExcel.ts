@@ -4,8 +4,8 @@ import * as fs from 'fs';
 import dotenv from 'dotenv';
 import { ModelData, OutputManufacturer, OutputModelSeries, OutputTarget, RootJsonData } from '../../utils/Types';
 import { brandAliases, excelTitles } from '../api/resources/Variables';
-import initialMarkaData from '../../resources/data/catalogInfo/jsons/marka_catalog.json';
-import initialModelData from '../../resources/data/catalogInfo/jsons/model_catalog.json';
+import initialMarkaData from '../../resources/catalog/jsons/MARKALAR.json';
+import initialModelData from '../../resources/catalog/jsons/MODELLER.json';
 
 dotenv.config({ path: path.resolve(".env") });
 
@@ -87,7 +87,7 @@ export function convertJsonToExcel(inputFilePath: string, outputDirectory: strin
         // Iterate through each model series
         vehicle.models.forEach((model: OutputModelSeries) => {
           // Construct the model key and lookup the model ID
-          const modelKey = `${vehicle.manufacturer.trim().toUpperCase()}_${model.modelSeries.trim().toUpperCase()}`;
+          const modelKey = `${brandAliases.get(vehicle.manufacturer.trim().toUpperCase())||vehicle.manufacturer.trim().toUpperCase()}_${model.modelSeries.trim().toUpperCase()}`;
           const foundModelData = modelDataMap.get(modelKey);
           const model_id = foundModelData ? foundModelData.id : null;
 
