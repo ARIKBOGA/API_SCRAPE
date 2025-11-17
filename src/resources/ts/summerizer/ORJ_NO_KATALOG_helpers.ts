@@ -4,7 +4,7 @@ import xlsx from 'xlsx';
 
 import OE_YV_DATA from '../../catalog/jsons/ORJ_NO.json';
 import { OERoot } from '../../../utils/Types';
-import { normalize_OE } from '../../../utils/Utility';
+import { normalize_OE } from '../../../utils/MAP_Serializer';
 import { PRODUCT_TYPE } from '../../../config/env';
 
 
@@ -30,10 +30,6 @@ export function getOE_YV_Map(): Map<string, string[]> {
     });
 
     return OE_YV_MAP;
-}
-
-export function normalizeText(text: string) {
-    return text.replace(/[^a-zA-Z0-9]/g, '');
 }
 
 

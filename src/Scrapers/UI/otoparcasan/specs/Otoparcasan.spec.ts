@@ -26,7 +26,7 @@ test.describe("Otoparcasan SCRAPER with Cheerio parser via UI", () => {
 
 
 
-test('CSRF token alma API isteği', async ({ page }) => {
+test('CSRF token alma API isteği', async ({ request }) => {
     // API isteği için URL
     const url = "https://otoparcasan.com/Ajax/getCsrf/";
 
@@ -40,7 +40,7 @@ test('CSRF token alma API isteği', async ({ page }) => {
     try {
         // Playwright'ın 'request' objesi ile GET isteği yapma
         // Bu, Node.js'teki 'fetch'in Playwright karşılığıdır.
-        const response = await page.request.get(url, {
+        const response = await request.get(url, {
             headers: headers
             // redirect: "follow" Playwright request'lerde varsayılan davranıştır.
         });

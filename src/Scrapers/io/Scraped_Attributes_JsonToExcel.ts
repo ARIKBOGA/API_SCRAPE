@@ -1,27 +1,25 @@
 import XLSX from 'xlsx';
 import path from 'path';
-import fs from 'fs';
 import { FILTER_BRAND, PRODUCT_TYPE } from '../../config/env';
-import { makeSureDirectoryExists } from '../../io/helpers/Functions';
 import { AttributeItem, AttributeRow } from '../../utils/Types';
-
-// Dosya yolları
-const INPUT_FILE_PATH = path.resolve(__dirname, `../../output/${PRODUCT_TYPE}/jsons/Attributes/Attributes_${PRODUCT_TYPE}_${FILTER_BRAND}.json`);
-const OUTPUT_DIR = path.resolve(__dirname, `../../output/${PRODUCT_TYPE}/excels/Attributes`);
-const OUTPUT_FILE = path.resolve(OUTPUT_DIR, `Attributes_${PRODUCT_TYPE}_${FILTER_BRAND}.xlsx`);
-makeSureDirectoryExists(OUTPUT_DIR);
+import { mkdirIfNotExists } from '../../io/utils/Workspace_IO_Utils';
 
 
 
-export async function scraped_Attributes_JsonToExcel(): Promise<void> {
 
-    // Veriyi oku ve parse et
-    const data = JSON.parse(fs.readFileSync(INPUT_FILE_PATH, 'utf-8'));
+
+export async function scraped_Attributes_JsonToExcel(results: AttributeItem[]): Promise<void> {
+
+    // Dosya yolları
+    const OUTPUT_DIR = path.resolve(__dirname, `../../output/${PRODUCT_TYPE}/excels/Attributes`);
+    const OUTPUT_FILE = path.resolve(OUTPUT_DIR, `Attributes_${PRODUCT_TYPE}_${FILTER_BRAND}.xlsx`);
+    mkdirIfNotExists(OUTPUT_DIR);
+
 
     // Tüm olası attribute (öznitelik) isimlerini topla.
     // Bu, Excel sütun başlıklarını dinamik olarak oluşturmak için kritik.
     const allAttributeNames = new Set<string>();
-    data.forEach((item: AttributeItem) => {
+    results.forEach((item: AttributeItem) => {
         item.attributes.forEach(attr => {
             allAttributeNames.add(attr.name);
         });
@@ -35,7 +33,7 @@ export async function scraped_Attributes_JsonToExcel(): Promise<void> {
 
 
     // Veriyi düz (flat) satır yapısına dönüştür.
-    const rows: AttributeRow[] = data.map((item: AttributeItem) => {
+    const rows: AttributeRow[] = results.map((item: AttributeItem) => {
         const { yvNo, crossNumber, supplier, attributes } = item;
         const attributeMap: Record<string, string> = {};
 
@@ -81,7 +79,7 @@ export async function scraped_Attributes_JsonToExcel(): Promise<void> {
 }
 
 function main() {
-    scraped_Attributes_JsonToExcel();
+    //scraped_Attributes_JsonToExcel();
 }
 
 main();

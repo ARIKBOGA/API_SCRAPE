@@ -8,15 +8,16 @@ import { FILTER_BRAND, PRODUCT_TYPE } from '../../config/env';
 
 
 
-const INPUT_FILE_PATH = path.resolve(__dirname, `../../output/${PRODUCT_TYPE}/jsons/Vehicle-Compatibility/Vehicle-Compatibility_${FILTER_BRAND}.json`);
-const OUTPUT_DIR = path.resolve(__dirname, `../../output/${PRODUCT_TYPE}/excels/Vehicle-Compatibility`);
-
 /**
  * Converts a Vehicle-Compatibility JSON file to an Excel workbook and saves it.
  * @param inputFilePath The path to the JSON file to be read
  * @param outputDirectory The directory where the Excel file will be saved
  */
-export async function scraped_Compatibilities_JsonToExcel(): Promise<void> {
+export async function scraped_Compatibilities_JsonToExcel(results: any[]): Promise<void> {
+
+
+  const OUTPUT_FILEPATH = path.resolve(__dirname, `../../output/${PRODUCT_TYPE}/excels/Vehicle-Compatibility/Vehicle-Compatibility_${FILTER_BRAND}.xlsx`);
+
   // Create a new Excel workbook
   const workbook = XLSX.utils.book_new();
 
@@ -29,7 +30,7 @@ export async function scraped_Compatibilities_JsonToExcel(): Promise<void> {
 
   try {
     // Read and parse the JSON data from the input file
-    const data: ProductCompatibilityResult[] = JSON.parse(fs.readFileSync(INPUT_FILE_PATH, 'utf-8'));
+    const data: ProductCompatibilityResult[] = results;
 
     // Map to store data for each sheet
     const sheetDataMap = new Map<string, any[][]>();
@@ -128,11 +129,11 @@ export async function scraped_Compatibilities_JsonToExcel(): Promise<void> {
     XLSX.utils.book_append_sheet(workbook, XLSX.utils.aoa_to_sheet(allInfoSheet), 'All Sheets');
 
     // Ensure the output directory exists, create it if not
-    if (!fs.existsSync(OUTPUT_DIR)) fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+    if (!fs.existsSync(OUTPUT_FILEPATH)) fs.mkdirSync(OUTPUT_FILEPATH, { recursive: true });
 
     // Write the workbook to a file with a modified name
-    XLSX.writeFile(workbook, path.join(OUTPUT_DIR, `${path.basename(INPUT_FILE_PATH.slice(0, -5))}.xlsx`));
-    console.log(`Data successfully exported to Excel: ${OUTPUT_DIR}`);
+    XLSX.writeFile(workbook, OUTPUT_FILEPATH);
+    console.log(`Data successfully exported to Excel: ${OUTPUT_FILEPATH}`);
 
   } catch (error) {
     // Log an error if the process fails
@@ -141,9 +142,7 @@ export async function scraped_Compatibilities_JsonToExcel(): Promise<void> {
 }
 
 function main() {
-
-
-  scraped_Compatibilities_JsonToExcel();
+  //scraped_Compatibilities_JsonToExcel();
 }
 
 main();

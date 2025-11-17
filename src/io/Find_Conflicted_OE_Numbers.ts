@@ -1,8 +1,8 @@
-import { getORJ_NO_DATA } from './utils/Reader_Utils';
+import { data_ORJ_NO } from './utils/ORJ_NO_Utils';
 
 
 
-const data: any = getORJ_NO_DATA();
+const data: any = data_ORJ_NO();
 console.log(data.length);
 
 const allMap = new Map<string, string[]>();

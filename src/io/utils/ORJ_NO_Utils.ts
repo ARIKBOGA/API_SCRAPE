@@ -1,6 +1,6 @@
 import path from "path";
-import xlsx from "xlsx";
 import { PRODUCT_TYPE } from "../../config/env";
+import { readExcelSafe } from "./ExcelUtils";
 
 const PRODUCT_GROUP_ID: Record<string, number> = {
     BrakeDisc: 1,
@@ -10,13 +10,11 @@ const PRODUCT_GROUP_ID: Record<string, number> = {
 }
 
 
-export function getORJ_NO_DATA() {
+export async function data_ORJ_NO() {
 
     const inputFilepath = path.resolve(__dirname, '../../resources/catalog/excels/ORJ_NO.xlsx');
 
-    const wb = xlsx.readFile(inputFilepath);
-    const ws = wb.Sheets[wb.SheetNames[0]];
-    const data: any = xlsx.utils.sheet_to_json(ws);
+    const data = await readExcelSafe(inputFilepath);
 
     return data.filter((row: any) => row["KATOLOG::grupId"] === PRODUCT_GROUP_ID[PRODUCT_TYPE])
 }
@@ -26,11 +24,12 @@ export function getORJ_NO_DATA() {
  * that correspond to the given YV number.
  * @returns {Map<string, Set<string>>} A Map of YV numbers to their corresponding ORJ numbers
  */
-export function get_ORJ_NO_DATA_map(): Map<string, Set<string>> {
+export async function MAP_ORJ_NO(): Promise<Map<string, Set<string>>> {
 
     const data = new Map<string, Set<string>>();
 
-    getORJ_NO_DATA().forEach((row: any) => {
+    for (const row of await data_ORJ_NO()) {
+
         const oe = row["orjNo"];
         const yv = row["yvNo"];
         if (data.has(yv)) {
@@ -40,7 +39,8 @@ export function get_ORJ_NO_DATA_map(): Map<string, Set<string>> {
         } else {
             data.set(yv, new Set([oe]));
         }
-    })
+
+    }
     const oeSet = new Set<string>();
     data.forEach((value, key) => {
         value.forEach(oe => oeSet.add(oe));

@@ -1,12 +1,11 @@
 import { test, Page, Browser } from '@playwright/test'; // Browser'ı import edin
 import path from 'path';
 import fs from 'fs';
-import { OutputManufacturer, OutputModelSeries, OutputTarget, ProductCompatibilityResult, ProductReference } from '../../../utils/Types';
-
-import { extractYears } from '../../../utils/Utility';
+import { OutputManufacturer, OutputTarget, ProductCompatibilityResult, ProductReference } from '../../../utils/Types';
 import { Locale } from 'locale-enum';
 import { FILTER_BRAND, JNKB_BRAKES_URL, PRODUCT_TYPE } from '../../../config/env';
 import { referenceArray } from '../../api/resources/Variables';
+import { extractYears } from '../../io/Utils';
 
 
 // JNBK scrapers with parallel threads with usingp-limit and browser.newPage()

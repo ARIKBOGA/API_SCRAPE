@@ -131,28 +131,38 @@ export type OeNumber = {
 }
 
 export type OE_rowData = {
-    YV: string;
-    "CROSS NO": string;
-    "MARKA ID": number | string;
-    MANUFACTURER: string;
-    OE: string;
+  YV: string;
+  "CROSS NO": string;
+  "MARKA ID": number | string;
+  MANUFACTURER: string;
+  OE: string;
 }
 
+
+export type HORIZONTAL_OE_rowData = {
+  YV: string;
+  "CROSS NO": string;
+  BRANDS: string;
+  OE_Numbers: string;
+  NORMALIZED_OE_Numbers: string;
+}
+
+
 export type AttributeItem = {
-    yvNo: string,
-    crossNumber: string,
-    supplier: string,
-    attributes: {
-        name: string,
-        value: string
-    }[]
+  yvNo: string,
+  crossNumber: string,
+  supplier: string,
+  attributes: {
+    name: string,
+    value: string
+  }[]
 }
 
 export type AttributeRow = {
-    yvNo: string,
-    crossNumber: string,
-    supplier: string,
-    [key: string]: string | number; // Dinamik attribute'ler için
+  yvNo: string,
+  crossNumber: string,
+  supplier: string,
+  [key: string]: string | number; // Dinamik attribute'ler için
 }
 
 export type MARKA_HAREKET_ExcelRow = {

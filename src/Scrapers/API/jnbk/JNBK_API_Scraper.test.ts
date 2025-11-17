@@ -3,8 +3,8 @@ import { referenceArray } from "../resources/Variables";
 import path from "path";
 import pLimit from "p-limit";
 import { getResults } from "./JNBK_Requests";
-import { mkdirIfNotExists, writeJSONSafe } from "./JNBK_Utils";
 import { FILTER_BRAND, PRODUCT_TYPE } from "../../../config/env";
+import { mkdirIfNotExists, writeJSONSafe } from "../../../io/helpers/Functions";
 
 const THREAD_LIMIT = 4; // Aynı anda çalışacak istek sayısı
 

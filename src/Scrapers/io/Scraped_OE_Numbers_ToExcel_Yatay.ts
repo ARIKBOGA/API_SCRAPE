@@ -1,19 +1,9 @@
 import path from "path";
 import xlsx from "xlsx";
 import fs from 'fs'
-import { normalize_OE } from "../../utils/Utility";
+import { normalize_OE } from "./Utils";
 import { FILTER_BRAND, PRODUCT_TYPE } from "../../config/env";
-
-
-
-
-type OE_rowData = {
-    YV: string;
-    "CROSS NO": string;
-    MARKALAR: string;
-    OE: string;
-    NORMALIZED_OE: string;
-}
+import { HORIZONTAL_OE_rowData } from "../../utils/Types";
 
 
 
@@ -21,7 +11,7 @@ function jsonToExcelHorizontal() {
     const jsonPath = path.resolve(__dirname, `../../output/${PRODUCT_TYPE}/jsons/OE/oe-numbers_${FILTER_BRAND}.json`);
     const jsonData = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'));
 
-    const rowData: OE_rowData[] = [];
+    const rowData: HORIZONTAL_OE_rowData[] = [];
 
     for (const item of jsonData) {
         const yv = item.yvNo;
@@ -33,9 +23,9 @@ function jsonToExcelHorizontal() {
         rowData.push({
             YV: yv,
             "CROSS NO": crossNo,
-            MARKALAR: markalar,
-            OE: oe,
-            NORMALIZED_OE: oeNormalized
+            BRANDS: markalar,
+            OE_Numbers: oe,
+            NORMALIZED_OE_Numbers: oeNormalized
         });
     }
 
@@ -48,16 +38,9 @@ function jsonToExcelHorizontal() {
     console.log(`${FILTER_BRAND} OE Numbers Excel dosyası oluşturuldu ==>> ${outputFilePath}`);
 }
 
-function OENumbers_verticalToHorizontal() {
-
-    const INPUT_PATH = path.resolve(__dirname, `../../output/${PRODUCT_TYPE}/excels/OE/OE_Numbers_${FILTER_BRAND}.xlsx`)
-    const wb = xlsx.readFile(INPUT_PATH);
-    const ws = xlsx.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]]);
-}
 
 function main() {
     jsonToExcelHorizontal();
-    //OENumbers_verticalToHorizontal();
 }
 
 main();

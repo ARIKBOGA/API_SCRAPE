@@ -1,9 +1,10 @@
 import fs from 'fs/promises';
 import path from 'path';
 import xlsx from 'xlsx';
-import { getDateTimeAsText, getOE_YV_Map, normalizeText } from '../resources/ts/summerizer/ORJ_NO_KATALOG_helpers';
-import { removeMoreThan_X } from './RemoverService';
+import { getOE_YV_Map } from '../resources/ts/summerizer/ORJ_NO_KATALOG_helpers';
+
 import dotenv from 'dotenv';
+import { normalize_OE } from '../scrapers/io/Utils';
 
 dotenv.config({ path: path.resolve(".env") });
 
@@ -130,7 +131,7 @@ function getQuerySet(jsonData: any[], keywordList: string[]): Set<string> {
         relevantHeaders.forEach(relevantHeader => {
             const value = item[relevantHeader];
             if (value) {
-                const normalizedValue = normalizeText(value.toString().trim());
+                const normalizedValue = normalize_OE(value.toString().trim());
                 if (normalizedValue) {
                     oe_set.add(normalizedValue);
                 }

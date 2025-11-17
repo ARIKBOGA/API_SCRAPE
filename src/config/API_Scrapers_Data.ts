@@ -1,6 +1,6 @@
 import path from "path";
 import dotenv from "dotenv";
-import { productGroupNumbersOfRepxpert, SUPPLIER_NUMBERS } from "../../resources/Variables";
+import { productGroupNumbersOfRepxpert, SUPPLIER_NUMBERS } from "../scrapers/api/resources/Variables";
 import { usernameEnvKey } from "./SystemVariables";
 
 dotenv.config({ path: path.resolve(".env") });
@@ -36,7 +36,7 @@ export const REPXPERT = {
     URL: "https://api-aftermarket.schaeffler.de/authorizationserver/oauth/token",
   },
 
-  getCrossNumbersURL: (freeTextSearch: string) => {
+  crossNumbers_API_URL: (freeTextSearch: string) => {
     const params = {
       currentPage: `${generalInfo.crossNumbersCurrentPage}`,
       query: `${freeTextSearch}::assemblyGroups:${productGroupNumbersOfRepxpert[generalInfo.productType]}`,
@@ -45,7 +45,7 @@ export const REPXPERT = {
     return `${generalInfo.BASE_URI}search?${new URLSearchParams(params).toString()}`;
   },
 
-  getEncrSrcURL: (freeTextSearch: string, filterBrand: string) => {
+  encryptedSearchCode_API_URL: (freeTextSearch: string, filterBrand: string) => {
     const params = {
       query: `${freeTextSearch}::brand:${SUPPLIER_NUMBERS[filterBrand]}::assemblyGroups:${productGroupNumbersOfRepxpert[generalInfo.productType]}`,
       pageSize: "20",
@@ -53,30 +53,29 @@ export const REPXPERT = {
     return `${generalInfo.BASE_URI}search?${new URLSearchParams(params).toString()}`;
   },
 
-  getOE_URL: (encryptedSearchCode: string) => `${generalInfo.BASE_URI}${encryptedSearchCode}/oenumbers`,
+  OE_API_URL: (encryptedSearchCode: string) => `${generalInfo.BASE_URI}${encryptedSearchCode}/oenumbers`,
 
-  getManufacturersURL: (encryptedSearchCode: string) => {
+  manufacturers_API_URL: (encryptedSearchCode: string) => {
     const passengerCarURL = `${generalInfo.BASE_URI}${encryptedSearchCode}/linkages/manufacturers?targetTypeCodes=${generalInfo.vehicleType[0]}`;
     const commercialVehicleURL = `${generalInfo.BASE_URI}${encryptedSearchCode}/linkages/manufacturers?targetTypeCodes=${generalInfo.vehicleType[1]}`;
     return { passengerCarURL, commercialVehicleURL };
   },
 
-  getModelSeriesURL: (encryptedSearchCode: string, manufacturer_uuid: string) => {
+  modelSeries_API_URL: (encryptedSearchCode: string, manufacturer_uuid: string) => {
     const passengerCarURL = `${generalInfo.BASE_URI}${encryptedSearchCode}/linkages/manufacturers/${manufacturer_uuid}/modelSeries?targetTypeCodes=${generalInfo.vehicleType[0]}`;
     const commercialVehicleURL = `${generalInfo.BASE_URI}${encryptedSearchCode}/linkages/manufacturers/${manufacturer_uuid}/modelSeries?targetTypeCodes=${generalInfo.vehicleType[1]}`;
     return { passengerCarURL, commercialVehicleURL };
   },
 
-  getTargetsURL: (encryptedSearchCode: string, model_uuid: string) => {
+  targets_API_URL: (encryptedSearchCode: string, model_uuid: string) => {
     const passengerCarURL = `${generalInfo.BASE_URI}${encryptedSearchCode}/linkages/modelSeries/${model_uuid}/targets?targetTypeCodes=${generalInfo.vehicleType[0]}`;
     const commercialVehicleURL = `${generalInfo.BASE_URI}${encryptedSearchCode}/linkages/modelSeries/${model_uuid}/targets?targetTypeCodes=${generalInfo.vehicleType[1]}`;
     return { passengerCarURL, commercialVehicleURL };
   },
 
-  getArticleAttributesURL: (encryptedSearchCode: string) => `${generalInfo.BASE_URI}${encryptedSearchCode}`
+  articleAttributes_API_URL: (encryptedSearchCode: string) => `${generalInfo.BASE_URI}${encryptedSearchCode}`
 };
 
 export const JNBK = {
-  BASE_URI: "https://www.jnbk-brakes.com/catalogue/cars",
-
+  BASE_URI: process.env.JNBK_BASE_URI as string,
 }

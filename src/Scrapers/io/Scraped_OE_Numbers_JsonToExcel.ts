@@ -1,31 +1,21 @@
 import path from "path";
 import xlsx from "xlsx";
-import fs from 'fs'
-
 import { brandAliases } from "../api/resources/Variables";
-import { normalize_OE } from "../../utils/Utility";
-import { markaNameToIdMap } from "./Utils";
+import { markaNameToIdMap, normalize_OE } from "./Utils";
 import { FILTER_BRAND, PRODUCT_TYPE } from "../../config/env";
 import { OE_rowData } from "../../utils/Types";
 
 
 
-
-
-export async function scraped_OE_Numbers_JsonToExcel() {
-
-    const jsonPath = path.resolve(__dirname, `../../output/${PRODUCT_TYPE}/jsons/OE/oe-numbers_${FILTER_BRAND}.json`);
-    const jsonData = await JSON.parse(fs.readFileSync(jsonPath, 'utf-8'));
+export async function scraped_OE_Numbers_JsonToExcel(results: any[]) {
 
     const rowData: OE_rowData[] = [];
-
-
 
     const rowKeys: string[] = [];
     const oe_numbersPairedSomeMarka_ID: string[] = [];
     const oe_numbersWithoutMarka_ID: string[] = [];
 
-    for (const element of jsonData) {
+    for (const element of results) {
 
         for (const oe_element of element.oeNumbers) {
 
@@ -85,7 +75,10 @@ export async function scraped_OE_Numbers_JsonToExcel() {
 
 
 function main() {
-    scraped_OE_Numbers_JsonToExcel();
+
+    const jsonPath = path.resolve(__dirname, `../../output/${PRODUCT_TYPE}/jsons/OE/oe-numbers_${FILTER_BRAND}.json`);
+    //const jsonData = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'));
+    //scraped_OE_Numbers_JsonToExcel(jsonData);
 }
 
 main();

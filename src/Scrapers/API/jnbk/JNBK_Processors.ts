@@ -1,8 +1,7 @@
 import { Locale } from "locale-enum";
 import { OutputManufacturer, OutputTarget } from "../../../utils/Types";
-import { extractYears } from "../../../utils/Utility";
-import { delay } from "../Repxpert/helpers/API_Helpers";
-import * as cheerio from "cheerio";
+import { extractYears } from "../../../utils/MAP_Serializer";
+import { delay } from "../repxpert/helpers/API_Helpers";
 
 export async function processForOE_Numbers(freeTextSearch: string, $: cheerio.Root): Promise<Map<string, string[]>> {
 

@@ -1,7 +1,5 @@
 import path from 'path';
 import xlsx from 'xlsx';
-import fs from 'fs';
-
 
 const inputFilePath = path.resolve(__dirname, '../resources/AYD.xlsx');
 

@@ -1,21 +1,17 @@
 import { APIRequestContext, request, test } from "@playwright/test";
-import dotenv from "dotenv";
 import path from "path";
-import fs from "fs";
 
 import { processProductFor_CrossNumbers, processProductFor_OE, processProductFor_VehicleCompatibility, processProductForArticleAttributes } from "./helpers/API_Functions";
 import { referenceArray } from "../resources/Variables";
-import { readProductReferencesFromExcel } from "../../../utils/Excel_Utils";
 import { getAuthHeaders, getEncryptedSearchCode } from "./helpers/API_Helpers";
 import { ProductReference } from "../../../utils/Types";
-import { REPXPERT } from "./config/ApiData";
 import { scraped_OE_Numbers_JsonToExcel } from "../../io/Scraped_OE_Numbers_JsonToExcel";
 import { scraped_Compatibilities_JsonToExcel } from "../../io/Scraped_CompatibilitiesJsonToExcel";
 import { scraped_Attributes_JsonToExcel } from "../../io/Scraped_Attributes_JsonToExcel";
+import { REPXPERT } from "../../../config/API_Scrapers_Data";
+import { FILTER_BRAND, PRODUCT_TYPE } from "../../../config/env";
+import { writeJSONSafe } from "../../../io/utils/Json_Utils";
 
-dotenv.config({ path: path.resolve(".env") });
-const productType = process.env.PRODUCT_TYPE as string;
-const filterBrand = (process.env.FILTER_BRAND as string) !== "" ? process.env.FILTER_BRAND as string : "LOADED_NOT_FOUND_COMMERCIAL_REMINDER";
 
 const start = 0;
 const end: number = 0;
@@ -23,40 +19,38 @@ const endCalc = end === 0 ? referenceArray.length : end;
 
 async function processProducts(
   processFunction: (productRef: ProductReference, apiContext: APIRequestContext) => Promise<any>,
-  fileName: string,
+  output_filename: string,
   threadLimit: number,
-  processFor: string
+  processName: string
 ) {
   const { default: pLimit } = await import("p-limit");
   const limit = pLimit(threadLimit);
   const apiContext = await request.newContext();
 
-  //const productReferences = readProductReferencesFromExcel();
 
   const results = (
     await Promise.all(
-      //productReferences
+      
       referenceArray
-        .filter(
-          (productRef) =>
-            productRef.freeTextSearch.trim() !== ""
-        )
+        .filter((productRef) => productRef.freeTextSearch.trim() !== "")
         //.slice(start, endCalc)
         .map((productRef) => limit(() => processFunction(productRef, apiContext)))
     )
   ).filter((r) => r !== null);
 
-  const outputDir = path.resolve(`src/output/${productType}/jsons/${processFor}`);
-  if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
-  fs.writeFileSync(path.join(outputDir, fileName), JSON.stringify(results, null, 2), "utf8");
+  const outputDir = path.resolve(`src/output/${PRODUCT_TYPE}/jsons/${processName}`);
 
+  await writeJSONSafe(`${outputDir}/${output_filename}`, results);
+  
+  // Log the processing summary
   const total = referenceArray.slice(start).length;
   const success = results.length;
   console.log(`✅ Processed ${success}/${total} successfully (${((success / total) * 100).toFixed(2)}%)`);
 
-
-
   await apiContext.dispose();
+
+  return results;
+
 }
 
 test.describe("The suit of the main scraping branches from Rpexpert", () => {
@@ -64,23 +58,23 @@ test.describe("The suit of the main scraping branches from Rpexpert", () => {
 
   test("Get OE numbers for all products", async () => {
     test.setTimeout(20 * 60 * 1000);
-    console.log(`Processing OE numbers for brand: ${filterBrand}`);
-    await processProducts(processProductFor_OE, `oe-numbers_${filterBrand}.json`, 4, "OE");
-    await scraped_OE_Numbers_JsonToExcel();
+    console.log(`Processing OE numbers for brand: ${FILTER_BRAND}`);
+    const results = await processProducts(processProductFor_OE, `oe-numbers_${FILTER_BRAND}.json`, 4, "OE");
+    await scraped_OE_Numbers_JsonToExcel(results);
   });
 
   test("Get Vehicle Compatibility for all products", async () => {
     test.setTimeout(20 * 60 * 1000);
-    console.log(`Processing Vehicle Compatibility for brand: ${filterBrand}`);
-    await processProducts(processProductFor_VehicleCompatibility, `Vehicle-Compatibility_${filterBrand}_${start}_${endCalc}.json`, 1, "Vehicle-Compatibility");
-    await scraped_Compatibilities_JsonToExcel();
+    console.log(`Processing Vehicle Compatibility for brand: ${FILTER_BRAND}`);
+    const results = await processProducts(processProductFor_VehicleCompatibility, `Vehicle-Compatibility_${FILTER_BRAND}_${start}_${endCalc}.json`, 1, "Vehicle-Compatibility");
+    await scraped_Compatibilities_JsonToExcel(results);
   });
 
   test("Get Article Attributes of the products", async () => {
     test.setTimeout(10 * 60 * 1000);
-    console.log(`Processing Article Attributes for : ${productType} - ${filterBrand}`)
-    await processProducts(processProductForArticleAttributes, `Attributes_${productType}_${filterBrand}.json`, 5, 'Attributes');
-    await scraped_Attributes_JsonToExcel();
+    console.log(`Processing Article Attributes for : ${PRODUCT_TYPE} - ${FILTER_BRAND}`)
+    const results = await processProducts(processProductForArticleAttributes, `Attributes_${PRODUCT_TYPE}_${FILTER_BRAND}.json`, 5, 'Attributes');
+    await scraped_Attributes_JsonToExcel(results);
   })
 
 })
@@ -88,8 +82,8 @@ test.describe("The suit of the main scraping branches from Rpexpert", () => {
 
 test("Get cross numbers via given cross/OE numbers", async () => {
   test.setTimeout(20 * 60 * 1000);
-  console.log(`Processing Cross Numbers for brand: ${filterBrand}`);
-  await processProducts(processProductFor_CrossNumbers, `Cross-Numbers_${productType}_${filterBrand}_${start}_${endCalc}.json`, 5, "Cross-Numbers");
+  console.log(`Processing Cross Numbers for brand: ${FILTER_BRAND}`);
+  await processProducts(processProductFor_CrossNumbers, `Cross-Numbers_${PRODUCT_TYPE}_${FILTER_BRAND}_${start}_${endCalc}.json`, 5, "Cross-Numbers");
 });
 
 
@@ -127,8 +121,3 @@ test("Get only ICER products WVA numbers", async ({ request }) => {
     console.log(`YV: ${yvNo}, Brand: ${supplier}, Cross Number: ${crossNumber}, Trade Numbers: ${tradeNumbers}`);
   }
 })
-
-test("Get only BREMBO products OE numbers", async ({ request }) => {
-
-
-});

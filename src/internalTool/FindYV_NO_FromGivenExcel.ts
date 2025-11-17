@@ -1,6 +1,6 @@
 import path from 'path';
 import xlsx from 'xlsx';
-import { normalize_OE } from '../utils/Utility';
+import { normalize_OE } from '../utils/MAP_Serializer';
 
 const ORJ_NO_POOL_FILE_PATH = path.resolve(__dirname, `../output/ALL/excels/OE/ORJ_NO.xlsx`);
 const QUERY_FILE_PATH = path.resolve(__dirname, `../output/ALL/excels/OE/ETBK.xlsx`);
