@@ -1,11 +1,9 @@
 import path from 'path';
 import xlsx from 'xlsx';
 import fs from 'fs';
-import dotenv from 'dotenv';
+import { PRODUCT_TYPE } from '../../../config/env';
 
-dotenv.config({ path: path.resolve(".env") });
 
-const PRODUCT_TYPE = process.env.PRODUCT_TYPE!;
 
 const INPUT_FILE_PATH = path.resolve(__dirname, `../../../output/${PRODUCT_TYPE}/jsons/JNBK_CODES/Parellel_JNBK_CODES_${PRODUCT_TYPE}.jsonl`);
 const data = fs.readFileSync(INPUT_FILE_PATH, 'utf-8');

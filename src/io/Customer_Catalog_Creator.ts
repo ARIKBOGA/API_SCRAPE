@@ -4,20 +4,17 @@ import path from "path";
 import * as ExcelJS from "exceljs";
 import xlsx from 'xlsx';
 import { bodyTypes, brandAliases, modelAliases } from "../scrapers/api/resources/Variables";
-import dotenv from 'dotenv';
 import { YV_OE_NO_MAP } from "./ORJ_NO_map_For_Label_and_Customer_Catalog";
-import { group } from "console";
 import { ModelWithQuantity } from "./helpers/Types";
+import { PRODUCT_TYPE } from "../config/env";
 
-dotenv.config({ path: path.resolve(".env") });
 
-const productType = process.env.PRODUCT_TYPE as string;
 
 const lineCount = 10;
 const lineLength = 50; // Test etmek için bu değeri değiştirebilirsin
 const modelsNeedsToBePascalCased = new Set(JSON.parse(fs.readFileSync(path.resolve(__dirname, `../resources/catalog/jsons/catalog/jsons/modelsNeedsToBePascalCased.json`), "utf-8")));
 const inputFilePath = path.resolve(__dirname, `../resources/catalog/jsons/MARKA_HAREKET.json`);
-const outputFilePath = path.resolve(__dirname, `../output/${productType}/excels/label/${productType}_CUSTOMER_CATALOG_${lineCount}x${lineLength}.xlsx`);
+const outputFilePath = path.resolve(__dirname, `../output/${PRODUCT_TYPE}/excels/label/${PRODUCT_TYPE}_CUSTOMER_CATALOG_${lineCount}x${lineLength}.xlsx`);
 function toPascalCase(str: string): string {
     const romanNumeralRegex = /^(?=[MDCLXVI])M*(C[MD]|D?C{0,3})(X[CL]|L?X{0,3})(I[XV]|V?I{0,3})$/i;
 

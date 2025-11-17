@@ -3,18 +3,13 @@ import * as cheerio from 'cheerio';
 import path from 'path';
 import fs from 'fs';
 import xlsx from 'xlsx';
-import dotenv from 'dotenv';
-import { ModelData } from '../../../utils/Types';
 import { parseCompatibilityYears } from '../kentpar/utils/YearExtracter';
 import initialMarkaData from '../../../resources/catalog/jsons/MARKALAR.json';
-import initialModelData from '../../../resources/catalog/jsons/MARKALAR.json';
 import { brandAliases } from '../../api/resources/Variables';
 import { modelDataMap } from '../../io/Utils';
+import { PRODUCT_TYPE } from '../../../config/env';
 
 
-dotenv.config({ path: path.resolve('.env') });
-
-const PRODUCT_TYPE = process.env.PRODUCT_TYPE as string;
 
 type DetroitCompatibility = {
     DETROIT_NO: string;

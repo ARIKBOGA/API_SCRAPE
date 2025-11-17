@@ -1,22 +1,18 @@
 import * as fs from 'fs/promises';
 import path from 'path';
-import dotenv from 'dotenv';
-import { CrossNumberJson, CrossNumberElement, FullCrossNumberData } from '../../utils/Types';
+import { CrossNumberJson, FullCrossNumberData } from '../../utils/Types';
 import ExcelJS from 'exceljs';
+import { FILTER_BRAND, PRODUCT_TYPE } from '../../config/env';
 
 
-dotenv.config({ path: path.resolve(".env") });
-
-const productType = process.env.PRODUCT_TYPE as string;
-const filterBrand = process.env.FILTER_BRAND as string;
-const WORK_FOLDER_PATH = path.resolve(__dirname, `../../output/${productType}/jsons/Cross-Numbers`);
-const OUTPUT_JSON_PATH = path.resolve(__dirname, `../../output/${productType}/jsons/Cross-Numbers/Cross-Numbers_${productType}_Full_Data.json`);
-const OUTPUT_EXCEL_PATH = path.resolve(__dirname, `../../output/${productType}/excels/Cross-Numbers/${productType}_Combined_CrossNumbers.xlsx`);
+const WORK_FOLDER_PATH = path.resolve(__dirname, `../../output/${PRODUCT_TYPE}/jsons/Cross-Numbers`);
+const OUTPUT_JSON_PATH = path.resolve(__dirname, `../../output/${PRODUCT_TYPE}/jsons/Cross-Numbers/Cross-Numbers_${PRODUCT_TYPE}_Full_Data.json`);
+const OUTPUT_EXCEL_PATH = path.resolve(__dirname, `../../output/${PRODUCT_TYPE}/excels/Cross-Numbers/${PRODUCT_TYPE}_Combined_CrossNumbers.xlsx`);
 
 export async function combineCrossNumberData(workFolderPath: string) {
     const fileNames = await fs.readdir(workFolderPath);
     const jsonFiles = fileNames
-        .filter((file) => file.startsWith(`Cross-Numbers_${productType}_${filterBrand}`) && file.endsWith(".json"));
+        .filter((file) => file.startsWith(`Cross-Numbers_${PRODUCT_TYPE}_${FILTER_BRAND}`) && file.endsWith(".json"));
 
 
     console.log(`Found ${jsonFiles.length} JSON files to process.`);

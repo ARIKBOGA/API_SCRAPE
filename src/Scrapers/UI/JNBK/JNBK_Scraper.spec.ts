@@ -2,21 +2,20 @@ import { test, Page, Browser } from '@playwright/test'; // Browser'ı import edi
 import path from 'path';
 import fs from 'fs';
 import { OutputManufacturer, OutputModelSeries, OutputTarget, ProductCompatibilityResult, ProductReference } from '../../../utils/Types';
-import { referenceArray } from '../../API/resources/Variables';
+
 import { extractYears } from '../../../utils/Utility';
 import { Locale } from 'locale-enum';
+import { FILTER_BRAND, JNKB_BRAKES_URL, PRODUCT_TYPE } from '../../../config/env';
+import { referenceArray } from '../../api/resources/Variables';
 
-const productType = process.env.PRODUCT_TYPE as string;
-const filterBrand = process.env.FILTER_BRAND as string;
-const URL = process.env.JNKB_BRAKES_URL as string;
 
 // JNBK scrapers with parallel threads with usingp-limit and browser.newPage()
 
 test("JNBK scrapers with parallel threads", async ({ browser }) => {
 
     test.setTimeout(20 * 60 * 1000); // 20 dakika
-    console.log(`Processing OE numbers for brand: ${filterBrand}`);
-    await processJNBKProducts(browser, JNBK_Compatibility, `Vehicle-Compatibility_${filterBrand}.json`, 4, "Vehicle-Compatibility");
+    console.log(`Processing OE numbers for brand: ${FILTER_BRAND}`);
+    await processJNBKProducts(browser, JNBK_Compatibility, `Vehicle-Compatibility_${FILTER_BRAND}.json`, 4, "Vehicle-Compatibility");
 });
 
 
@@ -42,7 +41,7 @@ async function processJNBKProducts(browser: Browser, processFunction: Function, 
             }))
     )).filter((r) => r !== null).flat();
 
-    const outputDir = path.resolve(`src/output/${productType}/jsons/${processFor}`);
+    const outputDir = path.resolve(`src/output/${PRODUCT_TYPE}/jsons/${processFor}`);
     if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
     fs.writeFileSync(path.join(outputDir, fileName), JSON.stringify(results, null, 2), "utf8");
 }
@@ -168,7 +167,7 @@ export async function JNBK_Compatibility(page: Page, reference: ProductReference
 
     const { yvNo, supplier, freeTextSearch: crossNumber } = reference;
     try {
-        await navigateAndSearch(page, URL, crossNumber); // navigateAndSearch fonksiyonunu await ile çağırır
+        await navigateAndSearch(page, JNKB_BRAKES_URL, crossNumber); // navigateAndSearch fonksiyonunu await ile çağırır
 
         const { productType, productID } = await extractProductTitle(page);
         // const specifications = await extractSpecifications(page);

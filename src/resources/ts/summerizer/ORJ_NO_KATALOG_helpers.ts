@@ -1,15 +1,14 @@
 import path from 'path';
 import fs from 'fs';
 import xlsx from 'xlsx';
-import dotenv from 'dotenv';
+
 import OE_YV_DATA from '../../catalog/jsons/ORJ_NO.json';
 import { OERoot } from '../../../utils/Types';
 import { normalize_OE } from '../../../utils/Utility';
+import { PRODUCT_TYPE } from '../../../config/env';
 
 
-dotenv.config({ path: path.resolve(".env") });
 
-const productType = process.env.PRODUCT_TYPE as string;
 
 type OE_YV_Map = {
     OE: string;
@@ -51,7 +50,7 @@ export function getDateTimeAsText() {
 
 function convertScrapedOENumbersJsonTo_OE_YV_map(filename: string) {
 
-    const inputFilepath = path.resolve(__dirname, `../output/${productType}/jsons/OE/oe-numbers_${filename}.json`);
+    const inputFilepath = path.resolve(__dirname, `../output/${PRODUCT_TYPE}/jsons/OE/oe-numbers_${filename}.json`);
     const outputFilepath = path.resolve(__dirname, `../resources/catalog/jsons/OE_YV_MAP_${filename}.json`);
 
     const data: OERoot[] = JSON.parse(fs.readFileSync(inputFilepath, 'utf-8'));

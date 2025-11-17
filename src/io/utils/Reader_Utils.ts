@@ -1,6 +1,6 @@
 import path from "path";
 import xlsx from "xlsx";
-import dotenv from "dotenv";
+import { PRODUCT_TYPE } from "../../config/env";
 
 const PRODUCT_GROUP_ID: Record<string, number> = {
     BrakeDisc: 1,
@@ -9,8 +9,6 @@ const PRODUCT_GROUP_ID: Record<string, number> = {
     BeltPulley: 5
 }
 
-dotenv.config({ path: path.resolve(".env") });
-const PRODUCT_TYPE = process.env.PRODUCT_TYPE!;
 
 export function getORJ_NO_DATA() {
 

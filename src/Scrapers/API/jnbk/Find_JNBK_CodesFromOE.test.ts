@@ -1,15 +1,13 @@
 import { test, request, APIRequestContext } from "@playwright/test";
 import path from "path";
 import fs from "fs/promises";
-import dotenv from "dotenv";
 import { get_ORJ_NO_DATA_map } from "../../../io/utils/Reader_Utils";
 import { JNBK } from "../repxpert/config/ApiData";
 import * as cheerio from "cheerio";
 import pLimit from "p-limit";
+import { PRODUCT_TYPE } from "../../../config/env";
 
-dotenv.config({ path: path.resolve(".env") });
 
-const PRODUCT_TYPE = process.env.PRODUCT_TYPE!;
 
 // APIRequestContext'i burada tanımlıyoruz, henüz başlatmıyoruz.
 let apiContext: APIRequestContext;

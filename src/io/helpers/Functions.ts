@@ -22,3 +22,9 @@ export function toPascalCase(str: string): string {
         })
         .trim();
 }
+
+export function makeSureDirectoryExists(dirPath: string): void {
+    if (!fs.existsSync(dirPath)) {
+        fs.mkdirSync(dirPath, { recursive: true });
+    }
+}

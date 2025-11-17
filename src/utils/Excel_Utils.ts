@@ -1,11 +1,8 @@
 import path from "path";
 import xlsx from "xlsx";
 import { ProductReference } from "./Types";
-import dotenv from 'dotenv';
+import { PRODUCT_TYPE } from "../config/env";
 
-dotenv.config({ path: path.resolve(".env") });
-
-const productType = process.env.PRODUCT_TYPE as string;
 
 /**
  * Reads product references from the Excel file specified in the PRODUCT_TYPE environment variable.
@@ -16,7 +13,7 @@ const productType = process.env.PRODUCT_TYPE as string;
  */
 export function readProductReferencesFromExcel(): ProductReference[] {
   // Get the path to the Excel file specified in the PRODUCT_TYPE environment variable
-  const excelPath = path.resolve(__dirname, `../resources/catalog/excels/${productType}_katalog_full.xlsx`);
+  const excelPath = path.resolve(__dirname, `../resources/catalog/excels/${PRODUCT_TYPE}_katalog_full.xlsx`);
 
   // Read the Excel file
   const workbook = xlsx.readFile(excelPath);

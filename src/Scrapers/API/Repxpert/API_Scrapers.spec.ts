@@ -9,12 +9,15 @@ import { readProductReferencesFromExcel } from "../../../utils/Excel_Utils";
 import { getAuthHeaders, getEncryptedSearchCode } from "./helpers/API_Helpers";
 import { ProductReference } from "../../../utils/Types";
 import { REPXPERT } from "./config/ApiData";
+import { scraped_OE_Numbers_JsonToExcel } from "../../io/Scraped_OE_Numbers_JsonToExcel";
+import { scraped_Compatibilities_JsonToExcel } from "../../io/Scraped_CompatibilitiesJsonToExcel";
+import { scraped_Attributes_JsonToExcel } from "../../io/Scraped_Attributes_JsonToExcel";
 
 dotenv.config({ path: path.resolve(".env") });
 const productType = process.env.PRODUCT_TYPE as string;
 const filterBrand = (process.env.FILTER_BRAND as string) !== "" ? process.env.FILTER_BRAND as string : "LOADED_NOT_FOUND_COMMERCIAL_REMINDER";
 
-const start = 20;
+const start = 0;
 const end: number = 0;
 const endCalc = end === 0 ? referenceArray.length : end;
 
@@ -38,7 +41,7 @@ async function processProducts(
           (productRef) =>
             productRef.freeTextSearch.trim() !== ""
         )
-        .slice(start, endCalc)
+        //.slice(start, endCalc)
         .map((productRef) => limit(() => processFunction(productRef, apiContext)))
     )
   ).filter((r) => r !== null);
@@ -52,6 +55,7 @@ async function processProducts(
   console.log(`✅ Processed ${success}/${total} successfully (${((success / total) * 100).toFixed(2)}%)`);
 
 
+
   await apiContext.dispose();
 }
 
@@ -62,20 +66,23 @@ test.describe("The suit of the main scraping branches from Rpexpert", () => {
     test.setTimeout(20 * 60 * 1000);
     console.log(`Processing OE numbers for brand: ${filterBrand}`);
     await processProducts(processProductFor_OE, `oe-numbers_${filterBrand}.json`, 4, "OE");
+    await scraped_OE_Numbers_JsonToExcel();
   });
 
   test("Get Vehicle Compatibility for all products", async () => {
     test.setTimeout(20 * 60 * 1000);
     console.log(`Processing Vehicle Compatibility for brand: ${filterBrand}`);
     await processProducts(processProductFor_VehicleCompatibility, `Vehicle-Compatibility_${filterBrand}_${start}_${endCalc}.json`, 1, "Vehicle-Compatibility");
+    await scraped_Compatibilities_JsonToExcel();
   });
 
   test("Get Article Attributes of the products", async () => {
     test.setTimeout(10 * 60 * 1000);
     console.log(`Processing Article Attributes for : ${productType} - ${filterBrand}`)
     await processProducts(processProductForArticleAttributes, `Attributes_${productType}_${filterBrand}.json`, 5, 'Attributes');
+    await scraped_Attributes_JsonToExcel();
   })
-  
+
 })
 
 
@@ -120,3 +127,8 @@ test("Get only ICER products WVA numbers", async ({ request }) => {
     console.log(`YV: ${yvNo}, Brand: ${supplier}, Cross Number: ${crossNumber}, Trade Numbers: ${tradeNumbers}`);
   }
 })
+
+test("Get only BREMBO products OE numbers", async ({ request }) => {
+
+
+});

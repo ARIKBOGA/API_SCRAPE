@@ -1,16 +1,11 @@
 import path from "path";
 import xlsx from "xlsx";
 import fs from 'fs'
-import dotenv from 'dotenv';
-import initialMarkaData from '../../resources/catalog/jsons/MARKALAR.json';
-import { brandAliases } from "../api/resources/Variables";
 import { normalize_OE } from "../../utils/Utility";
+import { FILTER_BRAND, PRODUCT_TYPE } from "../../config/env";
 
 
-dotenv.config({ path: path.resolve(".env") });
 
-const productType = process.env.PRODUCT_TYPE as string;
-const filterBrand = process.env.FILTER_BRAND as string;
 
 type OE_rowData = {
     YV: string;
@@ -23,7 +18,7 @@ type OE_rowData = {
 
 
 function jsonToExcelHorizontal() {
-    const jsonPath = path.resolve(__dirname, `../../output/${productType}/jsons/OE/oe-numbers_${filterBrand}.json`);
+    const jsonPath = path.resolve(__dirname, `../../output/${PRODUCT_TYPE}/jsons/OE/oe-numbers_${FILTER_BRAND}.json`);
     const jsonData = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'));
 
     const rowData: OE_rowData[] = [];
@@ -44,18 +39,18 @@ function jsonToExcelHorizontal() {
         });
     }
 
-    const outputFilePath = path.resolve(__dirname, `../../output/${productType}/excels/OE/OE_Numbers_${filterBrand}_Yatay.xlsx`);
+    const outputFilePath = path.resolve(__dirname, `../../output/${PRODUCT_TYPE}/excels/OE/OE_Numbers_${FILTER_BRAND}_Yatay.xlsx`);
     const headers = Object.keys(rowData[0]);
     const wb = xlsx.utils.book_new();
     const ws = xlsx.utils.json_to_sheet(rowData, { header: headers });
     xlsx.utils.book_append_sheet(wb, ws, "OE_Numbers");
     xlsx.writeFile(wb, path.resolve(__dirname, outputFilePath));
-    console.log(`${filterBrand} OE Numbers Excel dosyası oluşturuldu ==>> ${outputFilePath}`);
+    console.log(`${FILTER_BRAND} OE Numbers Excel dosyası oluşturuldu ==>> ${outputFilePath}`);
 }
 
-function OENumbers_verticalToHorizontal(){
+function OENumbers_verticalToHorizontal() {
 
-    const INPUT_PATH = path.resolve(__dirname, `../../output/${productType}/excels/OE/OE_Numbers_${filterBrand}.xlsx`)
+    const INPUT_PATH = path.resolve(__dirname, `../../output/${PRODUCT_TYPE}/excels/OE/OE_Numbers_${FILTER_BRAND}.xlsx`)
     const wb = xlsx.readFile(INPUT_PATH);
     const ws = xlsx.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]]);
 }

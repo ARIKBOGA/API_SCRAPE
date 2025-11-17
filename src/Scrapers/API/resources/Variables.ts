@@ -198,91 +198,10 @@ export const bodyTypes = [
 
 export const referenceArray: ProductReference[] = [
 
-// FIND CROSS NUMBERS AFTER HAVING ALL OE NUMBERS
-/*
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"1148202"},
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"1320585"},
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"1323620"},
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"1373771"},
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"1388256"},
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"1464916"},
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"1465622"},
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"1499045"},
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"1522230"},
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"1808479"},
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"2S611125AA"},
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"3049893"},
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"3555344"},
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"3573537"},
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"3S4Z1125AA"},
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"4077455"},
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"7S611125BA"},
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"7S6Z1125B"},
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"98AB1125B1E"},
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"98AB1125BC"},
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"98AB1125BD"},
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"98AB1125BE"},
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"98AB1125D1E"},
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"98AG1125E1B"},
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"98AG1125EA"},
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"98AG1125EB"},
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"98AX1125B1F"},
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"98AX1125BE"},
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"98AX1125BF"},
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"Y54Z1125BA"},
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"YS4Z1125BA"},
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"YS4Z1125DA"},
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"YS4Z1125DB"},
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"DD323325X"},
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"DD593325X"},
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"DD593325XA"},
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"DD593325XB"},
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"DD593325XC"},
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"DD593325XD"},
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"DD593325XE"},
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"DD633325X"},
-{yvNo: "13017CS", supplier:"CROSS_NO", freeTextSearch:"DD633325XA"},
-{yvNo: "22490CS", supplier:"CROSS_NO", freeTextSearch:"BP4Y3325XB"},
-{yvNo: "22490CS", supplier:"CROSS_NO", freeTextSearch:"BP4Y3325XC"},
-{yvNo: "22490CS", supplier:"CROSS_NO", freeTextSearch:"BP4Y3325XD"},
-{yvNo: "22490CS", supplier:"CROSS_NO", freeTextSearch:"C24Y3325XB"},
-{yvNo: "22490CS", supplier:"CROSS_NO", freeTextSearch:"C24Y3325XC"},
-{yvNo: "22490CS", supplier:"CROSS_NO", freeTextSearch:"C24Y3325XC9A"},
-{yvNo: "22490CS", supplier:"CROSS_NO", freeTextSearch:"C24Y3325XD"},
-{yvNo: "22490CS", supplier:"CROSS_NO", freeTextSearch:"C24Y3325XE"},
-{yvNo: "22490CS", supplier:"CROSS_NO", freeTextSearch:"BFF43325X"},
-{yvNo: "22490CS", supplier:"CROSS_NO", freeTextSearch:"C24Y3325XB"},
-{yvNo: "22490CS", supplier:"CROSS_NO", freeTextSearch:"C24Y3325XC"},
-{yvNo: "22490CS", supplier:"CROSS_NO", freeTextSearch:"C24Y3325XD"},
-{yvNo: "34575CS", supplier:"CROSS_NO", freeTextSearch:"4351204050"},
-{yvNo: "34575CS", supplier:"CROSS_NO", freeTextSearch:"4351204051"},
-{yvNo: "34575CS", supplier:"CROSS_NO", freeTextSearch:"4351204052"},
-{yvNo: "34575CS", supplier:"CROSS_NO", freeTextSearch:"435120K230"},
-{yvNo: "34575CS", supplier:"CROSS_NO", freeTextSearch:"4351235320"},
-{yvNo: "34575CS", supplier:"CROSS_NO", freeTextSearch:"4351235321"},
-{yvNo: "34575CS", supplier:"CROSS_NO", freeTextSearch:"4351235322"},
-{yvNo: "22773CS", supplier:"CROSS_NO", freeTextSearch:"B45G33251A"},
-{yvNo: "22773CS", supplier:"CROSS_NO", freeTextSearch:"BJT233251A"},
-{yvNo: "22773CS", supplier:"CROSS_NO", freeTextSearch:"BKC533251"},
-{yvNo: "25993CS", supplier:"CROSS_NO", freeTextSearch:"4615A223"},
-{yvNo: "25993CS", supplier:"CROSS_NO", freeTextSearch:"4615A285"},
 
 
-{yvNo: "25993CS", supplier:"BREMBO", freeTextSearch:"09.E069.11"},
-{yvNo: "34575CS", supplier:"BREMBO", freeTextSearch:"09-B461-1X"},
-{yvNo: "13017CS", supplier:"BREMBO", freeTextSearch:"09-7806-1X"},
-{yvNo: "22490CS", supplier:"BREMBO", freeTextSearch:"09-9464-2X"},
-{yvNo: "22773CS", supplier:"BREMBO", freeTextSearch:"09-C652-1X"},
-*/
-
-
-
-
-
-
-
-//{yvNo: "55133", supplier:"DANAHER", freeTextSearch:"DR13576"},
-//{yvNo: "53005", supplier:"DANAHER", freeTextSearch:"DR11503"},
+{yvNo: "55133", supplier:"DANAHER", freeTextSearch:"DR13576"},
+{yvNo: "53005", supplier:"DANAHER", freeTextSearch:"DR11503"},
 //{yvNo: "53005", supplier:"DANAHER", freeTextSearch:"DR12061"},
 //{yvNo: "53006", supplier:"DANAHER", freeTextSearch:"DR12820"},
 //{yvNo: "31464", supplier:"DANAHER", freeTextSearch:"DR13501"},
@@ -379,7 +298,7 @@ export const referenceArray: ProductReference[] = [
   //{ yvNo: "361519", supplier: "OE", freeTextSearch: "5WA615301J" },
 
   // NEW BELTPULLEYS
-  {yvNo: "7069010", supplier:"FAI", freeTextSearch:"FVD1131"}, 
+  /*{yvNo: "7069010", supplier:"FAI", freeTextSearch:"FVD1131"}, 
   {yvNo: "7070010", supplier:"NipoKM", freeTextSearch:"PC.MB120"},  
   {yvNo: "7071010", supplier:"RUVILLE", freeTextSearch:"520087"}, 
   {yvNo: "7072010", supplier:"Schaeffler INA", freeTextSearch:"531 0551 20"}, 
@@ -417,7 +336,7 @@ export const referenceArray: ProductReference[] = [
   {yvNo: "7101010", supplier:"RUVILLE", freeTextSearch:"520213"},
   {yvNo: "7102010", supplier:"RUVILLE", freeTextSearch:"520243"},
   {yvNo: "7103010", supplier:"RUVILLE", freeTextSearch:"520247"},
-
+*/
   
 
  

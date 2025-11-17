@@ -1,15 +1,11 @@
 import { test } from "@playwright/test";
 import { referenceArray } from "../resources/Variables";
 import path from "path";
-import dotenv from "dotenv";
 import pLimit from "p-limit";
 import { getResults } from "./JNBK_Requests";
 import { mkdirIfNotExists, writeJSONSafe } from "./JNBK_Utils";
+import { FILTER_BRAND, PRODUCT_TYPE } from "../../../config/env";
 
-dotenv.config({ path: path.resolve(".env") });
-
-const PRODUCT_TYPE = process.env.PRODUCT_TYPE!;
-const FILTER_BRAND = process.env.FILTER_BRAND!;
 const THREAD_LIMIT = 4; // Aynı anda çalışacak istek sayısı
 
 test.describe("JNBK API Scraper", () => {

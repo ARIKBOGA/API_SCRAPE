@@ -1,13 +1,7 @@
 import * as XLSX from 'xlsx';
 import * as path from 'path';
 import * as fs from 'fs';
-import dotenv from 'dotenv';
-import { ProductCompatibilityResult, RootJsonData, OutputManufacturer, OutputModelSeries, OutputTarget } from '../../../utils/Types';
-// Types dosyanızdan import edin
-
-dotenv.config({ path: path.resolve(".env") });
-
-const productType = process.env.PRODUCT_TYPE as string;
+import { ProductCompatibilityResult, OutputManufacturer, OutputModelSeries, OutputTarget } from '../../../utils/Types';
 
 /**
  * Converts an Excel file back to a Vehicle-Compatibility JSON file.
@@ -33,7 +27,7 @@ export function convertExcelToJson(inputFilePath: string, outputDirectory: strin
         const dataRows = jsonData.slice(1); // Veri satırlarını al (başlık hariç)
 
         // JSON verilerini depolamak için boş bir RootJsonData dizisi oluştur
-        const rootJsonData: RootJsonData = [];
+        const rootJsonData: ProductCompatibilityResult[] = [];
 
         // YV Numarasına göre gruplamak için bir Map kullan
         const groupedByYvNo = new Map<string, ProductCompatibilityResult>();
