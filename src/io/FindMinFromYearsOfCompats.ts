@@ -1,9 +1,9 @@
 import xlsx from 'xlsx';
-import path from 'path';
 import { PRODUCT_TYPE } from '../config/env';
+import { PathRepo } from '../config/PathRepo';
 
 
-const INPUT_PATH = path.resolve(__dirname, `../output/${PRODUCT_TYPE}/excels/Vehicle-Compatibility/COMPATIBILITIES_AMERICAN_JNBK+REPXPERT.xlsx`);
+const INPUT_PATH = PathRepo.output(`${PRODUCT_TYPE}/excels/Vehicle-Compatibility/COMPATIBILITIES_AMERICAN_JNBK+REPXPERT.xlsx`);
 
 const wb = xlsx.readFile(INPUT_PATH);
 const ws = wb.Sheets[wb.SheetNames[0]];

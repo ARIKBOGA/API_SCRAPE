@@ -13,11 +13,21 @@ export async function readExcelSafe(filepath: string, sheetName?: string) {
     return data;
 }
 
-export async function writeExcelSafe(filepath: string, sheetName: string, data: any[]) {
+export async function writeExcelSafe(filepath: string, ...sheets: { name: string, data: any[] }[]) {
 
-    mkdirIfNotExists(path.dirname(filepath));
+    await mkdirIfNotExists(path.dirname(filepath));
     const wb = xlsx.utils.book_new();
-    const ws = xlsx.utils.json_to_sheet(data);
-    xlsx.utils.book_append_sheet(wb, ws, sheetName);
+
+    for (const sheet of sheets) {
+
+        const ws = xlsx.utils.json_to_sheet(
+            sheet.data.length === 0
+                ? [{ "DİKKAT": "SAYFA BOŞ, DEĞER BULUNAMADI" }]
+                : sheet.data
+        );
+        
+        xlsx.utils.book_append_sheet(wb, ws, sheet.name);
+    }
+
     xlsx.writeFile(wb, filepath);
 }

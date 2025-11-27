@@ -1,16 +1,16 @@
 import { APIRequestContext, request, test } from "@playwright/test";
 import path from "path";
 
-import { processProductFor_CrossNumbers, processProductFor_OE, processProductFor_VehicleCompatibility, processProductForArticleAttributes } from "./helpers/API_Functions";
-import { referenceArray } from "../resources/Variables";
-import { getAuthHeaders, getEncryptedSearchCode } from "./helpers/API_Helpers";
-import { ProductReference } from "../../../utils/Types";
-import { scraped_OE_Numbers_JsonToExcel } from "../../io/Scraped_OE_Numbers_JsonToExcel";
-import { scraped_Compatibilities_JsonToExcel } from "../../io/Scraped_CompatibilitiesJsonToExcel";
-import { scraped_Attributes_JsonToExcel } from "../../io/Scraped_Attributes_JsonToExcel";
 import { REPXPERT } from "../../../config/API_Scrapers_Data";
 import { FILTER_BRAND, PRODUCT_TYPE } from "../../../config/env";
 import { writeJSONSafe } from "../../../io/utils/Json_Utils";
+import { ProductReference } from "../../../utils/Types";
+import { scraped_Attributes_JsonToExcel } from "../../io/Scraped_Attributes_JsonToExcel";
+import { scraped_Compatibilities_JsonToExcel } from "../../io/Scraped_CompatibilitiesJsonToExcel";
+import { scraped_OE_Numbers_JsonToExcel } from "../../io/Scraped_OE_Numbers_JsonToExcel";
+import { referenceArray } from "../resources/Variables";
+import { processProductFor_CrossNumbers, processProductFor_OE, processProductFor_VehicleCompatibility, processProductForArticleAttributes } from "./helpers/API_Functions";
+import { getAuthHeaders, getEncryptedSearchCode } from "./helpers/API_Helpers";
 
 
 const start = 0;

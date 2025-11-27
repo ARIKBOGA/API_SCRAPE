@@ -3,6 +3,12 @@ import path from "path";
 import { mkdirIfNotExists } from "./Workspace_IO_Utils";
 
 
+
+export async function readJSONSafe(filePath: string) {
+    const json = fs.readFileSync(filePath, "utf8");
+    return JSON.parse(json);
+}
+
 export async function writeJSONSafe(filePath: string, data: any) {
     const dir = path.dirname(filePath);
     await mkdirIfNotExists(dir);

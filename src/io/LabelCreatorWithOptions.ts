@@ -1,18 +1,18 @@
-import fs from "fs";
-import path from "path";
 import * as ExcelJS from "exceljs";
+import { PRODUCT_TYPE } from "../config/env";
+import { PathRepo } from "../config/PathRepo";
 import { bodyTypes, brandAliases, modelAliases } from "../scrapers/api/resources/Variables";
 import { toPascalCase } from "./helpers/Functions";
 import { ModelWithQuantity } from "./helpers/Types";
-import { PRODUCT_TYPE } from "../config/env";
+import { readJSONSafe } from "./utils/Json_Utils";
 
 
 
 const lineCount = 4;
 const lineLength = 49;
 
-const inputFilePath = path.resolve(__dirname, `../resources/catalog/jsons/MARKA_HAREKET.json`);
-const outputFilePath = path.resolve(__dirname, `../output/${PRODUCT_TYPE}/excels/label/${PRODUCT_TYPE}_Label_WOD_${lineCount}x${lineLength}_With_Options.xlsx`);
+const inputFilePath = PathRepo.resources(`catalog/jsons/MARKA_HAREKET.json`);
+const outputFilePath = PathRepo.output(`${PRODUCT_TYPE}/excels/label/${PRODUCT_TYPE}_Label_WOD_${lineCount}x${lineLength}_With_Options.xlsx`);
 
 /**
  * Model string'inden model ve body type bilgilerini ayrıştırır ve kısaltır.
@@ -247,7 +247,7 @@ function generateLabelRichText(vehicles: any[], includeYears: boolean, includeBo
 async function processAndWriteExcel() {
     let inputData;
     try {
-        inputData = JSON.parse(fs.readFileSync(inputFilePath, "utf-8"));
+        inputData = await readJSONSafe(inputFilePath);
     } catch (error) {
         console.error(`Hata: JSON dosyası okunamadı veya bozuk: ${inputFilePath}`, error);
         return;

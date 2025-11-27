@@ -1,11 +1,10 @@
-import * as XLSX from 'xlsx';
-import * as path from 'path';
-import * as fs from 'fs';
-import { OutputManufacturer, OutputModelSeries, OutputTarget, ProductCompatibilityResult } from '../../utils/Types';
-import { brandAliases, excelTitles } from '../api/resources/Variables';
-import { markaNameToIdMap, modelDataMap } from './Utils';
-import { FILTER_BRAND, PRODUCT_TYPE } from '../../config/env';
 
+import { FILTER_BRAND, PRODUCT_TYPE } from '../../config/env';
+import { PathRepo } from '../../config/PathRepo';
+import { writeExcelSafe } from '../../io/utils/ExcelUtils';
+import { OutputManufacturer, OutputModelSeries, OutputTarget, ProductCompatibilityResult, ScrapedVehicleCompatibility_ExcelRow } from '../../utils/Types';
+import { brandAliases } from '../api/resources/Variables';
+import { markaNameToIdMap, modelDataMap } from './Utils';
 
 
 /**
@@ -13,54 +12,19 @@ import { FILTER_BRAND, PRODUCT_TYPE } from '../../config/env';
  * @param inputFilePath The path to the JSON file to be read
  * @param outputDirectory The directory where the Excel file will be saved
  */
-export async function scraped_Compatibilities_JsonToExcel(results: any[]): Promise<void> {
+export async function scraped_Compatibilities_JsonToExcel(results: ProductCompatibilityResult[]): Promise<void> {
 
 
-  const OUTPUT_FILEPATH = path.resolve(__dirname, `../../output/${PRODUCT_TYPE}/excels/Vehicle-Compatibility/Vehicle-Compatibility_${FILTER_BRAND}.xlsx`);
-
-  // Create a new Excel workbook
-  const workbook = XLSX.utils.book_new();
-
-  // Map to keep track of sheet name counts to handle duplicate sheet names
-  const sheetNameCounts = new Map<string, number>();
+  const OUTPUT_FILEPATH = PathRepo.output(`${PRODUCT_TYPE}/excels/Vehicle-Compatibility/Vehicle-Compatibility_${FILTER_BRAND}.xlsx`);
 
   // An array to avoid duplicte rows even if they belongs to different cross numbers with same YV
   const rowKeys: string[] = [];
-  const allRows: any[][] = [];
+  const allRows: ScrapedVehicleCompatibility_ExcelRow[] = [];
 
   try {
-    // Read and parse the JSON data from the input file
-    const data: ProductCompatibilityResult[] = results;
-
-    // Map to store data for each sheet
-    const sheetDataMap = new Map<string, any[][]>();
 
     // Iterate through each item in the JSON data
-    data.forEach(item => {
-      // Skip processing if the YV number has already been processed
-      //if (processedYVNUmbers.includes(item.yvNo)) return;
-      //processedYVNUmbers.push(item.yvNo);
-
-      // Use the cross number as the base name for the sheet
-      let baseSheetName = item.crossNumber;
-      let actualSheetName = baseSheetName;
-
-      // Initialize the sheet data with titles if the sheet doesn't exist yet
-      if (!sheetDataMap.has(baseSheetName)) {
-        sheetDataMap.set(baseSheetName, [excelTitles]);
-      }
-
-      // Handle duplicate sheet names by appending a letter to the sheet name
-      if ((sheetNameCounts.get(baseSheetName) || 0) > 0) {
-        let currentCount = sheetNameCounts.get(baseSheetName) || 0;
-        actualSheetName = `${baseSheetName}-${String.fromCharCode(65 + currentCount)}`;
-        sheetNameCounts.set(baseSheetName, currentCount + 1);
-      } else {
-        sheetNameCounts.set(baseSheetName, 1);
-      }
-
-      // Retrieve or initialize the sheet rows for the current sheet
-      const sheetRows = sheetDataMap.get(baseSheetName) ?? [];
+    results.forEach(item => {
 
       // Iterate through each compatible vehicle
       item.compatibleVehicles.forEach((vehicle: OutputManufacturer) => {
@@ -87,52 +51,37 @@ export async function scraped_Compatibilities_JsonToExcel(results: any[]): Promi
                             ${target.cc}_${target.engineCodes}_${target.kbaNumbers}_${target.bodyType}_
                             ${target.TecDocID || ''}`;
             if (!rowKeys.includes(rowKey)) {
-              const row = [
-                item.yvNo,
-                item.brand,
-                item.crossNumber,
-                marka_id,
-                vehicle.manufacturer,
-                model_id,
-                model.modelSeries,
-                target.engine,
-                fromYear,
-                toYear,
-                target.enginePowerKW,
-                target.enginePowerHP,
-                target.cc,
-                target.engineCodes,
-                target.kbaNumbers,
-                target.bodyType,
-                target.TecDocID || ''
-              ];
-              //sheetRows.push(row);
-              allRows.push(row);
+              const row: ScrapedVehicleCompatibility_ExcelRow = {
+                "YV": item.yvNo,
+                "SUPPLIER": item.brand,
+                "CROSS NUMBER": item.crossNumber,
+                "MARKA ID": marka_id,
+                "MARKA": vehicle.manufacturer,
+                "MODEL ID": model_id,
+                "MODEL": model.modelSeries,
+                "MOTOR": target.engine,// OutputTarget'taki 'name' alanı buna karşılık geliyor
+                "Baş. Yil": fromYear,
+                "Bit. Yil": toYear,
+                "KW": target.enginePowerKW,
+                "HP": target.enginePowerHP,
+                "CC": target.cc,
+                "MOTOR KODU": target.engineCodes,
+                "KBA": target.kbaNumbers,
+                "KASA Tipi": target.bodyType,
+                "TecDocID": target.TecDocID || ''
+              }
 
+              allRows.push(row);
               rowKeys.push(rowKey);
             }
           });
         });
       });
-
-      // If the sheet has more than just the titles, append it to the workbook
-      if (sheetRows.length > 1) {
-        sheetDataMap.set(actualSheetName, sheetRows);
-        XLSX.utils.book_append_sheet(workbook, XLSX.utils.aoa_to_sheet(sheetRows), actualSheetName);
-      }
     });
 
-    const allInfoSheet = [
-      excelTitles,
-      ...allRows
-    ];
-    XLSX.utils.book_append_sheet(workbook, XLSX.utils.aoa_to_sheet(allInfoSheet), 'All Sheets');
 
-    // Ensure the output directory exists, create it if not
-    if (!fs.existsSync(OUTPUT_FILEPATH)) fs.mkdirSync(OUTPUT_FILEPATH, { recursive: true });
+    await writeExcelSafe(OUTPUT_FILEPATH, { name: `${FILTER_BRAND}`, data: allRows });
 
-    // Write the workbook to a file with a modified name
-    XLSX.writeFile(workbook, OUTPUT_FILEPATH);
     console.log(`Data successfully exported to Excel: ${OUTPUT_FILEPATH}`);
 
   } catch (error) {
@@ -140,9 +89,3 @@ export async function scraped_Compatibilities_JsonToExcel(results: any[]): Promi
     console.error('An error occurred while creating the Excel file:', error);
   }
 }
-
-function main() {
-  //scraped_Compatibilities_JsonToExcel();
-}
-
-main();

@@ -1,43 +1,17 @@
-import path from 'path';
-import fs from 'fs/promises';
-import xlsx from 'xlsx';
+import { PathRepo } from '../../../config/PathRepo';
+import { writeJSONSafe } from '../../../io/utils/Json_Utils';
+import { get_OE_YV_Map } from '../../../io/utils/ORJ_NO_Utils';
 
-function convertToJSonFromExcel(filePath: string, sheetName: string) {
+async function convertToJSonFromExcel() {
 
-    const wb = xlsx.readFile(path.resolve(__dirname, filePath), { cellDates: true });
-    const ws = wb.Sheets[sheetName] || wb.Sheets[wb.SheetNames[0]];
+    const resultMap = await get_OE_YV_Map();
+    const result: { OE: string, YV: string[] }[] = Array.from(resultMap.entries()).map(([key, value]) => ({ OE: key, YV: value }));
 
-    const jsonData: any[] = xlsx.utils.sheet_to_json(ws, { raw: false });
+    const OUTPUT_PATH = PathRepo.resources('catalog/jsons/ORJ_NO.json');
 
-    const YV_OE_map = new Map<string, Set<string>>();
+    await writeJSONSafe(OUTPUT_PATH, result);
 
-    if (jsonData.length === 0) {
-        console.warn(`Excel'de veri bulunamadı.`);
-        return YV_OE_map;
-    }
-
-    jsonData.forEach((item: any) => {
-        const oe = item["orjNo"];
-        const yv = item["yvNo"];
-
-        if (oe && yv) {
-            if (YV_OE_map.has(oe)) {
-                YV_OE_map.get(oe)?.add(yv);
-            } else {
-                YV_OE_map.set(oe, new Set([yv]));
-            }
-        }
-    })
-    const yv_oe_records: any[] = [];
-
-    YV_OE_map.forEach((yvSet, oeKey) => {
-        yv_oe_records.push({ OE: oeKey, YV: Array.from(yvSet) });
-    });
-
-    const OUTPUT_PATH = path.join(__dirname, '../../catalog/jsons/ORJ_NO.json');
-    fs.writeFile(OUTPUT_PATH, JSON.stringify(yv_oe_records, null, 2));
     console.log('\"ORJ_NO\" Excel dosyası nesne dizisi formatında JSON\'a dönüştürüldü ==>', OUTPUT_PATH);
-    //fs.writeFile(path.join(__dirname, '../resources/catalog/jsons/ORJ_NO_KATALOG_yeni.json'), JSON.stringify(yv_oe_records, null, 2));
 }
 
-convertToJSonFromExcel('../../catalog/excels/ORJ_NO.xlsx', 'Sheet1');
+convertToJSonFromExcel();

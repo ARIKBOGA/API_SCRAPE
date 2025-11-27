@@ -1,6 +1,6 @@
 import fs from 'fs';
-import path from 'path';
 import xlsx from 'xlsx';
+import { PathRepo } from '../config/PathRepo';
 
 
 type ModelRow = {
@@ -9,8 +9,8 @@ type ModelRow = {
 }
 
 function initilize() {
-    const INPUT_FILE = path.resolve(__dirname, `../resources/catalog/jsons/catalog/jsons/ALL_MODELS_REPXPERT.json`);
-    const OUTPUT_FILE = path.resolve(__dirname, `../resources/catalog/excels/ALL_MODELS_REPXPERT.xlsx`);
+    const INPUT_FILE = PathRepo.resources(`catalog/jsons/catalog/jsons/ALL_MODELS_REPXPERT.json`);
+    const OUTPUT_FILE = PathRepo.resources(`catalog/excels/ALL_MODELS_REPXPERT.xlsx`);
 
     return { INPUT_FILE, OUTPUT_FILE };
 }

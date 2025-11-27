@@ -1,9 +1,9 @@
-import path from "path";
-import xlsx from "xlsx";
+import { FILTER_BRAND, PRODUCT_TYPE } from "../../config/env";
+import { PathRepo } from "../../config/PathRepo";
+import { writeExcelSafe } from "../../io/utils/ExcelUtils";
+import { OE_rowData } from "../../utils/Types";
 import { brandAliases } from "../api/resources/Variables";
 import { markaNameToIdMap, normalize_OE } from "./Utils";
-import { FILTER_BRAND, PRODUCT_TYPE } from "../../config/env";
-import { OE_rowData } from "../../utils/Types";
 
 
 
@@ -64,21 +64,8 @@ export async function scraped_OE_Numbers_JsonToExcel(results: any[]) {
 
     }
 
-    const outputFilePath = path.resolve(__dirname, `../../output/${PRODUCT_TYPE}/excels/OE/OE_Numbers_${FILTER_BRAND}.xlsx`);
-    const headers = Object.keys(rowData[0]);
-    const wb = xlsx.utils.book_new();
-    const ws = xlsx.utils.json_to_sheet(rowData, { header: headers });
-    xlsx.utils.book_append_sheet(wb, ws, "OE_Numbers");
-    await xlsx.writeFile(wb, path.resolve(__dirname, outputFilePath));
+    const outputFilePath = PathRepo.output(`${PRODUCT_TYPE}/excels/OE/OE_Numbers_${FILTER_BRAND}.xlsx`);
+
+    await writeExcelSafe(outputFilePath, { name: 'OE_Numbers', data: rowData });
     console.log(`${FILTER_BRAND} OE Numbers Excel dosyası oluşturuldu ==>> ${outputFilePath}`);
 }
-
-
-function main() {
-
-    const jsonPath = path.resolve(__dirname, `../../output/${PRODUCT_TYPE}/jsons/OE/oe-numbers_${FILTER_BRAND}.json`);
-    //const jsonData = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'));
-    //scraped_OE_Numbers_JsonToExcel(jsonData);
-}
-
-main();

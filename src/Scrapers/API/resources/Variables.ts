@@ -103,18 +103,6 @@ export const excelTitles = [
   "TecDocID",
 ];
 
-type row = {
-  brand: string;
-  models: {
-    modelName: string;
-    targets: {
-      name: string;
-      fromYear: string;
-      toYear: string;
-      
-    }
-  }
-}
 
 // Marka ve Model için kısaltma/çeviri haritaları
 export const brandAliases = new Map<string, string>([
@@ -203,7 +191,7 @@ export const referenceArray: ProductReference[] = [
 {yvNo: "55133", supplier:"DANAHER", freeTextSearch:"DR13576"},
 {yvNo: "53005", supplier:"DANAHER", freeTextSearch:"DR11503"},
 //{yvNo: "53005", supplier:"DANAHER", freeTextSearch:"DR12061"},
-//{yvNo: "53006", supplier:"DANAHER", freeTextSearch:"DR12820"},
+{yvNo: "53006", supplier:"DANAHER", freeTextSearch:"DR12820"},
 //{yvNo: "31464", supplier:"DANAHER", freeTextSearch:"DR13501"},
 //{yvNo: "55054", supplier:"DANAHER", freeTextSearch:"DR12885"},
 //{yvNo: "55150", supplier:"DANAHER", freeTextSearch:"DR13602"},

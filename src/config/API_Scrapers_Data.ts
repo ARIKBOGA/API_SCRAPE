@@ -79,3 +79,20 @@ export const REPXPERT = {
 export const JNBK = {
   BASE_URI: process.env.JNBK_BASE_URI as string,
 }
+
+
+export const KATALOG = {
+  PRODUCT_GROUPS: {
+    "BrakeDisc": 1,
+    "BrakeDrum": 2,
+    "BrakePad": 3,
+    "BeltPulley": 5
+  },
+
+  PRODUCT_GROUPS_MAP: new Map([
+    ["BrakeDisc", 1],
+    ["BrakeDrum", 2],
+    ["BrakePad", 3],
+    ["BeltPulley", 5]
+  ])
+}

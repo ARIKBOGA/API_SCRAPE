@@ -1,10 +1,12 @@
 import fs from 'fs/promises';
 import path from 'path';
 import xlsx from 'xlsx';
-import { getOE_YV_Map } from '../resources/ts/summerizer/ORJ_NO_KATALOG_helpers';
+
 
 import dotenv from 'dotenv';
 import { normalize_OE } from '../scrapers/io/Utils';
+import { get_OE_YV_Map } from '../io/utils/ORJ_NO_Utils';
+import { PathRepo } from '../config/PathRepo';
 
 dotenv.config({ path: path.resolve(".env") });
 
@@ -17,11 +19,11 @@ dotenv.config({ path: path.resolve(".env") });
  * @param searchKeywords - Aranacak değerlerin dizisi.
  * @returns Oluşturulan sonuç dosyasının adı.
  */
-export async function processExcel( queryFilePath: string, keywordList: string[], originalFilename: string): Promise<string> {
+export async function processExcel(queryFilePath: string, keywordList: string[], originalFilename: string): Promise<string> {
     try {
         // 1. Kaynak dosyasını oku 
-        const OE_YV_MAP = getOE_YV_Map();
-        
+        const OE_YV_MAP = get_OE_YV_Map();
+
         // 2. Kullanıcının sorgu dosyasını @keywordList ile oku
         const query_OE_set = getQuerySet(excelToJson(queryFilePath, "Sayfa1"), keywordList);
         console.log("Sorgu dosyasından gelen OE listesi: ", query_OE_set);
@@ -119,7 +121,7 @@ function getQuerySet(jsonData: any[], keywordList: string[]): Set<string> {
             headers.add(key);
         });
     })
-    
+
     const relevantHeaders = keywordList.flatMap(kw => {
         return Array.from(headers).filter(header => header.toLowerCase().includes(kw.toLowerCase()));
     })
@@ -160,7 +162,7 @@ function getQuerySet(jsonData: any[], keywordList: string[]): Set<string> {
  *   of YV numbers that match the OE number.
  */
 function findOENumbers(POOL_MAP: Map<string, string[]>, QUERY_SET: Set<string>): Map<string, string[]> {
-    
+
     const foundMap: Map<string, string[]> = new Map();
 
 
@@ -211,7 +213,7 @@ export default { processExcel };
 function main() {
 
 
-    const inputFilepath = path.resolve(__dirname, `../output/ALL/excels/OE/KALE_BALATA.xlsx`);
+    const inputFilepath = PathRepo.output(`ALL/excels/OE/KALE_BALATA.xlsx`);
     const keywordList = ["oem"];
     const ofn = inputFilepath.split("/").pop()!;
 

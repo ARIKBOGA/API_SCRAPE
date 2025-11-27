@@ -118,6 +118,12 @@ export type Model = {
   constructionYearFrom: string;
 }
 
+
+export type OE_YV_Map = {
+  OE: string;
+  YV: string[];
+}
+
 export type OERoot = {
   yvNo: string
   crossNumber: string
@@ -189,4 +195,70 @@ export type MARKA_HAREKET_ExcelRow = {
   KBA: string;
   "crank_montaj açısı": string;
   "KATOLOG::grupId": string;
+}
+
+export type ORJ_NO_ExcelRow = {
+  ID: number;
+  orjNo: string;
+  yvNo: string;
+  "KATOLOG::YV NO": string;
+  "KATOLOG::SecilenNo": string;
+  "KATOLOG 2::YV NO": string;
+  mukerrerkontrol: string;
+  Field: string;
+  markaId: string;
+  "KATOLOG::Araç Grubu R90": string;
+  R90: string;
+  "R90_Testing Agent": string;
+  "KATOLOG::grupId": number;
+  [key: string]: string | number;
+}
+
+export type ScrapedVehicleCompatibility_ExcelRow = {
+  "YV": string;
+  "SUPPLIER": string;
+  "CROSS NUMBER": string;
+  "MARKA ID": string | number | null;
+  "MARKA": string;
+  "MODEL ID": string | number | null;
+  "MODEL": string;
+  "MOTOR": string; // OutputTarget'taki 'name' alanı buna karşılık geliyor
+  "Baş. Yil": string;
+  "Bit. Yil": string;
+  "KW": string;
+  "HP": string;
+  "CC": string;
+  "MOTOR KODU": string;
+  "KBA": string;
+  "KASA Tipi": string;
+  "TecDocID": string;
+}
+
+/*
+
+item.yvNo,
+                item.brand,
+                item.crossNumber,
+                marka_id,
+                vehicle.manufacturer,
+                model_id,
+                model.modelSeries,
+                target.engine,
+                fromYear,
+                toYear,
+                target.enginePowerKW,
+                target.enginePowerHP,
+                target.cc,
+                target.engineCodes,
+                target.kbaNumbers,
+                target.bodyType,
+                target.TecDocID || ''
+
+*/
+
+
+
+export type Etiket = {
+    YV: string;
+    [key: string]: any; // Excel'deki diğer tüm sütunlar
 }
