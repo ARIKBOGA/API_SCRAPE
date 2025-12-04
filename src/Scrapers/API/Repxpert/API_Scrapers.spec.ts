@@ -30,7 +30,7 @@ async function processProducts(
 
   const results = (
     await Promise.all(
-      
+
       referenceArray
         .filter((productRef) => productRef.freeTextSearch.trim() !== "")
         //.slice(start, endCalc)
@@ -41,7 +41,7 @@ async function processProducts(
   const outputDir = path.resolve(`src/output/${PRODUCT_TYPE}/jsons/${processName}`);
 
   await writeJSONSafe(`${outputDir}/${output_filename}`, results);
-  
+
   // Log the processing summary
   const total = referenceArray.slice(start).length;
   const success = results.length;

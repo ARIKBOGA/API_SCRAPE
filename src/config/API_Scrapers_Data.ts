@@ -77,7 +77,7 @@ export const REPXPERT = {
 };
 
 export const JNBK = {
-  BASE_URI: process.env.JNBK_BASE_URI as string,
+  BASE_URI: process.env.JNKB_BRAKES_URL as string,
 }
 
 
