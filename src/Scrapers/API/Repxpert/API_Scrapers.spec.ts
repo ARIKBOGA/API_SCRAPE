@@ -1,6 +1,5 @@
-import { APIRequestContext, request, test } from '@playwright/test';
+import { APIRequestContext, expect, request, test } from '@playwright/test';
 import path from 'path';
-
 import { REPXPERT } from '../../../config/API_Scrapers_Data';
 import { FILTER_BRAND, PRODUCT_TYPE } from '../../../config/env';
 import { writeJSONSafe } from '../../../io/utils/Json_Utils';
@@ -9,16 +8,11 @@ import { scraped_Attributes_JsonToExcel } from '../../io/Scraped_Attributes_Json
 import { scraped_Compatibilities_JsonToExcel } from '../../io/Scraped_CompatibilitiesJsonToExcel';
 import { scraped_OE_Numbers_JsonToExcel } from '../../io/Scraped_OE_Numbers_JsonToExcel';
 import { referenceArray } from '../resources/Variables';
-import {
-  processProductFor_CrossNumbers,
-  processProductFor_OE,
-  processProductFor_VehicleCompatibility,
-  processProductForArticleAttributes,
-} from './helpers/API_Functions';
+import { processProductFor_CrossNumbers, processProductFor_OE, processProductFor_VehicleCompatibility, processProductForArticleAttributes } from './helpers/API_Functions';
 import { getAuthHeaders, getEncryptedSearchCode } from './helpers/API_Helpers';
 
-const start = 1000;
-const end: number = 1200;
+const start = 0;
+const end: number = 0; // Set to 0 to process all products, or specify a number to limit the processing
 const endCalc = end === 0 ? referenceArray.length : end;
 
 async function processProducts(
@@ -33,22 +27,12 @@ async function processProducts(
 
   const results = (
     await Promise.all(
-<<<<<<< HEAD
-=======
-
->>>>>>> 0ae4a161290b0997e8ab287567a5bf2950dc3c31
       referenceArray
-        .flatMap(({ yvNo, supplier, freeTextSearch }) =>
-          freeTextSearch
-            .split(',')
-            .map((str) => str.trim())
-            .map((search) => ({ yvNo, supplier, freeTextSearch: search })),
-        )
         .filter((productRef) => productRef.freeTextSearch.trim() !== '')
-        .slice(start, endCalc)
+        //.slice(start, endCalc)
         .map((productRef) =>
-          limit(() => processFunction(productRef, apiContext)),
-        ),
+          limit(() => processFunction(productRef, apiContext))
+        )
     )
   ).filter((r) => r !== null);
 
@@ -57,7 +41,8 @@ async function processProducts(
   await writeJSONSafe(`${outputDir}/${output_filename}`, results);
 
   // Log the processing summary
-  const total = referenceArray.slice(start, endCalc).length;
+  const total = referenceArray.slice(start, endCalc)
+                              .filter((productRef) => productRef.freeTextSearch.trim() !== '').length;
   const success = results.length;
   console.log(`✅ Processed ${success}/${total} successfully (${((success / total) * 100).toFixed(2)}%)`,);
 
@@ -71,50 +56,32 @@ test.describe('The suit of the main scraping branches from Rpexpert', () => {
   test('Get OE numbers for all products', async () => {
     test.setTimeout(20 * 60 * 1000);
     console.log(`Processing OE numbers for brand: ${FILTER_BRAND}`);
-    const results = await processProducts(processProductFor_OE,`oe-numbers_${FILTER_BRAND}.json`,
-      4,
-      'OE',
-    );
+    const results = await processProducts(processProductFor_OE,`oe-numbers_${FILTER_BRAND}.json`, 4, 'OE');
     await scraped_OE_Numbers_JsonToExcel(results, start, endCalc);
   });
 
   test('Get Vehicle Compatibility for all products', async () => {
     test.setTimeout(20 * 60 * 1000);
     console.log(`Processing Vehicle Compatibility for brand: ${FILTER_BRAND}`);
-    const results = await processProducts(
-      processProductFor_VehicleCompatibility,
-      `Vehicle-Compatibility_${FILTER_BRAND}_${start}_${endCalc}.json`,
-      1,
-      'Vehicle-Compatibility',
-    );
+    const results = await processProducts( processProductFor_VehicleCompatibility, `Vehicle-Compatibility_${FILTER_BRAND}_${start}_${endCalc}.json`, 1, 'Vehicle-Compatibility');
     await scraped_Compatibilities_JsonToExcel(results);
   });
 
   test('Get Article Attributes of the products', async () => {
     test.setTimeout(10 * 60 * 1000);
-    console.log(
-      `Processing Article Attributes for : ${PRODUCT_TYPE} - ${FILTER_BRAND}`,
-    );
-    const results = await processProducts(
-      processProductForArticleAttributes,
-      `Attributes_${PRODUCT_TYPE}_${FILTER_BRAND}.json`,
-      5,
-      'Attributes',
-    );
+    console.log(`Processing Article Attributes for : ${PRODUCT_TYPE} - ${FILTER_BRAND}`);
+    const results = await processProducts( processProductForArticleAttributes, `Attributes_${PRODUCT_TYPE}_${FILTER_BRAND}.json`, 5, 'Attributes');
     await scraped_Attributes_JsonToExcel(results);
   });
+  
 });
 
 test('Get cross numbers via given cross/OE numbers', async () => {
   test.setTimeout(20 * 60 * 1000);
   console.log(`Processing Cross Numbers for brand: ${FILTER_BRAND}`);
-  await processProducts(
-    processProductFor_CrossNumbers,
-    `Cross-Numbers_${PRODUCT_TYPE}_${FILTER_BRAND}_${start}_${endCalc}.json`,
-    5,
-    'Cross-Numbers',
-  );
+  await processProducts(processProductFor_CrossNumbers, `Cross-Numbers_${PRODUCT_TYPE}_${FILTER_BRAND}_${start}_${endCalc}.json`, 5, 'Cross-Numbers');
 });
+
 
 test('Get token only', async ({ request }) => {
   const requestBody = new URLSearchParams(REPXPERT.tokenRequest.body);
@@ -129,28 +96,20 @@ test('Get token only', async ({ request }) => {
   });
 
   const data = await response.json();
+
+  expect(data.access_token).toBeTruthy();
+
   console.log(data?.access_token);
 
-  const encryptedCode = await getEncryptedSearchCode(
-    'SDB500182',
-    'BREMBO',
-    request,
-  );
+  const encryptedCode = await getEncryptedSearchCode( 'SDB500182', 'BREMBO', request );
   console.log('Encrypted Code:', encryptedCode);
 });
 
 test('Get only ICER products WVA numbers', async ({ request }) => {
   for (const ref of referenceArray) {
     const { yvNo, supplier, freeTextSearch: crossNumber } = ref;
-    const searchCode = await getEncryptedSearchCode(
-      crossNumber,
-      supplier,
-      request,
-    );
-    const response = await request.get(
-      `https://www.repxpert.co.uk/api/Repxpert-GB/products/${searchCode}`,
-      { headers: await getAuthHeaders() },
-    );
+    const searchCode = await getEncryptedSearchCode( crossNumber, supplier, request);
+    const response = await request.get( `https://www.repxpert.co.uk/api/Repxpert-GB/products/${searchCode}`, { headers: await getAuthHeaders() });
     const data = await response.json();
 
     const tradeNumbers: string[] = data.tradeNumbers.filter(
