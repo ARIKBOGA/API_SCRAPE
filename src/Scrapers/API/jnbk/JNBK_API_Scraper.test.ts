@@ -4,7 +4,8 @@ import path from "path";
 import pLimit from "p-limit";
 import { getResults } from "./JNBK_Requests";
 import { FILTER_BRAND, PRODUCT_TYPE } from "../../../config/env";
-import { mkdirIfNotExists, writeJSONSafe } from "../../../io/helpers/Functions";
+import { mkdirIfNotExists } from "../../../io/utils/Workspace_IO_Utils";
+import { writeJSONSafe } from "../../../io/utils/Json_Utils";
 
 const THREAD_LIMIT = 4; // Aynı anda çalışacak istek sayısı
 

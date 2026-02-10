@@ -7,7 +7,7 @@ import { markaNameToIdMap, normalize_OE } from "./Utils";
 
 
 
-export async function scraped_OE_Numbers_JsonToExcel(results: any[]) {
+export async function scraped_OE_Numbers_JsonToExcel(results: any[], start: number, end: number) {
 
     const rowData: OE_rowData[] = [];
 
@@ -64,7 +64,7 @@ export async function scraped_OE_Numbers_JsonToExcel(results: any[]) {
 
     }
 
-    const outputFilePath = PathRepo.output(`${PRODUCT_TYPE}/excels/OE/OE_Numbers_${FILTER_BRAND}.xlsx`);
+    const outputFilePath = PathRepo.output(`${PRODUCT_TYPE}/excels/OE/OE_Numbers_${FILTER_BRAND}_${start}-${end}.xlsx`);
 
     await writeExcelSafe(outputFilePath, { name: 'OE_Numbers', data: rowData });
     console.log(`${FILTER_BRAND} OE Numbers Excel dosyası oluşturuldu ==>> ${outputFilePath}`);

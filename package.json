@@ -44,7 +44,7 @@
     "xlsx": "^0.18.5"
   },
   "devDependencies": {
-    "@playwright/test": "^1.56.1",
+    "@playwright/test": "^1.57.0",
     "@types/cheerio": "^0.22.35",
     "@types/node": "^24.10.0",
     "@types/p-limit": "^2.1.0",
