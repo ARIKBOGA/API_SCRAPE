@@ -33,6 +33,10 @@ async function processProducts(
 
   const results = (
     await Promise.all(
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0ae4a161290b0997e8ab287567a5bf2950dc3c31
       referenceArray
         .flatMap(({ yvNo, supplier, freeTextSearch }) =>
           freeTextSearch

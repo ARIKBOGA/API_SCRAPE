@@ -1,11 +1,19 @@
 import { test } from "@playwright/test";
-import { referenceArray } from "../resources/Variables";
-import path from "path";
 import pLimit from "p-limit";
-import { getResults } from "./JNBK_Requests";
+import path from "path";
 import { FILTER_BRAND, PRODUCT_TYPE } from "../../../config/env";
+<<<<<<< HEAD
 import { mkdirIfNotExists } from "../../../io/utils/Workspace_IO_Utils";
 import { writeJSONSafe } from "../../../io/utils/Json_Utils";
+=======
+import { writeJSONSafe } from "../../../io/utils/Json_Utils";
+import { mkdirIfNotExists } from "../../../io/utils/Workspace_IO_Utils";
+import { referenceArray } from "../resources/Variables";
+import { getResults } from "./JNBK_Requests";
+import { scraped_Compatibilities_JsonToExcel } from "../../io/Scraped_CompatibilitiesJsonToExcel";
+import { scraped_OE_Numbers_JsonToExcel } from "../../io/Scraped_OE_Numbers_JsonToExcel";
+import { scraped_Attributes_JsonToExcel } from "../../io/Scraped_Attributes_JsonToExcel";
+>>>>>>> 0ae4a161290b0997e8ab287567a5bf2950dc3c31
 
 const THREAD_LIMIT = 4; // Aynı anda çalışacak istek sayısı
 
@@ -43,6 +51,11 @@ test.describe("JNBK API Scraper", () => {
         await writeJSONSafe(`${outputDir}/Vehicle-Compatibility/Vehicle-Compatibility_${FILTER_BRAND}.json`, compats);
         await writeJSONSafe(`${outputDir}/OE/oe-numbers_${FILTER_BRAND}.json`, oes);
         await writeJSONSafe(`${outputDir}/Attributes/Attributes_${PRODUCT_TYPE}_${FILTER_BRAND}.json`, attrs);
+
+        // Write all the results to an excel file
+        await scraped_Compatibilities_JsonToExcel(compats);
+        await scraped_OE_Numbers_JsonToExcel(oes);
+        await scraped_Attributes_JsonToExcel(attrs);
 
         console.log(
             `✅ Finished! Valid entries: ${valid.length} / ${filteredRefs.length}. Success rate: ${((valid.length / filteredRefs.length) * 100).toFixed(2)}%`
