@@ -105,7 +105,7 @@ export const excelTitles = [
 
 // Marka ve Model için kısaltma/çeviri haritaları
 export const brandAliases = new Map<string, string>([
-<<<<<<< HEAD
+
   ['MERCEDES-BENZ', 'MERCEDES'],
   ['VOLKSWAGEN', 'VW'],
   ['BMW AG', 'BMW'],
@@ -123,7 +123,6 @@ export const brandAliases = new Map<string, string>([
   ['MERCURY (FORD)', 'MERCURY'],
   ['BUICK (GM)', 'BUICK'],
   ['FORD (USA)', 'FORD USA'],
-=======
   ["MG (SAIC)", "MG"],
   ["VOLKSWAGEN", "VW"],
   ["BMW AG", "BMW"],
@@ -141,7 +140,6 @@ export const brandAliases = new Map<string, string>([
   ["MERCURY (FORD)", "MERCURY"],
   ["BUICK (GM)", "BUICK"],
   ["FORD (USA)", "FORD USA"],
->>>>>>> 0ae4a161290b0997e8ab287567a5bf2950dc3c31
   // Daha fazla marka kısaltması eklenebilir
 ]);
 
@@ -1472,8 +1470,7 @@ export const referenceArray: ProductReference[] = [
 {yvNo: "731156", supplier:"OE", freeTextSearch:"11193996"},
 
 
-<<<<<<< HEAD
-=======
+
 //{yvNo: "241144", supplier:"BREMBO", freeTextSearch:"09.D531.13"},
 //{yvNo: "241141", supplier:"BREMBO", freeTextSearch:"09.D528.13"},
 //{yvNo: "241142", supplier:"BREMBO", freeTextSearch:"09.D529.13"},
@@ -1559,7 +1556,7 @@ export const referenceArray: ProductReference[] = [
 //{yvNo: "54189", supplier:"DANAHER", freeTextSearch:"DR13415"},
 //{yvNo: "53040", supplier:"DANAHER", freeTextSearch:"DR11925"},
 //{yvNo: "53041", supplier:"DANAHER", freeTextSearch:"DR10450"},
->>>>>>> 0ae4a161290b0997e8ab287567a5bf2950dc3c31
+
 
 
   //{ yvNo: '55133', supplier: 'DANAHER', freeTextSearch: 'DR13576' },

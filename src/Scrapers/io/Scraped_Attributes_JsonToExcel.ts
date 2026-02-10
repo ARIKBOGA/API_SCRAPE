@@ -4,9 +4,6 @@ import { writeExcelSafe } from '../../io/utils/ExcelUtils';
 import { AttributeItem } from '../../utils/Types';
 
 
-
-
-
 export async function scraped_Attributes_JsonToExcel(results: AttributeItem[]) {
 
     const OUTPUT_FILE = PathRepo.output(`${PRODUCT_TYPE}/excels/Attributes`, `Attributes_${PRODUCT_TYPE}_${FILTER_BRAND}.xlsx`);

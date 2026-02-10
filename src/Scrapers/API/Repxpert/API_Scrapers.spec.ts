@@ -82,12 +82,9 @@ test('Get cross numbers via given cross/OE numbers', async () => {
   await processProducts(processProductFor_CrossNumbers, `Cross-Numbers_${PRODUCT_TYPE}_${FILTER_BRAND}_${start}_${endCalc}.json`, 5, 'Cross-Numbers');
 });
 
-
 test('Get token only', async ({ request }) => {
   const requestBody = new URLSearchParams(REPXPERT.tokenRequest.body);
-
   const tokenHeaders = REPXPERT.tokenRequest.headers;
-
   const URL = REPXPERT.tokenRequest.URL;
 
   const response = await request.post(URL, {
@@ -98,25 +95,24 @@ test('Get token only', async ({ request }) => {
   const data = await response.json();
 
   expect(data.access_token).toBeTruthy();
-
+  
+  const encryptedCode = await getEncryptedSearchCode('SDB500182', 'BREMBO', request);
   console.log(data?.access_token);
-
-  const encryptedCode = await getEncryptedSearchCode( 'SDB500182', 'BREMBO', request );
   console.log('Encrypted Code:', encryptedCode);
 });
 
 test('Get only ICER products WVA numbers', async ({ request }) => {
+
   for (const ref of referenceArray) {
+
     const { yvNo, supplier, freeTextSearch: crossNumber } = ref;
-    const searchCode = await getEncryptedSearchCode( crossNumber, supplier, request);
-    const response = await request.get( `https://www.repxpert.co.uk/api/Repxpert-GB/products/${searchCode}`, { headers: await getAuthHeaders() });
+    const searchCode = await getEncryptedSearchCode(crossNumber, supplier, request);
+    const response = await request.get(`https://www.repxpert.co.uk/api/Repxpert-GB/products/${searchCode}`, { 
+      headers: await getAuthHeaders() 
+    });
     const data = await response.json();
 
-    const tradeNumbers: string[] = data.tradeNumbers.filter(
-      (tn: string) => !tn.includes('-'),
-    );
-    console.log(
-      `YV: ${yvNo}, Brand: ${supplier}, Cross Number: ${crossNumber}, Trade Numbers: ${tradeNumbers}`,
-    );
+    const tradeNumbers: string[] = data.tradeNumbers.filter( (tn: string) => !tn.includes('-'));
+    console.log(`YV: ${yvNo}, Brand: ${supplier}, Cross Number: ${crossNumber}, Trade Numbers: ${tradeNumbers}`);
   }
 });
