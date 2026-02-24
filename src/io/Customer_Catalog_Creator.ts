@@ -354,16 +354,15 @@ async function processAndWriteExcel(): Promise<void> {
 async function setStyleToRow(row: ExcelJS.Row) {
     row.getCell(1).alignment = { wrapText: true, horizontal: "center", vertical: "middle" }; // YV
     row.getCell(2).alignment = { wrapText: true, horizontal: "center", vertical: "middle" }; // OE
-    row.getCell(3).alignment = { wrapText: true, horizontal: "right", vertical: "middle" };     // ETIKET
+    row.getCell(3).alignment = { wrapText: true, horizontal: "right", vertical: "middle" };  // ETIKET
     row.getCell(4).alignment = { wrapText: true, horizontal: "center", vertical: "middle" }; // TİP
     row.getCell(5).alignment = { wrapText: true, horizontal: "center", vertical: "middle" }; // POZİSYON
     row.getCell(6).alignment = { wrapText: true, horizontal: "center", vertical: "middle" }; // GRUP
     return row;
 }
 
-// processAndWriteExcel(); // Çağrı şekliniz.
-
 processAndWriteExcel()
-    .catch((error) => console.error("Excel oluşturulurken hata oluştu:", error));
+    .catch((error) => console.error("Excel oluşturulurken hata oluştu:", error))
+    .then(() => console.log("İşlem tamamlandı."));
 
 

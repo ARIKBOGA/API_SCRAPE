@@ -58754,8 +58754,8 @@
     "id": 8394,
     "marka_id": 123,
     "modeller_markalar::marka": "SUBARU",
-    "model": "XV (GT) | CROSSTREK",
-    "model_Web": "XV (GT) | CROSSTREK"
+    "model": "XV (GT, G24) | CROSSTREK",
+    "model_Web": "XV (GT, G24) | CROSSTREK"
   },
   {
     "id": 8395,
@@ -71867,5 +71867,33 @@
     "modeller_markalar::marka": "MG",
     "model": "ZS EV",
     "model_Web": "ZS EV"
+  },
+  {
+    "id": 10269,
+    "marka_id": 44,
+    "modeller_markalar::marka": "FORD",
+    "model": "EVEREST",
+    "model_Web": "EVEREST"
+  },
+  {
+    "id": 10270,
+    "marka_id": 44,
+    "modeller_markalar::marka": "FORD",
+    "model": "RANGER",
+    "model_Web": "RANGER"
+  },
+  {
+    "id": 10271,
+    "marka_id": 44,
+    "modeller_markalar::marka": "FORD",
+    "model": "RANGER RAPTOR",
+    "model_Web": "RANGER RAPTOR"
+  },
+  {
+    "id": 10272,
+    "marka_id": 46,
+    "modeller_markalar::marka": "FORD USA",
+    "model": "RANGER RAPTOR",
+    "model_Web": "RANGER RAPTOR"
   }
 ]

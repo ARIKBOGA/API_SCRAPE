@@ -202,8 +202,32 @@ export const bodyTypes = [
 ];
 
 export const referenceArray: ProductReference[] = [
+
+  
   // ---------------------------REMOTE WORK BLOCK----------------------------------------
 
+  {yvNo:"A2224215100", supplier:"BREMBO",  freeTextSearch:"09.F290.13"},
+  {yvNo:"A2224215000", supplier:"BREMBO",  freeTextSearch:"09.F291.13"},
+  {yvNo:"A246421011207", supplier:"BREMBO",  freeTextSearch:"09.B344.41"},
+  {yvNo:"A2224231000", supplier:"DANAHER",  freeTextSearch:"DR13022"},
+  {yvNo:"A1664211500", supplier:"BREMBO",  freeTextSearch:"09.A958.21"},
+  {yvNo:"A2224231400", supplier:"DANAHER",  freeTextSearch:"DR14162DR"},
+  {yvNo:"A221423121207", supplier:"BREMBO",  freeTextSearch:"09.C941.11"},
+  {yvNo:"A000421181207", supplier:"BREMBO",  freeTextSearch:"09.B742.51"},
+  {yvNo:"A2234214500", supplier:"BREMBO",  freeTextSearch:"09.F643.13"},
+  {yvNo:"A221423111207", supplier:"BREMBO",  freeTextSearch:"08.A734.11"},
+  {yvNo:"34208853554", supplier:"BREMBO",  freeTextSearch:"09.D096.13"},
+  {yvNo:"A1664230600", supplier:"BREMBO",  freeTextSearch:"09.A959.11"},
+  {yvNo:"A1644231212", supplier:"BREMBO",  freeTextSearch:"08.R101.11"},
+  {yvNo:"A1664211300", supplier:"BREMBO",  freeTextSearch:"09.A956.11"},
+  {yvNo:"A1664230700", supplier:"BREMBO",  freeTextSearch:"09.A961.11"},
+  {yvNo:"A1664211600", supplier:"BREMBO",  freeTextSearch:"09.A960.21"},
+  {yvNo:"A000421161207", supplier:"BREMBO",  freeTextSearch:"09.B744.51"},
+  {yvNo:"A1644211512", supplier:"BREMBO",  freeTextSearch:"09.R105.11"},
+  {yvNo:"A1664211400", supplier:"BREMBO",  freeTextSearch:"09.A958.11"},
+  {yvNo:"A1664230500", supplier:"BREMBO",  freeTextSearch:"08.A957.11"},
+  {yvNo:"8W0615301AB", supplier:"BREMBO",  freeTextSearch:"09.D059.1X"},
+  /*
   { yvNo: '52095', supplier: 'BREMBO', freeTextSearch: '08.5359.14' },
   { yvNo: '52097', supplier: 'BREMBO', freeTextSearch: '08.5141.20' },
   { yvNo: '52099', supplier: 'BREMBO', freeTextSearch: '09.6924.14' },
@@ -1468,6 +1492,9 @@ export const referenceArray: ProductReference[] = [
 {yvNo: "731155", supplier:"OE", freeTextSearch:"11193997"},
 {yvNo: "731156", supplier:"OE", freeTextSearch:"10282168"},
 {yvNo: "731156", supplier:"OE", freeTextSearch:"11193996"},
+
+*/
+//---------------------------------------------------------------
 
 
 

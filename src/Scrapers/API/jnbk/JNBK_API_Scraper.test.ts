@@ -2,10 +2,6 @@ import { test } from "@playwright/test";
 import pLimit from "p-limit";
 import path from "path";
 import { FILTER_BRAND, PRODUCT_TYPE } from "../../../config/env";
-<<<<<<< HEAD
-import { mkdirIfNotExists } from "../../../io/utils/Workspace_IO_Utils";
-import { writeJSONSafe } from "../../../io/utils/Json_Utils";
-=======
 import { writeJSONSafe } from "../../../io/utils/Json_Utils";
 import { mkdirIfNotExists } from "../../../io/utils/Workspace_IO_Utils";
 import { referenceArray } from "../resources/Variables";
@@ -13,7 +9,6 @@ import { getResults } from "./JNBK_Requests";
 import { scraped_Compatibilities_JsonToExcel } from "../../io/Scraped_CompatibilitiesJsonToExcel";
 import { scraped_OE_Numbers_JsonToExcel } from "../../io/Scraped_OE_Numbers_JsonToExcel";
 import { scraped_Attributes_JsonToExcel } from "../../io/Scraped_Attributes_JsonToExcel";
->>>>>>> 0ae4a161290b0997e8ab287567a5bf2950dc3c31
 
 const THREAD_LIMIT = 4; // Aynı anda çalışacak istek sayısı
 
@@ -54,7 +49,7 @@ test.describe("JNBK API Scraper", () => {
 
         // Write all the results to an excel file
         await scraped_Compatibilities_JsonToExcel(compats);
-        await scraped_OE_Numbers_JsonToExcel(oes);
+        await scraped_OE_Numbers_JsonToExcel(oes, first, last);
         await scraped_Attributes_JsonToExcel(attrs);
 
         console.log(
