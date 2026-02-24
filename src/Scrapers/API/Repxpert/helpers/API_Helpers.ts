@@ -2,7 +2,7 @@ import { request, APIRequestContext } from "@playwright/test";
 import dotenv from "dotenv";
 import path from "path";
 import { ApiCompatibility, ApiTarget, OutputTarget } from "../../../../utils/Types";
-import { REPXPERT } from "../config/ApiData";
+import { REPXPERT } from "../../../../config/API_Scrapers_Data";
 
 dotenv.config({ path: path.resolve(".env") });
 
@@ -65,7 +65,7 @@ export async function getToken(): Promise<{ token: string, cookie: string }> {
 export async function getEncryptedSearchCode(freeTextSearch: string, filterBrand: string, apiContext: APIRequestContext): Promise<string | null> {
   try {
     const normalizedFreeTextSearch = freeTextSearch.replace(/ /g, '').trim();
-    const requestURL = REPXPERT.getEncrSrcURL(normalizedFreeTextSearch, filterBrand);
+    const requestURL = REPXPERT.encryptedSearchCode_API_URL(normalizedFreeTextSearch, filterBrand);
 
     await delay(300);
 
@@ -83,7 +83,7 @@ export async function getEncryptedSearchCode(freeTextSearch: string, filterBrand
 
 export async function getManufacturerCodes(encryptedSearchCode: string, apiContext: APIRequestContext): Promise<ApiCompatibility[]> {
 
-  const { passengerCarURL, commercialVehicleURL } = REPXPERT.getManufacturersURL(encryptedSearchCode);
+  const { passengerCarURL, commercialVehicleURL } = REPXPERT.manufacturers_API_URL(encryptedSearchCode);
 
   const [passengerCarResponse, commercialVehicleResponse] = await Promise.all([
     apiContext.get(passengerCarURL, { headers: await getAuthHeaders() }),
@@ -103,7 +103,7 @@ export async function getManufacturerCodes(encryptedSearchCode: string, apiConte
 
 export async function getmodelCodes(encryptedSearchCode: string, apiContext: APIRequestContext, manufacturer_uuid: string): Promise<ApiCompatibility[]> {
 
-  const { passengerCarURL, commercialVehicleURL } = REPXPERT.getModelSeriesURL(encryptedSearchCode, manufacturer_uuid);
+  const { passengerCarURL, commercialVehicleURL } = REPXPERT.modelSeries_API_URL(encryptedSearchCode, manufacturer_uuid);
 
   const [passengerCarResponse, commercialVehicleResponse] = await Promise.all([
     apiContext.get(passengerCarURL, { headers: await getAuthHeaders() }),
@@ -122,7 +122,7 @@ export async function getmodelCodes(encryptedSearchCode: string, apiContext: API
 
 export async function getTargets(encryptedSearchCode: string, apiContext: APIRequestContext, model_uuid: string): Promise<OutputTarget[]> {
 
-  const { passengerCarURL, commercialVehicleURL } = REPXPERT.getTargetsURL(encryptedSearchCode, model_uuid);
+  const { passengerCarURL, commercialVehicleURL } = REPXPERT.targets_API_URL(encryptedSearchCode, model_uuid);
 
   const [passengerCarResponse, commercialVehicleResponse] = await Promise.all([
     apiContext.get(passengerCarURL, { headers: await getAuthHeaders() }),

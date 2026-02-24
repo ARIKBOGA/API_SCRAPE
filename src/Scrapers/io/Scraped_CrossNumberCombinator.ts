@@ -1,22 +1,21 @@
+import ExcelJS from 'exceljs';
 import * as fs from 'fs/promises';
 import path from 'path';
-import dotenv from 'dotenv';
-import { CrossNumberJson, CrossNumberElement, FullCrossNumberData } from '../../utils/Types';
-import ExcelJS from 'exceljs';
+import { FILTER_BRAND, PRODUCT_TYPE } from '../../config/env';
+import { PathRepo } from '../../config/PathRepo';
+import { readJSONSafe } from '../../io/utils/Json_Utils';
+import { CrossNumberJson, FullCrossNumberData } from '../../utils/Types';
+import { writeExcelSafe } from '../../io/utils/ExcelUtils';
 
 
-dotenv.config({ path: path.resolve(".env") });
-
-const productType = process.env.PRODUCT_TYPE as string;
-const filterBrand = process.env.FILTER_BRAND as string;
-const WORK_FOLDER_PATH = path.resolve(__dirname, `../../output/${productType}/jsons/Cross-Numbers`);
-const OUTPUT_JSON_PATH = path.resolve(__dirname, `../../output/${productType}/jsons/Cross-Numbers/Cross-Numbers_${productType}_Full_Data.json`);
-const OUTPUT_EXCEL_PATH = path.resolve(__dirname, `../../output/${productType}/excels/Cross-Numbers/${productType}_Combined_CrossNumbers.xlsx`);
+const WORK_FOLDER_PATH = PathRepo.output(`${PRODUCT_TYPE}/jsons/Cross-Numbers`);
+const OUTPUT_JSON_PATH = PathRepo.output(`${PRODUCT_TYPE}/jsons/Cross-Numbers/Cross-Numbers_${PRODUCT_TYPE}_Full_Data.json`);
+const OUTPUT_EXCEL_PATH = PathRepo.output(`${PRODUCT_TYPE}/excels/Cross-Numbers/${PRODUCT_TYPE}_Combined_CrossNumbers.xlsx`);
 
 export async function combineCrossNumberData(workFolderPath: string) {
     const fileNames = await fs.readdir(workFolderPath);
     const jsonFiles = fileNames
-        .filter((file) => file.startsWith(`Cross-Numbers_${productType}_${filterBrand}`) && file.endsWith(".json"));
+        .filter((file) => file.startsWith(`Cross-Numbers_${PRODUCT_TYPE}_${FILTER_BRAND}`) && file.endsWith(".json"));
 
 
     console.log(`Found ${jsonFiles.length} JSON files to process.`);
@@ -27,8 +26,8 @@ export async function combineCrossNumberData(workFolderPath: string) {
 
     for (const file of jsonFiles) {
         const filePath = path.resolve(workFolderPath, file);
-        const fileContent = await fs.readFile(filePath, 'utf-8');
-        const data = JSON.parse(fileContent) as CrossNumberJson[];
+        const data: CrossNumberJson[] = await readJSONSafe(filePath);
+
 
         for (const { yvNo, OE, crossNumbers } of data) {
 
@@ -116,11 +115,8 @@ export async function exportToExcel(data: FullCrossNumberData[], OUTPUT_EXCEL_PA
             return rowData;
         });
 
-        // Verileri çalışma sayfasına ekle
-        worksheet.addRows(rows);
-
-        // Excel dosyasını kaydet
-        await workbook.xlsx.writeFile(OUTPUT_EXCEL_PATH);
+        // Verileri Excel'e yaz
+        await writeExcelSafe(OUTPUT_EXCEL_PATH, { name: 'Cross Numbers', data: rows });
 
         console.log(`Veri başarıyla ${OUTPUT_EXCEL_PATH} dosyasına aktarıldı.`);
 
@@ -144,13 +140,8 @@ async function main() {
             return;
         }
 
-        // Opsiyonel Adım: Ara JSON dosyasını diske yaz
-        await fs.writeFile(OUTPUT_JSON_PATH, JSON.stringify(combinedData, null, 2), "utf8");
-        console.log(`Birleştirilen veri ${OUTPUT_JSON_PATH} dosyasına kaydedildi.`);
-
         // 2. Excel'e aktar (İkinci Fonksiyon, birincinin sonucunu direkt kullanıyor)
         await exportToExcel(combinedData, OUTPUT_EXCEL_PATH);
-
         console.log("Tüm işlemler başarıyla tamamlandı.");
 
     } catch (error) {

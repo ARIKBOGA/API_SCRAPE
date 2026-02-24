@@ -4,7 +4,7 @@ import { test, expect } from '@playwright/test';
 const API_URL = "https://otoparcasan.com/Ajax/getCsrf/?_=1761232060058";
 const REFERRER_URL = "https://otoparcasan.com/";
 
-test('Tam Tarayıcı Headerları ile CSRF Token İsteği', async ({ page, request }) => {
+test('Tam Tarayıcı Headerları ile CSRF Token İsteği', async ({ request }) => {
     
     // Playwright'ın page.request'i yerine, APIContext'i doğrudan kullanmak, 
     // sayfa navigasyonu ihtiyacını ortadan kaldırır ve daha temiz bir yaklaşımdır.

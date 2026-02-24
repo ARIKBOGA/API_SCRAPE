@@ -1,10 +1,10 @@
-import { APIRequest, APIRequestContext, request } from "@playwright/test";
+import { APIRequestContext } from "@playwright/test";
 import dotenv from "dotenv";
 import path from "path";
 import { CrossNumberApiProduct, OutputManufacturer, OutputModelSeries, ProductCompatibilityResult, ProductReference } from "../../../../utils/Types";
 import { delay, getAuthHeaders, getEncryptedSearchCode, getManufacturerCodes, getmodelCodes, getTargets } from "./API_Helpers";
 import { writeToFileIfNotExistsProducts } from "../../../../utils/outOfScopeHelpers/TextUtils";
-import { REPXPERT } from "../config/ApiData";
+import { REPXPERT } from "../../../../config/API_Scrapers_Data";
 
 dotenv.config({ path: path.resolve(".env") });
 
@@ -26,7 +26,7 @@ export async function processProductFor_OE(
       return null;
     }
 
-    const oeURL = REPXPERT.getOE_URL(encryptedSearchCode);
+    const oeURL = REPXPERT.OE_API_URL(encryptedSearchCode);
     const oeResp = await apiContext.get(oeURL, { headers: await getAuthHeaders() });
     const oeData = await oeResp.json();
 
@@ -130,7 +130,7 @@ export async function processProductFor_CrossNumbers(element: ProductReference, 
   let currentPage = 0, totalPages = 1;
   const products: any[] = [];
   const MAX_PAGES = 5;
-  const URL = REPXPERT.getCrossNumbersURL(freeTextSearch);
+  const URL = REPXPERT.crossNumbers_API_URL(freeTextSearch);
   let returnedFreeTextSearch;
 
   do {
@@ -183,7 +183,7 @@ export async function processProductForArticleAttributes(element: ProductReferen
       return null;
     }
     // 2️⃣ Article Attributes alma
-    const URL = REPXPERT.getArticleAttributesURL(encryptedSearchCode);
+    const URL = REPXPERT.articleAttributes_API_URL(encryptedSearchCode);
     const response = await apiContext.get(URL, { headers: await getAuthHeaders() });
 
     const data = await response.json();

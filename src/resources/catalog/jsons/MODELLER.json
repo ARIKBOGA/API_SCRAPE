@@ -17657,8 +17657,8 @@
     "id": 2523,
     "marka_id": 38,
     "modeller_markalar::marka": "DS",
-    "model": "DS 4 II (FR_, FB_, F3_)",
-    "model_Web": "DS 4 II (FR_, FB_, F3_)"
+    "model": "DS 4 II (FR_, FB_, F3_, FP_, F4_)",
+    "model_Web": "DS 4 II (FR_, FB_, F3_, FP_, F4_)"
   },
   {
     "id": 2524,
@@ -21416,8 +21416,8 @@
     "id": 3060,
     "marka_id": 44,
     "modeller_markalar::marka": "FORD",
-    "model": "P 5 / P 7 / 17 M, Combi 20 M, Combi",
-    "model_Web": "P 5 / P 7 / 17 M, Combi 20 M, Combi"
+    "model": "P 5 / P 7 / 17 M, Combi",
+    "model_Web": "P 5 / P 7 / 17 M, Combi"
   },
   {
     "id": 3061,
@@ -58754,8 +58754,8 @@
     "id": 8394,
     "marka_id": 123,
     "modeller_markalar::marka": "SUBARU",
-    "model": "XV (GT) | CROSSTREK",
-    "model_Web": "XV (GT) | CROSSTREK"
+    "model": "XV (GT, G24) | CROSSTREK",
+    "model_Web": "XV (GT, G24) | CROSSTREK"
   },
   {
     "id": 8395,
@@ -71832,5 +71832,68 @@
     "modeller_markalar::marka": "MAZDA",
     "model": "3 (BK) | AXELA | 3 SPORT",
     "model_Web": "3 (BK) | AXELA | 3 SPORT"
+  },
+  {
+    "id": 10264,
+    "marka_id": 28,
+    "modeller_markalar::marka": "CITROËN",
+    "model": "C5 AIRCROSS (AC_, AJ_, AR_, A4_)",
+    "model_Web": "C5 AIRCROSS (AC_, AJ_, AR_, A4_)"
+  },
+  {
+    "id": 10265,
+    "marka_id": 89,
+    "modeller_markalar::marka": "MG",
+    "model": "MG 4 EV",
+    "model_Web": "MG 4 EV"
+  },
+  {
+    "id": 10266,
+    "marka_id": 89,
+    "modeller_markalar::marka": "MG",
+    "model": "MG 6",
+    "model_Web": "MG 6"
+  },
+  {
+    "id": 10267,
+    "marka_id": 89,
+    "modeller_markalar::marka": "MG",
+    "model": "MG 7",
+    "model_Web": "MG 7"
+  },
+  {
+    "id": 10268,
+    "marka_id": 89,
+    "modeller_markalar::marka": "MG",
+    "model": "ZS EV",
+    "model_Web": "ZS EV"
+  },
+  {
+    "id": 10269,
+    "marka_id": 44,
+    "modeller_markalar::marka": "FORD",
+    "model": "EVEREST",
+    "model_Web": "EVEREST"
+  },
+  {
+    "id": 10270,
+    "marka_id": 44,
+    "modeller_markalar::marka": "FORD",
+    "model": "RANGER",
+    "model_Web": "RANGER"
+  },
+  {
+    "id": 10271,
+    "marka_id": 44,
+    "modeller_markalar::marka": "FORD",
+    "model": "RANGER RAPTOR",
+    "model_Web": "RANGER RAPTOR"
+  },
+  {
+    "id": 10272,
+    "marka_id": 46,
+    "modeller_markalar::marka": "FORD USA",
+    "model": "RANGER RAPTOR",
+    "model_Web": "RANGER RAPTOR"
   }
 ]

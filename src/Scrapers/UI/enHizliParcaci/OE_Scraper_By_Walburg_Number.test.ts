@@ -1,5 +1,4 @@
-import { test, expect, Page } from '@playwright/test';
-import fs from 'fs';
+import { test, Page } from '@playwright/test';
 import path from 'path';
 
 const walburgNumbers = [

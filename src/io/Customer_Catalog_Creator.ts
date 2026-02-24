@@ -1,23 +1,19 @@
 // src/generateLabelsFromSingleJson.ts
 import fs from "fs";
-import path from "path";
 import * as ExcelJS from "exceljs";
 import xlsx from 'xlsx';
 import { bodyTypes, brandAliases, modelAliases } from "../scrapers/api/resources/Variables";
-import dotenv from 'dotenv';
-import { YV_OE_NO_MAP } from "./ORJ_NO_map_For_Label_and_Customer_Catalog";
-import { group } from "console";
 import { ModelWithQuantity } from "./helpers/Types";
+import { PRODUCT_TYPE } from "../config/env";
+import { PathRepo } from "../config/PathRepo";
+import { get_YV_OE_Map } from "./utils/ORJ_NO_Utils";
 
-dotenv.config({ path: path.resolve(".env") });
 
-const productType = process.env.PRODUCT_TYPE as string;
 
 const lineCount = 10;
 const lineLength = 50; // Test etmek için bu değeri değiştirebilirsin
-const modelsNeedsToBePascalCased = new Set(JSON.parse(fs.readFileSync(path.resolve(__dirname, `../resources/catalog/jsons/catalog/jsons/modelsNeedsToBePascalCased.json`), "utf-8")));
-const inputFilePath = path.resolve(__dirname, `../resources/catalog/jsons/MARKA_HAREKET.json`);
-const outputFilePath = path.resolve(__dirname, `../output/${productType}/excels/label/${productType}_CUSTOMER_CATALOG_${lineCount}x${lineLength}.xlsx`);
+const inputFilePath = PathRepo.resources(`catalog/jsons/MARKA_HAREKET.json`);
+const outputFilePath = PathRepo.output(`${PRODUCT_TYPE}/excels/label/${PRODUCT_TYPE}_CUSTOMER_CATALOG_${lineCount}x${lineLength}.xlsx`);
 function toPascalCase(str: string): string {
     const romanNumeralRegex = /^(?=[MDCLXVI])M*(C[MD]|D?C{0,3})(X[CL]|L?X{0,3})(I[XV]|V?I{0,3})$/i;
 
@@ -228,7 +224,7 @@ function generateLabelRichText(vehicles: any[], includeYears: boolean, includeBo
 }
 
 async function getCatalogAttributes() {
-    const inputFilePath = path.resolve(__dirname, `../resources/catalog/excels/ATTRIBUTES.xlsx`);
+    const inputFilePath = PathRepo.resources(`catalog/excels/ATTRIBUTES.xlsx`);
     const wb = xlsx.readFile(inputFilePath, { cellDates: true });
     const ws = wb.Sheets[wb.SheetNames[0]];
     const data: any = xlsx.utils.sheet_to_json(ws);
@@ -258,6 +254,7 @@ async function processAndWriteExcel(): Promise<void> {
 
     // 2. Asenkron Veri Hazırlığı
     const catalogAttributes = await getCatalogAttributes();
+    const YV_OE_NO_MAP = await get_YV_OE_Map();
 
     const workbook = new ExcelJS.Workbook();
     const FULL_CATALOG = workbook.addWorksheet("TÜM ÜRÜNLER");
@@ -302,8 +299,9 @@ async function processAndWriteExcel(): Promise<void> {
     // 4. Veri İşleme ve Excel'e Yazma Döngüsü
 
     for (const item of inputData) {
+
         // Opsiyonel Zincirleme (?.), Nullish Coalescing (??) ve Array.from/slice kullanımı çok iyi.
-        const first_5_OE = Array.from(YV_OE_NO_MAP.get(item.yvNo) || []).slice(0, 5).join("\n");
+        const first_5_OE = Array.from(new Set(YV_OE_NO_MAP.get(item.yvNo))).slice(0, 5).join("\n");
         const attributes = catalogAttributes.get(item.yvNo);
 
         const type = attributes?.["Tip"] ?? ""; // Boş ise "" atama ile sağlamlık
@@ -356,16 +354,15 @@ async function processAndWriteExcel(): Promise<void> {
 async function setStyleToRow(row: ExcelJS.Row) {
     row.getCell(1).alignment = { wrapText: true, horizontal: "center", vertical: "middle" }; // YV
     row.getCell(2).alignment = { wrapText: true, horizontal: "center", vertical: "middle" }; // OE
-    row.getCell(3).alignment = { wrapText: true, horizontal: "right", vertical: "middle" };     // ETIKET
+    row.getCell(3).alignment = { wrapText: true, horizontal: "right", vertical: "middle" };  // ETIKET
     row.getCell(4).alignment = { wrapText: true, horizontal: "center", vertical: "middle" }; // TİP
     row.getCell(5).alignment = { wrapText: true, horizontal: "center", vertical: "middle" }; // POZİSYON
     row.getCell(6).alignment = { wrapText: true, horizontal: "center", vertical: "middle" }; // GRUP
     return row;
 }
 
-// processAndWriteExcel(); // Çağrı şekliniz.
-
 processAndWriteExcel()
-    .catch((error) => console.error("Excel oluşturulurken hata oluştu:", error));
+    .catch((error) => console.error("Excel oluşturulurken hata oluştu:", error))
+    .then(() => console.log("İşlem tamamlandı."));
 
 

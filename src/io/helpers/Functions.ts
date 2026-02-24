@@ -1,7 +1,7 @@
 import fs from 'fs';
-import path from 'path';
+import { PathRepo } from '../../config/PathRepo';
 
-const SOURCE_PATH = path.resolve(__dirname, '../../resources/catalog/jsons/modelsNeedsToBePascalCased.json');
+const SOURCE_PATH = PathRepo.resources( 'catalog/jsons/modelsNeedsToBePascalCased.json');
 const jasonData = JSON.parse(fs.readFileSync(SOURCE_PATH, 'utf-8'));
 const modelsNeedsToBePascalCased = new Set(jasonData);
 

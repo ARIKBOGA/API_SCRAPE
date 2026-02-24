@@ -1,5 +1,5 @@
 import { APIRequestContext, request } from "@playwright/test";
-import { JNBK } from "../repxpert/config/ApiData";
+import { JNBK } from "../../../config/API_Scrapers_Data";
 import { delay } from "../repxpert/helpers/API_Helpers";
 import { ProductReference } from "../../../utils/Types";
 import * as cheerio from 'cheerio';

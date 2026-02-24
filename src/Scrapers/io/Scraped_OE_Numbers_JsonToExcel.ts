@@ -1,93 +1,71 @@
-import path from "path";
-import xlsx from "xlsx";
-import fs from 'fs'
-import dotenv from 'dotenv';
-import initialMarkaData from '../../resources/catalog/jsons/MARKALAR.json';
+import { FILTER_BRAND, PRODUCT_TYPE } from "../../config/env";
+import { PathRepo } from "../../config/PathRepo";
+import { writeExcelSafe } from "../../io/utils/ExcelUtils";
+import { OE_rowData } from "../../utils/Types";
 import { brandAliases } from "../api/resources/Variables";
-import { normalize_OE } from "../../utils/Utility";
+import { markaNameToIdMap, normalize_OE } from "./Utils";
 
 
-dotenv.config({ path: path.resolve(".env") });
 
-const productType = process.env.PRODUCT_TYPE as string;
-const filterBrand = process.env.FILTER_BRAND as string;
+export async function scraped_OE_Numbers_JsonToExcel(results: any[], start: number, end: number) {
 
-type OE_rowData = {
-    YV: string;
-    "CROSS NO": string;
-    "MARKA ID": number | string;
-    MANUFACTURER: string;
-    OE: string;
-}
+    const rowData: OE_rowData[] = [];
 
-const jsonPath = path.resolve(__dirname, `../../output/${productType}/jsons/OE/oe-numbers_${filterBrand}.json`);
-const jsonData = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'));
+    const rowKeys: string[] = [];
+    const oe_numbersPairedSomeMarka_ID: string[] = [];
+    const oe_numbersWithoutMarka_ID: string[] = [];
 
-const rowData: OE_rowData[] = [];
+    for (const element of results) {
 
-// Import Marka (Brand) data and store it in a map for easy lookup
-const markaNameToIdMap = new Map<string, number>();
-for (const [idString, name] of Object.entries(initialMarkaData)) {
-    markaNameToIdMap.set(name.trim().toUpperCase(), parseInt(idString));
-}
+        for (const oe_element of element.oeNumbers) {
 
-const rowKeys: string[] = [];
-const oe_numbersPairedSomeMarka_ID: string[] = [];
-const oe_numbersWithoutMarka_ID: string[] = [];
+            const markaId = markaNameToIdMap.get(oe_element.manufacturer.toUpperCase()) ||
+                markaNameToIdMap.get(brandAliases.get(oe_element.manufacturer.toUpperCase()) as string) || null;
 
-for (const element of jsonData) {
-
-    for (const oe_element of element.oeNumbers) {
-
-        const markaId = markaNameToIdMap.get(oe_element.manufacturer.toUpperCase()) ||
-            markaNameToIdMap.get(brandAliases.get(oe_element.manufacturer.toUpperCase()) as string) || null;
-
-        if (markaId) {
-            for (const oe of oe_element.numbers) {
-                const normalized_OE = normalize_OE(oe);
-                const key = `${element.yvNo}|${oe_element.manufacturer}|${oe}`;
-                if (rowKeys.includes(key)) continue;
-                rowKeys.push(key);
-                oe_numbersPairedSomeMarka_ID.push(normalized_OE);
-                rowData.push({
-                    YV: element.yvNo,
-                    "CROSS NO": element.crossNumber,
-                    "MARKA ID": markaId,
-                    MANUFACTURER: oe_element.manufacturer,
-                    OE: "|".concat(oe)
-                });
-            }
-        }
-    }
-
-    for (const oe_element of element.oeNumbers) {
-
-        const markaId = markaNameToIdMap.get(oe_element.manufacturer.toUpperCase()) ||
-            markaNameToIdMap.get(brandAliases.get(oe_element.manufacturer.toUpperCase()) as string) || null;
-
-        if (!markaId) {
-            for (const oe of oe_element.numbers) {
-                const normalized_OE = normalize_OE(oe);
-                if (!oe_numbersPairedSomeMarka_ID.includes(normalized_OE) && !oe_numbersWithoutMarka_ID.includes(normalized_OE)) {   // if oe number is unique and the other monufacturer's doesn't have it
-                    oe_numbersWithoutMarka_ID.push(normalized_OE);
+            if (markaId) {
+                for (const oe of oe_element.numbers) {
+                    const normalized_OE = normalize_OE(oe);
+                    const key = `${element.yvNo}|${oe_element.manufacturer}|${oe}`;
+                    if (rowKeys.includes(key)) continue;
+                    rowKeys.push(key);
+                    oe_numbersPairedSomeMarka_ID.push(normalized_OE);
                     rowData.push({
                         YV: element.yvNo,
                         "CROSS NO": element.crossNumber,
-                        "MARKA ID": "",
+                        "MARKA ID": markaId,
                         MANUFACTURER: oe_element.manufacturer,
                         OE: "|".concat(oe)
                     });
                 }
             }
         }
+
+        for (const oe_element of element.oeNumbers) {
+
+            const markaId = markaNameToIdMap.get(oe_element.manufacturer.toUpperCase()) ||
+                markaNameToIdMap.get(brandAliases.get(oe_element.manufacturer.toUpperCase()) as string) || null;
+
+            if (!markaId) {
+                for (const oe of oe_element.numbers) {
+                    const normalized_OE = normalize_OE(oe);
+                    if (!oe_numbersPairedSomeMarka_ID.includes(normalized_OE) && !oe_numbersWithoutMarka_ID.includes(normalized_OE)) {   // if oe number is unique and the other monufacturer's doesn't have it
+                        oe_numbersWithoutMarka_ID.push(normalized_OE);
+                        rowData.push({
+                            YV: element.yvNo,
+                            "CROSS NO": element.crossNumber,
+                            "MARKA ID": "",
+                            MANUFACTURER: oe_element.manufacturer,
+                            OE: "|".concat(oe)
+                        });
+                    }
+                }
+            }
+        }
+
     }
 
-}
+    const outputFilePath = PathRepo.output(`${PRODUCT_TYPE}/excels/OE/OE_Numbers_${FILTER_BRAND}_${start}-${end}.xlsx`);
 
-const outputFilePath = path.resolve(__dirname, `../../output/${productType}/excels/OE/OE_Numbers_${filterBrand}.xlsx`);
-const headers = Object.keys(rowData[0]);
-const wb = xlsx.utils.book_new();
-const ws = xlsx.utils.json_to_sheet(rowData, { header: headers });
-xlsx.utils.book_append_sheet(wb, ws, "OE_Numbers");
-xlsx.writeFile(wb, path.resolve(__dirname, outputFilePath));
-console.log(`${filterBrand} OE Numbers Excel dosyası oluşturuldu ==>> ${outputFilePath}`);
+    await writeExcelSafe(outputFilePath, { name: 'OE_Numbers', data: rowData });
+    console.log(`${FILTER_BRAND} OE Numbers Excel dosyası oluşturuldu ==>> ${outputFilePath}`);
+}

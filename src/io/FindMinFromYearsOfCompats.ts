@@ -1,13 +1,9 @@
 import xlsx from 'xlsx';
-import path from 'path';
-import dotenv from 'dotenv';
+import { PRODUCT_TYPE } from '../config/env';
+import { PathRepo } from '../config/PathRepo';
 
-dotenv.config({ path: path.resolve(".env") });
 
-const PRODUCT_TYPE = process.env.PRODUCT_TYPE as string;
-const FILTER_BRAND = process.env.FILTER_BRAND as string;
-
-const INPUT_PATH = path.resolve(__dirname, `../output/${PRODUCT_TYPE}/excels/Vehicle-Compatibility/COMPATIBILITIES_AMERICAN_JNBK+REPXPERT.xlsx`);
+const INPUT_PATH = PathRepo.output(`${PRODUCT_TYPE}/excels/Vehicle-Compatibility/COMPATIBILITIES_AMERICAN_JNBK+REPXPERT.xlsx`);
 
 const wb = xlsx.readFile(INPUT_PATH);
 const ws = wb.Sheets[wb.SheetNames[0]];

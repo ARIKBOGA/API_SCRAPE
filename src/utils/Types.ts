@@ -63,9 +63,6 @@ export type ProductCompatibilityResult = {
   compatibleVehicles: OutputManufacturer[];
 };
 
-// JSON dosyanızın kök yapısı bir ProductCompatibilityResult dizisi olduğu için
-export type RootJsonData = ProductCompatibilityResult[];
-
 // Sizin eklediğiniz tipler:
 export type ModelData = {
   id: number;
@@ -100,32 +97,31 @@ export type CrossNumbersYV_Pair = {
   crossNumbers: CrossNumberApiProduct[];
 }
 
-export type CrossNumberElement = {
-  Supplier: string;
-  ArticleNumber: string;
-  StatusCode: string;
-  StatusMessage: string;
-  ApiCode: string;
-}
 
 export type CrossNumberJson = {
   yvNo: string;
   OE: string;
-  crossNumbers: CrossNumberElement[];
+  crossNumbers: CrossNumberApiProduct[];
 }
 
 // JSON'dan dönüştürülen tip
 export type FullCrossNumberData = {
-    yvNo: string;
-    oeNumbers: string[];
-    crossNumbers: CrossNumberElement[];
+  yvNo: string;
+  oeNumbers: string[];
+  crossNumbers: CrossNumberApiProduct[];
 };
 
 export type Model = {
-    name: string;
-    code: string;
-    type: string;
-    constructionYearFrom: string;
+  name: string;
+  code: string;
+  type: string;
+  constructionYearFrom: string;
+}
+
+
+export type OE_YV_Map = {
+  OE: string;
+  YV: string[];
 }
 
 export type OERoot = {
@@ -138,4 +134,131 @@ export type OERoot = {
 export type OeNumber = {
   manufacturer: string
   numbers: string[]
+}
+
+export type OE_rowData = {
+  YV: string;
+  "CROSS NO": string;
+  "MARKA ID": number | string;
+  MANUFACTURER: string;
+  OE: string;
+}
+
+
+export type HORIZONTAL_OE_rowData = {
+  YV: string;
+  "CROSS NO": string;
+  BRANDS: string;
+  OE_Numbers: string;
+  NORMALIZED_OE_Numbers: string;
+}
+
+
+export type AttributeItem = {
+  yvNo: string,
+  crossNumber: string,
+  supplier: string,
+  attributes: {
+    name: string,
+    value: string
+  }[]
+}
+
+export type AttributeRow = {
+  yvNo: string,
+  crossNumber: string,
+  supplier: string,
+  [key: string]: string | number; // Dinamik attribute'ler için
+}
+
+export type MARKA_HAREKET_ExcelRow = {
+  ID?: number;
+  yvno: string;
+  marka: string;
+  marka_aciklama: string;
+  model: string;
+  model_aciklama: string;
+  motor: string;
+  BasYil: number | string;
+  Bityil: number | string;
+  "KATOLOG::SecilenNo": string;
+  "KATOLOG::YV NO": string;
+  "KATOLOG 2::YV NO": string;
+  "KATOLOG::No": string;
+  "markahareket_marka::marka": string;
+  "markahareket_model::model": string;
+  description: string;
+  "KATOLOG::Araç Grubu R90": string;
+  "motor kw": string;
+  "motor hp": string;
+  "motor kodu": string;
+  KBA: string;
+  "crank_montaj açısı": string;
+  "KATOLOG::grupId": string;
+}
+
+export type ORJ_NO_ExcelRow = {
+  ID: number;
+  orjNo: string;
+  yvNo: string;
+  "KATOLOG::YV NO": string;
+  "KATOLOG::SecilenNo": string;
+  "KATOLOG 2::YV NO": string;
+  mukerrerkontrol: string;
+  Field: string;
+  markaId: string;
+  "KATOLOG::Araç Grubu R90": string;
+  R90: string;
+  "R90_Testing Agent": string;
+  "KATOLOG::grupId": number;
+  [key: string]: string | number;
+}
+
+export type ScrapedVehicleCompatibility_ExcelRow = {
+  "YV": string;
+  "SUPPLIER": string;
+  "CROSS NUMBER": string;
+  "MARKA ID": string | number | null;
+  "MARKA": string;
+  "MODEL ID": string | number | null;
+  "MODEL": string;
+  "MOTOR": string; // OutputTarget'taki 'name' alanı buna karşılık geliyor
+  "Baş. Yil": string;
+  "Bit. Yil": string;
+  "KW": string;
+  "HP": string;
+  "CC": string;
+  "MOTOR KODU": string;
+  "KBA": string;
+  "KASA Tipi": string;
+  "TecDocID": string;
+}
+
+/*
+
+item.yvNo,
+                item.brand,
+                item.crossNumber,
+                marka_id,
+                vehicle.manufacturer,
+                model_id,
+                model.modelSeries,
+                target.engine,
+                fromYear,
+                toYear,
+                target.enginePowerKW,
+                target.enginePowerHP,
+                target.cc,
+                target.engineCodes,
+                target.kbaNumbers,
+                target.bodyType,
+                target.TecDocID || ''
+
+*/
+
+
+
+export type Etiket = {
+    YV: string;
+    [key: string]: any; // Excel'deki diğer tüm sütunlar
 }
