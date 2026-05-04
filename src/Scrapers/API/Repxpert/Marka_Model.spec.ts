@@ -3,6 +3,7 @@ import path from "path";
 import fs from "fs";
 import { getAuthHeaders } from "./helpers/API_Helpers";
 import { Model } from "../../../utils/Types";
+import { writeExcelSafe } from "../../../io/utils/ExcelUtils";
 
 /*
 export function readBrandNames(): string[] {
@@ -17,6 +18,7 @@ const MARAKALAR = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../../../r
 const currentBrandList: string[] = Object.values(MARAKALAR);
 */
 
+test.describe.configure({ mode: 'serial' });
 
 test.describe("🌍 Brand-Model Process", () => {
 
@@ -33,6 +35,7 @@ test.describe("🌍 Brand-Model Process", () => {
         };
 
         for (const carType of carTypes) {
+            
             const brandMap: Map<string, string> = new Map();
             const URL = `https://www.repxpert.co.uk/api/Repxpert-GB/manufacturers?globalCarPark=true&targetTypeCodes=${carType}`;
 
@@ -104,9 +107,16 @@ test.describe("🌍 Brand-Model Process", () => {
                     modelSeries.forEach((each: any) => {
                         const model: Model = {
                             name: each.name,
-                            code: each.uuid,
-                            type: each.type.code,
-                            constructionYearFrom: each.constructionYearFrom
+                            constructionYearFrom: each.constructionYearFrom,
+                            constructionYearTo: each.constructionYearTo,
+                            seoPath: each.seoPath,
+                            type: {
+                                code: each.type.code,
+                                name: each.type.name,
+                                referenceCode: each.type.referenceCode
+                            },
+                            uuid: each.uuid
+                            
                         };
                         // Daha kısa yazım:
                         MODEL_RESULT[brandName] = (MODEL_RESULT[brandName] || []).concat(model);
@@ -122,12 +132,60 @@ test.describe("🌍 Brand-Model Process", () => {
     });
 
     // Çıktıyı JSON dosyasına yaz
-    test.afterAll(async () => {
+    test("3. Output results to JSON", async () => {
 
         const outputPath = path.resolve(__dirname, "output/jsons/ALL_MODELS_REPXPERT_array.json");
         fs.mkdirSync(path.dirname(outputPath), { recursive: true });
-
+    
         fs.writeFileSync(outputPath, JSON.stringify(MODELS_MASTER_RESULT, null, 2), "utf-8");
         console.log(`✅ Model verileri başarıyla yazıldı: ${outputPath}`);
+        
+    });
+
+
+    // JSON dosyasını EXCEL'e yaz
+    test("4. Output results to EXCEL", async () => {
+        // Burada JSON'dan EXCEL'e dönüştürme işlemi yapılabilir.
+        const jsonDataPath = path.resolve(__dirname, "output/jsons/ALL_MODELS_REPXPERT_array.json");
+        const excelOutputPath = path.resolve(__dirname, "output/excels/ALL_MODELS_REPXPERT_array.xlsx");
+
+        // JSON verisini oku
+        const jsonData = JSON.parse(fs.readFileSync(jsonDataPath, "utf-8"));
+        
+        // EXCEL'e yazma işlemi (örneğin xlsx kütüphanesi ile)
+        const rows: any[] = [];
+
+        for (const carType in jsonData) {
+            const brands = jsonData[carType];
+            for (const brandName in brands) {
+                const models = brands[brandName];
+                models.forEach((model: Model) => {
+                    rows.push({
+                        uuid: model.uuid,
+                        carType: carType,
+                        brandName: brandName,
+                        modelName: model.name,
+                        constructionYearFrom: model.constructionYearFrom,
+                        constructionYearTo: model.constructionYearTo,
+                        seoPath: model.seoPath.join(", "),
+                        typeCode: model.type.code,
+                        typeName: model.type.name,
+                        typeReferenceCode: model.type.referenceCode,
+                    });
+                });
+            }
+        }
+        // Burada jsonData'yı uygun bir formata dönüştürüp EXCEL'e yazmak gerekiyor.
+
+        await test.step("Write to EXCEL", async () => {
+            await writeExcelSafe(excelOutputPath, {name: "ALL_MODELS_REPXPERT_array", data: rows });
+            console.log(`✅ Model verileri başarıyla EXCEL'e yazıldı: ${excelOutputPath}`);
+        });
+        // Bu adımda, her carType ve brand için ayrı sayfalar oluşturulabilir.
+    });
+
+    // Test sonrası cleanup işlemleri (varsa)
+    test.afterAll(async () => {
+
     });
 });

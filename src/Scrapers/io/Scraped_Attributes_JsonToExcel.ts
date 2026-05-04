@@ -13,10 +13,7 @@ export async function scraped_Attributes_JsonToExcel(results: AttributeItem[]) {
         const { yvNo, crossNumber, supplier, attributes } = item;
         const attributeMap: Record<string, string> = Object.fromEntries(attributes.map(attr => [attr.name, attr.value]));
 
-        // WVA Number attribute'ini özel olarak işle
-        if (attributeMap["WVA Number"] && !attributeMap["WVA Number"].includes(yvNo.slice(0, 5))) {
-            attributeMap["WVA Number"] = yvNo.slice(0, 5) + ", " + attributeMap["WVA Number"];
-        }
+        
 
         // Ana verileri ve attribute'leri tek bir objede birleştir
         return {

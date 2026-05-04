@@ -48,7 +48,7 @@ test.describe("JNBK API Scraper", () => {
         await writeJSONSafe(`${outputDir}/Attributes/Attributes_${PRODUCT_TYPE}_${FILTER_BRAND}.json`, attrs);
 
         // Write all the results to an excel file
-        await scraped_Compatibilities_JsonToExcel(compats);
+        await scraped_Compatibilities_JsonToExcel(compats, first, last);
         await scraped_OE_Numbers_JsonToExcel(oes, first, last);
         await scraped_Attributes_JsonToExcel(attrs);
 
