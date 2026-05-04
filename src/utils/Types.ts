@@ -113,9 +113,15 @@ export type FullCrossNumberData = {
 
 export type Model = {
   name: string;
-  code: string;
-  type: string;
   constructionYearFrom: string;
+  constructionYearTo: string;
+  seoPath: string[];
+  type: {
+    code: string;
+    name: string;
+    referenceCode: string;
+  },
+  uuid: string;
 }
 
 

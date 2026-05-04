@@ -71044,10 +71044,10 @@
   },
   {
     "id": 10150,
-    "marka_id": 130,
-    "modeller_markalar::marka": "TOYOTA",
-    "model": "AVALON",
-    "model_Web": "AVALON"
+    "marka_id": 44,
+    "modeller_markalar::marka": "FORD",
+    "model": "P 7 / 20 M II, Combi",
+    "model_Web": "P 7 / 20 M II, Combi"
   },
   {
     "id": 10151,
@@ -71895,5 +71895,369 @@
     "modeller_markalar::marka": "FORD USA",
     "model": "RANGER RAPTOR",
     "model_Web": "RANGER RAPTOR"
+  },
+  {
+    "id": 10273,
+    "marka_id": 28,
+    "modeller_markalar::marka": "CITROËN",
+    "model": "JUMPER II Van (244) | RELAY",
+    "model_Web": "JUMPER II Van (244) | RELAY"
+  },
+  {
+    "id": 10274,
+    "marka_id": 28,
+    "modeller_markalar::marka": "CITROËN",
+    "model": "JUMPER II Bus (244, Z_) | RELAY",
+    "model_Web": "JUMPER II Bus (244, Z_) | RELAY"
+  },
+  {
+    "id": 10275,
+    "marka_id": 28,
+    "modeller_markalar::marka": "CITROËN",
+    "model": "JUMPER II Platform/Chassis (244) | RELAY",
+    "model_Web": "JUMPER II Platform/Chassis (244) | RELAY"
+  },
+  {
+    "id": 10276,
+    "marka_id": 28,
+    "modeller_markalar::marka": "CITROËN",
+    "model": "JUMPER III Bus | RELAY",
+    "model_Web": "JUMPER III Bus | RELAY"
+  },
+  {
+    "id": 10277,
+    "marka_id": 28,
+    "modeller_markalar::marka": "CITROËN",
+    "model": "JUMPER III Platform/Chassis | RELAY",
+    "model_Web": "JUMPER III Platform/Chassis | RELAY"
+  },
+  {
+    "id": 10278,
+    "marka_id": 28,
+    "modeller_markalar::marka": "CITROËN",
+    "model": "JUMPER III Van | RELAY",
+    "model_Web": "JUMPER III Van | RELAY"
+  },
+  {
+    "id": 10279,
+    "marka_id": 30,
+    "modeller_markalar::marka": "DACIA",
+    "model": "SANDERO (BS_)",
+    "model_Web": "SANDERO (BS_)"
+  },
+  {
+    "id": 10280,
+    "marka_id": 30,
+    "modeller_markalar::marka": "DACIA",
+    "model": "SANDERO II (B8_)",
+    "model_Web": "SANDERO II (B8_)"
+  },
+  {
+    "id": 10281,
+    "marka_id": 44,
+    "modeller_markalar::marka": "FORD",
+    "model": "ESCORT V Convertible (ALL, BJ2)",
+    "model_Web": "ESCORT V Convertible (ALL, BJ2)"
+  },
+  {
+    "id": 10282,
+    "marka_id": 44,
+    "modeller_markalar::marka": "FORD",
+    "model": "KUGA II (DM2) | ESCAPE / KUGA | ESCAPE",
+    "model_Web": "KUGA II (DM2) | ESCAPE / KUGA | ESCAPE"
+  },
+  {
+    "id": 10283,
+    "marka_id": 55,
+    "modeller_markalar::marka": "HYUNDAI",
+    "model": "H100 Bus (P) | GRACE | H150 | H100 / GRACE",
+    "model_Web": "H100 Bus (P) | GRACE | H150 | H100 / GRACE"
+  },
+  {
+    "id": 10284,
+    "marka_id": 67,
+    "modeller_markalar::marka": "KIA",
+    "model": "CARNIVAL I (UP, FL) | SEDONA",
+    "model_Web": "CARNIVAL I (UP, FL) | SEDONA"
+  },
+  {
+    "id": 10285,
+    "marka_id": 67,
+    "modeller_markalar::marka": "KIA",
+    "model": "CARENS I MPV (FC, FJ)",
+    "model_Web": "CARENS I MPV (FC, FJ)"
+  },
+  {
+    "id": 10286,
+    "marka_id": 67,
+    "modeller_markalar::marka": "KIA",
+    "model": "SHUMA II Saloon (FB) | SPECTRA | SEPHIA",
+    "model_Web": "SHUMA II Saloon (FB) | SPECTRA | SEPHIA"
+  },
+  {
+    "id": 10287,
+    "marka_id": 85,
+    "modeller_markalar::marka": "MAZDA",
+    "model": "2 Hatchback (DL, DJ) | DEMIO / 2",
+    "model_Web": "2 Hatchback (DL, DJ) | DEMIO / 2"
+  },
+  {
+    "id": 10288,
+    "marka_id": 85,
+    "modeller_markalar::marka": "MAZDA",
+    "model": "CX-30 (DM, DT, ED)",
+    "model_Web": "CX-30 (DM, DT, ED)"
+  },
+  {
+    "id": 10289,
+    "marka_id": 89,
+    "modeller_markalar::marka": "MG",
+    "model": "ZR",
+    "model_Web": "ZR"
+  },
+  {
+    "id": 10290,
+    "marka_id": 89,
+    "modeller_markalar::marka": "MG",
+    "model": "ZS",
+    "model_Web": "ZS"
+  },
+  {
+    "id": 10291,
+    "marka_id": 89,
+    "modeller_markalar::marka": "MG",
+    "model": "ZS Hatchback",
+    "model_Web": "ZS Hatchback"
+  },
+  {
+    "id": 10292,
+    "marka_id": 89,
+    "modeller_markalar::marka": "MG",
+    "model": "ZT",
+    "model_Web": "ZT"
+  },
+  {
+    "id": 10293,
+    "marka_id": 89,
+    "modeller_markalar::marka": "MG",
+    "model": "ZT- T | MG ZT-T",
+    "model_Web": "ZT- T | MG ZT-T"
+  },
+  {
+    "id": 10294,
+    "marka_id": 89,
+    "modeller_markalar::marka": "MG",
+    "model": "GS",
+    "model_Web": "GS"
+  },
+  {
+    "id": 10295,
+    "marka_id": 89,
+    "modeller_markalar::marka": "MG",
+    "model": "ZS SUV (AZS1)",
+    "model_Web": "ZS SUV (AZS1)"
+  },
+  {
+    "id": 10296,
+    "marka_id": 89,
+    "modeller_markalar::marka": "MG",
+    "model": "HS (AS23) | RX6",
+    "model_Web": "HS (AS23) | RX6"
+  },
+  {
+    "id": 10297,
+    "marka_id": 91,
+    "modeller_markalar::marka": "MITSUBISHI",
+    "model": "LANCER VI (CJ_, CP_, CK_)",
+    "model_Web": "LANCER VI (CJ_, CP_, CK_)"
+  },
+  {
+    "id": 10298,
+    "marka_id": 91,
+    "modeller_markalar::marka": "MITSUBISHI",
+    "model": "Canter V (FE3, FE4, FB3, FB4)",
+    "model_Web": "Canter V (FE3, FE4, FB3, FB4)"
+  },
+  {
+    "id": 10299,
+    "marka_id": 91,
+    "modeller_markalar::marka": "MITSUBISHI",
+    "model": "Canter VI (FE5, FE6, FB5, FB6)",
+    "model_Web": "Canter VI (FE5, FE6, FB5, FB6)"
+  },
+  {
+    "id": 10300,
+    "marka_id": 111,
+    "modeller_markalar::marka": "RENAULT",
+    "model": "MEGANE IV Saloon (LVA/M/N)",
+    "model_Web": "MEGANE IV Saloon (LVA/M/N)"
+  },
+  {
+    "id": 10301,
+    "marka_id": 111,
+    "modeller_markalar::marka": "RENAULT",
+    "model": "ARKANA I (LCM_, LDN_) | MEGANE CONQUEST",
+    "model_Web": "ARKANA I (LCM_, LDN_) | MEGANE CONQUEST"
+  },
+  {
+    "id": 10302,
+    "marka_id": 123,
+    "modeller_markalar::marka": "SUBARU",
+    "model": "LEGACY IV (BL) | OUTBACK | LIBERTY",
+    "model_Web": "LEGACY IV (BL) | OUTBACK | LIBERTY"
+  },
+  {
+    "id": 10303,
+    "marka_id": 123,
+    "modeller_markalar::marka": "SUBARU",
+    "model": "OUTBACK (BP)",
+    "model_Web": "OUTBACK (BP)"
+  },
+  {
+    "id": 10304,
+    "marka_id": 127,
+    "modeller_markalar::marka": "TESLA",
+    "model": "MODEL 3",
+    "model_Web": "MODEL 3"
+  },
+  {
+    "id": 10305,
+    "marka_id": 127,
+    "modeller_markalar::marka": "TESLA",
+    "model": "MODEL S",
+    "model_Web": "MODEL S"
+  },
+  {
+    "id": 10306,
+    "marka_id": 127,
+    "modeller_markalar::marka": "TESLA",
+    "model": "MODEL X",
+    "model_Web": "MODEL X"
+  },
+  {
+    "id": 10307,
+    "marka_id": 130,
+    "modeller_markalar::marka": "TOYOTA",
+    "model": "TERCEL Saloon (AL2_)",
+    "model_Web": "TERCEL Saloon (AL2_)"
+  },
+  {
+    "id": 10308,
+    "marka_id": 130,
+    "modeller_markalar::marka": "TOYOTA",
+    "model": "HILUX IV Pickup (_N5_, _N6_) | PICKUP",
+    "model_Web": "HILUX IV Pickup (_N5_, _N6_) | PICKUP"
+  },
+  {
+    "id": 10309,
+    "marka_id": 130,
+    "modeller_markalar::marka": "TOYOTA",
+    "model": "YARIS (_P13_) | YARIS/VITZ | VITZ | YARIS / VITZ",
+    "model_Web": "YARIS (_P13_) | YARIS/VITZ | VITZ | YARIS / VITZ"
+  },
+  {
+    "id": 10310,
+    "marka_id": 134,
+    "modeller_markalar::marka": "VW",
+    "model": "TRANSPORTER T3 Bus (25_) | VANAGON | TRANSPORTER / CARAVELLE | KOMBI / MICROBUS / CARAVELLE",
+    "model_Web": "TRANSPORTER T3 Bus (25_) | VANAGON | TRANSPORTER / CARAVELLE | KOMBI / MICROBUS / CARAVELLE"
+  },
+  {
+    "id": 10311,
+    "marka_id": 134,
+    "modeller_markalar::marka": "VW",
+    "model": "POLO III CLASSIC (6V2) | POLO FLIGHT | DERBY",
+    "model_Web": "POLO III CLASSIC (6V2) | POLO FLIGHT | DERBY"
+  },
+  {
+    "id": 10312,
+    "marka_id": 134,
+    "modeller_markalar::marka": "VW",
+    "model": "POLO Estate Van (6V5)",
+    "model_Web": "POLO Estate Van (6V5)"
+  },
+  {
+    "id": 10313,
+    "marka_id": 134,
+    "modeller_markalar::marka": "VW",
+    "model": "POLO Hatchback Van (6N1)",
+    "model_Web": "POLO Hatchback Van (6N1)"
+  },
+  {
+    "id": 10314,
+    "marka_id": 134,
+    "modeller_markalar::marka": "VW",
+    "model": "TRANSPORTER T4 Bus (70B, 70C, 7DB, 7DK, 70J, 70K, 7DC, 7DJ) | TRANSPORTER / CARAVELLE | EUROVAN / CARAVELLE / TRANSPORTER | KOMBI / MICROBUS / CARAVELLE | TRANSPORTER / MULTIVAN | EUROVAN | CARAVELLE",
+    "model_Web": "TRANSPORTER T4 Bus (70B, 70C, 7DB, 7DK, 70J, 70K, 7DC, 7DJ) | TRANSPORTER / CARAVELLE | EUROVAN / CARAVELLE / TRANSPORTER | KOMBI / MICROBUS / CARAVELLE | TRANSPORTER / MULTIVAN | EUROVAN | CARAVELLE"
+  },
+  {
+    "id": 10315,
+    "marka_id": 134,
+    "modeller_markalar::marka": "VW",
+    "model": "TRANSPORTER T4 Van (70A, 70H, 7DA, 7DH, 70J) | TRANSPORTER / KOMBI | EUROVAN",
+    "model_Web": "TRANSPORTER T4 Van (70A, 70H, 7DA, 7DH, 70J) | TRANSPORTER / KOMBI | EUROVAN"
+  },
+  {
+    "id": 10316,
+    "marka_id": 134,
+    "modeller_markalar::marka": "VW",
+    "model": "FOX Hatchback (5Z1, 5Z3, 5Z4, 5Z5)",
+    "model_Web": "FOX Hatchback (5Z1, 5Z3, 5Z4, 5Z5)"
+  },
+  {
+    "id": 10317,
+    "marka_id": 134,
+    "modeller_markalar::marka": "VW",
+    "model": "GOLF VI Variant (AJ5) | JETTA /JETTA WAGON | JETTA",
+    "model_Web": "GOLF VI Variant (AJ5) | JETTA /JETTA WAGON | JETTA"
+  },
+  {
+    "id": 10318,
+    "marka_id": 134,
+    "modeller_markalar::marka": "VW",
+    "model": "JETTA VII Saloon (BU3, BU4, BU5) | VENTO",
+    "model_Web": "JETTA VII Saloon (BU3, BU4, BU5) | VENTO"
+  },
+  {
+    "id": 10319,
+    "marka_id": 134,
+    "modeller_markalar::marka": "VW",
+    "model": "SHARAN Box Body/MPV (7M_)",
+    "model_Web": "SHARAN Box Body/MPV (7M_)"
+  },
+  {
+    "id": 10320,
+    "marka_id": 134,
+    "modeller_markalar::marka": "VW",
+    "model": "PASSAT ALLTRACK B7 Variant (365)",
+    "model_Web": "PASSAT ALLTRACK B7 Variant (365)"
+  },
+  {
+    "id": 10321,
+    "marka_id": 134,
+    "modeller_markalar::marka": "VW",
+    "model": "TOURAN Box Body/MPV (1T1, 1T2)",
+    "model_Web": "TOURAN Box Body/MPV (1T1, 1T2)"
+  },
+  {
+    "id": 10322,
+    "marka_id": 134,
+    "modeller_markalar::marka": "VW",
+    "model": "TOURAN Box Body/MPV (1T3)",
+    "model_Web": "TOURAN Box Body/MPV (1T3)"
+  },
+  {
+    "id": 10323,
+    "marka_id": 134,
+    "modeller_markalar::marka": "VW",
+    "model": "SHARAN Box Body/MPV (7N1, 7N2)",
+    "model_Web": "SHARAN Box Body/MPV (7N1, 7N2)"
+  },
+  {
+    "id": 10324,
+    "marka_id": 134,
+    "modeller_markalar::marka": "VW",
+    "model": "TOURAN Box Body/MPV (5T1)",
+    "model_Web": "TOURAN Box Body/MPV (5T1)"
   }
 ]

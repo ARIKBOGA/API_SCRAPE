@@ -123,7 +123,7 @@ export async function processProductFor_VehicleCompatibility(element: ProductRef
 
 export async function processProductFor_CrossNumbers(element: ProductReference, apiContext: APIRequestContext) {
   const { yvNo, supplier, freeTextSearch } = element;
-  console.log(`Processing YV: ${yvNo}, Brand: ${supplier}, Cross Number: ${freeTextSearch}`);
+  console.log(`Processing YV: ${yvNo}, Brand: ${supplier}, Free Text Search: ${freeTextSearch}`);
 
   if (!freeTextSearch?.trim()) return null;
 
@@ -222,6 +222,7 @@ async function fetchWithRetry(apiContext: APIRequestContext, url: string, retrie
   for (let attempt = 1; attempt <= retries; attempt++) {
     try {
       const response = await apiContext.get(url, { headers: await getAuthHeaders() });
+      await delay(500 * attempt); // Delay between attempts
       if (response.ok()) return response.json();
       console.warn(`Attempt ${attempt}: ${response.status()} for ${url}`);
     } catch (error) {

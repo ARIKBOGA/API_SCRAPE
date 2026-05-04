@@ -3,7 +3,7 @@ import { ORJ_NO_ExcelRow } from "../../utils/Types";
 import { readExcelSafe } from "./ExcelUtils";
 
 
-async function ORJ_NO_EXCEL() {
+export async function ORJ_NO_EXCEL() {
     const INPUT_FILEPATH = PathRepo.resources(`catalog/excels/ORJ_NO.xlsx`);
     const data: ORJ_NO_ExcelRow[] = await readExcelSafe(INPUT_FILEPATH);
 

@@ -12,10 +12,10 @@ import { markaNameToIdMap, modelDataMap } from './Utils';
  * @param inputFilePath The path to the JSON file to be read
  * @param outputDirectory The directory where the Excel file will be saved
  */
-export async function scraped_Compatibilities_JsonToExcel(results: ProductCompatibilityResult[]): Promise<void> {
+export async function scraped_Compatibilities_JsonToExcel(results: ProductCompatibilityResult[], start: number, endCalc: number): Promise<void> {
 
 
-  const OUTPUT_FILEPATH = PathRepo.output(`${PRODUCT_TYPE}/excels/Vehicle-Compatibility/Vehicle-Compatibility_${FILTER_BRAND}.xlsx`);
+  const OUTPUT_FILEPATH = PathRepo.output(`${PRODUCT_TYPE}/excels/Vehicle-Compatibility/Vehicle-Compatibility_${FILTER_BRAND}_${start}_${endCalc}.xlsx`);
 
   // An array to avoid duplicte rows even if they belongs to different cross numbers with same YV
   const rowKeys: string[] = [];
