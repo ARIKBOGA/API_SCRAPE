@@ -201,12 +201,12 @@ export const bodyTypes = [
 ];
 
 export const referenceArray: ProductReference[] = [
-  {yvNo:'8270S', supplier: 'BREMBO', freeTextSearch: 'P 83 025'},
+  //{yvNo:'8270S', supplier: 'BREMBO', freeTextSearch: 'P 83 025'},
   //{yvNo:'8424W', supplier: 'TEXTAR', freeTextSearch: '2410601'},
-  {yvNo:'8578S', supplier: 'TEXTAR', freeTextSearch: '2516002'},
-  {yvNo:'8578C', supplier: 'BREMBO', freeTextSearch: 'P 85 128'},
+  //{yvNo:'8578S', supplier: 'TEXTAR', freeTextSearch: '2516002'},
+  //{yvNo:'8578C', supplier: 'BREMBO', freeTextSearch: 'P 85 128'},
   //{yvNo:'8611S', supplier: 'TEXTAR', freeTextSearch: '2555201'},
-  {yvNo:'8661C', supplier: 'TEXTAR', freeTextSearch: '2727601'},
+  //{yvNo:'8661C', supplier: 'TEXTAR', freeTextSearch: '2727601'},
 
   {yvNo:'8424W', supplier: 'JNBK', freeTextSearch: 'PN0428'},
   {yvNo:'8611S', supplier: 'JNBK', freeTextSearch: 'PN0647'},
