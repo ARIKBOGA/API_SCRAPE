@@ -1,6 +1,5 @@
-import { APIRequestContext, expect, request, test } from '@playwright/test';
+import { APIRequestContext, request, test } from '@playwright/test';
 import path from 'path';
-import { REPXPERT } from '../../../config/API_Scrapers_Data';
 import { FILTER_BRAND, PRODUCT_TYPE } from '../../../config/env';
 import { writeJSONSafe } from '../../../io/utils/Json_Utils';
 import { ProductReference } from '../../../utils/Types';
@@ -14,7 +13,7 @@ import {
   processProductFor_VehicleCompatibility,
   processProductForArticleAttributes,
 } from './helpers/API_Functions';
-import { getAuthHeaders, getEncryptedSearchCode } from './helpers/API_Helpers';
+import { getAuthHeaders, getEncryptedSearchCode, getToken } from './helpers/API_Helpers';
 
 const start = 0;
 const end: number = 0; // Set to 0 to process all products, or specify a number to limit the processing
@@ -87,22 +86,11 @@ test('Get cross numbers via given cross/OE numbers', async () => {
 });
 
 test('Get token only', async ({ request }) => {
-  const requestBody = new URLSearchParams(REPXPERT.tokenRequest.body);
-  const tokenHeaders = REPXPERT.tokenRequest.headers;
-  const URL = REPXPERT.tokenRequest.URL;
+  const response = await getToken();
+  
+  console.log(response.cookie);
+  console.log(response.token);
 
-  const response = await request.post(URL, {
-    headers: tokenHeaders,
-    data: requestBody.toString(),
-  });
-
-  const data = await response.json();
-
-  expect(data.access_token).toBeTruthy();
-
-  const encryptedCode = await getEncryptedSearchCode('SDB500182', 'BREMBO', request);
-  console.log(data?.access_token);
-  console.log('Encrypted Code:', encryptedCode);
 });
 
 test('Get only ICER products WVA numbers', async ({ request }) => {

@@ -54,8 +54,11 @@ export async function getToken(): Promise<{ token: string, cookie: string }> {
   cachedToken = tokenData.access_token;
   cachedExpiresAt = Date.now() + (tokenData.expires_in ? tokenData.expires_in * 1000 : TOKEN_TTL_MS);
 
-  const headers = tokenResponse.headers();
-  cachedCookie = headers["set-cookie"];
+  const headersArray = tokenResponse.headersArray();
+  cachedCookie = headersArray
+    .filter(header => header.name.toLowerCase() === 'set-cookie') // Sadece cookie'leri bul
+    .map(header => header.value.split(';')[0]) // Sadece "key=value" kısmını al (Path, Secure vb. çöpe)
+    .join('; '); // Yeni request için aralarına noktalı virgül koyarak birleştir
 
   await apiContext.dispose();
   return { token: cachedToken, cookie: cachedCookie };
