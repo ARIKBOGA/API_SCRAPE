@@ -81,7 +81,8 @@
     "marka_id": 1,
     "modeller_markalar::marka": "ABARTH",
     "model": "RITMO | STRADA",
-    "model_Web": "RITMO | STRADA"
+    "model_Web": "RITMO | STRADA",
+    "TecDocid": "14518"
   },
   {
     "id": 13,
@@ -193,14 +194,16 @@
     "marka_id": 3,
     "modeller_markalar::marka": "ACURA",
     "model": "INTEGRA Coupe",
-    "model_Web": "INTEGRA Coupe"
+    "model_Web": "INTEGRA Coupe",
+    "TecDocid": "13535"
   },
   {
     "id": 29,
     "marka_id": 3,
     "modeller_markalar::marka": "ACURA",
     "model": "INTEGRA Hatchback",
-    "model_Web": "INTEGRA Hatchback"
+    "model_Web": "INTEGRA Hatchback",
+    "TecDocid": "13532"
   },
   {
     "id": 30,
@@ -214,35 +217,40 @@
     "marka_id": 3,
     "modeller_markalar::marka": "ACURA",
     "model": "INTEGRA Saloon",
-    "model_Web": "INTEGRA Saloon"
+    "model_Web": "INTEGRA Saloon",
+    "TecDocid": "13527"
   },
   {
     "id": 32,
     "marka_id": 3,
     "modeller_markalar::marka": "ACURA",
     "model": "LEGEND",
-    "model_Web": "LEGEND"
+    "model_Web": "LEGEND",
+    "TecDocid": "13542"
   },
   {
     "id": 33,
     "marka_id": 3,
     "modeller_markalar::marka": "ACURA",
     "model": "LEGEND Coupe",
-    "model_Web": "LEGEND Coupe"
+    "model_Web": "LEGEND Coupe",
+    "TecDocid": "13546"
   },
   {
     "id": 34,
     "marka_id": 3,
     "modeller_markalar::marka": "ACURA",
     "model": "LEGEND II",
-    "model_Web": "LEGEND II"
+    "model_Web": "LEGEND II",
+    "TecDocid": "13547"
   },
   {
     "id": 35,
     "marka_id": 3,
     "modeller_markalar::marka": "ACURA",
     "model": "LEGEND II Coupe",
-    "model_Web": "LEGEND II Coupe"
+    "model_Web": "LEGEND II Coupe",
+    "TecDocid": "13548"
   },
   {
     "id": 36,
@@ -270,7 +278,8 @@
     "marka_id": 3,
     "modeller_markalar::marka": "ACURA",
     "model": "MDX (YD1)",
-    "model_Web": "MDX (YD1)"
+    "model_Web": "MDX (YD1)",
+    "TecDocid": "13895"
   },
   {
     "id": 40,
@@ -403,7 +412,8 @@
     "marka_id": 3,
     "modeller_markalar::marka": "ACURA",
     "model": "VIGOR",
-    "model_Web": "VIGOR"
+    "model_Web": "VIGOR",
+    "TecDocid": "22410"
   },
   {
     "id": 59,
@@ -865,7 +875,8 @@
     "marka_id": 4,
     "modeller_markalar::marka": "ALFA ROMEO",
     "model": "JUNIOR (626_, 627_)",
-    "model_Web": "JUNIOR (626_, 627_)"
+    "model_Web": "JUNIOR (626_, 627_)",
+    "TecDocid": "158420"
   },
   {
     "id": 125,
@@ -1089,7 +1100,8 @@
     "marka_id": 5,
     "modeller_markalar::marka": "ALPINA",
     "model": "B3 (G20)",
-    "model_Web": "B3 (G20)"
+    "model_Web": "B3 (G20)",
+    "TecDocid": "140384"
   },
   {
     "id": 157,
@@ -1180,7 +1192,8 @@
     "marka_id": 5,
     "modeller_markalar::marka": "ALPINA",
     "model": "B3 Touring (G21)",
-    "model_Web": "B3 Touring (G21)"
+    "model_Web": "B3 Touring (G21)",
+    "TecDocid": "137833"
   },
   {
     "id": 170,
@@ -1299,7 +1312,8 @@
     "marka_id": 5,
     "modeller_markalar::marka": "ALPINA",
     "model": "B6 Gran Coupe (F06)",
-    "model_Web": "B6 Gran Coupe (F06)"
+    "model_Web": "B6 Gran Coupe (F06)",
+    "TecDocid": "100940"
   },
   {
     "id": 187,
@@ -1320,21 +1334,24 @@
     "marka_id": 5,
     "modeller_markalar::marka": "ALPINA",
     "model": "B7 (E65)",
-    "model_Web": "B7 (E65)"
+    "model_Web": "B7 (E65)",
+    "TecDocid": "18045"
   },
   {
     "id": 190,
     "marka_id": 5,
     "modeller_markalar::marka": "ALPINA",
     "model": "B7 (F01, F02)",
-    "model_Web": "B7 (F01, F02)"
+    "model_Web": "B7 (F01, F02)",
+    "TecDocid": "32109"
   },
   {
     "id": 191,
     "marka_id": 5,
     "modeller_markalar::marka": "ALPINA",
     "model": "B7 (G12)",
-    "model_Web": "B7 (G12)"
+    "model_Web": "B7 (G12)",
+    "TecDocid": "119200"
   },
   {
     "id": 192,
@@ -1453,7 +1470,8 @@
     "marka_id": 5,
     "modeller_markalar::marka": "ALPINA",
     "model": "D3 (G20)",
-    "model_Web": "D3 (G20)"
+    "model_Web": "D3 (G20)",
+    "TecDocid": "140554"
   },
   {
     "id": 209,
@@ -1481,7 +1499,8 @@
     "marka_id": 5,
     "modeller_markalar::marka": "ALPINA",
     "model": "D3 Touring (G21)",
-    "model_Web": "D3 Touring (G21)"
+    "model_Web": "D3 Touring (G21)",
+    "TecDocid": "140555"
   },
   {
     "id": 213,
@@ -1544,7 +1563,8 @@
     "marka_id": 5,
     "modeller_markalar::marka": "ALPINA",
     "model": "ROADSTER S (E85)",
-    "model_Web": "ROADSTER S (E85)"
+    "model_Web": "ROADSTER S (E85)",
+    "TecDocid": "18046"
   },
   {
     "id": 222,
@@ -1558,7 +1578,8 @@
     "marka_id": 5,
     "modeller_markalar::marka": "ALPINA",
     "model": "XB7 (G07)",
-    "model_Web": "XB7 (G07)"
+    "model_Web": "XB7 (G07)",
+    "TecDocid": "140600"
   },
   {
     "id": 224,
@@ -1572,28 +1593,32 @@
     "marka_id": 5,
     "modeller_markalar::marka": "ALPINA",
     "model": "XD3 (G01)",
-    "model_Web": "XD3 (G01)"
+    "model_Web": "XD3 (G01)",
+    "TecDocid": "133167"
   },
   {
     "id": 226,
     "marka_id": 5,
     "modeller_markalar::marka": "ALPINA",
     "model": "XD4 (G02)",
-    "model_Web": "XD4 (G02)"
+    "model_Web": "XD4 (G02)",
+    "TecDocid": "133170"
   },
   {
     "id": 227,
     "marka_id": 6,
     "modeller_markalar::marka": "ALPINE",
     "model": "1300",
-    "model_Web": "1300"
+    "model_Web": "1300",
+    "TecDocid": "6160"
   },
   {
     "id": 228,
     "marka_id": 6,
     "modeller_markalar::marka": "ALPINE",
     "model": "1600",
-    "model_Web": "1600"
+    "model_Web": "1600",
+    "TecDocid": "6161"
   },
   {
     "id": 229,
@@ -1621,28 +1646,32 @@
     "marka_id": 6,
     "modeller_markalar::marka": "ALPINE",
     "model": "A310",
-    "model_Web": "A310"
+    "model_Web": "A310",
+    "TecDocid": "6166"
   },
   {
     "id": 233,
     "marka_id": 6,
     "modeller_markalar::marka": "ALPINE",
     "model": "A610",
-    "model_Web": "A610"
+    "model_Web": "A610",
+    "TecDocid": "6179"
   },
   {
     "id": 234,
     "marka_id": 6,
     "modeller_markalar::marka": "ALPINE",
     "model": "BERLINETTE",
-    "model_Web": "BERLINETTE"
+    "model_Web": "BERLINETTE",
+    "TecDocid": "6171"
   },
   {
     "id": 235,
     "marka_id": 6,
     "modeller_markalar::marka": "ALPINE",
     "model": "V6",
-    "model_Web": "V6"
+    "model_Web": "V6",
+    "TecDocid": "6173"
   },
   {
     "id": 236,
@@ -1698,7 +1727,8 @@
     "marka_id": 8,
     "modeller_markalar::marka": "ASIA MOTORS",
     "model": "HI-TOPIC (AM715)",
-    "model_Web": "HI-TOPIC (AM715)"
+    "model_Web": "HI-TOPIC (AM715)",
+    "TecDocid": "8038"
   },
   {
     "id": 244,
@@ -2244,7 +2274,8 @@
     "marka_id": 10,
     "modeller_markalar::marka": "AUDI",
     "model": "80 B4 Avant (8C5)",
-    "model_Web": "80 B4 Avant (8C5)"
+    "model_Web": "80 B4 Avant (8C5)",
+    "TecDocid": "4671"
   },
   {
     "id": 322,
@@ -2545,7 +2576,8 @@
     "marka_id": 10,
     "modeller_markalar::marka": "AUDI",
     "model": "A5 Avant (FU5)",
-    "model_Web": "A5 Avant (FU5)"
+    "model_Web": "A5 Avant (FU5)",
+    "TecDocid": "159440"
   },
   {
     "id": 365,
@@ -2748,7 +2780,8 @@
     "marka_id": 10,
     "modeller_markalar::marka": "AUDI",
     "model": "CABRIOLET B3 (8G7)",
-    "model_Web": "CABRIOLET B3 (8G7)"
+    "model_Web": "CABRIOLET B3 (8G7)",
+    "TecDocid": "7743"
   },
   {
     "id": 394,
@@ -2769,21 +2802,24 @@
     "marka_id": 10,
     "modeller_markalar::marka": "AUDI",
     "model": "E-TRON (GEN)",
-    "model_Web": "E-TRON (GEN)"
+    "model_Web": "E-TRON (GEN)",
+    "TecDocid": "138779"
   },
   {
     "id": 397,
     "marka_id": 10,
     "modeller_markalar::marka": "AUDI",
     "model": "E-TRON GT Saloon (F83, F8P)",
-    "model_Web": "E-TRON GT Saloon (F83, F8P)"
+    "model_Web": "E-TRON GT Saloon (F83, F8P)",
+    "TecDocid": "145388"
   },
   {
     "id": 398,
     "marka_id": 10,
     "modeller_markalar::marka": "AUDI",
     "model": "E-TRON Sportback (GEA)",
-    "model_Web": "E-TRON Sportback (GEA)"
+    "model_Web": "E-TRON Sportback (GEA)",
+    "TecDocid": "138780"
   },
   {
     "id": 399,
@@ -2951,21 +2987,24 @@
     "marka_id": 10,
     "modeller_markalar::marka": "AUDI",
     "model": "Q8 (4MN, 4MT)",
-    "model_Web": "Q8 (4MN, 4MT)"
+    "model_Web": "Q8 (4MN, 4MT)",
+    "TecDocid": "132299"
   },
   {
     "id": 423,
     "marka_id": 10,
     "modeller_markalar::marka": "AUDI",
     "model": "Q8 E-TRON Sportback (GET)",
-    "model_Web": "Q8 E-TRON Sportback (GET)"
+    "model_Web": "Q8 E-TRON Sportback (GET)",
+    "TecDocid": "151159"
   },
   {
     "id": 424,
     "marka_id": 10,
     "modeller_markalar::marka": "AUDI",
     "model": "Q8 E-TRON SUV (GEG)",
-    "model_Web": "Q8 E-TRON SUV (GEG)"
+    "model_Web": "Q8 E-TRON SUV (GEG)",
+    "TecDocid": "151158"
   },
   {
     "id": 425,
@@ -2979,7 +3018,8 @@
     "marka_id": 10,
     "modeller_markalar::marka": "AUDI",
     "model": "R8 (422, 423)",
-    "model_Web": "R8 (422, 423)"
+    "model_Web": "R8 (422, 423)",
+    "TecDocid": "22552"
   },
   {
     "id": 427,
@@ -3070,7 +3110,8 @@
     "marka_id": 11,
     "modeller_markalar::marka": "AUTOBIANCHI",
     "model": "A 111",
-    "model_Web": "A 111"
+    "model_Web": "A 111",
+    "TecDocid": "6064"
   },
   {
     "id": 440,
@@ -3112,14 +3153,16 @@
     "marka_id": 11,
     "modeller_markalar::marka": "AUTOBIANCHI",
     "model": "PRIMULA Berlina",
-    "model_Web": "PRIMULA Berlina"
+    "model_Web": "PRIMULA Berlina",
+    "TecDocid": "28111"
   },
   {
     "id": 446,
     "marka_id": 11,
     "modeller_markalar::marka": "AUTOBIANCHI",
     "model": "PRIMULA Coupe",
-    "model_Web": "PRIMULA Coupe"
+    "model_Web": "PRIMULA Coupe",
+    "TecDocid": "28113"
   },
   {
     "id": 447,
@@ -3273,7 +3316,8 @@
     "marka_id": 12,
     "modeller_markalar::marka": "BAIC",
     "model": "SENOVA X65",
-    "model_Web": "SENOVA X65"
+    "model_Web": "SENOVA X65",
+    "TecDocid": "112224"
   },
   {
     "id": 469,
@@ -3413,7 +3457,8 @@
     "marka_id": 13,
     "modeller_markalar::marka": "BEDFORD",
     "model": "KB",
-    "model_Web": "KB"
+    "model_Web": "KB",
+    "TecDocid": "55733"
   },
   {
     "id": 489,
@@ -3609,7 +3654,8 @@
     "marka_id": 14,
     "modeller_markalar::marka": "BENELLI",
     "model": "NAKED",
-    "model_Web": "NAKED"
+    "model_Web": "NAKED",
+    "TecDocid": "26720"
   },
   {
     "id": 517,
@@ -3700,7 +3746,8 @@
     "marka_id": 15,
     "modeller_markalar::marka": "BENTLEY",
     "model": "ARNAGE (RBS_)",
-    "model_Web": "ARNAGE (RBS_)"
+    "model_Web": "ARNAGE (RBS_)",
+    "TecDocid": "9426"
   },
   {
     "id": 530,
@@ -3714,7 +3761,8 @@
     "marka_id": 15,
     "modeller_markalar::marka": "BENTLEY",
     "model": "AZURE",
-    "model_Web": "AZURE"
+    "model_Web": "AZURE",
+    "TecDocid": "16852"
   },
   {
     "id": 532,
@@ -3749,7 +3797,8 @@
     "marka_id": 15,
     "modeller_markalar::marka": "BENTLEY",
     "model": "CONTINENTAL",
-    "model_Web": "CONTINENTAL"
+    "model_Web": "CONTINENTAL",
+    "TecDocid": "16855"
   },
   {
     "id": 537,
@@ -3770,7 +3819,8 @@
     "marka_id": 15,
     "modeller_markalar::marka": "BENTLEY",
     "model": "CONTINENTAL Convertible (3W_, 394)",
-    "model_Web": "CONTINENTAL Convertible (3W_, 394)"
+    "model_Web": "CONTINENTAL Convertible (3W_, 394)",
+    "TecDocid": "122120"
   },
   {
     "id": 540,
@@ -3784,14 +3834,16 @@
     "marka_id": 15,
     "modeller_markalar::marka": "BENTLEY",
     "model": "CONTINENTAL Coupe (3W_, 393)",
-    "model_Web": "CONTINENTAL Coupe (3W_, 393)"
+    "model_Web": "CONTINENTAL Coupe (3W_, 393)",
+    "TecDocid": "21253"
   },
   {
     "id": 542,
     "marka_id": 15,
     "modeller_markalar::marka": "BENTLEY",
     "model": "CONTINENTAL FLYING SPUR (3W_)",
-    "model_Web": "CONTINENTAL FLYING SPUR (3W_)"
+    "model_Web": "CONTINENTAL FLYING SPUR (3W_)",
+    "TecDocid": "18595"
   },
   {
     "id": 543,
@@ -3826,14 +3878,16 @@
     "marka_id": 15,
     "modeller_markalar::marka": "BENTLEY",
     "model": "FLYING SPUR (4W_)",
-    "model_Web": "FLYING SPUR (4W_)"
+    "model_Web": "FLYING SPUR (4W_)",
+    "TecDocid": "105576"
   },
   {
     "id": 548,
     "marka_id": 15,
     "modeller_markalar::marka": "BENTLEY",
     "model": "FLYING SPUR (ZG2_)",
-    "model_Web": "FLYING SPUR (ZG2_)"
+    "model_Web": "FLYING SPUR (ZG2_)",
+    "TecDocid": "138905"
   },
   {
     "id": 549,
@@ -4211,7 +4265,8 @@
     "marka_id": 17,
     "modeller_markalar::marka": "BMW",
     "model": "3 (E30)",
-    "model_Web": "3 (E30)"
+    "model_Web": "3 (E30)",
+    "TecDocid": "35"
   },
   {
     "id": 603,
@@ -4274,7 +4329,8 @@
     "marka_id": 17,
     "modeller_markalar::marka": "BMW",
     "model": "3 Convertible (E30)",
-    "model_Web": "3 Convertible (E30)"
+    "model_Web": "3 Convertible (E30)",
+    "TecDocid": "8884"
   },
   {
     "id": 612,
@@ -4575,7 +4631,8 @@
     "marka_id": 17,
     "modeller_markalar::marka": "BMW",
     "model": "5 Gran Turismo (F07)",
-    "model_Web": "5 Gran Turismo (F07)"
+    "model_Web": "5 Gran Turismo (F07)",
+    "TecDocid": "57270"
   },
   {
     "id": 655,
@@ -4680,21 +4737,24 @@
     "marka_id": 17,
     "modeller_markalar::marka": "BMW",
     "model": "6 Convertible (F12)",
-    "model_Web": "6 Convertible (F12)"
+    "model_Web": "6 Convertible (F12)",
+    "TecDocid": "11887"
   },
   {
     "id": 670,
     "marka_id": 17,
     "modeller_markalar::marka": "BMW",
     "model": "6 Coupe (F13)",
-    "model_Web": "6 Coupe (F13)"
+    "model_Web": "6 Coupe (F13)",
+    "TecDocid": "12555"
   },
   {
     "id": 671,
     "marka_id": 17,
     "modeller_markalar::marka": "BMW",
     "model": "6 Gran Coupe (F06)",
-    "model_Web": "6 Gran Coupe (F06)"
+    "model_Web": "6 Gran Coupe (F06)",
+    "TecDocid": "58418"
   },
   {
     "id": 672,
@@ -4743,7 +4803,8 @@
     "marka_id": 17,
     "modeller_markalar::marka": "BMW",
     "model": "7 (F01, F02, F03, F04)",
-    "model_Web": "7 (F01, F02, F03, F04)"
+    "model_Web": "7 (F01, F02, F03, F04)",
+    "TecDocid": "53156"
   },
   {
     "id": 679,
@@ -4890,14 +4951,16 @@
     "marka_id": 17,
     "modeller_markalar::marka": "BMW",
     "model": "i8 (I12)",
-    "model_Web": "i8 (I12)"
+    "model_Web": "i8 (I12)",
+    "TecDocid": "109678"
   },
   {
     "id": 700,
     "marka_id": 17,
     "modeller_markalar::marka": "BMW",
     "model": "i8 Roadster (I15)",
-    "model_Web": "i8 Roadster (I15)"
+    "model_Web": "i8 Roadster (I15)",
+    "TecDocid": "129467"
   },
   {
     "id": 701,
@@ -5240,7 +5303,8 @@
     "marka_id": 17,
     "modeller_markalar::marka": "BMW",
     "model": "Z1 Roadster",
-    "model_Web": "Z1 Roadster"
+    "model_Web": "Z1 Roadster",
+    "TecDocid": "297"
   },
   {
     "id": 750,
@@ -5275,7 +5339,8 @@
     "marka_id": 17,
     "modeller_markalar::marka": "BMW",
     "model": "Z4 Roadster (E89)",
-    "model_Web": "Z4 Roadster (E89)"
+    "model_Web": "Z4 Roadster (E89)",
+    "TecDocid": "34986"
   },
   {
     "id": 755,
@@ -6339,14 +6404,16 @@
     "marka_id": 20,
     "modeller_markalar::marka": "CADILLAC",
     "model": "ATS",
-    "model_Web": "ATS"
+    "model_Web": "ATS",
+    "TecDocid": "58810"
   },
   {
     "id": 907,
     "marka_id": 20,
     "modeller_markalar::marka": "CADILLAC",
     "model": "ATS Coupe",
-    "model_Web": "ATS Coupe"
+    "model_Web": "ATS Coupe",
+    "TecDocid": "107102"
   },
   {
     "id": 908,
@@ -6437,14 +6504,16 @@
     "marka_id": 20,
     "modeller_markalar::marka": "CADILLAC",
     "model": "CT6",
-    "model_Web": "CT6"
+    "model_Web": "CT6",
+    "TecDocid": "121201"
   },
   {
     "id": 921,
     "marka_id": 20,
     "modeller_markalar::marka": "CADILLAC",
     "model": "CTS",
-    "model_Web": "CTS"
+    "model_Web": "CTS",
+    "TecDocid": "100504"
   },
   {
     "id": 922,
@@ -6647,7 +6716,8 @@
     "marka_id": 20,
     "modeller_markalar::marka": "CADILLAC",
     "model": "STS",
-    "model_Web": "STS"
+    "model_Web": "STS",
+    "TecDocid": "51071"
   },
   {
     "id": 951,
@@ -7648,14 +7718,16 @@
     "marka_id": 25,
     "modeller_markalar::marka": "CHEVROLET",
     "model": "ASTRA Estate",
-    "model_Web": "ASTRA Estate"
+    "model_Web": "ASTRA Estate",
+    "TecDocid": "5424"
   },
   {
     "id": 1094,
     "marka_id": 25,
     "modeller_markalar::marka": "CHEVROLET",
     "model": "ASTRA Hatchback",
-    "model_Web": "ASTRA Hatchback"
+    "model_Web": "ASTRA Hatchback",
+    "TecDocid": "5422"
   },
   {
     "id": 1095,
@@ -8278,7 +8350,8 @@
     "marka_id": 25,
     "modeller_markalar::marka": "CHEVROLET",
     "model": "CAVALIER Coupe",
-    "model_Web": "CAVALIER Coupe"
+    "model_Web": "CAVALIER Coupe",
+    "TecDocid": "5493"
   },
   {
     "id": 1184,
@@ -8299,7 +8372,8 @@
     "marka_id": 25,
     "modeller_markalar::marka": "CHEVROLET",
     "model": "CAVALIER Saloon",
-    "model_Web": "CAVALIER Saloon"
+    "model_Web": "CAVALIER Saloon",
+    "TecDocid": "27621"
   },
   {
     "id": 1187,
@@ -8740,7 +8814,8 @@
     "marka_id": 25,
     "modeller_markalar::marka": "CHEVROLET",
     "model": "CORVETTE (C7)",
-    "model_Web": "CORVETTE (C7)"
+    "model_Web": "CORVETTE (C7)",
+    "TecDocid": "105639"
   },
   {
     "id": 1250,
@@ -8782,7 +8857,8 @@
     "marka_id": 25,
     "modeller_markalar::marka": "CHEVROLET",
     "model": "CORVETTE Convertible (C7)",
-    "model_Web": "CORVETTE Convertible (C7)"
+    "model_Web": "CORVETTE Convertible (C7)",
+    "TecDocid": "106398"
   },
   {
     "id": 1256,
@@ -11085,7 +11161,8 @@
     "marka_id": 25,
     "modeller_markalar::marka": "CHEVROLET",
     "model": "VIVA",
-    "model_Web": "VIVA"
+    "model_Web": "VIVA",
+    "TecDocid": "7290"
   },
   {
     "id": 1585,
@@ -11813,7 +11890,8 @@
     "marka_id": 27,
     "modeller_markalar::marka": "CHRYSLER",
     "model": "SEBRING (JS) | CIRRUS",
-    "model_Web": "SEBRING (JS) | CIRRUS"
+    "model_Web": "SEBRING (JS) | CIRRUS",
+    "TecDocid": "30930"
   },
   {
     "id": 1689,
@@ -12296,7 +12374,8 @@
     "marka_id": 27,
     "modeller_markalar::marka": "CHRYSLER",
     "model": "VIPER Convertible",
-    "model_Web": "VIPER Convertible"
+    "model_Web": "VIPER Convertible",
+    "TecDocid": "24789"
   },
   {
     "id": 1758,
@@ -12338,7 +12417,8 @@
     "marka_id": 27,
     "modeller_markalar::marka": "CHRYSLER",
     "model": "VOYAGER / GRAND VOYAGER IV (RG)",
-    "model_Web": "VOYAGER / GRAND VOYAGER IV (RG)"
+    "model_Web": "VOYAGER / GRAND VOYAGER IV (RG)",
+    "TecDocid": "142694"
   },
   {
     "id": 1764,
@@ -12359,21 +12439,24 @@
     "marka_id": 27,
     "modeller_markalar::marka": "CHRYSLER",
     "model": "VOYAGER III VAN (GS_)",
-    "model_Web": "VOYAGER III VAN (GS_)"
+    "model_Web": "VOYAGER III VAN (GS_)",
+    "TecDocid": "143211"
   },
   {
     "id": 1767,
     "marka_id": 27,
     "modeller_markalar::marka": "CHRYSLER",
     "model": "VOYAGER IV (RG, RS) | TOWN & COUNTRY | GRAND VOYAGER | VOYAGER / GRAND VOYAGER",
-    "model_Web": "VOYAGER IV (RG, RS) | TOWN & COUNTRY | GRAND VOYAGER | VOYAGER / GRAND VOYAGER"
+    "model_Web": "VOYAGER IV (RG, RS) | TOWN & COUNTRY | GRAND VOYAGER | VOYAGER / GRAND VOYAGER",
+    "TecDocid": "14681"
   },
   {
     "id": 1768,
     "marka_id": 27,
     "modeller_markalar::marka": "CHRYSLER",
     "model": "VOYAGER IV VAN (S_) | TOWN & COUNTRY",
-    "model_Web": "VOYAGER IV VAN (S_) | TOWN & COUNTRY"
+    "model_Web": "VOYAGER IV VAN (S_) | TOWN & COUNTRY",
+    "TecDocid": "143246"
   },
   {
     "id": 1769,
@@ -12415,7 +12498,8 @@
     "marka_id": 28,
     "modeller_markalar::marka": "CITROËN",
     "model": "AMI (9A_)",
-    "model_Web": "AMI (9A_)"
+    "model_Web": "AMI (9A_)",
+    "TecDocid": "143386"
   },
   {
     "id": 1775,
@@ -12492,7 +12576,8 @@
     "marka_id": 28,
     "modeller_markalar::marka": "CITROËN",
     "model": "BERLINGO Platform/Chassis (B9)",
-    "model_Web": "BERLINGO Platform/Chassis (B9)"
+    "model_Web": "BERLINGO Platform/Chassis (B9)",
+    "TecDocid": "118107"
   },
   {
     "id": 1786,
@@ -12653,7 +12738,8 @@
     "marka_id": 28,
     "modeller_markalar::marka": "CITROËN",
     "model": "C3 IV (CC_, CB_)",
-    "model_Web": "C3 IV (CC_, CB_)"
+    "model_Web": "C3 IV (CC_, CB_)",
+    "TecDocid": "801160"
   },
   {
     "id": 1809,
@@ -12744,7 +12830,8 @@
     "marka_id": 28,
     "modeller_markalar::marka": "CITROËN",
     "model": "C4 GRAND PICASSO I (UA_)",
-    "model_Web": "C4 GRAND PICASSO I (UA_)"
+    "model_Web": "C4 GRAND PICASSO I (UA_)",
+    "TecDocid": "22483"
   },
   {
     "id": 1822,
@@ -12793,7 +12880,8 @@
     "marka_id": 28,
     "modeller_markalar::marka": "CITROËN",
     "model": "C4 II Saloon (NC_) | C4 LOUNGE",
-    "model_Web": "C4 II Saloon (NC_) | C4 LOUNGE"
+    "model_Web": "C4 II Saloon (NC_) | C4 LOUNGE",
+    "TecDocid": "127022"
   },
   {
     "id": 1829,
@@ -12842,7 +12930,8 @@
     "marka_id": 28,
     "modeller_markalar::marka": "CITROËN",
     "model": "C4 X (BD_, BE_, BF_)",
-    "model_Web": "C4 X (BD_, BE_, BF_)"
+    "model_Web": "C4 X (BD_, BE_, BF_)",
+    "TecDocid": "154999"
   },
   {
     "id": 1836,
@@ -12863,14 +12952,16 @@
     "marka_id": 28,
     "modeller_markalar::marka": "CITROËN",
     "model": "C5 I Break (DE_)",
-    "model_Web": "C5 I Break (DE_)"
+    "model_Web": "C5 I Break (DE_)",
+    "TecDocid": "16245"
   },
   {
     "id": 1839,
     "marka_id": 28,
     "modeller_markalar::marka": "CITROËN",
     "model": "C5 I Estate Van (DE_)",
-    "model_Web": "C5 I Estate Van (DE_)"
+    "model_Web": "C5 I Estate Van (DE_)",
+    "TecDocid": "132708"
   },
   {
     "id": 1840,
@@ -12996,7 +13087,8 @@
     "marka_id": 28,
     "modeller_markalar::marka": "CITROËN",
     "model": "C-ZERO",
-    "model_Web": "C-ZERO"
+    "model_Web": "C-ZERO",
+    "TecDocid": "5241"
   },
   {
     "id": 1858,
@@ -13059,7 +13151,8 @@
     "marka_id": 28,
     "modeller_markalar::marka": "CITROËN",
     "model": "E-MEHARI",
-    "model_Web": "E-MEHARI"
+    "model_Web": "E-MEHARI",
+    "TecDocid": "155895"
   },
   {
     "id": 1867,
@@ -13094,7 +13187,8 @@
     "marka_id": 28,
     "modeller_markalar::marka": "CITROËN",
     "model": "GS",
-    "model_Web": "GS"
+    "model_Web": "GS",
+    "TecDocid": "121332"
   },
   {
     "id": 1872,
@@ -13262,7 +13356,8 @@
     "marka_id": 28,
     "modeller_markalar::marka": "CITROËN",
     "model": "LNA",
-    "model_Web": "LNA"
+    "model_Web": "LNA",
+    "TecDocid": "2143"
   },
   {
     "id": 1896,
@@ -13332,7 +13427,8 @@
     "marka_id": 28,
     "modeller_markalar::marka": "CITROËN",
     "model": "VISA Convertible",
-    "model_Web": "VISA Convertible"
+    "model_Web": "VISA Convertible",
+    "TecDocid": "15121"
   },
   {
     "id": 1906,
@@ -13906,7 +14002,8 @@
     "marka_id": 31,
     "modeller_markalar::marka": "DAEWOO",
     "model": "FX",
-    "model_Web": "FX"
+    "model_Web": "FX",
+    "TecDocid": "18811"
   },
   {
     "id": 1988,
@@ -13955,14 +14052,16 @@
     "marka_id": 31,
     "modeller_markalar::marka": "DAEWOO",
     "model": "KORANDO (KJ)",
-    "model_Web": "KORANDO (KJ)"
+    "model_Web": "KORANDO (KJ)",
+    "TecDocid": "113321"
   },
   {
     "id": 1995,
     "marka_id": 31,
     "modeller_markalar::marka": "DAEWOO",
     "model": "KORANDO Cabrio (KJ)",
-    "model_Web": "KORANDO Cabrio (KJ)"
+    "model_Web": "KORANDO Cabrio (KJ)",
+    "TecDocid": "11882"
   },
   {
     "id": 1996,
@@ -14242,7 +14341,8 @@
     "marka_id": 31,
     "modeller_markalar::marka": "DAEWOO",
     "model": "ROYALE",
-    "model_Web": "ROYALE"
+    "model_Web": "ROYALE",
+    "TecDocid": "8130"
   },
   {
     "id": 2036,
@@ -14613,14 +14713,16 @@
     "marka_id": 32,
     "modeller_markalar::marka": "DAIHATSU",
     "model": "CUORE V (L7_) | MIRA",
-    "model_Web": "CUORE V (L7_) | MIRA"
+    "model_Web": "CUORE V (L7_) | MIRA",
+    "TecDocid": "141526"
   },
   {
     "id": 2089,
     "marka_id": 32,
     "modeller_markalar::marka": "DAIHATSU",
     "model": "CUORE VI (L251, L250_, L260_) | MIRA | CHARADE",
-    "model_Web": "CUORE VI (L251, L250_, L260_) | MIRA | CHARADE"
+    "model_Web": "CUORE VI (L251, L250_, L260_) | MIRA | CHARADE",
+    "TecDocid": "21581"
   },
   {
     "id": 2090,
@@ -15299,7 +15401,8 @@
     "marka_id": 32,
     "modeller_markalar::marka": "DAIHATSU",
     "model": "TREVIS",
-    "model_Web": "TREVIS"
+    "model_Web": "TREVIS",
+    "TecDocid": "22471"
   },
   {
     "id": 2187,
@@ -15397,7 +15500,8 @@
     "marka_id": 33,
     "modeller_markalar::marka": "DAIMLER",
     "model": "COUPE",
-    "model_Web": "COUPE"
+    "model_Web": "COUPE",
+    "TecDocid": "13850"
   },
   {
     "id": 2201,
@@ -15439,7 +15543,8 @@
     "marka_id": 33,
     "modeller_markalar::marka": "DAIMLER",
     "model": "SUPER EIGHT (X350)",
-    "model_Web": "SUPER EIGHT (X350)"
+    "model_Web": "SUPER EIGHT (X350)",
+    "TecDocid": "129561"
   },
   {
     "id": 2207,
@@ -16139,7 +16244,8 @@
     "marka_id": 37,
     "modeller_markalar::marka": "DODGE",
     "model": "CARAVAN (RG_)",
-    "model_Web": "CARAVAN (RG_)"
+    "model_Web": "CARAVAN (RG_)",
+    "TecDocid": "16440"
   },
   {
     "id": 2307,
@@ -16643,7 +16749,8 @@
     "marka_id": 37,
     "modeller_markalar::marka": "DODGE",
     "model": "H100 Platform/Chassis",
-    "model_Web": "H100 Platform/Chassis"
+    "model_Web": "H100 Platform/Chassis",
+    "TecDocid": "25003"
   },
   {
     "id": 2379,
@@ -17462,7 +17569,8 @@
     "marka_id": 37,
     "modeller_markalar::marka": "DODGE",
     "model": "VIPER Coupe",
-    "model_Web": "VIPER Coupe"
+    "model_Web": "VIPER Coupe",
+    "TecDocid": "24792"
   },
   {
     "id": 2496,
@@ -17756,7 +17864,8 @@
     "marka_id": 40,
     "modeller_markalar::marka": "EUNOS",
     "model": "500 Saloon (CA)",
-    "model_Web": "500 Saloon (CA)"
+    "model_Web": "500 Saloon (CA)",
+    "TecDocid": "21610"
   },
   {
     "id": 2538,
@@ -18127,7 +18236,8 @@
     "marka_id": 42,
     "modeller_markalar::marka": "FERRARI",
     "model": "5__ MARANELLO",
-    "model_Web": "5__ MARANELLO"
+    "model_Web": "5__ MARANELLO",
+    "TecDocid": "105963"
   },
   {
     "id": 2591,
@@ -18554,14 +18664,16 @@
     "marka_id": 43,
     "modeller_markalar::marka": "FIAT",
     "model": "130 (130_)",
-    "model_Web": "130 (130_)"
+    "model_Web": "130 (130_)",
+    "TecDocid": "14612"
   },
   {
     "id": 2652,
     "marka_id": 43,
     "modeller_markalar::marka": "FIAT",
     "model": "130 Coupe (130_)",
-    "model_Web": "130 Coupe (130_)"
+    "model_Web": "130 Coupe (130_)",
+    "TecDocid": "7407"
   },
   {
     "id": 2653,
@@ -18743,7 +18855,8 @@
     "marka_id": 43,
     "modeller_markalar::marka": "FIAT",
     "model": "500e (332_)",
-    "model_Web": "500e (332_)"
+    "model_Web": "500e (332_)",
+    "TecDocid": "142461"
   },
   {
     "id": 2679,
@@ -18785,7 +18898,8 @@
     "marka_id": 43,
     "modeller_markalar::marka": "FIAT",
     "model": "600e / 600 (365_, 364_)",
-    "model_Web": "600e / 600 (365_, 364_)"
+    "model_Web": "600e / 600 (365_, 364_)",
+    "TecDocid": "155217"
   },
   {
     "id": 2685,
@@ -18981,7 +19095,8 @@
     "marka_id": 43,
     "modeller_markalar::marka": "FIAT",
     "model": "CAMPAGNOLA (110_)",
-    "model_Web": "CAMPAGNOLA (110_)"
+    "model_Web": "CAMPAGNOLA (110_)",
+    "TecDocid": "14475"
   },
   {
     "id": 2713,
@@ -19058,7 +19173,8 @@
     "marka_id": 43,
     "modeller_markalar::marka": "FIAT",
     "model": "DOBLO Box Body/MPV (510_, 511_)",
-    "model_Web": "DOBLO Box Body/MPV (510_, 511_)"
+    "model_Web": "DOBLO Box Body/MPV (510_, 511_)",
+    "TecDocid": "149158"
   },
   {
     "id": 2724,
@@ -19086,7 +19202,8 @@
     "marka_id": 43,
     "modeller_markalar::marka": "FIAT",
     "model": "DOBLO MPV (510_, 511_, 360_, 361_)",
-    "model_Web": "DOBLO MPV (510_, 511_, 360_, 361_)"
+    "model_Web": "DOBLO MPV (510_, 511_, 360_, 361_)",
+    "TecDocid": "149150"
   },
   {
     "id": 2728,
@@ -19653,7 +19770,8 @@
     "marka_id": 43,
     "modeller_markalar::marka": "FIAT",
     "model": "SCUDO Bus",
-    "model_Web": "SCUDO Bus"
+    "model_Web": "SCUDO Bus",
+    "TecDocid": "147264"
   },
   {
     "id": 2809,
@@ -19674,7 +19792,8 @@
     "marka_id": 43,
     "modeller_markalar::marka": "FIAT",
     "model": "SCUDO Platform/Chassis",
-    "model_Web": "SCUDO Platform/Chassis"
+    "model_Web": "SCUDO Platform/Chassis",
+    "TecDocid": "147262"
   },
   {
     "id": 2812,
@@ -20066,7 +20185,8 @@
     "marka_id": 43,
     "modeller_markalar::marka": "FIAT",
     "model": "ULYSSE Bus",
-    "model_Web": "ULYSSE Bus"
+    "model_Web": "ULYSSE Bus",
+    "TecDocid": "157532"
   },
   {
     "id": 2868,
@@ -20402,14 +20522,16 @@
     "marka_id": 44,
     "modeller_markalar::marka": "FORD",
     "model": "ECONOVAN (KBA, KCA)",
-    "model_Web": "ECONOVAN (KBA, KCA)"
+    "model_Web": "ECONOVAN (KBA, KCA)",
+    "TecDocid": "7479"
   },
   {
     "id": 2916,
     "marka_id": 44,
     "modeller_markalar::marka": "FORD",
     "model": "ECONOVAN Van (KAA)",
-    "model_Web": "ECONOVAN Van (KAA)"
+    "model_Web": "ECONOVAN Van (KAA)",
+    "TecDocid": "11095"
   },
   {
     "id": 2917,
@@ -20451,14 +20573,16 @@
     "marka_id": 44,
     "modeller_markalar::marka": "FORD",
     "model": "ESCORT I (AFH, ATH)",
-    "model_Web": "ESCORT I (AFH, ATH)"
+    "model_Web": "ESCORT I (AFH, ATH)",
+    "TecDocid": "6431"
   },
   {
     "id": 2923,
     "marka_id": 44,
     "modeller_markalar::marka": "FORD",
     "model": "ESCORT I Turnier (ADH)",
-    "model_Web": "ESCORT I Turnier (ADH)"
+    "model_Web": "ESCORT I Turnier (ADH)",
+    "TecDocid": "6434"
   },
   {
     "id": 2924,
@@ -21025,7 +21149,8 @@
     "marka_id": 44,
     "modeller_markalar::marka": "FORD",
     "model": "GALAXY III (CK)",
-    "model_Web": "GALAXY III (CK)"
+    "model_Web": "GALAXY III (CK)",
+    "TecDocid": "132835"
   },
   {
     "id": 3005,
@@ -21046,7 +21171,8 @@
     "marka_id": 44,
     "modeller_markalar::marka": "FORD",
     "model": "GALAXY MK III VAN (CK)",
-    "model_Web": "GALAXY MK III VAN (CK)"
+    "model_Web": "GALAXY MK III VAN (CK)",
+    "TecDocid": "136634"
   },
   {
     "id": 3008,
@@ -21109,7 +21235,8 @@
     "marka_id": 44,
     "modeller_markalar::marka": "FORD",
     "model": "GT",
-    "model_Web": "GT"
+    "model_Web": "GT",
+    "TecDocid": "18094"
   },
   {
     "id": 3017,
@@ -21242,7 +21369,8 @@
     "marka_id": 44,
     "modeller_markalar::marka": "FORD",
     "model": "MAVERICK | ESCAPE",
-    "model_Web": "MAVERICK | ESCAPE"
+    "model_Web": "MAVERICK | ESCAPE",
+    "TecDocid": "14852"
   },
   {
     "id": 3036,
@@ -21571,7 +21699,8 @@
     "marka_id": 44,
     "modeller_markalar::marka": "FORD",
     "model": "S-MAX (CJ, WA6)",
-    "model_Web": "S-MAX (CJ, WA6)"
+    "model_Web": "S-MAX (CJ, WA6)",
+    "TecDocid": "132804"
   },
   {
     "id": 3083,
@@ -21648,7 +21777,8 @@
     "marka_id": 44,
     "modeller_markalar::marka": "FORD",
     "model": "TAUNUS 12M II (11G)",
-    "model_Web": "TAUNUS 12M II (11G)"
+    "model_Web": "TAUNUS 12M II (11G)",
+    "TecDocid": "6462"
   },
   {
     "id": 3094,
@@ -21669,7 +21799,8 @@
     "marka_id": 44,
     "modeller_markalar::marka": "FORD",
     "model": "TAUNUS 12M II Coupe (13G)",
-    "model_Web": "TAUNUS 12M II Coupe (13G)"
+    "model_Web": "TAUNUS 12M II Coupe (13G)",
+    "TecDocid": "6464"
   },
   {
     "id": 3097,
@@ -21690,7 +21821,8 @@
     "marka_id": 44,
     "modeller_markalar::marka": "FORD",
     "model": "TAUNUS 12M II Turnier (15G)",
-    "model_Web": "TAUNUS 12M II Turnier (15G)"
+    "model_Web": "TAUNUS 12M II Turnier (15G)",
+    "TecDocid": "6465"
   },
   {
     "id": 3100,
@@ -21704,7 +21836,8 @@
     "marka_id": 44,
     "modeller_markalar::marka": "FORD",
     "model": "TAUNUS 15M I",
-    "model_Web": "TAUNUS 15M I"
+    "model_Web": "TAUNUS 15M I",
+    "TecDocid": "6466"
   },
   {
     "id": 3102,
@@ -21725,21 +21858,24 @@
     "marka_id": 44,
     "modeller_markalar::marka": "FORD",
     "model": "TAUNUS 15M II (28G)",
-    "model_Web": "TAUNUS 15M II (28G)"
+    "model_Web": "TAUNUS 15M II (28G)",
+    "TecDocid": "6474"
   },
   {
     "id": 3105,
     "marka_id": 44,
     "modeller_markalar::marka": "FORD",
     "model": "TAUNUS 15M II (29G)",
-    "model_Web": "TAUNUS 15M II (29G)"
+    "model_Web": "TAUNUS 15M II (29G)",
+    "TecDocid": "6478"
   },
   {
     "id": 3106,
     "marka_id": 44,
     "modeller_markalar::marka": "FORD",
     "model": "TAUNUS 15M II Coupe (23G)",
-    "model_Web": "TAUNUS 15M II Coupe (23G)"
+    "model_Web": "TAUNUS 15M II Coupe (23G)",
+    "TecDocid": "6472"
   },
   {
     "id": 3107,
@@ -21998,7 +22134,8 @@
     "marka_id": 44,
     "modeller_markalar::marka": "FORD",
     "model": "TOURNEO CONNECT / GRAND TOURNEO CONNECT V761 MPV (SK)",
-    "model_Web": "TOURNEO CONNECT / GRAND TOURNEO CONNECT V761 MPV (SK)"
+    "model_Web": "TOURNEO CONNECT / GRAND TOURNEO CONNECT V761 MPV (SK)",
+    "TecDocid": "146893"
   },
   {
     "id": 3144,
@@ -22124,7 +22261,8 @@
     "marka_id": 44,
     "modeller_markalar::marka": "FORD",
     "model": "TRANSIT CONNECT V761 Box Body/MPV (SKN)",
-    "model_Web": "TRANSIT CONNECT V761 Box Body/MPV (SKN)"
+    "model_Web": "TRANSIT CONNECT V761 Box Body/MPV (SKN)",
+    "TecDocid": "801038"
   },
   {
     "id": 3162,
@@ -22523,7 +22661,8 @@
     "marka_id": 46,
     "modeller_markalar::marka": "FORD USA",
     "model": "CROWN VICTORIA",
-    "model_Web": "CROWN VICTORIA"
+    "model_Web": "CROWN VICTORIA",
+    "TecDocid": "121403"
   },
   {
     "id": 3219,
@@ -22838,7 +22977,8 @@
     "marka_id": 46,
     "modeller_markalar::marka": "FORD USA",
     "model": "ESCAPE",
-    "model_Web": "ESCAPE"
+    "model_Web": "ESCAPE",
+    "TecDocid": "54149"
   },
   {
     "id": 3264,
@@ -23573,7 +23713,8 @@
     "marka_id": 46,
     "modeller_markalar::marka": "FORD USA",
     "model": "GT Coupe",
-    "model_Web": "GT Coupe"
+    "model_Web": "GT Coupe",
+    "TecDocid": "42059"
   },
   {
     "id": 3369,
@@ -23713,7 +23854,8 @@
     "marka_id": 46,
     "modeller_markalar::marka": "FORD USA",
     "model": "MUSTANG Convertible",
-    "model_Web": "MUSTANG Convertible"
+    "model_Web": "MUSTANG Convertible",
+    "TecDocid": "57950"
   },
   {
     "id": 3389,
@@ -23727,7 +23869,8 @@
     "marka_id": 46,
     "modeller_markalar::marka": "FORD USA",
     "model": "MUSTANG Coupe",
-    "model_Web": "MUSTANG Coupe"
+    "model_Web": "MUSTANG Coupe",
+    "TecDocid": "57965"
   },
   {
     "id": 3391,
@@ -24014,7 +24157,8 @@
     "marka_id": 46,
     "modeller_markalar::marka": "FORD USA",
     "model": "TEMPO",
-    "model_Web": "TEMPO"
+    "model_Web": "TEMPO",
+    "TecDocid": "28983"
   },
   {
     "id": 3432,
@@ -24035,7 +24179,8 @@
     "marka_id": 46,
     "modeller_markalar::marka": "FORD USA",
     "model": "THUNDERBIRD Convertible",
-    "model_Web": "THUNDERBIRD Convertible"
+    "model_Web": "THUNDERBIRD Convertible",
+    "TecDocid": "24863"
   },
   {
     "id": 3435,
@@ -24154,7 +24299,8 @@
     "marka_id": 47,
     "modeller_markalar::marka": "FSO",
     "model": "127P",
-    "model_Web": "127P"
+    "model_Web": "127P",
+    "TecDocid": "9925"
   },
   {
     "id": 3452,
@@ -24546,7 +24692,8 @@
     "marka_id": 49,
     "modeller_markalar::marka": "GEELY",
     "model": "BOYUE (MR6453) | ATLAS | EMGRAND X7 SPORT | X7 SPORT",
-    "model_Web": "BOYUE (MR6453) | ATLAS | EMGRAND X7 SPORT | X7 SPORT"
+    "model_Web": "BOYUE (MR6453) | ATLAS | EMGRAND X7 SPORT | X7 SPORT",
+    "TecDocid": "131513"
   },
   {
     "id": 3508,
@@ -26898,14 +27045,16 @@
     "marka_id": 53,
     "modeller_markalar::marka": "HONDA",
     "model": "ACCORD II (AC, AD)",
-    "model_Web": "ACCORD II (AC, AD)"
+    "model_Web": "ACCORD II (AC, AD)",
+    "TecDocid": "4151"
   },
   {
     "id": 3844,
     "marka_id": 53,
     "modeller_markalar::marka": "HONDA",
     "model": "ACCORD II Hatchback (AC, AD)",
-    "model_Web": "ACCORD II Hatchback (AC, AD)"
+    "model_Web": "ACCORD II Hatchback (AC, AD)",
+    "TecDocid": "4149"
   },
   {
     "id": 3845,
@@ -26961,7 +27110,8 @@
     "marka_id": 53,
     "modeller_markalar::marka": "HONDA",
     "model": "ACCORD IX Coupe",
-    "model_Web": "ACCORD IX Coupe"
+    "model_Web": "ACCORD IX Coupe",
+    "TecDocid": "58320"
   },
   {
     "id": 3853,
@@ -27010,7 +27160,8 @@
     "marka_id": 53,
     "modeller_markalar::marka": "HONDA",
     "model": "ACCORD VI (CK, CG, CH, CF, CL)",
-    "model_Web": "ACCORD VI (CK, CG, CH, CF, CL)"
+    "model_Web": "ACCORD VI (CK, CG, CH, CF, CL)",
+    "TecDocid": "10026"
   },
   {
     "id": 3860,
@@ -27024,14 +27175,16 @@
     "marka_id": 53,
     "modeller_markalar::marka": "HONDA",
     "model": "ACCORD VI Coupe (CG)",
-    "model_Web": "ACCORD VI Coupe (CG)"
+    "model_Web": "ACCORD VI Coupe (CG)",
+    "TecDocid": "27271"
   },
   {
     "id": 3862,
     "marka_id": 53,
     "modeller_markalar::marka": "HONDA",
     "model": "ACCORD VI Hatchback (CH, CL)",
-    "model_Web": "ACCORD VI Hatchback (CH, CL)"
+    "model_Web": "ACCORD VI Hatchback (CH, CL)",
+    "TecDocid": "14411"
   },
   {
     "id": 3863,
@@ -27241,7 +27394,8 @@
     "marka_id": 53,
     "modeller_markalar::marka": "HONDA",
     "model": "AVANCIER (TA)",
-    "model_Web": "AVANCIER (TA)"
+    "model_Web": "AVANCIER (TA)",
+    "TecDocid": "21740"
   },
   {
     "id": 3893,
@@ -27507,7 +27661,8 @@
     "marka_id": 53,
     "modeller_markalar::marka": "HONDA",
     "model": "CITY IV Saloon (GE4) | FIT ARIA",
-    "model_Web": "CITY IV Saloon (GE4) | FIT ARIA"
+    "model_Web": "CITY IV Saloon (GE4) | FIT ARIA",
+    "TecDocid": "21874"
   },
   {
     "id": 3931,
@@ -27521,7 +27676,8 @@
     "marka_id": 53,
     "modeller_markalar::marka": "HONDA",
     "model": "CITY V Saloon (GM2, GM3) | BALLADE",
-    "model_Web": "CITY V Saloon (GM2, GM3) | BALLADE"
+    "model_Web": "CITY V Saloon (GM2, GM3) | BALLADE",
+    "TecDocid": "57175"
   },
   {
     "id": 3933,
@@ -27598,14 +27754,16 @@
     "marka_id": 53,
     "modeller_markalar::marka": "HONDA",
     "model": "CIVIC I Hatchback (SB)",
-    "model_Web": "CIVIC I Hatchback (SB)"
+    "model_Web": "CIVIC I Hatchback (SB)",
+    "TecDocid": "21391"
   },
   {
     "id": 3944,
     "marka_id": 53,
     "modeller_markalar::marka": "HONDA",
     "model": "CIVIC I Saloon (SF) | BALLADE",
-    "model_Web": "CIVIC I Saloon (SF) | BALLADE"
+    "model_Web": "CIVIC I Saloon (SF) | BALLADE",
+    "TecDocid": "4101"
   },
   {
     "id": 3945,
@@ -27619,28 +27777,32 @@
     "marka_id": 53,
     "modeller_markalar::marka": "HONDA",
     "model": "CIVIC II Hatchback (SS, SL)",
-    "model_Web": "CIVIC II Hatchback (SS, SL)"
+    "model_Web": "CIVIC II Hatchback (SS, SL)",
+    "TecDocid": "4102"
   },
   {
     "id": 3947,
     "marka_id": 53,
     "modeller_markalar::marka": "HONDA",
     "model": "CIVIC III Hatchback (AL, AJ, AG, AH)",
-    "model_Web": "CIVIC III Hatchback (AL, AJ, AG, AH)"
+    "model_Web": "CIVIC III Hatchback (AL, AJ, AG, AH)",
+    "TecDocid": "4108"
   },
   {
     "id": 3948,
     "marka_id": 53,
     "modeller_markalar::marka": "HONDA",
     "model": "CIVIC III Saloon (AM, AK, AU) | BALLADE",
-    "model_Web": "CIVIC III Saloon (AM, AK, AU) | BALLADE"
+    "model_Web": "CIVIC III Saloon (AM, AK, AU) | BALLADE",
+    "TecDocid": "14665"
   },
   {
     "id": 3949,
     "marka_id": 53,
     "modeller_markalar::marka": "HONDA",
     "model": "CIVIC III Shuttle (AN, AR)",
-    "model_Web": "CIVIC III Shuttle (AN, AR)"
+    "model_Web": "CIVIC III Shuttle (AN, AR)",
+    "TecDocid": "24565"
   },
   {
     "id": 3950,
@@ -28039,7 +28201,8 @@
     "marka_id": 53,
     "modeller_markalar::marka": "HONDA",
     "model": "CRX I (AF, AS) | CIVIC",
-    "model_Web": "CRX I (AF, AS) | CIVIC"
+    "model_Web": "CRX I (AF, AS) | CIVIC",
+    "TecDocid": "4224"
   },
   {
     "id": 4007,
@@ -28060,7 +28223,8 @@
     "marka_id": 53,
     "modeller_markalar::marka": "HONDA",
     "model": "CR-Z (ZF)",
-    "model_Web": "CR-Z (ZF)"
+    "model_Web": "CR-Z (ZF)",
+    "TecDocid": "107258"
   },
   {
     "id": 4010,
@@ -28116,7 +28280,8 @@
     "marka_id": 53,
     "modeller_markalar::marka": "HONDA",
     "model": "DOMANI (MA_)",
-    "model_Web": "DOMANI (MA_)"
+    "model_Web": "DOMANI (MA_)",
+    "TecDocid": "21975"
   },
   {
     "id": 4018,
@@ -28144,7 +28309,8 @@
     "marka_id": 53,
     "modeller_markalar::marka": "HONDA",
     "model": "e (ZC7_)",
-    "model_Web": "e (ZC7_)"
+    "model_Web": "e (ZC7_)",
+    "TecDocid": "137651"
   },
   {
     "id": 4022,
@@ -28179,7 +28345,8 @@
     "marka_id": 53,
     "modeller_markalar::marka": "HONDA",
     "model": "ELEMENT (YH)",
-    "model_Web": "ELEMENT (YH)"
+    "model_Web": "ELEMENT (YH)",
+    "TecDocid": "22004"
   },
   {
     "id": 4027,
@@ -28319,7 +28486,8 @@
     "marka_id": 53,
     "modeller_markalar::marka": "HONDA",
     "model": "FR-V (BE) | EDIX",
-    "model_Web": "FR-V (BE) | EDIX"
+    "model_Web": "FR-V (BE) | EDIX",
+    "TecDocid": "18472"
   },
   {
     "id": 4047,
@@ -28487,7 +28655,8 @@
     "marka_id": 53,
     "modeller_markalar::marka": "HONDA",
     "model": "INSPIRE (UA4, UA5) | SABER",
-    "model_Web": "INSPIRE (UA4, UA5) | SABER"
+    "model_Web": "INSPIRE (UA4, UA5) | SABER",
+    "TecDocid": "22841"
   },
   {
     "id": 4071,
@@ -28508,14 +28677,16 @@
     "marka_id": 53,
     "modeller_markalar::marka": "HONDA",
     "model": "INTEGRA Coupe (DC5)",
-    "model_Web": "INTEGRA Coupe (DC5)"
+    "model_Web": "INTEGRA Coupe (DC5)",
+    "TecDocid": "18564"
   },
   {
     "id": 4074,
     "marka_id": 53,
     "modeller_markalar::marka": "HONDA",
     "model": "INTEGRA Hatchback (DA)",
-    "model_Web": "INTEGRA Hatchback (DA)"
+    "model_Web": "INTEGRA Hatchback (DA)",
+    "TecDocid": "17832"
   },
   {
     "id": 4075,
@@ -28529,7 +28700,8 @@
     "marka_id": 53,
     "modeller_markalar::marka": "HONDA",
     "model": "INTEGRA Saloon (DB6, DB7, DB8, DB9)",
-    "model_Web": "INTEGRA Saloon (DB6, DB7, DB8, DB9)"
+    "model_Web": "INTEGRA Saloon (DB6, DB7, DB8, DB9)",
+    "TecDocid": "124070"
   },
   {
     "id": 4077,
@@ -28592,14 +28764,16 @@
     "marka_id": 53,
     "modeller_markalar::marka": "HONDA",
     "model": "JAZZ V (GR_, GS_) | FIT",
-    "model_Web": "JAZZ V (GR_, GS_) | FIT"
+    "model_Web": "JAZZ V (GR_, GS_) | FIT",
+    "TecDocid": "140441"
   },
   {
     "id": 4086,
     "marka_id": 53,
     "modeller_markalar::marka": "HONDA",
     "model": "LAGREAT",
-    "model_Web": "LAGREAT"
+    "model_Web": "LAGREAT",
+    "TecDocid": "22116"
   },
   {
     "id": 4087,
@@ -28620,28 +28794,32 @@
     "marka_id": 53,
     "modeller_markalar::marka": "HONDA",
     "model": "LEGEND I (HS, KA)",
-    "model_Web": "LEGEND I (HS, KA)"
+    "model_Web": "LEGEND I (HS, KA)",
+    "TecDocid": "4212"
   },
   {
     "id": 4090,
     "marka_id": 53,
     "modeller_markalar::marka": "HONDA",
     "model": "LEGEND I Coupe (KA_)",
-    "model_Web": "LEGEND I Coupe (KA_)"
+    "model_Web": "LEGEND I Coupe (KA_)",
+    "TecDocid": "4216"
   },
   {
     "id": 4091,
     "marka_id": 53,
     "modeller_markalar::marka": "HONDA",
     "model": "LEGEND II (KA)",
-    "model_Web": "LEGEND II (KA)"
+    "model_Web": "LEGEND II (KA)",
+    "TecDocid": "4215"
   },
   {
     "id": 4092,
     "marka_id": 53,
     "modeller_markalar::marka": "HONDA",
     "model": "LEGEND II Coupe (KA)",
-    "model_Web": "LEGEND II Coupe (KA)"
+    "model_Web": "LEGEND II Coupe (KA)",
+    "TecDocid": "4217"
   },
   {
     "id": 4093,
@@ -28655,7 +28833,8 @@
     "marka_id": 53,
     "modeller_markalar::marka": "HONDA",
     "model": "LEGEND IV (KB_)",
-    "model_Web": "LEGEND IV (KB_)"
+    "model_Web": "LEGEND IV (KB_)",
+    "TecDocid": "30360"
   },
   {
     "id": 4095,
@@ -29061,21 +29240,24 @@
     "marka_id": 53,
     "modeller_markalar::marka": "HONDA",
     "model": "ODYSSEY (RL1, RA6, RA_)",
-    "model_Web": "ODYSSEY (RL1, RA6, RA_)"
+    "model_Web": "ODYSSEY (RL1, RA6, RA_)",
+    "TecDocid": "25122"
   },
   {
     "id": 4153,
     "marka_id": 53,
     "modeller_markalar::marka": "HONDA",
     "model": "ODYSSEY (RL3, RL4, RB) | LAGREAT",
-    "model_Web": "ODYSSEY (RL3, RL4, RB) | LAGREAT"
+    "model_Web": "ODYSSEY (RL3, RL4, RB) | LAGREAT",
+    "TecDocid": "44329"
   },
   {
     "id": 4154,
     "marka_id": 53,
     "modeller_markalar::marka": "HONDA",
     "model": "ODYSSEY (RL5)",
-    "model_Web": "ODYSSEY (RL5)"
+    "model_Web": "ODYSSEY (RL5)",
+    "TecDocid": "55241"
   },
   {
     "id": 4155,
@@ -29152,7 +29334,8 @@
     "marka_id": 53,
     "modeller_markalar::marka": "HONDA",
     "model": "PILOT | PILOT / MR-V",
-    "model_Web": "PILOT | PILOT / MR-V"
+    "model_Web": "PILOT | PILOT / MR-V",
+    "TecDocid": "44336"
   },
   {
     "id": 4166,
@@ -29180,14 +29363,16 @@
     "marka_id": 53,
     "modeller_markalar::marka": "HONDA",
     "model": "PRELUDE I Coupe (SN)",
-    "model_Web": "PRELUDE I Coupe (SN)"
+    "model_Web": "PRELUDE I Coupe (SN)",
+    "TecDocid": "4218"
   },
   {
     "id": 4170,
     "marka_id": 53,
     "modeller_markalar::marka": "HONDA",
     "model": "PRELUDE II (AB)",
-    "model_Web": "PRELUDE II (AB)"
+    "model_Web": "PRELUDE II (AB)",
+    "TecDocid": "4221"
   },
   {
     "id": 4171,
@@ -29285,7 +29470,8 @@
     "marka_id": 53,
     "modeller_markalar::marka": "HONDA",
     "model": "S2000 (AP)",
-    "model_Web": "S2000 (AP)"
+    "model_Web": "S2000 (AP)",
+    "TecDocid": "10469"
   },
   {
     "id": 4185,
@@ -29495,7 +29681,8 @@
     "marka_id": 53,
     "modeller_markalar::marka": "HONDA",
     "model": "STEPWGN (DBA-RG_)",
-    "model_Web": "STEPWGN (DBA-RG_)"
+    "model_Web": "STEPWGN (DBA-RG_)",
+    "TecDocid": "22995"
   },
   {
     "id": 4215,
@@ -29929,7 +30116,8 @@
     "marka_id": 53,
     "modeller_markalar::marka": "HONDA",
     "model": "ZR-V",
-    "model_Web": "ZR-V"
+    "model_Web": "ZR-V",
+    "TecDocid": "154814"
   },
   {
     "id": 4277,
@@ -30286,7 +30474,8 @@
     "marka_id": 55,
     "modeller_markalar::marka": "HYUNDAI",
     "model": "EQUUS / CENTENNIAL (VI)",
-    "model_Web": "EQUUS / CENTENNIAL (VI)"
+    "model_Web": "EQUUS / CENTENNIAL (VI)",
+    "TecDocid": "54904"
   },
   {
     "id": 4328,
@@ -30314,21 +30503,24 @@
     "marka_id": 55,
     "modeller_markalar::marka": "HYUNDAI",
     "model": "GALLOPER I",
-    "model_Web": "GALLOPER I"
+    "model_Web": "GALLOPER I",
+    "TecDocid": "16933"
   },
   {
     "id": 4332,
     "marka_id": 55,
     "modeller_markalar::marka": "HYUNDAI",
     "model": "GALLOPER II (JK-01)",
-    "model_Web": "GALLOPER II (JK-01)"
+    "model_Web": "GALLOPER II (JK-01)",
+    "TecDocid": "16932"
   },
   {
     "id": 4333,
     "marka_id": 55,
     "modeller_markalar::marka": "HYUNDAI",
     "model": "GENESIS (BH) | ROHENS",
-    "model_Web": "GENESIS (BH) | ROHENS"
+    "model_Web": "GENESIS (BH) | ROHENS",
+    "TecDocid": "111979"
   },
   {
     "id": 4334,
@@ -30342,7 +30534,8 @@
     "marka_id": 55,
     "modeller_markalar::marka": "HYUNDAI",
     "model": "GENESIS Coupe | ROHENS",
-    "model_Web": "GENESIS Coupe | ROHENS"
+    "model_Web": "GENESIS Coupe | ROHENS",
+    "TecDocid": "7337"
   },
   {
     "id": 4336,
@@ -30594,7 +30787,8 @@
     "marka_id": 55,
     "modeller_markalar::marka": "HYUNDAI",
     "model": "IONIQ (AE)",
-    "model_Web": "IONIQ (AE)"
+    "model_Web": "IONIQ (AE)",
+    "TecDocid": "120519"
   },
   {
     "id": 4372,
@@ -31175,7 +31369,8 @@
     "marka_id": 55,
     "modeller_markalar::marka": "HYUNDAI",
     "model": "SONATA VI (YF) | i45",
-    "model_Web": "SONATA VI (YF) | i45"
+    "model_Web": "SONATA VI (YF) | i45",
+    "TecDocid": "16132"
   },
   {
     "id": 4455,
@@ -31259,7 +31454,8 @@
     "marka_id": 55,
     "modeller_markalar::marka": "HYUNDAI",
     "model": "TIBURON Coupe",
-    "model_Web": "TIBURON Coupe"
+    "model_Web": "TIBURON Coupe",
+    "TecDocid": "58835"
   },
   {
     "id": 4467,
@@ -31399,14 +31595,16 @@
     "marka_id": 56,
     "modeller_markalar::marka": "INFINITI",
     "model": "G Convertible",
-    "model_Web": "G Convertible"
+    "model_Web": "G Convertible",
+    "TecDocid": "34797"
   },
   {
     "id": 4487,
     "marka_id": 56,
     "modeller_markalar::marka": "INFINITI",
     "model": "G Coupe",
-    "model_Web": "G Coupe"
+    "model_Web": "G Coupe",
+    "TecDocid": "28607"
   },
   {
     "id": 4488,
@@ -31504,7 +31702,8 @@
     "marka_id": 56,
     "modeller_markalar::marka": "INFINITI",
     "model": "Q30",
-    "model_Web": "Q30"
+    "model_Web": "Q30",
+    "TecDocid": "117844"
   },
   {
     "id": 4502,
@@ -31518,14 +31717,16 @@
     "marka_id": 56,
     "modeller_markalar::marka": "INFINITI",
     "model": "Q45 I",
-    "model_Web": "Q45 I"
+    "model_Web": "Q45 I",
+    "TecDocid": "14062"
   },
   {
     "id": 4504,
     "marka_id": 56,
     "modeller_markalar::marka": "INFINITI",
     "model": "Q45 II (FY33)",
-    "model_Web": "Q45 II (FY33)"
+    "model_Web": "Q45 II (FY33)",
+    "TecDocid": "34771"
   },
   {
     "id": 4505,
@@ -31546,14 +31747,16 @@
     "marka_id": 56,
     "modeller_markalar::marka": "INFINITI",
     "model": "Q60 Convertible",
-    "model_Web": "Q60 Convertible"
+    "model_Web": "Q60 Convertible",
+    "TecDocid": "100192"
   },
   {
     "id": 4508,
     "marka_id": 56,
     "modeller_markalar::marka": "INFINITI",
     "model": "Q60 Coupe",
-    "model_Web": "Q60 Coupe"
+    "model_Web": "Q60 Coupe",
+    "TecDocid": "121986"
   },
   {
     "id": 4509,
@@ -31567,7 +31770,8 @@
     "marka_id": 56,
     "modeller_markalar::marka": "INFINITI",
     "model": "QX30",
-    "model_Web": "QX30"
+    "model_Web": "QX30",
+    "TecDocid": "123060"
   },
   {
     "id": 4511,
@@ -31588,7 +31792,8 @@
     "marka_id": 56,
     "modeller_markalar::marka": "INFINITI",
     "model": "QX50 II",
-    "model_Web": "QX50 II"
+    "model_Web": "QX50 II",
+    "TecDocid": "138664"
   },
   {
     "id": 4514,
@@ -32001,7 +32206,8 @@
     "marka_id": 58,
     "modeller_markalar::marka": "ISUZU",
     "model": "GEMINI Saloon (JT)",
-    "model_Web": "GEMINI Saloon (JT)"
+    "model_Web": "GEMINI Saloon (JT)",
+    "TecDocid": "9193"
   },
   {
     "id": 4573,
@@ -32323,7 +32529,8 @@
     "marka_id": 58,
     "modeller_markalar::marka": "ISUZU",
     "model": "PIAZZA (JR_) | IMPULSE",
-    "model_Web": "PIAZZA (JR_) | IMPULSE"
+    "model_Web": "PIAZZA (JR_) | IMPULSE",
+    "TecDocid": "7420"
   },
   {
     "id": 4619,
@@ -33037,7 +33244,8 @@
     "marka_id": 62,
     "modeller_markalar::marka": "JAGUAR",
     "model": "E-PACE (X540)",
-    "model_Web": "E-PACE (X540)"
+    "model_Web": "E-PACE (X540)",
+    "TecDocid": "142723"
   },
   {
     "id": 4721,
@@ -33065,7 +33273,8 @@
     "marka_id": 62,
     "modeller_markalar::marka": "JAGUAR",
     "model": "F-PACE (X761)",
-    "model_Web": "F-PACE (X761)"
+    "model_Web": "F-PACE (X761)",
+    "TecDocid": "142704"
   },
   {
     "id": 4725,
@@ -33086,7 +33295,8 @@
     "marka_id": 62,
     "modeller_markalar::marka": "JAGUAR",
     "model": "I-PACE (X590)",
-    "model_Web": "I-PACE (X590)"
+    "model_Web": "I-PACE (X590)",
+    "TecDocid": "142696"
   },
   {
     "id": 4728,
@@ -33149,7 +33359,8 @@
     "marka_id": 62,
     "modeller_markalar::marka": "JAGUAR",
     "model": "S-TYPE II (X200)",
-    "model_Web": "S-TYPE II (X200)"
+    "model_Web": "S-TYPE II (X200)",
+    "TecDocid": "18021"
   },
   {
     "id": 4737,
@@ -33163,35 +33374,40 @@
     "marka_id": 62,
     "modeller_markalar::marka": "JAGUAR",
     "model": "XE (X760)",
-    "model_Web": "XE (X760)"
+    "model_Web": "XE (X760)",
+    "TecDocid": "108185"
   },
   {
     "id": 4739,
     "marka_id": 62,
     "modeller_markalar::marka": "JAGUAR",
     "model": "XF I (X250)",
-    "model_Web": "XF I (X250)"
+    "model_Web": "XF I (X250)",
+    "TecDocid": "24474"
   },
   {
     "id": 4740,
     "marka_id": 62,
     "modeller_markalar::marka": "JAGUAR",
     "model": "XF II (X260)",
-    "model_Web": "XF II (X260)"
+    "model_Web": "XF II (X260)",
+    "TecDocid": "115131"
   },
   {
     "id": 4741,
     "marka_id": 62,
     "modeller_markalar::marka": "JAGUAR",
     "model": "XF SPORTBRAKE (X250)",
-    "model_Web": "XF SPORTBRAKE (X250)"
+    "model_Web": "XF SPORTBRAKE (X250)",
+    "TecDocid": "55992"
   },
   {
     "id": 4742,
     "marka_id": 62,
     "modeller_markalar::marka": "JAGUAR",
     "model": "XF SPORTBRAKE (X260)",
-    "model_Web": "XF SPORTBRAKE (X260)"
+    "model_Web": "XF SPORTBRAKE (X260)",
+    "TecDocid": "128637"
   },
   {
     "id": 4743,
@@ -33205,7 +33421,8 @@
     "marka_id": 62,
     "modeller_markalar::marka": "JAGUAR",
     "model": "XJ (X300, X330) | Vanden Plas",
-    "model_Web": "XJ (X300, X330) | Vanden Plas"
+    "model_Web": "XJ (X300, X330) | Vanden Plas",
+    "TecDocid": "4009"
   },
   {
     "id": 4745,
@@ -33219,21 +33436,24 @@
     "marka_id": 62,
     "modeller_markalar::marka": "JAGUAR",
     "model": "XJ (X350, X358)",
-    "model_Web": "XJ (X350, X358)"
+    "model_Web": "XJ (X350, X358)",
+    "TecDocid": "17224"
   },
   {
     "id": 4747,
     "marka_id": 62,
     "modeller_markalar::marka": "JAGUAR",
     "model": "XJ (X351)",
-    "model_Web": "XJ (X351)"
+    "model_Web": "XJ (X351)",
+    "TecDocid": "24106"
   },
   {
     "id": 4748,
     "marka_id": 62,
     "modeller_markalar::marka": "JAGUAR",
     "model": "XJ (XJ40, XJ81)",
-    "model_Web": "XJ (XJ40, XJ81)"
+    "model_Web": "XJ (XJ40, XJ81)",
+    "TecDocid": "23515"
   },
   {
     "id": 4749,
@@ -33261,14 +33481,16 @@
     "marka_id": 62,
     "modeller_markalar::marka": "JAGUAR",
     "model": "XK 8 Convertible (X100)",
-    "model_Web": "XK 8 Convertible (X100)"
+    "model_Web": "XK 8 Convertible (X100)",
+    "TecDocid": "9988"
   },
   {
     "id": 4753,
     "marka_id": 62,
     "modeller_markalar::marka": "JAGUAR",
     "model": "XK 8 Coupe (X100)",
-    "model_Web": "XK 8 Coupe (X100)"
+    "model_Web": "XK 8 Coupe (X100)",
+    "TecDocid": "30052"
   },
   {
     "id": 4754,
@@ -33289,14 +33511,16 @@
     "marka_id": 62,
     "modeller_markalar::marka": "JAGUAR",
     "model": "XK II Convertible (X150)",
-    "model_Web": "XK II Convertible (X150)"
+    "model_Web": "XK II Convertible (X150)",
+    "TecDocid": "51724"
   },
   {
     "id": 4757,
     "marka_id": 62,
     "modeller_markalar::marka": "JAGUAR",
     "model": "XK II Coupe (X150)",
-    "model_Web": "XK II Coupe (X150)"
+    "model_Web": "XK II Coupe (X150)",
+    "TecDocid": "19166"
   },
   {
     "id": 4758,
@@ -33317,14 +33541,16 @@
     "marka_id": 63,
     "modeller_markalar::marka": "JEEP",
     "model": "AVENGER (J2)",
-    "model_Web": "AVENGER (J2)"
+    "model_Web": "AVENGER (J2)",
+    "TecDocid": "151490"
   },
   {
     "id": 4761,
     "marka_id": 63,
     "modeller_markalar::marka": "JEEP",
     "model": "CHEROKEE (KJ) | CHEROKEE / LIBERTY | LIBERTY",
-    "model_Web": "CHEROKEE (KJ) | CHEROKEE / LIBERTY | LIBERTY"
+    "model_Web": "CHEROKEE (KJ) | CHEROKEE / LIBERTY | LIBERTY",
+    "TecDocid": "16223"
   },
   {
     "id": 4762,
@@ -33667,14 +33893,15 @@
     "marka_id": 66,
     "modeller_markalar::marka": "KG MOBILITY",
     "model": "KORANDO (C300)",
-    "model_Web": "KORANDO (C300)"
+    "model_Web": "KORANDO (C300)",
+    "TecDocid": "136965"
   },
   {
     "id": 4811,
     "marka_id": 66,
     "modeller_markalar::marka": "KG MOBILITY",
-    "model": "MUSSO (XAE)",
-    "model_Web": "MUSSO (XAE)"
+    "model": "MUSSO (XAE, O100, Q260)",
+    "model_Web": "MUSSO (XAE, O100, Q260)"
   },
   {
     "id": 4812,
@@ -33835,7 +34062,8 @@
     "marka_id": 67,
     "modeller_markalar::marka": "KIA",
     "model": "CARENS III MPV (UN) | RONDO",
-    "model_Web": "CARENS III MPV (UN) | RONDO"
+    "model_Web": "CARENS III MPV (UN) | RONDO",
+    "TecDocid": "33606"
   },
   {
     "id": 4835,
@@ -33863,7 +34091,8 @@
     "marka_id": 67,
     "modeller_markalar::marka": "KIA",
     "model": "CARNIVAL / GRAND CARNIVAL III (VQ) | SEDONA | GRAND SEDONA",
-    "model_Web": "CARNIVAL / GRAND CARNIVAL III (VQ) | SEDONA | GRAND SEDONA"
+    "model_Web": "CARNIVAL / GRAND CARNIVAL III (VQ) | SEDONA | GRAND SEDONA",
+    "TecDocid": "5963"
   },
   {
     "id": 4839,
@@ -33877,7 +34106,8 @@
     "marka_id": 67,
     "modeller_markalar::marka": "KIA",
     "model": "CARNIVAL II (GQ) | SEDONA | CARNIVAL / SEDONA",
-    "model_Web": "CARNIVAL II (GQ) | SEDONA | CARNIVAL / SEDONA"
+    "model_Web": "CARNIVAL II (GQ) | SEDONA | CARNIVAL / SEDONA",
+    "TecDocid": "16356"
   },
   {
     "id": 4841,
@@ -34038,14 +34268,16 @@
     "marka_id": 67,
     "modeller_markalar::marka": "KIA",
     "model": "CLARUS (K9A) | CREDOS",
-    "model_Web": "CLARUS (K9A) | CREDOS"
+    "model_Web": "CLARUS (K9A) | CREDOS",
+    "TecDocid": "5937"
   },
   {
     "id": 4864,
     "marka_id": 67,
     "modeller_markalar::marka": "KIA",
     "model": "CLARUS Estate (GC) | CREDOS",
-    "model_Web": "CLARUS Estate (GC) | CREDOS"
+    "model_Web": "CLARUS Estate (GC) | CREDOS",
+    "TecDocid": "10259"
   },
   {
     "id": 4865,
@@ -34423,7 +34655,8 @@
     "marka_id": 67,
     "modeller_markalar::marka": "KIA",
     "model": "PRO CEE'D Hatchback Van (JD)",
-    "model_Web": "PRO CEE'D Hatchback Van (JD)"
+    "model_Web": "PRO CEE'D Hatchback Van (JD)",
+    "TecDocid": "154635"
   },
   {
     "id": 4919,
@@ -34549,7 +34782,8 @@
     "marka_id": 67,
     "modeller_markalar::marka": "KIA",
     "model": "ROADSTER (DB63)",
-    "model_Web": "ROADSTER (DB63)"
+    "model_Web": "ROADSTER (DB63)",
+    "TecDocid": "13191"
   },
   {
     "id": 4937,
@@ -34570,14 +34804,16 @@
     "marka_id": 67,
     "modeller_markalar::marka": "KIA",
     "model": "SEPHIA (FA) | MENTOR",
-    "model_Web": "SEPHIA (FA) | MENTOR"
+    "model_Web": "SEPHIA (FA) | MENTOR",
+    "TecDocid": "4578"
   },
   {
     "id": 4940,
     "marka_id": 67,
     "modeller_markalar::marka": "KIA",
     "model": "SEPHIA Saloon (FA) | MENTOR",
-    "model_Web": "SEPHIA Saloon (FA) | MENTOR"
+    "model_Web": "SEPHIA Saloon (FA) | MENTOR",
+    "TecDocid": "4577"
   },
   {
     "id": 4941,
@@ -34591,14 +34827,16 @@
     "marka_id": 67,
     "modeller_markalar::marka": "KIA",
     "model": "SHUMA I (FB) | SEPHIA / SHUMA | MENTOR / SHUMA | SEPHIA",
-    "model_Web": "SHUMA I (FB) | SEPHIA / SHUMA | MENTOR / SHUMA | SEPHIA"
+    "model_Web": "SHUMA I (FB) | SEPHIA / SHUMA | MENTOR / SHUMA | SEPHIA",
+    "TecDocid": "9553"
   },
   {
     "id": 4943,
     "marka_id": 67,
     "modeller_markalar::marka": "KIA",
     "model": "SHUMA II (FB) | SPECTRA",
-    "model_Web": "SHUMA II (FB) | SPECTRA"
+    "model_Web": "SHUMA II (FB) | SPECTRA",
+    "TecDocid": "16030"
   },
   {
     "id": 4944,
@@ -34906,7 +35144,8 @@
     "marka_id": 68,
     "modeller_markalar::marka": "LADA",
     "model": "GRANTA Estate (2194_)",
-    "model_Web": "GRANTA Estate (2194_)"
+    "model_Web": "GRANTA Estate (2194_)",
+    "TecDocid": "132860"
   },
   {
     "id": 4988,
@@ -35004,7 +35243,8 @@
     "marka_id": 68,
     "modeller_markalar::marka": "LADA",
     "model": "NIVA II Closed Off-Road Vehicle (2123)",
-    "model_Web": "NIVA II Closed Off-Road Vehicle (2123)"
+    "model_Web": "NIVA II Closed Off-Road Vehicle (2123)",
+    "TecDocid": "141321"
   },
   {
     "id": 5002,
@@ -35200,7 +35440,8 @@
     "marka_id": 69,
     "modeller_markalar::marka": "LAMBORGHINI",
     "model": "HURACÁN",
-    "model_Web": "HURACÁN"
+    "model_Web": "HURACÁN",
+    "TecDocid": "139073"
   },
   {
     "id": 5030,
@@ -35683,7 +35924,8 @@
     "marka_id": 70,
     "modeller_markalar::marka": "LANCIA",
     "model": "SCORPION (137_)",
-    "model_Web": "SCORPION (137_)"
+    "model_Web": "SCORPION (137_)",
+    "TecDocid": "7607"
   },
   {
     "id": 5099,
@@ -35711,7 +35953,8 @@
     "marka_id": 70,
     "modeller_markalar::marka": "LANCIA",
     "model": "THESIS (841_)",
-    "model_Web": "THESIS (841_)"
+    "model_Web": "THESIS (841_)",
+    "TecDocid": "19367"
   },
   {
     "id": 5103,
@@ -35725,7 +35968,8 @@
     "marka_id": 70,
     "modeller_markalar::marka": "LANCIA",
     "model": "VOYAGER MPV (404_)",
-    "model_Web": "VOYAGER MPV (404_)"
+    "model_Web": "VOYAGER MPV (404_)",
+    "TecDocid": "58714"
   },
   {
     "id": 5105,
@@ -35914,14 +36158,16 @@
     "marka_id": 71,
     "modeller_markalar::marka": "LAND ROVER",
     "model": "DEFENDER Station Wagon (L663)",
-    "model_Web": "DEFENDER Station Wagon (L663)"
+    "model_Web": "DEFENDER Station Wagon (L663)",
+    "TecDocid": "141953"
   },
   {
     "id": 5132,
     "marka_id": 71,
     "modeller_markalar::marka": "LAND ROVER",
     "model": "DEFENDER Van (L663)",
-    "model_Web": "DEFENDER Van (L663)"
+    "model_Web": "DEFENDER Van (L663)",
+    "TecDocid": "139929"
   },
   {
     "id": 5133,
@@ -35942,28 +36188,32 @@
     "marka_id": 71,
     "modeller_markalar::marka": "LAND ROVER",
     "model": "DISCOVERY III (L319) | LR3",
-    "model_Web": "DISCOVERY III (L319) | LR3"
+    "model_Web": "DISCOVERY III (L319) | LR3",
+    "TecDocid": "18239"
   },
   {
     "id": 5136,
     "marka_id": 71,
     "modeller_markalar::marka": "LAND ROVER",
     "model": "DISCOVERY III VAN (L319)",
-    "model_Web": "DISCOVERY III VAN (L319)"
+    "model_Web": "DISCOVERY III VAN (L319)",
+    "TecDocid": "131343"
   },
   {
     "id": 5137,
     "marka_id": 71,
     "modeller_markalar::marka": "LAND ROVER",
     "model": "DISCOVERY IV (L319) | LR4",
-    "model_Web": "DISCOVERY IV (L319) | LR4"
+    "model_Web": "DISCOVERY IV (L319) | LR4",
+    "TecDocid": "797"
   },
   {
     "id": 5138,
     "marka_id": 71,
     "modeller_markalar::marka": "LAND ROVER",
     "model": "DISCOVERY IV VAN (L319)",
-    "model_Web": "DISCOVERY IV VAN (L319)"
+    "model_Web": "DISCOVERY IV VAN (L319)",
+    "TecDocid": "131685"
   },
   {
     "id": 5139,
@@ -35984,14 +36234,16 @@
     "marka_id": 71,
     "modeller_markalar::marka": "LAND ROVER",
     "model": "DISCOVERY V (L462)",
-    "model_Web": "DISCOVERY V (L462)"
+    "model_Web": "DISCOVERY V (L462)",
+    "TecDocid": "124201"
   },
   {
     "id": 5142,
     "marka_id": 71,
     "modeller_markalar::marka": "LAND ROVER",
     "model": "DISCOVERY V VAN (L462)",
-    "model_Web": "DISCOVERY V VAN (L462)"
+    "model_Web": "DISCOVERY V VAN (L462)",
+    "TecDocid": "142752"
   },
   {
     "id": 5143,
@@ -36061,7 +36313,8 @@
     "marka_id": 71,
     "modeller_markalar::marka": "LAND ROVER",
     "model": "RANGE ROVER EVOQUE (L551)",
-    "model_Web": "RANGE ROVER EVOQUE (L551)"
+    "model_Web": "RANGE ROVER EVOQUE (L551)",
+    "TecDocid": "141939"
   },
   {
     "id": 5153,
@@ -36103,21 +36356,24 @@
     "marka_id": 71,
     "modeller_markalar::marka": "LAND ROVER",
     "model": "RANGE ROVER IV (L405)",
-    "model_Web": "RANGE ROVER IV (L405)"
+    "model_Web": "RANGE ROVER IV (L405)",
+    "TecDocid": "135158"
   },
   {
     "id": 5159,
     "marka_id": 71,
     "modeller_markalar::marka": "LAND ROVER",
     "model": "RANGE ROVER SPORT I (L320)",
-    "model_Web": "RANGE ROVER SPORT I (L320)"
+    "model_Web": "RANGE ROVER SPORT I (L320)",
+    "TecDocid": "18804"
   },
   {
     "id": 5160,
     "marka_id": 71,
     "modeller_markalar::marka": "LAND ROVER",
     "model": "RANGE ROVER SPORT II (L494)",
-    "model_Web": "RANGE ROVER SPORT II (L494)"
+    "model_Web": "RANGE ROVER SPORT II (L494)",
+    "TecDocid": "135161"
   },
   {
     "id": 5161,
@@ -36138,7 +36394,8 @@
     "marka_id": 71,
     "modeller_markalar::marka": "LAND ROVER",
     "model": "RANGE ROVER VELAR (L560)",
-    "model_Web": "RANGE ROVER VELAR (L560)"
+    "model_Web": "RANGE ROVER VELAR (L560)",
+    "TecDocid": "126259"
   },
   {
     "id": 5164,
@@ -36313,7 +36570,8 @@
     "marka_id": 74,
     "modeller_markalar::marka": "LDV",
     "model": "CUB",
-    "model_Web": "CUB"
+    "model_Web": "CUB",
+    "TecDocid": "18810"
   },
   {
     "id": 5189,
@@ -36558,7 +36816,8 @@
     "marka_id": 75,
     "modeller_markalar::marka": "LEXUS",
     "model": "GS (_L1_)",
-    "model_Web": "GS (_L1_)"
+    "model_Web": "GS (_L1_)",
+    "TecDocid": "100021"
   },
   {
     "id": 5224,
@@ -36670,7 +36929,8 @@
     "marka_id": 75,
     "modeller_markalar::marka": "LEXUS",
     "model": "LBX (_AYH1_, _AYA1_)",
-    "model_Web": "LBX (_AYH1_, _AYA1_)"
+    "model_Web": "LBX (_AYH1_, _AYA1_)",
+    "TecDocid": "156153"
   },
   {
     "id": 5240,
@@ -36817,7 +37077,8 @@
     "marka_id": 75,
     "modeller_markalar::marka": "LEXUS",
     "model": "RX (_L2_)",
-    "model_Web": "RX (_L2_)"
+    "model_Web": "RX (_L2_)",
+    "TecDocid": "117389"
   },
   {
     "id": 5261,
@@ -36936,7 +37197,8 @@
     "marka_id": 77,
     "modeller_markalar::marka": "LINCOLN",
     "model": "LS",
-    "model_Web": "LS"
+    "model_Web": "LS",
+    "TecDocid": "23448"
   },
   {
     "id": 5278,
@@ -37209,14 +37471,16 @@
     "marka_id": 78,
     "modeller_markalar::marka": "LOTUS",
     "model": "ESPRIT S3",
-    "model_Web": "ESPRIT S3"
+    "model_Web": "ESPRIT S3",
+    "TecDocid": "9705"
   },
   {
     "id": 5317,
     "marka_id": 78,
     "modeller_markalar::marka": "LOTUS",
     "model": "ESPRIT S4 (082)",
-    "model_Web": "ESPRIT S4 (082)"
+    "model_Web": "ESPRIT S4 (082)",
+    "TecDocid": "29891"
   },
   {
     "id": 5318,
@@ -37244,7 +37508,8 @@
     "marka_id": 78,
     "modeller_markalar::marka": "LOTUS",
     "model": "EXCEL",
-    "model_Web": "EXCEL"
+    "model_Web": "EXCEL",
+    "TecDocid": "9731"
   },
   {
     "id": 5322,
@@ -38413,14 +38678,16 @@
     "marka_id": 83,
     "modeller_markalar::marka": "MASERATI",
     "model": "228",
-    "model_Web": "228"
+    "model_Web": "228",
+    "TecDocid": "4903"
   },
   {
     "id": 5489,
     "marka_id": 83,
     "modeller_markalar::marka": "MASERATI",
     "model": "3200 GT Coupe",
-    "model_Web": "3200 GT Coupe"
+    "model_Web": "3200 GT Coupe",
+    "TecDocid": "31388"
   },
   {
     "id": 5490,
@@ -38441,14 +38708,16 @@
     "marka_id": 83,
     "modeller_markalar::marka": "MASERATI",
     "model": "4200 GT / COUPE Coupe",
-    "model_Web": "4200 GT / COUPE Coupe"
+    "model_Web": "4200 GT / COUPE Coupe",
+    "TecDocid": "16566"
   },
   {
     "id": 5493,
     "marka_id": 83,
     "modeller_markalar::marka": "MASERATI",
     "model": "4200 GT SPYDER Convertible",
-    "model_Web": "4200 GT SPYDER Convertible"
+    "model_Web": "4200 GT SPYDER Convertible",
+    "TecDocid": "16271"
   },
   {
     "id": 5494,
@@ -38462,21 +38731,24 @@
     "marka_id": 83,
     "modeller_markalar::marka": "MASERATI",
     "model": "BITURBO (69, 78, AF3, AM 332) | 425",
-    "model_Web": "BITURBO (69, 78, AF3, AM 332) | 425"
+    "model_Web": "BITURBO (69, 78, AF3, AM 332) | 425",
+    "TecDocid": "4909"
   },
   {
     "id": 5496,
     "marka_id": 83,
     "modeller_markalar::marka": "MASERATI",
     "model": "BITURBO Coupe (AM 331)",
-    "model_Web": "BITURBO Coupe (AM 331)"
+    "model_Web": "BITURBO Coupe (AM 331)",
+    "TecDocid": "4908"
   },
   {
     "id": 5497,
     "marka_id": 83,
     "modeller_markalar::marka": "MASERATI",
     "model": "BITURBO Spyder (AM 333)",
-    "model_Web": "BITURBO Spyder (AM 333)"
+    "model_Web": "BITURBO Spyder (AM 333)",
+    "TecDocid": "4919"
   },
   {
     "id": 5498,
@@ -38497,7 +38769,8 @@
     "marka_id": 83,
     "modeller_markalar::marka": "MASERATI",
     "model": "GHIBLI II",
-    "model_Web": "GHIBLI II"
+    "model_Web": "GHIBLI II",
+    "TecDocid": "4944"
   },
   {
     "id": 5501,
@@ -38546,14 +38819,16 @@
     "marka_id": 83,
     "modeller_markalar::marka": "MASERATI",
     "model": "GRANSPORT Convertible",
-    "model_Web": "GRANSPORT Convertible"
+    "model_Web": "GRANSPORT Convertible",
+    "TecDocid": "22052"
   },
   {
     "id": 5508,
     "marka_id": 83,
     "modeller_markalar::marka": "MASERATI",
     "model": "GRANSPORT Coupe",
-    "model_Web": "GRANSPORT Coupe"
+    "model_Web": "GRANSPORT Coupe",
+    "TecDocid": "22051"
   },
   {
     "id": 5509,
@@ -38574,7 +38849,8 @@
     "marka_id": 83,
     "modeller_markalar::marka": "MASERATI",
     "model": "KARIF",
-    "model_Web": "KARIF"
+    "model_Web": "KARIF",
+    "TecDocid": "4930"
   },
   {
     "id": 5512,
@@ -38679,7 +38955,8 @@
     "marka_id": 83,
     "modeller_markalar::marka": "MASERATI",
     "model": "QUATTROPORTE V",
-    "model_Web": "QUATTROPORTE V"
+    "model_Web": "QUATTROPORTE V",
+    "TecDocid": "17882"
   },
   {
     "id": 5527,
@@ -38700,7 +38977,8 @@
     "marka_id": 83,
     "modeller_markalar::marka": "MASERATI",
     "model": "SHAMAL",
-    "model_Web": "SHAMAL"
+    "model_Web": "SHAMAL",
+    "TecDocid": "4943"
   },
   {
     "id": 5530,
@@ -39148,7 +39426,8 @@
     "marka_id": 85,
     "modeller_markalar::marka": "MAZDA",
     "model": "2 (DE_, DH_) | DEMIO",
-    "model_Web": "2 (DE_, DH_) | DEMIO"
+    "model_Web": "2 (DE_, DH_) | DEMIO",
+    "TecDocid": "23397"
   },
   {
     "id": 5594,
@@ -39169,7 +39448,8 @@
     "marka_id": 85,
     "modeller_markalar::marka": "MAZDA",
     "model": "2 Hatchback (KB)",
-    "model_Web": "2 Hatchback (KB)"
+    "model_Web": "2 Hatchback (KB)",
+    "TecDocid": "146857"
   },
   {
     "id": 5597,
@@ -39904,14 +40184,16 @@
     "marka_id": 85,
     "modeller_markalar::marka": "MAZDA",
     "model": "CX-5 (KE, GH)",
-    "model_Web": "CX-5 (KE, GH)"
+    "model_Web": "CX-5 (KE, GH)",
+    "TecDocid": "50618"
   },
   {
     "id": 5702,
     "marka_id": 85,
     "modeller_markalar::marka": "MAZDA",
     "model": "CX-5 (KF)",
-    "model_Web": "CX-5 (KF)"
+    "model_Web": "CX-5 (KF)",
+    "TecDocid": "127057"
   },
   {
     "id": 5703,
@@ -40170,14 +40452,16 @@
     "marka_id": 85,
     "modeller_markalar::marka": "MAZDA",
     "model": "MPV I (LV)",
-    "model_Web": "MPV I (LV)"
+    "model_Web": "MPV I (LV)",
+    "TecDocid": "5971"
   },
   {
     "id": 5740,
     "marka_id": 85,
     "modeller_markalar::marka": "MAZDA",
     "model": "MPV II (LW)",
-    "model_Web": "MPV II (LW)"
+    "model_Web": "MPV II (LW)",
+    "TecDocid": "13651"
   },
   {
     "id": 5741,
@@ -40219,7 +40503,8 @@
     "marka_id": 85,
     "modeller_markalar::marka": "MAZDA",
     "model": "MX-5 II (NB) | MIATA | ROADSTER",
-    "model_Web": "MX-5 II (NB) | MIATA | ROADSTER"
+    "model_Web": "MX-5 II (NB) | MIATA | ROADSTER",
+    "TecDocid": "9429"
   },
   {
     "id": 5747,
@@ -40513,7 +40798,8 @@
     "marka_id": 85,
     "modeller_markalar::marka": "MAZDA",
     "model": "TRIBUTE (EP)",
-    "model_Web": "TRIBUTE (EP)"
+    "model_Web": "TRIBUTE (EP)",
+    "TecDocid": "16508"
   },
   {
     "id": 5789,
@@ -40548,7 +40834,8 @@
     "marka_id": 86,
     "modeller_markalar::marka": "MAZDA (CHANGAN)",
     "model": "2 Hatchback",
-    "model_Web": "2 Hatchback"
+    "model_Web": "2 Hatchback",
+    "TecDocid": "29819"
   },
   {
     "id": 5794,
@@ -40639,14 +40926,16 @@
     "marka_id": 87,
     "modeller_markalar::marka": "MEGA",
     "model": "CLUB",
-    "model_Web": "CLUB"
+    "model_Web": "CLUB",
+    "TecDocid": "13380"
   },
   {
     "id": 5807,
     "marka_id": 87,
     "modeller_markalar::marka": "MEGA",
     "model": "CLUB II",
-    "model_Web": "CLUB II"
+    "model_Web": "CLUB II",
+    "TecDocid": "13385"
   },
   {
     "id": 5808,
@@ -41717,56 +42006,64 @@
     "marka_id": 88,
     "modeller_markalar::marka": "MERCEDES-BENZ",
     "model": "GL-CLASS (X166)",
-    "model_Web": "GL-CLASS (X166)"
+    "model_Web": "GL-CLASS (X166)",
+    "TecDocid": "58741"
   },
   {
     "id": 5961,
     "marka_id": 88,
     "modeller_markalar::marka": "MERCEDES-BENZ",
     "model": "GLE (V167)",
-    "model_Web": "GLE (V167)"
+    "model_Web": "GLE (V167)",
+    "TecDocid": "152935"
   },
   {
     "id": 5962,
     "marka_id": 88,
     "modeller_markalar::marka": "MERCEDES-BENZ",
     "model": "GLE (W166)",
-    "model_Web": "GLE (W166)"
+    "model_Web": "GLE (W166)",
+    "TecDocid": "112233"
   },
   {
     "id": 5963,
     "marka_id": 88,
     "modeller_markalar::marka": "MERCEDES-BENZ",
     "model": "GLE Coupe (C167)",
-    "model_Web": "GLE Coupe (C167)"
+    "model_Web": "GLE Coupe (C167)",
+    "TecDocid": "152951"
   },
   {
     "id": 5964,
     "marka_id": 88,
     "modeller_markalar::marka": "MERCEDES-BENZ",
     "model": "GLE Coupe (C292)",
-    "model_Web": "GLE Coupe (C292)"
+    "model_Web": "GLE Coupe (C292)",
+    "TecDocid": "111163"
   },
   {
     "id": 5965,
     "marka_id": 88,
     "modeller_markalar::marka": "MERCEDES-BENZ",
     "model": "GLK-CLASS (X204)",
-    "model_Web": "GLK-CLASS (X204)"
+    "model_Web": "GLK-CLASS (X204)",
+    "TecDocid": "34997"
   },
   {
     "id": 5966,
     "marka_id": 88,
     "modeller_markalar::marka": "MERCEDES-BENZ",
     "model": "GLS (X166)",
-    "model_Web": "GLS (X166)"
+    "model_Web": "GLS (X166)",
+    "TecDocid": "117400"
   },
   {
     "id": 5967,
     "marka_id": 88,
     "modeller_markalar::marka": "MERCEDES-BENZ",
     "model": "GLS (X167)",
-    "model_Web": "GLS (X167)"
+    "model_Web": "GLS (X167)",
+    "TecDocid": "136066"
   },
   {
     "id": 5968,
@@ -41794,21 +42091,24 @@
     "marka_id": 88,
     "modeller_markalar::marka": "MERCEDES-BENZ",
     "model": "HECKFLOSSE (W110)",
-    "model_Web": "HECKFLOSSE (W110)"
+    "model_Web": "HECKFLOSSE (W110)",
+    "TecDocid": "365"
   },
   {
     "id": 5972,
     "marka_id": 88,
     "modeller_markalar::marka": "MERCEDES-BENZ",
     "model": "HECKFLOSSE (W111, W112)",
-    "model_Web": "HECKFLOSSE (W111, W112)"
+    "model_Web": "HECKFLOSSE (W111, W112)",
+    "TecDocid": "373"
   },
   {
     "id": 5973,
     "marka_id": 88,
     "modeller_markalar::marka": "MERCEDES-BENZ",
     "model": "HENSCHEL 2-t",
-    "model_Web": "HENSCHEL 2-t"
+    "model_Web": "HENSCHEL 2-t",
+    "TecDocid": "904"
   },
   {
     "id": 5974,
@@ -41913,14 +42213,16 @@
     "marka_id": 88,
     "modeller_markalar::marka": "MERCEDES-BENZ",
     "model": "MB-TRAC",
-    "model_Web": "MB-TRAC"
+    "model_Web": "MB-TRAC",
+    "TecDocid": "7941"
   },
   {
     "id": 5989,
     "marka_id": 88,
     "modeller_markalar::marka": "MERCEDES-BENZ",
     "model": "M-CLASS (W163)",
-    "model_Web": "M-CLASS (W163)"
+    "model_Web": "M-CLASS (W163)",
+    "TecDocid": "9038"
   },
   {
     "id": 5990,
@@ -41934,7 +42236,8 @@
     "marka_id": 88,
     "modeller_markalar::marka": "MERCEDES-BENZ",
     "model": "M-CLASS (W166)",
-    "model_Web": "M-CLASS (W166)"
+    "model_Web": "M-CLASS (W166)",
+    "TecDocid": "12309"
   },
   {
     "id": 5992,
@@ -42130,7 +42433,8 @@
     "marka_id": 88,
     "modeller_markalar::marka": "MERCEDES-BENZ",
     "model": "O 408",
-    "model_Web": "O 408"
+    "model_Web": "O 408",
+    "TecDocid": "2238"
   },
   {
     "id": 6020,
@@ -42263,21 +42567,24 @@
     "marka_id": 88,
     "modeller_markalar::marka": "MERCEDES-BENZ",
     "model": "S-CLASS (W220, V220)",
-    "model_Web": "S-CLASS (W220, V220)"
+    "model_Web": "S-CLASS (W220, V220)",
+    "TecDocid": "128572"
   },
   {
     "id": 6039,
     "marka_id": 88,
     "modeller_markalar::marka": "MERCEDES-BENZ",
     "model": "S-CLASS (W221, V221)",
-    "model_Web": "S-CLASS (W221, V221)"
+    "model_Web": "S-CLASS (W221, V221)",
+    "TecDocid": "19853"
   },
   {
     "id": 6040,
     "marka_id": 88,
     "modeller_markalar::marka": "MERCEDES-BENZ",
     "model": "S-CLASS (W222, V222, X222)",
-    "model_Web": "S-CLASS (W222, V222, X222)"
+    "model_Web": "S-CLASS (W222, V222, X222)",
+    "TecDocid": "11105"
   },
   {
     "id": 6041,
@@ -42319,21 +42626,24 @@
     "marka_id": 88,
     "modeller_markalar::marka": "MERCEDES-BENZ",
     "model": "S-CLASS Coupe (C215) | CL-CLASS",
-    "model_Web": "S-CLASS Coupe (C215) | CL-CLASS"
+    "model_Web": "S-CLASS Coupe (C215) | CL-CLASS",
+    "TecDocid": "11459"
   },
   {
     "id": 6047,
     "marka_id": 88,
     "modeller_markalar::marka": "MERCEDES-BENZ",
     "model": "S-CLASS Coupe (C216) | CL-CLASS",
-    "model_Web": "S-CLASS Coupe (C216) | CL-CLASS"
+    "model_Web": "S-CLASS Coupe (C216) | CL-CLASS",
+    "TecDocid": "19728"
   },
   {
     "id": 6048,
     "marka_id": 88,
     "modeller_markalar::marka": "MERCEDES-BENZ",
     "model": "S-CLASS Coupe (C217)",
-    "model_Web": "S-CLASS Coupe (C217)"
+    "model_Web": "S-CLASS Coupe (C217)",
+    "TecDocid": "101052"
   },
   {
     "id": 6049,
@@ -42375,14 +42685,16 @@
     "marka_id": 88,
     "modeller_markalar::marka": "MERCEDES-BENZ",
     "model": "SL (R129)",
-    "model_Web": "SL (R129)"
+    "model_Web": "SL (R129)",
+    "TecDocid": "928"
   },
   {
     "id": 6055,
     "marka_id": 88,
     "modeller_markalar::marka": "MERCEDES-BENZ",
     "model": "SL (R230)",
-    "model_Web": "SL (R230)"
+    "model_Web": "SL (R230)",
+    "TecDocid": "19390"
   },
   {
     "id": 6056,
@@ -42452,14 +42764,16 @@
     "marka_id": 88,
     "modeller_markalar::marka": "MERCEDES-BENZ",
     "model": "SLR (R199)",
-    "model_Web": "SLR (R199)"
+    "model_Web": "SLR (R199)",
+    "TecDocid": "17967"
   },
   {
     "id": 6066,
     "marka_id": 88,
     "modeller_markalar::marka": "MERCEDES-BENZ",
     "model": "SLR Roadster (R199)",
-    "model_Web": "SLR Roadster (R199)"
+    "model_Web": "SLR Roadster (R199)",
+    "TecDocid": "30213"
   },
   {
     "id": 6067,
@@ -42697,7 +43011,8 @@
     "marka_id": 88,
     "modeller_markalar::marka": "MERCEDES-BENZ",
     "model": "SPRINTER 5-t Tourer Bus (B907)",
-    "model_Web": "SPRINTER 5-t Tourer Bus (B907)"
+    "model_Web": "SPRINTER 5-t Tourer Bus (B907)",
+    "TecDocid": "138935"
   },
   {
     "id": 6101,
@@ -42732,7 +43047,8 @@
     "marka_id": 88,
     "modeller_markalar::marka": "MERCEDES-BENZ",
     "model": "SPRINTER CLASSIC 4,6-t Van (B909)",
-    "model_Web": "SPRINTER CLASSIC 4,6-t Van (B909)"
+    "model_Web": "SPRINTER CLASSIC 4,6-t Van (B909)",
+    "TecDocid": "139398"
   },
   {
     "id": 6106,
@@ -42795,7 +43111,8 @@
     "marka_id": 88,
     "modeller_markalar::marka": "MERCEDES-BENZ",
     "model": "T2/L",
-    "model_Web": "T2/L"
+    "model_Web": "T2/L",
+    "TecDocid": "13227"
   },
   {
     "id": 6115,
@@ -42809,28 +43126,32 @@
     "marka_id": 88,
     "modeller_markalar::marka": "MERCEDES-BENZ",
     "model": "T2/L Platform/Chassis",
-    "model_Web": "T2/L Platform/Chassis"
+    "model_Web": "T2/L Platform/Chassis",
+    "TecDocid": "34001"
   },
   {
     "id": 6117,
     "marka_id": 88,
     "modeller_markalar::marka": "MERCEDES-BENZ",
     "model": "T2/L Van",
-    "model_Web": "T2/L Van"
+    "model_Web": "T2/L Van",
+    "TecDocid": "34000"
   },
   {
     "id": 6118,
     "marka_id": 88,
     "modeller_markalar::marka": "MERCEDES-BENZ",
     "model": "T2/LN1 Bus",
-    "model_Web": "T2/LN1 Bus"
+    "model_Web": "T2/LN1 Bus",
+    "TecDocid": "34114"
   },
   {
     "id": 6119,
     "marka_id": 88,
     "modeller_markalar::marka": "MERCEDES-BENZ",
     "model": "T2/LN1 Cab with engine",
-    "model_Web": "T2/LN1 Cab with engine"
+    "model_Web": "T2/LN1 Cab with engine",
+    "TecDocid": "34404"
   },
   {
     "id": 6120,
@@ -42914,7 +43235,8 @@
     "marka_id": 88,
     "modeller_markalar::marka": "MERCEDES-BENZ",
     "model": "UNIMOG",
-    "model_Web": "UNIMOG"
+    "model_Web": "UNIMOG",
+    "TecDocid": "803689"
   },
   {
     "id": 6132,
@@ -43243,7 +43565,8 @@
     "marka_id": 89,
     "modeller_markalar::marka": "MG",
     "model": "MG 5 Hatchback",
-    "model_Web": "MG 5 Hatchback"
+    "model_Web": "MG 5 Hatchback",
+    "TecDocid": "138205"
   },
   {
     "id": 6179,
@@ -43292,7 +43615,8 @@
     "marka_id": 89,
     "modeller_markalar::marka": "MG",
     "model": "MG X-POWER",
-    "model_Web": "MG X-POWER"
+    "model_Web": "MG X-POWER",
+    "TecDocid": "18434"
   },
   {
     "id": 6186,
@@ -43397,14 +43721,16 @@
     "marka_id": 89,
     "modeller_markalar::marka": "MG",
     "model": "MGF (RD)",
-    "model_Web": "MGF (RD)"
+    "model_Web": "MGF (RD)",
+    "TecDocid": "13902"
   },
   {
     "id": 6201,
     "marka_id": 89,
     "modeller_markalar::marka": "MG",
     "model": "MGR V8",
-    "model_Web": "MGR V8"
+    "model_Web": "MGR V8",
+    "TecDocid": "4899"
   },
   {
     "id": 6202,
@@ -44013,7 +44339,8 @@
     "marka_id": 91,
     "modeller_markalar::marka": "MITSUBISHI",
     "model": "ECLIPSE II (D3_A)",
-    "model_Web": "ECLIPSE II (D3_A)"
+    "model_Web": "ECLIPSE II (D3_A)",
+    "TecDocid": "5215"
   },
   {
     "id": 6289,
@@ -44237,14 +44564,16 @@
     "marka_id": 91,
     "modeller_markalar::marka": "MITSUBISHI",
     "model": "GRANDIS (N9_, N8_) | CHARIOT GRANDIS | SPACE WAGON",
-    "model_Web": "GRANDIS (N9_, N8_) | CHARIOT GRANDIS | SPACE WAGON"
+    "model_Web": "GRANDIS (N9_, N8_) | CHARIOT GRANDIS | SPACE WAGON",
+    "TecDocid": "23084"
   },
   {
     "id": 6321,
     "marka_id": 91,
     "modeller_markalar::marka": "MITSUBISHI",
     "model": "GRANDIS (NA_W) | SPACE WAGON",
-    "model_Web": "GRANDIS (NA_W) | SPACE WAGON"
+    "model_Web": "GRANDIS (NA_W) | SPACE WAGON",
+    "TecDocid": "18778"
   },
   {
     "id": 6322,
@@ -44258,7 +44587,8 @@
     "marka_id": 91,
     "modeller_markalar::marka": "MITSUBISHI",
     "model": "i (HA_) | i-MIEV",
-    "model_Web": "i (HA_) | i-MIEV"
+    "model_Web": "i (HA_) | i-MIEV",
+    "TecDocid": "32938"
   },
   {
     "id": 6324,
@@ -44769,7 +45099,8 @@
     "marka_id": 91,
     "modeller_markalar::marka": "MITSUBISHI",
     "model": "MIRAGE / SPACE STAR VI Hatchback (A0_A)",
-    "model_Web": "MIRAGE / SPACE STAR VI Hatchback (A0_A)"
+    "model_Web": "MIRAGE / SPACE STAR VI Hatchback (A0_A)",
+    "TecDocid": "56018"
   },
   {
     "id": 6397,
@@ -44846,7 +45177,8 @@
     "marka_id": 91,
     "modeller_markalar::marka": "MITSUBISHI",
     "model": "MIRAGE V Coupe (CJ - CM)",
-    "model_Web": "MIRAGE V Coupe (CJ - CM)"
+    "model_Web": "MIRAGE V Coupe (CJ - CM)",
+    "TecDocid": "22938"
   },
   {
     "id": 6408,
@@ -44902,7 +45234,8 @@
     "marka_id": 91,
     "modeller_markalar::marka": "MITSUBISHI",
     "model": "OUTLANDER III Van (GF_W, GG_W)",
-    "model_Web": "OUTLANDER III Van (GF_W, GG_W)"
+    "model_Web": "OUTLANDER III Van (GF_W, GG_W)",
+    "TecDocid": "142852"
   },
   {
     "id": 6416,
@@ -44937,7 +45270,8 @@
     "marka_id": 91,
     "modeller_markalar::marka": "MITSUBISHI",
     "model": "PAJERO II (V3_W) | SHOGUN | MONTERO",
-    "model_Web": "PAJERO II (V3_W) | SHOGUN | MONTERO"
+    "model_Web": "PAJERO II (V3_W) | SHOGUN | MONTERO",
+    "TecDocid": "52852"
   },
   {
     "id": 6421,
@@ -44958,28 +45292,32 @@
     "marka_id": 91,
     "modeller_markalar::marka": "MITSUBISHI",
     "model": "PAJERO III (V7_W, V6_W) | SHOGUN | MONTERO | PAJERO/SHOGUN",
-    "model_Web": "PAJERO III (V7_W, V6_W) | SHOGUN | MONTERO | PAJERO/SHOGUN"
+    "model_Web": "PAJERO III (V7_W, V6_W) | SHOGUN | MONTERO | PAJERO/SHOGUN",
+    "TecDocid": "59058"
   },
   {
     "id": 6424,
     "marka_id": 91,
     "modeller_markalar::marka": "MITSUBISHI",
     "model": "PAJERO III Canvas Top (V6_W, V7_W) | SHOGUN | MONTERO | PAJERO/SHOGUN",
-    "model_Web": "PAJERO III Canvas Top (V6_W, V7_W) | SHOGUN | MONTERO | PAJERO/SHOGUN"
+    "model_Web": "PAJERO III Canvas Top (V6_W, V7_W) | SHOGUN | MONTERO | PAJERO/SHOGUN",
+    "TecDocid": "21314"
   },
   {
     "id": 6425,
     "marka_id": 91,
     "modeller_markalar::marka": "MITSUBISHI",
     "model": "PAJERO IV (V8_W, V9_W) | MONTERO | PAJERO/SHOGUN",
-    "model_Web": "PAJERO IV (V8_W, V9_W) | MONTERO | PAJERO/SHOGUN"
+    "model_Web": "PAJERO IV (V8_W, V9_W) | MONTERO | PAJERO/SHOGUN",
+    "TecDocid": "126459"
   },
   {
     "id": 6426,
     "marka_id": 91,
     "modeller_markalar::marka": "MITSUBISHI",
     "model": "PAJERO IV Van (V9_, V8_, V8_V) | MONTERO | PAJERO/SHOGUN",
-    "model_Web": "PAJERO IV Van (V9_, V8_, V8_V) | MONTERO | PAJERO/SHOGUN"
+    "model_Web": "PAJERO IV Van (V9_, V8_, V8_V) | MONTERO | PAJERO/SHOGUN",
+    "TecDocid": "12480"
   },
   {
     "id": 6427,
@@ -45000,7 +45338,8 @@
     "marka_id": 91,
     "modeller_markalar::marka": "MITSUBISHI",
     "model": "PAJERO PININ I (H6_W, H7_W) | IO | SHOGUN PININ | MONTERO IO | PAJERO IO | PAJERO TR4",
-    "model_Web": "PAJERO PININ I (H6_W, H7_W) | IO | SHOGUN PININ | MONTERO IO | PAJERO IO | PAJERO TR4"
+    "model_Web": "PAJERO PININ I (H6_W, H7_W) | IO | SHOGUN PININ | MONTERO IO | PAJERO IO | PAJERO TR4",
+    "TecDocid": "16506"
   },
   {
     "id": 6430,
@@ -45084,7 +45423,8 @@
     "marka_id": 91,
     "modeller_markalar::marka": "MITSUBISHI",
     "model": "SAPPORO I (A12_)",
-    "model_Web": "SAPPORO I (A12_)"
+    "model_Web": "SAPPORO I (A12_)",
+    "TecDocid": "3359"
   },
   {
     "id": 6442,
@@ -45259,7 +45599,8 @@
     "marka_id": 91,
     "modeller_markalar::marka": "MITSUBISHI",
     "model": "SPACE WAGON (N9_W, N8_W) | NIMBUS",
-    "model_Web": "SPACE WAGON (N9_W, N8_W) | NIMBUS"
+    "model_Web": "SPACE WAGON (N9_W, N8_W) | NIMBUS",
+    "TecDocid": "16779"
   },
   {
     "id": 6467,
@@ -45756,14 +46097,16 @@
     "marka_id": 93,
     "modeller_markalar::marka": "NISSAN",
     "model": "370Z Coupe (Z34) | FAIRLADY 370Z | FAIRLADY Z",
-    "model_Web": "370Z Coupe (Z34) | FAIRLADY 370Z | FAIRLADY Z"
+    "model_Web": "370Z Coupe (Z34) | FAIRLADY 370Z | FAIRLADY Z",
+    "TecDocid": "106194"
   },
   {
     "id": 6538,
     "marka_id": 93,
     "modeller_markalar::marka": "NISSAN",
     "model": "370Z Roadster (Z34) | FAIRLADY 370Z",
-    "model_Web": "370Z Roadster (Z34) | FAIRLADY 370Z"
+    "model_Web": "370Z Roadster (Z34) | FAIRLADY 370Z",
+    "TecDocid": "5839"
   },
   {
     "id": 6539,
@@ -45896,7 +46239,8 @@
     "marka_id": 93,
     "modeller_markalar::marka": "NISSAN",
     "model": "ALMERA (N17) | SUNNY | VERSA / V-DRIVE | LATIO | V-DRIVE | PULSAR",
-    "model_Web": "ALMERA (N17) | SUNNY | VERSA / V-DRIVE | LATIO | V-DRIVE | PULSAR"
+    "model_Web": "ALMERA (N17) | SUNNY | VERSA / V-DRIVE | LATIO | V-DRIVE | PULSAR",
+    "TecDocid": "123569"
   },
   {
     "id": 6558,
@@ -46190,7 +46534,8 @@
     "marka_id": 93,
     "modeller_markalar::marka": "NISSAN",
     "model": "BLUEBIRD SYLPHY II (G11) | ALMERA",
-    "model_Web": "BLUEBIRD SYLPHY II (G11) | ALMERA"
+    "model_Web": "BLUEBIRD SYLPHY II (G11) | ALMERA",
+    "TecDocid": "115340"
   },
   {
     "id": 6600,
@@ -46344,7 +46689,8 @@
     "marka_id": 93,
     "modeller_markalar::marka": "NISSAN",
     "model": "CEDRIC X (Y34)",
-    "model_Web": "CEDRIC X (Y34)"
+    "model_Web": "CEDRIC X (Y34)",
+    "TecDocid": "22901"
   },
   {
     "id": 6622,
@@ -46400,7 +46746,8 @@
     "marka_id": 93,
     "modeller_markalar::marka": "NISSAN",
     "model": "CHERRY III (N12) | PULSAR | LANGLEY",
-    "model_Web": "CHERRY III (N12) | PULSAR | LANGLEY"
+    "model_Web": "CHERRY III (N12) | PULSAR | LANGLEY",
+    "TecDocid": "6128"
   },
   {
     "id": 6630,
@@ -46498,14 +46845,16 @@
     "marka_id": 93,
     "modeller_markalar::marka": "NISSAN",
     "model": "CUBE (Z11)",
-    "model_Web": "CUBE (Z11)"
+    "model_Web": "CUBE (Z11)",
+    "TecDocid": "26368"
   },
   {
     "id": 6644,
     "marka_id": 93,
     "modeller_markalar::marka": "NISSAN",
     "model": "CUBE (Z12)",
-    "model_Web": "CUBE (Z12)"
+    "model_Web": "CUBE (Z12)",
+    "TecDocid": "32804"
   },
   {
     "id": 6645,
@@ -46547,7 +46896,8 @@
     "marka_id": 93,
     "modeller_markalar::marka": "NISSAN",
     "model": "DATSUN 120Y Coupe (KB210)",
-    "model_Web": "DATSUN 120Y Coupe (KB210)"
+    "model_Web": "DATSUN 120Y Coupe (KB210)",
+    "TecDocid": "7272"
   },
   {
     "id": 6651,
@@ -46575,7 +46925,8 @@
     "marka_id": 93,
     "modeller_markalar::marka": "NISSAN",
     "model": "DATSUN 140Y Estate (HLB310)",
-    "model_Web": "DATSUN 140Y Estate (HLB310)"
+    "model_Web": "DATSUN 140Y Estate (HLB310)",
+    "TecDocid": "7276"
   },
   {
     "id": 6655,
@@ -46659,7 +47010,8 @@
     "marka_id": 93,
     "modeller_markalar::marka": "NISSAN",
     "model": "ELGRAND (E51)",
-    "model_Web": "ELGRAND (E51)"
+    "model_Web": "ELGRAND (E51)",
+    "TecDocid": "34728"
   },
   {
     "id": 6667,
@@ -47590,14 +47942,16 @@
     "marka_id": 93,
     "modeller_markalar::marka": "NISSAN",
     "model": "NV250 Bus (X61)",
-    "model_Web": "NV250 Bus (X61)"
+    "model_Web": "NV250 Bus (X61)",
+    "TecDocid": "138884"
   },
   {
     "id": 6800,
     "marka_id": 93,
     "modeller_markalar::marka": "NISSAN",
     "model": "NV250 Van (X61)",
-    "model_Web": "NV250 Van (X61)"
+    "model_Web": "NV250 Van (X61)",
+    "TecDocid": "138881"
   },
   {
     "id": 6801,
@@ -47723,7 +48077,8 @@
     "marka_id": 93,
     "modeller_markalar::marka": "NISSAN",
     "model": "PATROL GR IV Platform/Chassis (Y60)",
-    "model_Web": "PATROL GR IV Platform/Chassis (Y60)"
+    "model_Web": "PATROL GR IV Platform/Chassis (Y60)",
+    "TecDocid": "5609"
   },
   {
     "id": 6819,
@@ -47807,7 +48162,8 @@
     "marka_id": 93,
     "modeller_markalar::marka": "NISSAN",
     "model": "PATROL VI (Y62)",
-    "model_Web": "PATROL VI (Y62)"
+    "model_Web": "PATROL VI (Y62)",
+    "TecDocid": "34895"
   },
   {
     "id": 6831,
@@ -47954,7 +48310,8 @@
     "marka_id": 93,
     "modeller_markalar::marka": "NISSAN",
     "model": "PRIMASTAR Bus (X82)",
-    "model_Web": "PRIMASTAR Bus (X82)"
+    "model_Web": "PRIMASTAR Bus (X82)",
+    "TecDocid": "148374"
   },
   {
     "id": 6852,
@@ -48206,7 +48563,8 @@
     "marka_id": 93,
     "modeller_markalar::marka": "NISSAN",
     "model": "ROGUE | ROGUE/ROGUE SELECT",
-    "model_Web": "ROGUE | ROGUE/ROGUE SELECT"
+    "model_Web": "ROGUE | ROGUE/ROGUE SELECT",
+    "TecDocid": "59991"
   },
   {
     "id": 6888,
@@ -48332,7 +48690,8 @@
     "marka_id": 93,
     "modeller_markalar::marka": "NISSAN",
     "model": "SERENA (C24)",
-    "model_Web": "SERENA (C24)"
+    "model_Web": "SERENA (C24)",
+    "TecDocid": "20407"
   },
   {
     "id": 6906,
@@ -48661,28 +49020,32 @@
     "marka_id": 93,
     "modeller_markalar::marka": "NISSAN",
     "model": "SUNNY Estate Van (B11)",
-    "model_Web": "SUNNY Estate Van (B11)"
+    "model_Web": "SUNNY Estate Van (B11)",
+    "TecDocid": "133414"
   },
   {
     "id": 6953,
     "marka_id": 93,
     "modeller_markalar::marka": "NISSAN",
     "model": "SUNNY I (B11) | TSURU / HIKARI | SENTRA",
-    "model_Web": "SUNNY I (B11) | TSURU / HIKARI | SENTRA"
+    "model_Web": "SUNNY I (B11) | TSURU / HIKARI | SENTRA",
+    "TecDocid": "7291"
   },
   {
     "id": 6954,
     "marka_id": 93,
     "modeller_markalar::marka": "NISSAN",
     "model": "SUNNY I Coupe (B11) | TSURU SAMURAI | SENTRA",
-    "model_Web": "SUNNY I Coupe (B11) | TSURU SAMURAI | SENTRA"
+    "model_Web": "SUNNY I Coupe (B11) | TSURU SAMURAI | SENTRA",
+    "TecDocid": "4146"
   },
   {
     "id": 6955,
     "marka_id": 93,
     "modeller_markalar::marka": "NISSAN",
     "model": "SUNNY I Traveller (B11) | PULSAR | TSURU",
-    "model_Web": "SUNNY I Traveller (B11) | PULSAR | TSURU"
+    "model_Web": "SUNNY I Traveller (B11) | PULSAR | TSURU",
+    "TecDocid": "17927"
   },
   {
     "id": 6956,
@@ -48878,7 +49241,8 @@
     "marka_id": 93,
     "modeller_markalar::marka": "NISSAN",
     "model": "TIIDA Hatchback (C12) | PULSAR",
-    "model_Web": "TIIDA Hatchback (C12) | PULSAR"
+    "model_Web": "TIIDA Hatchback (C12) | PULSAR",
+    "TecDocid": "100857"
   },
   {
     "id": 6984,
@@ -49123,7 +49487,8 @@
     "marka_id": 93,
     "modeller_markalar::marka": "NISSAN",
     "model": "VERSA II (N17_) | VERSA/V-DRIVE | SUNNY",
-    "model_Web": "VERSA II (N17_) | VERSA/V-DRIVE | SUNNY"
+    "model_Web": "VERSA II (N17_) | VERSA/V-DRIVE | SUNNY",
+    "TecDocid": "108331"
   },
   {
     "id": 7019,
@@ -49844,7 +50209,8 @@
     "marka_id": 98,
     "modeller_markalar::marka": "OPEL",
     "model": "ASTRA J Estate Van (P10)",
-    "model_Web": "ASTRA J Estate Van (P10)"
+    "model_Web": "ASTRA J Estate Van (P10)",
+    "TecDocid": "132744"
   },
   {
     "id": 7122,
@@ -50845,7 +51211,8 @@
     "marka_id": 98,
     "modeller_markalar::marka": "OPEL",
     "model": "ROCKS-E",
-    "model_Web": "ROCKS-E"
+    "model_Web": "ROCKS-E",
+    "TecDocid": "145509"
   },
   {
     "id": 7265,
@@ -51202,7 +51569,8 @@
     "marka_id": 101,
     "modeller_markalar::marka": "PERODUA",
     "model": "KANCIL | NIPPA",
-    "model_Web": "KANCIL | NIPPA"
+    "model_Web": "KANCIL | NIPPA",
+    "TecDocid": "7329"
   },
   {
     "id": 7316,
@@ -51286,7 +51654,8 @@
     "marka_id": 102,
     "modeller_markalar::marka": "PEUGEOT",
     "model": "101",
-    "model_Web": "101"
+    "model_Web": "101",
+    "TecDocid": "8507"
   },
   {
     "id": 7328,
@@ -51804,7 +52173,8 @@
     "marka_id": 102,
     "modeller_markalar::marka": "PEUGEOT",
     "model": "309 Hatchback Van (10S, 3S)",
-    "model_Web": "309 Hatchback Van (10S, 3S)"
+    "model_Web": "309 Hatchback Van (10S, 3S)",
+    "TecDocid": "132734"
   },
   {
     "id": 7402,
@@ -52140,14 +52510,16 @@
     "marka_id": 102,
     "modeller_markalar::marka": "PEUGEOT",
     "model": "807 (EB_)",
-    "model_Web": "807 (EB_)"
+    "model_Web": "807 (EB_)",
+    "TecDocid": "16666"
   },
   {
     "id": 7450,
     "marka_id": 102,
     "modeller_markalar::marka": "PEUGEOT",
     "model": "807 Van (EB_)",
-    "model_Web": "807 Van (EB_)"
+    "model_Web": "807 Van (EB_)",
+    "TecDocid": "142524"
   },
   {
     "id": 7451,
@@ -52357,7 +52729,8 @@
     "marka_id": 102,
     "modeller_markalar::marka": "PEUGEOT",
     "model": "ION",
-    "model_Web": "ION"
+    "model_Web": "ION",
+    "TecDocid": "5312"
   },
   {
     "id": 7481,
@@ -53295,7 +53668,8 @@
     "marka_id": 106,
     "modeller_markalar::marka": "POLESTAR",
     "model": "POLESTAR 2 (534)",
-    "model_Web": "POLESTAR 2 (534)"
+    "model_Web": "POLESTAR 2 (534)",
+    "TecDocid": "139223"
   },
   {
     "id": 7615,
@@ -53351,7 +53725,8 @@
     "marka_id": 107,
     "modeller_markalar::marka": "PORSCHE",
     "model": "911",
-    "model_Web": "911"
+    "model_Web": "911",
+    "TecDocid": "11800"
   },
   {
     "id": 7623,
@@ -53365,7 +53740,8 @@
     "marka_id": 107,
     "modeller_markalar::marka": "PORSCHE",
     "model": "911 (991)",
-    "model_Web": "911 (991)"
+    "model_Web": "911 (991)",
+    "TecDocid": "11568"
   },
   {
     "id": 7625,
@@ -53386,14 +53762,16 @@
     "marka_id": 107,
     "modeller_markalar::marka": "PORSCHE",
     "model": "911 (996)",
-    "model_Web": "911 (996)"
+    "model_Web": "911 (996)",
+    "TecDocid": "8696"
   },
   {
     "id": 7628,
     "marka_id": 107,
     "modeller_markalar::marka": "PORSCHE",
     "model": "911 (997)",
-    "model_Web": "911 (997)"
+    "model_Web": "911 (997)",
+    "TecDocid": "18060"
   },
   {
     "id": 7629,
@@ -53414,7 +53792,8 @@
     "marka_id": 107,
     "modeller_markalar::marka": "PORSCHE",
     "model": "911 Convertible (991)",
-    "model_Web": "911 Convertible (991)"
+    "model_Web": "911 Convertible (991)",
+    "TecDocid": "15982"
   },
   {
     "id": 7632,
@@ -53435,14 +53814,16 @@
     "marka_id": 107,
     "modeller_markalar::marka": "PORSCHE",
     "model": "911 Convertible (996)",
-    "model_Web": "911 Convertible (996)"
+    "model_Web": "911 Convertible (996)",
+    "TecDocid": "14429"
   },
   {
     "id": 7635,
     "marka_id": 107,
     "modeller_markalar::marka": "PORSCHE",
     "model": "911 Convertible (997)",
-    "model_Web": "911 Convertible (997)"
+    "model_Web": "911 Convertible (997)",
+    "TecDocid": "31661"
   },
   {
     "id": 7636,
@@ -53463,7 +53844,8 @@
     "marka_id": 107,
     "modeller_markalar::marka": "PORSCHE",
     "model": "911 Speedster (997)",
-    "model_Web": "911 Speedster (997)"
+    "model_Web": "911 Speedster (997)",
+    "TecDocid": "139321"
   },
   {
     "id": 7639,
@@ -53484,7 +53866,8 @@
     "marka_id": 107,
     "modeller_markalar::marka": "PORSCHE",
     "model": "911 Targa (991)",
-    "model_Web": "911 Targa (991)"
+    "model_Web": "911 Targa (991)",
+    "TecDocid": "105651"
   },
   {
     "id": 7642,
@@ -53505,14 +53888,16 @@
     "marka_id": 107,
     "modeller_markalar::marka": "PORSCHE",
     "model": "911 Targa (996)",
-    "model_Web": "911 Targa (996)"
+    "model_Web": "911 Targa (996)",
+    "TecDocid": "16409"
   },
   {
     "id": 7645,
     "marka_id": 107,
     "modeller_markalar::marka": "PORSCHE",
     "model": "911 Targa (997)",
-    "model_Web": "911 Targa (997)"
+    "model_Web": "911 Targa (997)",
+    "TecDocid": "30427"
   },
   {
     "id": 7646,
@@ -53610,14 +53995,16 @@
     "marka_id": 107,
     "modeller_markalar::marka": "PORSCHE",
     "model": "BOXSTER (986)",
-    "model_Web": "BOXSTER (986)"
+    "model_Web": "BOXSTER (986)",
+    "TecDocid": "16859"
   },
   {
     "id": 7660,
     "marka_id": 107,
     "modeller_markalar::marka": "PORSCHE",
     "model": "BOXSTER (987)",
-    "model_Web": "BOXSTER (987)"
+    "model_Web": "BOXSTER (987)",
+    "TecDocid": "18290"
   },
   {
     "id": 7661,
@@ -53631,14 +54018,16 @@
     "marka_id": 107,
     "modeller_markalar::marka": "PORSCHE",
     "model": "BOXSTER Spyder (987)",
-    "model_Web": "BOXSTER Spyder (987)"
+    "model_Web": "BOXSTER Spyder (987)",
+    "TecDocid": "505"
   },
   {
     "id": 7663,
     "marka_id": 107,
     "modeller_markalar::marka": "PORSCHE",
     "model": "CARRERA GT (980)",
-    "model_Web": "CARRERA GT (980)"
+    "model_Web": "CARRERA GT (980)",
+    "TecDocid": "17275"
   },
   {
     "id": 7664,
@@ -53680,7 +54069,8 @@
     "marka_id": 107,
     "modeller_markalar::marka": "PORSCHE",
     "model": "CAYMAN (987)",
-    "model_Web": "CAYMAN (987)"
+    "model_Web": "CAYMAN (987)",
+    "TecDocid": "11323"
   },
   {
     "id": 7670,
@@ -53701,7 +54091,8 @@
     "marka_id": 107,
     "modeller_markalar::marka": "PORSCHE",
     "model": "PANAMERA (970)",
-    "model_Web": "PANAMERA (970)"
+    "model_Web": "PANAMERA (970)",
+    "TecDocid": "59590"
   },
   {
     "id": 7673,
@@ -53715,7 +54106,8 @@
     "marka_id": 107,
     "modeller_markalar::marka": "PORSCHE",
     "model": "PANAMERA (976)",
-    "model_Web": "PANAMERA (976)"
+    "model_Web": "PANAMERA (976)",
+    "TecDocid": "156875"
   },
   {
     "id": 7675,
@@ -53729,21 +54121,24 @@
     "marka_id": 107,
     "modeller_markalar::marka": "PORSCHE",
     "model": "TAYCAN (Y1A)",
-    "model_Web": "TAYCAN (Y1A)"
+    "model_Web": "TAYCAN (Y1A)",
+    "TecDocid": "801122"
   },
   {
     "id": 7677,
     "marka_id": 107,
     "modeller_markalar::marka": "PORSCHE",
     "model": "TAYCAN Cross Turismo (Y1B)",
-    "model_Web": "TAYCAN Cross Turismo (Y1B)"
+    "model_Web": "TAYCAN Cross Turismo (Y1B)",
+    "TecDocid": "145130"
   },
   {
     "id": 7678,
     "marka_id": 107,
     "modeller_markalar::marka": "PORSCHE",
     "model": "TAYCAN Sport Turismo (Y1C)",
-    "model_Web": "TAYCAN Sport Turismo (Y1C)"
+    "model_Web": "TAYCAN Sport Turismo (Y1C)",
+    "TecDocid": "153386"
   },
   {
     "id": 7679,
@@ -53771,7 +54166,8 @@
     "marka_id": 108,
     "modeller_markalar::marka": "PROTON",
     "model": "EXORA",
-    "model_Web": "EXORA"
+    "model_Web": "EXORA",
+    "TecDocid": "57426"
   },
   {
     "id": 7683,
@@ -53932,14 +54328,16 @@
     "marka_id": 108,
     "modeller_markalar::marka": "PROTON",
     "model": "SAVVY",
-    "model_Web": "SAVVY"
+    "model_Web": "SAVVY",
+    "TecDocid": "31423"
   },
   {
     "id": 7706,
     "marka_id": 108,
     "modeller_markalar::marka": "PROTON",
     "model": "SUPRIMA S Hatchback",
-    "model_Web": "SUPRIMA S Hatchback"
+    "model_Web": "SUPRIMA S Hatchback",
+    "TecDocid": "108179"
   },
   {
     "id": 7707,
@@ -54177,7 +54575,8 @@
     "marka_id": 111,
     "modeller_markalar::marka": "RENAULT",
     "model": "14 (121_)",
-    "model_Web": "14 (121_)"
+    "model_Web": "14 (121_)",
+    "TecDocid": "2028"
   },
   {
     "id": 7741,
@@ -54191,7 +54590,8 @@
     "marka_id": 111,
     "modeller_markalar::marka": "RENAULT",
     "model": "16 (115_)",
-    "model_Web": "16 (115_)"
+    "model_Web": "16 (115_)",
+    "TecDocid": "7684"
   },
   {
     "id": 7743,
@@ -54387,7 +54787,8 @@
     "marka_id": 111,
     "modeller_markalar::marka": "RENAULT",
     "model": "7 (124_)",
-    "model_Web": "7 (124_)"
+    "model_Web": "7 (124_)",
+    "TecDocid": "32067"
   },
   {
     "id": 7771,
@@ -54450,7 +54851,8 @@
     "marka_id": 111,
     "modeller_markalar::marka": "RENAULT",
     "model": "AVANTIME (DE0_)",
-    "model_Web": "AVANTIME (DE0_)"
+    "model_Web": "AVANTIME (DE0_)",
+    "TecDocid": "16188"
   },
   {
     "id": 7780,
@@ -54604,7 +55006,8 @@
     "marka_id": 111,
     "modeller_markalar::marka": "RENAULT",
     "model": "ESPACE II VAN (J/S63_)",
-    "model_Web": "ESPACE II VAN (J/S63_)"
+    "model_Web": "ESPACE II VAN (J/S63_)",
+    "TecDocid": "143182"
   },
   {
     "id": 7802,
@@ -54618,7 +55021,8 @@
     "marka_id": 111,
     "modeller_markalar::marka": "RENAULT",
     "model": "ESPACE IV (JK0/1_)",
-    "model_Web": "ESPACE IV (JK0/1_)"
+    "model_Web": "ESPACE IV (JK0/1_)",
+    "TecDocid": "21576"
   },
   {
     "id": 7804,
@@ -54646,7 +55050,8 @@
     "marka_id": 111,
     "modeller_markalar::marka": "RENAULT",
     "model": "EXPRESS Box Body/MPV",
-    "model_Web": "EXPRESS Box Body/MPV"
+    "model_Web": "EXPRESS Box Body/MPV",
+    "TecDocid": "145220"
   },
   {
     "id": 7808,
@@ -54674,7 +55079,8 @@
     "marka_id": 111,
     "modeller_markalar::marka": "RENAULT",
     "model": "GRAND KANGOO III MPV",
-    "model_Web": "GRAND KANGOO III MPV"
+    "model_Web": "GRAND KANGOO III MPV",
+    "TecDocid": "157171"
   },
   {
     "id": 7812,
@@ -55087,7 +55493,8 @@
     "marka_id": 111,
     "modeller_markalar::marka": "RENAULT",
     "model": "MEGANE I Hatchback Van (SA0/1_)",
-    "model_Web": "MEGANE I Hatchback Van (SA0/1_)"
+    "model_Web": "MEGANE I Hatchback Van (SA0/1_)",
+    "TecDocid": "134596"
   },
   {
     "id": 7871,
@@ -55143,7 +55550,8 @@
     "marka_id": 111,
     "modeller_markalar::marka": "RENAULT",
     "model": "MEGANE III Combi Van (KZ0/1)",
-    "model_Web": "MEGANE III Combi Van (KZ0/1)"
+    "model_Web": "MEGANE III Combi Van (KZ0/1)",
+    "TecDocid": "134046"
   },
   {
     "id": 7879,
@@ -55206,7 +55614,8 @@
     "marka_id": 111,
     "modeller_markalar::marka": "RENAULT",
     "model": "MEGANE Scénic VAN (JA0/1_)",
-    "model_Web": "MEGANE Scénic VAN (JA0/1_)"
+    "model_Web": "MEGANE Scénic VAN (JA0/1_)",
+    "TecDocid": "143180"
   },
   {
     "id": 7888,
@@ -55248,21 +55657,24 @@
     "marka_id": 111,
     "modeller_markalar::marka": "RENAULT",
     "model": "RODEO 4 (ACL_)",
-    "model_Web": "RODEO 4 (ACL_)"
+    "model_Web": "RODEO 4 (ACL_)",
+    "TecDocid": "12594"
   },
   {
     "id": 7894,
     "marka_id": 111,
     "modeller_markalar::marka": "RENAULT",
     "model": "RODEO 5 (4D_, 5E_)",
-    "model_Web": "RODEO 5 (4D_, 5E_)"
+    "model_Web": "RODEO 5 (4D_, 5E_)",
+    "TecDocid": "12593"
   },
   {
     "id": 7895,
     "marka_id": 111,
     "modeller_markalar::marka": "RENAULT",
     "model": "RODEO 6 (ACL_)",
-    "model_Web": "RODEO 6 (ACL_)"
+    "model_Web": "RODEO 6 (ACL_)",
+    "TecDocid": "12592"
   },
   {
     "id": 7896,
@@ -55360,7 +55772,8 @@
     "marka_id": 111,
     "modeller_markalar::marka": "RENAULT",
     "model": "SPORT SPIDER (EF0_)",
-    "model_Web": "SPORT SPIDER (EF0_)"
+    "model_Web": "SPORT SPIDER (EF0_)",
+    "TecDocid": "27215"
   },
   {
     "id": 7910,
@@ -55423,7 +55836,8 @@
     "marka_id": 111,
     "modeller_markalar::marka": "RENAULT",
     "model": "THALIA II (LU_) | SYMBOL",
-    "model_Web": "THALIA II (LU_) | SYMBOL"
+    "model_Web": "THALIA II (LU_) | SYMBOL",
+    "TecDocid": "9292"
   },
   {
     "id": 7919,
@@ -55556,7 +55970,8 @@
     "marka_id": 111,
     "modeller_markalar::marka": "RENAULT",
     "model": "VEL SATIS (BJ0_)",
-    "model_Web": "VEL SATIS (BJ0_)"
+    "model_Web": "VEL SATIS (BJ0_)",
+    "TecDocid": "18611"
   },
   {
     "id": 7938,
@@ -55591,7 +56006,8 @@
     "marka_id": 111,
     "modeller_markalar::marka": "RENAULT",
     "model": "ZOE Hatchback Van (BFM_)",
-    "model_Web": "ZOE Hatchback Van (BFM_)"
+    "model_Web": "ZOE Hatchback Van (BFM_)",
+    "TecDocid": "143199"
   },
   {
     "id": 7943,
@@ -55892,14 +56308,16 @@
     "marka_id": 113,
     "modeller_markalar::marka": "ROLLS-ROYCE",
     "model": "CULLINAN (RR31)",
-    "model_Web": "CULLINAN (RR31)"
+    "model_Web": "CULLINAN (RR31)",
+    "TecDocid": "132411"
   },
   {
     "id": 7986,
     "marka_id": 113,
     "modeller_markalar::marka": "ROLLS-ROYCE",
     "model": "DAWN (RR6)",
-    "model_Web": "DAWN (RR6)"
+    "model_Web": "DAWN (RR6)",
+    "TecDocid": "117936"
   },
   {
     "id": 7987,
@@ -55913,21 +56331,24 @@
     "marka_id": 113,
     "modeller_markalar::marka": "ROLLS-ROYCE",
     "model": "GHOST I (RR4)",
-    "model_Web": "GHOST I (RR4)"
+    "model_Web": "GHOST I (RR4)",
+    "TecDocid": "100502"
   },
   {
     "id": 7989,
     "marka_id": 113,
     "modeller_markalar::marka": "ROLLS-ROYCE",
     "model": "GHOST II (RR21)",
-    "model_Web": "GHOST II (RR21)"
+    "model_Web": "GHOST II (RR21)",
+    "TecDocid": "141812"
   },
   {
     "id": 7990,
     "marka_id": 113,
     "modeller_markalar::marka": "ROLLS-ROYCE",
     "model": "GHOST II Extended Wheelbase (RR22)",
-    "model_Web": "GHOST II Extended Wheelbase (RR22)"
+    "model_Web": "GHOST II Extended Wheelbase (RR22)",
+    "TecDocid": "141813"
   },
   {
     "id": 7991,
@@ -55941,28 +56362,32 @@
     "marka_id": 113,
     "modeller_markalar::marka": "ROLLS-ROYCE",
     "model": "PHANTOM VII (RR1)",
-    "model_Web": "PHANTOM VII (RR1)"
+    "model_Web": "PHANTOM VII (RR1)",
+    "TecDocid": "17329"
   },
   {
     "id": 7993,
     "marka_id": 113,
     "modeller_markalar::marka": "ROLLS-ROYCE",
     "model": "PHANTOM VII Coupe (RR3)",
-    "model_Web": "PHANTOM VII Coupe (RR3)"
+    "model_Web": "PHANTOM VII Coupe (RR3)",
+    "TecDocid": "34893"
   },
   {
     "id": 7994,
     "marka_id": 113,
     "modeller_markalar::marka": "ROLLS-ROYCE",
     "model": "PHANTOM VII Drophead Coupe (RR2)",
-    "model_Web": "PHANTOM VII Drophead Coupe (RR2)"
+    "model_Web": "PHANTOM VII Drophead Coupe (RR2)",
+    "TecDocid": "34830"
   },
   {
     "id": 7995,
     "marka_id": 113,
     "modeller_markalar::marka": "ROLLS-ROYCE",
     "model": "PHANTOM VIII (RR11, RR12)",
-    "model_Web": "PHANTOM VIII (RR11, RR12)"
+    "model_Web": "PHANTOM VIII (RR11, RR12)",
+    "TecDocid": "128606"
   },
   {
     "id": 7996,
@@ -56067,7 +56492,8 @@
     "marka_id": 113,
     "modeller_markalar::marka": "ROLLS-ROYCE",
     "model": "WRAITH (RR5)",
-    "model_Web": "WRAITH (RR5)"
+    "model_Web": "WRAITH (RR5)",
+    "TecDocid": "25931"
   },
   {
     "id": 8011,
@@ -56172,7 +56598,8 @@
     "marka_id": 114,
     "modeller_markalar::marka": "ROVER",
     "model": "400 II (XW)",
-    "model_Web": "400 II (XW)"
+    "model_Web": "400 II (XW)",
+    "TecDocid": "8617"
   },
   {
     "id": 8026,
@@ -56221,7 +56648,8 @@
     "marka_id": 114,
     "modeller_markalar::marka": "ROVER",
     "model": "600 I (RH)",
-    "model_Web": "600 I (RH)"
+    "model_Web": "600 I (RH)",
+    "TecDocid": "5588"
   },
   {
     "id": 8033,
@@ -56249,35 +56677,40 @@
     "marka_id": 114,
     "modeller_markalar::marka": "ROVER",
     "model": "75 (RJ)",
-    "model_Web": "75 (RJ)"
+    "model_Web": "75 (RJ)",
+    "TecDocid": "10439"
   },
   {
     "id": 8037,
     "marka_id": 114,
     "modeller_markalar::marka": "ROVER",
     "model": "75 I Tourer (RJ)",
-    "model_Web": "75 I Tourer (RJ)"
+    "model_Web": "75 I Tourer (RJ)",
+    "TecDocid": "15906"
   },
   {
     "id": 8038,
     "marka_id": 114,
     "modeller_markalar::marka": "ROVER",
     "model": "800 (XS)",
-    "model_Web": "800 (XS)"
+    "model_Web": "800 (XS)",
+    "TecDocid": "121925"
   },
   {
     "id": 8039,
     "marka_id": 114,
     "modeller_markalar::marka": "ROVER",
     "model": "800 Coupe",
-    "model_Web": "800 Coupe"
+    "model_Web": "800 Coupe",
+    "TecDocid": "125004"
   },
   {
     "id": 8040,
     "marka_id": 114,
     "modeller_markalar::marka": "ROVER",
     "model": "800 Hatchback (XS)",
-    "model_Web": "800 Hatchback (XS)"
+    "model_Web": "800 Hatchback (XS)",
+    "TecDocid": "28291"
   },
   {
     "id": 8041,
@@ -56662,14 +57095,16 @@
     "marka_id": 118,
     "modeller_markalar::marka": "SEAT",
     "model": "128 (128A)",
-    "model_Web": "128 (128A)"
+    "model_Web": "128 (128A)",
+    "TecDocid": "17544"
   },
   {
     "id": 8096,
     "marka_id": 118,
     "modeller_markalar::marka": "SEAT",
     "model": "131 (131A)",
-    "model_Web": "131 (131A)"
+    "model_Web": "131 (131A)",
+    "TecDocid": "8626"
   },
   {
     "id": 8097,
@@ -56683,7 +57118,8 @@
     "marka_id": 118,
     "modeller_markalar::marka": "SEAT",
     "model": "133 (133A)",
-    "model_Web": "133 (133A)"
+    "model_Web": "133 (133A)",
+    "TecDocid": "2893"
   },
   {
     "id": 8099,
@@ -57138,7 +57574,8 @@
     "marka_id": 119,
     "modeller_markalar::marka": "SKODA",
     "model": "E-CITIGO (NE1)",
-    "model_Web": "E-CITIGO (NE1)"
+    "model_Web": "E-CITIGO (NE1)",
+    "TecDocid": "140638"
   },
   {
     "id": 8164,
@@ -57600,21 +58037,24 @@
     "marka_id": 120,
     "modeller_markalar::marka": "SMART",
     "model": "CABRIO (450)",
-    "model_Web": "CABRIO (450)"
+    "model_Web": "CABRIO (450)",
+    "TecDocid": "17563"
   },
   {
     "id": 8230,
     "marka_id": 120,
     "modeller_markalar::marka": "SMART",
     "model": "CITY-COUPE (450)",
-    "model_Web": "CITY-COUPE (450)"
+    "model_Web": "CITY-COUPE (450)",
+    "TecDocid": "17564"
   },
   {
     "id": 8231,
     "marka_id": 120,
     "modeller_markalar::marka": "SMART",
     "model": "CROSSBLADE (450)",
-    "model_Web": "CROSSBLADE (450)"
+    "model_Web": "CROSSBLADE (450)",
+    "TecDocid": "16616"
   },
   {
     "id": 8232,
@@ -57642,14 +58082,16 @@
     "marka_id": 120,
     "modeller_markalar::marka": "SMART",
     "model": "FORTWO Cabrio (450)",
-    "model_Web": "FORTWO Cabrio (450)"
+    "model_Web": "FORTWO Cabrio (450)",
+    "TecDocid": "121536"
   },
   {
     "id": 8236,
     "marka_id": 120,
     "modeller_markalar::marka": "SMART",
     "model": "FORTWO Cabrio (451)",
-    "model_Web": "FORTWO Cabrio (451)"
+    "model_Web": "FORTWO Cabrio (451)",
+    "TecDocid": "22479"
   },
   {
     "id": 8237,
@@ -57663,14 +58105,16 @@
     "marka_id": 120,
     "modeller_markalar::marka": "SMART",
     "model": "FORTWO Coupe (450)",
-    "model_Web": "FORTWO Coupe (450)"
+    "model_Web": "FORTWO Coupe (450)",
+    "TecDocid": "27992"
   },
   {
     "id": 8239,
     "marka_id": 120,
     "modeller_markalar::marka": "SMART",
     "model": "FORTWO Coupe (451)",
-    "model_Web": "FORTWO Coupe (451)"
+    "model_Web": "FORTWO Coupe (451)",
+    "TecDocid": "22476"
   },
   {
     "id": 8240,
@@ -57684,14 +58128,16 @@
     "marka_id": 120,
     "modeller_markalar::marka": "SMART",
     "model": "ROADSTER (452)",
-    "model_Web": "ROADSTER (452)"
+    "model_Web": "ROADSTER (452)",
+    "TecDocid": "17202"
   },
   {
     "id": 8242,
     "marka_id": 120,
     "modeller_markalar::marka": "SMART",
     "model": "ROADSTER Coupe (452)",
-    "model_Web": "ROADSTER Coupe (452)"
+    "model_Web": "ROADSTER Coupe (452)",
+    "TecDocid": "23279"
   },
   {
     "id": 8243,
@@ -57768,7 +58214,8 @@
     "marka_id": 121,
     "modeller_markalar::marka": "SSANGYONG",
     "model": "KORANDO (K5, K9)",
-    "model_Web": "KORANDO (K5, K9)"
+    "model_Web": "KORANDO (K5, K9)",
+    "TecDocid": "8160"
   },
   {
     "id": 8254,
@@ -57824,21 +58271,24 @@
     "marka_id": 121,
     "modeller_markalar::marka": "SSANGYONG",
     "model": "MUSSO (QK) | REXTON SPORTS",
-    "model_Web": "MUSSO (QK) | REXTON SPORTS"
+    "model_Web": "MUSSO (QK) | REXTON SPORTS",
+    "TecDocid": "130589"
   },
   {
     "id": 8262,
     "marka_id": 121,
     "modeller_markalar::marka": "SSANGYONG",
     "model": "MUSSO GRAND | RHINO XL | REXTON SPORTS KHAN | REXTON SPORTS XL",
-    "model_Web": "MUSSO GRAND | RHINO XL | REXTON SPORTS KHAN | REXTON SPORTS XL"
+    "model_Web": "MUSSO GRAND | RHINO XL | REXTON SPORTS KHAN | REXTON SPORTS XL",
+    "TecDocid": "136992"
   },
   {
     "id": 8263,
     "marka_id": 121,
     "modeller_markalar::marka": "SSANGYONG",
     "model": "MUSSO SPORTS",
-    "model_Web": "MUSSO SPORTS"
+    "model_Web": "MUSSO SPORTS",
+    "TecDocid": "19569"
   },
   {
     "id": 8264,
@@ -57852,7 +58302,8 @@
     "marka_id": 121,
     "modeller_markalar::marka": "SSANGYONG",
     "model": "REXTON (Y400, Y450)",
-    "model_Web": "REXTON (Y400, Y450)"
+    "model_Web": "REXTON (Y400, Y450)",
+    "TecDocid": "155607"
   },
   {
     "id": 8266,
@@ -57873,7 +58324,8 @@
     "marka_id": 121,
     "modeller_markalar::marka": "SSANGYONG",
     "model": "REXTON VAN (Y400)",
-    "model_Web": "REXTON VAN (Y400)"
+    "model_Web": "REXTON VAN (Y400)",
+    "TecDocid": "142961"
   },
   {
     "id": 8269,
@@ -57894,7 +58346,8 @@
     "marka_id": 121,
     "modeller_markalar::marka": "SSANGYONG",
     "model": "RODIUS I | STAVIC",
-    "model_Web": "RODIUS I | STAVIC"
+    "model_Web": "RODIUS I | STAVIC",
+    "TecDocid": "18683"
   },
   {
     "id": 8272,
@@ -57908,14 +58361,16 @@
     "marka_id": 121,
     "modeller_markalar::marka": "SSANGYONG",
     "model": "RODIUS II VAN (CA1)",
-    "model_Web": "RODIUS II VAN (CA1)"
+    "model_Web": "RODIUS II VAN (CA1)",
+    "TecDocid": "142966"
   },
   {
     "id": 8274,
     "marka_id": 121,
     "modeller_markalar::marka": "SSANGYONG",
     "model": "STAVIC",
-    "model_Web": "STAVIC"
+    "model_Web": "STAVIC",
+    "TecDocid": "30542"
   },
   {
     "id": 8275,
@@ -57929,7 +58384,8 @@
     "marka_id": 121,
     "modeller_markalar::marka": "SSANGYONG",
     "model": "TIVOLI GRAND",
-    "model_Web": "TIVOLI GRAND"
+    "model_Web": "TIVOLI GRAND",
+    "TecDocid": "145780"
   },
   {
     "id": 8277,
@@ -57978,14 +58434,16 @@
     "marka_id": 122,
     "modeller_markalar::marka": "STREETSCOOTER",
     "model": "WORK Platform/Chassis",
-    "model_Web": "WORK Platform/Chassis"
+    "model_Web": "WORK Platform/Chassis",
+    "TecDocid": "116534"
   },
   {
     "id": 8284,
     "marka_id": 122,
     "modeller_markalar::marka": "STREETSCOOTER",
     "model": "WORK Van",
-    "model_Web": "WORK Van"
+    "model_Web": "WORK Van",
+    "TecDocid": "100786"
   },
   {
     "id": 8285,
@@ -58090,14 +58548,16 @@
     "marka_id": 123,
     "modeller_markalar::marka": "SUBARU",
     "model": "FORESTER (SG_)",
-    "model_Web": "FORESTER (SG_)"
+    "model_Web": "FORESTER (SG_)",
+    "TecDocid": "16998"
   },
   {
     "id": 8300,
     "marka_id": 123,
     "modeller_markalar::marka": "SUBARU",
     "model": "FORESTER (SH_)",
-    "model_Web": "FORESTER (SH_)"
+    "model_Web": "FORESTER (SH_)",
+    "TecDocid": "30814"
   },
   {
     "id": 8301,
@@ -58153,7 +58613,8 @@
     "marka_id": 123,
     "modeller_markalar::marka": "SUBARU",
     "model": "IMPREZA Hatchback (GP_) | IMPREZA SPORT",
-    "model_Web": "IMPREZA Hatchback (GP_) | IMPREZA SPORT"
+    "model_Web": "IMPREZA Hatchback (GP_) | IMPREZA SPORT",
+    "TecDocid": "59424"
   },
   {
     "id": 8309,
@@ -58335,7 +58796,8 @@
     "marka_id": 123,
     "modeller_markalar::marka": "SUBARU",
     "model": "LEGACY VI (BN) | B4 | LIBERTY | LEGACY B4",
-    "model_Web": "LEGACY VI (BN) | B4 | LIBERTY | LEGACY B4"
+    "model_Web": "LEGACY VI (BN) | B4 | LIBERTY | LEGACY B4",
+    "TecDocid": "112809"
   },
   {
     "id": 8335,
@@ -58447,7 +58909,8 @@
     "marka_id": 123,
     "modeller_markalar::marka": "SUBARU",
     "model": "LIBERO Bus (E10, E12) | VANILLE | SUMO | E-SERIES",
-    "model_Web": "LIBERO Bus (E10, E12) | VANILLE | SUMO | E-SERIES"
+    "model_Web": "LIBERO Bus (E10, E12) | VANILLE | SUMO | E-SERIES",
+    "TecDocid": "4415"
   },
   {
     "id": 8351,
@@ -58846,7 +59309,8 @@
     "marka_id": 124,
     "modeller_markalar::marka": "SUZUKI",
     "model": "ALTO I (0S)",
-    "model_Web": "ALTO I (0S)"
+    "model_Web": "ALTO I (0S)",
+    "TecDocid": "4417"
   },
   {
     "id": 8408,
@@ -58860,7 +59324,8 @@
     "marka_id": 124,
     "modeller_markalar::marka": "SUZUKI",
     "model": "ALTO III (EC)",
-    "model_Web": "ALTO III (EC)"
+    "model_Web": "ALTO III (EC)",
+    "TecDocid": "112934"
   },
   {
     "id": 8410,
@@ -58993,7 +59458,8 @@
     "marka_id": 124,
     "modeller_markalar::marka": "SUZUKI",
     "model": "BALENO (FW, EW)",
-    "model_Web": "BALENO (FW, EW)"
+    "model_Web": "BALENO (FW, EW)",
+    "TecDocid": "118577"
   },
   {
     "id": 8429,
@@ -59119,7 +59585,8 @@
     "marka_id": 124,
     "modeller_markalar::marka": "SUZUKI",
     "model": "CARRY Van (ED)",
-    "model_Web": "CARRY Van (ED)"
+    "model_Web": "CARRY Van (ED)",
+    "TecDocid": "2405"
   },
   {
     "id": 8447,
@@ -59609,7 +60076,8 @@
     "marka_id": 124,
     "modeller_markalar::marka": "SUZUKI",
     "model": "KIZASHI (FR)",
-    "model_Web": "KIZASHI (FR)"
+    "model_Web": "KIZASHI (FR)",
+    "TecDocid": "34970"
   },
   {
     "id": 8517,
@@ -60547,14 +61015,16 @@
     "marka_id": 125,
     "modeller_markalar::marka": "TALBOT",
     "model": "MATRA BAGHEERA",
-    "model_Web": "MATRA BAGHEERA"
+    "model_Web": "MATRA BAGHEERA",
+    "TecDocid": "7160"
   },
   {
     "id": 8651,
     "marka_id": 125,
     "modeller_markalar::marka": "TALBOT",
     "model": "MURENA",
-    "model_Web": "MURENA"
+    "model_Web": "MURENA",
+    "TecDocid": "7098"
   },
   {
     "id": 8652,
@@ -60624,7 +61094,8 @@
     "marka_id": 125,
     "modeller_markalar::marka": "TALBOT",
     "model": "SIMCA 1301 Tourisme",
-    "model_Web": "SIMCA 1301 Tourisme"
+    "model_Web": "SIMCA 1301 Tourisme",
+    "TecDocid": "7134"
   },
   {
     "id": 8662,
@@ -60883,7 +61354,8 @@
     "marka_id": 126,
     "modeller_markalar::marka": "TATA",
     "model": "LOADBETA",
-    "model_Web": "LOADBETA"
+    "model_Web": "LOADBETA",
+    "TecDocid": "18441"
   },
   {
     "id": 8699,
@@ -61219,7 +61691,8 @@
     "marka_id": 127,
     "modeller_markalar::marka": "TESLA",
     "model": "ROADSTER (DS)",
-    "model_Web": "ROADSTER (DS)"
+    "model_Web": "ROADSTER (DS)",
+    "TecDocid": "32131"
   },
   {
     "id": 8747,
@@ -61324,7 +61797,8 @@
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "4 RUNNER III (_N18_) | ZACE SURF | HILUX SURF",
-    "model_Web": "4 RUNNER III (_N18_) | ZACE SURF | HILUX SURF"
+    "model_Web": "4 RUNNER III (_N18_) | ZACE SURF | HILUX SURF",
+    "TecDocid": "30126"
   },
   {
     "id": 8762,
@@ -61380,7 +61854,8 @@
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "ALPHARD / VELLFIRE (_H2_)",
-    "model_Web": "ALPHARD / VELLFIRE (_H2_)"
+    "model_Web": "ALPHARD / VELLFIRE (_H2_)",
+    "TecDocid": "109713"
   },
   {
     "id": 8770,
@@ -61401,7 +61876,8 @@
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "ALPHARD I (_H1_)",
-    "model_Web": "ALPHARD I (_H1_)"
+    "model_Web": "ALPHARD I (_H1_)",
+    "TecDocid": "25589"
   },
   {
     "id": 8773,
@@ -61814,21 +62290,24 @@
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "CAMRY Estate (_V2_)",
-    "model_Web": "CAMRY Estate (_V2_)"
+    "model_Web": "CAMRY Estate (_V2_)",
+    "TecDocid": "15726"
   },
   {
     "id": 8832,
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "CAMRY Liftback (_V1_)",
-    "model_Web": "CAMRY Liftback (_V1_)"
+    "model_Web": "CAMRY Liftback (_V1_)",
+    "TecDocid": "3538"
   },
   {
     "id": 8833,
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "CAMRY Saloon (_V1_)",
-    "model_Web": "CAMRY Saloon (_V1_)"
+    "model_Web": "CAMRY Saloon (_V1_)",
+    "TecDocid": "3539"
   },
   {
     "id": 8834,
@@ -61926,7 +62405,8 @@
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "CARINA II (TA4_, TA6_)",
-    "model_Web": "CARINA II (TA4_, TA6_)"
+    "model_Web": "CARINA II (TA4_, TA6_)",
+    "TecDocid": "10521"
   },
   {
     "id": 8848,
@@ -61947,35 +62427,40 @@
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "CARINA IV (_T15_)",
-    "model_Web": "CARINA IV (_T15_)"
+    "model_Web": "CARINA IV (_T15_)",
+    "TecDocid": "3517"
   },
   {
     "id": 8851,
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "CARINA IV Saloon (_T15_)",
-    "model_Web": "CARINA IV Saloon (_T15_)"
+    "model_Web": "CARINA IV Saloon (_T15_)",
+    "TecDocid": "3516"
   },
   {
     "id": 8852,
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "CARINA V (_T17_)",
-    "model_Web": "CARINA V (_T17_)"
+    "model_Web": "CARINA V (_T17_)",
+    "TecDocid": "3526"
   },
   {
     "id": 8853,
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "CARINA V Estate (_T17_)",
-    "model_Web": "CARINA V Estate (_T17_)"
+    "model_Web": "CARINA V Estate (_T17_)",
+    "TecDocid": "3535"
   },
   {
     "id": 8854,
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "CARINA V Saloon (_T17_)",
-    "model_Web": "CARINA V Saloon (_T17_)"
+    "model_Web": "CARINA V Saloon (_T17_)",
+    "TecDocid": "3525"
   },
   {
     "id": 8855,
@@ -62024,7 +62509,8 @@
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "CELICA (_A4_)",
-    "model_Web": "CELICA (_A4_)"
+    "model_Web": "CELICA (_A4_)",
+    "TecDocid": "3568"
   },
   {
     "id": 8862,
@@ -62038,7 +62524,8 @@
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "CELICA Convertible (_T16_)",
-    "model_Web": "CELICA Convertible (_T16_)"
+    "model_Web": "CELICA Convertible (_T16_)",
+    "TecDocid": "3583"
   },
   {
     "id": 8864,
@@ -62059,14 +62546,16 @@
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "CELICA Coupe (_A2_)",
-    "model_Web": "CELICA Coupe (_A2_)"
+    "model_Web": "CELICA Coupe (_A2_)",
+    "TecDocid": "14320"
   },
   {
     "id": 8867,
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "CELICA Coupe (_A4_)",
-    "model_Web": "CELICA Coupe (_A4_)"
+    "model_Web": "CELICA Coupe (_A4_)",
+    "TecDocid": "6713"
   },
   {
     "id": 8868,
@@ -62080,14 +62569,16 @@
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "CELICA Coupe (_T16_)",
-    "model_Web": "CELICA Coupe (_T16_)"
+    "model_Web": "CELICA Coupe (_T16_)",
+    "TecDocid": "6717"
   },
   {
     "id": 8870,
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "CELICA Coupe (_T18_)",
-    "model_Web": "CELICA Coupe (_T18_)"
+    "model_Web": "CELICA Coupe (_T18_)",
+    "TecDocid": "3615"
   },
   {
     "id": 8871,
@@ -62115,7 +62606,8 @@
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "CELICA Hatchback (_T16_)",
-    "model_Web": "CELICA Hatchback (_T16_)"
+    "model_Web": "CELICA Hatchback (_T16_)",
+    "TecDocid": "6718"
   },
   {
     "id": 8875,
@@ -62213,7 +62705,8 @@
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "C-HR (_X2_, _H2_)",
-    "model_Web": "C-HR (_X2_, _H2_)"
+    "model_Web": "C-HR (_X2_, _H2_)",
+    "TecDocid": "155851"
   },
   {
     "id": 8889,
@@ -62535,7 +63028,8 @@
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "COROLLA LEVIN Coupe (_E10_)",
-    "model_Web": "COROLLA LEVIN Coupe (_E10_)"
+    "model_Web": "COROLLA LEVIN Coupe (_E10_)",
+    "TecDocid": "22830"
   },
   {
     "id": 8935,
@@ -62822,7 +63316,8 @@
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "CORONA Saloon (_T17_)",
-    "model_Web": "CORONA Saloon (_T17_)"
+    "model_Web": "CORONA Saloon (_T17_)",
+    "TecDocid": "28051"
   },
   {
     "id": 8976,
@@ -62927,7 +63422,8 @@
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "CRESSIDA Saloon (_X7_)",
-    "model_Web": "CRESSIDA Saloon (_X7_)"
+    "model_Web": "CRESSIDA Saloon (_X7_)",
+    "TecDocid": "59447"
   },
   {
     "id": 8991,
@@ -63018,7 +63514,8 @@
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "CROWN (_S1_)",
-    "model_Web": "CROWN (_S1_)"
+    "model_Web": "CROWN (_S1_)",
+    "TecDocid": "6753"
   },
   {
     "id": 9004,
@@ -63732,7 +64229,8 @@
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "HILUX VII Platform/Chassis (_N1_, _N2_)",
-    "model_Web": "HILUX VII Platform/Chassis (_N1_, _N2_)"
+    "model_Web": "HILUX VII Platform/Chassis (_N1_, _N2_)",
+    "TecDocid": "58462"
   },
   {
     "id": 9106,
@@ -63914,7 +64412,8 @@
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "LAND CRUISER Hardtop (_J7_)",
-    "model_Web": "LAND CRUISER Hardtop (_J7_)"
+    "model_Web": "LAND CRUISER Hardtop (_J7_)",
+    "TecDocid": "3603"
   },
   {
     "id": 9132,
@@ -63928,7 +64427,8 @@
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "LAND CRUISER Pick-up (_J7_, _JL7_)",
-    "model_Web": "LAND CRUISER Pick-up (_J7_, _JL7_)"
+    "model_Web": "LAND CRUISER Pick-up (_J7_, _JL7_)",
+    "TecDocid": "34680"
   },
   {
     "id": 9134,
@@ -64180,7 +64680,8 @@
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "MARK II VIII Saloon (_X10_)",
-    "model_Web": "MARK II VIII Saloon (_X10_)"
+    "model_Web": "MARK II VIII Saloon (_X10_)",
+    "TecDocid": "26194"
   },
   {
     "id": 9170,
@@ -64222,7 +64723,8 @@
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "MATRIX (_E14_)",
-    "model_Web": "MATRIX (_E14_)"
+    "model_Web": "MATRIX (_E14_)",
+    "TecDocid": "57836"
   },
   {
     "id": 9176,
@@ -64257,14 +64759,16 @@
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "MR2 I (AW1_)",
-    "model_Web": "MR2 I (AW1_)"
+    "model_Web": "MR2 I (AW1_)",
+    "TecDocid": "108446"
   },
   {
     "id": 9181,
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "MR2 II (SW2_)",
-    "model_Web": "MR2 II (SW2_)"
+    "model_Web": "MR2 II (SW2_)",
+    "TecDocid": "124578"
   },
   {
     "id": 9182,
@@ -64327,21 +64831,24 @@
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "PASEO Convertible (_L5_) | CYNOS",
-    "model_Web": "PASEO Convertible (_L5_) | CYNOS"
+    "model_Web": "PASEO Convertible (_L5_) | CYNOS",
+    "TecDocid": "9568"
   },
   {
     "id": 9191,
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "PASEO Coupe (_L5_) | CYNOS",
-    "model_Web": "PASEO Coupe (_L5_) | CYNOS"
+    "model_Web": "PASEO Coupe (_L5_) | CYNOS",
+    "TecDocid": "128833"
   },
   {
     "id": 9192,
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "PASEO Coupe (EL44_) | CYNOS",
-    "model_Web": "PASEO Coupe (EL44_) | CYNOS"
+    "model_Web": "PASEO Coupe (EL44_) | CYNOS",
+    "TecDocid": "26226"
   },
   {
     "id": 9193,
@@ -64390,7 +64897,8 @@
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "PICNIC (_XM1_) | IPSUM",
-    "model_Web": "PICNIC (_XM1_) | IPSUM"
+    "model_Web": "PICNIC (_XM1_) | IPSUM",
+    "TecDocid": "127083"
   },
   {
     "id": 9200,
@@ -64488,7 +64996,8 @@
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "PREVIA III (_R2_, _R5_) | ESTIMA | TARAGO",
-    "model_Web": "PREVIA III (_R2_, _R5_) | ESTIMA | TARAGO"
+    "model_Web": "PREVIA III (_R2_, _R5_) | ESTIMA | TARAGO",
+    "TecDocid": "25973"
   },
   {
     "id": 9214,
@@ -64523,7 +65032,8 @@
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "PRIUS Liftback (_W2_)",
-    "model_Web": "PRIUS Liftback (_W2_)"
+    "model_Web": "PRIUS Liftback (_W2_)",
+    "TecDocid": "17711"
   },
   {
     "id": 9219,
@@ -64551,7 +65061,8 @@
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "PRIUS Saloon (_W1_)",
-    "model_Web": "PRIUS Saloon (_W1_)"
+    "model_Web": "PRIUS Saloon (_W1_)",
+    "TecDocid": "49415"
   },
   {
     "id": 9223,
@@ -64698,14 +65209,16 @@
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "RAV 4 I (_A1_)",
-    "model_Web": "RAV 4 I (_A1_)"
+    "model_Web": "RAV 4 I (_A1_)",
+    "TecDocid": "109624"
   },
   {
     "id": 9244,
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "RAV 4 I Cabrio (_A1_)",
-    "model_Web": "RAV 4 I Cabrio (_A1_)"
+    "model_Web": "RAV 4 I Cabrio (_A1_)",
+    "TecDocid": "9565"
   },
   {
     "id": 9245,
@@ -64964,7 +65477,8 @@
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "SOLARA Coupe (_V2_)",
-    "model_Web": "SOLARA Coupe (_V2_)"
+    "model_Web": "SOLARA Coupe (_V2_)",
+    "TecDocid": "22996"
   },
   {
     "id": 9282,
@@ -65111,14 +65625,16 @@
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "STARLET (_P8_)",
-    "model_Web": "STARLET (_P8_)"
+    "model_Web": "STARLET (_P8_)",
+    "TecDocid": "15991"
   },
   {
     "id": 9303,
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "STARLET (_P9_)",
-    "model_Web": "STARLET (_P9_)"
+    "model_Web": "STARLET (_P9_)",
+    "TecDocid": "5400"
   },
   {
     "id": 9304,
@@ -65202,7 +65718,8 @@
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "SUPRA (_A7_)",
-    "model_Web": "SUPRA (_A7_)"
+    "model_Web": "SUPRA (_A7_)",
+    "TecDocid": "21355"
   },
   {
     "id": 9316,
@@ -65286,14 +65803,16 @@
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "TERCEL (_L1_, _L2_)",
-    "model_Web": "TERCEL (_L1_, _L2_)"
+    "model_Web": "TERCEL (_L1_, _L2_)",
+    "TecDocid": "3537"
   },
   {
     "id": 9328,
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "TERCEL (AL2_)",
-    "model_Web": "TERCEL (AL2_)"
+    "model_Web": "TERCEL (AL2_)",
+    "TecDocid": "3614"
   },
   {
     "id": 9329,
@@ -65517,7 +66036,8 @@
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "URBAN CRUISER (_P1_) | IST",
-    "model_Web": "URBAN CRUISER (_P1_) | IST"
+    "model_Web": "URBAN CRUISER (_P1_) | IST",
+    "TecDocid": "32024"
   },
   {
     "id": 9361,
@@ -67162,21 +67682,24 @@
     "marka_id": 133,
     "modeller_markalar::marka": "VOLVO",
     "model": "140 (142, 144)",
-    "model_Web": "140 (142, 144)"
+    "model_Web": "140 (142, 144)",
+    "TecDocid": "6277"
   },
   {
     "id": 9596,
     "marka_id": 133,
     "modeller_markalar::marka": "VOLVO",
     "model": "140 Estate (145)",
-    "model_Web": "140 Estate (145)"
+    "model_Web": "140 Estate (145)",
+    "TecDocid": "17027"
   },
   {
     "id": 9597,
     "marka_id": 133,
     "modeller_markalar::marka": "VOLVO",
     "model": "164 (164)",
-    "model_Web": "164 (164)"
+    "model_Web": "164 (164)",
+    "TecDocid": "6247"
   },
   {
     "id": 9598,
@@ -67218,14 +67741,16 @@
     "marka_id": 133,
     "modeller_markalar::marka": "VOLVO",
     "model": "340-360 (343, 345)",
-    "model_Web": "340-360 (343, 345)"
+    "model_Web": "340-360 (343, 345)",
+    "TecDocid": "2780"
   },
   {
     "id": 9604,
     "marka_id": 133,
     "modeller_markalar::marka": "VOLVO",
     "model": "340-360 Saloon (344)",
-    "model_Web": "340-360 Saloon (344)"
+    "model_Web": "340-360 Saloon (344)",
+    "TecDocid": "6333"
   },
   {
     "id": 9605,
@@ -67617,7 +68142,8 @@
     "marka_id": 133,
     "modeller_markalar::marka": "VOLVO",
     "model": "C40 (539)",
-    "model_Web": "C40 (539)"
+    "model_Web": "C40 (539)",
+    "TecDocid": "147561"
   },
   {
     "id": 9661,
@@ -67645,7 +68171,8 @@
     "marka_id": 133,
     "modeller_markalar::marka": "VOLVO",
     "model": "EC40 (539)",
-    "model_Web": "EC40 (539)"
+    "model_Web": "EC40 (539)",
+    "TecDocid": "157804"
   },
   {
     "id": 9665,
@@ -67673,7 +68200,8 @@
     "marka_id": 133,
     "modeller_markalar::marka": "VOLVO",
     "model": "EX40 (536)",
-    "model_Web": "EX40 (536)"
+    "model_Web": "EX40 (536)",
+    "TecDocid": "157808"
   },
   {
     "id": 9669,
@@ -67995,14 +68523,16 @@
     "marka_id": 133,
     "modeller_markalar::marka": "VOLVO",
     "model": "P 122 S AMAZON",
-    "model_Web": "P 122 S AMAZON"
+    "model_Web": "P 122 S AMAZON",
+    "TecDocid": "6207"
   },
   {
     "id": 9715,
     "marka_id": 133,
     "modeller_markalar::marka": "VOLVO",
     "model": "P 122 S AMAZON Estate (120, 121)",
-    "model_Web": "P 122 S AMAZON Estate (120, 121)"
+    "model_Web": "P 122 S AMAZON Estate (120, 121)",
+    "TecDocid": "6378"
   },
   {
     "id": 9716,
@@ -68100,7 +68630,8 @@
     "marka_id": 133,
     "modeller_markalar::marka": "VOLVO",
     "model": "S60 III (224)",
-    "model_Web": "S60 III (224)"
+    "model_Web": "S60 III (224)",
+    "TecDocid": "143402"
   },
   {
     "id": 9730,
@@ -68135,7 +68666,8 @@
     "marka_id": 133,
     "modeller_markalar::marka": "VOLVO",
     "model": "S90 II (234)",
-    "model_Web": "S90 II (234)"
+    "model_Web": "S90 II (234)",
+    "TecDocid": "126546"
   },
   {
     "id": 9735,
@@ -68205,14 +68737,16 @@
     "marka_id": 133,
     "modeller_markalar::marka": "VOLVO",
     "model": "V60 II (225)",
-    "model_Web": "V60 II (225)"
+    "model_Web": "V60 II (225)",
+    "TecDocid": "136387"
   },
   {
     "id": 9745,
     "marka_id": 133,
     "modeller_markalar::marka": "VOLVO",
     "model": "V60 II Cross Country (227)",
-    "model_Web": "V60 II Cross Country (227)"
+    "model_Web": "V60 II Cross Country (227)",
+    "TecDocid": "145169"
   },
   {
     "id": 9746,
@@ -68254,14 +68788,16 @@
     "marka_id": 133,
     "modeller_markalar::marka": "VOLVO",
     "model": "V90 II Cross Country (236)",
-    "model_Web": "V90 II Cross Country (236)"
+    "model_Web": "V90 II Cross Country (236)",
+    "TecDocid": "147971"
   },
   {
     "id": 9752,
     "marka_id": 133,
     "modeller_markalar::marka": "VOLVO",
     "model": "V90 II Estate (235)",
-    "model_Web": "V90 II Estate (235)"
+    "model_Web": "V90 II Estate (235)",
+    "TecDocid": "139799"
   },
   {
     "id": 9753,
@@ -68373,7 +68909,8 @@
     "marka_id": 133,
     "modeller_markalar::marka": "VOLVO",
     "model": "XC60 II (246)",
-    "model_Web": "XC60 II (246)"
+    "model_Web": "XC60 II (246)",
+    "TecDocid": "147101"
   },
   {
     "id": 9769,
@@ -68401,7 +68938,8 @@
     "marka_id": 133,
     "modeller_markalar::marka": "VOLVO",
     "model": "XC90 I (275)",
-    "model_Web": "XC90 I (275)"
+    "model_Web": "XC90 I (275)",
+    "TecDocid": "128128"
   },
   {
     "id": 9773,
@@ -68415,7 +68953,8 @@
     "marka_id": 133,
     "modeller_markalar::marka": "VOLVO",
     "model": "XC90 II (256)",
-    "model_Web": "XC90 II (256)"
+    "model_Web": "XC90 II (256)",
+    "TecDocid": "139264"
   },
   {
     "id": 9775,
@@ -68737,7 +69276,8 @@
     "marka_id": 134,
     "modeller_markalar::marka": "VW",
     "model": "CALIFORNIA T4 Camper (7DJ, 7DK, 70J)",
-    "model_Web": "CALIFORNIA T4 Camper (7DJ, 7DK, 70J)"
+    "model_Web": "CALIFORNIA T4 Camper (7DJ, 7DK, 70J)",
+    "TecDocid": "145822"
   },
   {
     "id": 9821,
@@ -68758,7 +69298,8 @@
     "marka_id": 134,
     "modeller_markalar::marka": "VW",
     "model": "CALIFORNIA T7 Camper (STC)",
-    "model_Web": "CALIFORNIA T7 Camper (STC)"
+    "model_Web": "CALIFORNIA T7 Camper (STC)",
+    "TecDocid": "800951"
   },
   {
     "id": 9824,
@@ -69178,7 +69719,8 @@
     "marka_id": 134,
     "modeller_markalar::marka": "VW",
     "model": "GOLF VAN VI Variant (AJ5)",
-    "model_Web": "GOLF VAN VI Variant (AJ5)"
+    "model_Web": "GOLF VAN VI Variant (AJ5)",
+    "TecDocid": "133526"
   },
   {
     "id": 9884,
@@ -69514,14 +70056,16 @@
     "marka_id": 134,
     "modeller_markalar::marka": "VW",
     "model": "LT 28-35 I Platform/Chassis (281-363) | LT28-50",
-    "model_Web": "LT 28-35 I Platform/Chassis (281-363) | LT28-50"
+    "model_Web": "LT 28-35 I Platform/Chassis (281-363) | LT28-50",
+    "TecDocid": "6370"
   },
   {
     "id": 9932,
     "marka_id": 134,
     "modeller_markalar::marka": "VW",
     "model": "LT 28-35 I Van (281-363) | LT28-50",
-    "model_Web": "LT 28-35 I Van (281-363) | LT28-50"
+    "model_Web": "LT 28-35 I Van (281-363) | LT28-50",
+    "TecDocid": "6366"
   },
   {
     "id": 9933,
@@ -69549,14 +70093,16 @@
     "marka_id": 134,
     "modeller_markalar::marka": "VW",
     "model": "LT 40-55 I Platform/Chassis (293-909)",
-    "model_Web": "LT 40-55 I Platform/Chassis (293-909)"
+    "model_Web": "LT 40-55 I Platform/Chassis (293-909)",
+    "TecDocid": "27942"
   },
   {
     "id": 9937,
     "marka_id": 134,
     "modeller_markalar::marka": "VW",
     "model": "LT 40-55 I Van (291-512)",
-    "model_Web": "LT 40-55 I Van (291-512)"
+    "model_Web": "LT 40-55 I Van (291-512)",
+    "TecDocid": "14116"
   },
   {
     "id": 9938,
@@ -69738,7 +70284,8 @@
     "marka_id": 134,
     "modeller_markalar::marka": "VW",
     "model": "PASSAT B3/B4 (315, 3A5)",
-    "model_Web": "PASSAT B3/B4 (315, 3A5)"
+    "model_Web": "PASSAT B3/B4 (315, 3A5)",
+    "TecDocid": "136933"
   },
   {
     "id": 9964,
@@ -69871,7 +70418,8 @@
     "marka_id": 134,
     "modeller_markalar::marka": "VW",
     "model": "PHAETON (3D1, 3D2, 3D3, 3D4, 3D6, 3D7, 3D8, 3D9)",
-    "model_Web": "PHAETON (3D1, 3D2, 3D3, 3D4, 3D6, 3D7, 3D8, 3D9)"
+    "model_Web": "PHAETON (3D1, 3D2, 3D3, 3D4, 3D6, 3D7, 3D8, 3D9)",
+    "TecDocid": "18395"
   },
   {
     "id": 9983,
@@ -70480,14 +71028,16 @@
     "marka_id": 134,
     "modeller_markalar::marka": "VW",
     "model": "TRANSPORTER T2 Platform/Chassis (21, 26)",
-    "model_Web": "TRANSPORTER T2 Platform/Chassis (21, 26)"
+    "model_Web": "TRANSPORTER T2 Platform/Chassis (21, 26)",
+    "TecDocid": "10590"
   },
   {
     "id": 10070,
     "marka_id": 134,
     "modeller_markalar::marka": "VW",
     "model": "TRANSPORTER T2 Van (21, 23) | TRANSPORTER / KOMBI",
-    "model_Web": "TRANSPORTER T2 Van (21, 23) | TRANSPORTER / KOMBI"
+    "model_Web": "TRANSPORTER T2 Van (21, 23) | TRANSPORTER / KOMBI",
+    "TecDocid": "6296"
   },
   {
     "id": 10071,
@@ -70501,14 +71051,16 @@
     "marka_id": 134,
     "modeller_markalar::marka": "VW",
     "model": "TRANSPORTER T3 Platform/Chassis (24_)",
-    "model_Web": "TRANSPORTER T3 Platform/Chassis (24_)"
+    "model_Web": "TRANSPORTER T3 Platform/Chassis (24_)",
+    "TecDocid": "10959"
   },
   {
     "id": 10073,
     "marka_id": 134,
     "modeller_markalar::marka": "VW",
     "model": "TRANSPORTER T3 Van (24_, 25_) | VANAGON | TRANSPORTER / KOMBI",
-    "model_Web": "TRANSPORTER T3 Van (24_, 25_) | VANAGON | TRANSPORTER / KOMBI"
+    "model_Web": "TRANSPORTER T3 Van (24_, 25_) | VANAGON | TRANSPORTER / KOMBI",
+    "TecDocid": "6299"
   },
   {
     "id": 10074,
@@ -70725,7 +71277,8 @@
     "marka_id": 135,
     "modeller_markalar::marka": "WIESMANN",
     "model": "MF3 Roadster",
-    "model_Web": "MF3 Roadster"
+    "model_Web": "MF3 Roadster",
+    "TecDocid": "13368"
   },
   {
     "id": 10105,
@@ -70781,14 +71334,16 @@
     "marka_id": 137,
     "modeller_markalar::marka": "YUGO",
     "model": "45/65 Hatchback Van | KORAL",
-    "model_Web": "45/65 Hatchback Van | KORAL"
+    "model_Web": "45/65 Hatchback Van | KORAL",
+    "TecDocid": "134211"
   },
   {
     "id": 10113,
     "marka_id": 137,
     "modeller_markalar::marka": "YUGO",
     "model": "45-65",
-    "model_Web": "45-65"
+    "model_Web": "45-65",
+    "TecDocid": "111106"
   },
   {
     "id": 10114,
@@ -70935,7 +71490,8 @@
     "marka_id": 138,
     "modeller_markalar::marka": "ZASTAVA",
     "model": "YUGO TEMPO",
-    "model_Web": "YUGO TEMPO"
+    "model_Web": "YUGO TEMPO",
+    "TecDocid": "133443"
   },
   {
     "id": 10135,
@@ -70963,14 +71519,16 @@
     "marka_id": 134,
     "modeller_markalar::marka": "VW",
     "model": "POLO V Hatchback Van (6R1, 6C1)",
-    "model_Web": "POLO V Hatchback Van (6R1, 6C1)"
+    "model_Web": "POLO V Hatchback Van (6R1, 6C1)",
+    "TecDocid": "147332"
   },
   {
     "id": 10139,
     "marka_id": 28,
     "modeller_markalar::marka": "CITROËN",
     "model": "C3 AIRCROSS I (2R_, 2C_)",
-    "model_Web": "C3 AIRCROSS I (2R_, 2C_)"
+    "model_Web": "C3 AIRCROSS I (2R_, 2C_)",
+    "TecDocid": "128136"
   },
   {
     "id": 10140,
@@ -71831,7 +72389,8 @@
     "marka_id": 85,
     "modeller_markalar::marka": "MAZDA",
     "model": "3 (BK) | AXELA | 3 SPORT",
-    "model_Web": "3 (BK) | AXELA | 3 SPORT"
+    "model_Web": "3 (BK) | AXELA | 3 SPORT",
+    "TecDocid": "18099"
   },
   {
     "id": 10264,
@@ -71901,147 +72460,168 @@
     "marka_id": 28,
     "modeller_markalar::marka": "CITROËN",
     "model": "JUMPER II Van (244) | RELAY",
-    "model_Web": "JUMPER II Van (244) | RELAY"
+    "model_Web": "JUMPER II Van (244) | RELAY",
+    "TecDocid": "16763"
   },
   {
     "id": 10274,
     "marka_id": 28,
     "modeller_markalar::marka": "CITROËN",
     "model": "JUMPER II Bus (244, Z_) | RELAY",
-    "model_Web": "JUMPER II Bus (244, Z_) | RELAY"
+    "model_Web": "JUMPER II Bus (244, Z_) | RELAY",
+    "TecDocid": "16662"
   },
   {
     "id": 10275,
     "marka_id": 28,
     "modeller_markalar::marka": "CITROËN",
     "model": "JUMPER II Platform/Chassis (244) | RELAY",
-    "model_Web": "JUMPER II Platform/Chassis (244) | RELAY"
+    "model_Web": "JUMPER II Platform/Chassis (244) | RELAY",
+    "TecDocid": "16764"
   },
   {
     "id": 10276,
     "marka_id": 28,
     "modeller_markalar::marka": "CITROËN",
     "model": "JUMPER III Bus | RELAY",
-    "model_Web": "JUMPER III Bus | RELAY"
+    "model_Web": "JUMPER III Bus | RELAY",
+    "TecDocid": "116486"
   },
   {
     "id": 10277,
     "marka_id": 28,
     "modeller_markalar::marka": "CITROËN",
     "model": "JUMPER III Platform/Chassis | RELAY",
-    "model_Web": "JUMPER III Platform/Chassis | RELAY"
+    "model_Web": "JUMPER III Platform/Chassis | RELAY",
+    "TecDocid": "120601"
   },
   {
     "id": 10278,
     "marka_id": 28,
     "modeller_markalar::marka": "CITROËN",
     "model": "JUMPER III Van | RELAY",
-    "model_Web": "JUMPER III Van | RELAY"
+    "model_Web": "JUMPER III Van | RELAY",
+    "TecDocid": "120597"
   },
   {
     "id": 10279,
     "marka_id": 30,
     "modeller_markalar::marka": "DACIA",
     "model": "SANDERO (BS_)",
-    "model_Web": "SANDERO (BS_)"
+    "model_Web": "SANDERO (BS_)",
+    "TecDocid": "31086"
   },
   {
     "id": 10280,
     "marka_id": 30,
     "modeller_markalar::marka": "DACIA",
     "model": "SANDERO II (B8_)",
-    "model_Web": "SANDERO II (B8_)"
+    "model_Web": "SANDERO II (B8_)",
+    "TecDocid": "140387"
   },
   {
     "id": 10281,
     "marka_id": 44,
     "modeller_markalar::marka": "FORD",
     "model": "ESCORT V Convertible (ALL, BJ2)",
-    "model_Web": "ESCORT V Convertible (ALL, BJ2)"
+    "model_Web": "ESCORT V Convertible (ALL, BJ2)",
+    "TecDocid": "1584"
   },
   {
     "id": 10282,
     "marka_id": 44,
     "modeller_markalar::marka": "FORD",
     "model": "KUGA II (DM2) | ESCAPE / KUGA | ESCAPE",
-    "model_Web": "KUGA II (DM2) | ESCAPE / KUGA | ESCAPE"
+    "model_Web": "KUGA II (DM2) | ESCAPE / KUGA | ESCAPE",
+    "TecDocid": "107967"
   },
   {
     "id": 10283,
     "marka_id": 55,
     "modeller_markalar::marka": "HYUNDAI",
     "model": "H100 Bus (P) | GRACE | H150 | H100 / GRACE",
-    "model_Web": "H100 Bus (P) | GRACE | H150 | H100 / GRACE"
+    "model_Web": "H100 Bus (P) | GRACE | H150 | H100 / GRACE",
+    "TecDocid": "14192"
   },
   {
     "id": 10284,
     "marka_id": 67,
     "modeller_markalar::marka": "KIA",
     "model": "CARNIVAL I (UP, FL) | SEDONA",
-    "model_Web": "CARNIVAL I (UP, FL) | SEDONA"
+    "model_Web": "CARNIVAL I (UP, FL) | SEDONA",
+    "TecDocid": "13140"
   },
   {
     "id": 10285,
     "marka_id": 67,
     "modeller_markalar::marka": "KIA",
     "model": "CARENS I MPV (FC, FJ)",
-    "model_Web": "CARENS I MPV (FC, FJ)"
+    "model_Web": "CARENS I MPV (FC, FJ)",
+    "TecDocid": "119084"
   },
   {
     "id": 10286,
     "marka_id": 67,
     "modeller_markalar::marka": "KIA",
     "model": "SHUMA II Saloon (FB) | SPECTRA | SEPHIA",
-    "model_Web": "SHUMA II Saloon (FB) | SPECTRA | SEPHIA"
+    "model_Web": "SHUMA II Saloon (FB) | SPECTRA | SEPHIA",
+    "TecDocid": "16031"
   },
   {
     "id": 10287,
     "marka_id": 85,
     "modeller_markalar::marka": "MAZDA",
     "model": "2 Hatchback (DL, DJ) | DEMIO / 2",
-    "model_Web": "2 Hatchback (DL, DJ) | DEMIO / 2"
+    "model_Web": "2 Hatchback (DL, DJ) | DEMIO / 2",
+    "TecDocid": "108278"
   },
   {
     "id": 10288,
     "marka_id": 85,
     "modeller_markalar::marka": "MAZDA",
     "model": "CX-30 (DM, DT, ED)",
-    "model_Web": "CX-30 (DM, DT, ED)"
+    "model_Web": "CX-30 (DM, DT, ED)",
+    "TecDocid": "137050"
   },
   {
     "id": 10289,
     "marka_id": 89,
     "modeller_markalar::marka": "MG",
     "model": "ZR",
-    "model_Web": "ZR"
+    "model_Web": "ZR",
+    "TecDocid": "16604"
   },
   {
     "id": 10290,
     "marka_id": 89,
     "modeller_markalar::marka": "MG",
     "model": "ZS",
-    "model_Web": "ZS"
+    "model_Web": "ZS",
+    "TecDocid": "29915"
   },
   {
     "id": 10291,
     "marka_id": 89,
     "modeller_markalar::marka": "MG",
     "model": "ZS Hatchback",
-    "model_Web": "ZS Hatchback"
+    "model_Web": "ZS Hatchback",
+    "TecDocid": "28008"
   },
   {
     "id": 10292,
     "marka_id": 89,
     "modeller_markalar::marka": "MG",
     "model": "ZT",
-    "model_Web": "ZT"
+    "model_Web": "ZT",
+    "TecDocid": "18742"
   },
   {
     "id": 10293,
     "marka_id": 89,
     "modeller_markalar::marka": "MG",
     "model": "ZT- T | MG ZT-T",
-    "model_Web": "ZT- T | MG ZT-T"
+    "model_Web": "ZT- T | MG ZT-T",
+    "TecDocid": "18745"
   },
   {
     "id": 10294,
@@ -72055,209 +72635,260 @@
     "marka_id": 89,
     "modeller_markalar::marka": "MG",
     "model": "ZS SUV (AZS1)",
-    "model_Web": "ZS SUV (AZS1)"
+    "model_Web": "ZS SUV (AZS1)",
+    "TecDocid": "130805"
   },
   {
     "id": 10296,
     "marka_id": 89,
     "modeller_markalar::marka": "MG",
     "model": "HS (AS23) | RX6",
-    "model_Web": "HS (AS23) | RX6"
+    "model_Web": "HS (AS23) | RX6",
+    "TecDocid": "143339"
   },
   {
     "id": 10297,
     "marka_id": 91,
     "modeller_markalar::marka": "MITSUBISHI",
     "model": "LANCER VI (CJ_, CP_, CK_)",
-    "model_Web": "LANCER VI (CJ_, CP_, CK_)"
+    "model_Web": "LANCER VI (CJ_, CP_, CK_)",
+    "TecDocid": "18664"
   },
   {
     "id": 10298,
     "marka_id": 91,
     "modeller_markalar::marka": "MITSUBISHI",
     "model": "Canter V (FE3, FE4, FB3, FB4)",
-    "model_Web": "Canter V (FE3, FE4, FB3, FB4)"
+    "model_Web": "Canter V (FE3, FE4, FB3, FB4)",
+    "TecDocid": "23398"
   },
   {
     "id": 10299,
     "marka_id": 91,
     "modeller_markalar::marka": "MITSUBISHI",
     "model": "Canter VI (FE5, FE6, FB5, FB6)",
-    "model_Web": "Canter VI (FE5, FE6, FB5, FB6)"
+    "model_Web": "Canter VI (FE5, FE6, FB5, FB6)",
+    "TecDocid": "6857"
   },
   {
     "id": 10300,
     "marka_id": 111,
     "modeller_markalar::marka": "RENAULT",
     "model": "MEGANE IV Saloon (LVA/M/N)",
-    "model_Web": "MEGANE IV Saloon (LVA/M/N)"
+    "model_Web": "MEGANE IV Saloon (LVA/M/N)",
+    "TecDocid": "128578"
   },
   {
     "id": 10301,
     "marka_id": 111,
     "modeller_markalar::marka": "RENAULT",
     "model": "ARKANA I (LCM_, LDN_) | MEGANE CONQUEST",
-    "model_Web": "ARKANA I (LCM_, LDN_) | MEGANE CONQUEST"
+    "model_Web": "ARKANA I (LCM_, LDN_) | MEGANE CONQUEST",
+    "TecDocid": "144894"
   },
   {
     "id": 10302,
     "marka_id": 123,
     "modeller_markalar::marka": "SUBARU",
     "model": "LEGACY IV (BL) | OUTBACK | LIBERTY",
-    "model_Web": "LEGACY IV (BL) | OUTBACK | LIBERTY"
+    "model_Web": "LEGACY IV (BL) | OUTBACK | LIBERTY",
+    "TecDocid": "17660"
   },
   {
     "id": 10303,
     "marka_id": 123,
     "modeller_markalar::marka": "SUBARU",
     "model": "OUTBACK (BP)",
-    "model_Web": "OUTBACK (BP)"
+    "model_Web": "OUTBACK (BP)",
+    "TecDocid": "30719"
   },
   {
     "id": 10304,
     "marka_id": 127,
     "modeller_markalar::marka": "TESLA",
     "model": "MODEL 3",
-    "model_Web": "MODEL 3"
+    "model_Web": "MODEL 3",
+    "TecDocid": "136487"
   },
   {
     "id": 10305,
     "marka_id": 127,
     "modeller_markalar::marka": "TESLA",
     "model": "MODEL S",
-    "model_Web": "MODEL S"
+    "model_Web": "MODEL S",
+    "TecDocid": "129905"
   },
   {
     "id": 10306,
     "marka_id": 127,
     "modeller_markalar::marka": "TESLA",
     "model": "MODEL X",
-    "model_Web": "MODEL X"
+    "model_Web": "MODEL X",
+    "TecDocid": "130950"
   },
   {
     "id": 10307,
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "TERCEL Saloon (AL2_)",
-    "model_Web": "TERCEL Saloon (AL2_)"
+    "model_Web": "TERCEL Saloon (AL2_)",
+    "TecDocid": "25765"
   },
   {
     "id": 10308,
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "HILUX IV Pickup (_N5_, _N6_) | PICKUP",
-    "model_Web": "HILUX IV Pickup (_N5_, _N6_) | PICKUP"
+    "model_Web": "HILUX IV Pickup (_N5_, _N6_) | PICKUP",
+    "TecDocid": "24561"
   },
   {
     "id": 10309,
     "marka_id": 130,
     "modeller_markalar::marka": "TOYOTA",
     "model": "YARIS (_P13_) | YARIS/VITZ | VITZ | YARIS / VITZ",
-    "model_Web": "YARIS (_P13_) | YARIS/VITZ | VITZ | YARIS / VITZ"
+    "model_Web": "YARIS (_P13_) | YARIS/VITZ | VITZ | YARIS / VITZ",
+    "TecDocid": "132309"
   },
   {
     "id": 10310,
     "marka_id": 134,
     "modeller_markalar::marka": "VW",
     "model": "TRANSPORTER T3 Bus (25_) | VANAGON | TRANSPORTER / CARAVELLE | KOMBI / MICROBUS / CARAVELLE",
-    "model_Web": "TRANSPORTER T3 Bus (25_) | VANAGON | TRANSPORTER / CARAVELLE | KOMBI / MICROBUS / CARAVELLE"
+    "model_Web": "TRANSPORTER T3 Bus (25_) | VANAGON | TRANSPORTER / CARAVELLE | KOMBI / MICROBUS / CARAVELLE",
+    "TecDocid": "1772"
   },
   {
     "id": 10311,
     "marka_id": 134,
     "modeller_markalar::marka": "VW",
     "model": "POLO III CLASSIC (6V2) | POLO FLIGHT | DERBY",
-    "model_Web": "POLO III CLASSIC (6V2) | POLO FLIGHT | DERBY"
+    "model_Web": "POLO III CLASSIC (6V2) | POLO FLIGHT | DERBY",
+    "TecDocid": "14161"
   },
   {
     "id": 10312,
     "marka_id": 134,
     "modeller_markalar::marka": "VW",
     "model": "POLO Estate Van (6V5)",
-    "model_Web": "POLO Estate Van (6V5)"
+    "model_Web": "POLO Estate Van (6V5)",
+    "TecDocid": "132289"
   },
   {
     "id": 10313,
     "marka_id": 134,
     "modeller_markalar::marka": "VW",
     "model": "POLO Hatchback Van (6N1)",
-    "model_Web": "POLO Hatchback Van (6N1)"
+    "model_Web": "POLO Hatchback Van (6N1)",
+    "TecDocid": "10738"
   },
   {
     "id": 10314,
     "marka_id": 134,
     "modeller_markalar::marka": "VW",
     "model": "TRANSPORTER T4 Bus (70B, 70C, 7DB, 7DK, 70J, 70K, 7DC, 7DJ) | TRANSPORTER / CARAVELLE | EUROVAN / CARAVELLE / TRANSPORTER | KOMBI / MICROBUS / CARAVELLE | TRANSPORTER / MULTIVAN | EUROVAN | CARAVELLE",
-    "model_Web": "TRANSPORTER T4 Bus (70B, 70C, 7DB, 7DK, 70J, 70K, 7DC, 7DJ) | TRANSPORTER / CARAVELLE | EUROVAN / CARAVELLE / TRANSPORTER | KOMBI / MICROBUS / CARAVELLE | TRANSPORTER / MULTIVAN | EUROVAN | CARAVELLE"
+    "model_Web": "TRANSPORTER T4 Bus (70B, 70C, 7DB, 7DK, 70J, 70K, 7DC, 7DJ) | TRANSPORTER / CARAVELLE | EUROVAN / CARAVELLE / TRANSPORTER | KOMBI / MICROBUS / CARAVELLE | TRANSPORTER / MULTIVAN | EUROVAN | CARAVELLE",
+    "TecDocid": "1860"
   },
   {
     "id": 10315,
     "marka_id": 134,
     "modeller_markalar::marka": "VW",
     "model": "TRANSPORTER T4 Van (70A, 70H, 7DA, 7DH, 70J) | TRANSPORTER / KOMBI | EUROVAN",
-    "model_Web": "TRANSPORTER T4 Van (70A, 70H, 7DA, 7DH, 70J) | TRANSPORTER / KOMBI | EUROVAN"
+    "model_Web": "TRANSPORTER T4 Van (70A, 70H, 7DA, 7DH, 70J) | TRANSPORTER / KOMBI | EUROVAN",
+    "TecDocid": "6317"
   },
   {
     "id": 10316,
     "marka_id": 134,
     "modeller_markalar::marka": "VW",
     "model": "FOX Hatchback (5Z1, 5Z3, 5Z4, 5Z5)",
-    "model_Web": "FOX Hatchback (5Z1, 5Z3, 5Z4, 5Z5)"
+    "model_Web": "FOX Hatchback (5Z1, 5Z3, 5Z4, 5Z5)",
+    "TecDocid": "18608"
   },
   {
     "id": 10317,
     "marka_id": 134,
     "modeller_markalar::marka": "VW",
     "model": "GOLF VI Variant (AJ5) | JETTA /JETTA WAGON | JETTA",
-    "model_Web": "GOLF VI Variant (AJ5) | JETTA /JETTA WAGON | JETTA"
+    "model_Web": "GOLF VI Variant (AJ5) | JETTA /JETTA WAGON | JETTA",
+    "TecDocid": "32621"
   },
   {
     "id": 10318,
     "marka_id": 134,
     "modeller_markalar::marka": "VW",
     "model": "JETTA VII Saloon (BU3, BU4, BU5) | VENTO",
-    "model_Web": "JETTA VII Saloon (BU3, BU4, BU5) | VENTO"
+    "model_Web": "JETTA VII Saloon (BU3, BU4, BU5) | VENTO",
+    "TecDocid": "134743"
   },
   {
     "id": 10319,
     "marka_id": 134,
     "modeller_markalar::marka": "VW",
     "model": "SHARAN Box Body/MPV (7M_)",
-    "model_Web": "SHARAN Box Body/MPV (7M_)"
+    "model_Web": "SHARAN Box Body/MPV (7M_)",
+    "TecDocid": "143017"
   },
   {
     "id": 10320,
     "marka_id": 134,
     "modeller_markalar::marka": "VW",
     "model": "PASSAT ALLTRACK B7 Variant (365)",
-    "model_Web": "PASSAT ALLTRACK B7 Variant (365)"
+    "model_Web": "PASSAT ALLTRACK B7 Variant (365)",
+    "TecDocid": "58529"
   },
   {
     "id": 10321,
     "marka_id": 134,
     "modeller_markalar::marka": "VW",
     "model": "TOURAN Box Body/MPV (1T1, 1T2)",
-    "model_Web": "TOURAN Box Body/MPV (1T1, 1T2)"
+    "model_Web": "TOURAN Box Body/MPV (1T1, 1T2)",
+    "TecDocid": "143053"
   },
   {
     "id": 10322,
     "marka_id": 134,
     "modeller_markalar::marka": "VW",
     "model": "TOURAN Box Body/MPV (1T3)",
-    "model_Web": "TOURAN Box Body/MPV (1T3)"
+    "model_Web": "TOURAN Box Body/MPV (1T3)",
+    "TecDocid": "142645"
   },
   {
     "id": 10323,
     "marka_id": 134,
     "modeller_markalar::marka": "VW",
     "model": "SHARAN Box Body/MPV (7N1, 7N2)",
-    "model_Web": "SHARAN Box Body/MPV (7N1, 7N2)"
+    "model_Web": "SHARAN Box Body/MPV (7N1, 7N2)",
+    "TecDocid": "143004"
   },
   {
     "id": 10324,
     "marka_id": 134,
     "modeller_markalar::marka": "VW",
     "model": "TOURAN Box Body/MPV (5T1)",
-    "model_Web": "TOURAN Box Body/MPV (5T1)"
+    "model_Web": "TOURAN Box Body/MPV (5T1)",
+    "TecDocid": "145285"
+  },
+  {
+    "id": 10325,
+    "marka_id": 93,
+    "modeller_markalar::marka": "NISSAN",
+    "model": "Armada (USA)",
+    "model_Web": "Armada (USA)"
+  },
+  {
+    "id": 10326,
+    "marka_id": 93,
+    "modeller_markalar::marka": "NISSAN",
+    "model": "Titan (USA)",
+    "model_Web": "Titan (USA)"
+  },
+  {
+    "id": 10327,
+    "marka_id": 53,
+    "modeller_markalar::marka": "HONDA",
+    "model": "Spirior",
+    "model_Web": "Spirior"
   }
 ]

@@ -128,7 +128,7 @@ export async function exportToExcel(data: FullCrossNumberData[], OUTPUT_EXCEL_PA
 
 
 
-async function main() {
+export async function runCrossNumberCombinator() {
     console.log("İşlem Başladı...");
 
     try {
@@ -149,4 +149,4 @@ async function main() {
     }
 }
 
-main();
+runCrossNumberCombinator();
