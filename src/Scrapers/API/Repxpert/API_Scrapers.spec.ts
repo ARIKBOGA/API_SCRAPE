@@ -21,13 +21,10 @@ const end: number = 0; // Set to 0 to process all products, or specify a number 
 const endCalc = end === 0 ? referenceArray.length : end;
 
 async function processProducts(
-  processFunction: (
-    productRef: ProductReference,
-    apiContext: APIRequestContext,
-  ) => Promise<any>,
+  processFunction: (productRef: ProductReference, apiContext: APIRequestContext) => Promise<any>,
   output_filename: string,
   threadLimit: number,
-  processName: string,
+  processName: string
 ) {
   const { default: pLimit } = await import('p-limit');
   const limit = pLimit(threadLimit);
@@ -36,29 +33,19 @@ async function processProducts(
   const results = (
     await Promise.all(
       referenceArray
-        .slice(start, endCalc)
-        .filter((productRef) => productRef.freeTextSearch.trim() !== '')
         //.slice(start, endCalc)
-        .map((productRef) =>
-          limit(() => processFunction(productRef, apiContext)),
-        ),
+        .filter((productRef) => productRef.freeTextSearch.trim() !== '')
+        .map((productRef) => limit(() => processFunction(productRef, apiContext)))
     )
   ).filter((r) => r !== null);
 
-  const outputDir = path.resolve(
-    `src/output/${PRODUCT_TYPE}/jsons/${processName}`,
-  );
-
+  const outputDir = path.resolve(`src/output/${PRODUCT_TYPE}/jsons/${processName}`);
   await writeJSONSafe(`${outputDir}/${output_filename}`, results);
 
   // Log the processing summary
-  const total = referenceArray
-    .slice(start, endCalc)
-    .filter((productRef) => productRef.freeTextSearch.trim() !== '').length;
+  const total = referenceArray.slice(start, endCalc).filter((productRef) => productRef.freeTextSearch.trim() !== '').length;
   const success = results.length;
-  console.log(
-    `✅ Processed ${success}/${total} successfully (${((success / total) * 100).toFixed(2)}%)`,
-  );
+  console.log(`✅ Processed ${success}/${total} successfully (${((success / total) * 100).toFixed(2)}%)`);
 
   await apiContext.dispose();
 
@@ -69,12 +56,7 @@ test.describe('The suit of the main scraping branches from Rpexpert', () => {
   test('Get OE numbers for all products', async () => {
     test.setTimeout(20 * 60 * 1000);
     console.log(`Processing OE numbers for brand: ${FILTER_BRAND}`);
-    const results = await processProducts(
-      processProductFor_OE,
-      `oe-numbers_${FILTER_BRAND}.json`,
-      4,
-      'OE',
-    );
+    const results = await processProducts(processProductFor_OE, `oe-numbers_${FILTER_BRAND}.json`, 4, 'OE');
     await scraped_OE_Numbers_JsonToExcel(results, start, endCalc);
   });
 
@@ -85,24 +67,23 @@ test.describe('The suit of the main scraping branches from Rpexpert', () => {
       processProductFor_VehicleCompatibility,
       `Vehicle-Compatibility_${FILTER_BRAND}_${start}_${endCalc}.json`,
       1,
-      'Vehicle-Compatibility',
+      'Vehicle-Compatibility'
     );
     await scraped_Compatibilities_JsonToExcel(results, start, endCalc);
   });
 
   test('Get Article Attributes of the products', async () => {
     test.setTimeout(10 * 60 * 1000);
-    console.log(`Processing Article Attributes for : ${PRODUCT_TYPE} - ${FILTER_BRAND}`,);
-    const results = await processProducts(processProductForArticleAttributes, `Attributes_${PRODUCT_TYPE}_${FILTER_BRAND}.json`, 5, 'Attributes',);
+    console.log(`Processing Article Attributes for : ${PRODUCT_TYPE} - ${FILTER_BRAND}`);
+    const results = await processProducts(processProductForArticleAttributes, `Attributes_${PRODUCT_TYPE}_${FILTER_BRAND}.json`, 5, 'Attributes');
     await scraped_Attributes_JsonToExcel(results);
   });
-
 });
 
 test('Get cross numbers via given cross/OE numbers', async () => {
   test.setTimeout(40 * 60 * 1000);
   console.log(`Processing Cross Numbers for brand: ${FILTER_BRAND}`);
-  await processProducts( processProductFor_CrossNumbers, `Cross-Numbers_${PRODUCT_TYPE}_${FILTER_BRAND}_${start}_${endCalc}.json`, 5, 'Cross-Numbers');
+  await processProducts(processProductFor_CrossNumbers, `Cross-Numbers_${PRODUCT_TYPE}_${FILTER_BRAND}_${start}_${endCalc}.json`, 5, 'Cross-Numbers');
 });
 
 test('Get token only', async ({ request }) => {
@@ -119,11 +100,7 @@ test('Get token only', async ({ request }) => {
 
   expect(data.access_token).toBeTruthy();
 
-  const encryptedCode = await getEncryptedSearchCode(
-    'SDB500182',
-    'BREMBO',
-    request,
-  );
+  const encryptedCode = await getEncryptedSearchCode('SDB500182', 'BREMBO', request);
   console.log(data?.access_token);
   console.log('Encrypted Code:', encryptedCode);
 });
@@ -131,24 +108,13 @@ test('Get token only', async ({ request }) => {
 test('Get only ICER products WVA numbers', async ({ request }) => {
   for (const ref of referenceArray) {
     const { yvNo, supplier, freeTextSearch: crossNumber } = ref;
-    const searchCode = await getEncryptedSearchCode(
-      crossNumber,
-      supplier,
-      request,
-    );
-    const response = await request.get(
-      `https://www.repxpert.co.uk/api/Repxpert-GB/products/${searchCode}`,
-      {
-        headers: await getAuthHeaders(),
-      },
-    );
+    const searchCode = await getEncryptedSearchCode(crossNumber, supplier, request);
+    const response = await request.get(`https://www.repxpert.co.uk/api/Repxpert-GB/products/${searchCode}`, {
+      headers: await getAuthHeaders(),
+    });
     const data = await response.json();
 
-    const tradeNumbers: string[] = data.tradeNumbers.filter(
-      (tn: string) => !tn.includes('-'),
-    );
-    console.log(
-      `YV: ${yvNo}, Brand: ${supplier}, Cross Number: ${crossNumber}, Trade Numbers: ${tradeNumbers}`,
-    );
+    const tradeNumbers: string[] = data.tradeNumbers.filter((tn: string) => !tn.includes('-'));
+    console.log(`YV: ${yvNo}, Brand: ${supplier}, Cross Number: ${crossNumber}, Trade Numbers: ${tradeNumbers}`);
   }
 });
