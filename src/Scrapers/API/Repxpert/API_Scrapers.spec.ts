@@ -51,7 +51,7 @@ async function processProducts(
   return results;
 }
 
-test.describe('The suit of the main scraping branches from Rpexpert', () => {
+test.describe('The suit of the main scraping branches from Repxpert', () => {
   test('Get OE numbers for all products', async () => {
     test.setTimeout(20 * 60 * 1000);
     console.log(`Processing OE numbers for brand: ${FILTER_BRAND}`);
