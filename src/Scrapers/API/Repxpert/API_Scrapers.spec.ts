@@ -28,6 +28,7 @@ async function processProducts(
   const { default: pLimit } = await import('p-limit');
   const limit = pLimit(threadLimit);
   const apiContext = await request.newContext();
+  
 
   const results = (
     await Promise.all(
