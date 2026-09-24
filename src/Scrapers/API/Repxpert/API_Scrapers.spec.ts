@@ -1,12 +1,12 @@
-import { APIRequestContext, expect, request, test } from '@playwright/test';
+import { APIRequestContext, request, test } from '@playwright/test';
 import path from 'path';
-import { REPXPERT } from '../../../config/API_Scrapers_Data';
 import { FILTER_BRAND, PRODUCT_TYPE } from '../../../config/env';
 import { writeJSONSafe } from '../../../io/utils/Json_Utils';
 import { ProductReference } from '../../../utils/Types';
 import { scraped_Attributes_JsonToExcel } from '../../io/Scraped_Attributes_JsonToExcel';
 import { scraped_Compatibilities_JsonToExcel } from '../../io/Scraped_CompatibilitiesJsonToExcel';
 import { scraped_OE_Numbers_JsonToExcel } from '../../io/Scraped_OE_Numbers_JsonToExcel';
+import { runCrossNumberCombinator } from '../../io/Scraped_CrossNumberCombinator';
 import { referenceArray } from '../resources/Variables';
 import {
   processProductFor_CrossNumbers,
@@ -14,7 +14,7 @@ import {
   processProductFor_VehicleCompatibility,
   processProductForArticleAttributes,
 } from './helpers/API_Functions';
-import { getAuthHeaders, getEncryptedSearchCode } from './helpers/API_Helpers';
+import { getAuthHeaders, getEncryptedSearchCode, getToken } from './helpers/API_Helpers';
 
 const start = 0;
 const end: number = 0; // Set to 0 to process all products, or specify a number to limit the processing
@@ -29,6 +29,7 @@ async function processProducts(
   const { default: pLimit } = await import('p-limit');
   const limit = pLimit(threadLimit);
   const apiContext = await request.newContext();
+  
 
   const results = (
     await Promise.all(
@@ -52,7 +53,7 @@ async function processProducts(
   return results;
 }
 
-test.describe('The suit of the main scraping branches from Rpexpert', () => {
+test.describe('The suit of the main scraping branches from Repxpert', () => {
   test('Get OE numbers for all products', async () => {
     test.setTimeout(20 * 60 * 1000);
     console.log(`Processing OE numbers for brand: ${FILTER_BRAND}`);
@@ -84,25 +85,15 @@ test('Get cross numbers via given cross/OE numbers', async () => {
   test.setTimeout(40 * 60 * 1000);
   console.log(`Processing Cross Numbers for brand: ${FILTER_BRAND}`);
   await processProducts(processProductFor_CrossNumbers, `Cross-Numbers_${PRODUCT_TYPE}_${FILTER_BRAND}_${start}_${endCalc}.json`, 5, 'Cross-Numbers');
+  await runCrossNumberCombinator();
 });
 
 test('Get token only', async ({ request }) => {
-  const requestBody = new URLSearchParams(REPXPERT.tokenRequest.body);
-  const tokenHeaders = REPXPERT.tokenRequest.headers;
-  const URL = REPXPERT.tokenRequest.URL;
+  const response = await getToken();
+  
+  console.log(response.cookie);
+  console.log(response.token);
 
-  const response = await request.post(URL, {
-    headers: tokenHeaders,
-    data: requestBody.toString(),
-  });
-
-  const data = await response.json();
-
-  expect(data.access_token).toBeTruthy();
-
-  const encryptedCode = await getEncryptedSearchCode('SDB500182', 'BREMBO', request);
-  console.log(data?.access_token);
-  console.log('Encrypted Code:', encryptedCode);
 });
 
 test('Get only ICER products WVA numbers', async ({ request }) => {
@@ -118,3 +109,4 @@ test('Get only ICER products WVA numbers', async ({ request }) => {
     console.log(`YV: ${yvNo}, Brand: ${supplier}, Cross Number: ${crossNumber}, Trade Numbers: ${tradeNumbers}`);
   }
 });
+

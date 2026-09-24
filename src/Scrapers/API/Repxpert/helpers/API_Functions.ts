@@ -53,7 +53,7 @@ export async function processProductFor_VehicleCompatibility(element: ProductRef
   const { yvNo, supplier, freeTextSearch } = element;
 
   // Çıktı için ana nesne yapısı
-  const result: ProductCompatibilityResult = { yvNo, crossNumber: freeTextSearch, brand: supplier, compatibleVehicles: [] };
+  const result: ProductCompatibilityResult = { yvNo, crossNumber: freeTextSearch, brand: supplier, compatibleVehicles: [], "KATOLOG::grupId": "" };
 
   try {
     // 1️⃣ Encrypted Search Code alma
@@ -130,35 +130,42 @@ export async function processProductFor_CrossNumbers(element: ProductReference, 
   let currentPage = 0, totalPages = 1;
   const products: any[] = [];
   const MAX_PAGES = 5;
-  const URL = REPXPERT.crossNumbers_API_URL(freeTextSearch);
   let returnedFreeTextSearch;
 
   do {
+    // URL'i DÖNGÜ İÇİNDE her sayfa için yeniden oluşturuyoruz
+    const URL = REPXPERT.crossNumbers_API_URL(freeTextSearch, currentPage);
+
     try {
       const data = await fetchWithRetry(apiContext, URL);
-      if (!data?.products) break;
+      if (!data?.products || data.products.length === 0) break; // Ürün yoksa döngüyü kır
+      // console.log(`Page ${currentPage} of ${totalPages} - Found ${data.products.length} products for ${freeTextSearch}`);
       products.push(...data.products);
       totalPages = data.pagination?.totalPages ?? 1;
       returnedFreeTextSearch = data.freeTextSearch;
+      
       if (returnedFreeTextSearch?.toLowerCase() !== freeTextSearch.toLowerCase()) {
         console.warn(`Warning: Search term mismatch. Expected: ${freeTextSearch}, Got: ${returnedFreeTextSearch}`);
       }
     } catch (error) {
-      console.error(`Sorgu başarısız: ${freeTextSearch}`, error);
+      console.error(`Sorgu başarısız: ${freeTextSearch} (Sayfa: ${currentPage})`, error);
       break;
     }
+    
     currentPage++;
     await delay(500);
 
   } while (currentPage < totalPages && currentPage < MAX_PAGES);
 
+  // Mükerrer kayıtları önlemek için ID'ye (veya uygun eşsiz değere) göre filtreleme eklemek best practice'tir,
+  // Ancak şu anki URL fix'i ile zaten farklı sayfalar geleceği için sorun çözülecektir.
   const crossNumbers = products.map(p => ({
     Supplier: p.brand?.name ?? "Unknown",
     ArticleNumber: p.catalogArticleNumber ?? "",
     StatusCode: p.catalogStatus?.code ?? "",
     StatusMessage: p.catalogStatus?.name ?? "",
     ApiCode: p.code ?? ""
-  } as CrossNumberApiProduct));
+  }));
 
   return { yvNo, OE: returnedFreeTextSearch, crossNumbers };
 }

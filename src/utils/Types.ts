@@ -58,6 +58,7 @@ export type OutputManufacturer = {
 // Genel çıktı yapısı - Mevcut ProductCompatibilityResult tipiniz
 export type ProductCompatibilityResult = {
   yvNo: string;
+  "KATOLOG::grupId": string;
   brand: string;
   crossNumber: string;
   compatibleVehicles: OutputManufacturer[];

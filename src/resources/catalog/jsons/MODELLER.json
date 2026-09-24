@@ -72890,5 +72890,61 @@
     "modeller_markalar::marka": "HONDA",
     "model": "Spirior",
     "model_Web": "Spirior"
+  },
+  {
+    "id": 10328,
+    "marka_id": 19,
+    "modeller_markalar::marka": "BYD",
+    "model": "SEAL U DM-i",
+    "model_Web": "SEAL U DM-i"
+  },
+  {
+    "id": 10329,
+    "marka_id": 30,
+    "modeller_markalar::marka": "DACIA",
+    "model": "DUSTER SUV Van (HS_)",
+    "model_Web": "DUSTER SUV Van (HS_)"
+  },
+  {
+    "id": 10330,
+    "marka_id": 58,
+    "modeller_markalar::marka": "ISUZU",
+    "model": "N V",
+    "model_Web": "N V"
+  },
+  {
+    "id": 10331,
+    "marka_id": 58,
+    "modeller_markalar::marka": "ISUZU",
+    "model": "N VI",
+    "model_Web": "N VI"
+  },
+  {
+    "id": 10332,
+    "marka_id": 85,
+    "modeller_markalar::marka": "MAZDA",
+    "model": "MAZDA 3",
+    "model_Web": "MAZDA 3"
+  },
+  {
+    "id": 10333,
+    "marka_id": 85,
+    "modeller_markalar::marka": "MAZDA",
+    "model": "MAZDA 5",
+    "model_Web": "MAZDA 5"
+  },
+  {
+    "id": 10334,
+    "marka_id": 58,
+    "modeller_markalar::marka": "ISUZU",
+    "model": "N Series",
+    "model_Web": "N Series"
+  },
+  {
+    "id": 10335,
+    "marka_id": 98,
+    "modeller_markalar::marka": "OPEL",
+    "model": "FRONTERA (OV24) | CROSSLAND",
+    "model_Web": "FRONTERA (OV24) | CROSSLAND"
   }
 ]

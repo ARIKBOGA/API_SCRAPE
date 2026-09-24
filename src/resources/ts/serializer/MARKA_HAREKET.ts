@@ -41,6 +41,7 @@ export function convertExcelToJsonFast(inputFilePath: string, outputFilePath: st
 
             // Gerekli verileri çıkar
             const yvNo = String(rowData['yvNo']).trim();
+            const groupId = rowData['KATOLOG::grupId'] || "";
             // Marka ve Üretici alanları aynı olduğu için tek bir anahtar kullanabiliriz, 
             // ama marka_aciklama 'yı üretici olarak kullandığınız için onu manufacturer olarak alalım.
             const brand = rowData['SUPPLIER'] || "";
@@ -54,6 +55,7 @@ export function convertExcelToJsonFast(inputFilePath: string, outputFilePath: st
             if (!currentItem) {
                 currentItem = {
                     yvNo: yvNo,
+                    "KATOLOG::grupId": groupId,
                     brand: brand,
                     crossNumber: crossNumber,
                     compatibleVehicles: []

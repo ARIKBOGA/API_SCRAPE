@@ -20,6 +20,9 @@ node_modules/
 *.xlsx
 *.docx
 
+# JSON Resources
+src/resources/catalog/jsons/*.json
+
 // Scraped Files
 /src/output
 src/scrapers/**/*.xlsx
