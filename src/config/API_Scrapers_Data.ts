@@ -36,9 +36,9 @@ export const REPXPERT = {
     URL: "https://api-aftermarket.schaeffler.de/authorizationserver/oauth/token",
   },
 
-  crossNumbers_API_URL: (freeTextSearch: string) => {
+  crossNumbers_API_URL: (freeTextSearch: string, currentPage: number) => {
     const params = {
-      currentPage: `${generalInfo.crossNumbersCurrentPage}`,
+      currentPage: currentPage.toString(),
       query: `${freeTextSearch}::assemblyGroups:${productGroupNumbersOfRepxpert[generalInfo.productType]}`,
       pageSize: `${generalInfo.crossNumbersPageSize}`,
     };

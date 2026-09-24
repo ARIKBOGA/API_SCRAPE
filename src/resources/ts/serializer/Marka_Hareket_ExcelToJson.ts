@@ -40,6 +40,7 @@ export function convertExcelToJson(inputFilePath: string, outputDirectory: strin
 
             // Excel'den gelen verileri al ve başlıkları tam olarak eşleştir
             const yvNo = rowData['yvNo'];
+            const groupId = rowData['KATOLOG::grupId'] || "";
             const crossNumber = rowData['CROSS NUMBER'] || "";
             const brand = rowData['SUPPLIER'] || ""; // 'MARKA' sütunu hem brand hem de manufacturer için kullanılacak
             const manufacturer = rowData['marka_aciklama'] || ""; // 'MARKA' sütunu hem brand hem de manufacturer için kullanılacak
@@ -50,6 +51,7 @@ export function convertExcelToJson(inputFilePath: string, outputDirectory: strin
             if (!currentItem) {
                 currentItem = {
                     yvNo: yvNo,
+                    "KATOLOG::grupId": groupId,
                     brand: brand,
                     crossNumber: crossNumber,
                     compatibleVehicles: []

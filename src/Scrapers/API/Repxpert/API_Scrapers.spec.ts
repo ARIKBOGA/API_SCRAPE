@@ -6,6 +6,7 @@ import { ProductReference } from '../../../utils/Types';
 import { scraped_Attributes_JsonToExcel } from '../../io/Scraped_Attributes_JsonToExcel';
 import { scraped_Compatibilities_JsonToExcel } from '../../io/Scraped_CompatibilitiesJsonToExcel';
 import { scraped_OE_Numbers_JsonToExcel } from '../../io/Scraped_OE_Numbers_JsonToExcel';
+import { runCrossNumberCombinator } from '../../io/Scraped_CrossNumberCombinator';
 import { referenceArray } from '../resources/Variables';
 import {
   processProductFor_CrossNumbers,
@@ -84,6 +85,7 @@ test('Get cross numbers via given cross/OE numbers', async () => {
   test.setTimeout(40 * 60 * 1000);
   console.log(`Processing Cross Numbers for brand: ${FILTER_BRAND}`);
   await processProducts(processProductFor_CrossNumbers, `Cross-Numbers_${PRODUCT_TYPE}_${FILTER_BRAND}_${start}_${endCalc}.json`, 5, 'Cross-Numbers');
+  await runCrossNumberCombinator();
 });
 
 test('Get token only', async ({ request }) => {
@@ -107,3 +109,4 @@ test('Get only ICER products WVA numbers', async ({ request }) => {
     console.log(`YV: ${yvNo}, Brand: ${supplier}, Cross Number: ${crossNumber}, Trade Numbers: ${tradeNumbers}`);
   }
 });
+
